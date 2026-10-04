@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-04T19:58:13.371510+00:00",
+  "reviewer_context": "/root/oev_math",
+  "model": "same inherited model; exact revision unexposed",
+  "head_observed": "515513321e145eb4b0964f256f382697b08fa363",
+  "startup": "attributed parent same-session startup; branch/HEAD/status independently inspected",
+  "source_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "UDT_DEVELOPMENT.md": "7c8b693e806c8966b71a75efcf3cde2746de4bf32e6a9febc4ba55e925d29054",
+    "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md": "f78b247bb5b6805c21870dcc76a8ccb51620d7870dc89dbaad37ad3c326ceb16",
+    "udt_observation_metric_evaluation_2026-10-04/BASELINE.json": "9d9ee4640d415e67be2f179839c180495d00c1d425f56a4ba0281f12259b6796",
+    "udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md": "094d55da5829235c130f45bb15b2cc2226c6aa3aa14f26212f6f5346de631c89",
+    "udt_positional_requirement_translation_2026-10-04/PRECISION.md": "4cd6e9a4908bbd5192321f21c8101c492a81fe909d7e66bdb507644f17e85dbb",
+    "udt_positional_requirement_translation_2026-10-04/REVIEWED_RESULT.md": "b9f03c6871b4cbd41e6668b19cfd27d6431a87ff2b052d586bf1a31d901a0221",
+    "udt_positional_requirement_translation_2026-10-04/STEPS_4_5_HANDOFF.md": "6d4ce22c4c27a0cddf9be402c331599770a29ba09de7660442ddeb6643f1de69"
+  },
+  "central_passages_read": [
+    "R6 lines367-415",
+    "R7 lines496-539",
+    "R8PRT lines1169-1316"
+  ],
+  "old_proofs_results_exposed": true,
+  "new_parent_code_results_exposed": false,
+  "new_sibling_reviews_research_exposed": false,
+  "numerical_execution": false,
+  "source_first_sha256": "0170abdafdcb9d8ed2b81be7be131fbe14e618eecc9d3e5e62247de64c706e40",
+  "seal_limits": "byte correspondence, not external timestamp, blindness to old arguments, independent authorship proof or scientific acceptance"
+}

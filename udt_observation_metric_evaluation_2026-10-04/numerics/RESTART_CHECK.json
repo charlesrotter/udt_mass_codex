@@ -1,0 +1,6 @@
+{
+  "status": "PASS_BITWISE_RESTART_AGREEMENT",
+  "files": 7,
+  "interruption": "Real self-SIGINT after one committed case; exit130, then resume skips that case",
+  "limitation": "Between-case stop; incomplete in-progress query requires recomputation or explicit preserved diagnostic. Not multihour solver certification."
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-04T20:09:55.252338+00:00",
+  "stage": "EXPOSED_SUBSTANTIVE_REVIEW_AFTER_SOURCE_PRECISION_REPAIR",
+  "verdict": "VERIFIED_WITH_CAVEATS_OBSERVATION_MAP_AND_NARROWED_CONVERSION; numerical_scope_consistent_pending_math_review; final_integration_pending",
+  "sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/EXPOSED_REVIEW.md": "72dcd1cf86ef07d746b7adccac65e33defd4e26f6f4a07253de707b01738d6bf",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/EXPOSED_INPUT_PINS.json": "6399aa9d0eb6453b849c45556ae72fdd85987f28f3f371cae7d747cd57b2de9c",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/PRIMARY_ACCESS_AND_FREEZE_CHECK.json": "34cf6c66b4b98622269c8b130e48a7eafd13f88beba02bd9b4675ff783793890",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/verify_observation.py": "d4384b73145995805cb3310f863a977175f25206ef876a2ff8b3f40f602e6042",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/INDEPENDENT_CONSTRAINTS.json": "84d2d5af68e2b2d316448f624ec8bc0dffbea582fdf817b81d92896f182b7fa0",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/OBSERVATION_CHECK.json": "93f7c1371257cdb119cd98f9cb00e774e06d56b0b600fd3ca2ad3f361968d038",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/OBSERVATION_CHECK_RECEIPT.json": "765ce2b2059e154a24531306d291fba0b0e467c05b23cf1caf8fe8f2d0c97a2f",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/OBSERVATION_CHECK.stdout": "93f7c1371257cdb119cd98f9cb00e774e06d56b0b600fd3ca2ad3f361968d038",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/OBSERVATION_CHECK.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

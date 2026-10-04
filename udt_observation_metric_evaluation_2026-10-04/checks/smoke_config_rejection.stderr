@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py", line 220, in <module>
+    sys.exit(main())
+  File "/home/udt-admin/udt_mass_codex/udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py", line 181, in main
+    raise RuntimeError('CHECKPOINT_CONFIG_OR_CODE_MISMATCH')
+RuntimeError: CHECKPOINT_CONFIG_OR_CODE_MISMATCH

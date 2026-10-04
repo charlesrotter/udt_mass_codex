@@ -1,0 +1,89 @@
+{
+  "scope": "finite supplied controls and queries; no native admission or continuum certification",
+  "config_sha256": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a",
+  "input_sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/numerics/smoke_interrupted/flat_1_t0.json": "9f15656c48422a174a91467f9ff4d3149ae9c91787e278846e8bf52df08bc580",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/smoke_interrupted/flat_1_t0.npz": "24942b64eb835c9188abfbd062bf49cf1505011a10ecb761084f0da7362d47b0",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/smoke_interrupted/quadratic_2_t0.json": "fe366ce146fce246aca319304645be90db11adb07d146bc92bf701f71c02d47e",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/smoke_interrupted/quadratic_2_t0.npz": "609cc42c810eaaba64662b88ade27fe214c414083072977ccbf2bf708c7322fc",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/smoke_interrupted/cubic_4_t0.json": "730dc113c89afbdd19170822b0fcd16ae7f56ffc2d6deed9d582e50123222bc2",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/smoke_interrupted/cubic_4_t0.npz": "1b9bbf919ee6a7bdb59db26513432c11e94cc13719f0cddb21207fcfed1f5c96"
+  },
+  "cases": [
+    {
+      "id": "flat_1",
+      "metric": "flat",
+      "L": 1.0,
+      "tolerance": 1e-12,
+      "null_relative": 0.0,
+      "momentum_relative": 0.0,
+      "metricity_absolute": 0.0,
+      "transported_k_absolute": 0.0,
+      "original_residual_absolute": 1.0458300891968975e-13,
+      "original_residual_scaled": 5.229150445984487e-14,
+      "residual_difference_refinement": 1.2256862191861728e-13,
+      "endpoint_error": 2.220446049250313e-16,
+      "arrival_frequency_relative": 1.1013412404281553e-13,
+      "tr": 1.0000000000000002,
+      "Z": 1.0,
+      "logZ": -0.0,
+      "reverse_relative": 0.0,
+      "echo_Z": 1.0
+    },
+    {
+      "id": "quadratic_2",
+      "metric": "quadratic",
+      "L": 0.6283185307179586,
+      "tolerance": 1e-12,
+      "null_relative": 2.0324172231246995e-12,
+      "momentum_relative": 5.992539797716745e-12,
+      "metricity_absolute": 3.91586763015539e-12,
+      "transported_k_absolute": 4.440892098500626e-16,
+      "original_residual_absolute": 8.199441126066631e-12,
+      "original_residual_scaled": 5.138970920141075e-12,
+      "residual_difference_refinement": 3.812539173253526e-11,
+      "endpoint_error": 1.1102230246251565e-16,
+      "arrival_frequency_relative": 1.950439809661475e-12,
+      "tr": 0.7265425280054371,
+      "Z": 1.5278640450003997,
+      "logZ": 0.42387071100067014,
+      "reverse_relative": null,
+      "echo_Z": 6.854101966254504
+    },
+    {
+      "id": "cubic_4",
+      "metric": "cubic",
+      "L": 0.9673596609249162,
+      "tolerance": 1e-12,
+      "null_relative": 2.0916881190160483e-12,
+      "momentum_relative": 6.8478556158879655e-12,
+      "metricity_absolute": 4.461542246758654e-12,
+      "transported_k_absolute": 4.440892098500626e-16,
+      "original_residual_absolute": 8.480327551296796e-12,
+      "original_residual_scaled": 4.847764630660123e-12,
+      "residual_difference_refinement": 9.130829425885167e-11,
+      "endpoint_error": 0.0,
+      "arrival_frequency_relative": 1.0131073757690956e-10,
+      "tr": 1.3386484425744611,
+      "Z": 3.3988307713556263,
+      "logZ": 1.2234314817003655,
+      "reverse_relative": 0.0,
+      "echo_Z": null
+    }
+  ],
+  "settings": [
+    {
+      "tolerance": 1e-12,
+      "null_relative": 2.0916881190160483e-12,
+      "momentum_relative": 6.8478556158879655e-12,
+      "metricity_absolute": 4.461542246758654e-12,
+      "transported_k_absolute": 4.440892098500626e-16,
+      "original_residual_absolute": 8.480327551296796e-12,
+      "original_residual_scaled": 5.138970920141075e-12,
+      "residual_difference_refinement": 9.130829425885167e-11,
+      "endpoint_error": 2.220446049250313e-16,
+      "arrival_frequency_relative": 1.0131073757690956e-10
+    }
+  ],
+  "status": "PASS_FINITE_NUMERICAL_DIAGNOSTICS"
+}

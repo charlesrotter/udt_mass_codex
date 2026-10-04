@@ -1,0 +1,933 @@
+                                              Astronomy & Astrophysics manuscript no. ESPRESSO_DRIFT_3                                                                            ©ESO 2026
+                                              March 4, 2026
+
+
+
+
+                                                                        The ESPRESSO Redshift Drift Experiment⋆
+                                                                           III. The Third Epoch of QSO J052915.80-435152.0
+                                                  A. Trost1, 2, 3, 4⋆⋆ , C. M. J. Marques5, 6, 7 , S. Cristiani2, 4, 8 , G. Cupani2, 8 , S. Di Stefano2, 3 , V. D’Odorico2, 8 , F.
+                                                Guarneri2, 9 , C. J. A. P. Martins5, 6 , D. Milaković2, 8 , L. Pasquini10, 11 , R. Génova Santos12, 13 , P. Molaro2, 8 , M. T.
+                                              Murphy14 , N. J. Nunes15, 16 , T. M. Schmidt17 , Y. Alibert18 , K. Boutsia19 , G. Calderone2 , J. I. González Hernández12, 13 ,
+                                                   A. Grazian20 , G. Lo Curto10 , E. Palle12, 13 , F. Pepe17 , M. Porru2 , N. C. Santos6, 7 , A. Sozzetti21 , A. Suárez
+                                                                                         Mascareño12, 13 , M. R. Zapatero Osorio22
+arXiv:2603.02318v1 [astro-ph.CO] 2 Mar 2026
+
+
+
+
+                                                   Affiliations are listed at the end of the paper.
+                                                   Received XXX; accepted YYY
+
+                                                                                                                ABSTRACT
+
+                                                   Context. The Sandage–Loeb (SL) test probes cosmic expansion directly by measuring the redshift drift in quasar absorption fea-
+                                                   tures in a model-independent way. In this series of papers, we have launched an observational campaign to assess whether current
+                                                   instrumentation is capable of measuring this effect and what systematic effects might interfere with a detection.
+                                                   Aims. We report the observations and analysis of the third epoch of ESPRESSO observations of the bright quasar J052915.80-
+                                                   435152.0 (SB2, zem = 3.962, i = 16.071 mag), extending the temporal baseline to ∼ 2 years, assessing systematics and measurement
+                                                   procedures, and providing the tightest constraints on the redshift drift in the series so far.
+                                                   Methods. We acquired 9.5 hours of ESPRESSO observations, complementing the 12 hours presented in the first paper of the series,
+                                                   with one year of separation from the second epoch. The complete dataset, composed of three separate and independent epochs, was
+                                                   analysed and compared to spline-based Lyman-α forest models calibrated on simulations, to measure the presence of any velocity
+                                                   drift among the spectra. The measurement was carried out with two independent methods, Pixel-by-pixel and Likelihood correlation.
+                                                   Results. Both approaches give a consistent null result, v̇ ≈ −3.5 ± 3.6 m s−1 yr−1 (or ż ≈ (−5.3 ± 5.6) × 10−8 yr−1 in redshift space),
+                                                   in agreement with ΛCDM expectations (v̇ΛCDM (z = 3.57) = −0.41 cm s−1 yr−1 ), systematic effects remain subdominant at the present
+                                                   level of noise. By extrapolating the results from the observed sightline to the complete QUBRICS Golden Sample, we show that
+                                                   ESPRESSO alone could detect the signal on century timescales, while a joint ESPRESSO+ANDES programme would reach first
+                                                   detection before 2080. A future analysis of the other quasars of the QUBRICS Golden Sample is required to improve this estimate.
+                                                   We show that the program would greatly benefit from a complementary effort with radio facilities targeting low-z H i 21 cm absorption
+                                                   lines. Such synergy could reduce the experiments’ timeline by up to ∼ 10 years.
+                                                   Key words. instrumentation: spectrographs – quasars: absorption lines – cosmology: observations – quasars: individual: J052915.80-
+                                                   435152.0
+
+
+                                              1. Introduction                                                           mann–Lemaître–Robertson–Walker (FLRW) models to modi-
+                                                                                                                        fied gravity, must satisfy (Uzan et al. 2008; Liske et al. 2008;
+                                              The Sandage-Loeb test (SL: Sandage 1962; Loeb 1998) is a                  Martins et al. 2024). In a standard FLRW Universe, the redshift
+                                              uniquely direct and model-independent probe of cosmic dynam-              drift effect takes the simple analytical form
+                                              ics, offering a real-time measurement of the Universe’s expan-
+                                              sion rate by tracking the slow temporal drift in the redshift of          ż = (1 + z)H0 − H(z),                                                (1)
+                                              distant sources. In an era where traditional geometric probes,
+                                              such as Type Ia supernovae, Baryon Acoustic Oscillations                  where ż can be directly measured with spectroscopic observa-
+                                              (BAO), and the Cosmic Microwave Background (CMB) have                     tions, simply detecting the movement of spectral lines over time,
+                                              achieved remarkable precision (DES Collaboration et al. 2024;             independently of any cosmological assumptions underlying the
+                                              Adame et al. 2025; Tristram et al. 2024; Madhavacheril et al.             analytical form of Eq. 1.
+                                              2024), the SL test provides a powerful and complementary                      Over the past decades, the SL test has evolved from
+                                              approach. By providing a direct, empirical measurement of                 a theoretical curiosity into a viable observational frontier
+                                              the redshift’s rate of change, ż, the SL test bypasses reliance          (Corasaniti et al. 2007; Geng et al. 2014; Alves et al. 2019;
+                                              on standard candles or rulers. It offers a fundamental, model-            Marques et al. 2023). This transition from theory to practice is
+                                              agnostic test of cosmic dynamics, providing a direct con-                 driven by immense technological progress. The primary obser-
+                                              straint that any viable cosmological theory, from standard Fried-         vational challenge lies in measuring the exceedingly small sig-
+                                                                                                                        nal, on the order of ż ∼ 10−11 yr−1 , or v̇ = c ż (1 + z)−1 ∼
+                                               ⋆
+                                                  Based on Guaranteed Time Observations collected at the European       0.5 cm s−1 yr−1 in spectroscopic terms. However, the advent of
+                                              Southern Observatory under ESO programmes 110.247Q and 112.25K7           ultra-stable, high-resolution spectrographs like ESPRESSO on
+                                              by the ESPRESSO Consortium.                                               the VLT (Pepe et al. 2021) and the upcoming ANDES instru-
+                                              ⋆⋆
+                                                  andrea.trost@inaf.it                                                  ment on the ELT (Marconi et al. 2024; Martins et al. 2024) is fi-
+                                                                                                                                                                         Article number, page 1
+                                           A&A proofs: manuscript no. ESPRESSO_DRIFT_3
+
+nally bringing a statistically meaningful detection within reach.          The data were reduced with ESPRESSO Data Reduction
+Parallel efforts are also exploring the potential of SKA-like fa-     Software v3.3 (DRS, Di Marcantonio et al. 2018). Both Fabry-
+cilities to conduct redshift drift measurements using 21 cm ab-       Pérot etalon (FP) + ThAr lamp and Laser Frequency Comb
+sorption (Darling 2012) or emission lines from neutral hydrogen       (LFC) frames were used for wavelength calibration of the spec-
+at low redshift (z ≲ 1; Rocha & Martins 2022; Marques et al.          tra, producing two distinct datasets that were used to search for
+2024; Kang et al. 2025).                                              systematic effects in the wavelength calibration procedure (see
+     In Trost et al. (2025b, hereafter Paper I), we reported the      Sect. 5.3). Since ESPRESSO’s LFC has experienced technical
+start of the first dedicated programme (i.e. not relying on           difficulties during the runtime of the presented experiment, the
+archival data) aiming at carrying out the SL test using the           main results reported in the paper are based on the FP+ThAr cal-
+Lyman-α forest of the most luminous quasar in the Universe,           ibration, whereas the LFC-calibrated spectra are used as a com-
+J052915.80–435152.0 (hereafter called SB2, zem = 3.962, i =           parison.
+16.071 mag), based on two high-resolution high signal-to-noise             The final products of the pipeline were flat-fielded, blaze
+ESPRESSO spectra. The result, consistent with zero drift within       corrected, sky subtracted, and wavelength calibrated. The spec-
+uncertainties (v̇ = −1.43+5.08      −1   −1
+                           −5.10 m s yr ) , met theoretical ex-       tra were also corrected to the Solar System barycentre using
+pectations and provided a realistic assessment of current obser-      standard pipeline procedures, employing INPOP13c ephemeris
+vational capabilities. A complementary study (Marques et al,          (Fienga et al. 2014), taking into account also Earth’s precession.
+subm.; Paper II) has been carried out on another bright high-              Order-by-order spectra were optimally extracted from the
+redshift quasar, J212540.96-171951.32 (SB1, zem = 3.897, i =          detector frames. In contrast to the procedure adopted in Paper
+16.548 mag), finding consistent results.                              I, we performed the relative flux calibration by removing the in-
+     This work follows the previous papers, extending the exper-      strument response function directly on the order-by-order spec-
+iment with a third observational epoch of quasar SB2, lengthen-       tra. This was done to ease continuum estimation and reduce sys-
+ing the temporal baseline, increasing data signal-to-noise (S/N)      tematics related to flux equalisation before the combination of
+and improving measurement sensitivity. Specifically, we aim to:       the spectra. To compensate for spurious distortions in the spectra
+                                                                      due to differences in instrumental response, atmospheric condi-
+1. Validate and refine the modelling and measurement proce-           tions and fibre positioning on the sky, all orders of each spectrum
+   dures developed in Papers I and II;                                were equalised to match the median flux values of the orders of
+2. Tighten constraints on the redshift drift signal through im-
+                                                                      the first observation. Subsequently, a sky mask was applied to
+   proved data and extend the experiment’s temporal baseline;
+3. Diagnose and mitigate potential systematic effects that might      the single exposures while retaining an order-by-order format,
+   become dominant at higher S/N;                                     shifted by the specific barycentric correction (BERV).
+4. Update forecasts for present and future facilities.                     Lastly, the orders were merged and the exposures combined
+                                                                      in three independent datasets using the Astrocook1 software
+This paper is structured as follows: in Sect. 2 we summarise the      (Cupani et al. 2020), each comprising the exposures taken in
+observations and the data treatment. Section 3 estimates the ex-      each ESO period, producing the three epochs spectra. Another
+pected result at the current S/N from literature scaling relations,   combined spectrum was produced by combining all exposures,
+whereas in Sect. 4 we develop a model of the Lyman-α forest of        and is shown in Fig. 1. All combinations were produced by re-
+our target, and employ two methods to carry out the actual mea-       binning the different spectra all at once into a common final pixel
+surement of the redshift drift on the acquired data. In Sect. 5 we    grid with 1 km s−1 step, corresponding to the original detector’s
+investigate the presence of systematic effects of either astrophys-   pixel size (when binned in the 2x mode along the dispersion axis)
+ical or instrumental nature in our results, whereas Sect. 6 reports   thus minimizing pixel correlations.
+an extrapolation of our results in the context of a greater obser-         The following analysis is based on the Lyman-α forest region
+vational effort, and estimates the total required experiment time-    in these four spectra, spanning the range 509 − 603 nm, with me-
+line. Section 7 summarises and discusses our findings. Though-        dian S/N per 1 km s−1 pixel at continuum of 47 (first epoch), 71
+out the paper we assume an underlying ΛCDM cosmology with             (second epoch), 75 (third epoch) and 113 (combined). For each
+the following parameters: Ωm = 0.308, ΩΛ = 0.692, h = 0.678,          epoch, an average date was computed by weighting the observa-
+Ωb = 0.0482, σ8 = 0.829, n = 0.961, and a helium mass fraction        tion dates of the individual exposures by their S/N per 1 km s−1
+Yp = 0.24.                                                            at continuum (as defined in Table 1). The time differences be-
+                                                                      tween the second and third epochs to the first are ∆t2 = 0.87 yr
+                                                                      and ∆t3 = 1.96 yr, respectively.
+2. Data acquisition and treatment                                          Single-exposure order-merged spectra were also generated
+High-resolution, high-fidelity, stable spectroscopic observations     by rebinning the flux-calibrated, order-equalised, sky-masked
+of SB2 were carried out with ESPRESSO (Pepe et al. 2021) at           order-by-order spectra to the common wavelength grid. These
+VLT in single UT mode, in December 2024 (ESO period P114).            spectra have a median S/N per pixel at continuum in the Lyman-
+We adopted the same instrumental setup, observing strategy, ex-       α forest spanning the range 13-26, as reported in Table 1. In
+posure time and calibration plan as those of observations carried     Sect. 5.2 we investigate the effect of carrying out a measurement
+out in periods P110 and P112, the first two epochs, and pre-          on the single exposures instead of on the combined epoch spec-
+sented in Paper I. The application of exactly the same instru-        tra.
+mental setup is essential to ensure direct comparability between
+spectra, with the goal of measuring the redshift drift and reduc-
+ing systematic effects. To summarise, the data have a resolving       3. Expected uncertainty
+power of R ∼ 135000. A detector binning 4x2 was adopted to en-        Liske et al. (2008) defined a general scaling relation that esti-
+hance S/N in the Lyman-α forest, where ESPRESSO’s efficiency          mates the average expected uncertainty on a velocity shift mea-
+is lower. The observations are summarised in Table 1, together        surement carried out among an ensemble of many quasars. We
+with the two datasets relative to the first two epochs presented
+                                                                      1
+and analysed in Paper I.                                                  https://github.com/DAS-OATs/astrocook
+
+Article number, page 2
+                                          A. Trost et al.: The ESPRESSO Redshift Drift Experiment III
+
+
+
+
+Fig. 1. Combined spectrum of SB2. Top panel: Flux density in arbitrary units is shown in black, with the purple line denoting the flux density
+error. Bottom panel: S/N per 1 km s−1 pixel. The green shaded area highlights the Lyman-α forest considered in the redshift drift measurement,
+bound by the Lyman-α and Lyman-β emissions of the quasar, namely between 509 - 603 nm.
+
+Table 1. Summary of single observing blocks (OBs) of SB2 taken during observing periods P110, P112 and P114.
+
+        Epoch     Period     ID     Exposure Start (UTC)               MJD              texp      Grade      Seeing      Airmass      S/N
+                                                                                         [s]                [arcsec]
+        1st        P110      1A      2022-10-29 07:21:01        59881.31068001         3438.0       C         0.93        1.066       18.6
+                             1B      2023-01-22 01:04:40        59966.04843679         3438.0       A         0.62        1.071       19.9
+                             1C      2023-01-22 02:13:07        59966.09453567         3438.0       B         0.72        1.075       17.4
+                             1D      2023-01-23 01:14:56        59997.04166665         3438.0       C         1.28        1.066       13.5
+                             1E      2023-02-22 00:54.53        59967.05436154         3438.0       A         0.60        1.116       22.8
+        2nd        P112      2A      2023-08-25 08:41:12        60181.36712803         3438.0       A         0.42        1.278       22.0
+                             2B      2023-11-11 05:22:38        60259.22743581         3453.0       C         0.99        1.087       17.8
+                             2C      2023-11-19 05:02:35        60267.21411237         3453.0       A         0.64        1.078       22.7
+                             2D      2023-12-06 04:15:02        60284.18013713         3453.0       A         0.49        1.069       24.6
+                             2E      2023-12-07 04:41:30        60285.19820316         3453.0       A         0.56        1.065       23.6
+                             2F      2023-12-11 04:47:35        60289.20252708         3453.0       A         0.57        1.070       25.3
+                             2G      2023-12-13 05:22:56        60291.22794520         3453.0       A         0.54        1.103       23.1
+                             2H      2024-02-05 04:15:20        60345.18147687         3453.0       C         0.50        1.512       17.6
+        3rd        P114      3A      2024-12-26 01:05:00        60670.04514905         3453.0       A         0.54        1.215       21.4
+                             3B      2024-12-26 02:11:26        60670.09127605         3453.0       A         0.53        1.101       22.6
+                             3C      2024-12-26 03:18:08        60670.13759482         3453.0       A         0.54        1.065       21.8
+                             3D      2024-12-26 04:22:38        60670.18239184         3453.0       A         0.38        1.091       23.1
+                             3E      2024-12-27 01:10:19        60671.04883566         3453.0       A         0.73        1.194       18.8
+                             3F      2024-12-27 03:08:49        60671.13113179         3453.0       B         0.86        1.065       17.3
+                             3G      2024-12-29 02:59:01        60673.12431786         3453.0       B         0.70        1.065       16.0
+                             3H      2024-12-29 05:03:38        60673.21086665         3453.0       A         0.44        1.163       22.4
+                             3I      2024-12-30 01:29:23        60674.06208193         3453.0       A         0.48        1.137       22.9
+                             3J      2024-12-30 02:31:39        60674.10531465         3453.0       A         0.53        1.073       26.7
+Notes. The columns of the Table indicate: i) epoch of observations; ii) ESO period; iii) OB identifier; iv) date of start of observations (UT time);
+v) date of start of observations (MJD time); vi) exposure time in seconds; vii) ESO OB grade, based on observational constraint compliance; viii)
+average atmospheric seeing during the exposure; ix) average airmass during the exposure; x) median S/N per 1 km s−1 pixel at continuum in the
+Lyman-α forest.
+
+
+adopt this relation as a first-order estimate of the expected un-          measurement, as
+certainty for the present dataset, extrapolating it to the case of a                     !−1
+                                                                                             1 + zQSO −1.7 NQSO −1/2 −1/2
+                                                                                                     !         !
+single target. We note, however, that sightline-to-sightline varia-                 S/N
+tions at the ∼ 10 − 20% level are expected due to differences in           σv = 2 g                                 fLyα cm s−1 , (2)
+                                                                                    4058        5           30
+the number and clustering of Lyman-α absorption lines (see Fig.
+8 of Liske et al. (2008))                                                  where S/N is the total S/N per 1km s−1 pixel at continuum ob-
+                                                                           tained over all exposures, zQSO is the emission redshift of the
+                                                                           quasar, while NQSO is the total number of quasars considered in
+                                                                           the measurement. The factor fLyα is the fraction of the Lyman-
+   The average velocity shift measurement uncertainty is ex-               α forest pixels considered after masking metal lines, intervening
+pected to scale, in the context of an ESPRESSO Redshift Drift              galactic structures (e.g., DLAs) and bad pixels. In our case, these
+                                                                                                                            Article number, page 3
+                                                     A&A proofs: manuscript no. ESPRESSO_DRIFT_3
+
+parameters take the values S/N = 113, zQSO = 3.962, N = 1, and              the data, which is why it has been re-computed with respect to
+ fLyα = 0.77.                                                               Paper I. It shows little to no sensitivity to the assumed cosmol-
+      The "form factor", g, found in Eq. 2, depends on the obser-           ogy or to the velocity shift applied to the mocks, provided the
+vational strategy and the distribution of the single observations           latter remains well below the pixel scale.
+throughout the program. Assuming Ne observational epochs, the                    The final Lyman-α forest model of SB2, S̄ , is taken as the av-
+ j-th epoch being separated from the beginning of the program by            erage of 500 independent spline realisations, S j . Fit residuals of
+∆t j , we can define the fractional temporal baseline h j = ∆t j /∆t,       the final model to the data are consistent with a Gaussian distri-
+where ∆t is the total temporal baseline of the experiment, and              bution with mean µ = 0.006 and standard deviation σ = 0.979,
+the fractional integration time f j , i.e. the integration time frac-       underling the adequacy of the method. In the following analy-
+tion spent on the j-th epoch with respect to the total. Following           sis, outlier pixels with more than 5σ deviation from the average
+Eq. 23 of Liske et al. (2008), the "form factor" can be defined             model were masked in all spectra.
+analytically as:
+                               N           2 −1/2                       4.2. Pixel-by-pixel method
+                      Ne             e
+              1 X          X          
+g(Ne , h, f) =  h2j f j −  h j f j    .               (3)   To measure the redshift drift that occurred between the three
+              2 j=1                j=1                                      observational epochs, we build on the approaches presented in
+                                                                            Paper I, the simplest of which is a direct application of the
+For the sequence of observations reported in Table 1, g = 1.27.             spectrum-to-spectrum comparison used in the context of radial
+    Based on this scaling relation, the expected precision in a             velocity (RV) measurements for exoplanet searches, as defined
+redshift drift measurement with the current observations is σv =            by Bouchy et al. (2001). This method was adapted to the redshift
+5.7 m s−1 in velocity space. Accounting for the temporal base-              drift measurement and used in Liske et al. (2008) to derive the
+line of the current experiment, the measurement uncertainty for             scaling relation reported in Eq. 2. However, unlike Liske et al.
+the cosmological acceleration is σv̇ = σv /∆t = 2.9 m s−1 yr−1 ,            (2008) and Paper I, in this work we exploit the model of the
+equivalent to σż = 4.4 × 10−8 yr−1 .                                       Lyman-α forest transmission to evaluate the flux derivatives and
+                                                                            compare the three epochs’ spectra to the same common model,
+                                                                            similarly to what is done with stellar RV using stellar spectral
+4. Redshift drift measurement                                               templates.
+4.1. Modelling the forest                                                       Summarising, the normalised flux at the i-th pixel of the k-th
+                                                                            epoch spectrum, Fk,i , can be described as a first order perturba-
+To measure a shift between spectral lines, we model the Lyman-              tion of the Lyman-α forest transmission model, S̄ , induced by a
+α forest in the spectrum of SB2 following the procedure de-                 small velocity shift, δvk,i , as:
+scribed in Paper I. In brief, the combined final spectrum is fit-
+ted with 500 independent spline functions, S j (n j ), each defined                               ∂S̄ δvk,i
+by a unique node distribution, n j . The knot array is generated            Fk,i = S̄ (λi ) −               λi ,                            (4)
+                                                                                                  ∂λi c
+starting from a equispaced distribution, n j,0 within the bound-
+aries of the Lyman-α forest (509 nm ≤ λ ≤ 603 nm), with in-                 where each pixel of the spectrum defines a contribution to the
+ternodal spacing, A j , randomly drawn from a split-normal dis-             velocity shift of the k-epoch
+tribution SplitNormal(A, σ−A , σ+A ), where A and σ±A are estimated
+from mock sightlines as described below. The positions of the                         S̄ (λi ) − Fk,i c
+                                                                            δvk,i =                     .                                   (5)
+spline nodes are then perturbed independently for each realiza-                          ∂S̄ i /∂λi λi
+tion as n j = n j,0 + m j , where m j is a noise term randomly drawn
+from SplitNormal(0, σ−A , σ+A ).                                            The velocity shift occurring between the model and the spectrum
+    As for Paper I, we produced 100 mock spectra of the Lyman-              can then be estimated as a weighted average of the contributions
+α forest of SB2 to calibrate the modelling procedure, extract-              of all pixels
+ing H i optical depth along artificial sightlines piercing through
+                                                                                      δvk,i wi
+                                                                                    P
+the boxes of the Sherwood suite of hydrodynamical cosmolog-                 δvk = iP                                                     (6)
+ical simulations (Bolton et al. 2017) at 3 < z < 4, and stitch-                         i wi
+ing them to match the path length of SB2’s Lyman-α . These
+sightlines were degraded to match the resolution, pixel size and            where the weights are defined as the inverse of the variance of
+S/N of the three observational epochs of our data (following e.g.           the single pixel velocity contribution
+Rorai et al. 2017; Trost et al. 2025a). The pixel mask accounting                                                          −2
+for metal lines, sub-DLA, telluric lines, and bad pixels consid-                                     c                    
+                                                                                  vk,i = 
+                                                                            wi = σ−2                              σFk,i  ,             (7)
+                                                                                         
+ered on the SB2 data was also applied to the mocks.                                                
+                                                                                                 λi ∂S̄ i /∂λi
+                                                                                          
+    To mimic the cosmological drift, we introduced a small phys-
+ical velocity drift to the gas particles in the simulations before
+                                                                            where σFk,i is the error on the normalised flux at pixel i and epoch
+computing the H i optical depths, of order −0.37 cm s−1 and
+                                                                            k. Note that, differently from a spectrum-to-spectrum compari-
+−0.84 cm s−1 , in the second and third epoch’s mock datasets,
+                                                                            son, we compared the data to a transmission model and therefore
+respectively. Each sightline has thus four realisations, simulat-
+                                                                            Eq. 7 neglects model uncertainties with respect to the observa-
+ing the first, second and third epochs, plus a combination of the
+                                                                            tional flux errors.
+three. The combined mock spectra were used to calibrate the
+                                                                                The uncertainty on the final δvk estimate is
+best internodal distance A = 7.34 km s−1 and its uncertainties
+σ−A = 0.13 km s−1 , σ+A = 0.33 that yield normally distributed
+                                                                                     X −2 −1/2
+                                                                                              
+residuals between the mock spectra and the fitted splines. Note             σδvk =  σvk,i      .                                      (8)
+that the estimated value of A depends primarily on the S/N of                           i
+
+Article number, page 4
+                                       A. Trost et al.: The ESPRESSO Redshift Drift Experiment III
+
+    Applying this approach to the three observational epochs
+yields δv1 = −0.31 ± 6.44 m s−1 , δv2 = 1.47 ± 4.11 m s−1 , and
+δv3 = −5.09 ± 3.91 m s−1 .
+    From the three estimates, we carried out the measurement of
+the cosmic acceleration by means of a linear fit in the δv−t plane,
+with equation
+δv = v̇ · (t − t0 ) + q,                                        (9)
+where the pivot point t0 is the average observation date,
+weighted by the single epoch measurement uncertainties, and
+is adopted to minimize the covariance between the fit param-
+eters. The estimated cosmic acceleration is the best fit slope
+v̇ = −3.43 ± 3.56 m s−1 yr−1 , equivalent to a redshift drift of
+ż = (−5.23 ± 5.43) × 10−8 yr−1 .
+                                                                       Fig. 2. Velocity shifts of every single epoch with respect to the com-
+4.3. Model likelihood correlation                                      bined mean model, as a function of time, obtained via the Pixel-by-
+                                                                       pixel (Sect. 4.2, blue circles) and the Maximum Likelihood approaches
+An alternative approach to the measurement is carried out by           (Sect. 4.3, red squares). For both approaches, the cosmic acceleration
+maximising the likelihood between model and data, as a func-           is computed as a linear fit of the data points and shown as a solid line.
+tion of a velocity shift, δv, between the two. We stress that, fol-    Shaded areas report the uncertainty in the fit.
+lowing Eq. 1, the redshift drift effect is redshift dependent, i.e.
+|ż| is larger on the blue end (v̇(z = 3.96) = −0.53 cm s−1 yr−1 )         Again, these three estimates were used to measure the
+than on the red end (v̇(z = 3.19) = −0.33 cm s−1 yr−1 ) of the for-    cosmological signal, by means of a linear fit in the δv −
+est, thus introducing a compression into the spectral shapes of        t plane of Eq. 9, yielding a cosmic acceleration of v̇ =
+the Lyman-α lines. Such an effect is negligible over the span of       −3.63 ± 3.65 m s−1 yr−1 , equivalent to a redshift drift of ż =
+SB2’s Lyman-α forest at the current level of S/N of our data. The      (−5.53 ± 5.56) × 10−8 yr−1 .
+following analysis can be easily generalised to account for this           Fig. 2 shows the velocity shifts between the transmission
+compression effect in future high-S/N (≳ 1000) measurements.           model and each spectrum obtained via the two independent
+On these grounds, we considered as a good approximation a rigid        methods, as well as the best fit linear relation passing through
+shift of the model in velocity space in order to measure the drift     the datapoints, used to estimate the cosmological signal, with its
+occurring between epochs.                                              uncertainty.
+      For each epoch k, we determined the relative velocity shift
+δvk between the model and the observed spectrum by maximis-
+ing the likelihood function                                            5. Systematic effects
+                                           i2
+                                                                       5.1. Model Variance
+                        h
+                 1 X Fk,i − S̄ (λi , δvk )
+                   Npix
+ln L(δvk ) = −                                ,               (10)     One of the main interests at this stage of the experiment is the ef-
+                 2 i=1        σ2Fk,i
+                                                                       fective and accurate description of systematic effects that might
+where Fk,i and σFk,i denote the normalised flux and its associ-        hinder the final measurement of the redshift drift. Since the latter
+ated uncertainty at pixel i of the k-th epoch spectrum. The model      relies on the production of a transmission model of the Lyman-
+S̄ (λi , δvk ) represents the mean Lyman-α forest transmission as      α forest, we ought to determine whether this procedure induces
+constructed in Sect. 4.1, rigidly shifted in velocity space by δvk     systematic uncertainties in the measurement.
+and evaluated on the same wavelength grid {λi } as the data. The           In Sect.4.1, we built a model of SB2’s Lyman-α transmission
+summation in Eq. (10) is performed over all non-masked pixels          as the average of 500 independent realisations of spline mod-
+within the Lyman-α forest region.                                      els, calibrated on physical simulations of the Lyman-α forest at
+     Note that, differently from the method used in Paper I (Sect.     z = 3 − 4, that statistically fit the data equally well. The vari-
+2.4, Eqs. 11-12), we abandoned the idea of weighting pixels            ances at each pixel among the 500 independent models, σ2S i ,
+based on the model derivative, as introducing the weights under-       and among their derivatives, σ2S ′ , can be interpreted as addi-
+                                                                                                           i
+estimates the measurement uncertainties, and relied on a more          tional uncertainties related to the modelling procedure and used
+robust statistical estimator.                                          to study the presence of systematic effects from modelling non-
+     We evaluated Eq. (10) over a dense grid of velocity shifts in     uniqueness in the measurement of the redshift drift.
+the range −50 m s−1 ≤ δvk ≤ 50 m s−1 and fitted a parabola to              In the Pixel-by-pixel method (see Sect. 4.2), the model vari-
+the resulting ln L(δvk ) profile to obtain a precise estimate of its   ance term was accounted for by modifying the velocity contri-
+maximum. The statistical uncertainty on δvk was derived from           bution weights of each pixel (Eq. 7) as
+the curvature of the log-likelihood at the maximum,
+                               −1/2                                                                       −2                                2       −1
+           d2 ln L                                                                            c                                S̄ (λi ) − Fk,i           
+σδvk ≈ −                            ,
+                                                                                                         
+                                                               (11)    wi = σ−2
+                                                                             vk,i =                      σFk,i + σS i + 
+                                                                                                                     2      2
+                                                                                                                                                      σ2
+                                                                                                                                                                 ,
+                                                                                                                                                            
+                      2
+               d(δvk ) δvk ,max
+                                                                                                                                             2     S i′ 
+                                                                                          λi ∂S̄ i /∂λi
+                                                                                     
+                                                                                                                                     ∂S̄ i /∂λi
+                                                                                                                   
+following standard maximum likelihood theory.                                                                                                              (12)
+    The comparison between the model and the three spectra
+yields δv1 = 0.51 ± 6.59 m s−1 , δv2 = 2.78 ± 4.21 m s−1 and           where we propagated the model variance σ2S and the model
+δv3 = −4.39 ± 4.00 m s−1 .                                             derivative variance σ2S ′ to the velocity contribution variance.
+                                                                                                                                    Article number, page 5
+                                                A&A proofs: manuscript no. ESPRESSO_DRIFT_3
+
+    Similarly, the same variance term can be taken into account
+when correlating the transmission model to the data via the like-
+lihood maximisation, adding a noise term at the denominator of
+Eq 10, as
+                      h                  i2
+               1 X Fk,i − S̄ (λi , δvk )
+                 Npix
+ln L(δvk ) = −                              .                   (13)
+               2 i=1    σ2F + σ2S
+                              k,i     i
+
+
+
+    We performed the measurement again, following the same
+procedures as reported above for both methods, adopting the
+model non-uniqueness noise terms and recovering v̇ = −3.18 ±
+3.57 m s−1 yr−1 (Pixel-by-pixel) and v̇ = −3.59 ± 3.72 m s−1 yr−1
+(likelihood correlation) with a minimal increase of the uncer-
+tainty (≲ 2%). The systematic uncertainty due to model variance
+is subdominant with respect to the statistical uncertainty and
+does not provide an important source of systematic uncertainty
+in the measurement. Moreover, since the transmission model is
+built on the combination of all exposures, in future developments
+of the measurement with higher S/N, the model variance is ex-
+pected to decrease and remain subdominant to the photon noise,
+never providing a significant source of systematic uncertainty.
+                                                                       Fig. 3. Top panel: Velocity shift between transmission model and sin-
+5.2. Single exposures analysis                                         gle exposure flux, subdivided in the three observational epochs: first
+                                                                       (green), second (red) and third (black). The horizontal dashed lines re-
+In order to investigate systematic effects and spurious velocity       port the average velocity shift for each epoch, weighted by single ex-
+contribution in the single ESPRESSO exposures, we carried out          posure velocity shift uncertainty, and their uncertainty as shaded areas.
+the measurement described in the previous sections, comparing          Middle panel: median S/N per 1 km s−1 pixel at continuum in the for-
+the Lyman-α transmission model to the single rebinned expo-            est for each exposure. Bottom panel: velocity shift uncertainty for each
+                                                                       exposure. The dotted grey line reports the expected precision computed
+sures, instead of the three combined epoch spectra. As before,
+                                                                       as a simple S/N−1 scaling.
+in both methods the model is compared to each spectrum to
+estimate δvk , where k = 1, . . . , 23, indexes the individual ex-
+posure. As in Sect. 4.2, the cosmological acceleration was es-             To consistently take into account variations of the wave-
+timated by performing a linear fit in the δv − t plane across          length solution between the two calibration frames, we re-
+all individual exposures. The resulting estimated cosmic accel-        performed the full analysis on the LFC data, including the gener-
+erations are v̇ = −3.43 ± 3.58 m s−1 yr−1 (Pixel-by-pixel) and         ation of a new model. Then the model was compared to the three-
+v̇ = −4.73 ± 3.60 m s−1 yr−1 (Likelihood), both fully consistent       epoch datasets (based on the same LFC calibration) following
+with each other and with the measurements obtained from the            the same methodologies described above, yelded v̇ = −2.54 ±
+combined epoch spectra.                                                3.59 m s−1 yr−1 (Pixel-by-pixel, Sect. 4.2) and v̇ = −2.85 ± 3.65
+     Fig. 3 shows the velocity shift between the Lyman-α trans-        (Likelihood, Sect. 4.3). Both measurements are compatible with
+mission model and the normalised flux of the single exposures.         each other, and with the theoretical ΛCDM acceleration ex-
+The shaded areas represent the weighted average velocity shift         pected in a ΛCDM universe at z = 3.57. Note that the accel-
+across the single epochs, with its uncertainty. The median S/N         eration measurements based on the two calibrations show a dif-
+per pixel at continuum level for each exposure is reported in the      ference of ∆v̇(LFC−ThAr) ∼ 0.9 m s−1 yr−1 , i.e. the estimated drift
+figure, as well as the measurement uncertainty obtained on each        appears slightly faster in the ThAr-calibrated spectra. This differ-
+spectrum.                                                              ence is subdominant to the statistical uncertainties given by the
+                                                                       current S/N level, and we find that calibration sources do not pro-
+                                                                       vide dominant systematic effects at present level time. In Sect. A
+5.3. Wavelength calibration                                            we investigate further the differences between FP-ThAr and LFC
+Due to the small nature of the signal we are looking for               calibrations and the stability of their wavelength solutions over
+(v̇ ∼ 0.5 cm s−1 yr−1 ), a thorough assessment of systematic ef-       time.
+fects of instrumental nature is required. To this end, we eval-
+uated the effects of the two calibration sources available on          6. Future Perspectives
+ESPRESSO on the acceleration measurement. In the previous
+sections of this work, we have presented the results based on          From the results of the three-epoch analysis, we can estimate at
+the application of the FP+ThAr calibration frames, whereas in          first order the required experiment timeline for a meaningful de-
+this section, we discuss their differences from LFC-based cali-        tection of the drift. Note however that, at this stage, the available
+brations. To do so, a new complete reduction of the exposures          data are limited and the extrapolated measurement uncertainty
+has been carried out. We stress that both reduction processes          can be susceptible to non-negligible sightline-to-sightline vari-
+consider a Gaussian line profile when modelling the calibration        ations, as well as yet unidentified sources of systematic uncer-
+lines, instead of more complex non-parametric LSF profiles such        tainty.
+as the one presented in Schmidt (2024), which are shown to mit-             Following the formalism of Paper I, assuming an observing
+igate calibration issues.                                              strategy of Ne epochs, evenly spread throughout the temporal
+Article number, page 6
+                                                   A. Trost et al.: The ESPRESSO Redshift Drift Experiment III
+
+                                            ESPRESSO                                                                                ANDES
+                                                                                                      100
+                                                                σv̇ 10 h/yr                                                                              σv̇ 10 h/yr
+                 100
+                                                                σv̇ 100 h/yr                                                                             σv̇ 100 h/yr
+                                                                σv̇ 1000 h/yr                        10−1                                                σv̇ 1000 h/yr
+                10−1                                            v̇ signal                                                                                v̇ signal
+[m s−1 yr−1 ]
+
+
+
+
+                                                                                     [m s−1 yr−1 ]
+                                                                                                     10−2    ΛCDM
+                10−2   ΛCDM
+                                                                                                             z = 3.57
+                       z = 3.57
+                                                                                                     10−3
+                10−3
+
+
+                10−4                                                                                 10−4
+                             3σ detection                                                                            3σ detection
+                             5σ detection                                                                            5σ detection
+                10−5                                                                                 10−5
+                                  10                    100                                                              10                      100
+                                              ∆t [yr]                                                                               ∆t [yr]
+
+Fig. 4. Extrapolation of the present results based on three epochs to a              Fig. 5. Extrapolation of the present results based on three epochs to a
+long-term ESPRESSO redshift drift experiment targeting SB2 with a                    long-term ANDES redshift drift experiment targeting SB2 with a con-
+continuous monitoring programme of 10, 100, and 1000 hours of inte-                  tinuous monitoring programme of 10, 100, and 1000 hours of integra-
+gration per year. Solid green lines define the forecasted measurement                tion per year, assuming a ϵA = 10% efficiency.
+precision of such a programme, depending on the allocated time, as a
+function of the experiment baseline. Horizontal black dashed line de-
+                                                                                     Table 2. Temporal baselines required to achieve a 1σ, 3σ, or 5σ detec-
+fines the magnitude of the cosmological signal in a ΛCDM scenario
+                                                                                     tion following up the SB2 spectra with a total integration time of 10,
+at z = 3.57, i.e. the mean redshift of SB2’s forest. Vertical arrows de-
+                                                                                     100, or 1000 hours per year, if performed with ESPRESSO or ANDES
+note the timestamp at which a 3σ (solid) and 5σ (dotted) detection is
+                                                                                     (assuming a 10% efficiency).
+achieved for each time allocation, with the same colour coding.
+                                                                                                                           ESPRESSO              ANDES
+baseline with cadence δt = 1 yr, so that ∆t = (Ne − 1) δt, and                                              T            1σ   3σ   5σ      1σ      3σ   5σ
+with T hours of integration time of SB2 per epoch, the precision                                            [h/yr]      [yr] [yr] [yr]    [yr]    [yr] [yr]
+of a measurement of the cosmic accelerations (v̇ ∼ ∆v/∆t) scales                                            10          225 469 659        83     174 243
+as                                                                                                          100         104 218 306        38      80 112
+                                                                                                            1000         48 101 142        18      27   52
+σv̇ ∝ g S/Ntot −1 ∆t−1 ,                                                      (14)
+
+where S/Ntot is the√total S/N achieved over all Ne epochs and                        at the centimetre per second per year level. Moreover, a realis-
+scales as S/Ntot ∝ Ne T . The form factor g follows from Eq. 3                       tic scenario cannot be based solely on one target, but requires
+and, in the case of the uniform observing
+                                        √     strategy that we as-                   a sample of bright quasars that uniformly cover the sky, max-
+sumed, takes the analytical form g = 3(Ne − 1)/(Ne + 1), with                        imising observable time and reducing cosmic variance effects
+g ≈ 1.7 for Ne ≫ 1. Fig. 4 shows the extrapolation of the present                    related to a single sightline approach. The Golden Sample (GS)
+measurement uncertainty to a long-term experiment carried out                        of 7 bright quasars (2.9 ≤ z ≤ 4.7) presented in the QUBRICS
+with ESPRESSO integrating SB2 for 10, 100, 1000 hours each                           Survey (Cristiani et al. 2023) was proposed specifically with this
+year, as a function of total experimental baseline.                                  aim.
+     Similarly, we extrapolated the expected temporal baseline                           We can extend the extrapolated results presented in the
+required for a significant detection in an ELT/ANDES-like ex-                        previous section to a more complex, multi-target, multi-
+periment by simply considering that the ELT will have a col-                         instrument campaign, assuming to continue the experiment with
+lecting area a factor 20x larger than one VLT unit. In terms of                      ESPRESSO with a yearly cadence of T E hours of integration,
+efficiency, ANDES is expected to have similar specifications to                      and follow up with T A yearly hours of ANDES integration as the
+ESPRESSO (ϵA ∼ 10%); however, this value might change dur-                           instrument comes online. Moreover, assuming that the pressure
+ing future design phases. To generalise, we can assume that one                      on the VLTs will significantly drop after the commissioning of
+hour of ANDES integration is equivalent to 20×(ϵA /0.1) hours of                     the ELT, we can foresee allocating a large amount of yearly time
+ESPRESSO integration time, in terms of the number of photons                         on ESPRESSO, such as 1000 h/yr across all the targets, equiva-
+collected by the telescope and the instrument. Thus, the temporal                    lent to all the dark time of one dedicated VLT UT. On the other
+baselines to achieve significant detection with ANDES are short-                     hand, ELT’s high demand will limit the amount of ANDES time
+ened by a factor 201/3 × (ϵA /0.1)1/3 ∼ 2.7, as shown in Fig. 5,                     devoted to the experiment. Here we assume an allocation of 100
+with respect to an ESPRESSO experiment.                                              h/yr (i.e. 12.5 nights per year). To account for possible changes
+                                                                                     to the final ANDES efficiency in the next stages of the instru-
+                                                                                     ment’s design, in this section, we generalise the ANDES expo-
+6.1. A realistic observational campaign
+                                                                                     sure time T A′ = T A × (ϵA /0.1), i.e. all results are given assuming
+In a realistic scenario for a future observing campaign, ANDES                       ϵA = 0.1, and shall be rescaled if one wants to extrapolate the
+will likely not begin observations before 2040. In the meantime,                     experiment to a different efficiency.
+carrying out the programme with ESPRESSO is crucial to extend                            On first approximation, we can extrapolate the results ob-
+the experiment’s baseline and to characterise systematic effects                     tained on SB2 to estimate the redshift drift measurement preci-
+                                                                                                                                                  Article number, page 7
+                                             A&A proofs: manuscript no. ESPRESSO_DRIFT_3
+
+sion obtainable with the sightlines of the other GS targets as                          C.L.             68%      95%         99%
+  optical                                                                               VLT              2102+6   2131+8      2148+9
+σv̇         ∝ g S/N−1 ∆t−1 (1 + z)−γ ,                           (15)                                        −7       −11         −12
+                                                                                        ELT              2088+5
+                                                                                                             −6   2112+7
+                                                                                                                      −8      2126+7
+                                                                                                                                  −10
+where g is the form factor computed following Eq. 3, ∆t is the                        ELT+VLT            2079+4
+                                                                                                             −5   2101+5
+                                                                                                                      −8      2112+7
+                                                                                                                                  −8
+experiment’s baseline, γ = 1.7 for z < 4 and 0.9 otherwise, and                    FAST+ELT+VLT          2068+1   2087+2      2097+4
+S/N is the total signal-to-noise reached by the target. Assuming                                             −3       −4          −4
+                                                                         Table 3. Years at which the null acceleration signal is excluded at
+shot-noise limited observations, S/N is extrapolated from the re-
+                                                                         68%, 95%, and 99% confidence level, for different experimental con-
+sults of SB2 as                                                          figurations, when targeting the full QUBRICS GS. VLT: 1000 h/yr of
+                 q                                                       ESPRESSO observations of the GS; ELT: 100 h/yr of ANDES start-
+S/N ∝ 10−0.2∆m (∆t + 1) T/Nobj ,                             (16)        ing in 2040; VLT+ELT: combination of the single VLT and ELT cases;
+                                                                         VLT+ELT+FAST: combination of the single VLT and ELT cases, plus
+where ∆m = m j − mSB2 is the difference in apparent magni-               FAST measurements of 300 H i 21cm absorption lines. All estimates
+tude between the j-th target and SB2, ∆t is the experiment base-         report an uncertainty interval due to the unknown properties of the GS
+line, Nobj is the number of targets considered. The total amount         sightlines.
+of integration time per year, T , depends on the time allocations
+of both ESPRESSO and ANDES as T = T E before 2040, and
+T = T E + 20 · T A′ after 2040, assuming that we will continue           total experiment baseline, and texp,tot is the total integration time
+ESPRESSO observations to better control systematic effects.              accumulated over ∆t.
+    Note that the present analysis is based solely on the results            Given the expected uncertainties of the radio and optical
+obtained for the SB2 sightline. As shown by Liske et al. (2008),         regime, at each epoch we generated 104 realisations of the ex-
+different QSO sightlines can exhibit variations in the redshift          periment, randomly scattering the measurements of the 7 tar-
+drift measurement uncertainty of up to ∼ 20%, due to differences         gets of the GS and the binned radio result around the expected
+in the distribution of strong and weak Lyman-α absorption lines.         ΛCDM cosmic acceleration value at the corresponding red-
+For this reason, in Paper II we defined the normalised velocity          shift, adopting the estimated uncertainty as standard deviation
+uncertainty                                                              of Gaussian noise. Each realisation was fitted with the linear re-
+             S/N
+                  !                                                      lation
+σ100 ≡ σv           ,                                        (17)
+              100                                                               dv̇
+                                                                         v̇ =       (z − z0 ) + v̇z0 ,                                    (19)
+                                                                                dz
+which represents the uncertainty in the velocity positioning of
+a model on the target Lyman-α transmission, assuming data                where the pivot point z0 = 3.5 was chosen for consistency
+with S/N = 100. This quantity allows us to characterize the              with Cristiani et al. (2023). From the 2D posterior distribution
+                                                                                                dz , v̇z0 } at each epoch, we measured the con-
+intrinsic properties of a given spectrum and to assess each tar-         of the fitted values { dv̇
+get’s constraining power on the redshift drift signal. From the          fidence level at which the null signal, i.e. v̇ ≡ 0, is excluded.
+results reported computed in Eqs. 8-11, we find that SB2 has             This process was repeated under the assumptions of either an
+σSB2                   −1
+  100 ≈ 2.95 m s , while in Paper II we showed that SB1                  ESPRESSO-only experiment with 1000 hours of integration per
+(J2125) has σSB1                   −1
+                 100 ≈ 3.74 m s . These values are used to anchor        year, an ANDES-only experiment with 100 h/yr (and ϵA = 0.1)
+the uncertainty scaling defined in Eq. 15 for SB1 and SB2. At            starting from 2040, a combined ESPRESSO+ANDES campaign
+present, a high-resolution analysis of the remaining five targets        with the same integration times as the latter cases, and a joint
+of the GS is still lacking, and a robust estimate of the achievable      ESPRESSO+ANDES+FAST campaign where 300 H i 21 cm
+measurement uncertainties based on their Lyman-α forests can-            lines at z ∼ 0.5 are observed yearly.
+not yet be performed. To account for this uncertainty, we assume             Figure 6 shows the confidence level at which the null drift is
+that the other targets have spectra providing a precision that may       excluded for the four different experimental configurations as a
+deviate by up to ±20% from σSB2        100 .                             function of time, where the crossing times of the 68%, 95% and
+     Complementary to the optical experiment, we can foresee             99% confidence levels are also reported in Table 3. The unknown
+a redshift drift experiment based on the radio observations of           properties of the GS sightlines are reflected in uncertainties of
+z ∼ 0.5 DLA H i 21 cm absorption lines in the spectra of radio-          approximately ∼ 5% and ∼ 8% in the extrapolated detection
+loud background sources. To first order, we extrapolated the re-         timelines for the radio+optical (FAST+ELT+VLT) and optical-
+sults of Darling (2012), based on Green Bank Telescope (GBT,             only (ELT+VLT, ELT, VLT) scenarios, respectively. Moreover,
+Prestage et al. (2009)) observations of 13 targets over a time span      the same figure shows the effect of focusing all the optical expo-
+of a decade, to modern radio facilities such as the Five-hundred-        sure time to only the two brightest targets in the GS: J212540.96-
+meter Aperture Spherical Telescope (FAST, Jiang et al. (2019)).          171951.32 (SB1; zem = 3.897, i = 16.548; see Paper II) and
+Moreover, we can envision that a dedicated radio experiment              J052915.80-435152.0 (SB2; analysed in this work). Limiting the
+will utilise hundreds of targets, whose discovery is a direct result     monitoring campaign to these two bright targets, which have op-
+of SKA prototype surveys such as ASKAP FLASH (Yoon et al.                posite positions in the sky and are well-suited for continuous
+2025). The cosmic acceleration uncertainty follows from the ra-          monitoring, shortens the experimental baseline by ∼ 4 − 7%, de-
+diometer equation and scales as                                          pending on the considered scenario. Figure 7 shows the expected
+                   !−1                                                   experiment status in 2070 (without cosmic variance uncertainty
+             Aeff                                                        scaling), when a first 68% non-null detection is expected to be
+σv̇ ∝ g
+  radio
+                       Nlines  texp,tot ∆t−1 ,
+                          −1/2 −1/2
+                                                                (18)     achieved by the full FAST+ELT+VLT configuration, while tar-
+             T sys
+                                                                         geting all 7 objects of the GS. By the same epoch, an Einstein-
+where Aeff /T sys is the sensitivity of the radio telescope, Nlines is   de Sitter Universe can be excluded at more than 99% confidence
+the number of lines considered in the measurement, ∆t is the             level by all observing scenarios.
+Article number, page 8
+                                            A. Trost et al.: The ESPRESSO Redshift Drift Experiment III
+
+
+           100
+                                                                                                                                               Year 2070
+                                                                                                                               H i 21 cm           Ωm , ΩΛ = 1.0, 0.0            No Drift
+                 68%                                                                                                1.5        Ly-α                Ωm , ΩΛ = 0.3, 0.0            ΛCDM
+
+
+      10−1                                                                                                          1.0
+1 − C.L.
+
+
+
+
+                 95%
+
+
+
+
+                                                                              v̇ [cm s−1 yr−1 ]
+                                                                                                                    0.5
+
+                 99%                                                                                                0.0
+      10−2
+                  FAST + ELT + VLT
+                  ELT + VLT
+                                                                                                       −0.5
+                  ELT
+                  VLT                                                                                  −1.0
+      10−3
+                 2040   2060    2080      2100     2120     2140     2160
+                                       Date                                                            −1.5
+
+Fig. 6. Dashed lines show the confidence level at which the null drift,                                −2.0
+                                                                                                                           0        1          2              3            4            5
+v̇ ≡ 0, is excluded, as a function of time for different experimental con-
+figurations. Green: 1000 h/yr of ESPRESSO; Magenta: 100 h/yr of AN-                                                                                    z
+DES starting in 2040; Blue: combination of the single ESPRESSO and
+ANDES cases; Orange: combination of the single ESPRESSO and AN-                                                                FAST + ELT + VLT
+DES cases, plus yearly FAST measurements of 300 H i 21cm absorption                                                  1         ELT + VLT
+lines, two hours of exposure per radio target. Shaded regions report the                                                       ELT
+
+                                                                                       v̇(z = 3.5) [cm s−1 yr−1 ]
+variation of the confidence levels under the assumption of ±20% uncer-                                                         VLT
+tainty on σv̇ of the six targets of the GS not analysed in this work. Solid
+lines report the same instrumental configurations, limiting the optical                                              0
+measurements to only SB1 and SB2. Black dashed horizontal lines re-
+port the 68%, 95%, and 99% confidence thresholds.
+
+
+7. Result and discussion                                                                                            −1
+
+We have carried out the third epoch of observations of the                                                                                                              Ωm , ΩΛ = 1.0, 0.0
+ESPRESSO redshift drift experiment on quasar J052915.80-                                                                                                                Ωm , ΩΛ = 0.3, 0.0
+435152.0 (SB2), expanding on the effort reported in Paper I.                                                        −2                                                  No Drift
+With the newly added third epoch of observations, the total S/N                                                                                                         ΛCDM
+per 1 km s−1 pixel at continuum in the Lyman-α forest becomes                                                         −3         −2           −1              0             1                2
+∼ 113.                                                                                                                                                     −1     −1
+    In this work, we applied the same modelling technique as                                                                               dv̇/dz [cm s         yr ]
+presented in Paper I, based on an ensemble of 500 spline mod-
+els of the Lyman-α transmission profiles, where the spline scale              Fig. 7. Extrapolated status of the experiment in the year 2070. Top
+                                                                              panel: simulated measurements of the seven GS quasars (black squares)
+is calibrated on realistic simulations of the Lyman-α forest and
+                                                                              and the 300 H i 21 cm lines (binned, black circle). Shaded areas re-
+tailored to the S/N of the spectra in consideration. The model ob-            port the 68% fit uncertainty of the 104 realisations of the experiment
+tained was used to measure the velocity drift between the three               at this epoch for the scenarios of a VLT-only experiment (1000 h/yr of
+datasets with two independent methods:                                        ESPRESSO, green), an ELT-only experiment (100 h/yr of ANDES after
+                                                                              2040, magenta), an ELT+VLT campaign (combination of the latter two
+ – Pixel-by-pixel method (Sect. 4.2): v̇ = −3.43 ±                            cases, blue), and a FAST+ELT+VLT scenario (combination of the latter
+   3.56 m s−1 yr−1 ;                                                          case and 300 H i 21 cm lines observed yearly with FAST, orange). Only
+ – Model Likelihood (Sect. 4.3): v̇ = −3.63 ± 3.65 m s−1 yr−1 .               the acceleration uncertainties σv̇ of the FAST+ELT+VLT scenario are
+                                                                              reported as the scatter points’ error bars for clarity. Red dashed line re-
+Both methods yield results that are compatible with each other                ports the expected ΛCDM cosmic acceleration, whereas the grey lines
+in terms of measurement and uncertainty. The measurement pre-                 describe Universes with no drift (dotted), Ωm = 1.0; ΩΛ = 0.0 (dashed)
+cision of both methods is about 20% larger than the theoretical               and Ωm = 0.3; ΩΛ = 0.0 (dash-dotted). Bottom panel: Contours show-
+prediction from the scaling relation of Liske et al. (2008) (Eq. 2;           ing the 68%, 95% and 99% levels of the fitted parameter’s posterior
+σv̇ ≈ 2.9 m s−1 yr−1 ). In this work, we based the drift measure-             distribution. The null-signal hypothesis (v̇ ≡ 0) is defined by the white
+ment on a single sightline, whereas the scaling relation is tuned             circle. White square and diamond describe the fitting parameters of the
+                                                                              Ωm = 1.0; ΩΛ = 0.0 and Ωm = 0.3; ΩΛ = 0.0 Universes, respectively.
+to the average result over an ensemble of QSOs and, as shown
+                                                                              ΛCDM is defined with the red cross. In the FAST+ELT+VLT scenario,
+by Liske et al. (2008) and in Paper II, differences in the measured           the null hypothesis is excluded at more than 68% confidence level at the
+velocity uncertainty are expected among sightlines, with varia-               shown epoch.
+tions as high as 20%, due to the properties of the Lyman-α forest
+(e.g. density of strong and weak absorbers, metal contaminant,
+DLAs) on each sightline. Moreover, the current data’s S/N is
+much lower than the regime used to anchor the scaling relation,                   As expected, with a longer baseline and a higher S/N, we
+of order a few thousand, and one could expect large uncertain-                pose a new constraint on the redshift drift, improving on the one
+ties on the extrapolated values from the relation at the current              presented in Paper I. The current data are not sufficient to break
+low-S/N regime.                                                               the best constraint found in the literature of σv̇ = 2.2 m s−1 yr−1
+                                                                                                                                                                  Article number, page 9
+                                               A&A proofs: manuscript no. ESPRESSO_DRIFT_3
+
+coming from the analysis of 21 cm H i lines on 10 objects over a           Investigador FCT Contract 2021.01214.CEECIND/CP1658/CT0001 (DOI
+baseline of a decade (Darling 2012), although this limit is based          10.54499/2021.01214.CEECIND/CP1658/CT0001). CMJM is supported by an
+                                                                           FCT fellowship, grant number 2023.03984.BD. MTM acknowledges the sup-
+on heterogeneous archival data at z ∼ 0.09−0.69 and is therefore           port of the Australian Research Council through Future Fellowship grant
+complementary to our results. We estimate that 9 hours of inte-            FT180100194 and through the Australian Research Council Centre of Ex-
+gration of SB2 in late-2025/early-2026 (ESO period P116, run               cellence in Optical Microcombs for Breakthrough Science (project number
+ID 116.28U4, accepted, partly executed) are sufficient to reach            CE230100006) funded by the Australian Government. TMS acknowledges the
+the same precision level.                                                  support from the SNF synergia grant CRSII5-193689 (BLUVES). The work
+                                                                           of KB is supported by NOIRLab, which is managed by the Association of
+     We extrapolated the current analysis to estimate the expected         Universities for Research in Astronomy (AURA) under a cooperative agree-
+timeline of a complete experiment under different observational            ment with the U.S. National Science Foundation. EP acknowledges financial
+setups. We analysed the effect of adopting either ESPRESSO,                support from the Agencia Estatal de Investigación of the Ministerio de Cien-
+                                                                           cia e Innovación MCIN/AEI/10.13039/501100011033 and the ERDF “A way
+ANDES, or both instruments to monitor the positions of Lyman-              of making Europe” through project PID2021-125627OB-C32, and from the
+α lines in the spectra of the seven quasars of the Golden Sample.          Centre of Excellence “Severo Ochoa” award to the Instituto de Astrofisica
+In this framework, ESPRESSO is essential to reduce the uncer-              de Canarias. ASM and JIGH acknowledge financial support from the Spanish
+tainty to a few centimetres per second per year prior to ANDES             Ministry of Science, Innovation and Universities (MICIU) projects PID2020-
+first light, enabling a robust assessment of residual systematic           117493GB-I00 and PID2023-149982NB-I00. NCS and NN acknowledge finan-
+                                                                           cial support by FCT - Fundação para a Ciência e a Tecnologia through national
+effects. These are likely dominated by wavelength calibration              funds by these grants: UIDB/04434/2020 DOI: 10.54499/UIDB/04434/2020,
+accuracy and spectral artefacts introduced during the reduction            UIDP/04434/2020 DOI: 10.54499/UIDP/04434/2020. NCS is co-funded by the
+process. At the present S/N, however, such effects remain sub-             European Union (ERC, FIERCE, 101052347). Views and opinions expressed
+dominant relative to statistical uncertainties and cannot be char-         are however those of the author(s) only and do not necessarily reflect those of the
+                                                                           European Union or the European Research Council. Neither the European Union
+acterised further. Ongoing developments in high-fidelity spec-             nor the granting authority can be held responsible for them. This work was sup-
+tral extraction and wavelength calibration — including spectro-            ported by FCT - Fundação para a Ciência e a Tecnologia through national funds
+perfectionism (Bolton & Schlegel 2010; Piskunov et al. 2021),              by grants reference UID/04434/2025. FP would like to acknowledge the Swiss
+and detailed modelling of the instrumental LSF and its stabil-             National Science Foundation (SNSF) for supporting research with ESPRESSO
+                                                                           through the SNSF grants nr. 140649, 152721, 166227, 184618 and 215190. The
+ity (e.g. Schmidt 2024; Schmidt et al. 2025) — are specifically            ESPRESSO Instrument Project was partially funded through SNSF’s FLARE
+aimed at reaching the precision required for this measurement              Programme for large infrastructures.
+and related exoplanet applications. A dedicated treatment of
+these systematics is therefore deferred to future work.
+     At first order, a combination of both ANDES and                       Affiliations
+ESPRESSO, without accounting for systematic effects nor po-
+                                                                           1
+tential future technological improvements, is expected to show               SISSA – International School for Advanced Studies, Via
+first signs of significant detection by ∼ 2080. However, we                Bonomea 265, I-34136 Trieste, Italy
+                                                                           2
+stress the fact that these estimates are an extrapolation of the             INAF – Osservatorio Astronomico di Trieste, Via G.B. Tiepolo,
+results obtained by analysing only one sightline, at relatively            11, I-34143 Trieste, Italy
+                                                                           3
+low S/N. (Liske et al. 2008) has shown that a variance of up to              Dipartimento di Fisica dell’Università di Trieste, Sezione di
+20% in measurement uncertainty is expected to occur between                Astronomia, Via G.B. Tiepolo, 11, I-34143 Trieste, Italy
+                                                                           4
+sightlines, due to the different distributions of weak and strong            INFN – National Institute for Nuclear Physics, via Valerio 2,
+Lyman-α absorbers. Since a proper high-resolution analysis of              I-34127 Trieste
+                                                                           5
+the other sightlines of the GS has not been carried out yet, the es-         Centro de Astrofísica da Universidade do Porto, Rua das
+timated timeline extrapolated from the SB2 results suffers uncer-          Estrelas, 4150-762 Porto, Portugal
+                                                                           6
+tainties of about 10% on the total experiment duration. Limiting             Instituto de Astrofísica e Ciências do Espaço, Universidade do
+the analysis to only the two brightest targets of the GS reduces           Porto, CAUP, Rua das Estrelas, 4150-762 Porto, Portugal
+                                                                           7
+the overall baseline by a factor ∼ 8%, but might suffer from more            Departamento de Física e Astronomia, Faculdade de Ciências,
+systematics related to the reduced sample size.                            Universidade do Porto, Rua do Campo Alegre, 4169-007 Porto,
+     Lastly, we showed that complementing the optical Lyman-α -            Portugal
+                                                                           8
+based experiment with a monitoring campaign of low-z H i 21cm                IFPU – Institute for Fundamental Physics of the Universe,
+absorption lines performed on large modern radio facilities such           via Beirut 2, I-34151 Trieste, Italy 9 Hamburger Sternwarte,
+as FAST greatly reduces the required experiment baseline, show-            Universität Hamburg, Gojenbergsweg 112, D-21029 Hamburg,
+ing first signs of significant detection by ∼ 2070. Similarly, an          Germany11 10 European Southern Observatory (ESO), Karl-
+extension of the current program to the bright quasars found               Schwarzschild-Str. 2, 85748 Garching bei Munchen, Germany
+in the northern hemisphere (e.g. J142438.12+225600.9, zem =                11
+                                                                              INAF – Arcetri Astrophysical Observatory, Largo E. Fermi 5,
+3.62, r = 15.4 mag, Patnaik et al. (1992)) could rely on forth-            I-50125 Florence, Italy
+                                                                           12
+coming instrumentation such as the Canary Hybrid Optical high-                Instituto de Astrofísica de Canarias (IAC), Calle Vía Láctea
+Resolution Ultra-stable Spectrograph (CHORUS; Zhang et al.                 s/n, E-38205 La Laguna, Tenerife, Spain
+                                                                           13
+(2020)), under development for the 10.4m Gran Telescopio Ca-                  Departamento de Astrofísica, Universidad de La Laguna
+narias (GTC), increasing the amount of tracers of the cosmic               (ULL), E-38206 La Laguna, Tenerife, Spain
+                                                                           14
+drift and thus reducing the experiment timeline.                              Centre for Astrophysics and Supercomputing, Swinburne
+                                                                           University of Technology, Hawthorn, Victoria 3122, Australia
+Acknowledgements. The authors are thankful to J. Darling for the pro-      15
+lific discussion and help on radio astronomy. AT is partly supported by       Instituto de Astrofísica e Ciências do Espaço, Faculdade de
+the INFN INDARK and SISSA ERC IDEAS grants. The INAF authors               Ciências da Universidade de Lisboa, Campo Grande, PT1749-
+acknowledge financial support of the Italian Ministry of Education, Uni-   016 Lisboa, Portugal
+versity, and Research with PRIN 201278X4FL and the "Progetti Premi-        16
+                                                                              Departamento de Física da Faculdade de Ciências da Univer-
+ali" funding scheme. This work was financed by Portuguese funds through
+FCT (Fundação para a Ciência e a Tecnologia) in the framework of the
+                                                                           sidade de Lisboa, Edifício C8, 1749-016 Lisboa, Portugal
+                                                                           17
+project 2022.04048.PTDC (Phi in the Sky, DOI 10.54499/2022.04048.PTDC).       Observatoire Astronomique de l’Université de Genève,
+CMJM also acknowledges FCT and POCH/FSE (EC) support through               Chemin Pegasi 51, CH-1290 Versoix, Switzerland
+Article number, page 10
+                                                 A. Trost et al.: The ESPRESSO Redshift Drift Experiment III
+
+18
+   Center for Space and Habitability, University of Bern,
+Gesellschaftsstrasse 6, Switzerland
+19
+   Cerro Tololo Inter-American Observatory/NSF NOIRLab,
+Casilla 603, La Serena, Chile
+20
+   INAF – Osservatorio Astronomico di Padova, Vicolo
+dell’Osservatorio 5, I-35122, Padova, Italy
+21
+   INAF – Osservatorio Astrofisico di Torino, Via Osservatorio
+20, I-10025 Pino Torinese, Italy
+22
+   Centro de Astrobiología, CSIC-INTA, Camino Bajo del
+Castillo s/n, 28602 Villanueva de la Cañada, Madrid, Spain
+
+
+
+References
+Adame, A. G., Aguilar, J., Ahlen, S., et al. 2025, J. Cosmology Astropart. Phys.,
+   2025, 021
+Alves, C. S., Leite, A. C. O., Martins, C. J. A. P., Matos, J. G. B., & Silva, T. A.
+   2019, Mon. Not. Roy. Astron. Soc., 488, 3607
+Bolton, A. S. & Schlegel, D. J. 2010, PASP, 122, 248
+Bolton, J. S., Puchwein, E., Sijacki, D., et al. 2017, MNRAS, 464, 897
+Bouchy, F., Pepe, F., & Queloz, D. 2001, A&A, 374, 733
+Corasaniti, P.-S., Huterer, D., & Melchiorri, A. 2007, Phys. Rev. D, 75, 062001
+Cristiani, S., Porru, M., Guarneri, F., et al. 2023, MNRAS, 522, 2019
+Cupani, G., D’Odorico, V., Cristiani, S., et al. 2020, in Software and Cyber-
+   infrastructure for Astronomy VI, ed. J. C. Guzman & J. Ibsen, Vol. 11452,
+   International Society for Optics and Photonics (SPIE), 372 – 388
+Darling, J. 2012, Astrophys. J., 761, L26
+DES Collaboration, Abbott, T. M. C., Acevedo, M., et al. 2024, ApJ, 973, L14
+Di Marcantonio, P., Sosnowska, D., Cupani, G., et al. 2018, in Society of Photo-
+   Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 10704, Ob-
+   servatory Operations: Strategies, Processes, and Systems VII, 107040F
+Fienga, A., Manche, H., Laskar, J., Gastineau, M., & Verma, A. 2014, arXiv
+   e-prints, arXiv:1405.0484
+Geng, J.-J., Zhang, J.-F., & Zhang, X. 2014, J. Cosmology Astropart. Phys.,
+   2014, 018
+Jiang, P., Yue, Y., Gan, H., et al. 2019, Science China Physics, Mechanics, and
+   Astronomy, 62, 959502
+Kang, J., Zhang, T.-J., He, P., & Zhu, M. 2025, ApJ, 982, 177
+Liske, J., Grazian, A., Vanzella, E., et al. 2008, MNRAS, 386, 1192
+Loeb, A. 1998, ApJ, 499, L111
+Madhavacheril, M. S., Qu, F. J., Sherwin, B. D., et al. 2024, ApJ, 962, 113
+Marconi, A., Abreu, M., Adibekyan, V., et al. 2024, in Society of Photo-Optical
+   Instrumentation Engineers (SPIE) Conference Series, Vol. 13096, Ground-
+   based and Airborne Instrumentation for Astronomy X, ed. J. J. Bryant, K. Mo-
+   tohara, & J. R. D. Vernet, 1309613
+Marques, C. M. J., Martins, C. J. A. P., & Alves, C. S. 2023, MNRAS, 522, 5973
+Marques, C. M. J., Martins, C. J. A. P., & Gilabert López, B. 2024, MNRAS,
+   527, 9918
+Martins, C. J. A. P. et al. 2024, Exper. Astron., 57, 5
+Patnaik, A. R., Browne, I. W. A., Walsh, D., Chaffee, F. H., & Foltz, C. B. 1992,
+   MNRAS, 259, 1P
+Pepe, F., Cristiani, S., Rebolo, R., et al. 2021, A&A, 645, A96
+Piskunov, N., Wehrhahn, A., & Marquart, T. 2021, A&A, 646, A32
+Prestage, R. M., Constantikes, K. T., Hunter, T. R., et al. 2009, IEEE Proceed-
+   ings, 97, 1382
+Rocha, B. A. R. & Martins, C. J. A. P. 2022, Mon. Not. Roy. Astron. Soc., 518,
+   2853
+Rorai, A., Becker, G. D., Haehnelt, M. G., et al. 2017, MNRAS, 466, 2690
+Sandage, A. 1962, ApJ, 136, 319
+Schmidt, T. M. 2024, MNRAS, 532, 1635
+Schmidt, T. M., Reiners, A., Murphy, M. T., et al. 2025, MNRAS, 539, 3301
+Tristram, M., Banday, A. J., Douspis, M., et al. 2024, A&A, 682, A37
+Trost, A., Bolton, J. S., Caputo, A., et al. 2025a, Phys. Rev. D, 111, 083034
+Trost, A., Marques, C. M. J., Cristiani, S., et al. 2025b, A&A, 699, A159
+Uzan, J.-P., Clarkson, C., & Ellis, G. F. R. 2008, Phys. Rev. Lett., 100, 191303
+Yoon, H., Sadler, E. M., Mahony, E. K., et al. 2025, PASA, 42, e088
+Zhang, K., Shi, J., Zhu, Y., et al. 2020, in Society of Photo-Optical Instrumen-
+   tation Engineers (SPIE) Conference Series, Vol. 11447, Ground-based and
+   Airborne Instrumentation for Astronomy VIII, ed. C. J. Evans, J. J. Bryant, &
+   K. Motohara, 114475I
+
+
+
+
+                                                                                                               Article number, page 11
+                                                A&A proofs: manuscript no. ESPRESSO_DRIFT_3
+
+     Appendix A: Wavelength Calibration Stability
+     Accurate and stable calibration sources play a crucial role in the
+     measurement of tiny effects, such as the cosmic redshift drift
+     and are expected to be the main origin of systematic uncertainty
+     in such an experiment. In this section, we look for differences
+     in the wavelength solutions provided by the FP+ThAr and LFC
+     calibration frames.
+         We compared the wavelength solutions of each pixel of the
+     order-by-order ESPRESSO spectra of each quasar exposure pro-
+10   vided by the two calibration sources, as obtained through the re-
+     duction pipeline where we assumed a Gaussian LSF for both
+     sources. Fig. A.1 shows the difference (in velocity units) be-
+     tween the LFC and ThAr solutions as a function of ThAr-based
+     wavelength within the Lyman-α forest, where large-scale oscil-
+     lations are found, as well as single-order effects, especially at
+     order edges. A large fluctuation is found in correspondence with
+     the dichroic split between the two arms of the spectrograph (at
+     ∼ 5200 Å). The median velocity difference between the two cali-
+     bration sources is −6 m s−1 , consistently among the three epochs
+20   of observation.
+         Since the measurement of the redshift drift is intrinsically a
+     relative problem, i.e. it measures the difference in line positions
+     over time, a constant systematic shift between the wavelength
+     solutions of the two calibration sources should not affect the re-
+     sults, as long as the analysis is carried out self-consistently on
+     only one source. We therefore analysed the time evolution of the
+     median differences between LFC and ThAr solutions, ∆v, and
+     found a trend with slope d∆v/dt = 0.36 ± 0.49 m s−1 yr−1 . This
+     result, although compatible with a null time evolution of the dif-
+30   ferences in wavelength calibration, accounts for about half of the
+     discrepancy found between the ThAr and LFC-based drift mea-
+     surements (∆v̇(LFC−ThAr) ∼ 0.9 m s−1 yr−1 ; see Sect. 5.3).
+
+
+
+
+     Article number, page 12
+                                           A. Trost et al.: The ESPRESSO Redshift Drift Experiment III
+
+
+
+
+Fig. A.1. Velocity difference per pixel in the wavelength solutions of the order-by-order ESPRESSO spectra with LFC and ThAr+FP calibrations,
+as a function of ThAr-calibrated wavelength. All SB2 exposures are stacked and colour-coded by epoch: first (orange), second (blue), and third
+(pink). Right-hand histogram shows the distribution of the pixel velocity differences, with the same colour code. Dashed green line reports the
+overall median velocity difference.
+
+
+
+
+Fig. A.2. Time evolution of the median velocity difference in the wave-
+length solution of LFC and ThAr calibrated data. Green dashed line and
+shaded area represent the best-fit linear relation with its 1σ uncertainty
+region.
+
+
+
+
+                                                                                                                       Article number, page 13
+

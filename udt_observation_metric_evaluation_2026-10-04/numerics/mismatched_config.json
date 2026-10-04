@@ -1,0 +1,155 @@
+{
+  "cases": [
+    {
+      "id": "flat_0",
+      "metric": "flat",
+      "L": 0.1,
+      "reverse": true,
+      "echo": true,
+      "smoke": false
+    },
+    {
+      "id": "flat_1",
+      "metric": "flat",
+      "L": 1.0,
+      "reverse": true,
+      "echo": true,
+      "smoke": true
+    },
+    {
+      "id": "quadratic_0",
+      "metric": "quadratic",
+      "L": 0.015707963267948967,
+      "fraction_of_control_limit": 0.01,
+      "reverse": false,
+      "echo": false,
+      "smoke": false
+    },
+    {
+      "id": "quadratic_1",
+      "metric": "quadratic",
+      "L": 0.15707963267948966,
+      "fraction_of_control_limit": 0.1,
+      "reverse": true,
+      "echo": true,
+      "smoke": false
+    },
+    {
+      "id": "quadratic_2",
+      "metric": "quadratic",
+      "L": 0.6283185307179586,
+      "fraction_of_control_limit": 0.4,
+      "reverse": false,
+      "echo": true,
+      "smoke": true
+    },
+    {
+      "id": "quadratic_3",
+      "metric": "quadratic",
+      "L": 1.2566370614359172,
+      "fraction_of_control_limit": 0.8,
+      "reverse": true,
+      "echo": false,
+      "smoke": false
+    },
+    {
+      "id": "quadratic_4",
+      "metric": "quadratic",
+      "L": 1.4922565104551517,
+      "fraction_of_control_limit": 0.95,
+      "reverse": false,
+      "echo": false,
+      "smoke": false
+    },
+    {
+      "id": "cubic_0",
+      "metric": "cubic",
+      "L": 0.006045997880780726,
+      "fraction_of_control_limit": 0.005,
+      "reverse": false,
+      "echo": false,
+      "smoke": false
+    },
+    {
+      "id": "cubic_1",
+      "metric": "cubic",
+      "L": 0.024183991523122905,
+      "fraction_of_control_limit": 0.02,
+      "reverse": false,
+      "echo": false,
+      "smoke": false
+    },
+    {
+      "id": "cubic_2",
+      "metric": "cubic",
+      "L": 0.12091995761561453,
+      "fraction_of_control_limit": 0.1,
+      "reverse": true,
+      "echo": true,
+      "smoke": false
+    },
+    {
+      "id": "cubic_3",
+      "metric": "cubic",
+      "L": 0.4836798304624581,
+      "fraction_of_control_limit": 0.4,
+      "reverse": false,
+      "echo": true,
+      "smoke": false
+    },
+    {
+      "id": "cubic_4",
+      "metric": "cubic",
+      "L": 0.9673596609249162,
+      "fraction_of_control_limit": 0.8,
+      "reverse": true,
+      "echo": false,
+      "smoke": true
+    },
+    {
+      "id": "cubic_5",
+      "metric": "cubic",
+      "L": 1.1487395973483379,
+      "fraction_of_control_limit": 0.95,
+      "reverse": false,
+      "echo": false,
+      "smoke": false
+    },
+    {
+      "id": "cubic_6",
+      "metric": "cubic",
+      "L": 1.1850155846330221,
+      "fraction_of_control_limit": 0.98,
+      "reverse": false,
+      "echo": false,
+      "smoke": false
+    }
+  ],
+  "tolerances": [
+    1e-08,
+    1e-10,
+    1e-12
+  ],
+  "emission_steps": [
+    0.0001,
+    5e-05
+  ],
+  "absolute_tolerance_factor": 0.001,
+  "saved_nodes": 129,
+  "max_solves_per_command": 300,
+  "max_rhs_per_command": 250000,
+  "maximum_coordinate_time": 100.0,
+  "maximum_affine_parameter": 1000000.0,
+  "tight_limits": {
+    "null_relative": 2e-08,
+    "momentum_relative": 2e-08,
+    "metricity_absolute": 2e-06,
+    "transported_k_absolute": 2e-07,
+    "original_residual_scaled": 2e-06,
+    "endpoint_error": 1e-10,
+    "arrival_frequency_relative": 2e-05
+  },
+  "reverse_limit": 1e-08,
+  "refinement_limit": 2e-07,
+  "mismatch_probe": "no scientific equation change, provenance mismatch"
+}

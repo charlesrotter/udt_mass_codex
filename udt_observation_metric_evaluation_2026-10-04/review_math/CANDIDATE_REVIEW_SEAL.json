@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-04T20:07:38.715127+00:00",
+  "verdict": "VERIFIED_WITH_CAVEATS_FINITE_SUPPLIED_METRIC_EVALUATOR",
+  "final_integration_reviewed": false,
+  "reviewer_context": "/root/oev_math",
+  "sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/review_math/CANDIDATE_REVIEW.md": "0e1d9797488a71f5eed8f92118d34100926f021f1c0fec972ae04c5c09d76932",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/SOURCE_FIRST.md": "0170abdafdcb9d8ed2b81be7be131fbe14e618eecc9d3e5e62247de64c706e40",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/SOURCE_FIRST_SEAL.json": "ea822adfd4f5426d978542126e147e7fa80b90d75cf4fc20eb46747070b52e30",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_PLAN.md": "da611d7a903bf922e3d03b9fa20f6146fd8520a34725f88024f1a0749d003059",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/independent_check.py": "f6b2fac20f1d6c709f9336eb8cd7f498c8c7c8d86262d6a8bef014e86373ac89",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_FREEZE.json": "983b15050f42d3642cec8670b7d0f932b6492e9ceb963d5de932f74aeea8d186",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_RESULT.json": "450b1f7488aaea46e948e441678975cdcbd27aa814c3fa550d863056bf7fcdb4",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/EXECUTION.json": "05fcfc11b2ac35ff9f5881b3ba4bdd7be42140494d2eb452ea13ac3dd40c204a",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/independent.stdout": "0bd0dd1e2c72da154eed46a378dc27739b03bbdc7508dc61ca9d61aa6a2b6b55",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/independent.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

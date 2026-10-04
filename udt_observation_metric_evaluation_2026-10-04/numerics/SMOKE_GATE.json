@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T20:01:43.730156+00:00",
+  "status": "PASS_BOUNDED_ACTUAL_WORKLOAD_SMOKE",
+  "receipt_sha256": {
+    "smoke_interrupt": "d32ea38f89223f101baf0066c9a4a3fd2848e90d71d95caf5d2ce2912b72a015",
+    "smoke_resume": "1b61c7c518f8004349fb41734cfc9dea448e3aa6cbe339ea4b68657a4b7bf77c",
+    "smoke_uninterrupted": "cbac22293a9fee40587ccd866f22caf29b5314998685654f1e9a7bd304007185",
+    "smoke_diagnostics": "1ce773a171b15655b3a583f2548f59ad876330c0edfe8b78cee66fd5c0936a9b",
+    "smoke_config_rejection": "67e8306cf24ed1c5afdc1c9d0b507687ae90abdc7bf1be4e28b6a1f532843b18"
+  },
+  "load": "Full3-case tight smoke0.25993s,80152KiB peak;6890 RHS,19 rays. Production246 rays, finite CPU workload; no GPU/long dispatch needed.",
+  "checks": "Original constraints/residuals, readable NPZ, real between-case SIGINT130, exact resume agreement, mismatched-config exit1 and unchanged prior outputs.",
+  "limits": "Finite sampled floating-point diagnostics; no general workload or native metric certification."
+}

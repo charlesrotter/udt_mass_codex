@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — PRT1 positional translation and step4/5 handoff reviewed,
+**Current development — OEV1 observation constraints and finite evaluator reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,50 +35,51 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** Charles authorized an existing comparison, faithful
-translation of the positional requirement and derivation of its restrictions,
-then a handoff to observations and numerics. PRT1 returns a reviewed conditional
-formulation; the native positional assignment remains OPEN.
+**Current learning.** Charles authorized steps 4/5 after PRT1. OEV1 assessed
+three observational channels using eight primary papers/releases and executed
+a bounded supplied-metric evaluator. Native geometry selection remains OPEN.
 
-The chosen experiment uses properly separated, parallel-prepared free clocks
-and two independent first signals. Its ordinary query data need no universal
-population law. Free preparation removes initial velocity mismatch and proper
-acceleration but does not remove ordinary curvature or isolate a positional
-component. Net positivity and a selected reference contrast therefore remain
-explicit alternative conditional assignments, not derived physical laws.
+Megamaser distances are the strongest immediate independent-distance lead in
+this limited comparison. Their distances avoid a redshift-distance cosmology
+but retain disk dynamics, source gravity, calibration and posterior dependence.
+All six published source rows were converted into frame-labeled spectral-ratio
+proxies with separate marginal distance/error intervals. No H0, peculiar-flow,
+native curve, joint likelihood or positional attribution was fit. D_A is not
+PSW's initial proper separation. Published outcomes were exposed; this is an
+exploratory constraint table, not held-out confirmation.
 
-Strict finite slowing can imply only a weak local tidal sign; its quadratic
-coefficient may vanish. Same sign across laboratories is weaker than PCC's
-identical coefficient. A supplied existing control satisfies the weaker
-all-frame signs in a stated region without being an Einstein metric. Another
-existing control has zero initial curvature, cubic clock onset and a divergent
-first-reception ratio at a finite limiting preparation distance, while future
-local curvature stays regular. The new future-domain calculation is conditional;
-its scale, limit and power are not native X_max or an adopted cosmology.
+Direct spectroscopic drift and supernova temporal widths ask different questions.
+The map preserves observer/source/calibration and population assumptions. A source
+precision repair explicitly keeps a tight supernova estimate within the authors'
+second-method consistency-check scope, while retaining first-method evidence.
+Native dynamics need not be complete to design observations or test a declared
+metric/query/readout package; that package is not supplied by these summaries.
 
-These checks prevent selecting a quadratic onset, constant-curvature form or
-asymptotic exponent from qualitative slowing alone. They preserve the founding
-requirement and old positive/negative results without proving that the full
-postulates are insufficient or a new premise is necessary. No response, physical
-reference, field equation, population or scale is selected.
+The evaluator solves original affine-null/transport equations on the existing
+flat, quadratic and cubic controls, with ordinary comoving clocks and fixed
+histories. Fourteen queries at three tolerances give 42 retained center records
+and 246 ray solves. Tight 14 pass the frozen limits; coarse rows remain refinement
+diagnostics. A separate high-precision implementation checks all 6393 saved
+samples and 246 endpoint roles, with targeted corrupted-record rejection.
+Independent source-table arithmetic also passes. These are finite conditional
+checks, not native admission, a continuum enclosure or an asymptotic proof.
 
-The concrete next handoff is step4A: a bounded observation-to-comparison table
-for at most three channels, with actual readouts, independent distance, source/
-observer histories, uncertainty and prior exposure. Then freeze one candidate
-analysis before inspecting new confirmation outcomes. Supplied-metric clock/
-ray/transport evaluation in step5A can proceed independently under its own
-work order. Broader step5B needs declared equations/conditional constraints,
-domains and actual-workload smoke/load/restart gates; it is not a complete
-native-space survey. No stage4/5 campaign runs in this return.
+Actual-workload smoke includes interruption after a checkpoint, exact restart
+agreement and mismatched-config rejection. The CPU workload took seconds and
+used no GPU or multi-hour run. Stage 4B returns the handoff's permitted narrowed
+observable constraints; stage 5A is complete at the supplied-control scope.
+Stage 5B still needs an admitted metric equation/constraint class, chart/gauge,
+domain and sufficient initial/boundary data. An evaluator does not provide those.
 
-After orientation read R8PRT and R18, with PSW/FPC/PCC/ACI/GRL as load-bearing.
-Two fresh reviewer contexts hand-checked the arguments and actual controls,
-then reviewed precision and handoff. Initial candidates and wording corrections
-remain preserved. Shared model/source exposure is disclosed; no scientific
-program, human, different-model, formal or empirical review is claimed. Actual
-final attestations and normal/maintenance/full406 receipts own closure. The
-recommended next task is the bounded step4A interface audit, not an automatic
-startup dispatch or physical adoption.
+After orientation read R8OEV and R18. The next scientific gate is one explicit
+astronomical metric/query/readout package predicting the same distance/spectrum,
+with source/motion conventions and joint uncertainties. More samples of these
+controls would not close that physical connection. No new premise, scale or
+field law is adopted, and no whole-postulate insufficiency is proved. Stop for
+lay discussion; no broader solver or parked campaign restarts automatically.
+Two fresh same-model contexts provide actual scoped reviews and distinct
+numerical checks; source/outcome exposure and omitted raw pipelines remain
+disclosed. Final attestations and normal/maintenance/full 406 receipts own closure.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1309,9 +1310,140 @@ Step4 design can proceed with the native join open; numerical evaluation need
 not wait for observations. The precise next work is in the fixed
 [step4/5 handoff](udt_positional_requirement_translation_2026-10-04/STEPS_4_5_HANDOFF.md)
 and [controlling precision](udt_positional_requirement_translation_2026-10-04/PRECISION.md).
-No stage4/5 campaign is executed here. [Initial candidate](udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md)
+PRT1 ended with that handoff; OEV1 below executes its bounded next stages. [Initial candidate](udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md)
 and [reviewed return](udt_positional_requirement_translation_2026-10-04/REVIEWED_RESULT.md)
 preserve the exact conditional scope. R18 owns the recommended next bounded task.
+
+
+<a id="r8oev"></a>
+
+#### Observational constraints and finite metric evaluation — OEV1
+
+Charles authorized PRT1's steps 4 and 5. **The return is a source-conditional
+observational constraint table and a checked supplied-metric evaluator; native
+geometry selection remains open.** Step 4A assessed three channels. Step 4B
+returned the permitted narrowed observable constraints because no astronomical
+metric/query/readout candidate was specified for a likelihood. Step 5A ran the
+finite evaluator. Step 5B did not acquire native evolution equations from it.
+The open field law does not prevent observation design or testing a subsequently
+declared candidate; an evaluator pass does not identify that candidate.
+
+**What observations actually constrain.** Eight primary papers/releases support
+the [source map](udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md)
+and its versioned ledger. Ranking concerns independent distance provenance and
+identifiable readouts, not expected agreement with UDT or all of astronomy.
+
+| Channel | Usable quantity | Retained inference limit |
+|---|---|---|
+| Megamaser disk observations | Conditional angular-size distance and frame-labeled systemic spectral shift | Distance avoids a redshift-distance cosmology but retains source dynamics, gravity, disk geometry, calibration and posterior correlations; not PSW initial proper L. |
+| Direct spectroscopic drift | Change of identified spectral features over reception time | Calibration, absorber history and nuisance acceleration remain; drift is not separation variation or a curvature sign by itself. |
+| Supernova temporal widths | Received time-profile comparison under a source-population relation | No independent geometric distance; source diversity, wavelength matching, selection and shared reference curves remain. |
+
+The selected published-data diagnostic uses all six rows of MCP XIII Table 1,
+[Pesce et al. 2020, v2, p4](https://arxiv.org/pdf/2001.09213v2).
+Reported distance medians span 7.58–132.1 Mpc. With the source's CMB-frame
+optical convention v=c_E z and observed unit calibration c_E=299792.458 km/s,
+the median z values span 0.0022659009–0.0339988540. The saved
+[constraint table](udt_observation_metric_evaluation_2026-10-04/observation/MCP_CONSTRAINTS.tsv)
+keeps the asymmetric distance marginal intervals and maps each velocity marginal
+monotonically through z=v/c_E and ell=log(1+z). NGC4258 retains its separately
+combined statistical/systematic distance uncertainty. The quoted source errors
+do not create a joint confidence region, likelihood or zero covariance.
+
+These are processed spectral proxies, not local recession speeds, unreduced
+detector-clock ratios or isolated positional slowing. The companion disk model
+uses inverse-square/Keplerian dynamics, relativistic Doppler and gravitational
+corrections before systemic redshift; those are labeled conventional source-
+readout assumptions, not native UDT equations. The later H0/FLRW stage is not
+used. No peculiar-flow correction, slope, preferred scale or D_A-to-L conversion
+is fit. A CMB reduction frame is a comparison convention, not a native preferred
+observer. R13's area identities alone do not supply a source luminosity model.
+
+The other sources retain useful positive evidence and their actual limitations.
+Darling2012's 2.2 m/s/yr is an uncertainty around the reported -5.5, not an
+absolute zero-centered bound. The newer ESPRESSO results share observations
+with the earlier analysis and revise its weighting; they are not independent
+confirmations. White2024's first free-exponent flux-scatter method supplies
+separate source-conditional temporal evidence. Its tight second-method exponent
+uses reference times divided by(1+z), and the authors explicitly call that
+method a consistency check. The preserved source-precision repair attaches
+that scope to the number without discarding the first method or the whole study.
+None of these channels automatically supplies the prepared query of R8PRT.
+
+The diagnostic rules were frozen before parent table extraction; the researcher
+had already seen published outcomes. Exact input/code were frozen before the
+conversion. This is exploratory source reuse, not held-out confirmation. A fresh
+reviewer visually checked the primary table and independently replayed sixty
+converted numeric fields using 60-digit Decimal arithmetic; differences are
+ordinary floating representation error, with log differences below 1e-17.
+That verifies transcription/conversion, not the source disk fit or astrophysics.
+
+**Original-equation evaluation on declared controls.** Use the supplied metrics
+g=-dt^2+a(t)^2 sum dx_i^2, with a=1,1+t^2,1+t^3 on unquotiented R^3; the cubic
+time domain is t>-1, and the other two have t in R. Each k=1 or b=1 is a
+separate control-unit normalization, not a physical scale. Restrict to the
+invariant radial slice with zero transverse tangent. Comoving clocks are exact
+unit geodesics; a(0)=1,a'(0)=0 makes t=0 preparation parallel and L proper.
+These are evaluator controls, not native-admitted cosmologies or construction
+inputs for a new UDT response.
+
+For future affine state(t,x,T,X) and the radial coordinate transport matrix P,
+the same metric connection gives
+
+    t'=T, x'=X, T'=-a(da/dt)X^2, X'=-2[(da/dt)/a]TX,
+    P'=-[[0,a(da/dt)X],[((da/dt)/a)X,((da/dt)/a)T]]P.
+
+Launch T=1, X=+/-1/a(t_e), P=I and stop at actual x=+/-L. Endpoint contractions
+give Z=1/T_receive. Centered arrival differences at two emission steps, with
+Richardson extrapolation, hold clock histories fixed. Selected reverse first
+signals use this control's reflection symmetry; selected echoes start at the
+actual first reception. Skipped echo queries are not numerical nonexistence
+findings. Analytic control horizons remain owned by the prior source arguments;
+the engineering time/affine caps are not physical endpoints.
+
+The frozen matrix is 14 queries at three tolerances, with 42 center trajectories
+and 246 ray solves. All coarse and tight results remain. The tight 14 satisfy
+the frozen thresholds: largest null-relative defect 2.03e-10, metricity defect
+1.53e-9, sampled original scaled residual 1.66e-11 and arrival/frequency
+discrepancy 2.29e-9. Coarse settings are refinement diagnostics and exceed some
+tight thresholds. Dense-trajectory differentiation versus the original shared
+RHS is an unpreconditioned residual check, not independent certification.
+
+A separate implementation uses 60-digit metric quadrature/root inversion,
+affine integrals and a metric-frame transport expression, without parent code
+imports. It checks all 246 endpoint roles and 6393 saved trajectory samples
+using 190 distinct scalar anchors, with selected 90-digit repeats. Tight maximum
+relative frequency error is 6.79e-11; parent arrival derivative versus the
+independent Z differs by at most 2.355e-9. Wrong-frequency, wrong-direction and
+shifted-incidence mutations are rejected. Small-L amplification is explicitly
+measured. These are finite floating/high-precision checks and observed refinement,
+not rigorous enclosures, universal convergence order or numerical proof of an
+asymptote. R6/R7 and the analytic control arguments retain their own hypotheses.
+
+Actual-workload smoke checked readable trajectories, constraints/residuals,
+SIGINT after a completed query, exact restart agreement, and config mismatch
+rejection. An incomplete in-flight query is not certified resumable. Both smoke
+paths and production totaled 284 rays/101368 RHS calls within the stated caps.
+The finite CPU production took about1.36s; no GPU or multi-hour run was needed.
+The [frozen numerical evidence](udt_observation_metric_evaluation_2026-10-04/numerics/FREEZE.json)
+and [independent checks](udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_RESULT.json)
+retain the actual equations, domains, commands, tolerances and omissions.
+
+**Remaining scientific gate.** A useful astronomical confrontation must predict
+the same angular-distance and spectral quantities, with actual source/observer
+histories, ray/area geometry, declared disk/frame/source reductions or justified
+recalibration, motion nuisance treatment and a joint uncertainty model. The six
+marginal constraints remain usable while that package is being developed; their
+existence does not identify positional attribution or force a new postulate.
+
+A native time-live search additionally needs an admitted equation/constraint
+class for metric degrees of freedom, chart/gauge, domain and sufficient initial/
+boundary data. R6/R7 evaluate a supplied geometry; they do not supply its native
+evolution. Existing conditional field/action branches do not restart or become
+adopted here. More samples of these three controls would not close this join.
+R18 owns the current return and next gate. [Initial result and chronology](udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md)
+and [work record](udt_observation_metric_evaluation_2026-10-04/WORK_RECORD.md)
+preserve discovery, review and repair; no registry or CANON promotion follows.
 
 
 #### Finite mutual ticking and its causal limits — FPC1
@@ -4319,30 +4451,42 @@ trial. The old cubic control's newly checked future domain allows zero initial
 quadratic term and a distant first-reception asymptote with bounded future local
 curvature. These supplied controls do not select a native UDT geometry.
 
-[PRT1's decision brief](udt_positional_requirement_translation_2026-10-04/DECISION_BRIEF.md)
-owns the current lay return. The native positional assignment remains open;
-steps1–3 return a precise conditional chain rather than a closed physical law.
-No whole-postulate insufficiency or new-postulate necessity is inferred. Existing
-mathematical tools and their adverse examples keep their source grades/domains.
+The [fixed PRT1 return](udt_positional_requirement_translation_2026-10-04/DECISION_BRIEF.md)
+retains that conditional chain. Charles then authorized steps 4/5, now developed
+in R8OEV. OEV1's three-channel/eight-source assessment selects megamaser distance
+and systemic spectral summaries as the immediate limited data lead. Six source
+rows yield explicit marginal constraints with the disk/readout/frame assumptions
+retained. No redshift-derived distance, D_A-to-PSW-L identification, H0/flow fit,
+joint likelihood or native positional attribution enters that conversion.
 
-The recommended next bounded task is step4A's observation-to-comparison map,
-specified in the [step4/5 handoff](udt_positional_requirement_translation_2026-10-04/STEPS_4_5_HANDOFF.md)
-with [controlling precision](udt_positional_requirement_translation_2026-10-04/PRECISION.md).
-For at most three channels identify actual observed ratios, independent distance,
-source/observer histories, readout/flux assumptions, errors/covariance, selection
-and prior exposure. Then propose one frozen candidate analysis. This design work
-can begin before native dynamics is closed; a missing protocol bridge limits its
-inference, not all observational planning. Native positional attribution still
-cannot be inferred merely from a positive measured net shift.
+The bounded evaluator solves the original affine/transport query on existing
+controls and passes actual smoke/restart and independent saved-artifact checks.
+Its 14 queries at 3 tolerances are 42 retained records; tight 14 meet frozen limits.
+It supplies no metric evolution, native admission or physical scale. Observed
+numerical refinement and finite sample agreement are not continuum/global proofs.
 
-Step5A may independently evaluate clock/null/transport queries on a supplied
-geometry with original residual and incidence checks. Step5B needs a declared
-equation/constraint class and domains/data; observation constraints alone do not
-provide native evolution. The actual workload needs smoke/load/restart/stop
-checks before long production. No generic fitted response, preferred power-law
-onset/asymptote, complete native census or automatic old-GPU-campaign restart is
-authorized by this handoff. This task ends with the reviewed handoff; actual
-stage4/5 execution proceeds under its bounded work order.
+[OEV1's decision brief](udt_observation_metric_evaluation_2026-10-04/DECISION_BRIEF.md)
+owns the current lay return. Stage 4A is complete; 4B returns the permitted narrowed
+observable constraints rather than a nonexistent native-candidate likelihood.
+Stage 5A is complete for the declared controls; 5B's native-evolution gate remains
+open. The source map and published errors do not decide a physical geometry.
+No whole-postulate insufficiency or new-postulate necessity is inferred.
+
+The next scientific gate is one concrete astronomical metric/query/readout
+package predicting the same angular distance and spectral ratio, with actual
+source/observer histories, ray/area geometry, source/disk/frame conventions or
+justified recalibration, motion nuisance treatment and a joint uncertainty model.
+This can be developed and tested while native dynamics remains open, provided
+its conditional status is explicit. Existing marginal constraints are usable;
+unproved source/physical joins limit the inference rather than erase the data.
+
+A native time-live search additionally needs an admitted equation/constraint
+class, metric degrees of freedom and gauge, domain and sufficient initial/
+boundary data. R6/R7 are query equations on supplied geometry. Re-running the
+same control shapes or launching a larger GPU job would not supply the missing
+physical relation. Existing conditional field branches, source/GW/GOCE pauses
+and protected work remain at their original scope. Stop for lay discussion;
+no new adoption, raw-data replay, large solver or automatic campaign restart.
 
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
@@ -5341,6 +5485,25 @@ record positive/negative scope and omissions. No human, different-model, formal,
 independent-code, empirical or full-corpus scientific review is claimed. Actual
 final accepted-map attestations and required captured checks own closure; neither
 review nor commit supplies the open physical assignment or adopts physics.
+
+OEV1 uses one observation researcher and two fresh source-first/exposed/final
+reviewer contexts. Published outcomes and old proof/verdict exposure are explicit.
+Parent numerical equations/code/matrix and diagnostic rules were frozen before
+execution; its initial result prose was assembled after the scoped findings.
+The mathematical reviewer independently derived the original metric equations
+and froze a distinct 60-digit quadrature/affine/transport checker before outcome
+handoff. It checked 6393 samples and 246 endpoint roles, repeated extreme anchors
+at 90 digits and rejected three corrupted records. The fidelity reviewer visually
+checked the primary table and separately replayed 60 numeric fields with Decimal 60.
+Its S1 method-ownership objection was repaired with original map/ledger preserved
+and actual re-review. No numerical code/config repair was needed. Tight/coarse
+acceptance, source covariance limits, failed retrievals and omitted pipeline
+replays remain explicit in the [work record](udt_observation_metric_evaluation_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_observation_metric_evaluation_2026-10-04/DESCENDANT_REVIEW.md).
+Same-model fresh contexts and distinct numerical implementations are claimed;
+human, different-model, formal interval and independent empirical confirmation
+are not. Actual final accepted-map attestations and captured normal/maintenance/
+full 406 checks own closure; none selects native physics.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

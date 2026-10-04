@@ -1,0 +1,263 @@
+{
+  "schema": "OEV1 observation source ledger v1",
+  "created_utc": "2026-10-04T20:04:31.573729+00:00",
+  "baseline_head": "515513321e145eb4b0964f256f382697b08fa363",
+  "source_limit": 8,
+  "substantive_primary_count": 8,
+  "channel_count": 3,
+  "counting_rule": "Distinct paper/release; alternative formats of one paper and official metadata/schema of one data release counted together.",
+  "sources": [
+    {
+      "id": "M1",
+      "title": "The Megamaser Cosmology Project. XIII. Combined Hubble constant constraints",
+      "version": "arXiv:2001.09213v2; submitted 2020-02-18",
+      "primary_url": "https://arxiv.org/pdf/2001.09213v2",
+      "access_date_utc": "2026-10-04",
+      "local_original": "primary/M1_Pesce_2001.09213v2.pdf",
+      "locators": [
+        "PDF/printed p4 Table1 and note: all six source rows; interval/frame definitions",
+        "pp2\u20133 section2: disk fit, error floors and priors",
+        "p4 section3: disk distance/redshift stage versus Eq1 cosmology",
+        "p2 footnote1: NGC4258 potential shared standard-candle calibration"
+      ],
+      "short_exact_passage": "All velocities are quoted in the CMB reference frame using the optical convention.",
+      "role": "Selected six-row source; H0 inference excluded",
+      "sha256": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+      "bytes": 1564815,
+      "text_derivative": "primary/M1_Pesce_2001.09213v2.txt",
+      "doi": "10.3847/2041-8213/ab75f0",
+      "table_inspection": "pdftotext -layout cross-checked against a local pdftoppm page4 render; both in this researcher context",
+      "joint_covariance": "Not supplied by Table1; no joint posterior acquired"
+    },
+    {
+      "id": "M2",
+      "title": "The Megamaser Cosmology Project. XI. A geometric distance to CGCG 074-064",
+      "version": "arXiv:2001.04581v1; submitted 2020-01-14",
+      "primary_url": "https://arxiv.org/pdf/2001.04581v1",
+      "access_date_utc": "2026-10-04",
+      "local_original": "primary/M2_Pesce_2001.04581v1.pdf",
+      "locators": [
+        "p2 section1 final paragraph: optical barycentric frame and +263.3 km/s conversion",
+        "p7 Table4 and note: spot data columns and observed/modelled acceleration flag",
+        "pp8\u201311 section4, Fig4, Table5: orbital choices, correlated parameters, errors",
+        "pp17\u201318 AppendixA EqsA7,A10,A12\u2013A16: source gravity, velocity/redshift model",
+        "pp19\u201322 AppendixB: likelihood/prior construction"
+      ],
+      "short_exact_passage": "which clouds of masing gas orbit a massive point source",
+      "role": "Audit imported distance/readout assumptions",
+      "sha256": "6a4be37e2fe7a9b4aefa7e5c6523e78206fcbf5eb96a423e66b0dfb69f18300b",
+      "bytes": 2067280,
+      "text_derivative": "primary/M2_Pesce_2001.04581v1.txt",
+      "doi": "10.3847/1538-4357/ab6bcd",
+      "data_link": "https://doi.org/10.3847/1538-4357/ab6bcd",
+      "data_access": "Table4 machine-readable full table advertised in PDF; attachment itself not acquired. No raw spectra acquired."
+    },
+    {
+      "id": "S1",
+      "title": "The Dark Energy Survey Supernova Program: Slow supernovae show cosmological time dilation out to z~1",
+      "version": "arXiv:2406.05050v2; submitted 2024-08-20",
+      "primary_url": "https://arxiv.org/pdf/2406.05050v2",
+      "access_date_utc": "2026-10-04",
+      "local_original": "primary/S1_White_2406.05050v2.pdf",
+      "locators": [
+        "pp1\u20132 Eq2 and two methods: duration assumption and reference time scaling",
+        "pp3\u20134 section3: SALT3 peak normalization, classification/quality cuts",
+        "p10 Fig9: same-event band correlation",
+        "p11 Data/Code Availability: primary release links",
+        "pp11\u201312 AppendixA: source-population stretch evolution"
+      ],
+      "short_exact_passage": "Assuming type Ia supernovae light curves are emitted with a consistent duration",
+      "role": "Published conditional temporal-width constraint; no distance inference",
+      "sha256": "afefe0a0b25478c2556013b123df98d53ab2cd4cafbb4e687b027d3591c19bbc",
+      "bytes": 4164262,
+      "text_derivative": "primary/S1_White_2406.05050v2.txt",
+      "doi": "10.1093/mnras/stae1956",
+      "analysis_product_url": "https://github.com/ryanwhite1/DES-Time-Dilation",
+      "method_scope_precision": "p2: first free-b flux-scatter method is separate evidence under source-population assumptions; tight b=1.003 estimate is second reference-divided-by(1+z) method, explicitly a consistency check. Do not present it as assumption-free independent confirmation."
+    },
+    {
+      "id": "S2",
+      "title": "DES Supernova 5YR Data Release and official schema",
+      "version": "Zenodo12720778 (landing label v1; file DES-SN5YR-1.2.zip); schema latest as accessed",
+      "primary_url": "https://zenodo.org/records/12720778",
+      "access_date_utc": "2026-10-04",
+      "local_original": null,
+      "locators": [
+        "Zenodo description, files, DOI sections",
+        "https://des-sn-dr.readthedocs.io/en/latest/0_DATA.html HEAD and PHOT column tables",
+        "https://des-sn-dr.readthedocs.io/en/latest/ release download instructions"
+      ],
+      "short_exact_passage": "best CMB redshift (no VPEC correction)",
+      "role": "Data access/schema only; no photometry or covariance analysis",
+      "doi": "10.5281/zenodo.12720778",
+      "release_archive_url": "https://zenodo.org/records/12720778/files/DES-SN5YR-1.2.zip?download=1",
+      "release_archive_size_as_listed": "1.5 GB",
+      "release_archive_md5_as_listed": "9019a6ddc569553bc323e9e1b68a55bf",
+      "schema_urls": [
+        "https://des-sn-dr.readthedocs.io/en/latest/0_DATA.html",
+        "https://des-sn-dr.readthedocs.io/en/latest/"
+      ],
+      "access_status": "Web-readable metadata/schema. Direct schema download403. Archive not downloaded; no SHA256 or complete-version claim for schema."
+    },
+    {
+      "id": "S3",
+      "title": "DES-Time-Dilation author analysis code and products",
+      "version": "Git commit8ebec41f9a4c82dbccd0eaea700ac4ba91e5baca; main observed2026-10-04",
+      "primary_url": "https://github.com/ryanwhite1/DES-Time-Dilation/tree/8ebec41f9a4c82dbccd0eaea700ac4ba91e5baca",
+      "access_date_utc": "2026-10-04",
+      "local_original": null,
+      "locators": [
+        "README Code section",
+        "Root file listing: per-band pickled_data, PREPEAK and non_deredshifted products",
+        "GitHub repository and commit API metadata retained locally"
+      ],
+      "short_exact_passage": "The data used in the code is not in this repository",
+      "role": "Analysis product availability only; no code execution or deserialization",
+      "metadata_files": [
+        "primary/S3_repository_metadata.json",
+        "primary/S3_commit_metadata.json"
+      ],
+      "api_urls": [
+        "https://api.github.com/repos/ryanwhite1/DES-Time-Dilation",
+        "https://api.github.com/repos/ryanwhite1/DES-Time-Dilation/commits/main"
+      ],
+      "final_paper_correspondence": "Unverified; repository push2024-06-05 precedes S1v2."
+    },
+    {
+      "id": "R1",
+      "title": "Toward a Direct Measurement of the Cosmic Acceleration",
+      "version": "arXiv:1211.4585v1; submitted2012-11-19",
+      "primary_url": "https://arxiv.org/pdf/1211.4585v1",
+      "access_date_utc": "2026-10-04",
+      "local_original": "primary/R1_Darling_1211.4585v1.pdf",
+      "locators": [
+        "pp1\u20132 Eqs1\u20134: cosmological interpretation separated from spectroscopic velocity convention",
+        "pp2\u20133 section2: digital selection, fits and systematic offsets",
+        "p3 Table1 and note: zHI,NLines,NObs,MJD,baseline,zdot,vdot and errors",
+        "pp3\u20134 sections3\u20134: summary offsets and source/observer effects"
+      ],
+      "short_exact_passage": "We thus excluded the high quality and potentially useful observations from analog epochs.",
+      "role": "Radio drift summary/readout audit",
+      "sha256": "de6b907de11a346a2849731e7508de6f15c82e792d7ce30fe185862273299131",
+      "bytes": 202459,
+      "text_derivative": "primary/R1_Darling_1211.4585v1.txt",
+      "doi": "10.1088/2041-8205/761/2/L26",
+      "precision_note": "2.2 m/s/yr is an uncertainty about -5.5, not a zero-centered absolute upper bound."
+    },
+    {
+      "id": "R2",
+      "title": "The ESPRESSO Redshift Drift Experiment I \u2014 High-resolution spectra of the Ly-alpha forest of QSO J052915.80-435152.0",
+      "version": "arXiv:2505.21615v1; submitted2025-05-27",
+      "primary_url": "https://arxiv.org/pdf/2505.21615v1",
+      "access_date_utc": "2026-10-04",
+      "local_original": "primary/R2_Trost_2505.21615v1.pdf",
+      "locators": [
+        "pp3\u20134 section2/Table1: two-epoch observations",
+        "pp7\u201310 analysis/model calibration and velocity shift",
+        "p13 section7: summary and comparison with Darling"
+      ],
+      "short_exact_passage": "The quoted uncertainties are only statistical",
+      "role": "Earlier optical source history; not independent of R3",
+      "sha256": "17e34c94d305e5af6f44fbab654c774ba647ca28025f9be0a9b50e82dae2e6d8",
+      "bytes": 1884073,
+      "text_derivative": "primary/R2_Trost_2505.21615v1.txt",
+      "doi": "10.1051/0004-6361/202554502",
+      "access_failures": [
+        "https://www.aanda.org/articles/aa/pdf/2025/07/aa54502-25.pdf",
+        "https://arts.units.it/bitstream/11368/3123499/1/aa54502-25.pdf"
+      ],
+      "correction_boundary": "Preserve R1 central value/error; do not adopt R2 description of R1 error as absolute upper limit."
+    },
+    {
+      "id": "R3",
+      "title": "The ESPRESSO Redshift Drift Experiment III \u2014 The Third Epoch of QSO J052915.80-435152.0",
+      "version": "arXiv:2603.02318v1; submitted2026-03-02",
+      "primary_url": "https://arxiv.org/pdf/2603.02318v1",
+      "access_date_utc": "2026-10-04",
+      "local_original": "primary/R3_Trost_2603.02318v1.pdf",
+      "locators": [
+        "pp2\u20133 section2/Table1: three-epoch metadata, barycentric correction, calibration",
+        "p4 section4.1: Sherwood-calibrated shared spline transmission model",
+        "p5 sections4.2\u20134.3/Eq9\u201311: exact drift results and changed weighting",
+        "pp5\u20137 section5: model/calibration systematic checks",
+        "p9 section7: interpretation and limits"
+      ],
+      "short_exact_passage": "introducing the weights underestimates the measurement uncertainties",
+      "role": "Newer optical drift constraint, with calibration/source/correlation conditions",
+      "sha256": "9cde1825a951338c5d28a3f6d39d6c9ae2781f2bac21ea3b23b25f5feae48a26",
+      "bytes": 2685945,
+      "text_derivative": "primary/R3_Trost_2603.02318v1.txt",
+      "data_acquisition_ids": [
+        "ESO110.247Q",
+        "ESO112.25K7"
+      ],
+      "raw_data_status": "Program metadata inspected; no spectral archive downloaded or independent pixel covariance recovered.",
+      "independence_note": "New third epoch, but earlier epochs/shared source reused; two methods share data and mean model."
+    }
+  ],
+  "exposure": "All cited summary outcomes exposed before diagnostic proposal; no held-out confirmation.",
+  "raw_data_fit_or_conversion_executed": false,
+  "role": "Source researcher; no final-review independence claim.",
+  "artifact_hashes": {
+    "primary/DOWNLOAD_LOG.json": {
+      "sha256": "68d45916152badb252afb37cef3b157c133b884e7d44db70bb23b185ebda5669",
+      "bytes": 3450
+    },
+    "primary/M1_Pesce_2001.09213v2.pdf": {
+      "sha256": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+      "bytes": 1564815
+    },
+    "primary/M1_Pesce_2001.09213v2.txt": {
+      "sha256": "38583341b4397ed71aeb0c4985beb17cb5f97aee4a99f6ae84a2b69c7d2b2b56",
+      "bytes": 87096
+    },
+    "primary/M2_Pesce_2001.04581v1.pdf": {
+      "sha256": "6a4be37e2fe7a9b4aefa7e5c6523e78206fcbf5eb96a423e66b0dfb69f18300b",
+      "bytes": 2067280
+    },
+    "primary/M2_Pesce_2001.04581v1.txt": {
+      "sha256": "88385c120c3c3b1cff4a46692690c6cd2877d03a37c76a601426084015e8d7c5",
+      "bytes": 148938
+    },
+    "primary/R1_Darling_1211.4585v1.pdf": {
+      "sha256": "de6b907de11a346a2849731e7508de6f15c82e792d7ce30fe185862273299131",
+      "bytes": 202459
+    },
+    "primary/R1_Darling_1211.4585v1.txt": {
+      "sha256": "0b2d1537a6097fcae4ef7a43be03c911c449312c90be4909e696c0a7ddef8fd7",
+      "bytes": 41206
+    },
+    "primary/R2_Trost_2505.21615v1.pdf": {
+      "sha256": "17e34c94d305e5af6f44fbab654c774ba647ca28025f9be0a9b50e82dae2e6d8",
+      "bytes": 1884073
+    },
+    "primary/R2_Trost_2505.21615v1.txt": {
+      "sha256": "e1924c02d7a1f3b591113a69d346a573daff90ff75b319a72d7d1038d444d639",
+      "bytes": 146909
+    },
+    "primary/R3_Trost_2603.02318v1.pdf": {
+      "sha256": "9cde1825a951338c5d28a3f6d39d6c9ae2781f2bac21ea3b23b25f5feae48a26",
+      "bytes": 2685945
+    },
+    "primary/R3_Trost_2603.02318v1.txt": {
+      "sha256": "7f027defb89a6cfe47c5ccee34b47b13763ee920915140a5785b371bf7edf286",
+      "bytes": 95072
+    },
+    "primary/S1_White_2406.05050v2.pdf": {
+      "sha256": "afefe0a0b25478c2556013b123df98d53ab2cd4cafbb4e687b027d3591c19bbc",
+      "bytes": 4164262
+    },
+    "primary/S1_White_2406.05050v2.txt": {
+      "sha256": "a677e54edeec72164d110e4960a3eb34d9c5a862606c713b083f66600700da13",
+      "bytes": 122557
+    },
+    "primary/S3_commit_metadata.json": {
+      "sha256": "20785a7d0c2f554a5e46433628dd37a8d118f88f00ac02eb200a6e55b145c94b",
+      "bytes": 19414
+    },
+    "primary/S3_repository_metadata.json": {
+      "sha256": "e34950f4a02e0f6358c8e797fab9f378089c13e943eedf9fc82c0cf791792811",
+      "bytes": 5708
+    }
+  }
+}

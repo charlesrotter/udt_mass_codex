@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-04T19:58:38.046923+00:00",
+  "context": "/root/oev_fidelity",
+  "actual_head": "515513321e145eb4b0964f256f382697b08fa363",
+  "branch": "grok",
+  "startup": "Attributed parent BASELINE; scoped subagent did not rerun top-level synchronization or premise verifier",
+  "model": "same inherited model as parent; exact revision unexposed",
+  "fresh_context": true,
+  "different_model": false,
+  "independent_argument": "Hand reconstruction from old admitted metric/clock sources; old proofs and verdicts exposed",
+  "implementation": "No numerical implementation in source-first stage",
+  "new_oev1_parent_code_results_exposed": false,
+  "new_oev1_researcher_files_exposed": false,
+  "external_literature_exposed_in_this_context": false,
+  "protected_payloads_opened_or_hashed": false,
+  "read_scope": "Central sections/excerpts R6,R7,R8SGE,R8GRL,R8PRT,R13,R14,R16,R18; exact owner records and listed source excerpts. Full-file hashes identify bytes, not claims that every line was read. Exact registry subset G220,G275,G276,G348,G350,G351,G352; no wide registry dump.",
+  "failed_lookups": [
+    "Mistyped SGE package glob; nonexistent PRT SOURCE_PINS.json. No fallback broad payload search."
+  ],
+  "skipped": "All historical computational replays, full registry verification, new external survey and new OEV1 numerical/research evidence; assigned exposed stage remains pending"
+}

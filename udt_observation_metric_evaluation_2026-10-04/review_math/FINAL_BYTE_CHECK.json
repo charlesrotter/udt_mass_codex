@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-04T20:22:54.809289+00:00",
+  "integration_freeze_sha256": "f609374e43cd8aeffae39926f3776dc49265b4576485be519a65872fdd125789",
+  "accepted_count": 13914,
+  "accepted_bytes_hashed": 2303771023,
+  "protected_prefix_preflight": "PASS before payload hashing; zero collisions, escapes or symlinks",
+  "sha256_mismatches": [],
+  "inherited_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "central_insert_exact": true,
+  "generated_orientation_exact": true,
+  "captured_receipts_checked": [
+    {
+      "name": "integration",
+      "returncode": 0
+    },
+    {
+      "name": "final_maintenance",
+      "returncode": 0
+    },
+    {
+      "name": "final_draft",
+      "returncode": 0
+    }
+  ],
+  "head": "515513321e145eb4b0964f256f382697b08fa363",
+  "scope": "Byte correspondence plus specifically reviewed OEV1 math/routing; not full-corpus semantic reproof or astrophysical source review"
+}

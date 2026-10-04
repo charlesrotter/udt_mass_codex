@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-04T20:07:29.507972+00:00",
+  "command": [
+    "python3",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/verify_observation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "exit_code": 0,
+  "stdout_sha256": "93f7c1371257cdb119cd98f9cb00e774e06d56b0b600fd3ca2ad3f361968d038",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

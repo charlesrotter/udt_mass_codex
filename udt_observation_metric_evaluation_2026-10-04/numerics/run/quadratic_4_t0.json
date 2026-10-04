@@ -1,0 +1,105 @@
+{
+  "case": {
+    "id": "quadratic_4",
+    "metric": "quadratic",
+    "L": 1.4922565104551517,
+    "fraction_of_control_limit": 0.95,
+    "reverse": false,
+    "echo": false,
+    "smoke": false
+  },
+  "tolerance": 1e-08,
+  "center": {
+    "te": 0.0,
+    "distance": 1.4922565104551517,
+    "tr": 12.706202132663432,
+    "lambda_end": 696.5015472168036,
+    "kt_end": 0.0061558284597432655,
+    "kx_end": 3.78942702218724e-05,
+    "Z": 162.44767159117782,
+    "logZ": 5.090355928932536,
+    "endpoint_error": 0.0,
+    "nfev": 773,
+    "null_absolute": 6.865287505153361e-11,
+    "null_relative": 6.099285026605659e-07,
+    "momentum_relative": 2.179153413273127e-09,
+    "metricity_absolute": 3.36578056270298e-06,
+    "transported_k_absolute": 1.0371391245822537e-13,
+    "original_residual_absolute": 5.086691401423593e-09,
+    "original_residual_scaled": 3.5700715052829262e-09,
+    "residual_difference_refinement": 3.462807818266356e-11,
+    "saved_nodes": 177,
+    "arrival_derivative_richardson": 162.4479522457604,
+    "arrival_frequency_relative": 1.727661466777164e-06,
+    "arrival_step_difference": 6.518693436419198e-05
+  },
+  "perturbations": [
+    {
+      "h": 0.0001,
+      "minus": {
+        "te": -0.0001,
+        "distance": 1.4922565104551517,
+        "tr": 12.689978296351113,
+        "lambda_end": 693.8694385837512,
+        "kt_end": 0.006171481989788387,
+        "kx_end": 3.80872304913399e-05,
+        "Z": 162.0356344966485,
+        "logZ": 5.087816277072099,
+        "endpoint_error": 0.0,
+        "nfev": 773
+      },
+      "plus": {
+        "te": 0.0001,
+        "distance": 1.4922565104551517,
+        "tr": 12.722467938949812,
+        "lambda_end": 699.147118468856,
+        "kt_end": 0.006140195132967532,
+        "kx_end": 3.7702035203853856e-05,
+        "Z": 162.86127368019066,
+        "logZ": 5.092898756714474,
+        "endpoint_error": 0.0,
+        "nfev": 773
+      },
+      "arrival_derivative": 162.44821299349786
+    },
+    {
+      "h": 5e-05,
+      "minus": {
+        "te": -5e-05,
+        "distance": 1.4922565104551517,
+        "tr": 12.698085070461484,
+        "lambda_end": 695.18382403191,
+        "kt_end": 0.006163652743079118,
+        "kx_end": 3.7990658497121665e-05,
+        "Z": 162.241456760012,
+        "logZ": 5.089085699405973,
+        "endpoint_error": 0.0,
+        "nfev": 773
+      },
+      "plus": {
+        "te": 5e-05,
+        "distance": 1.4922565104551517,
+        "tr": 12.714329872204754,
+        "lambda_end": 697.8226533014897,
+        "kt_end": 0.0061480093149850305,
+        "kx_end": 3.779806107077025e-05,
+        "Z": 162.65427535423876,
+        "logZ": 5.0916269381824995,
+        "endpoint_error": 0.0,
+        "nfev": 773
+      },
+      "arrival_derivative": 162.44801743269477
+    }
+  ],
+  "reverse": null,
+  "echo": null,
+  "binding": {
+    "config_sha256": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a",
+    "code_sha256": "08c5e22edb68aeaf5185babda6fcd75ab9eb75b9e77c9e4da6402cbe0717b118",
+    "smoke": false,
+    "equation": "original affine null geodesic and parallel transport",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "trajectory_sha256": "65b9ea41721bd079b7ba3b995e23b3e18da4c9fcb69833c30c3360326737316d"
+}

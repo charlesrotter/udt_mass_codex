@@ -1,0 +1,337 @@
+                                                D RAFT VERSION AUGUST 14, 2018
+                                                Preprint typeset using LATEX style emulateapj v. 5/2/11
+
+
+
+
+                                                                              TOWARD A DIRECT MEASUREMENT OF THE COSMIC ACCELERATION
+                                                                                                                  J EREMY DARLING 1
+                                                                                                               Draft version August 14, 2018
+
+                                                                                                            ABSTRACT
+                                                            We present precise H I 21 cm absorption line redshifts observed in multiple epochs to directly constrain
+arXiv:1211.4585v1 [astro-ph.CO] 19 Nov 2012
+
+
+
+
+                                                         the secular redshift drift ż or the cosmic acceleration, ∆v/∆t◦ . A comparison of literature analog spectra to
+                                                         contemporary digital spectra shows significant acceleration likely attributable to systematic instrumental errors.
+                                                         However, we obtain robust constraints using primarily Green Bank Telescope digital data. Ten objects spanning
+                                                         z = 0.09–0.69 observed over 13.5 years show ż = (−2.3 ± 0.8) × 10−8 yr−1 or ∆v/∆t◦ = −5.5 ± 2.2 m s−1 yr−1 .
+                                                         The best constraint from a single object, 3C286 at hzi = 0.692153275(85), is ż = (1.6 ± 4.7) × 10−8 yr−1 or
+                                                         ∆v/∆t◦ = 2.8 ± 8.4 m s−1 yr−1 . These measurements are three orders of magnitude larger than the theoretically
+                                                         expected acceleration at z = 0.5, ż = 2 × 10−11 yr−1 or ∆v/∆t◦ = 0.3 cm s−1 yr−1 , but they demonstrate the
+                                                         lack of peculiar acceleration in absorption line systems and the long-term frequency stability of modern radio
+                                                         telescopes. A comparison of UV metal absorption lines to the 21 cm line improves constraints on the cosmic
+                                                         variation of physical constants: ∆(α2 g p µ)/α2 g p µ = (−1.2 ± 1.4) × 10−6 in the redshift range z = 0.24–2.04.
+                                                         The linear evolution over the last 10.4 Gyr is (−0.2 ± 2.7) × 10−16 yr−1 , consistent with no variation. The
+                                                         cosmic acceleration could be directly measured in ∼125 years using current telescopes or in ∼5 years using a
+                                                         Square Kilometer Array, but systematic effects will arise at the 1 cm s−1 yr−1 level.
+                                                         Subject headings: cosmological parameters — Cosmology: observations — Cosmology: miscellaneous —
+                                                                             dark energy — quasars: absorption lines
+
+                                                                            1. INTRODUCTION                                     shift z, H◦ (1 + z), and its actual value H(z):
+                                                  The measurement of secular redshift drift can directly de-                                          ∆z
+                                              termine the cosmic acceleration2 and the history of expansion                                               = H◦ (1 + z) − H(z),                (1)
+                                                                                                                                                      ∆t◦
+                                              in a model-independent manner (Sandage 1962; Loeb 1998)
+                                              and has recently been explored in the context of dark energy                      where
+                                              and large aperture optical telescopes (e.g., Corasaniti et al.                                   q
+                                              2007; Liske et al. 2008). The magnitude of the redshift drift                        H(z) = H◦    ΩM,◦ (1 + z)3 + ΩΛ + (1 − ΩM,◦ − ΩΛ )(1 + z)2 (2)
+                                              is minuscule, of order 5 cm s−1 decade−1 for a galaxy at red-                     for a matter- and cosmological constant-dominated universe,
+                                              shift z = 1, similar to gravitational accelerations in galaxies                   and ∆t◦ is the observer’s time increment (Loeb 1998). For
+                                              and clusters (e.g., Amendola et al. 2008). Measuring this ef-                     a time-varying dark energy parameterized with scale factor-
+                                              fect requires extreme redshift precision over time baselines of                   dependent equation of state w(a) = w◦ + wa (1 − a) (Linder
+                                              decades, and the signal may thus be overwhelmed by other                          2003) where a = 1/(1 + z) is the scale factor, the Hubble ex-
+                                              systematic effects, both physical and observational. For ex-                      pansion becomes
+                                              ample, secular redshift drift may be induced by proper ac-
+                                              celeration of the observer. Such proper acceleration (but                                      q
+                                              not the associated redshift drift) has been very precisely                           H(z) = H◦ ΩM,◦ (1 + z)3 + Ωw,◦ (1 + z)3(1+w◦+wa ) e−3wa z/(1+z)
+                                              measured using pulsar timing in a Galactic reference frame
+                                              (Zakamska & Tremaine 2005) and in a cosmological con-                                                              + (1 − ΩM,◦ − Ωw,◦)(1 + z)2. (3)
+                                              text using the proper motion of extragalactic radio sources                       The observed acceleration is
+                                              (Titov et al. 2011; Xu et al. 2012). Proper acceleration of the
+                                              solar system barycenter about the Galactic center creates an                                           ∆v      ∆z/∆t◦
+                                                                                                                                                          =c          .                       (4)
+                                              extragalactic dipole proper motion secular aberration drift sig-                                       ∆t◦      (1 + z)
+                                              nature on the sky that distinguishes it from a cosmological                       The secular redshift drift and corresponding acceleration are
+                                              signal: objects appear to be moving toward the Galactic cen-                      plotted for several cosmologies in Fig. 1; Balbi & Quercellini
+                                              ter. Astrometry and pulsar timing cannot, however, detect a                       (2007) explore less conventional cosmological models and
+                                              change in the expansion rate of the universe, which is purely                     theories of gravity. A direct measurement of ż is completely
+                                              radial.                                                                           model-independent and directly indicates the history of ex-
+                                                  The observed rate of change of redshift, ∆z/∆t◦ (hereafter                    pansion, whatever that may be.
+                                              ż ), is the difference between a constant expansion rate at red-                    Here we examine the feasibility of measuring or constrain-
+                                                                                                                                ing secular redshift drift using H I 21 cm absorption line sys-
+                                                                                                                                tems. We demonstrate that with modern telescopes, observa-
+                                                  1 Center for Astrophysics and Space Astronomy, Department of Astro-           tions spanning roughly a decade can measure redshifts to parts
+                                                physical and Planetary Sciences, University of Colorado, 389 UCB, Boul-         per 100 million and constrain the redshift drift to down a few
+                                                der, CO 80309-0389; jdarling@colorado.edu                                       m s−1 yr−1 . Analog spectra show a systematic redshift offset
+                                                2 We use “acceleration” in the physical sense, which includes deceleration.
+                                                                                                                                from modern digital spectra, which limits the time baselines
+2                                                                             Darling
+
+
+
+
+ F IG . 1.— Theoretical acceleration vs. redshift. Top: Secular redshift drift (Eqn. 1). Bottom: Apparent acceleration (Eqn. 4). The solid lines show the cosmology
+H◦ = 72 km s−1 Mpc−1 , ΩΛ = 0.73, and ΩM = 0.27, the dash-dotted lines show this cosmology with a varying dark energy equation of state, w(a) = w◦ + wa (1 − a)
+(Linder 2003), with w◦ = −1 and wa = ± 0.5 (lower and upper curves, respectively), the long-dashed lines show a matter-only universe with ΩM = 0.27 (open),
+and the short-dashed lines show a closed matter-only universe (ΩM = 1.0). Balbi & Quercellini (2007) examine ż for a panoply of less conventional models. The
+horizontal dotted lines indicate stationary redshift and velocity (crossing the concordance cosmology line at z ż=0 = 2.48), and the vertical dotted lines show the
+matter-cosmological constant equivalence redshift (zMΛ = 0.39) and the transition from a decelerating to an accelerating universe (z ä=0 = 0.76).
+available for ż measurements and impacts previous constraints                       2004 using the GBT Spectrometer and repeated the obser-
+on the cosmic evolution of physical constants that employed                          vations in 2012 (programs GBT 03C-009 and 12A-134, re-
+analog 21 cm spectra. We revise the measurement of the evo-                          spectively). Five of the 13 sources include a third epoch ob-
+lution of α2 g p me /m p over the redshift span z = 0.24–2.04.                       tained at the GBT (two) or elsewhere (three). We reduced
+   In the following treatment of ż, we make no assumptions                          the archival GBT Spectral Processor spectra of 0235+164 and
+about cosmology; the only numbers needed are the speed of                            3C286 (program GBT 07A-021; Wolfe et al. 2011) in an iden-
+light, c = 299792.458 km s−1 , and the rest frequency of the H I                     tical manner to all other GBT spectra, described below. For
+21 cm spin-flip transition, νo (HI) = 1420.405751768 MHz,                            early third epochs (ca. 2000), we used the Carilli et al. (2000)
+although neither is truly needed to measure a redshift change                        European Very Long Baseline Interferometry Network spec-
+since it is ultimately simply a shift in the observed frequency.                     trum of B0218+357, the Kanekar & Chengalur (2001) Gi-
+                                                                                     ant Metrewave Radio Telescope time-averaged spectrum of
+         2. OBSERVATIONS, DATA, AND DATA REDUCTION                                   PKS 1127−145, and the Lane & Briggs (2001) Westerbork
+   Analog data provide long time baselines, in some cases                            Synthesis Radio Telescope spectrum of PKS 1243−072 (all
+more than 30 years (e.g. Wolfe et al. 1978), but we find a                           digital observations, extracted by DEXTER; Demleitner et al.
+systematic offset toward lower redshifts compared to single-                         (2001)). We observed 5 additional absorption line systems in
+telescope digital epochs (Figure 2). These systematic offsets                        single epochs (Table 1).
+appear in most pre-digital spectra but are not consistent be-                           The two main observational epochs described here span the
+tween absorption line systems, suggesting that they are instru-                      transition from analog to digital television. Consequently, ab-
+mental and uncorrectable. We thus excluded the high qual-                            sorption line systems that were observable through the analog
+ity and potentially useful observations from analog epochs.                          radio frequency interference (RFI) comb in 2003, particularly
+Moreover, most extant digital spectra lack the signal-to-noise                       those at z > 1, were no longer observable amid the digital RFI
+needed for this study, and in order to minimize systematics we                       in 2012, and lines that were lost to RFI in 2003 at the upper
+restrict all spectral epochs to those obtained using the Green                       end of the old analog television allocation, PKS1629+120 and
+Bank Telescope3 (GBT), except as noted below.                                        3C216, were detectable in 2012. These single-epoch observa-
+   We observed 13 H I 21 cm absorption line systems in 2003–                         tions are listed in Table 1 and are considered in our treatment
+                                                                                     of fundamental physical constants but are not used in the anal-
+  3 The National Radio Astronomy Observatory is a facility of the National
+                                                                                     ysis of ż.
+Science Foundation operated under cooperative agreement by Associated                   GBT observations were made in 5-minute position-
+Universities, Inc.
+                                         Toward a Direct Measurement of the Cosmic Acceleration                                                                3
+
+                                                                      TABLE 1
+                                                    R EDSHIFT AND A CCELERATION M EASUREMENTS
+
+                            Absorber              zHI           NLines    NObs      t◦       ∆t◦             ż            ∆v/∆t◦
+                                                                                  (MJD)     (days)         (yr−1 )        (m s−1 yr−1 )
+                         0738+313 A        0.091234959(30)         2        2     56041     3053      −3.0(0.9)×10−8        −8.3(2.5)
+                         0738+313 B        0.22124990(13)          1        2     56040     3050       2.6(3.1)×10−8         6.3(7.7)
+                         PKS 0952+179      0.2378155(16)           1        1     52990      ···                 ···             ···
+                         PKS 1413+135      0.24670374(30)          2        2     55960     2969      −2.3(6.9)×10−8       −5.5(16.7)
+                         PKS 1127−145      0.312658286(20)         4        3     55953     4573       1.4(1.0)×10−7       30.9(23.4)
+                         0248+430          0.39408591(14)          5        2     55964     2710      5.8(10.6)×10−8       12.6(22.8)
+                         PKS 1229−021      0.39498824(59)          2        2     56137     2882     −8.4(20.8)×10−8      −18.1(44.7)
+                         3C196             0.43667498(93)          2        2     56136     2882      −8.0(2.5)×10−7        −168(52)
+                         PKS 1243−072      0.4367410(14)           1        3     56136     4343       5.8(5.1)×10−7        122(107)
+                         0235+164          0.523741603(72)         4        3     55953     2699      −1.3(1.5)×10−7      −25.9(28.7)
+                         PKS 1629+120      0.5317935(11)           2        1     56136      ···                 ···             ···
+                         B3 1504+377       0.67324197(79)          1        2     55968     2978       2.3(2.0)×10−7       40.6(35.3)
+                         B0218+357         0.6846808(13)           1        3     56038     4936       2.1(2.6)×10−7       37.1(46.2)
+                         3C286             0.692153275(85)         1        3     55947     2956       1.6(4.7)×10−8         2.8(8.4)
+                         PKS 1830−211      0.8848633(41)           5        2     56039     3048      −1.2(1.0)×10−6       −192(163)
+                         1331+170          1.7763904(66)           1        1     53105      ···                 ···             ···
+                         1157+014          1.943670(12)            1        1     53070      ···                 ···             ···
+                         0458−020          2.0393767(21)           2        1     53071      ···                 ···             ···
+                          N OTE. — For each absorption line system, zHI is the error-weighted mean redshift of the strongest com-
+                       ponent in the barycentric reference frame, NLines is the number of components used to determine ż, NObs is
+                       the number of observations, t◦ is the Modified Julian Date (MJD) of the most recent observation, ∆t◦ is the
+                       full time span of the observations, ż is the secular redshift drift, and ∆v/∆t◦ is the acceleration (Eqn. 4).
+                       Parenthetical values are 1σ uncertainties. Objects in bold are those used in the ż analysis and Figure 3; those
+                       in italics are poorly constrained due to broad blended lines (3C196 and PKS 1830−211) or low signal-to-noise
+                       (PKS 1243−072). We include objects with a single digital observation for posterity, and some are compared
+                       to UV absorption lines in Figure 4.
+
+switched (nodding) scans using two linear polarizations, 9-
+level sampling, 2–3 s records, a 1–1.5 s winking calibra-
+tion diode injection signal, and a 12.5 MHz bandwidth cen-
+tered on the H I line. Typical on-source integration times
+were 1–2 hours. We subtracted the corresponding off-source
+record from each individual on-source spectrum and normal-
+ized the difference spectrum by the sky spectrum. Each spec-
+tral record was manually examined and flagged for RFI then
+averaged in time and polarization. After polynomial baseline
+subtraction and Hanning smoothing, we typically achieved
+3–24 mJy rms noise in 1.1–1.6 km s−1 channels at 1300–
+750 MHz (z = 0.09–0.89) in 2003–2004, and 6–30 mJy rms
+noise in 0.35–0.61 km s−1 channels in 2012 over the same
+redshift range. We used GBTIDL4 for all GBT data reduc-
+tion.
+   Absorption lines were fit using Gaussian profiles in each
+epoch and were not constrained by other epochs. Residual
+spectra were usually indistinguishable from line-free noise.
+Typically, only high signal-to-noise narrow well-separated
+lines were used for the ż measurement, and Table 1 lists
+the number of components used in each case. We measured
+the error-weighted mean redshift of the strongest Gaussian-
+fit component in each system to provide a reference redshift
+for posterity and to indicate the degree of precision attained                      F IG . 2.— Example of redshift drift observations of an H I 21 cm absorption
+(Table 1).                                                                        line system, 0235+164. Top: Spectra obtained at the GBT (upper three, all
+   Figure 2 shows the spectra and time series of 0235+164,                        digital) and Arecibo (analog, bottom; Wolfe et al. (1978)) labeled by MJD,
+including a pre-digital epoch, as an example of the statisti-                     scaled to match the MJD 55953 blue line, and offset for clarity. Gaussian
+                                                                                  fits to well-defined lines are color-coded (others are black), matching points
+cal uncertainties and systematic variation of the absorption                      in the lower panel. As with many of the absorption line systems listed in
+lines. Weak components in the wings are only needed for                           Table 1, the analog spectrum of 0235+164 is systematically offset from the
+good fits when the signal-to-noise is high, so these compo-                       digital GBT spectra and is thus omitted from the linear fit. Bottom: Redshift
+nents are not included in the ż measurement. We subtract the                     (upper) and redshift mean offset (lower) versus MJD. Dotted lines indicate
+                                                                                  the no-drift (mean) locus in both panels, and solid lines show the linear fits,
+                                                                                  omitting the MJD 43032 analog epoch. Dashed lines show the formal error
+  4 GBTIDL (http://gbtidl.nrao.edu/) is the data reduction pack-                  on the slope from an error-weighted linear least-squares fit.
+age produced by NRAO and written in the IDL language for the reduction of
+GBT data.
+4                                                                            Darling
+
+
+
+
+ F IG . 3.— Acceleration vs. redshift of H I 21 cm absorption line systems. Horizontal lines indicate the error-weighted mean (solid) and its 1σ error (dashed).
+The top plot shows ż; the bottom plot shows acceleration ∆v/∆t◦ . The error-weighted means are hżi = (−2.3 ± 0.8) × 10−8 yr−1 and hv̇i = −5.5 ± 2.2 m s−1 yr−1 ,
+which are dominated by 0738+313 A, 0738+313 B, PKS 1413+135, and 3C286.
+
+error-weighted mean redshift from each component and then                           (or constrains) the cosmic evolution of α2 g p me /m p , where
+make an error-weighted linear fit to all reliable components                        α = e2 /h̄ c ≃ 1/137 is the fine structure constant, g p is the
+simultaneously in order to average out stochastic variation                         proton gyromagnetic factor, and me and m p are the electron
+among the components and obtain a bulk redshift drift of the                        and proton mass, respectively (Wolfe et al. 1976). Since the
+absorber line ensemble. The slope of the linear fit is ż. We es-                   ratio of the H I 21 cm line to the UV metal lines scales as
+timate the uncertainty in ż from a Monte Carlo process except                      α2 g p µ, where µ = me /m p , the redshift difference between the
+for large NLines × NObs systems 0738+313 A, PKS 1127−145,                           lines can be related to fundamental constants as
+0248+430, and 0235+164, which use a formal error-weighted
+least-squares fitting error. The acceleration, ∆v/∆t◦ , is cal-                                              ∆(α2 g p µ) zUV − z21
+culated via Equation 4 and included in Table 1.                                                                          =                                    (5)
+                                                                                                             (α2 g p µ)◦   1 + z21
+                      3. RESULTS AND ANALYSIS                                       provided the gas is velocity-coincident.
+   Figure 3 shows the secular redshift drift and acceleration                          Tzanavaris et al. (2007) employed a number of analog mea-
+of 10 absorption line systems. While the theoretical ż curves                      surements of the 21 cm lines presented in Table 1 to examine
+shown in Figure 1 could be fit to these data and would sug-                         the cosmic evolution of α2 g p µ, so we revisit their analysis us-
+gest a roughly linear trend for this redshift range, the typical                    ing digital data. Figure 4 shows the normalized redshift differ-
+measured ż value is about three orders of magnitude larger                         ence between H I 21 cm lines and UV metal lines for the nine
+than the theoretical expectation and is consistent with zero,                       absorption line systems measured by Tzanavaris et al. (2007)
+so we simply calculate the mean ż across redshift to assess                        and for the seven systems measured by us using the GBT. The
+the precision of this method and the presence (or absence) of                       UV line ensemble redshifts are presented in Tzanavaris et al.
+systematic offsets from the expected value of zero.                                 (2007). In two cases we use a 21 cm component that is not the
+   We measure an error-weighted mean secular redshift drift                         dominant one for comparison to the UV lines: in 0235+164
+of hżi = (−2.3 ± 0.8) × 10−8 yr−1 and an acceleration of                           we use the H I line at z = 0.52384114(41), the strongest of
+hv̇i = −5.5 ± 2.2 m s−1 yr−1 , both consistent with zero. An                        the line triplet (Fig. 2), to match the component used by
+error-weighted linear fit fixed to ż = 0 at z = 0 has slope                        Tzanavaris et al. (2007), and in 0458−020 we use the redder
+−3.2 ± 13.3 m s−1 yr−1 per unit redshift. These measurements                        component at z = 2.0395474(64) that matches the many UV
+agree with expectations and show no evidence of secular red-                        lines presented in Tzanavaris et al. (2007).
+shift drift or other systematic effects that might impair efforts                      Despite the smaller sample, we obtain a substantially re-
+to obtain higher precision, either via longer time baselines,                       duced error-weighted mean: the fractional change in α2 g p µ
+higher signal-to-noise, or a larger sample (Sec. 4.1).                              is (−1.2 ± 1.4) × 10−6 in the redshift range z = 0.24–2.04. An
+   Given the systematic analog-digital offsets in H I 21 cm                         identical treatment of the Tzanavaris et al. (2007) data yields
+lines described in Sec. 2, it stands to reason that compar-                         a fractional change of (+19.9 ± 3.0) × 10−6 (using their statis-
+isons of literature analog H I lines to other absorption lines                      tical error bars for consistency). The unweighted means are
+in order to measure physical constants at various redshifts                         similar, (+2.9 ± 5.5) × 10−6 (this work) versus (+5.3 ± 9.9) ×
+are systematically affected. The redshift difference between                        10−6 (Tzanavaris et al. 2007), and our uncertainty is roughly
+rest-frame UV metal and H I 21 cm absorption lines measures                         half despite the slightly smaller sample.
+                                             Toward a Direct Measurement of the Cosmic Acceleration                                                                 5
+
+
+
+
+  F IG . 4.— The fractional redshift difference between UV metal and 21 cm H I absorption lines vs. redshift. This is equivalent to the fractional change in
+α2 g p µ. Top: Reproduction of the Tzanavaris et al. (2007) plot using literature 21 cm absorption lines and their statistical error bars. Bottom: the same plot using
+GBT-measured H I 21 cm lines. Horizontal lines indicate the null line (dotted), the mean (red, short dashed), and the error-weighted mean (blue, long-dashed).
+Error bars in the lower left of each panel indicate the uncertainties in each mean value. Despite the smaller sample, our mean offsets are significantly smaller and
+their uncertainties are smaller by a factor of two. Individual error bars are likewise substantially smaller due to higher signal-to-noise in most 21 cm observations.
+
+   The linear evolution over the last 10.2 Gyr5 , assuming the                        because they will be randomly distributed, showing both pos-
+laboratory value at z = 0, is (−0.2 ± 2.7) × 10−16 yr−1 , consis-                     itive and negative values, and will not be coherent across the
+tent with no variation. A negative value indicates a positive                         sky or depend on redshift. The barycenter acceleration will
+slope in Fig. 4 (the value decreases as time advances from                            appear in ż measurements as a redshift-independent accelera-
+the early universe to the present). Tzanavaris et al. (2007) ob-                      tion dipole on the sky.
+tained a limit one order of magnitude larger, (−0.6 ± 1.2) ×                             Our ż measurement depends primarily on the four best-
+10−15 yr−1 , using their favored analysis.                                            measured absorption line systems; omitting points with error
+                                                                                      bars greater than 20 m s−1 yr−1 has a negligible impact on the
+                              4. DISCUSSION                                           result, which suggests that only ∼10 additional systems with
+                                   4.1. ż                                            uncertainties of order a few m s−1 yr−1 would improve this
+                                                                                      measurement substantially, perhaps below 1 m s−1 yr−1 .
+   The intrinsic stability of the H I 21 cm lines does not seem                          To estimate the time required to measure the canonical cos-
+to be an issue at the level of a few m s−1 yr−1 . Most sys-                           mological ż at z = 1 (ż = 2 × 10−11 yr−1 ), we assume a scenario
+tems show negligible epoch-to-epoch redshift variation, but a                         whereby an ensemble of 30 lines is observed once per year
+few systems such as PKS 1127−245 do show significant ap-
+                                                                                      with uncertainty σz = 5 × 10−8 per line per observation. We
+parently stochastic variation, and the measured ż may be af-
+                                                                                      claim a detection when the uncertainty of a linear fit of red-
+fected by the time of measurement and the number of epochs.
+                                                                                      shift versus time recovers the slope with at least 3σ signifi-
+Stochastic line shifts of order 500 m s−1 over time scales of                         cance. For the GBT, a direct detection of ż will require about
+about 1 year with no net change in the mean line velocity                             300 years. For a Square Kilometer Array (SKA) with ∼130
+have been observed (Wolfe et al. 1982; Briggs 1983) as well
+                                                                                      times the collecting area, σz ≃ 4 × 10−10 and this measurement
+as variation in line depth (e.g., Kanekar & Chengalur 2001),
+                                                                                      can be made in about 12 years, which is competitive with a
+and the common interpretation is that a variable illuminating
+                                                                                      42 m optical telescope observing Lyman α forest lines over
+radio source structure picks out varying portions of the fore-
+                                                                                      ∼20 yr (Liske et al. 2008). If the number of lines increases to
+ground absorbing clouds. This effect may become significant
+                                                                                      300, an expected dividend of upcoming SKA prototype sur-
+as one approaches the precision needed to detect the expected
+                                                                                      veys such as those planned for ASKAP (Johnston et al. 2008;
+cosmological acceleration.
+                                                                                      Darling et al. 2011), then the GBT measurement would re-
+   Gravitational accelerations of order 1 cm s−1 yr−1 are likely                      quire ∼125 years, and the SKA measurement ∼5 years.
+in galactic and extragalactic settings, such as the accelera-
+tion of galaxies in clusters and the orbital accelerations within
+galaxies (Amendola et al. 2008). For example, the Solar Sys-                                                  4.2. Physical Constants
+tem barycenter accelerates toward the Galactic Center at ∼0.7                            H I 21 cm lines are no longer the limiting factor in con-
+cm s−1 yr−1 , assuming a circular orbit. Extragalactic gravi-                         straining the cosmic evolution of α2 g p µ: UV metal line red-
+tational accelerations are distinguishable from the cosmic ż                         shift uncertainties are 1–2 dex larger than the 21 cm line un-
+                                                                                      certainties at z < 1 and are comparable at z > 1. Systematic
+  5 From present to z = 2.04, assuming H = 72 km s−1 Mpc−1 , Ω = 0.73,
+                                        ◦                     Λ                       effects, such as the coincidence of the 21 cm- and UV line-
+and ΩM = 0.27.                                                                        producing regions do not yet appear to be significant. Sys-
+6                                                                              Darling
+
+tematic offsets between analog and digital 21 cm redshifts                          hv̇i = −5.5 ± 2.2 m s−1 yr−1 , both consistent with no acceler-
+suggest that other astronomical tests of the cosmic variation                       ation. These measurements have not yet reached the theoret-
+of physical constants employing analog 21 cm data should be                         ically expected acceleration, ż = 2 × 10−11 yr−1 or ∆v/∆t◦ =
+re-examined.                                                                        0.3 cm s−1 yr−1 at z = 0.5, but they demonstrate an encouraging
+   Recent studies using modern radio line observations are                          lack of peculiar acceleration in absorption line systems and
+consistent with no evolution in α2 g p µ, albeit with larger un-                    the frequency stability of modern radio telescopes required
+certainties than our result: Wolfe et al. (2011) obtain a 2σ                        for repeatable measurements. We thus find no significant sys-
+limit ∆(α2 g p µ)/α2 g p µ < 6 × 10−6 using 3C286 alone, based                      tematic effects that would impede even more precise measure-
+on the identification of the observed optical absorption with a                     ments, which may be done by expanding the sample, using
+specific H I-absorbing cloud, and Kanekar et al. (2010) com-                        longer time baselines, larger redshifts, and higher signal-to-
+pared 21 cm to UV C I absorption in two systems at z ∼ 1.5 to                       noise observations, particularly from larger apertures. Sys-
+find (6.8 ± 1.0 stat ± 6.7 sys) × 10−6. Recent UV-H I compar-                       tematic effects will be significant below 1 cm s−1 yr−1 , but di-
+isons obtaining similar-uncertainty measurements to ours in-                        rect measurements of the cosmic acceleration using multiple
+clude Rahmani et al. (2012) with (−0.1 ± 1.3) × 10−6 at hzi =                       methods, wavelengths, and telescopes will likely be possible
+1.36 and Srianand et al. (2010) who find (−1.7 ± 1.7) × 10−6                        in a few decades.
+in a single absorber at z = 3.17.
+                                                                                       We thank the GBT and NRAO staff for supporting this
+                                                                                    project and for building and operating an exquisitely sensi-
+                           5. CONCLUSIONS
+                                                                                    tive and stable telescope. We also thank the referee for help-
+  We have obtained a precise constraint on the cosmic ac-                           ful comments. This research made use of the NASA/IPAC
+celeration by directly measuring the real-time secular redshift                     Extragalactic Database (NED) which is operated by the Jet
+drift of H I 21 cm absorption line systems. We measure a red-                       Propulsion Laboratory, California Institute of Technology, un-
+shift drift of hżi = (−2.3 ± 0.8) × 10−8 yr−1 and an acceleration                  der contract with NASA.
+
+                                                                        REFERENCES
+Amendola, L., Balbi, A., & Quercellini, C. 2008, Physics Letters B, 660, 81         Loeb, A. 1998, ApJ, 499, L111
+Balbi, A. & Quercellini, C. 2007, MNRAS, 382, 1623                                  Rahmani, H., Srianand, R., Gupta, N., Petitjean, P., Noterdaeme, P., &
+Briggs, F. H. 1983, ApJ, 274, 86                                                       Vásquez, D. A. 2012, MNRAS, 425, 556
+Carilli, C. L., Menten, K. M., Stocke, J. T., Perlman, E., Vermeulen, R.,           Sandage, A. 1962, ApJ, 136, 319
+  Briggs, F., de Bruyn, A. G., Conway, J., & Moore, C. P. 2000,                     Srianand, R., Gupta, N., Petitjean, P., Noterdaeme, P., & Ledoux, C. 2010,
+  Phys. Rev. Lett., 85, 5511                                                           MNRAS, 405, 1888
+Corasaniti, P.-S., Huterer, D., & Melchiorri, A. 2007, Phys Rev D, 75,              Titov, O., Lambert, S. B., & Gontier, A.-M. 2011, A&A, 529, A91
+  062001                                                                            Tzanavaris, P., Murphy, M. T., Webb, J. K., Flambaum, V. V., & Curran, S. J.
+Darling, J., Macdonald, E. P., Haynes, M. P., & Giovanelli, R. 2011, ApJ,              2007, MNRAS, 374, 634
+  742, 60                                                                           Webb, J. K., King, J. A., Murphy, M. T., Flambaum, V. V., Carswell, R. F., &
+Demleitner, M., Accomazzi, A., Eichhorn, G., Grant, C. S., Kurtz, M. J., &             Bainbridge, M. B. 2011, Phys. Rev. Lett., 107, 191101
+  Murray, S. S. 2001, ASP Conf. Proc., Astronomical Data Analysis                   Wolfe, A. M., Brown, R. L., & Roberts, M. S. 1976, Phys. Rev. Lett., 37, 179
+  Software and Systems X, eds. F. R. Harnden, Jr., F. A. Primini, Ĥ. E.            Wolfe, A. M., Broderick, J. J., Johnston, K. J., & Condon, J. J. 1978, ApJ,
+  Payne, 238, 321                                                                      222, 752
+Johnston, S., Taylor, R., Bailes, M., et al. 2008, Experimental Astronomy,          Wolfe, A. M., Davis, M. M., & Briggs, F. H. 1982, ApJ, 259, 495
+  22, 151                                                                           Wolfe, A. M., Jorgenson, R. A., Robishaw, T., Heiles, C., & Prochaska, J. X.
+Kanekar, N. & Chengalur, J. N. 2001, MNRAS, 325, 631                                  2011, ApJ, 733, 24
+Kanekar, N., Prochaska, J. X., Ellison, S. L., & Chengalur, J. N. 2010, ApJ,        Xu, M. H., Wang, G. L., & Zhao, M. 2012, A&A, 544, A135
+  712, L148                                                                         Zakamska, N. L. & Tremaine, S. 2005, AJ, 130, 1939
+Lane, W. M. & Briggs, F. H. 2001, ApJ, 561, L27
+Linder, E. V. 2003, Phys. Rev. Lett., 90, 091301
+Liske, J., Grazian, A., Vanzella, E., et al. 2008, MNRAS, 386, 1192
+

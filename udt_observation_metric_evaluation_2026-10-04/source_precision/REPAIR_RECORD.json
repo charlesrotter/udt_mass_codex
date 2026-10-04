@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T20:07:17.915065+00:00",
+  "reporter": "/root/oev_fidelity",
+  "defect": "Initial map mentioned reference division but did not explicitly attach authors consistency-check status to tight b estimate.",
+  "source": "White et al arXiv2406.05050v2 p2, checked by parent against saved primary text.",
+  "smallest_repair": "Clarify method ownership in map and S1 ledger; no data conversion, numerics, ranking or UDT premise changes.",
+  "survivor": "First free-b flux-scatter evidence and conditional source-profile inference remain; narrow six-maser diagnostic unaffected.",
+  "preserved_sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/source_precision/INITIAL_CHANNEL_MAP.md": "754a09d4d08c3a28ba4ecacb16d0a901b7b48b3c119715faabb6b24df73c7b21",
+    "udt_observation_metric_evaluation_2026-10-04/source_precision/INITIAL_SOURCE_LEDGER.json": "70ff3a9f6624c58986837f419a2dfd088d0209b3239c9132f6d7dbaba2888183"
+  },
+  "review_state": "Actual re-review pending"
+}

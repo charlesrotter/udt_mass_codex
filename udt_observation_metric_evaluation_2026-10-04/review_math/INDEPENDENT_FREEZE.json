@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T20:04:20.946220+00:00",
+  "context": "/root/oev_math",
+  "parent_code_config_exposed": true,
+  "parent_numerical_outputs_exposed": false,
+  "new_sibling_reviews_research_exposed": false,
+  "sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/review_math/independent_check.py": "f6b2fac20f1d6c709f9336eb8cd7f498c8c7c8d86262d6a8bef014e86373ac89",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_PLAN.md": "da611d7a903bf922e3d03b9fa20f6146fd8520a34725f88024f1a0749d003059",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/SOURCE_FIRST.md": "0170abdafdcb9d8ed2b81be7be131fbe14e618eecc9d3e5e62247de64c706e40",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/SOURCE_FIRST_SEAL.json": "ea822adfd4f5426d978542126e147e7fa80b90d75cf4fc20eb46747070b52e30",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/FREEZE.json": "c13cc39dbf0666b17df9d6d961c5507e223a21919fd22e72d7bf621721a0cbba",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py": "08c5e22edb68aeaf5185babda6fcd75ab9eb75b9e77c9e4da6402cbe0717b118",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/summarize.py": "9f59086362cdfb928adcfd3b2fce2537be2fb5cc2f6d52a743f6d829b94caf5a",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/config.json": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a"
+  },
+  "execution": "pending output handoff; this operation only hashes and writes metadata",
+  "resources": "CPU,one BLAS thread,2GiB process address,<=1000 root/integral anchors,no timeout"
+}

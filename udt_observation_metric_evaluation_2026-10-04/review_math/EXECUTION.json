@@ -1,0 +1,23 @@
+{
+  "utc_recorded": "2026-10-04T20:07:38.714899+00:00",
+  "command": [
+    "python3",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/independent_check.py",
+    "udt_observation_metric_evaluation_2026-10-04",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/run",
+    "udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_RESULT.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "returncode": 0,
+  "execution_count": 1,
+  "code_changed_after_freeze": false,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "threads": "1 for OPENBLAS/OMP/MKL/NUMEXPR set before numpy import",
+  "peak_rss": "not measured",
+  "duration": "not measured",
+  "stdout_sha256": "0bd0dd1e2c72da154eed46a378dc27739b03bbdc7508dc61ca9d61aa6a2b6b55",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "result_sha256": "450b1f7488aaea46e948e441678975cdcbd27aa814c3fa550d863056bf7fcdb4"
+}

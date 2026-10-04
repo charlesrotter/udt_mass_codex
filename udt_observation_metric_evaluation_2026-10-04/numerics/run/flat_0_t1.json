@@ -1,0 +1,126 @@
+{
+  "case": {
+    "id": "flat_0",
+    "metric": "flat",
+    "L": 0.1,
+    "reverse": true,
+    "echo": true,
+    "smoke": false
+  },
+  "tolerance": 1e-10,
+  "center": {
+    "te": 0.0,
+    "distance": 0.1,
+    "tr": 0.1,
+    "lambda_end": 0.1,
+    "kt_end": 1.0,
+    "kx_end": 1.0,
+    "Z": 1.0,
+    "logZ": -0.0,
+    "endpoint_error": 0.0,
+    "nfev": 62,
+    "null_absolute": 0.0,
+    "null_relative": 0.0,
+    "momentum_relative": 0.0,
+    "metricity_absolute": 0.0,
+    "transported_k_absolute": 0.0,
+    "original_residual_absolute": 5.995204332975845e-15,
+    "original_residual_scaled": 2.9976021664879227e-15,
+    "residual_difference_refinement": 2.2426505097428162e-14,
+    "saved_nodes": 132,
+    "arrival_derivative_richardson": 1.0000000000000286,
+    "arrival_frequency_relative": 2.864375403532904e-14,
+    "arrival_step_difference": 0.0
+  },
+  "perturbations": [
+    {
+      "h": 0.0001,
+      "minus": {
+        "te": -0.0001,
+        "distance": 0.1,
+        "tr": 0.0999,
+        "lambda_end": 0.1,
+        "kt_end": 1.0,
+        "kx_end": 1.0,
+        "Z": 1.0,
+        "logZ": -0.0,
+        "endpoint_error": 0.0,
+        "nfev": 62
+      },
+      "plus": {
+        "te": 0.0001,
+        "distance": 0.1,
+        "tr": 0.10010000000000001,
+        "lambda_end": 0.1,
+        "kt_end": 1.0,
+        "kx_end": 1.0,
+        "Z": 1.0,
+        "logZ": -0.0,
+        "endpoint_error": 0.0,
+        "nfev": 62
+      },
+      "arrival_derivative": 1.0000000000000286
+    },
+    {
+      "h": 5e-05,
+      "minus": {
+        "te": -5e-05,
+        "distance": 0.1,
+        "tr": 0.09995,
+        "lambda_end": 0.1,
+        "kt_end": 1.0,
+        "kx_end": 1.0,
+        "Z": 1.0,
+        "logZ": -0.0,
+        "endpoint_error": 0.0,
+        "nfev": 62
+      },
+      "plus": {
+        "te": 5e-05,
+        "distance": 0.1,
+        "tr": 0.10005,
+        "lambda_end": 0.1,
+        "kt_end": 1.0,
+        "kx_end": 1.0,
+        "Z": 1.0,
+        "logZ": -0.0,
+        "endpoint_error": 0.0,
+        "nfev": 62
+      },
+      "arrival_derivative": 1.0000000000000286
+    }
+  ],
+  "reverse": {
+    "te": 0.0,
+    "distance": -0.1,
+    "tr": 0.1,
+    "lambda_end": 0.1,
+    "kt_end": 1.0,
+    "kx_end": -1.0,
+    "Z": 1.0,
+    "logZ": -0.0,
+    "endpoint_error": 0.0,
+    "nfev": 62
+  },
+  "echo": {
+    "te": 0.1,
+    "distance": -0.1,
+    "tr": 0.19999999999999984,
+    "lambda_end": 0.1,
+    "kt_end": 1.0,
+    "kx_end": -1.0,
+    "Z": 1.0,
+    "logZ": -0.0,
+    "endpoint_error": 1.6653345369377348e-16,
+    "nfev": 47
+  },
+  "binding": {
+    "config_sha256": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a",
+    "code_sha256": "08c5e22edb68aeaf5185babda6fcd75ab9eb75b9e77c9e4da6402cbe0717b118",
+    "smoke": false,
+    "equation": "original affine null geodesic and parallel transport",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "trajectory_sha256": "c40622f0ee4326792ef3f20f0f16daf19fef4a3fcd7b1ee00d16e2a186f0ed38"
+}

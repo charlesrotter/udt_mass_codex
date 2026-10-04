@@ -1,0 +1,30 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_METRIC_CHECKS",
+  "rows": 42,
+  "counts": {
+    "scalar_roots": 95,
+    "scalar_integrals": 95,
+    "trajectory_samples": 6393
+  },
+  "failures": [],
+  "catch_proofs": [
+    {
+      "mutation": "invert_nonflat_receive_frequency",
+      "guard": "kt_end/Z/logZ against original metric",
+      "rejected": true,
+      "maximum_error": 0.050800550753340175
+    },
+    {
+      "mutation": "reverse_spatial_tangent_on_fixed_branch",
+      "guard": "signed metric momentum",
+      "rejected": true,
+      "maximum_error": 2.000000000000025
+    },
+    {
+      "mutation": "move_reception_off_incidence",
+      "guard": "independent null-incidence root",
+      "rejected": true,
+      "maximum_error": 0.008632712640007534
+    }
+  ]
+}

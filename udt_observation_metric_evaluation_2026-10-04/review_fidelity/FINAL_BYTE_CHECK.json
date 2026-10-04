@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-04T20:23:35.955173+00:00",
+  "status": "PASS_ACCEPTED_BYTES_AND_BOUNDED_INTEGRATION_STRUCTURE",
+  "head": "515513321e145eb4b0964f256f382697b08fa363",
+  "branch": "grok",
+  "freeze_sha256": "f609374e43cd8aeffae39926f3776dc49265b4576485be519a65872fdd125789",
+  "accepted_entries": 13914,
+  "inherited_count": 13706,
+  "bytes_read": 2303771023,
+  "path_preflight": "All13914 lexical/resolved routes checked before accepted payload hashing",
+  "protected_prefixes": [
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/"
+  ],
+  "protected_or_unsafe_paths": [],
+  "mismatches": [],
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "central_insert_exact": true,
+  "generated_program_exact": true,
+  "R8OEV_proof_dependencies": [
+    "R6",
+    "R7"
+  ],
+  "receipt_stream_checks": [
+    {
+      "name": "final_draft",
+      "returncode": 0,
+      "streams_hash_match": true
+    },
+    {
+      "name": "final_maintenance",
+      "returncode": 0,
+      "streams_hash_match": true
+    },
+    {
+      "name": "production",
+      "returncode": 0,
+      "streams_hash_match": true
+    }
+  ],
+  "limitations": "Byte correspondence and bounded graph/generation checks; no old-corpus scientific reproof or operational normal/full406 completion."
+}

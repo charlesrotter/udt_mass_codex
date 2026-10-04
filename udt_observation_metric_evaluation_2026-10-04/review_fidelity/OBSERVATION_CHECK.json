@@ -1,0 +1,38 @@
+{
+  "status": "PASS_SIX_SOURCE_ROWS_AND_DECIMAL60_CONVERSIONS",
+  "rows": 6,
+  "numeric_columns_per_row": 10,
+  "max_abs_error_by_column": {
+    "D_Mpc": "0",
+    "D_lower_Mpc": "1E-14",
+    "D_upper_Mpc": "1E-14",
+    "z_opt_CMB": "4.7093350560540118724400998773624918876378138E-18",
+    "z_lower": "9.4113563724141452551151236766603381329893229E-18",
+    "z_upper": "5.6449880270170105480105173292918529658274459E-18",
+    "Z_proxy": "1.5419495976780042945576702933600817936520605E-16",
+    "ell_proxy": "6.6280128690736388584535228674122856573706600E-18",
+    "ell_lower": "9.4763769015266716565709958073240130361153693E-18",
+    "ell_upper": "7.2181099878179822406634903434630607033050317E-18"
+  },
+  "max_tolerance_by_column": {
+    "D_Mpc": "3.963E-13",
+    "D_lower_Mpc": "3.453E-13",
+    "D_upper_Mpc": "4.593E-13",
+    "z_opt_CMB": "3E-15",
+    "z_lower": "3E-15",
+    "z_upper": "3E-15",
+    "Z_proxy": "3.10199656190150053741512069659871163269891199197546190438185E-15",
+    "ell_proxy": "3E-15",
+    "ell_lower": "3E-15",
+    "ell_upper": "3E-15"
+  },
+  "method": "Decimal60 division/logarithm on independently visually transcribed source values; parent float/math implementation not imported",
+  "source_interval": "M1 Table1 posterior16th/84th marginals; NGC4258 distance has statistical/systematic quadrature; not joint confidence",
+  "source_sha256": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+  "parent_input_sha256": "114e4412eed79d088dff9cbfc68890d49dd6a902811b7f0370c085b980554910",
+  "parent_output_sha256": "49d186c79349cf3f8a5a6debe78c9c4dc6bf03cdb14208964469217ba40db812",
+  "code_sha256": "d4384b73145995805cb3310f863a977175f25206ef876a2ff8b3f40f602e6042",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "limitations": "Same conventional transformation formula; independent numeric library/precision and source transcription. No original disk-data posterior recovery, joint test, empirical fit or UDT confirmation."
+}

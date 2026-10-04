@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-04T19:58:38.049572+00:00",
+  "stage": "SOURCE_FIRST_BEFORE_NEW_OEV1_EVIDENCE",
+  "head": "515513321e145eb4b0964f256f382697b08fa363",
+  "files": {
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/SOURCE_FIRST.md": "2a82a15a4a031ce82b431afbd9c1e778d7c7990e9189d78b769757dce5513ab7",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/SOURCE_PINS.json": "06cf364dcbe1b843862dd6d5a94cf99d455e22aae730e51de55b4f721119ead9",
+    "udt_observation_metric_evaluation_2026-10-04/review_fidelity/EXPOSURE.json": "443d8ea4bf6f8dc3edad799d24085de471b952d52b0be21c463bcffd4169619d"
+  },
+  "meaning": "Bytes sealed now; checksum does not establish independent origin or trusted timestamp"
+}

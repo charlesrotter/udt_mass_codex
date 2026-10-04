@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-04T20:09:55.252190+00:00",
+  "source_count": 8,
+  "no_new_substantive_source_added": true,
+  "local_primary_papers_checked": [
+    "M1 p4Table1/note,p2sec2",
+    "M2 AppendixA A7/A10/A12\u2013A16 and source-frame/fit excerpts",
+    "S1 p2methods,p4\u20135normalization,quoted summary",
+    "R1 abstract/table/selection excerpts",
+    "R2 two-epoch/readout excerpts",
+    "R3 sec4.2/4.3/5.1"
+  ],
+  "web_success": [
+    "https://zenodo.org/records/12720778",
+    "https://des-sn-dr.readthedocs.io/en/latest/0_DATA.html"
+  ],
+  "web_cache_miss": [
+    "https://github.com/ryanwhite1/DES-Time-Dilation/tree/8ebec41f9a4c82dbccd0eaea700ac4ba91e5baca",
+    "https://raw.githubusercontent.com/ryanwhite1/DES-Time-Dilation/8ebec41f9a4c82dbccd0eaea700ac4ba91e5baca/README.md"
+  ],
+  "S3_scope": "Local commit/repository metadata available; remote code/README not independently retrieved by reviewer",
+  "freeze_checks": [
+    {
+      "freeze": "numerics/FREEZE.json",
+      "mismatches": []
+    },
+    {
+      "freeze": "observation/REDUCTION_FREEZE.json",
+      "mismatches": []
+    }
+  ],
+  "source_precision_re_review": "Completed against actual repaired CHANNEL_MAP/SOURCE_LEDGER and source S1p2; initial history preserved",
+  "remaining_gate": "Final candidate/integration review and separate mathematical numerical verdict"
+}

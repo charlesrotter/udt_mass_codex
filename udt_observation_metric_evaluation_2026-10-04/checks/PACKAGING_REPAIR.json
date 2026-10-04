@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-04T20:34:03.650264+00:00",
+  "scope": "Packaging-only binary classification; no scientific source, code, result, central content or review binding changed",
+  "original_stage": "Exact staging and index byte comparison succeeded; final git diff --cached --check failed on233 binary-PDF whitespace findings",
+  "diagnosis": "R2 PDF has no null byte in first8000 bytes but contains later nulls; Git heuristic treated it as text. %PDF-1.5 header and accepted source hash intact. Every flagged path is the same PDF.",
+  "pdf_path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf",
+  "pdf_sha256": "17e34c94d305e5af6f44fbab654c774ba647ca28025f9be0a9b50e82dae2e6d8",
+  "pdf_index_identical": true,
+  "repair": "Package-local observation/primary/.gitattributes declares *.pdf binary for correct diff/merge/text treatment. No source PDF was edited.",
+  "new_attributes_sha256": "547f59603028195ff9f8a87d04c4651551e8bd0d68f075257dfd549cd846b25b",
+  "all_accepted_scientific_files_unchanged": 13914,
+  "failure_receipt": "checks/stage_pdf_failure.json",
+  "corrected_receipt": "checks/stage_pdf_corrected.json",
+  "original_manifest_copy": "checks/INITIAL_BANKING_MANIFEST.tsv",
+  "manifest_policy": "Preserve original manifest, then refresh live manifest only to include this packaging repair, captured evidence and actual supplemental review. Exact-stage and committed-byte checks must pass.",
+  "not_repeated": "Numerical/source checks,57 maintenance and407-second full406; their science/bindings bytes are unchanged. Normal verification and packaging checks suffice for this repair."
+}

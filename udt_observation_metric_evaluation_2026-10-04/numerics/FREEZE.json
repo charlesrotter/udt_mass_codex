@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-04T19:59:56.546699+00:00",
+  "sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md": "f78b247bb5b6805c21870dcc76a8ccb51620d7870dc89dbaad37ad3c326ceb16",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py": "08c5e22edb68aeaf5185babda6fcd75ab9eb75b9e77c9e4da6402cbe0717b118",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/summarize.py": "9f59086362cdfb928adcfd3b2fce2537be2fb5cc2f6d52a743f6d829b94caf5a",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/config.json": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a"
+  },
+  "history": "Parent hand-designed original affine equations before code freeze. Source-first reviewers exposed only their task/source reconstruction and prospective checks; no numerical output exists. No blind mathematical preregistration claimed. Frozen before any numerical execution.",
+  "scope": "14 supplied-control queries at3 solver settings,5 arrival solves per case plus stated independent reverse/echo; center trajectories saved. Three-case smoke with actual SIGINT-after-checkpoint, restart, uninterrupted agreement and mismatched-config rejection before production. Parent ray budget284 including both full smoke paths; no GPU or native geometry fit.",
+  "limits": "Floats and sampled residual/refinement evidence, not validated interval certification or global claim; fixed comoving radial controls only."
+}

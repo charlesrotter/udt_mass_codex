@@ -1,0 +1,101 @@
+[
+  {
+    "name": "M1_Pesce_2001.09213v2.pdf",
+    "url": "https://arxiv.org/pdf/2001.09213v2",
+    "bytes": 1564815,
+    "sha256": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+    "utc": "2026-10-04T19:56:00.447693+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "M2_Pesce_2001.04581v1.pdf",
+    "url": "https://arxiv.org/pdf/2001.04581v1",
+    "bytes": 2067280,
+    "sha256": "6a4be37e2fe7a9b4aefa7e5c6523e78206fcbf5eb96a423e66b0dfb69f18300b",
+    "utc": "2026-10-04T19:56:36.412940+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "S1_White_2406.05050v2.pdf",
+    "url": "https://arxiv.org/pdf/2406.05050v2",
+    "bytes": 4164262,
+    "sha256": "afefe0a0b25478c2556013b123df98d53ab2cd4cafbb4e687b027d3591c19bbc",
+    "utc": "2026-10-04T19:56:37.555417+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "R1_Darling_1211.4585v1.pdf",
+    "url": "https://arxiv.org/pdf/1211.4585v1",
+    "bytes": 202459,
+    "sha256": "de6b907de11a346a2849731e7508de6f15c82e792d7ce30fe185862273299131",
+    "utc": "2026-10-04T19:56:37.711968+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "R2_ESPRESSO_2025.pdf",
+    "url": "https://www.aanda.org/articles/aa/pdf/2025/07/aa54502-25.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "utc": "2026-10-04T19:56:38.344522+00:00"
+  },
+  {
+    "name": "R2_ESPRESSO_2025.pdf",
+    "url": "https://arts.units.it/bitstream/11368/3123499/1/aa54502-25.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "utc": "2026-10-04T19:57:11.302297+00:00"
+  },
+  {
+    "name": "S2_DES5YR_data_schema.html",
+    "url": "https://des-sn-dr.readthedocs.io/en/latest/0_DATA.html",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "utc": "2026-10-04T19:57:11.463322+00:00"
+  },
+  {
+    "name": "S2_DES5YR_release_index.html",
+    "url": "https://des-sn-dr.readthedocs.io/en/latest/",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "utc": "2026-10-04T19:57:11.504016+00:00"
+  },
+  {
+    "name": "S3_DES_TimeDilation_release.json",
+    "url": "https://api.github.com/repos/ryanwhite1/DES-TimeDilation/commits/main",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "utc": "2026-10-04T19:57:11.753283+00:00"
+  },
+  {
+    "name": "R2_Trost_2505.21615v1.pdf",
+    "url": "https://arxiv.org/pdf/2505.21615v1",
+    "bytes": 1884073,
+    "sha256": "17e34c94d305e5af6f44fbab654c774ba647ca28025f9be0a9b50e82dae2e6d8",
+    "utc": "2026-10-04T19:58:45.418990+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "R3_Trost_2603.02318v1.pdf",
+    "url": "https://arxiv.org/pdf/2603.02318v1",
+    "bytes": 2685945,
+    "sha256": "9cde1825a951338c5d28a3f6d39d6c9ae2781f2bac21ea3b23b25f5feae48a26",
+    "utc": "2026-10-04T19:58:45.855541+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "S3_repository_metadata.json",
+    "url": "https://api.github.com/repos/ryanwhite1/DES-Time-Dilation",
+    "bytes": 5708,
+    "sha256": "e34950f4a02e0f6358c8e797fab9f378089c13e943eedf9fc82c0cf791792811",
+    "utc_from_filesystem_mtime": "2026-10-04T19:59:54.070092+00:00",
+    "status": "saved"
+  },
+  {
+    "name": "S3_commit_metadata.json",
+    "url": "https://api.github.com/repos/ryanwhite1/DES-Time-Dilation/commits/main",
+    "bytes": 19414,
+    "sha256": "20785a7d0c2f554a5e46433628dd37a8d118f88f00ac02eb200a6e55b145c94b",
+    "utc_from_filesystem_mtime": "2026-10-04T19:59:54.602100+00:00",
+    "status": "saved"
+  }
+]

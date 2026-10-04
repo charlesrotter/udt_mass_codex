@@ -1,0 +1,1534 @@
+                                                 Draft version January 15, 2020
+                                                 Typeset using LATEX twocolumn style in AASTeX63
+
+
+
+
+                                                            The Megamaser Cosmology Project. XI. A geometric distance to CGCG 074-064
+                                               D. W. Pesce,1, 2 J. A. Braatz,3 M. J. Reid,1 J. J. Condon,3 F. Gao,4, 3 C. Henkel,5, 6 C. Y. Kuo,7 K. Y. Lo,3, ∗ and
+                                                                                                   W. Zhao8, 9
+                                                               1 Center for Astrophysics | Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA
+                                                                  2 Black Hole Initiative at Harvard University, 20 Garden Street, Cambridge, MA 02138, USA
+                                                                 3 National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA
+arXiv:2001.04581v1 [astro-ph.GA] 14 Jan 2020
+
+
+
+
+                                               4 Key Laboratory for Research in Galaxies and Cosmology, Shanghai Astronomical Observatory, Chinese Academy of Science, Shanghai
+
+                                                                                                        200030, China
+                                                                     5 Max-Planck-Institut für Radioastronomie, Auf dem Hügel 69, D-53121 Bonn, Germany
+                                                      6 Astronomy Department, Faculty of Science, King Abdulaziz University, P.O. Box 80203, Jeddah 21589, Saudi Arabia
+                                               7 Department of Physics, National Sun Yat-Sen University, No.70, Lianhai Rd., Gushan Dist., Kaohsiung City 804, Taiwan (R.O.C.)
+                                                                               8 Shanghai Observatory, 80 Nandan Road, Shanghai 200030, China
+                                                                 9 Key Laboratory of Radio Astronomy, Chinese Academy of Sciences, 210008 Nanjing, PR China
+
+
+
+                                                                                                        ABSTRACT
+                                                         As part of the survey component of the Megamaser Cosmology Project, we have discovered a disk
+                                                       megamaser system in the galaxy CGCG 074-064. Using the GBT and the VLA, we have obtained
+                                                       spectral monitoring observations of this maser system at a monthly cadence over the course of two
+                                                       years. We find that the systemic maser features display line-of-sight accelerations of ∼4.4 km s−1 yr−1
+                                                       that are nearly constant with velocity, while the high-velocity maser features show accelerations that
+                                                       are consistent with zero. We have also used the HSA to make a high-sensitivity VLBI map of the
+                                                       maser system in CGCG 074-064, which reveals that the masers reside in a thin, edge-on disk with a
+                                                       diameter of ∼1.5 mas (0.6 pc). Fitting a three-dimensional warped disk model to the data, we measure
+                                                       a black hole mass of 2.42+0.22          7
+                                                                                    −0.20 × 10 M    and a geometric distance to the system of 87.6+7.9
+                                                                                                                                                     −7.2 Mpc.
+                                                       Assuming a CMB-frame recession velocity of 7308 ± 150 km s−1 , we constrain the Hubble constant to
+                                                       H0 = 81.0+7.4
+                                                                 −6.9 (stat.) ±1.4 (sys.) km s
+                                                                                               −1
+                                                                                                  Mpc−1 .
+                                                                 1. INTRODUCTION                                     The Megamaser Cosmology Project (MCP) is a multi-
+                                                 Water megamasers residing in the accretion disks                  year campaign to survey active galactic nuclei (AGN) for
+                                               around supermassive black holes (SMBHs) provide a                   the presence of water megamasers, monitor their spec-
+                                               unique way to bypass the cosmic distance ladder and                 tral evolution, and map their structure using very long
+                                               make one-step, geometric distance measurements to                   baseline interferometry (VLBI). The goal of the MCP is
+                                               their host galaxies. First applied to the archetypal                to determine H0 with an accuracy of ±3% by making
+                                               megamaser-hosting galaxy NGC 4258 (Herrnstein et al.                geometric distance measurements to megamaser galax-
+                                               1999), the “megamaser technique” exploits the simple                ies in the Hubble flow (Reid et al. 2013; Kuo et al. 2013,
+                                               geometry and Keplerian dynamics of maser clouds orbit-              2015; Gao et al. 2016).
+                                               ing in a point-source potential to simultaneously solve               In this work we present a megamaser distance mea-
+                                               for the SMBH mass and angular-size distance. H0 mea-                surement to CGCG 074-064, a Seyfert 2 galaxy whose
+                                               surements made using the megamaser technique are in-                maser system was discovered in 2015 as part of the sur-
+                                               dependent of standard candles and the CMB, and thus                 vey component of the MCP. This paper is organized
+                                               provide a key piece of evidence for interpreting the cur-           as follows. In Section 2 we describe the monitoring
+                                               rent tension between early- and late-Universe measure-              and mapping observations and data reduction proce-
+                                               ments of H0 (see, e.g., Verde et al. 2019).                         dures. Section 3 goes over our measurement techniques
+                                                                                                                   for determining maser positions and accelerations, and
+                                                                                                                   in Section 4 we detail our modeling procedure and cor-
+                                               Corresponding author: Dominic W. Pesce                              responding H0 measurement. Section 5 discusses the
+                                               dpesce@cfa.harvard.edu                                              observed VLBI continuum emission and spectral vari-
+                                               ∗ Deceased                                                          ability of the maser features. Unless otherwise speci-
+2                                                     Pesce et al.
+
+fied, all velocities referenced in this work use the opti-    weighting scheme (with τ the integration time and Tsys
+cal definition in the barycentric reference frame. The        the system temperature) chosen to minimize the final
+conversion from barycentric to CMB frame velocities is        noise level. A polynomial (typically third-order) was fit
+vCMB = vbary + 263.3 km s−1 for CGCG 074-064 (Hin-            to line-free spectral channels and subtracted to remove
+shaw et al. 2009).                                            any residual baseline structure from the final spectrum.
+                                                              Table 1 lists the system temperatures and sensitivities
+     2. OBSERVATIONS AND DATA REDUCTION
+                                                              achieved for all monitoring observations.
+  There are two classes of observations necessary for           Figure 1 shows the CGCG 074-064 maser spectrum av-
+making a Hubble constant measurement using a disk             eraged over all GBT epochs. This spectrum represents
+maser system: (1) high-sensitivity VLBI observations to       the product of some ∼40 hours of integration, and it
+map the spatial distribution of the masers, and (2) short-    achieves an RMS noise level of 0.33 mJy per 0.32 km s−1
+cadence (∼monthly) monitoring observations spanning           spectral channel. Maser emission is detected all the way
+a sufficiently long time baseline to measure the accel-       down to the sensitivity limit, and individual maser fea-
+erations of the systemic maser features. We used the          tures are seen out to velocity extremes of 7892 km s−1 on
+Very Long Baseline Array (VLBA), augmented with the           the redshifted side and 5846 km s−1 on the blueshifted
+Robert C. Byrd Green Bank Telescope (GBT) and the             side, corresponding to orbital velocities of ∼1000 km s−1 .
+phased Karl G. Jansky Very Large Array (VLA), to map
+the maser system in CGCG 074-064. The bulk of the                        2.2. VLA monitoring observations
+monitoring spectra were taken with the GBT, though              We used the VLA to observe during the 2016 sum-
+we used the VLA to observe during the summer months           mer months, when the level of atmospheric water vapor
+when the weather in Green Bank makes K-band obser-            at the Green Bank site would have made K-band ob-
+vations inefficient.                                          servations inefficient. In total, four 3-hour tracks were
+                                                              covered by the VLA (see Table 1). All VLA data were
+             2.1. GBT monitoring observations
+                                                              reduced and imaged using standard procedures within
+   We performed ∼monthly spectral monitoring obser-           CASA2 .
+vations of CGCG 074-064 from 2015 October through               The first three tracks were observed with the VLA
+2017 May, for a total of 20 epochs (see Table 1). 16 of       in B configuration, and the September track was ob-
+the monitoring spectra were taken with the GBT. Our           served while the VLA was transitioning between B
+general observing strategy and data reduction process         and A configurations3 . We configured the correlator
+follow similar procedures to those detailed in previous       to place three overlapping 64 MHz windows covering
+MCP papers (Braatz et al. 2010; Pesce et al. 2015), so        the three sets of maser features, with 4096 15.625 kHz
+in this section we give only a brief overview. All GBT        (0.21 km s−1 ) channels in each spectral window. An ad-
+data were reduced using GBTIDL1 .                             ditional eight 128 MHz spectral windows with coarser
+   For each 3-hour GBT monitoring epoch we performed          (2 MHz; 26.5 km s−1 ) channel resolution were placed on
+nodding observations with two of the seven beams of           each side of the maser profile, resulting in a net ∼2 GHz
+the K-band Focal Plane Array (KFPA), using the Ver-           increase in bandwidth for a significant improvement in
+satile GBT Astronomical Spectrometer (VEGAS) as the           continuum sensitivity.
+backend. The spectrometer was configured with four              During reduction, we first corrected for antenna posi-
+overlapping 187.5 MHz spectral windows, covering re-          tions and atmospheric opacity before solving for delay
+cession velocities from 3500–12500 km s−1 contiguously        and phase solutions on the flux calibrator (3C 286, which
+with 5.722 kHz (∼0.08 km s−1 ) spectral channels. Both        also doubled as our bandpass calibrator). The bright-
+left circular polarization (LCP) and right circular polar-    est systemic maser features exceeded ∼150 mJy for all
+ization (RCP) were observed simultaneously in each of         VLA tracks, and by averaging over a 10 km s−1 window
+the two beams, and we performed hourly observations           in both polarizations we were able to track the phase
+of a nearby bright (>1 Jy) continuum source to derive         solutions on individual baselines with a two-minute ca-
+pointing and focus corrections.
+   During data reduction we smoothed the reference
+                                                                2 https://casa.nrao.edu/
+beam spectrum with a 64-channel boxcar function prior
+                                                                3 We note that the August and September VLA tracks were ob-
+to differencing. For every monitoring run, all integra-
+                                                        2        served during the period of time in semester 16B when the online
+tions in both polarizations were averaged using a τ /Tsys        tropospheric delay model was misapplied. Though our observa-
+                                                                 tions are negligibly affected by this issue, we nevertheless applied
+                                                                 a tropospheric delay error correction during the data reduction
+    1 http://gbtidl.nrao.edu/
+                                                                 procedure for these tracks.
+                                       Megamaser Cosmology Project XI                                                       3
+
+                                         Table 1. Monitoring observation details
+
+                                                Tsys   Sensitivity    Synthesized beam     Continuum flux density
+                                                                                  ◦
+            Epoch       Date        Telescope   (K)      (mJy)            (00 × 00, )              (µJy)
+            1       2015 Oct 15       GBT       42.1      3.8                 ...                   ...
+            2       2015 Nov 13       GBT       44.4      2.9                 ...                   ...
+            3       2015 Dec 18       GBT       41.3      2.7                 ...                   ...
+            4       2016 Jan 12       GBT       45.9      2.9                 ...                   ...
+            5       2016 Feb 26       GBT       43.7      3.2                 ...                   ...
+            6       2016 Mar 22       GBT       47.8      2.7                 ...                   ...
+            7       2016 Apr 10       GBT       43.7      2.7                 ...                   ...
+            8       2016 Jun 08       VLA       ...       1.3         0.38 × 0.31, −2.79        62.1 ± 6.0
+            9       2016 Jun 13       GBT       49.5      3.2                 ...                   ...
+            10       2016 Jul 10      VLA       ...       2.8         0.38 × 0.34, 17.12        83.3 ± 12.8
+            11      2016 Aug 15       VLA       ...       3.0         0.36 × 0.33, 45.05        90.7 ± 11.7
+            12      2016 Sep 10       VLA       ...       2.1         0.25 × 0.15, 80.69        58.9 ± 8.7
+            13      2016 Oct 09       GBT       47.6      3.0                 ...                   ...
+            14      2016 Nov 18       GBT       50.4      3.1                 ...                   ...
+            15      2016 Dec 14       GBT       35.2      2.2                 ...                   ...
+            16      2017 Jan 25       GBT       50.3      3.2                 ...                   ...
+            17      2017 Feb 16       GBT       37.7      2.5                 ...                   ...
+            18      2017 Mar 15       GBT       40.0      2.7                 ...                   ...
+            19      2017 Apr 11       GBT       64.7      4.3                 ...                   ...
+            20      2017 May 09       GBT       42.3      2.8                 ...                   ...
+           Note—Monitoring observation details. The sensitivity is listed per 5.722 kHz (0.08 km s−1 ) channel
+            for all GBT observations and per 15.625 kHz (0.21 km s−1 ) channel for all VLA observations. The
+            RMS sensitivity for each epoch was determined using the line-free velocity range spanning 7100–
+            7300 km s−1 . The synthesized beam sizes are quoted as the full width at half maximum (FWHM) of
+            the major × minor axes of the restoring elliptical Gaussian in the 6900 km s−1 channel, with position
+            angles measured east of north. The continuum flux densities measured for the VLA tracks are quoted
+            as the peak value of the unresolved point source measured in a ∼2 GHz bandwidth centered at a
+            rest-frame frequency of 22.2 GHz.
+
+
+
+
+dence. After applying the bandpass, flux, and phase                  of 72.3 ± 4.8 µJy across the 2 GHz bandwidth (centered
+calibrations we performed a round of (typically minor)               at a rest-frame frequency of 22.2 GHz). The continuum
+data flagging and repeated the calibration procedure                 level shows strong (greater than ∼50%) variability from
+once more before splitting out the calibrated science                one epoch to another, with a similar magnitude and
+target. We then performed a series of phase and ampli-               timescale to that seen in the nuclear continuum emis-
+tude self-calibration steps, once again using the bright-            sion from the megamaser galaxy NGC 4258 (Herrnstein
+est systemic maser features. We stopped iterating self-              et al. 1997). Unlike in NGC 4258, we do not find evi-
+calibration once there was no noticeable increase in the             dence for a correlation between the continuum level and
+signal-to-noise ratio (S/N), which typically occurred af-            the average flux density of any group of maser features.
+ter 2-3 rounds.
+   Prior to imaging, we performed continuum subtrac-                            2.3. VLBI mapping observations
+tion on the (u, v)-data. We imaged the continuum and                   In total, we observed 10 6-hour VLBI tracks (see Ta-
+spectral line cubes separately, using the CLEAN algorithm            ble 2). The first track was phase-referenced to measure
+with natural (u, v)-weighting for both. The continuum                the absolute position of CGCG 074-064, while the subse-
+is unresolved in our VLA observations, and it is spa-                quent 9 tracks were self-calibrated on the strongest sys-
+tially coincident with the maser emission. Combining                 temic maser features (see Table 3). As with the single-
+all VLA tracks, we measure an average continuum level                dish monitoring observations we have generally followed
+    4                                                                   Pesce et al.
+
+                     120
+                           25                                                           25
+
+                           20                                                           20
+                     100
+                           15                                                           15
+
+
+                           10                                                           10
+                      80
+Flux density (mJy)
+
+
+
+
+                           5                                                             5
+
+
+                           0                                                             0
+                      60
+                           −5                                                           −5
+                           5950      6000   6050   6100      6150     6200              7500    7550   7600   7650     7700   7750   7800
+
+
+
+                      40
+
+
+
+                      20
+
+
+
+                       0
+                                  6000                    6500                       7000                       7500                        8000
+                                                                    Barycentric velocity (km s−1)
+
+Figure 1. 22 GHz GBT spectrum of CGCG 074-064, plotted as a weighted average over all epochs. The two inset plots
+show zoomed-in spectra of the strongest high-velocity maser features. The RMS noise level in this spectrum is 0.33 mJy per
+0.3 km s−1 spectral channel.
+
+the same observing and data reduction procedures used                               tainties are much smaller than the absolute astrometric
+for previous MCP targets (Reid et al. 2009; Kuo et al.                              uncertainties for the phase-reference source, so we take
+2011; Gao et al. 2016), so this section focuses primar-                             the absolute positional uncertainties for CGCG 074-064
+ily on differences from previous MCP papers. All VLBI                               to be 0.78 mas in right ascension and 1.15 mas in decli-
+data were reduced in AIPS4 and imaged with CASA.                                    nation (Table 3).
+   For the phase-referenced track, we observed using only                              The self-calibrated tracks were observed using the
+the VLBA antennas. The correlator was configured with                               High Sensitivity Array (HSA), composed of the VLBA
+two overlapping 128 MHz spectral windows placed to                                  plus the GBT and phased-VLA. We used the same cor-
+either side of the systemic features. Both windows con-                             relator configuration as for the phase-referenced track,
+tained the systemic complex of maser features, with one                             but in addition we obtained a second “zoom” correlator
+window shifted blueward and the other shifted redward                               pass with a higher-resolution channel spacing of 25 kHz
+to cover the high-velocity maser features. Each spectral                            (∼0.34 km s−1 ) across three 64 MHz spectral windows
+window was spanned by 256 channels spaced contigu-                                  contiguously covering the three sets of maser features.
+ously every 0.5 MHz (∼6.7 km s−1 ), and we observed                                 As with the phase-referenced track, we performed hourly
+in dual circular polarization. We used J1410+0731 as                                delay calibration observations of J1415+1320. The
+our phase-reference calibrator (separated from CGCG                                 VLA was “phased-up” every 10 minutes by observing
+074-064 by 2.3 degrees), switching between target and                               J1351+0830, located 2.9 degrees away from CGCG 074-
+calibration observations on a 3-minute duty cycle. We                               064. Each track was bracketed by observations of ei-
+observed J1415+1320 hourly as a delay calibrator, and                               ther 4C39.25 or 3C286, which served as both fringe-
+the entire track was bracketed by “geodetic” observa-                               finders and bandpass calibrators. During data pro-
+tions (see Reid et al. 2009). We measure the absolute                               cessing the strongest systemic features, located between
+position of the maser system, defined as the intensity-                             6900 km s−1 and 6920 km s−1 , were used to self-calibrate
+weighted mean position of all systemic maser features, to                           the phases.
+be αJ2000 = 14:03:04.457746, δJ2000 = +08:56:51.03483.                                 After calibration we concatenated all of the phase-
+The resulting statistical and relative calibration uncer-                           referenced tracks into one measurement set, weighting
+                                                                                    each track by its RMS (i.e., using 1/σ 2 weighting). We
+               4 http://www.aips.nrao.edu/
+                                                                                    then imaged the dataset in CASA, using the CLEAN al-
+                                                                                    gorithm with natural (u, v)-weighting. The RMS of
+                                             Megamaser Cosmology Project XI                                                              5
+
+the final data cube is 0.49 mJy beam−1 in a single
+∼0.34 km s−1 channel. Prior to mapping the maser sys-                                       1.0
+tem, we averaged to ∼2 km s−1 channels, corresponding
+to a typical maser feature linewidth (e.g., Reid et al.
+2013).
+                                                                                            0.5
+
+
+
+
+                                                                         Dec offset (mas)
+   We imaged the line-free channels in our combined
+VLBI data using Briggs (u, v)-weighting with the robust
+parameter set to zero (Briggs 1995), and we detected a
+marginally-resolved continuum source with a peak flux                                       0.0
+density of 46±9.5 µJy beam−1 (see Figure 2). The peak
+of the continuum emission is located 0.38 ± 0.12 mas
+north of the disk plane, and it is aligned in right ascen-
+sion with the systemic features. The VLBI continuum                                         0.5
+is somewhat weaker (up to a factor of ∼2) than what
+was observed with the VLA, which could be explained                                                   0.5× restoring beam
+by either the presence of an intermediate-scale compo-                                      1.0
+nent that is resolved out on very long baselines, or by                                           1.0       0.5        0.0       0.5   1.0
+source variability, which we know from the VLA moni-                                                           RA offset (mas)
+toring observations is large enough to plausibly account
+                                                                           Figure 2. VLBI map of the maser system in CGCG 074-
+for the entirety of the flux difference.                                   064, with maser spot positions extracted from the data cube
+                                                                           as described in Section 3.1. Maser spots are plotted with
+                  3. MEASUREMENTS                                          1σ uncertainties in right ascension and declination shown
+   The input data for our disk modeling consists of an                     as horizontal and vertical lines, respectively. Blue, green,
+on-sky position (x, y), a line-of-sight velocity v, and a                  and red points mark blueshifted, systemic, and redshifted
+                                                                           masers, respectively. The gray contours show the 22 GHz
+line-of-sight acceleration a for each maser “spot” (i.e.,
+                                                                           continuum, imaged using Briggs weighting with the robust
+for each velocity channel in the VLBI map). In this                        parameter set to zero; the location of the continuum peak
+section we detail how the maser positions and acceler-                     is marked in black with its associated 1σ uncertainties. The
+ations are measured. Table 4 lists all measured (and                       continuum emission peaks at a value of ∼46 µJy beam−1 ,
+some modeled) quantities for each maser spot.                              and contours are shown at 15, 30, and 45 µJy beam−1 . Note
+                                                                           that the apparent North-South elongation of the continuum
+        3.1. Position fitting for the maser spots                          structure is driven by the asymmetric resolution element; the
+                                                                           FWHM restoring beam, scaled down by a linear factor of 2,
+   Even at the .1 mas angular resolution afforded by                       is shown at the bottom left-hand corner.
+VLBI, individual masers are unresolved point sources.
+In any single velocity channel of a CLEANed image, a                       model was a 2D elliptical Gaussian with major axis, mi-
+maser “spot” thus takes on the appearance of the restor-                   nor axis, and position angle fixed to match the restoring
+ing beam. This beam is a two-dimensional (2D) ellip-                       beam parameters. Initial guesses for the centroid and
+tical Gaussian of known dimensions and position angle                      amplitude were obtained using the location and value
+determined from the (u, v)-coverage of the observation                     of the brightest pixel in each channel, and converged
+and the weighting scheme used during the CLEANing pro-                     fits had typical reduced-χ2 values of ∼1. Our resulting
+cess (see Table 2), so every maser spot in the data cube                   VLBI map is shown in Figure 2.
+will necessarily share these characteristics5 . The only                      For an image containing only a 2D elliptical Gaussian
+unknown parameters for any given maser spot are then                       and some normally-distributed noise, we follow Condon
+the centroid (i.e., the coordinate location in right ascen-                (1997) and define the measured S/N to be the amplitude
+sion and declination of the Gaussian) and the amplitude.                   of the best-fit Gaussian divided by the RMS within a
+   We used a least-squares fitting routine (Markwardt                      beam – i.e., the standard deviation of the pixel values far
+2009) to determine the amplitude and centroid of any                       from the peak of the Gaussian multiplied by the effective
+maser spot within each velocity channel. The fitted                        number of pixels contained within the beam area – as
+                                                                           measured from the signal-free regions of the image. If
+  5 There is a small (at the level of ∼10−3 for CGCG 074-064)              we fit such an image using the model described above,
+   frequency-dependent gradient in the beam size across the maser          the uncertainty in a measurement of one of the centroid
+   spectrum, but this effect is also determined by the (u, v)-coverage     coordinates (σx ) will be related to the full width at half
+   and doesn’t modify the beam shape.
+    6                                                       Pesce et al.
+
+                                                   Table 2. VLBI observation details
+
+                                                                                Synthesized beam      Sensitivity
+                                                                                                ◦
+                      Project code         Date               Stations            (mas × mas, )          (mJy)
+                                a
+                      BB370Z            2016 Jan 19          VLBA               2.33 × 0.36, −18.18       1.30b
+                      BB370D            2016 Feb 11      VLBA+GBT+VLA           1.29 × 0.47, −3.5         1.44c
+                      BB370E            2016 Feb 21      VLBA+GBT+VLA           1.05 × 0.36, −6.88        1.26
+                      BB370G            2016 Feb 28      VLBA+GBT+VLA           1.48 × 0.34, −14.3        1.01
+                      BB370H           2016 Mar 10         VLBA+VLAd            1.40 × 0.35, −17.24       2.09
+                      BB370J           2016 Mar 21       VLBA+GBT+VLA           1.28 × 0.36, −9.63        0.95
+                      BB370L           2016 Mar 24       VLBA+GBT+VLA           1.29 × 0.36, −14.26       1.07
+                      BB370U           2016 May 16       VLBA+GBT+VLA           1.13 × 0.36, −7.4         1.01
+                      BB370Y          2016 Jun 17/18     VLBA+GBT+VLA           1.02 × 0.36, −6.30        1.29e
+                      BB370AB         2016 Jun 19/20     VLBA+GBT+VLA           1.31 × 0.34, −11.8        1.76
+
+                      ...                   ...                  ...            1.12 × 0.40, −6.91        0.49
+                     Note—VLBI observation details. All tracks were 6 hours in length. The RMS sensitivity for
+                      each track was determined using the line-free velocity range spanning 7100–7300 km s−1 .
+                      All tracks prior to BB370U were taken with the VLA in C-configuration, while all subse-
+                      quent tracks had the VLA in B-configuration. The synthesized beam sizes are quoted as
+                      the FWHM of the major × minor axes of the restoring elliptical Gaussian, with position
+                      angles measured east of north. The bottom row gives the beam characteristics and sensi-
+                      tivity from combining all tracks.
+                      a
+                        Track BB370Z was observed in a phase-referencing observing mode; all other tracks used
+                      self-calibration.
+                      b
+                        The sensitivity in the phase-referenced track is calculated per 0.5 MHz (∼6.7 km s−1 )
+                      channel from the default “continuum-like” correlator pass (i.e., without re-correlating at
+                      finer spectral resolution).
+                      c
+                        The sensitivity in the self-calibrated tracks is calculated per 25 kHz (∼0.34 km s−1 ) chan-
+                      nel from a second “zoom” correlator pass.
+                      d
+                        No fringes were found on GBT baselines for this track.
+                      e
+                        The GBT had poor pointing corrections for the first ∼2 hours of this track, so all GBT
+                      baselines were flagged during this time period.
+
+
+
+
+                                     Table 3. VLBI positions for CGCG 074-064 and calibrators
+
+                       R.A.               decl.         Uncertainty in R.A.    Uncertainty in decl.
+     Name             (J2000)            (J2000)               (mas)                  (mas)                         Purpose
+ 4C39.25          09:27:03.013938    +39:02:20.85177            0.13                   0.10           fringe finder/bandpass calibrator
+ 3C286            13:31:08.288051    +30:30:32.95925            0.17                   0.17           fringe finder/bandpass calibrator
+ J1351+0830       13:51:16.919081    +08:30:39.90354            0.09                   0.19              VLA “phase-up” calibrator
+ J1410+0731       14:10:35.075347    +07:31:21.48972            0.78                   1.15               phase reference calibrator
+ J1415+1320       14:15:58.817511    +13:20:23.71291            0.02                   0.04                     delay calibrator
+
+ CGCG 074-064     14:03:04.457746    +08:56:51.03483            0.78                   1.15                       science target
+Note—VLBI positions for CGCG 074-064 and calibrators. The positions for the calibrators are from the VLBA Calibrator Survey, and
+ the position for CGCG 074-064 is measured in reference to J1410+0731. The astrometric uncertainty in the phase reference calibrator
+ J1410+0731 dominates the absolute position uncertainty for CGCG 074-064.
+                                           Megamaser Cosmology Project XI                                                           7
+
+
+
+
+                                        Table 4. Measurements for individual maser spots
+
+ Spot   Velocity      Sν        σS           x          σx           y           σy             a              σa          Accel.
+
+ type   (km s−1 )    (Jy)      (Jy)        (mas)       (mas)       (mas)       (mas)     (km s−1 yr−1 )   (km s−1 yr−1 )   meas.
+ b       6007.40    0.00338   0.00022    −0.277944   0.012987     0.014065    0.036364        0.082           1.758          0
+ b       6009.41    0.00252   0.00020    −0.284287   0.015984     0.016585    0.044755        0.020           2.164          0
+ s       6897.66    0.00435   0.00017     0.011185   0.007604    −0.015560    0.021290        4.580           1.030          1
+ s       6899.68    0.00519   0.00021    −0.000542   0.007909     0.033921    0.022144        4.140           1.071          1
+ r       7650.97    0.00867   0.00024     0.452579   0.005421    −0.118197    0.015180       −0.106           0.734          1
+ r       7652.97    0.00722   0.00018     0.450337   0.004854    −0.073305    0.013590        0.285           0.657          1
+Note—Measurements for individual maser spots. The “spot type” column 1 indicates which velocity group the maser spot
+ belongs to (“b” for blueshifted, “s” for systemic, “r” for redshifted). The velocities in column 2 are quoted using the optical
+ convention in the barycentric reference frame. Columns 3 and 4 list the maser flux density and RMS from the VLBI channel
+ maps. Columns 5 through 8 list the position measurements and associated uncertainties. Column 9 lists either the measured
+ or modeled acceleration for each maser spot, and column 10 lists the associated uncertainties obtained from the disk modeling.
+ Column 11 indicates whether the acceleration for the maser spot was measured (“1”) or modeled (“0”).
+ (Only a portion of the table is shown here to illustrate its form and content. This table is available in its entirety in machine-
+ readable form.)
+8                                                            Pesce et al.
+
+maximum (FWHM, ∆x ) of the restoring beam along                      monitoring spectra to obtain an acceleration measure-
+that direction by (see, e.g., Kaper et al. 1966; Reid et al.         ment. Nevertheless, it is useful to include these data
+1988; Condon 1997)                                                   points in the disk modeling, as they are still capable of
+                                                                     providing model constraints (e.g., on the location and
+                               1 ∆x                                  velocity of the dynamic center). In past MCP works, we
+                        σx ≈         .                       (1)
+                               2 S/N                                 have assigned a nominal acceleration measurement (e.g.,
+We find that maser spots with measured S/N ≥ 3 have                  0 ± 1 km s−1 yr−1 ) to such weak maser features; here, we
+uncertainties that are well-described by the above ex-               opt for an alternative treatment that uses the ensemble
+pression (see Appendix B), so we use only such maser                 of measurements to constrain the unmeasured accelera-
+spots for the measurements in this paper.                            tions within the context of a complete disk model. See
+                                                                     Appendix B for details.
+3.2. Measuring accelerations from monitoring spectra                    The accelerations and their uncertainties are shown
+   We measured accelerations using a time-dependent                  in Figure 3. We can see that the systemic features
+Gaussian decomposition of the maser spectrum. For                    share a roughly constant acceleration with a mean of
+each of N Gaussians, the free parameters are the am-                 4.38 km s−1 yr−1 and an RMS of 0.66 km s−1 yr−1 , sug-
+plitude A, the linewidth σ, the initial central velocity             gesting that they mostly reside in a thin annulus with
+v0 (referenced to a particular observing epoch), and its             little (∼5%) spread in orbital radius. The redshifted
+linear drift in time a (i.e., the measured acceleration).            features show a mean acceleration of 0.06 km s−1 yr−1
+The model spectrum at each epoch t (where t = 0 cor-                 (RMS of 0.65 km s−1 yr−1 ), and the blueshifted fea-
+responds to the reference epoch) is then obtained by                 tures have a mean of −0.35 km s−1 yr−1 (RMS of
+summing each of the individual Gaussians,                            1.11 km s−1 yr−1 ). Both sets of high-velocity features
+                                                                     have accelerations that are consistent with zero, as ex-
+              N                                  2
+                                                     !               pected for masers located near the midline of the disk.
+              X                [v − (v0,i + ai t)]
+    S(v, t) =     Ai (t) exp −                           ,   (2)       4. DETERMINING THE HUBBLE CONSTANT
+              i=1
+                                      2σi2
+                                                                       To measure H0 , we fit a three-dimensional warped disk
+where the index i indicates the values for the ith Gaus-             model to the (x, y, v, a) measurements obtained for each
+sian. The individual amplitudes are allowed to vary                  velocity channel of the VLBI map. The basic model is
+from one epoch to the next, while the line widths are                a thin, warped disk in which clouds of masing gas orbit
+held fixed. The fitting was performed using a least-                 a massive point source. The model can include three
+squares routine, choosing random initial guesses for each            parameters describing confocal elliptical instead of pure
+of the parameters. Nine consecutive monitoring epochs                circular orbits, although for CGCG 074-064 the data
+were fit simultaneously, and the fitting procedure was               did not support this addition (see Section 4.1). The
+repeated 100 times for each set of nine consecutive spec-            relative weightings of the heterogeneous (x, y, v, a) data
+tra (approximating the lifetime of an individual maser               products are important and are discussed in detail in
+feature), with typical reduced-χ2 values between 1.2 and             Appendix B.
+1.7. From each suite of 100 fits, the 10 best (i.e., small-            Our fitting procedure requires that we explore a mod-
+est reduced-χ2 ) were selected and averaged to produce               erately high-dimensional (d > 300, mostly nuisance pa-
+the final acceleration measurements. See “Method 2”                  rameters) parameter space subject to several strong cor-
+from Reid et al. (2013) for further details regarding the            relations between model parameters (e.g., between D
+fitting code.                                                        and MBH ). We perform the model fitting within a
+   We applied this fitting technique separately to each              Bayesian framework, whereby the posterior distribution
+group of maser features. The systemic features were                  P(Θ|D) of the model parameters Θ conditioned on the
+fit within the velocity range 6880–6975 km s−1 , the                 data D is given by Bayes’ theorem,
+blueshifted features within the range 6120–6405 km s−1 ,
+and the redshifted features within the range 7580–                                             L(Θ)π(Θ)
+                                                                                     P(Θ|D) =            .           (3)
+7780 km s−1 . The best-fit accelerations were binned as a                                           Z
+function of v0 to match the VLBI spectral binning, and               Here, L(Θ) = P(D|Θ) is the likelihood of the data
+an acceleration measurement was assigned to each chan-               conditioned on the model parameters, π(Θ) is the
+nel as the χ2 -weighted mean of the 10 best-fit acceler-             prior
+                                                                     R     probability of the model parameters, and Z =
+ations within that channel. Several of the high-velocity               L(Θ)π(Θ)dΘ is the Bayesian evidence.
+maser features detected in the VLBI map, particularly                  Past MCP papers have used a random walk
+in the blueshifted complex, are too weak in individual               Metropolis-Hastings (MH) Markov Chain Monte Carlo
+                                                          Megamaser Cosmology Project XI                                                          9
+                             10
+
+                             8
+
+                             6
+Acceleration (km s 1 yr 1)
+
+
+
+
+                             4
+
+                             2
+
+                             0
+
+                              2
+
+                              4
+                              6000   6100   6200   6300   6400 6880   6900    6920        6940   6960       7600 7625 7650 7675 7700 7725 7750 7775
+                                                                             Velocity (km s 1)
+
+Figure 3. Acceleration measurements for the three sets of maser features, with data points colored by velocity complex (blue
+for blueshifted features, green for systemic features, and red for redshifted features). The accelerations have been measured as
+described in Section 3.2. Unmeasured accelerations (i.e., those that were fit by the model) are plotted using open circles.
+
+(MCMC) algorithm to sample the posterior (see Reid                                       The autocorrelation A(t) for a chain is given by
+et al. 2013 for a detailed description), but in this work we                                            P                 >
+introduce instead a new algorithm utilizing the Hamil-                                                    (Θi − hΘi) (Θi+t − hΘi)
+tonian Monte Carlo (HMC; Neal 2012) sampler imple-                                               A(t) = i     P            2      ,             (4)
+mented in PyMC36 (Salvatier et al. 2016). HMC meth-                                                              |Θi − hΘi|
+                                                                                                                 i
+ods take advantage of the posterior geometry to effi-
+                                                                                      where Θi is the parameter column vector at the ith step
+ciently explore the “typical set” (i.e., the region con-
+                                                                                      of the chain, t is the lag, and angle brackets hi denote
+taining the bulk of the probability mass) even in com-
+                                                                                      a sample average. We define the integrated autocorre-
+plex and high-dimensional spaces; see Betancourt (2017)
+                                                                                      lation time τ to be the sum of A(t) over all t ≥ 0,
+for a concise overview of HMC. In addition to increased
+sampling efficiency, the primary improvement provided                                                                X
+by the new disk-fitting code is the ability to fit for the                                                   τ=          A(t),                  (5)
+                                                                                                                     t
+“error floor” parameters as part of the model, thereby
+removing a source of systematic uncertainty that has                                  such that the value of τ indicates roughly how many
+limited the precision of previous MCP measurements.                                   steps in the chain separate two independent samples
+  In this section we focus on the disk-fitting procedure                              (Sokal 1997). The effective sample size is then given
+and resulting measurement of the Hubble constant. A                                   by the number of autocorrelation times contained in the
+comprehensive description of the disk model is provided                               chain,
+in Appendix A, and Appendix B details the construction
+                                                                                                                     N
+of the likelihood function.                                                                                    Neff =   .                    (6)
+                                                                                                                      τ
+                                                                                      We aim to achieve 1% precision in our parameter esti-
+                                                                                      mates, requiring an effective sample size of Neff ≈ 104 .
+   4.1. Fitting procedure and systematic error estimation                               The “best-fit” parameters we recover will depend on
+  The primary end results of our fitting procedure are                                the specific choice of model used, and we don’t know a
+point estimators – namely the median value and some                                   priori which model parameters will be well-constrained
+confidence interval around it – for each of the model                                 by the data and which will prove to be extraneous. We
+parameters. To achieve some desired level of precision                                have thus performed a series of model fits using different
+p in such estimators requires ∼1/p2 independent sam-                                  assumptions for which parameters are permitted to vary
+ples. Adjacent samples in the MCMC chain are gener-                                   in the underlying models and for how strong of a prior
+ally correlated, so we use the autocorrelation time, τ , to                           we impose on the error floor parameters. We use these
+determine our effective sample size.                                                  different model specifications to assess the magnitude of
+                                                                                      the model-dependent systematics in our measurements.
+                                                                                      The results from these different model-fitting runs indi-
+                  6 https://github.com/pymc-devs/pymc3
+                                                                                      cate the following:
+10                                                     Pesce et al.
+
+   1. The data are unable to place useful constraints           The right panel of Figure 5 shows the maser rotation
+      on the inclination warp, and models that permit         curve, which is consistent with the Keplerian behavior
+      a warp in the inclination direction find posteriors     expected for material orbiting in a point-source poten-
+          di
+      for dr that are consistent with zero. The inclusion     tial. We constrain the mass of the SMBH in CGCG
+      of an inclination warping parameter in the model        074-064 to be 2.42+0.22      7
+                                                                                 −0.20 × 10 M , comparable to other
+      shifts the posterior for D by ∼1%.                      megamaser systems which typically have SMBH masses
+                                                              of ∼107 M (see, e.g., Kuo et al. 2011; Gao et al. 2017).
+   2. The data are unable to place useful constraints         The innermost masers reside at orbital radii of ∼0.3 mas,
+      on the eccentricity or periapsis angle (and associ-     corresponding to ∼0.12 pc (∼5.5 × 104 Schwarzschild
+      ated warping parameter), and models that permit         radii) at the best-fit angular-size distance of 87.6 Mpc
+      these parameters to vary find posteriors that are       to CGCG 074-064. From the right panel of Figure 5 we
+      consistent with the masers being on purely circular     can see that the maser velocities are well-fit by a Kep-
+      orbits. The inclusion of eccentricity parameters in     lerian rotation curve even at these inner radii, implying
+      the model shifts the posterior for D by ∼3%.            a lower limit on the mass density of the enclosed object
+                                                              of ρ & 3 × 109 M pc−3 .
+   3. The data are able to place useful constraints on
+      the error floor parameters, and while the specific                          4.3. Measuring H0
+      choice of prior – i.e., uniform (Equation B25) or
+                                                                Our disk modeling does not directly return a poste-
+      Normal (Equation B26) – used for these parame-
+                                                              rior distribution for H0 , but instead constrains both the
+      ters affects their recovered values, the prior choice
+                                                              angular-size distance to the maser disk (D) and the cen-
+      does not significantly impact the posteriors of the
+                                                              tral SMBH redshift (z0 ) separately. If the SMBH is at
+      other parameter values. Choosing one or the other
+                                                              rest with respect to the host galaxy, and if that galaxy
+      prior type shifts the posterior for D by ∼1%.
+                                                              has no peculiar motion with respect to the Hubble flow,
+                                                              then we can determine H0 from these values using an
+We find typical autocorrelation times of τ . 10 for mod-
+                                                              expression adapted from Hogg (1999),
+els that assume no eccentricity, and of τ . 100 for those
+that permit eccentric orbits. To achieve our desired                                 Z z0
+Neff = 104 , we thus run chains of length N = 105 for                      c                            dz
+                                                                H0 =                        q                            , (7)
+the former models and of length N = 106 for the latter.                D (1 + z0 )    0                  3
+                                                                                                Ωm (1 + z) + (1 − Ωm )
+   Given the above findings, we choose for our fiducial
+fit a model that applies uniform priors to the error floor    which assumes a flat ΛCDM cosmology. We use the mat-
+parameters, assumes that the disk has no warping in           ter density parameter value from Planck Collaboration
+the inclination direction, and assumes that the maser         et al. (2018), namely Ωm = 0.315. For CGCG 074-064,
+orbits are perfectly circular. For each parameter, we use     applying Equation 7 results in a ∼2.7% reduction in the
+the variance-weighted standard deviation of the values        value of H0 compared to simply using H0 = cz0 /D.
+produced by the suite of different model fits to estimate        We account for the peculiar motion of CGCG 074-
+the systematic uncertainty associated with our model          064 by replacing z0 in Equation 7 with the redshift zflow
+selection (see Table 5).                                      from the Cosmicflows-3 database (Tully 2015). At our
+                                                              measured angular-size distance of 87.6 Mpc in the direc-
+             4.2. Results from disk fitting                   tion of CGCG 074-064, the expected recession velocity
+   We find that our disk model provides a good fit to the     is vflow = czflow = 7308 ± 150 km s−1 using the optical
+data, obtaining a χ2 value of 266.7 for 256 degrees of        convention in the CMB reference frame (Graziani et al.
+freedom. Table 5 lists the best-fit values and associated     2019, see also the online calculator7 ), implying a line-of-
+uncertainties for all modeled disk parameters, and Fig-       sight peculiar velocity for the galaxy of ∼136 km s−1 .
+ure 4 shows the 1D and 2D posterior distributions for            Our resulting constraint on the Hubble constant is
+the same set of parameters. Figure 5 shows a map of the       H0 = 81.0+7.4
+                                                                         −6.9 km s
+                                                                                  −1
+                                                                                     Mpc−1 , with the posterior distri-
+maser system as seen in the sky plane (left panel) and in     bution shown in Figure 4.
+the plane of the disk (central panel), overplotted on the                            5. DISCUSSION
+best-fit disk model. We can see from the map that the
+maser disk shows a modest warp in position angle, and                     5.1. Intermediate-velocity masers
+from the model exploration described in Section 4.1 we
+find that the disk is consistent with having zero warping
+                                                                7 http://edd.ifa.hawaii.edu/CF3calculator/
+in the inclination direction.
+                                           Megamaser Cosmology Project XI                                                             11
+
+                                         Table 5. Disk fitting results for CGCG 074-064
+
+      Parameter          Units            Prior        Posterior median      Statistical uncertainty   Systematic uncertainty
+      D                 Mpc            U(10, 150)a            87.6                (+7.9, −7.2)                     1.5
+      MBH              107 M           U(0.1, 10.0)           2.42               (+0.22, −0.20)                   0.05
+      v0 b             km s−1         U(6500, 7500)          6908.9              (+1.8, −1.9)                     1.7
+      x0                mas           U(−0.5, 0.5)           0.0013           (+0.0010, −0.0011)                0.0010
+      y0                mas           U(−0.5, 0.5)           0.0075           (+0.0029, −0.0029)                0.0008
+      i0               degree          U(70, 110)             90.8               (+0.6, −0.6)                     1.1
+      Ω0               degree           U(0, 180)             99.6               (+1.2, −1.2)                     0.6
+       dΩ
+       dr
+                    degree mas−1      U(−100, 100)             4.7               (+2.2, −2.2)                     1.4
+
+      σx                mas             U(0.0, 0.1)         < 0.0018                 ...                        0.0001
+      σy                mas             U(0.0, 0.1)          0.017             (+0.003, −0.003)                 0.0009
+      σv,sys           km s−1            U(0, 20)            < 4.8                   ...                          0.1
+      σv,hv            km s−1            U(0, 20)             4.3                (+1.7, −1.4)                     0.5
+      σa             km s−1 yr−1         U(0, 20)            < 0.43                  ...                         0.03
+
+      H0            km s−1 Mpc−1            ...               81.0                (+7.4, −6.9)                    1.4
+     Note—Top: Fitting results for the global parameters describing the maser disk, marginalized over all other param-
+       eters. Here, D is the angular-size distance to the galaxy, MBH is the mass of the SMBH, v0 is the line-of-sight
+       velocity of the SMBH, (x0 , y0 ) is the coordinate location of the SMBH (relative to the phase center defined by the
+       strongest systemic features; see Section 2.3), i0 is the inclination angle of the disk at r = 0, Ω0 is the position angle
+       of the disk at r = 0, and dΩ dr
+                                        is the first-order position angle warping parameter. For the statistical uncertainty
+       we quote 1σ confidence intervals from the posterior, while for the systematic uncertainty we quote the weighted
+       standard deviation across all model fits. Middle: Fitting results for the error floor parameters; σx is the x-position
+       error floor, σy is the y-position error floor, σv,sys is the error floor for the systemic feature velocities, σv,hv is the
+       error floor for the high-velocity feature velocities, and σa is the acceleration error floor. For σx , σv,sys , and σa , 95%
+       upper limits are quoted rather than posterior medians. Bottom: Hubble constant measurement derived from the
+       disk fit.
+     a U(a, b) denotes a uniform distribution on the range [a, b]; see Equation B25.
+     b We directly model z in the CMB frame (see Appendix A), which we have converted in this table to v (optical
+                           0                                                                            0
+       convention) in the barycentric frame. The conversion is v0 = cz0 − 263.3 km s−1 .
+
+
+
+
+  Figure 1 shows an average over nearly two years of                   maser spot. A similar story holds for the redshifted
+maser spectra taken with the GBT towards CGCG 074-                     features, with the lowest-velocity redshifted feature in
+064, and it represents the most sensitive spectrum we                  the deep GBT spectrum located at ∼7329 km s−1 , cor-
+have of this source. A number of faint maser lines are                 responding to an orbital velocity of ∼419 km s−1 and an
+observed in this deep GBT spectrum that do not appear                  orbital radius of ∼0.56 pc (∼1.4 mas).
+in the VLBI spectrum, either for reasons of insufficient                 One intermediate-velocity redshifted feature (located
+sensitivity or because of a finite feature lifetime, and sev-          at ∼7363 km s−1 ) is detected in the VLBI map at an
+eral of these “intermediate-velocity” lines have apparent              apparent radius of ∼1.1 mas (see Figure 2), providing
+orbital velocities that are considerably lower than those              direct evidence that the population of intermediate-
+of the maser spots mapped with VLBI.                                   velocity masers continues to follow the rotation curve
+  The highest-velocity blueshifted feature in the VLBI                 traced by the high-velocity features out to at least
+map is located at ∼6404 km s−1 , while the highest-                    ∼0.44 pc. It thus appears that the region of the ac-
+velocity blueshifted feature in the deep GBT spectrum                  cretion disk capable of supporting maser activity likely
+is located at ∼6589 km s−1 . Its corresponding orbital                 extends well beyond what we have mapped. Next-
+velocity of ∼322 km s−1 would put this maser spot at an                generation radio facilities can be expected to regularly
+orbital radius of ∼0.89 pc (∼2.2 mas) – roughly twice as               detect these faint features and thereby provide signif-
+far away from the SMBH as the most distant mapped
+    12                                                                                                                                                                                          Pesce et al.
+
+
+
+
+                                                                                                                                                                                                                                                                                      0.004
+                                                                                                                                                                                                                                                                                      0.003
+
+
+
+
+                                                                                                                                                                                                                                                                                                    x (mas)
+                                                                                                                                                                                                                                                                                      0.002
+                                                                                                                                                                                                                                                                                      0.001
+
+                                                                                                                                                                                                                                                                                      0.030
+
+
+
+
+                                                                                                                                                                                                   01
+                                                                                                                                                                                                   02
+                                                                                                                                                                                                   03
+                                                                                                                                                                                                   04
+                                                                                                                                                                                                0.0
+                                                                                                                                                                                                0.0
+                                                                                                                                                                                                0.0
+                                                                                                                                                                                                0.0
+                         90 105 120
+
+
+
+
+                                                                                                                                                                                                                                                                                      0.024
+                                                                                                                                                                                                   x (mas)
+D (Mpc)
+
+
+
+
+                                                                                                                                                                                                                                                                                                    y (mas)
+                                                                                                                                                                                                                                                                                      0.018
+                                                                                                                                                                                                                                                                                      0.012
+                                     75
+
+
+
+
+                                                                                                                                                                                                                                                                                      0.006
+
+
+
+
+                                                                                                                                                                                                                06
+                                                                                                                                                                                                                12
+                                                                                                                                                                                                                18
+                                                                                                                                                                                                                24
+                                                                                                                                                                                                                                                                                      10.0
+
+
+
+
+                                                                                                                                                                                                             0.0
+                                                                                                                                                                                                             0.0
+                                                                                                                                                                                                             0.0
+                                                                                                                                                                                                             0.0
+ MBH (107 M )
+
+
+
+
+                                                                                                                                                                                                                y (mas)
+
+
+
+
+                                                                                                                                                                                                                                                                                                v, sys (km s 1)
+                               2.0 2.4 2.8 3.2
+
+
+
+
+                                                                                                                                                                                                                                                                                      7.5
+                                                                                                                                                                                                                                                                                      5.0
+                                                                                                                                                                                                                                                                                      2.5
+
+
+
+
+                                                                                                                                                                                                                          2.5
+                                                                                                                                                                                                                            5.0
+                                                                                                                                                                                                                                    7.5
+                                                                                                                                                                                                                                      .0
+             00 904 908 912 916
+
+
+
+
+                                                                                                                                                                                                                                                                                      12
+
+
+
+
+                                                                                                                                                                                                                                   10
+                                                                                                                                                                                                                           v, sys (km s 1)
+                6 6 6 6
+ v0 (km s 1)
+
+
+
+
+                                                                                                                                                                                                                                                                                           v, hv (km s 1)
+                                                                                                                                                                                                                                                                                      9
+                                                                                                                                                                                                                                                                                      6
+                                                                                                                                                                                                                                                                                      3
+             69
+
+
+
+
+                                                                                                                                                                                                                                             3
+                                                                                                                                                                                                                                                 6
+                                                                                                                                                                                                                                                      9
+                                                                                                                                                                                                                                                     12
+                                                                                                                                                                                                                                             v, hv (km s 1)
+        15 95.0 97.5 00.0 02.5 05.0 88.5 90.0 91.5 93.0 .006 .000 .006 .012 .018 .002 .000 .002 .004
+ x0 (mas)
+                                                                                 0 0 0 0
+
+
+
+
+                                                                                                                                                                                                                                                              0.2
+                                                                                                                                                                                                                                                                    0.4
+                                                                                                                                                                                                                                                                          0.6
+                                                                                                                                                                                                                                                                                0.8
+                                                                                                                                                                                                                                                              a (km s 1 yr 1)
+                                                       0 0 0 0 0
+y0 (mas)
+i0 (deg)
+                     1 1 1
+0 (deg)
+d (deg mas 1)
+
+                                     10          5
+                                                 0
+dr
+                                                 5
+                                                                                                       60
+                                                                                                            75
+                                                                                                                 90
+
+                                                                                                                      5
+
+                                                                                                                           75
+                                                                                                                                90
+
+                                                                                                                                     5
+                                                                                                                                          0
+
+                                                                                                                                               2.0
+                                                                                                                                                     2.4
+                                                                                                                                                           2.8
+                                                                                                                                                                 3.2
+
+                                                                                                                                                                       00
+                                                                                                                                                                            04
+                                                                                                                                                                                 08
+                                                                                                                                                                                      12
+                                                                                                                                                                                               16
+
+                                                                                                                                                                                           0.0 2
+                                                                                                                                                                                               00
+                                                                                                                                                                                               02
+                                                                                                                                                                                               04
+                                                                                                                                                                                               06
+                                                                                                                                                                                               00
+                                                                                                                                                                                               06
+                                                                                                                                                                                               12
+
+                                                                                                                                                                                            88 8
+                                                                                                                                                                                                .5
+                                                                                                                                                                                                                              .0
+                                                                                                                                                                                                                              .5
+                                                                                                                                                                                                                              .0
+
+                                                                                                                                                                                                                              .0
+                                                                                                                                                                                                                              .5
+                                                                                                                                                                                                                             0.0
+                                                                                                                                                                                                                             2.5
+                                                                                                                                                                                                                             5.0
+                                                                                                                                                                                                                               5
+                                                                                                                                                                                                                                                               0
+                                                                                                                                                                                                                                                                     5
+                                                                                                                                                                                                                                                                           10
+                                                                                                                                                                                                                                                                                 15
+                                                                                                                      10
+
+
+
+
+                                                                                                                                     10
+                                                                                                                                          12
+
+
+
+
+                                                                                                                                                                                               0
+
+
+
+
+                                                                                                                                                                                               1
+
+                                                                                                                                                                                                                            90
+                                                                                                                                                                                                                            91
+                                                                                                                                                                                                                            93
+
+                                                                                                                                                                                                                            95
+                                                                                                                                                                                                                            97
+                                                                                                                                                                       69
+                                                                                                                                                                            69
+                                                                                                                                                                                 69
+                                                                                                                                                                                      69
+                                                                                                                                                                                           69
+
+                                                                                                                                                                                           0.0
+
+
+                                                                                                                                                                                           0.0
+                                                                                                                                                                                           0.0
+                                                                                                                                                                                           0.0
+                                                                                                                                                                                           0.0
+                                                                                                                                                                                           0.0
+                                                                                                                                                                                           0.0
+                                                                                                                                                                                           0.0
+
+
+
+
+                                                                                                                                                                                                                           10
+                                                                                                                                                                                                                           10
+                                                                                                                                                                                                                           10
+
+
+
+
+                                                                                                       H0 (km s 1 Mpc 1)        D (Mpc)         MBH (107 M )                v0 (km s 1)           x0 (mas)     y0 (mas)         i0 (deg)         0 (deg)      d (deg mas 1)
+                                                                                                                                                                                                                                                              dr
+
+
+Figure 4. Lower left: 1D posterior distributions (diagonal) and pairwise 2D posterior distributions (lower triangle) for H0
+(leftmost column) and the global parameters of the warped disk model fit to the maser system in CGCG 074-064. The contours
+enclose 50%, 90%, and 99% of the posterior probability. The blue horizontal bars below each 1D histogram show the range from
+16th to 84th percentile, with the 50th percentile point marked. Upper right: 1D marginalized posterior distributions (diagonal)
+and pairwise marginalized 2D distributions (upper triangle) for the error floor parameters from the same warped disk model fit.
+The contours again enclose 50%, 90%, and 99% of the posterior probability. For the σy and σv,hv parameters, the horizontal
+bars below each 1D histogram show the range from 16th to 84th percentile, with the 50th percentile point marked. For the σx ,
+σv,sys , and σa parameters, the horizontal bars indicate the 95% upper limit region.
+                                                                              Megamaser Cosmology Project XI                                                                                                                     13
+                                                                                                                                                        8000
+                   1.0                                                                  1.0
+                                                                                                                                                        7750
+
+                                                                                                                                                        7500
+                   0.5                                                                  0.5
+                                                                                                                                                        7250
+
+
+
+
+                                                                                                                                    Velocity (km s 1)
+Dec offset (mas)
+
+
+
+
+                                                                                                                                                        7000
+
+
+
+
+                                                                              z (mas)
+                   0.0                                                                  0.0                                                                                                           6980
+                                                                                                                                                        6750                                          6960
+                                                                                                                                                                                                      6940
+                                                                                                                                                        6500
+                   0.5                                                                  0.5
+                                                                                                                                                                                                      6920
+                                                                                                                                                        6250                                          6900
+                               S/N = 100
+                                                                                                                                                                                                      6880
+                   1.0         S/N = 30                                                 1.0                                                             6000
+                               S/N = 10                             0.1 pc                                                                                                                                   0.025 0.000 0.025
+
+                         1.0          0.5         0.0         0.5       1.0                   1.0   0.5     0.0        0.5    1.0                              1.00   0.75   0.50    0.25   0.00   0.25   0.50   0.75   1.00
+                                            RA offset (mas)                                               x (mas)                                                                   Impact parameter (mas)
+
+ Figure 5. Map of the maser distribution in CGCG 074-064 atop our best-fit warped disk model as seen in the sky plane (left)
+ and face-on (center), and the corresponding rotation curve (right). The data points are colored by velocity group, with the red
+ points corresponding to redshifted features, the blue points to blueshifted features, and the green points to systemic features.
+ The colors are darker for higher S/N, and the symbol sizes are proportional to (S/N)−1/2 (so that data points with larger
+ uncertainties appear larger; see the legend in the left panel). In all panels, the solid black lines trace the best-fit disk model,
+ while in the left panel the light gray lines show the fits from 1000 different samplings of the posterior distribution. In the right
+ panel the dashed black line shows the average annulus for the systemic features (i.e., if the systemic features all originate from
+ a thin ring at a single orbital radius, we would expect them to fall on or near this line), and the inset plot shows a zoom-in on
+ the systemic features with the location of the SMBH marked as a black point. The “impact parameter” is defined to be r sin(φ)
+ for every maser spot, with r the orbital radius and φ the azimuthal angular position in the disk (see Appendix A).
+
+ icantly more comprehensive coverage of the accretion                                                                         5.3. VLBI continuum emission
+ disk geometry.                                                                                                     The continuum source detected in our VLBI data (see
+                                                                                                                  Figure 2) shows a perpendicular offset from the maser
+                                                                                                                  disk, reminiscent of the continuum structure seen to-
+                                     5.2. Maser disk scale height
+                                                                                                                  wards the disk in NGC 4258 (Herrnstein et al. 1997)
+   The y-position error floors (σy ≈ 17 µas) are at least                                                         and suggesting a jet origin. With a peak surface bright-
+ an order of magnitude larger than their x-position coun-                                                         ness of 46±9.5 µJy beam−1 , the brightness temperature
+ terparts (σx . 2 µas, consistent with zero), though the                                                          of the continuum source is at least 1.6 × 106 K.
+ beam elongation is only a factor of ∼3 greater in the                                                              The measured disk inclination angle indicates that we
+ y-direction than in the x-direction. If we assume that                                                           are seeing the central region of the disk almost perfectly
+ the measurement error contribution to σy scales with                                                             edge-on (i0 ≈ 91 degrees; see Table 5), implying that if
+ σx in the q same manner as the beam, then we find                                                                relativistic beaming is the cause of the apparent one-
+ σexcess =     σy2 − (3σx )2 ≈ 16 µas of excess scatter in                                                        sidedness of the (presumably intrinsically symmetric)
+ the y-direction. The fortuitous East-West orientation of                                                         jet, then the jet axis must be misaligned with the angu-
+ the maser disk on the sky permits us to use this excess                                                          lar momentum vector of the disk on ∼0.1 pc scales. We
+ scatter to set an upper limit on the maser disk scale                                                            can estimate the required magnitude of misalignment us-
+ height of h . σexcess , or h . 1300 AU at the distance to                                                        ing an approach similar to that used in Reid et al. (1989),
+ CGCG 074-064. This scale height corresponds to a disk                                                            by assuming that the jet in CGCG 074-064 is intrinsi-
+ aspect ratio of r/h & 100, which is firmly in the thin                                                           cally symmetric (in both velocity and emitted spectral
+ disk regime (i.e., r  h).                                                                                       power) and that the northern (observed) component is
+   For a thin disk in hydrostatic equilibrium, the disk                                                           approaching us while the southern (unobserved) compo-
+ aspect ratio is equal to the Mach number of the orbiting                                                         nent is receding from us.
+ material (Frank et al. 2002). The orbital velocities of the                                                        For a jet of material moving at constant speed β ≡
+ masers in CGCG 074-064 span from ∼400–900 km s−1 ,                                                               v/c, the observed flux density S is related to the flux
+ implying local sound speeds of cs . 4–9 km s−1 . These                                                           density S0 that would be observed if the source were at
+ limits are consistent with the cs = 1.5 km s−1 measured                                                          rest by (Ryle & Longair 1967)
+ by Argon et al. (2007) for the accretion disk around the
+ SMBH in the galaxy NGC 4258 (see also Moran et al.
+                                                                                                                                                                              S0
+ 1995).                                                                                                                             S=                                                        3+α ,                            (8)
+                                                                                                                                                           (γ [1 − β cos(θ)])
+14                                                      Pesce et al.
+                   −1/2
+where γ = 1 − β 2        is the Lorentz factor, α is the       sponding to an optical depth of τ ≈ −8). This level of
+spectral index (such that S ∝ ν −α ), and θ is the angle       amplification is similar to that inferred for the systemic
+between the velocity vector and the line of sight (such        features in NGC 4258 (Herrnstein et al. 1997).
+that θ = 0 corresponds to material moving directly to-
+wards us). The ratio of the observed flux densities of                  5.4. Variability of the maser features
+the northern (SN ) and southern (SS ) components will            In both our GBT and VLA monitoring observations
+then be                                                        of CGCG 074-064, we found that the strongest systemic
+                                                               features (i.e., those that could be identified in individ-
+                                     3+α
+            SN         1 + β cos(θ)              46            ual scans) often show substantial (∼50%) variability on
+               =                             ≥      ,   (9)
+            SS         1 − β cos(θ)              19            timescales of ∼tens of minutes. In one case – that of the
+                                                               6915 km s−1 line during the 2016 October GBT observa-
+where we measure the flux density of the northern (ap-         tion – the flux density increased by a factor of ∼3 over
+proaching) component to be 46 µJy, and we have used            the course of half an hour from 100 mJy to 300 mJy; if
+19 µJy (i.e., twice the RMS in the continuum image) as         intrinsic to the maser system, this behavior would corre-
+an upper limit for the flux density of the (unobserved)        spond to an increase of ∼60 L in isotropic luminosity
+southern component.                                            across a region no larger than ∼3 AU in size (as de-
+   If we assume that the jet is aligned with the angular       termined by light-travel time). The magnitude of this
+momentum vector of the disk, then θ would be equal to          variability, and the fact that it is uncorrelated between
+89 degrees and the inequality in Equation 9 could not          different maser features, indicates that observational ef-
+be satisfied for any value of β. In general, the minimum       fects (e.g., fluctuations in antenna gain or atmospheric
+degree of disk-jet misalignment needed to satisfy Equa-        opacity) are unlikely to be the cause.
+tion 9 for a given value of θ will occur when β = 1, so we       Such rapid variability has been seen before in at least
+can impose this value to determine a lower limit on the        three other H2 O megamaser systems – Circinus (Green-
+misalignment. For a typical spectral index of α = 0.7          hill et al. 1997), NGC 3079 (Vlemmings et al. 2007),
+(Condon et al. 1998; Kamali et al. 2017), we find that         and ESO 558-G009 (Pesce et al. 2015) – and in the IC
+the disk-jet misalignment must be at least ∼7◦ ; even for      10 kilomaser system (Argon et al. 1994). In all previous
+a spectral index as steep as α = 2, the misalignment can       cases, interstellar scintillation (ISS) has been the pre-
+be no smaller than ∼5◦ . Using a more conservative 3σ          ferred explanation for the observed variability. However,
+upper limit for the unmeasured southern jet component          the number of megamaser systems that are now known
+yields misalignment angles of at least ∼5◦ and ∼3◦ for         to display apparently ISS-induced variability, and the
+α = 0.7 and α = 2, respectively.                               strength of the variability in these systems (∼tens of per-
+   An alternative explanation for the lack of an ob-           cent or greater), appears to be largely unexpected. Fur-
+served southern jet component could be that our line           thermore, it is not clear that ISS through a foreground
+of sight to that component passes through the maser            Galactic scattering screen can satisfactorily account for
+disk, while emission from the northern jet component           the observed properties of this variability across all of
+reaches us unimpeded. X-ray irradiation from the cen-          these systems. Some unresolved issues include:
+tral AGN may produce layers of hot (∼104 K) ionized
+material above and below the molecular disk, providing            1. The number of megamaser galaxies that exhibit
+an absorption opportunity for emission that must pass                this class of variability is too large, and their on-
+through the disk along the line of sight (Neufeld & Mal-             sky locations are too removed from the Galactic
+oney 1995). Herrnstein et al. (1996) estimate the free-              plane. The MASIV VLA survey (Lovell et al.
+free optical depth in this layer to be ∼2–3 at a frequency           2003) found that only a tiny fraction (.1%) of
+of 22 GHz for the disk in NGC 4258; a similar level of               compact extragalactic radio continuum sources
+absorption would be sufficient to explain the asymmet-               show strong (&10%) and rapid (timescales of
+ric flux densities of the two jet components in CGCG                 ∼several hours) ISS-induced variability at an ob-
+074-064.                                                             serving frequency of 5 GHz. They also found
+   If the nuclear continuum provides the seed photons for            the expected correlation between variability am-
+the systemic maser complex, as suggested by Miyoshi                  plitude and line-of-sight emission measure from
+et al. (1995) for NGC 4258, then we can estimate the                 the Galactic ionized medium, resulting in greater
+maser gain from the observed strength of the systemic                variability being seen at lower absolute Galactic
+features. In the absence of free-free attenuation, a                 latitudes (Lovell et al. 2008). The presence of
+∼45 µJy continuum would require an amplification of                  strong and rapid variability in &10% of all disk
+3 × 103 to power the ∼150 mJy systemic masers (corre-                megamaser systems, and the lack of an obvious
+                                       Megamaser Cosmology Project XI                                                  15
+
+     correlation with Galactic latitude (e.g., CGCG           temic features in this system have enabled a pre-
+     074-064 is located at a Galactic latitude of +65         cise distance measurement with an uncertainty of
+     degrees), is then difficult to explain.                  only ∼9%.         Our 3D warped disk modeling also
+                                                              constrains the mass of the SMBH in CGCG 074-
+   2. The magnitude of the variability is too large.          064 to be 2.42+0.22                              7
+                                                                                 −0.20 (stat.) ±0.05 (sys.) ×10 M .    We
+      For the weak scattering regime expected at high         have combined our angular-size distance measurement
+      Galactic latitudes, the ∼tens of percent variability    with a group recession velocity from Cosmicflows-
+      seen towards the MASIV targets at 5 GHz should          3 to determine a value for the Hubble constant of
+      be even smaller at the substantially higher 22 GHz      H0 = 81.0+7,4         −1
+                                                                                        Mpc−1 , with a systematic error of
+                                                                          −6.9 km s
+      observing frequency for the maser systems.                       −1
+                                                              1.4 km s Mpc .    −1
+
+                                                                Our VLBI observations of the maser system in CGCG
+   3. The variability timescale is too short, and it is
+                                                              074-064 have also revealed a weak (46±9.5 µJy beam−1 ),
+      too consistent across different megamaser-hosting
+                                                              marginally-resolved continuum source that appears to
+      galaxies. For ISS, the characteristic variability
+                                                              originate from a nuclear jet. The one-sided nature of
+      timescale is set by the transverse velocity of the
+                                                              this jet emission and its strength relative to the maser
+      scattering screen and the size of either the “scin-
+                                                              emission are both reminiscent of what has been pre-
+      tle” (if the phase-coherent region of the scattering
+                                                              viously seen in NGC 4258. In addition, our spectral
+      medium has a larger angular size than the source)
+                                                              monitoring observations have revealed that the systemic
+      or the source (if the source is larger in angular
+                                                              maser features in CGCG 074-064 are highly variable,
+      size than the scintle). In the weak scattering limit,
+                                                              with flux densities changing by as much as a factor of 3
+      the scintle size goes as ν −1/2 (Narayan 1992), so
+                                                              on timescales of tens of minutes. Interstellar scintillation
+      all else being equal we would in general expect
+                                                              has been the preferred explanation for such variability in
+      only a factor of ∼2 shorter variability timescales
+                                                              other megamaser systems, but we note unresolved issues
+      at 22 GHz than what is seen at 5 GHz if the scin-
+                                                              with this explanation that will need to be addressed in
+      tle sets the relevant size scale. If instead the an-
+                                                              future work.
+      gular size of the source sets the relevant timescale
+      then the magnitude of the variability would be de-
+      creased by a dilution factor roughly equal to the
+      ratio of the source area to the scintle area, an ex-
+      pectation that is inconsistent with the observed
+      (strong) variability. Furthermore, the timescales
+      for all scintillating maser galaxies are of the same                    ACKNOWLEDGMENTS
+      order of magnitude while their distances differ by         We would like to honor the memory of our colleague,
+      more than a factor of 20; if the maser spot size were   mentor, and friend Fred Lo. We thank Adam Riess,
+      setting the variability timescale, then we would ex-    Dan Scolnic, and Brent Tully for helpful discussions
+      pect the timescale to decrease inversely with the       about peculiar velocities. Support for this work was
+      distance to the maser galaxy.                           provided by the NSF through the Grote Reber Fellow-
+                                                              ship Program administered by Associated Universities,
+  Currently, we do not understand the cause of the vari-      Inc./National Radio Astronomy Observatory. The Na-
+ability seen towards CGCG 074-064. It is perhaps the          tional Radio Astronomy Observatory is a facility of the
+case that a scattering screen within the megamaser-           National Science Foundation operated under coopera-
+hosting galaxy itself can explain the observed flux mod-      tive agreement by Associated Universities, Inc. This
+ulation, but we leave an investigation of this question to    work made use of the Swinburne University of Technol-
+future work.                                                  ogy software correlator, developed as part of the Aus-
+                                                              tralian Major National Research Facilities Programme
+                  6. CONCLUSIONS                              and operated under license. This research has made
+  We have presented a geometric distance mea-                 use of the NASA/IPAC Extragalactic Database (NED),
+surement to the galaxy CGCG 074-064 of                        which is operated by the Jet Propulsion Laboratory, Cal-
+87.6+7.9
+    −7.2 (stat.) ±1.5 (sys.) Mpc, made using the mega-
+                                                              ifornia Institute of Technology, under contract with the
+maser technique as part of the MCP. The strength              National Aeronautics and Space Administration. This
+(typical flux density >200 mJy) and orderly accel-            work was supported in part by the Black Hole Initiative
+erations (nearly constant at 4.4 km s−1 yr−1 across           at Harvard University, which is funded by grants from
+the entire systemic velocity complex) of the sys-             the John Templeton Foundation and the Gordon and
+                                                              Betty Moore Foundation to Harvard University.
+16                                      Pesce et al.
+
+ Facilities: GBT, VLA, VLBA, HSA
+  Software: AIPS, CASA, GBTIDL, PyMC3 (Sal-
+vatier et al. 2016)
+                                      Megamaser Cosmology Project XI                                                  17
+
+
+                                                      APPENDIX
+
+
+                                                   A. DISK MODEL
+  Our disk model is very similar to that used by Reid et al. (2013) and Humphreys et al. (2013). We include global
+parameters describing the angular-size distance D to the SMBH, the SMBH mass MBH , the SMBH redshift z0 , and the
+on-sky coordinates of the SMBH (x0 , y0 ). We also include several global parameters describing the warped geometry
+of the disk, which is parameterized by an inclination angle i(r), a position angle Ω(r), and a periapsis ω(r) that vary
+as a function of orbital radius as
+
+                                                                   di
+                                                     i(r) = i0 +      r,                                            (A1)
+                                                                   dr
+                                                                   dΩ
+                                                   Ω(r) = Ω0 +        r,                                            (A2)
+                                                                   dr
+                                                                    dω
+                                                    ω(r) = ω0 +         r.                                          (A3)
+                                                                    dr
+                                                  di
+The modeled geometric parameters are then i0 , dr    , Ω0 , dΩ             dω
+                                                            dr , ω0 , and dr .
+  Each maser spot is assigned a location (r, φ) within the disk, where r is the spherical radius measured from the BH
+and φ is the azimuthal angle measured from the line of sight (oriented such that the systemic features are located
+at φ ≈ 0◦ and the redshifted features are located at φ ≈ 90◦ ). The sky-plane position of the maser spot is denoted
+(x, y), with the x-axis aligned with right ascension (so that positive points to the east) and the y-axis aligned with
+declination (so that positive points to the north). The z-axis is then directed along the line of sight, so that positive
+z points away from us. The inclination angle i is defined to be the angle that the disk normal makes with respect to
+the line of sight (so that 90◦ corresponds to perfectly edge-on). The position angle Ω is then defined to be the angle
+that the receding portion of the disk midplane makes east of north (i.e., clockwise down from the y-axis). Note that
+both i and Ω are functions of r.
+  We can transform from the disk frame to the sky frame by rotating first by i about the x-axis, then by Ω about the
+z-axis. This transformation can be expressed as a product of two rotation matrices,
+                                                                                        
+                          x         sin(Ω) − cos(Ω) 0          1      0       0      r sin(φ)
+                         y  =  cos(Ω) sin(Ω) 0   0 sin(i) − cos(i)                0     ,                   (A4)
+                                                                                        
+
+                          z            0       0       1       0 cos(i) sin(i)      −r cos(φ)
+where we have for simplicity used a pre-rotation disk orientation of i = Ω = 90◦ . After accounting for the location of
+the BH itself, we obtain the sky frame coordinates of the maser spot to be
+
+                                                                                 
+                                   x = x0 + r sin(φ) sin(Ω) − cos(φ) cos(Ω) cos(i) ,                               (A5a)
+                                                                                 
+                                   y = y0 + r sin(φ) cos(Ω) + cos(φ) sin(Ω) cos(i) ,                              (A5b)
+                                    z = −r cos(φ) sin(i).                                                          (A5c)
+(Note that the z coordinate of the BH is fixed at z = 0 by our choice of coordinate system.) We can similarly express
+the sky frame components of the maser spot’s acceleration as
+
+                                                                                
+                                    ax = a − sin(φ) sin(Ω) + cos(φ) cos(Ω) cos(i) ,                                (A6a)
+                                                                                
+                                    ay = a − sin(φ) cos(Ω) − cos(φ) sin(Ω) cos(i) ,                               (A6b)
+                                    az = a cos(φ) sin(i),                                                          (A6c)
+with
+
+                                                              GMBH
+                                                     a(r) =         .                                               (A7)
+                                                              r2 D2
+18                                                          Pesce et al.
+
+Here, we’ve converted r from angular units to physical ones using the angular-size distance to the SMBH, D.
+  The maser spot’s velocity vector depends on the eccentricity e and angle of periapsis ω of the orbit, and on the true
+anomaly ψ = φ − ω of the spot. For a maser spot situated at a particular (r, ψ), the radial and azimuthal components
+of its velocity vector are
+
+                                                              e sin(ψ)
+                                                  vr = v(r) p                                                        (A8)
+                                                             1 + e cos(ψ)
+and
+                                                           p
+                                                  vφ = v(r) 1 + e cos(ψ),                                            (A9)
+respectively, with
+                                                                  r
+                                                                      GMBH
+                                                      v(r) =               .                                       (A10)
+                                                                       rD
+Transforming to the sky coordinates, we obtain
+
+                                                                                                   
+                vx = vφ cos(φ) sin(Ω) + sin(φ) cos(Ω) cos(i) + vr sin(φ) sin(Ω) − cos(φ) cos(Ω) cos(i) ,          (A11a)
+                                                                                                   
+                vy = vφ cos(φ) cos(Ω) − sin(φ) sin(Ω) cos(i) + vr sin(φ) cos(Ω) + cos(φ) sin(Ω) cos(i) ,          (A11b)
+                vz = vφ sin(φ) sin(i) − vr cos(φ) sin(i).                                                         (A11c)
+
+ The redshift imparted by the relativistic Doppler effect is given by (Rybicki & Lightman 1986)
+                                                              v      
+                                             1 + zD = γ 1 − cos(θ) ,                                             (A12)
+                                                               c
+               2
+                  −1/2
+where γ = 1 − vc2       is the Lorentz factor and θ is the angle between the velocity vector and the line of sight. We
+can obtain cos(θ) by taking the dot product between ~v /v and −ẑ, which results in
+                                                                                     
+                                               1                                   
+                               1 + zD = γ 1 + vφ sin(φ) sin(i) − vr cos(φ) sin(i) .                                (A13)
+                                               c
+   In a Schwarzschild spacetime, the gravitational redshift zg of a photon emitted at radius r and received at infinity
+is given by (Schutz 2009)
+                                                                           −1/2
+                                                                       Rs
+                                                 1 + zg =         1−                ,                              (A14)
+                                                                       rD
+where Rs = 2GMBH /c2 is the Schwarzschild radius for the SMBH.
+   The observed redshift of the maser spot, z, will then be given by the product of both the Doppler and gravitational
+effects with the SMBH redshift, z0 :
+
+                                            1 + z = (1 + zD ) (1 + zg ) (1 + z0 ) .                                (A15)
+Here, z0 is the redshift measured in the CMB frame. In this work we use the optical convention for all velocities, so
+the observed velocities are related to the redshift by simply
+
+                                                             vobs = cz.                                            (A16)
+
+                                B. CONSTRUCTING THE LIKELIHOOD FUNCTION
+   For each data point k, we have a measurement of its on-sky position (xk , yk ), its line-of-sight velocity vk , and its
+line-of-sight acceleration ak . Each of these measurements is independent of the others, and each is treated differently
+in the likelihood function.
+                                                                                             Megamaser Cosmology Project XI                                            19
+                                                                      100                                                                 102
+Deviation of fitted position from true position (fraction of FWHM)
+
+
+
+
+                                                                     10 1
+
+
+
+
+                                                                                                                           Measured S/N
+                                                                     10 2                                                                 101
+
+
+
+
+                                                                     10 3
+
+
+
+
+                                                                     10 4 0                                                               100 0
+                                                                         10       101                             102                        10             101       102
+                                                                              Measured S/N                                                                True S/N
+
+ Figure 6. Left: Centroid position measurement offsets versus S/N for a set of 105 simulated point-source images. The offsets
+ are plotted as the absolute deviation between the measured position and the true position along a single axis (arbitrarily chosen
+ to be the beam major axis), expressed as a fraction of the beam FWHM along that axis. A running average every 103 points is
+ plotted as a solid black curve, and the theoretical noise limit given by Equation 1 is plotted as a dotted red curve. We can see
+ that the measurements adhere to the theoretical limit only for measured S/N values that are &3. Right: Measured S/N versus
+ input S/N for the same set of 105 simulated images. For a real image we do not have access to the “true” S/N, so we would
+ like to use only those for which the measured S/N matches it well. We can see that our adopted S/N ≥ 3 threshold, chosen so
+ that the positional uncertainties match those given by Equation 1, also allows us to exclude points for which our estimate of the
+ S/N is unreliable. As in the left panel, the solid black curve is a running average (every 103 points), and the red dotted curve
+ is the theoretical curve (in this case it is simply the y = x line). The gray shaded region in each plot indicates measurements
+ that we would not have included in our final VLBI map (i.e., they fall below our measured S/N threshold).
+
+
+   The uncertainties (σx,k , σy,k ) in our position measurements are related to the beam dimensions by Equation 1.
+ Though this expression was originally derived for an image with uncorrelated noise from pixel to pixel, we expect an
+ analogous expression to hold in the case of oversampled data (for which noise will be correlated for pixels within a
+ resolution element of one another). To test this expectation, we fit a suite of 105 mock images containing point sources
+ and correlated noise corresponding to a known S/N (see Figure 6). We found that for measured S/N values greater
+ than ∼3, the uncertainties in the centroid coordinates are well-described by Equation 1. For our final VLBI map (see
+ Figure 2) we thus retain only those maser spots with measured S/N ≥ 3, to which we assign positional uncertainties
+ using Equation 1.
+   We assume that the position measurements are Gaussian-distributed, with individual likelihoods of
+                                                                                                                                          "           #
+                                                                                                                                                  2
+                                                                                                             1                    1 (xk − Xk )
+                                                                                         `x,k = r                         exp − 2 σ 2 + σ 2                        (B17)
+                                                                                                        2 +σ            2             x,k   x
+                                                                                                    2π σx,k  x
+
+
+ and
+                                                                                                                                          "           #
+                                                                                                                                                  2
+                                                                                                              1                   1 (yk − Yk )
+                                                                                         `y,k = r                         exp − 2 σ 2 + σ 2                        (B18)
+                                                                                                              2 +σ      2             y,k    y
+                                                                                                    2π       σy,k  y
+
+
+ for the x and y position measurements, respectively. Here, we use lowercase letters (xk , yk ) to denote measured values
+ and capital letters (Xk , Yk ) to denote modeled values. We have also included “error floor” model parameters, σx
+20                                                      Pesce et al.
+
+and σy , to account for additional sources of measurement uncertainty not captured by Equation 1. Multiplying the
+probabilities for all individual maser spots yields the joint log-likelihood for the position measurements,
+                                  "                                                                       #
+                                             2               2
+                             1 X (xk − Xk )       (yk − Yk )             2      2
+                                                                                            2      2
+                                                                                                        
+               ln (L1 ) = −          2 + σ 2 + σ 2 + σ 2 + ln 2π σx,k + σx            + ln 2π σy,k + σy     . (B19)
+                             2      σx,k    x       y,k    y
+                              k
+
+   We treat the acceleration measurements in a similar manner to the position measurements. We construct an error
+floor parameter σa that gets added in quadrature with the measurement uncertainties σa,k . The probability to measure
+a maser spot to have acceleration ak when its “true” acceleration is Ak is then given by
+                                                                "                #
+                                                                               2
+                                                  1                1 (ak − Ak )
+                                    `a,k = r               exp − 2 σ 2 + σ 2 .                                (B20)
+                                                  2      2             a,k    a
+                                            2π σa,k + σa
+
+We multiply the individual probabilities for all maser spots to construct the joint likelihood,
+                                                  "                                   #
+                                                              2
+                                            1 X (ak − Ak )               2       2
+                                                                                    
+                               ln (L2 ) = −           2 + σ 2 + ln 2π σa,k + σa         .                         (B21)
+                                            2       σa,k    a
+                                                 k
+
+For those maser features that are too weak to measure accelerations directly, we simply exclude the associated accel-
+eration measurement from Equation B21.
+  Our velocity “measurements” are obtained in a qualitatively different manner than either the position or acceleration
+measurements, and do not come with obvious associated measurement uncertainties. The velocity vk we associate with
+any particular maser spot corresponds to the central velocity of a spectral channel in a VLBI map. The calibration
+uncertainties in these velocities are negligible, so the effective uncertainty arises instead because (1) the spectral
+channels are discretized and finitely wide, (2) a maser line may span more than one channel, and (3) maser lines may
+have drifted in velocity over the ∼4-month interval between the first and last VLBI observation. While the position and
+acceleration measurements are made using centroiding techniques and thus are continuous across their measurement
+domains, the velocity measurements take on discretized values in integer multiples of the channel width, with offsets
+determined by the specific spectral gridding scheme. This discretization will necessarily introduce some uncertainty
+into the velocity measurements, though the exact value and form that this uncertainty should take is not obvious. An
+additional source of uncertainty arises for maser lines that span multiple spectral channels, in which case the velocity
+of any one channel is not necessarily reflective of the true maser velocity.
+  We determine the velocity uncertainties by introducing two error floor parameters, σv,sys and σv,hv , that describe
+the systemic and high-velocity features, respectively. Constructing the probability,
+                                                                   !
+                                                                  2
+                                     1               (vk − Vk )
+                               
+                               q            exp −         2
+                                                                      for systemic features
+                                                        2σv,sys
+                               
+                               
+                                       2
+                                2πσv,sys
+                        `v,k =                                     !                             ,             (B22)
+                                                                 2
+                               
+                                     1              (v k −  Vk )
+                               q
+                                           exp −          2          for high-velocity features
+                                                        2σv,hv
+                               
+                                2πσ 2
+                               
+                                          v,hv
+
+and then multiplying these individual probabilities for all maser spots yields the likelihood,
+                                      "                               #
+                                                     2
+                                 1 X (vk − Vk )               2
+                                                                     
+                                −                      + ln 2πσv,sys     for systemic features
+                               
+                               
+                                              2
+                               
+                                2
+                                           σv,sys
+                                    k
+                    ln (L3 ) =         "                              #                             .             (B23)
+                                                     2
+                               
+                               
+                               − 1 X    (v k − V k )          2
+                                                                    
+                               
+                                2            2        + ln 2πσv,hv      for high-velocity features
+                                             σv,hv
+                               
+                                      k
+
+   Having constructed the likelihood functions for all three measurement classes, we combine them to obtain the overall
+likelihood function,
+
+                                           ln (L) = ln (L1 ) + ln (L2 ) + ln (L3 ) .                              (B24)
+                                         Megamaser Cosmology Project XI                                                        21
+                                                                                   di
+The final model contains 16 global parameters: D, MBH , z0 , x0 , y0 , i0 , dr        , Ω0 , dΩ        dω
+                                                                                             dr , ω0 , dr , and the error floor
+parameters σx , σy , σa , σv,sys , and σv,hv . It also contains many other nuisance parameters associated with the positions
+of individual maser spots and the accelerations of the weakest spots. For a fit to Nr , Nb , and Ns redshifted, blueshifted,
+and systemic maser spots, respectively, the model will have 2 (Nr + Nb + Ns ) additional free parameters corresponding
+to a (r, φ) pair for every maser feature. Similarly, for Na maser features with fitted (rather than measured) accelerations,
+the model gains an additional Na free parameters. For this work, Nr = 71, Nb = 50, and Ns = 45, bringing the total
+number of model parameters to 348. The number of measurements is 4(Nr + Nb + Ns ) minus the number Na = 20 of
+unmeasured accelerations, for a total of 604 constraints and 256 degrees of freedom.
+  We use only uniform and Normal (i.e., Gaussian) priors in this paper. For any particular parameter Θ, the uniform
+prior is given by
+                                                             
+                                                              1     a≤Θ≤b
+                                                   U(a, b) = b−a                ,                                        (B25)
+                                                             0      otherwise
+and the Normal prior is given by
+                                                                 "              2 #
+                                                         1         1       Θ−µ
+                                          N (µ, σ) = √       exp −                      .                                  (B26)
+                                                       2πσ 2       2        σ
+For most fits we assign uniform priors to all parameters. Table 5 lists the priors for all non-nuisance parameters. Both
+σx and σy are assigned uniform priors on the range [0, 0.1] mas, σa is assigned a uniform prior on [0, 20] km s−1 yr−1 ,
+and σv,sys and σv,hv are assigned uniform priors on the range [0, 20] km s−1 . All r parameters for the maser spots are
+assigned uniform priors within the range [0.1, 1.5] mas. The φ parameters are assigned uniform priors in the range
+[0, π] for the redshifted features, [π, 2π] for the blueshifted features, and [− π2 , π2 ] for the systemic features.
+  For the majority of the model parameters, our chosen prior distributions are significantly broader than the associated
+posterior distributions. The only parameters for which we have found that the prior plays a non-negligible role
+compared to the data are the error floor parameters, for which we explore the impact of prior assumptions as a
+component of the systematic error budget (see Section 4.1).
+
+
+                                                        REFERENCES
+Argon, A. L., Greenhill, L. J., Moran, J. M., et al. 1994,         Graziani, R., Courtois, H. M., Lavaux, G., et al. 2019,
+  ApJ, 422, 586, doi: 10.1086/173751                                 MNRAS, 488, 5438, doi: 10.1093/mnras/stz078
+Argon, A. L., Greenhill, L. J., Reid, M. J., Moran, J. M., &       Greenhill, L. J., Ellingsen, S. P., Norris, R. P., et al. 1997,
+  Humphreys, E. M. L. 2007, ApJ, 659, 1040,                          ApJL, 474, L103, doi: 10.1086/310434
+  doi: 10.1086/512718                                              Herrnstein, J. R., Greenhill, L. J., & Moran, J. M. 1996,
+Betancourt, M. 2017, ArXiv e-prints.                                 ApJL, 468, L17, doi: 10.1086/310227
+  https://arxiv.org/abs/1701.02434                                 Herrnstein, J. R., Moran, J. M., Greenhill, L. J., et al.
+Braatz, J. A., Reid, M. J., Humphreys, E. M. L., et al.              1997, ApJL, 475, L17, doi: 10.1086/310461
+  2010, ApJ, 718, 657, doi: 10.1088/0004-637X/718/2/657            —. 1999, Nature, 400, 539, doi: 10.1038/22972
+                                                                   Hinshaw, G., Weiland, J. L., Hill, R. S., et al. 2009, ApJS,
+Briggs, D. S. 1995, in American Astronomical Society
+                                                                     180, 225, doi: 10.1088/0067-0049/180/2/225
+  Meeting Abstracts, Vol. 187, 112.02
+                                                                   Hogg, D. W. 1999, ArXiv Astrophysics e-prints
+Condon, J. J. 1997, PASP, 109, 166, doi: 10.1086/133871
+                                                                   Humphreys, E. M. L., Reid, M. J., Moran, J. M., Greenhill,
+Condon, J. J., Cotton, W. D., Greisen, E. W., et al. 1998,
+                                                                     L. J., & Argon, A. L. 2013, ApJ, 775, 13,
+  AJ, 115, 1693, doi: 10.1086/300337
+                                                                     doi: 10.1088/0004-637X/775/1/13
+Frank, J., King, A., & Raine, D. J. 2002, Accretion Power
+                                                                   Kamali, F., Henkel, C., Brunthaler, A., et al. 2017, A&A,
+  in Astrophysics: Third Edition (Cambridge University
+                                                                     605, A84, doi: 10.1051/0004-6361/201730899
+  Press)
+                                                                   Kaper, H. G., Smits, D. W., Schwarz, U., Takakubo, K., &
+Gao, F., Braatz, J. A., Reid, M. J., et al. 2016, ApJ, 817,          van Woerden, H. 1966, BAN, 18, 465
+ 128, doi: 10.3847/0004-637X/817/2/128                             Kuo, C. Y., Braatz, J. A., Reid, M. J., et al. 2013, ApJ,
+—. 2017, ApJ, 834, 52, doi: 10.3847/1538-4357/834/1/52               767, 155, doi: 10.1088/0004-637X/767/2/155
+22                                                         Pesce et al.
+
+Kuo, C. Y., Braatz, J. A., Condon, J. J., et al. 2011, ApJ,       Reid, M. J., Biretta, J. A., Junor, W., Muxlow, T. W. B., &
+  727, 20, doi: 10.1088/0004-637X/727/1/20                          Spencer, R. E. 1989, ApJ, 336, 112, doi: 10.1086/166998
+Kuo, C. Y., Braatz, J. A., Lo, K. Y., et al. 2015, ApJ, 800,      Reid, M. J., Braatz, J. A., Condon, J. J., et al. 2009, ApJ,
+  26, doi: 10.1088/0004-637X/800/1/26                               695, 287, doi: 10.1088/0004-637X/695/1/287
+Lovell, J. E. J., Jauncey, D. L., Bignall, H. E., et al. 2003,
+                                                                  —. 2013, ApJ, 767, 154, doi: 10.1088/0004-637X/767/2/154
+  AJ, 126, 1699, doi: 10.1086/378053
+Lovell, J. E. J., Rickett, B. J., Macquart, J.-P., et al. 2008,   Reid, M. J., Schneps, M. H., Moran, J. M., et al. 1988,
+  ApJ, 689, 108, doi: 10.1086/592485                                ApJ, 330, 809, doi: 10.1086/166514
+Markwardt, C. B. 2009, in Astronomical Society of the             Rybicki, G. B., & Lightman, A. P. 1986, Radiative
+  Pacific Conference Series, Vol. 411, Astronomical Data            Processes in Astrophysics (Wiley), 400
+  Analysis Software and Systems XVIII, ed. D. A.                  Ryle, Sir, M., & Longair, M. S. 1967, MNRAS, 136, 123,
+  Bohlender, D. Durand, & P. Dowler, 251.                           doi: 10.1093/mnras/136.2.123
+  https://arxiv.org/abs/0902.2850
+                                                                  Salvatier, J., Wiecki, T. V., & Fonnesbeck, C. 2016, PeerJ
+Miyoshi, M., Moran, J., Herrnstein, J., et al. 1995, Nature,
+                                                                    Computer Science, 2, e55, doi: 10.7717/peerj-cs.55
+  373, 127, doi: 10.1038/373127a0
+Moran, J., Greenhill, L., Herrnstein, J., et al. 1995,            Schutz, B. 2009, A First Course in General Relativity
+  Proceedings of the National Academy of Science, 92,               (Cambridge University Press)
+  11427, doi: 10.1073/pnas.92.25.11427                            Sokal, A. 1997, Monte Carlo Methods in Statistical
+Narayan, R. 1992, Philosophical Transactions of the Royal           Mechanics: Foundations and New Algorithms, ed.
+  Society of London Series A, 341, 151,                             C. DeWitt-Morette, P. Cartier, & A. Folacci (Boston,
+  doi: 10.1098/rsta.1992.0090                                       MA: Springer US), 131–192,
+Neal, R. M. 2012, Handbook of Markov Chain Monte                    doi: 10.1007/978-1-4899-0319-8 6
+  Carlo, doi: 10.1201/b10905-6
+                                                                  Tully, R. B. 2015, The Astronomical Journal, 149, 171,
+Neufeld, D. A., & Maloney, P. R. 1995, ApJL, 447, L17,
+                                                                    doi: 10.1088/0004-6256/149/5/171
+  doi: 10.1086/309553
+Pesce, D. W., Braatz, J. A., Condon, J. J., et al. 2015, ApJ,     Verde, L., Treu, T., & Riess, A. G. 2019, arXiv e-prints,
+  810, 65, doi: 10.1088/0004-637X/810/1/65                          arXiv:1907.10625. https://arxiv.org/abs/1907.10625
+Planck Collaboration, Aghanim, N., Akrami, Y., et al.             Vlemmings, W. H. T., Bignall, H. E., & Diamond, P. J.
+  2018, arXiv e-prints, arXiv:1807.06209.                           2007, ApJ, 656, 198, doi: 10.1086/510515
+  https://arxiv.org/abs/1807.06209
+

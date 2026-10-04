@@ -1,0 +1,127 @@
+{
+  "case": {
+    "id": "quadratic_1",
+    "metric": "quadratic",
+    "L": 0.15707963267948966,
+    "fraction_of_control_limit": 0.1,
+    "reverse": true,
+    "echo": true,
+    "smoke": false
+  },
+  "tolerance": 1e-08,
+  "center": {
+    "te": 0.0,
+    "distance": 0.15707963267948966,
+    "tr": 0.1583844403057078,
+    "lambda_end": 0.15970883150123114,
+    "kt_end": 0.97552825815646,
+    "kx_end": 0.9516553824759731,
+    "Z": 1.025085630927582,
+    "logZ": 0.02477615146927493,
+    "endpoint_error": 1.1102230246251565e-16,
+    "nfev": 62,
+    "null_absolute": 4.8898662896590395e-11,
+    "null_relative": 2.5505539113938805e-11,
+    "momentum_relative": 2.149302957832333e-11,
+    "metricity_absolute": 2.4528601372253434e-11,
+    "transported_k_absolute": 2.220446049250313e-16,
+    "original_residual_absolute": 2.4804809317657828e-09,
+    "original_residual_scaled": 1.2598712801314645e-09,
+    "residual_difference_refinement": 3.136801929315425e-11,
+    "saved_nodes": 132,
+    "arrival_derivative_richardson": 1.0250856279226765,
+    "arrival_frequency_relative": 2.931370146619372e-09,
+    "arrival_step_difference": 5.847174596359157e-11
+  },
+  "perturbations": [
+    {
+      "h": 0.0001,
+      "minus": {
+        "te": -0.0001,
+        "distance": 0.15707963267948966,
+        "tr": 0.15828193336065832,
+        "lambda_end": 0.1597037531688175,
+        "kt_end": 0.975559160097656,
+        "kx_end": 0.9517156653539055,
+        "Z": 1.025053160179335,
+        "logZ": 0.02474447483509709,
+        "endpoint_error": 1.1102230246251565e-16,
+        "nfev": 62
+      },
+      "plus": {
+        "te": 0.0001,
+        "distance": 0.15707963267948966,
+        "tr": 0.15848695048628963,
+        "lambda_end": 0.15971391327811457,
+        "kt_end": 0.9754973566984596,
+        "kx_end": 0.9515950834312419,
+        "Z": 1.0251181032252807,
+        "logZ": 0.02480782861156127,
+        "endpoint_error": 1.1102230246251565e-16,
+        "nfev": 62
+      },
+      "arrival_derivative": 1.0250856281565635
+    },
+    {
+      "h": 5e-05,
+      "minus": {
+        "te": -5e-05,
+        "distance": 0.15707963267948966,
+        "tr": 0.15833318642719782,
+        "lambda_end": 0.15970629190200059,
+        "kt_end": 0.9755437090658347,
+        "kx_end": 0.9516855259362091,
+        "Z": 1.025069395360649,
+        "logZ": 0.02476031308951806,
+        "endpoint_error": 1.1102230246251565e-16,
+        "nfev": 62
+      },
+      "plus": {
+        "te": 5e-05,
+        "distance": 0.15707963267948966,
+        "tr": 0.15843569498999593,
+        "lambda_end": 0.15971137195661012,
+        "kt_end": 0.9755128073662389,
+        "kx_end": 0.951625234974432,
+        "Z": 1.025101866883607,
+        "logZ": 0.02479198997774561,
+        "endpoint_error": 1.1102230246251565e-16,
+        "nfev": 62
+      },
+      "arrival_derivative": 1.0250856279811482
+    }
+  ],
+  "reverse": {
+    "te": 0.0,
+    "distance": -0.15707963267948966,
+    "tr": 0.1583844403057078,
+    "lambda_end": 0.15970883150123114,
+    "kt_end": 0.97552825815646,
+    "kx_end": -0.9516553824759731,
+    "Z": 1.025085630927582,
+    "logZ": 0.02477615146927493,
+    "endpoint_error": 1.1102230246251565e-16,
+    "nfev": 62
+  },
+  "echo": {
+    "te": 0.1583844403057078,
+    "distance": -0.15707963267948966,
+    "tr": 0.3249196962167026,
+    "lambda_end": 0.17232227994726718,
+    "kt_end": 0.9271986635479311,
+    "kx_end": -0.8386590697804878,
+    "Z": 1.0785175165950889,
+    "logZ": 0.07558742834252268,
+    "endpoint_error": 2.7755575615628914e-17,
+    "nfev": 74
+  },
+  "binding": {
+    "config_sha256": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a",
+    "code_sha256": "08c5e22edb68aeaf5185babda6fcd75ab9eb75b9e77c9e4da6402cbe0717b118",
+    "smoke": false,
+    "equation": "original affine null geodesic and parallel transport",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "trajectory_sha256": "34de475d525d9954a1a4acb9711f4ff0207c826c142a02a0b48e4cebadf88a2d"
+}

@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-04T20:34:59.520211+00:00",
+  "scope": "Independent packaging-only review; no scientific rerun",
+  "status": "PASS",
+  "R2_header": "%PDF-1.5",
+  "R2_first_null_offset": 8646,
+  "failure_findings": 233,
+  "failure_paths": [
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf"
+  ],
+  "receipt_checks": [
+    {
+      "name": "stage_pdf_failure",
+      "exit_code": 2,
+      "streams_verified": true
+    },
+    {
+      "name": "stage_pdf_corrected",
+      "exit_code": 0,
+      "streams_verified": true
+    }
+  ],
+  "six_primary_PDFs": [
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/M1_Pesce_2001.09213v2.pdf",
+      "sha256": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a",
+      "index_identical": true
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/M2_Pesce_2001.04581v1.pdf",
+      "sha256": "6a4be37e2fe7a9b4aefa7e5c6523e78206fcbf5eb96a423e66b0dfb69f18300b",
+      "index_identical": true
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/R1_Darling_1211.4585v1.pdf",
+      "sha256": "de6b907de11a346a2849731e7508de6f15c82e792d7ce30fe185862273299131",
+      "index_identical": true
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf",
+      "sha256": "17e34c94d305e5af6f44fbab654c774ba647ca28025f9be0a9b50e82dae2e6d8",
+      "index_identical": true
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/R3_Trost_2603.02318v1.pdf",
+      "sha256": "9cde1825a951338c5d28a3f6d39d6c9ae2781f2bac21ea3b23b25f5feae48a26",
+      "index_identical": true
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/primary/S1_White_2406.05050v2.pdf",
+      "sha256": "afefe0a0b25478c2556013b123df98d53ab2cd4cafbb4e687b027d3591c19bbc",
+      "index_identical": true
+    }
+  ],
+  "attributes_sha256": "547f59603028195ff9f8a87d04c4651551e8bd0d68f075257dfd549cd846b25b",
+  "working_attributes": "udt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf: binary: set\nudt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf: diff: unset\nudt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf: merge: unset\nudt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf: text: unset\n",
+  "cached_attributes": "udt_observation_metric_evaluation_2026-10-04/observation/primary/R2_Trost_2505.21615v1.pdf: binary: unspecified\n",
+  "independent_diff_check": {
+    "command": [
+      "git",
+      "diff",
+      "--cached",
+      "--check"
+    ],
+    "returncode": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "initial_manifest_sha256": "c496392eb68586961fbfd5fe0025128f0b0f6d5907bff25b51fd7f8c7fb3ca46",
+  "packaging_repair_sha256": "b4089b057014508a033c6104a199d585e698e7395e0aea95856e2676f74d5df4",
+  "integration_freeze_sha256": "f609374e43cd8aeffae39926f3776dc49265b4576485be519a65872fdd125789",
+  "final_attestation_sha256": "1f319635f86bef9d6dbda60ba936e5d789623db812bb3bf6c4bc4346a563c413",
+  "closure_receipts_observed": [
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/checks/final_normal_bound.json",
+      "returncode": 0,
+      "duration_seconds": 1.7378623759141192
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/checks/packaging_normal.json",
+      "returncode": 0,
+      "duration_seconds": 1.7334876529639587
+    }
+  ],
+  "remaining": "New local attributes currently untracked; final exact stage must include them and supplemental repair evidence. No13914-source rehash or science/57/full406 rerun in this packaging review."
+}

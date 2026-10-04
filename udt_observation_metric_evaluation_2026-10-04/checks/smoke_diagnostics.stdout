@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FINITE_NUMERICAL_DIAGNOSTICS",
+  "rows": 3,
+  "settings": [
+    {
+      "tolerance": 1e-12,
+      "null_relative": 2.0916881190160483e-12,
+      "momentum_relative": 6.8478556158879655e-12,
+      "metricity_absolute": 4.461542246758654e-12,
+      "transported_k_absolute": 4.440892098500626e-16,
+      "original_residual_absolute": 8.480327551296796e-12,
+      "original_residual_scaled": 5.138970920141075e-12,
+      "residual_difference_refinement": 9.130829425885167e-11,
+      "endpoint_error": 2.220446049250313e-16,
+      "arrival_frequency_relative": 1.0131073757690956e-10
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-04T20:20:17.636875+00:00",
+  "returncode": 1,
+  "error": "AssertionError at old PRT1 stage4/5 literal matching",
+  "cause": "Typographic spacing cleanup also changed an exact old-source search literal",
+  "effect": "No file mutation; git diff was empty",
+  "repair": "Restore original search literal; prose replacement remains spaced"
+}

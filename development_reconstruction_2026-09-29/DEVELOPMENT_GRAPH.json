@@ -2248,6 +2248,81 @@
         "C_PRT_SIGN",
         "C_PRT_CONTROLS"
       ]
+    },
+    {
+      "id": "C_OEV_READOUT",
+      "kind": "conditional_protocol",
+      "statement": "For observation branch: exposed eight-source/three-channel assessment and six MCP XIII Table1 marginal disk-distance/CMB optical-velocity summaries; conventional source dynamics/gravity/frame reductions retained. Exact v/c and log1p conversions only, no joint likelihood or covariance-zero, positional attribution, D_A=PSW L, H0/flow fit or native candidate.",
+      "sources": [
+        "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md",
+        "udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/SOURCE_LEDGER.json",
+        "udt_observation_metric_evaluation_2026-10-04/observation/DIAGNOSTIC_PLAN.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv",
+        "udt_observation_metric_evaluation_2026-10-04/observation/MCP_CONSTRAINTS.tsv",
+        "udt_observation_metric_evaluation_2026-10-04/observation/reduce_table.py"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_OEV_CONTROLS",
+      "kind": "conditional_protocol",
+      "statement": "For numerical branch only: supplied unquotiented 4D metrics a=1,1+t^2,1+t^3 with cubic t>-1; radial invariant slice, comoving proper clocks, preparation0, fixed histories, actual finite future first/selected reverse/echo queries. Separate nondimensional control scales, original affine/transport equations, frozen finite matrix/tolerances; tight 14 at 3-setting total42 rows. No native metric admission, general-clock/caustic/continuum or physical scale claim.",
+      "sources": [
+        "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md",
+        "udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/SOURCE_LEDGER.json",
+        "udt_observation_metric_evaluation_2026-10-04/observation/DIAGNOSTIC_PLAN.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv",
+        "udt_observation_metric_evaluation_2026-10-04/observation/MCP_CONSTRAINTS.tsv",
+        "udt_observation_metric_evaluation_2026-10-04/observation/reduce_table.py",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/FREEZE.json",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/config.json",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/summarize.py",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/RESULT.json"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_OEV_NATIVE",
+      "kind": "open_join",
+      "statement": "Native astronomical metric/query/readout assignment, source/motion calibration and joint uncertainty model remain open for candidate confrontation; observation design/marginal constraints do not require native dynamics to be closed. Native metric evolution additionally needs admitted equation/constraint class, gauge/domain and sufficient data. No whole-postulate insufficiency or new-premise necessity follows.",
+      "sources": [
+        "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md",
+        "udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/SOURCE_LEDGER.json"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8OEV",
+      "kind": "argument",
+      "anchor": "r8oev",
+      "title": "Source-conditional observational constraints and checked finite supplied-metric evaluator; native astronomical comparison/evolution open",
+      "sources": [
+        "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md",
+        "udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/SOURCE_LEDGER.json",
+        "udt_observation_metric_evaluation_2026-10-04/observation/DIAGNOSTIC_PLAN.md",
+        "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv",
+        "udt_observation_metric_evaluation_2026-10-04/observation/MCP_CONSTRAINTS.tsv",
+        "udt_observation_metric_evaluation_2026-10-04/observation/reduce_table.py",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/FREEZE.json",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/config.json",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/summarize.py",
+        "udt_observation_metric_evaluation_2026-10-04/numerics/RESULT.json"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS"
+      ]
     }
   ],
   "edges": [
@@ -4400,6 +4475,91 @@
       "from": "R8PRT",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "C_OEV_READOUT",
+      "to": "R8OEV",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_OEV_CONTROLS",
+      "to": "R8OEV",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R8OEV",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R8OEV",
+      "kind": "proof"
+    },
+    {
+      "from": "D1",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R8PRT",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACI",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R8GRL",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R13",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R14",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R16",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R8OEV",
+      "kind": "context"
+    },
+    {
+      "from": "O_OEV_NATIVE",
+      "to": "R8OEV",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R8OEV",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -4647,7 +4807,20 @@
     "udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md": "094d55da5829235c130f45bb15b2cc2226c6aa3aa14f26212f6f5346de631c89",
     "udt_positional_requirement_translation_2026-10-04/PRECISION.md": "4cd6e9a4908bbd5192321f21c8101c492a81fe909d7e66bdb507644f17e85dbb",
     "udt_positional_requirement_translation_2026-10-04/REVIEWED_RESULT.md": "b9f03c6871b4cbd41e6668b19cfd27d6431a87ff2b052d586bf1a31d901a0221",
-    "udt_positional_requirement_translation_2026-10-04/WORK_ORDER.md": "d827538284c4d57c2fcc75102fa0ea6965f45e884249572ba5a7209d82e35106"
+    "udt_positional_requirement_translation_2026-10-04/WORK_ORDER.md": "d827538284c4d57c2fcc75102fa0ea6965f45e884249572ba5a7209d82e35106",
+    "udt_observation_metric_evaluation_2026-10-04/WORK_ORDER.md": "f78b247bb5b6805c21870dcc76a8ccb51620d7870dc89dbaad37ad3c326ceb16",
+    "udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md": "a87a77ec9cbdd0ee0c9463976a3d44c61f72f7bbc03310cb93f65a946943b235",
+    "udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md": "3dcd587cc172e38dd2012ca71cdbc1a4fd0fe4bb43d4aa466a78498bcc3643bf",
+    "udt_observation_metric_evaluation_2026-10-04/observation/SOURCE_LEDGER.json": "d6748da6e96ad4a2ea983a4acf8b5446d594afb37adf5d42fabdd34f115c093a",
+    "udt_observation_metric_evaluation_2026-10-04/observation/DIAGNOSTIC_PLAN.md": "f1c9007dd59bd7d503d194812b9b47c8edb676edcc21caf4ca584158863ef617",
+    "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv": "114e4412eed79d088dff9cbfc68890d49dd6a902811b7f0370c085b980554910",
+    "udt_observation_metric_evaluation_2026-10-04/observation/MCP_CONSTRAINTS.tsv": "49d186c79349cf3f8a5a6debe78c9c4dc6bf03cdb14208964469217ba40db812",
+    "udt_observation_metric_evaluation_2026-10-04/observation/reduce_table.py": "027dd3def97a6cd6e82c48af5e8b840500ab4f9e821f26ae0d94b101fa7b4ee8",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/FREEZE.json": "c13cc39dbf0666b17df9d6d961c5507e223a21919fd22e72d7bf621721a0cbba",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/config.json": "b7078f15f74b4e827b77406f63058cb31e052c286ae77b8ecad84baa59ef8d5a",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/evaluate.py": "08c5e22edb68aeaf5185babda6fcd75ab9eb75b9e77c9e4da6402cbe0717b118",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/summarize.py": "9f59086362cdfb928adcfd3b2fce2537be2fb5cc2f6d52a743f6d829b94caf5a",
+    "udt_observation_metric_evaluation_2026-10-04/numerics/RESULT.json": "480aec6c7f44096fd00962db2fa94e62c1288a1bcdabf0fdeb699d3d6371509f"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -7467,6 +7640,231 @@
         "C_PRT_SIGN",
         "C_PRT_CONTROLS",
         "O_PRT_ASSIGNMENT"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/DESCENDANT_REVIEW.md",
+      "sha256": "6bcdc75447be55ba300c27549a6a47238d6d771305b3dd213688bf201f11c58c",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/WORK_RECORD.md",
+      "sha256": "aee48d060bc6a3708d250ebb07dd14a8def6682ecb41518a4fd55818c88531cf",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/observation/EXPOSURE.md",
+      "sha256": "1862f7ca3ca5671b94abdebf142635604511f912365c52733bebccbfb423a484",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/source_precision/REPAIR_RECORD.json",
+      "sha256": "05f151f493b5d556c3d460fda80cb7adaeb9077d21d46be433d8f571fa6c736b",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/review_math/SOURCE_FIRST.md",
+      "sha256": "0170abdafdcb9d8ed2b81be7be131fbe14e618eecc9d3e5e62247de64c706e40",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/review_math/CANDIDATE_REVIEW.md",
+      "sha256": "0e1d9797488a71f5eed8f92118d34100926f021f1c0fec972ae04c5c09d76932",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_RESULT.json",
+      "sha256": "450b1f7488aaea46e948e441678975cdcbd27aa814c3fa550d863056bf7fcdb4",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "2a82a15a4a031ce82b431afbd9c1e778d7c7990e9189d78b769757dce5513ab7",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
+      ]
+    },
+    {
+      "path": "udt_observation_metric_evaluation_2026-10-04/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "72dcd1cf86ef07d746b7adccac65e33defd4e26f6f4a07253de707b01738d6bf",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8PRT",
+        "R8PCC",
+        "R8ACI",
+        "R8GRL",
+        "R9",
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R8OEV",
+        "R18",
+        "C_OEV_READOUT",
+        "C_OEV_CONTROLS",
+        "O_OEV_NATIVE"
       ]
     }
   ]

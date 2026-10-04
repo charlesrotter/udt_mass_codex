@@ -1,0 +1,878 @@
+                                                 Draft version February 20, 2020
+                                                 Typeset using LATEX twocolumn style in AASTeX63
+
+
+
+
+                                                           The Megamaser Cosmology Project. XIII. Combined Hubble constant constraints
+                                                D. W. Pesce,1, 2 J. A. Braatz,3 M. J. Reid,1 A. G. Riess,4, 5 D. Scolnic,6 J. J. Condon,3 F. Gao,7, 3 C. Henkel,8, 9
+                                                                           C. M. V. Impellizzeri,10, 3 C. Y. Kuo,11, 12 and K. Y. Lo3, ∗
+                                                               1 Center for Astrophysics | Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA
+                                                                  2 Black Hole Initiative at Harvard University, 20 Garden Street, Cambridge, MA 02138, USA
+                                                                 3 National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA
+arXiv:2001.09213v2 [astro-ph.CO] 18 Feb 2020
+
+
+
+
+                                                                    4 Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD, USA
+                                                                                    5 Space Telescope Science Institute, Baltimore, MD, USA
+                                                                    6 Department of Physics, Duke University, 120 Science Drive, Durham, NC, 27708, USA
+                                               7 Key Laboratory for Research in Galaxies and Cosmology, Shanghai Astronomical Observatory, Chinese Academy of Science, Shanghai
+
+                                                                                                         200030, China
+                                                                     8 Max-Planck-Institut für Radioastronomie, Auf dem Hügel 69, D-53121 Bonn, Germany
+                                                      9 Astronomy Department, Faculty of Science, King Abdulaziz University, P.O. Box 80203, Jeddah 21589, Saudi Arabia
+                                                                        10 Joint ALMA Observatory, Alonso de Cordova 3107, Vitacura, Santiago, Chile
+                                               11 Department of Physics, National Sun Yat-Sen University, No.70, Lianhai Rd., Gushan Dist., Kaohsiung City 804, Taiwan (R.O.C.)
+                                                          12 Academia Sinica Institute of Astronomy and Astrophysics, P.O. Box 23-141, Taipei 10617, Taiwan (R.O.C.)
+
+
+
+                                                                                                        ABSTRACT
+                                                           We present a measurement of the Hubble constant made using geometric distance measurements
+                                                        to megamaser-hosting galaxies. We have applied an improved approach for fitting maser data and
+                                                        obtained better distance estimates for four galaxies previously published by the Megamaser Cosmology
+                                                        Project: UGC 3789, NGC 6264, NGC 6323, and NGC 5765b. Combining these updated distance
+                                                        measurements with those for the maser galaxies CGCG 074-064 and NGC 4258, and assuming a
+                                                        fixed velocity uncertainty of 250 km s−1 associated with peculiar motions, we constrain the Hubble
+                                                        constant to be H0 = 73.9±3.0 km s−1 Mpc−1 independent of distance ladders and the cosmic microwave
+                                                        background. This best value relies solely on maser-based distance and velocity measurements, and it
+                                                        does not use any peculiar velocity corrections. Different approaches for correcting peculiar velocities
+                                                        do not modify H0 by more than ±1σ, with the full range of best-fit Hubble constant values spanning
+                                                        71.8–76.9 km s−1 Mpc−1 . We corroborate prior indications that the local value of H0 exceeds the early-
+                                                        Universe value, with a confidence level varying from 95–99% for different treatments of the peculiar
+                                                        velocities.
+                                                                  1. INTRODUCTION                               surements of H0 provide an important test of the as-
+                                                 Ninety years after Hubble’s seminal work (Hubble               sumed cosmological model (e.g., Hu 2005).
+                                               1929), observational cosmology remains focused on ob-              Currently, measurements of H0 at low redshifts (z 
+                                               taining a precise and accurate value of the Hubble con-          10)  are in statistical tension with the early-Universe
+                                               stant, H0 . Today, measurements of the cosmic mi-                prediction.    For example, distance ladder measure-
+                                               crowave background (CMB) at high redshift (z ≈ 1100)             ments   using  Cepheid   variables to calibrate the abso-
+                                               determine the angular-size distance to the surface of            lute  luminosities  of Type   Ia supernovae find 74.03 ±
+                                                                                                                           −1    −1
+                                               last scattering and, within the context of the standard          1.42 km  s    Mpc     (Riess et al. 2019), and time-delay
+                                               ΛCDM cosmological model, predict a precise value for             strong   lensing  measurements      from multiply-imaged
+                                                                                                                                                +1.7     −1
+                                               H0 of 67.4 ± 0.5 km s−1 Mpc−1 (Planck Collaboration              quasars   currently  yield 73.3 −1.8 km s   Mpc−1 (Wong
+                                               et al. 2018). Because this “early-Universe” prediction is        et al. 2019). Though this discrepancy between the early-
+                                               model-dependent, complementary “late-Universe” mea-              and late-Universe H0 measurements is being taken in-
+                                                                                                                creasingly seriously by the cosmological community (see
+                                                                                                                Verde et al. 2019), the tantalizing prospects that it holds
+                                               Corresponding author: Dominic W. Pesce                           for heralding physics beyond ΛCDM (e.g., Raveri et al.
+                                               dpesce@cfa.harvard.edu                                           2017; Poulin et al. 2018) require that we subject it to
+                                               ∗ Deceased                                                       a correspondingly strict evidence threshold. Indepen-
+2                                                                Pesce et al.
+
+dent avenues for constraining H0 are thus necessary to                      Section 2 we discuss the new disk modeling and com-
+provide cross-checks against unrecognized systematics in                    pare our revised distance estimates with the previously
+the measurements.                                                           published results. In Section 3 we describe how we com-
+   Water megamasers residing in the accretion disks                         bine the distance measurements into one H0 constraint,
+around supermassive black holes (SMBHs) in active                           detailing several different peculiar velocity treatments,
+galactic nuclei (AGN) provide a unique way to bypass                        and we present our resulting H0 measurement. We sum-
+the distance ladder and make one-step, geometric dis-                       marize and conclude in Section 4.
+tance measurements to their host galaxies. The archety-
+pal AGN accretion disk megamaser system is located in
+the nearby (7.6 Mpc; Humphreys et al. 2013; Reid et al.
+2019) Seyfert 2 galaxy NGC 4258 (Claussen et al. 1984;
+Nakai et al. 1993; Herrnstein et al. 1999). Very long
+baseline interferometric (VLBI) observations reveal that
+the masers trace the accretion disk on sub-parsec scales,
+where the SMBH dominates the gravitational potential.
+The masing gas parcels act as test particles in this po-
+tential and exhibit the ordered, Keplerian motion ex-
+pected for orbits about a point mass (Greenhill et al.
+1995; Miyoshi et al. 1995). By combining the VLBI po-
+sition and velocity information with centripetal acceler-
+ations measured from spectral monitoring observations                             2. IMPROVED DISTANCE ESTIMATES
+(e.g., Argon et al. 2007), the typical degeneracy between
+                                                                               In this section we present updated distance measure-
+mass and distance is broken and precise constraints can
+                                                                            ments for the megamaser-hosting galaxies UGC 3789,
+be placed on both quantities (e.g., Herrnstein et al. 1999;
+                                                                            NGC 6264, NGC 6323, and NGC 5765b. Each of these
+Humphreys et al. 2013; Reid et al. 2019).
+                                                                            galaxies has had a maser-derived distance measurement
+   The Megamaser Cosmology Project (MCP) is a multi-
+                                                                            published previously by the MCP (see Reid et al. 2013;
+year campaign to find, monitor, and map AGN accretion
+                                                                            Kuo et al. 2013, 2015; Gao et al. 2017).
+disk megamaser systems (Braatz et al. 2007, 2008). The
+                                                                               The improvements we present here stem primarily
+primary goal of the MCP is to constrain H0 to a pre-
+                                                                            from an update to the fitting procedure that incorpo-
+cision of several percent by making geometric distance
+                                                                            rates the “error floor” systematic uncertainties as model
+measurements to megamaser galaxies in the Hubble flow
+                                                                            parameters, thereby enabling marginalization over a
+(Reid et al. 2013; Kuo et al. 2013, 2015; Gao et al.
+                                                                            previous source of systematic uncertainty. These error
+2017). Distance measurements made using the mega-
+                                                                            floors get added in quadrature with the data errors, such
+maser technique do not rely on distance ladders1 or the
+                                                                            that an error floor value of zero indicates that the data
+CMB, and they have different systematics than lensing-
+                                                                            errors already capture the true measurement uncertain-
+based techniques. The megamaser measurements thus
+                                                                            ties well. This updated model has already been applied
+provide an independent handle on H0 .
+                                                                            to the galaxies NGC 4258 (Reid et al. 2019) and CGCG
+   In this paper we present a revised analysis that im-
+                                                                            074-064 (Pesce et al. 2020), so for these galaxies we sim-
+proves the distance measurements for several megamaser
+                                                                            ply use the corresponding published results.
+systems that have been previously published by the
+                                                                               We use a Hamiltonian Monte Carlo (HMC) sampler
+MCP. We then combine all distance measurements made
+                                                                            as implemented within the PyMC3 package (Salvatier
+using the revised analysis into a single megamaser-based
+                                                                            et al. 2016) to perform all of the disk fitting described
+constraint on H0 . The paper is organized as follows. In
+                                                                            in this section; for a comprehensive overview of the disk
+                                                                            model and fitting procedure, see Pesce et al. (2020). The
+    1 Though maser-based distances are independent of standard can-
+                                                                            HMC code yields results that match well with those from
+     dle distances, we note that the reverse is not always true. There      the Metropolis-Hastings disk-fitting code employed in
+     is one megamaser-hosting galaxy – NGC 4258 – whose distance
+     measurement has been used to anchor standard candle luminos-           many previous MCP publications (see, e.g., Reid et al.
+     ity calibrations, potentially resulting in correlated uncertainties.   2013), but has an improved convergence efficiency. We
+     However, Riess et al. (2019) find that H0 measurements made us-        use broad truncated Gaussian priors for all error floor
+     ing only the Large Magellanic Cloud and Milky Way parallaxes
+     as calibration anchors (i.e., excluding the NGC 4258 calibration)      parameters, with a mean of 10 µas and a standard devi-
+     yield results that are consistent with those that include the NGC      ation of 5 µas for both the x- and y-position error floor
+     4258 calibration.                                                      priors, a mean of 2 km s−1 and a standard deviation of
+                                            Megamaser Cosmology Project XIII                                                        3
+
+1 km s−1 for both the systemic and high-velocity2 error                  (2013) reported an angular-size distance measurement
+floor priors, and a mean of 0.3 km s−1 yr−1 and a stan-                  of 144 ± 19 Mpc. We use the data from the latter paper
+dard deviation of 0.15 km s−1 yr−1 for the acceleration                  to produce the updated measurements in Table 1 and
+error floor priors. In all cases, the prior distribution is              Appendix A.
+truncated at zero so that the error floors remain strictly                  Kuo et al. (2013) imposed error floors of 8 µas on the
+positive.                                                                x-position measurements and 16 µas on the y-position
+                                                                         measurements. We find that both of these values were
+                       2.1. UGC 3789
+                                                                         too conservative; the updated fitting prefers x-position
+   The disk megamaser in the galaxy UGC 3789 was                         error floors that are consistent with zero and y-position
+discovered by Braatz & Gugliucci (2008), and the first                   error floors of 6 ± 2 µas. Our best-fit velocity error floors
+VLBI map of the system was presented in Reid et al.                      are only moderately constrained by the data (beyond
+(2009). This map was combined with acceleration mea-                     the prior constraints); we find values of 1.6+0.9         −1
+                                                                                                                          −0.8 km s
+surements by Braatz et al. (2010) to produce an angular-                          +0.7
+                                                                         and 1.3−0.6 km s−1 for the systemic and high-velocity
+size distance estimate of 49.9 ± 7.0 Mpc to the system.                  features, respectively, consistent with the error floors
+Reid et al. (2013) obtained additional data and improved                 used in the previous disk modeling. We find that the
+the distance measurement to 49.6 ± 5.1 Mpc, and we use                   acceleration error floor is consistent with zero and con-
+the data from that latest paper to produce the updated                   fined to a range of values that is considerably smaller
+measurements presented in Table 1 and Appendix A.                        than the ∼0.3–0.7 km s−1 yr−1 imposed on the measure-
+   Our updated fit indicates that the error floors used                  ments by Kuo et al. (2013).
+by Reid et al. (2013) for the position measurements                         The updated modeling yields an angular-size dis-
+were too conservative; we find a best-fit x-position er-                 tance measurement of D = 132.1+21      −17 Mpc, represent-
+ror floor of 5 ± 1 µas and a best-fit y-position error floor             ing a 9% ≈ 0.6σ decrease compared to the previously-
+of 6 ± 1 µas, compared to the previous (fixed) values of                 published value. The uncertainty in the distance mea-
+10 µas for both x- and y-positions. We find that the                     surement remains essentially unchanged.
+data do not provide strong constraints on the velocity
+measurement error floors for either the systemic or the
+high-velocity masers, and that the posteriors for both                                        2.3. NGC 6323
+largely follow the Gaussian-distributed prior range of                     The maser system in the galaxy NGC 6323 was discov-
+2.0 ± 1.0 km s−1 . Our best-fit acceleration error floor is              ered by Braatz et al. (2004), and the first VLBI map was
+0.34 ± 0.06 km s−1 yr−1 , again indicating that the Reid                 presented in Braatz et al. (2007). Kuo et al. (2015) com-
+et al. (2013) value of 0.57 km s−1 yr−1 was too conserva-                bined additional epochs of VLBI with spectral monitor-
+tive.                                                                    ing observations and reported an angular-size distance
+   The net result of the updated modeling is a distance                  measurement of 107+42−27 Mpc. We use the data from the
+measurement of D = 51.5+4.5  −4.0 Mpc, which represents a                latter paper to produce the updated measurements in
+3.8% ≈ 0.4σ increase over the previous value and an                      Table 1 and Appendix A.
+improvement in the measurement precision from ±10%                         The original error floors in the position measurements
+to (+8.7%, −7.8%).                                                       were set to 10 µas, while we find that the updated disk
+                                                                         modeling prefers a smaller value of 4 ± 1 µas for the x-
+                       2.2. NGC 6264
+                                                                         positions and is consistent with zero for the y-positions.
+   A VLBI map for the maser system in NGC 6264 was                       We find that the data aren’t able to place constraints
+first presented in Kuo et al. (2011), and Kuo et al.                     on the velocity error floors, as our posteriors recover the
+                                                                         prior Gaussian distributions of 2±1 km s−1 . Our best-fit
+  2 Disk maser spectra are typically characterized by three groups       acceleration error floor is consistent with zero.
+   of maser features arranged roughly symmetrically about the sys-         Our updated disk modeling constrains the distance
+   temic velocity of the galaxy (see, e.g., Nakai et al. 1993; Braatz    to be D = 109+34−23 Mpc. This value matches well with
+   et al. 2004), corresponding to the locations in an edge-on accre-             +42
+                                                                         the 107−29 Mpc distance reported in Kuo et al. (2015),
+   tion disk where the line-of-sight velocity gradient is minimized.
+   The “systemic masers” sit in front of the black hole as seen along    and we have improved the measurement precision from
+   the line-of-sight, and in spectra they appear approximately cen-      (+39%, −27%) to (+31%, −21%).
+   tered on the systemic velocity of the system. The “high-velocity
+   masers” originate on the “midline” of the disk (i.e., where the
+   sky plane intersects the plane of the disk) where the line-of-sight                        2.4. NGC 5765b
+   passes tangent to the orbital velocity vectors, and in spectra they
+   appear Doppler shifted by typically several hundred km s−1 to ei-       Gao et al. (2017) presented the maser system in NGC
+   ther side of the systemic velocity.                                   5765b and measured its angular-size distance to be
+4                                                                Pesce et al.
+
+                                              Table 1. Results from maser disk modeling
+
+                                  Galaxy         Distance (Mpc)       Velocity (km s−1 )         Reference
+                              UGC 3789                51.5+4.5
+                                                          −4.0             3319.9 ± 0.8         this work
+                              NGC 6264               132.1+21
+                                                           −17            10192.6 ± 0.8         this work
+                              NGC 6323               109.4+34
+                                                           −23             7801.5 ± 1.5         this work
+                              NGC 5765b              112.2+5.4
+                                                          −5.1             8525.7 ± 0.7         this work
+                              CGCG 074-064            87.6+7.9
+                                                          −7.2             7172.2 ± 1.9     Pesce et al. (2020)
+                              NGC 4258              7.58 ± 0.11             679.3 ± 0.4     Reid et al. (2019)
+Note—Maser galaxy distances and velocities as measured from modeling the maser disks; for each value we quote the posterior
+ median and 1σ confidence interval (i.e., 16th to 84th percentile). For NGC 4258, where the systematic uncertainty in the
+ distance measurement is comparable to its statistical uncertainty, we have added the two in quadrature. All velocities are
+ quoted in the CMB reference frame using the optical convention. The values for the other parameters measured from the disk
+ model are given in Appendix A.
+
+
+
+
+122.0+10.0
+      −8.6 Mpc.
+                 3
+                   We use the data from that paper to                       motion are on the order of several km s−1 for the SMBH
+produce the updated measurements in Table 1 and Ap-                         in the center of the Milky Way (Reid & Brunthaler 2004,
+pendix A.                                                                   2020) and no more than a few tens of km s−1 for the
+   We find that our disk fit prefers error floors of 3±1 µas                sources considered in this work (Pesce et al. 2018). We
+for both the x- and y-position data, indicating that the                    thus proceed under the assumption that each galaxy ef-
+10 µas error floors used in Gao et al. (2017) were too                      fectively shares a distance and redshift with its SMBH,
+conservative. Conversely, we find the 0.6 km s−1 ve-                        and we seek to determine what values of H0 are com-
+locity error floors used in the original disk modeling                      patible with these measurements.
+were too optimistic, and the data place modest con-                            For each galaxy, its expected angular-size distance Di
+straints on the velocity error floors of 1.1 ± 0.5 km s−1                   is related to its expected cosmological recession redshift
+and 1.5 ± 0.5 km s−1 for the systemic and high-velocity                     zi and H0 by
+features, respectively. Our best-fit acceleration error
+floor of 0.04 ± 0.01 km s−1 yr−1 is on the low end of the                                            Z zi
+                                                                                           c                          dz
+0.05–0.2 km s−1 yr−1 range used in Gao et al. (2017).                          Di =                         q
+   Our updated disk modeling yields a distance mea-                                   H0 (1 + zi )    0                3
+                                                                                                             Ωm (1 + z) + (1 − Ωm )
+                          +5.4
+surement of D = 112.2−5.1      Mpc, a 9% ≈ 1σ decrease
+                                                                                                              Ωm (9Ωm − 4)zi2
+                                                                                                                             
+                                                                                        czi          3Ωm zi
+compared to the previously-published value. The dis-                              ≈               1−        +                   (1)
+                                                                                                                                ,
+                                                                                    H0 (1 + zi )       4            8
+tance uncertainty has improved from (+8.2%, −7.0%)
+to (+4.8%, −4.5%).                                                          where by “expected” here we refer to the values that
+                                                                            the distance and redshift would take if the galaxy were
+       3. MODELING THE HUBBLE CONSTANT
+                                                                            perfectly following the Hubble flow. Equation 1 assumes
+  Our disk model returns an angular-size distance mea-                      a flat ΛCDM cosmology, and the series expansion is ac-
+surement D̂i and a redshift measurement ẑi for the                         curate to one part in ∼105 for the range of redshifts
+SMBH in each megamaser-hosting galaxy. From con-                            covered by our observations. We set Ωm = 0.315, from
+siderations of kinetic energy equipartition between the                     Planck Collaboration et al. (2018), though we note that
+SMBH and surrounding stars, we expect the relative ve-                      any choice in the range 0 ≤ Ωm ≤ 0.5 would yield a dis-
+locity of a ∼107 M black hole to be 1 km s−1 with                          tance that differs by .1% for the galaxies in our sample.
+respect to the system barycenter (Merritt et al. 2007).                     For each of the H0 -fitting approaches described in this
+Measured upper limits on the magnitude of this relative                     section, the contribution to the likelihood from the dis-
+                                                                            tance constraints is given by the product of the posterior
+    3 Gao et al. (2017) reported a Hubble constant of 66.0 ± 5.0 Mpc
+                                                                            distributions P(D̂i |Di ) from the independent disk fits,
+     using a recession velocity of 8334.6 km s−1 , which corresponds to                                     Y
+     a distance of 126.3+10.3
+                         −8.9 Mpc using D = v/H0 . For this paper                                LD =            P(D̂i |Di ),         (2)
+     we convert between D and H0 using Equation 1, so the distance                                           i
+             +10.0
+     of 122.0−8.6 Mpc we mention here differs slightly from that re-
+     ported in Gao et al. (2017).                                           where D̂i is the distance measured from disk modeling.
+                                                                     Megamaser Cosmology Project XIII                                                                                    5
+
+                                200
+                                                                                                                                                                             (1)
+                                175                                                                                                                                          (2)
+                                                                                                                                                                             (3)
+                                150                                                 NGC 6264                                                                                 (4)
+  Angular-size distance (Mpc)
+
+
+
+
+                                                                   NGC 6323                                                                                                  (5)
+
+
+
+
+                                                                                                         Probability density
+                                125                                                                                                                                          (6)
+
+                                100                                                 NGC 5765b
+
+
+                                 75                                       CGCG 074-064
+                                          UGC 3789
+                                 50
+
+                                 25
+                                       NGC 4258
+                                  0
+                                   0       2000      4000      6000        8000          10000   12000                         60         65       70     75      80    85         90
+                                                     CMB-frame velocity (km s−1 )                                                                  H0 (km s−1 Mpc−1 )
+
+Figure 1. Left: Hubble diagram for the maser galaxies considered in this paper. Each data point is plotted with 1σ uncertainties
+in distance and 250 km s−1 uncertainties in velocity. The solid black line shows the distance-velocity relationship from Equation 1
+for the maximum-likelihood H0 value corresponding to the peculiar velocity treatment described in Section 3.1, and the shaded
+gray regions show 1σ and 2σ confidence intervals. Right: Posterior distributions for H0 from the five different peculiar velocity
+treatments considered in this paper; the treatments are numbered as in Table 2. Our “fiducial” treatment is (1) and is plotted
+in black. Note that treatments (4) and (5), corresponding to the galaxy flow corrections using 2M++ and CF3, return nearly
+identical H0 posteriors.
+
+   The expected cosmological recession velocity vi = czi                                            The simplest way to take peculiar velocities into ac-
+differs from the measured galaxy velocity v̂i both be-                                            count is to incorporate them into the velocity measure-
+cause of statistical uncertainty in the measurement and                                           ment uncertainties. Typical values for galaxy peculiar
+because of a systematic uncertainty in the form of pecu-                                          velocities lie in the range ∼150–250 km s−1 (e.g., Davis
+liar motion. For our measurements, in which the statis-                                           et al. 1997; Zaroubi et al. 2001; Masters et al. 2006; Hoff-
+tical uncertainties in velocity are quite small (typically                                        man et al. 2015), so we conservatively take the upper end
+∼1–2 km s−1 ), peculiar motions dominate the recession                                            of this range and add σpec = 250 km s−1 in quadrature to
+velocity uncertainty. Because the galaxies in our sample                                          our velocity uncertainties. The velocity contribution to
+all reside at low redshifts (z  1), we proceed under the                                         the likelihood is then given by a Gaussian distribution,
+assumption that peculiar velocities are independent of
+redshift.                                                                                                                                                                        !
+                                                                                                                                                                             2
+   When fitting for H0 we have several options for treat-                                                       Y                              1                1 (vi − v̂i )
+                                                                                                    Lv =                            q                    exp − 2 σ 2 + σ 2          ,
+ing these peculiar velocities, and in this section we de-                                                                  i
+                                                                                                                                            2 + σ2
+                                                                                                                                        2π σv,i                    v,i     pec
+                                                                                                                                                 pec
+scribe the approaches we have taken to construct the
+                                                                                                                                                          (4)
+velocity contribution to the likelihood, Lv . In all cases,
+                                                                                                  where σv,i is the statistical uncertainty in velocity mea-
+our combined likelihood L is ultimately given by the
+                                                                                                  surement v̂i and the true velocities vi are treated as nui-
+product of the velocity and distance likelihoods,
+                                                                                                  sance parameters in the model.
+                                                                                                    The result from fitting this model to all six
+                                                  L = LD Lv ,                             (3)     maser galaxies simultaneously is H0 = 73.9 ±
+                                                                                                  3.0 km s−1 Mpc−1 , and Table 2 lists the values ob-
+and the posterior distribution is given by the product of
+                                                                                                  tained from leave-one-out jackknife tests. We assess the
+L with the prior via Bayes’s theorem. We assume flat
+                                                                                                  goodness-of-fit using a chi-squared statistic,
+priors for all model parameters, and we explore the pos-
+terior space using the dynesty nested sampling package                                                               "
+                                                                                                                   X (vi − v̂i )2               2
+                                                                                                                                                  #
+                                                                                                                 1                  (Di − D̂i )
+(Speagle 2019).                                                                                            χ2ν =       2 + σ2     +     2           ,                                (5)
+                                                                                                                 ν i σv,i     pec      σD,i
+                                  3.1. Treating peculiar velocities as inflated                   where σD,i is the standard deviation of the distance mea-
+                                            measurement uncertainties                             surement posterior and χ2ν is the chi-squared per degree
+6                                                         Pesce et al.
+
+                                   Table 2. Hubble constant constraints and jackknife tests
+
+                      Peculiar velocity treatment                   Galaxies excluded from the fit    H0 (km s−1 Mpc−1 )
+                                                                             UGC 3789                       75.8+3.4
+                                                                                                                −3.3
+                                                                             NGC 6264                       73.8+3.2
+                                                                                                                −3.2
+                                                                             NGC 6323                       73.8+3.1
+                                                                                                                −3.0
+       (1) Assign a fixed velocity uncertainty of 250 km s−1                 NGC 5765b                      74.1+4.5
+                                                                                                                −4.4
+                                                                            CGCG 074-064                    72.5+3.4
+                                                                                                                −3.2
+                                                                             NGC 4258                       73.6+3.1
+                                                                                                                −3.0
+
+                                                                       Fit using all galaxies:              73.9+3.0
+                                                                                                                −3.0
+
+                                                                             UGC 3789                       76.4+4.2
+                                                                                                                −3.8
+                                                                             NGC 6264                       74.4+4.4
+                                                                                                                −3.8
+                                                                             NGC 6323                       74.5+4.0
+                                                                                                                −3.6
+       (2) Fit for σpec using the maser data and assuming an
+                                                                             NGC 5765b                      75.8+6.6
+                                                                                                                −5.6
+       outlier-robust form for the peculiar velocity distribution
+                                                                            CGCG 074-064                    73.1+4.3
+                                                                                                                −3.9
+                                                                             NGC 4258                       74.2+4.5
+                                                                                                                −3.7
+
+                                                                       Fit using all galaxies:              74.4+3.9
+                                                                                                                −3.4
+
+                                                                             UGC 3789                       75.0+3.1
+                                                                                                                −3.0
+                                                                             NGC 6264                       73.1+2.8
+                                                                                                                −2.7
+                                                                             NGC 6323                       73.2+2.8
+                                                                                                                −2.7
+       (3) Use galaxy group recession velocities                             NGC 5765b                      72.2+4.2
+                                                                                                                −4.1
+                                                                            CGCG 074-064                    73.3+3.1
+                                                                                                                −3.0
+                                                                             NGC 4258                       72.8+2.8
+                                                                                                                −2.7
+
+                                                                       Fit using all galaxies:              73.3+2.8
+                                                                                                                −2.7
+
+                                                                             UGC 3789                       73.3+3.0
+                                                                                                                −3.0
+                                                                             NGC 6264                       71.8+2.8
+                                                                                                                −2.8
+                                                                             NGC 6323                       71.9+2.8
+                                                                                                                −2.7
+       (4) Use 2M++ (Carrick et al. 2015) recession velocities               NGC 5765b                      71.1+4.0
+                                                                                                                −3.9
+                                                                            CGCG 074-064                    70.9+3.0
+                                                                                                                −2.9
+                                                                             NGC 4258                       72.1+2.7
+                                                                                                                −2.7
+
+                                                                       Fit using all galaxies:              71.8+2.7
+                                                                                                                −2.7
+
+                                                                             UGC 3789                       73.6+3.1
+                                                                                                                −2.9
+                                                                             NGC 6264                       71.5+2.8
+                                                                                                                −2.7
+                                                                             NGC 6323                       71.7+2.8
+                                                                                                                −2.6
+       (5) Use CF3 (Graziani et al. 2019) recession velocities               NGC 5765b                      71.5+4.1
+                                                                                                                −4.0
+                                                                            CGCG 074-064                    70.5+3.0
+                                                                                                                −2.9
+                                                                             NGC 4258                       72.0+2.7
+                                                                                                                −2.7
+
+                                                                       Fit using all galaxies:              71.8+2.7
+                                                                                                                −2.6
+
+                                                                             UGC 3789                       79.3+3.3
+                                                                                                                −3.1
+                                                                             NGC 6264                       76.8+2.9
+                                                                                                                −2.9
+                                                                             NGC 6323                       76.9+2.9
+                                                                                                                −2.9
+       (6) Use M2000 (Mould et al. 2000) recession velocities                NGC 5765b                      76.2+4.3
+                                                                                                                −4.1
+                                                                            CGCG 074-064                    75.5+3.2
+                                                                                                                −3.0
+                                                                             NGC 4258                       76.8+2.9
+                                                                                                                −2.9
+
+                                                                       Fit using all galaxies:              76.9+2.9
+                                                                                                                −2.9
+
+Note—Hubble constant measurements made using various subsets of the megamaser distances and different treatments for the
+ peculiar velocities, as described in Section 3. For each peculiar velocity treatment, we list seven H0 values: six of these values
+ correspond to “leave-one-out” jackknife tests, in which we fit the data (under the given peculiar velocity prescription) after
+ removing the galaxy specified in the second column; the seventh value corresponds to that obtained from fitting all galaxies
+ simultaneously. For each fit we quote the posterior median and 1σ confidence interval (i.e., 16th to 84th percentile).
+                                              Megamaser Cosmology Project XIII                                                         7
+
+                               Table 3. H0 goodness-of-fits and comparisons with other measurements
+
+                          Peculiar velocity treatment              χ2ν    P (H0 ≤ H0,Planck )   P (H0 ≥ H0,SH0ES )
+                          (1)                                      0.60         0.02                   0.48
+                          (2)                                      1.52         0.03                   0.55
+                          (3)                                      0.62         0.01                   0.41
+                          (4)                                      0.55         0.05                   0.24
+                          (5)                                      0.75         0.05                   0.23
+                          (6)                                      0.75        < 0.01                  0.82
+Note—Statistics for the Hubble constant fits described in Section 3, with the different peculiar velocity treatments numbered
+ as in Table 2. The second column lists the chi-squared per degree of freedom for each fit, computed using Equation 5. For
+ treatments (1), (3),p (4), (5), and (6), the number of degrees of freedom ν = 5 and the expected standard deviation
+                                                                                                                 p      of the
+ χ2ν -distribution is 2/5 ≈ 0.63, while for treatment (2), ν = 4 and the expected standard deviation in χ2ν is 2/4 ≈ 0.71.
+ The third column lists one-sided comparison statistics computed using Equation 10, which give the probability that our H0
+ measurement is at least as low as the Planck measurement (Planck Collaboration et al. 2018). The fourth column is analogous
+ to the third, and lists the probability that our H0 measurement is at least as high as the SH0ES measurement (Riess et al.
+ 2019; the statistic is computed using Equation 11).
+
+
+
+
+of freedom, ν. For this fit, ν = 5 and χ2ν = 0.6, which                        where
+is consistent with unity within the expected standard
+                                                                                                                   2
+deviation of a chi-squared distribution with five degrees                                                        vpec,i
+                                                                                                     Ri =      2 + σ2                (8)
+of freedom (see also Table 3).                                                                                σv,i      pec
+
+                                                                               as we have assumed that the peculiar velocity distribu-
+3.2. Modeling peculiar velocities as being drawn from a                        tion has zero mean.
+                     global distribution                                          Because we are now modeling peculiar velocity rather
+                                                                               than recession velocity, we have to relate the two. We
+   Rather than assuming a typical dispersion for the pe-                       relate the expected cosmological recession redshift zi to
+culiar velocity distribution of σpec , we can instead fit for                  the measured redshift ẑi by adding the peculiar velocity
+it as part of the model given some assumption about the                        contribution via (see, e.g., Davis & Scrimgeour 2014),
+form of the underlying distribution from which peculiar
+velocities are drawn. Because we expect that some un-
+                                                                                                                   vpec,i 
+                                                                                            1 + ẑi = (1 + zi ) 1 +          .        (9)
+known fraction of galaxies may have particularly large                                                                c
+peculiar velocities (e.g., if the galaxy lives in a cluster),                  The zi values are then plugged into Equation 1 to com-
+we test the Sivia & Skilling (2006, §8.3.1) “conservative                      pute the distances Di .
+formulation” for the velocity uncertainties as an alterna-                        The result from fitting this model to all six maser
+tive to a Gaussian distribution. Under this formalism,                         galaxies simultaneously is H0 = 74.4+3.9
+                                                                                                                     −3.4 km s
+                                                                                                                               −1
+                                                                                                                                  Mpc−1 ,
+σpec is interpreted as a lower bound on the velocity error                     and Table 2 lists the values obtained from leave-one-out
+σ associated with peculiar velocities, with a distribution                     jackknife tests. We find σpec = 141+185
+                                                                                                                    −80 km s
+                                                                                                                               −1
+                                                                                                                                  and use
+for this error given by                                                                                           2
+                                                                               it via Equation 5 to compute χν = 1.5 (see Table 3),
+                                                                               which is consistent with unity within the expected stan-
+                                                                              dard deviation for a chi-squared distribution with ν = 4
+                             σpec ,       σ > σpec                            degrees of freedom. We note also that the explicitly
+                                 σ2
+             P(σ|σpec ) =                              .            (6)
+                            0,                                                non-Gaussian form of the likelihood in Equation 7 – in
+                                           otherwise
+                                                                               particular the 1/Ri2 tails of this distribution – are ex-
+                                                                               pected to drive the chi-squared above unity.
+The marginal likelihood contribution from the velocity
+constraints after integrating out σ is then                                    3.3. Using galaxy group velocities in place of individual
+                                                                                                     galaxy velocities
+                                                           !                     As an alternative to treating the peculiar velocity as
+                                                       2
+             Y             1                 1 − e−Ri /2                       an uncertainty in the measured velocity, we can use ex-
+      Lv =                                                     ,    (7)        ternal information to independently estimate the reces-
+                                                 Ri2
+                  q                    
+                          2 + σ2
+                      2π σv,i
+              i                pec
+8                                                        Pesce et al.
+
+sion velocity for each galaxy in our sample. One of the            the Great Attractor (GA), Virgo Cluster, and Shapley
+primary drivers of peculiar motion is dispersion within            Cluster on galaxy motions. Each of these catalogs makes
+galaxy groups or clusters, so we can attempt to correct            a prediction for the recession velocity associated with a
+for such dispersion by associating the cosmological re-            particular sky direction and redshift, and we list these
+cession velocity for each galaxy with the velocity of the          velocities in Table 4.
+group that galaxy resides in.                                         Given the recession velocity predictions from the cata-
+  We use the galaxy groups defined in Tully (2015), and            logs, the model is fit in an identical manner to that used
+we take the velocities for the galaxies within each group          in Section 3.1 and Section 3.3. We assume a 150 km s−1
+from NED.4 We define the group velocity to be the mean             uncertainty for all recession velocities, as per Carrick
+of all galaxy velocities within that group; these group re-        et al. (2015) for 2M++ and Graziani et al. (2019) for
+cession velocities are listed in Table 4 along with their          CF3.
+corresponding peculiar velocity equivalents. We note                  Though each galaxy flow model makes different pre-
+that not all of these group associations are equally cer-          dictions for individual galaxy recession velocities (see
+tain, and that in particular the large peculiar velocity           Table 4), the results from fitting the 2M++ and
+predicted for CGCG 074-064 (which was not associated               CF3 models to all six maser galaxies simultaneously
+with a galaxy group by Lavaux & Hudson 2011) may                   are in good agreement.          We find H0 = 71.8 ±
+indicate that it warrants further investigation.                   2.9 km s−1 Mpc−1 when using the 2M++ velocities and
+  Given a recession velocity v̂i for each galaxy group,            H0 = 71.8+2.7 −2.6 km s
+                                                                                          −1
+                                                                                             Mpc−1 for the CF3 velocities,
+we fit the model in the same manner described in Sec-              both somewhat lower values than found using the treat-
+tion 3.1 except that we apply a 150 km s−1 rather than             ments in previous sections.
+a 250 km s−1 global velocity uncertainty. We choose the               For the M2000 model, we instead find a larger best-
+low end of the plausible peculiar velocity range (see              fit Hubble constant of H0 = 76.9 ± 2.9 km s−1 Mpc−1 .
+Section 3.1) because the galaxy groups, being much                 The M2000 model is simpler than either 2M++ or CF3
+more massive than individual galaxies, should exhibit              in that it considers only the gravitational influences
+a smaller dispersion about the Hubble flow.                        of three large structures on individual galaxy motions,
+  Fitting this model to all six maser galaxies simultane-          rather than using a global density field as done in both
+ously, we find H0 = 73.3+2.8
+                          −2.7 km s
+                                   −1
+                                      Mpc−1 . Table 2 lists        2M++ and CF3. The substantial difference between the
+the values obtained from leave-one-out jackknife tests             H0 value predicted by the M2000 model and that pre-
+for both models. We compute χ2ν using Equation 5 (see              dicted by the 2M++/CF3 models results from the ef-
+Table 3), and we find that the chi-squared values are              fect of the GA in the M2000 infall model on three of the
+consistent with unity within the expected standard de-             maser host galaxies. In the M2000 model, NGC 6264,
+viation of a chi-squared distribution with ν = 5 degrees           NGC 5765b, and CGCG 074-064 are all in the direc-
+of freedom.                                                        tion of the GA and beyond it, reducing their perceived
+                                                                   redshifts by our and their infall into the GA by 300–
+ 3.4. Using galaxy flow models to correct for peculiar             600 km s−1 . These values get added back to the host
+                        velocities                                 galaxy velocities and thereby increase H0 . The veracity
+  The last peculiar velocity treatment we consider is              of these corrections is thus sensitive to the position and
+similar to the one described in the previous section in            scale of the GA, which remains a subject of some debate
+that it relies on the use of external information to con-          (Dressler et al. 1987; Tully et al. 2014; Kraan-Korteweg
+strain the permitted velocities for each galaxy in our             et al. 2016; Hoffman et al. 2017)
+sample. We obtain peculiar velocity predictions from                  Table 2 lists the H0 values obtained from leave-one-out
+three different galaxy flow models: (1) the “2M++                  jackknife tests for each of the three models considered
+model” constructed by Carrick et al. (2015) using the              in this section, and Table 3 lists the χ2ν values com-
+2M++ redshift catalog (Lavaux & Hudson 2011); (2)                  puted using Equation 5. In all three cases we find that
+the “CF3 model” constructed by Graziani et al. (2019)              the χ2ν values are consistent with unity within the ex-
+from the Cosmicflows-3 extragalactic distance database             pected standard deviation of a chi-squared distribution
+(Tully et al. 2016); and (3) the “M2000 model” con-                with ν = 5 degrees of freedom.
+structed by Mould et al. (2000) to model the impact of
+                                                                             4. SUMMARY AND DISCUSSION
+    4 The NASA/IPAC Extragalactic Database (NED) is funded by        We have applied an improved approach for fitting
+     the National Aeronautics and Space Administration and oper-   maser data to obtain more precise distance estimates
+     ated by the California Institute of Technology.               to four previously-published MCP galaxies: UGC 3789,
+                                           Megamaser Cosmology Project XIII                                                      9
+
+                                          Table 4. Relevant velocities for maser galaxies
+
+                                               Predicted recession velocity (km s−1 )          Peculiar velocity (km s−1 )
+          Galaxy         Velocity (km s−1 )    Group     2M++          CF3     M2000       Group    2M++      CF3      M2000
+      UGC 3789                 3319.9           3401      3375      3292       3464         −80      −54       28       −142
+      NGC 6264                10192.6          10379      9962     10175       10677       −180      224       17       −468
+      NGC 6323                 7801.5           8275      7378      8112       8208        −461      414     −302       −396
+      NGC 5765b                8525.7           8594      8398      8333       9000         −66      124      187       −460
+      CGCG 074-064             7172.2           6511      6869      7037       7554         647      297      132       −372
+      NGC 4258                  679.3            725       417       425        581         −46      262      254         98
+Note—Various velocities relevant for the maser galaxies considered in this paper. The “velocity” column lists the CMB-frame
+ velocity for the galaxy (defined such that v = cz) as measured from the maser disk fitting; we take this velocity to be a measure
+ of the actual redshift of the galaxy with respect to us. The “predicted recession velocity” columns list the expected CMB-frame
+ recession velocities for each galaxy (again defined such that v = cz) from one of two specified treatments; the group treatment
+ is described in Section 3.3, and the 2M++ (Carrick et al. 2015) / CF3 (Graziani et al. 2019) / M2000 (Mould et al. 2000)
+ treatment is described in Section 3.4. The CF3 recession velocities come courtesy of R. Graziani, private communication. The
+ “peculiar velocity” columns list the implied peculiar velocity for the galaxy, given the predicted and observed velocities. The
+ peculiar velocity is defined via Equation 9, such that a positive value indicates that the galaxy has a larger redshift than would
+ be predicted from purely Hubble flow motion.
+
+
+
+
+NGC 6264, NGC 6323, and NGC 5765b. We find                                   1. We permit the global velocity uncertainty to be a
+that previous maser disk modeling efforts have typically                        free parameter that we fit alongside H0 .
+overestimated the systematic measurement uncertain-
+ties associated with maser positions from VLBI maps.                         2. We replace each galaxy’s recession velocity with
+By incorporating these error floors into our disk model                         the velocity of the group that galaxy is a member
+as model parameters, we are able to fit for and then                            of.
+marginalize over them, eliminating a source of system-
+                                                                             3. We replace each galaxy’s recession velocity with
+atic uncertainty and generically improving the measure-
+                                                                                the velocity predicted by a galaxy flow model eval-
+ment precision. We have combined the revised distance
+                                                                                uated at that galaxy’s location and redshift. We
+estimates for UGC 3789, NGC 6264, NGC 6323, and
+                                                                                use the 2M++, CF3, and M2000 peculiar velocity
+NGC 5765b with the recently-published distances to
+                                                                                models.
+CGCG 074-064 and NGC 4258 – both of which included
+error floors as parameters in the model – to derive con-                 The first two of the above treatments modify the best-fit
+straints on H0 . Assuming a global velocity uncertainty                  H0 value by less than 1 km s−1 Mpc−1 , though the mea-
+of 250 km s−1 associated with peculiar motions, we find                  surement precision suffers when permitting the global
+H0 = 73.9 ± 3.0 km s−1 Mpc−1 .                                           velocity uncertainty to be a free parameter because
+   Our fiducial H0 measurement is determined exclu-                      of the reduced degrees of freedom. Using recession
+sively using megamaser-based distance and velocity                       velocities from either the 2M++ or CF3 galaxy flow
+measurements, and it thus represents an independent                      models systematically reduces the best-fit H0 value by
+cosmological probe from standard candles, gravitational                  2.1 km s−1 Mpc−1 , and the measurement precision im-
+lenses, and the CMB. The primary source of system-                       proves because of the smaller uncertainty (150 km s−1 )
+atic uncertainty in this measurement comes from the                      associated with the catalog velocities. The recession ve-
+unknown peculiar motions of the maser galaxies, and                      locities from the M2000 model, on the other hand, result
+we have considered three different treatments5 for de-                   in a substantially increased best-fit H0 value, which is
+termining how these peculiar velocities could modify the                 larger by 3.0 km s−1 Mpc−1 than the fiducial measure-
+H0 value:                                                                ment and by 5.1 km s−1 Mpc−1 than the measurement
+                                                                         made from correcting for peculiar velocities using the
+  5 We note that a variety of peculiar velocity correction schemes       other two flow models.
+   are possible beyond what we have explicitly tested in this paper,       We have also performed a series of leave-one-out jack-
+   including compound schemes that combine two or more of the            knife tests for each of the different peculiar velocity
+   above methods.
+                                                                         treatments. We find that the removal of any single
+10                                                              Pesce et al.
+
+galaxy from the sample never modifies the best-fit H0                                 ACKNOWLEDGMENTS
+value by more than 1σ, indicating that our measurement
+is not being unduly influenced by a single outlying value.                We thank R. B. Tully and R. Graziani for help with
+   We test the prior empirical claim that the local value              the Cosmicflows-3 peculiar velocities, M. J. Hudson for
+of H0 exceeds the early-Universe value (e.g., Riess et al.             advice regarding the 2M++ peculiar velocities, L. Black-
+2019; Wong et al. 2019; Verde et al. 2019) by calculating              burn for modeling discussions, and Erik Peterson for
+the probability of rejecting the null hypothesis that our              help with understanding redshift uncertainties. The Na-
+measurement does not exceed Planck’s, i.e.,                            tional Radio Astronomy Observatory is a facility of the
+                                                                       National Science Foundation operated under coopera-
+                                                                       tive agreement by Associated Universities, Inc. This
+                                                                       work made use of the Swinburne University of Technol-
+                                                                       ogy software correlator, developed as part of the Aus-
+                                                                       tralian Major National Research Facilities Programme
+                                                                       and operated under license. This research has made
+                                     "Z                     #          use of the NASA/IPAC Extragalactic Database (NED),
+                        Z ∞               H                            which is operated by the Jet Propulsion Laboratory, Cal-
+P (H0 ≤ H0,Planck ) =         P(H)            P(H00 )dH00       dH,    ifornia Institute of Technology, under contract with the
+                        −∞            −∞
+                                                   (10)                National Aeronautics and Space Administration. This
+where P(H0 ) is our measured posterior distribution for                work was supported in part by the Black Hole Initiative
+H0 and we treat the Planck measurement probability                     at Harvard University, which is funded by grants from
+distribution P(H) as a Gaussian with mean and stan-                    the John Templeton Foundation and the Gordon and
+dard deviation given by the published measurement of                   Betty Moore Foundation to Harvard University.
+H0,Planck = 67.4 ± 0.5 km s−1 Mpc−1 (Planck Collabora-
+tion et al. 2018). The value of P (H0 ≤ H0,Planck ) is
+listed for all four peculiar velocity treatments in Ta-                  Facilities: GBT, VLA, VLBA, HSA
+ble 3. The first treatment, our default, gives a 2%                      Software: AIPS, CASA, GBTIDL, PyMC3 (Sal-
+chance that our value is lower than Planck’s, corrob-                  vatier et al. 2016) , dynesty (Speagle 2019)
+orating the sense of the present tension in H0 at 98%
+confidence. The other peculiar velocity treatments give
+confidences of 95–99%. Performing an analogous com-
+parison with a late-Universe measurement from SH0ES
+of H0,SH0ES = 74.03 ± 1.42 km s−1 Mpc−1 (Riess et al.
+2019),
+
+
+
+
+                        Z ∞          Z ∞                
+P (H0 ≥ H0,SH0ES ) =          P(H)            P(H00 )dH00 dH,
+                         −∞               H
+                                                     (11)
+we find that our result is consistent with the SH0ES
+measurement, with little preference for a higher or lower
+value (see Table 3).
+   The ∼4% H0 constraint presented in this paper comes
+from consideration of only six megamaser-hosting galax-
+ies, and the precision is ultimately limited by the qual-
+ity and quantity of the available distance measurements.
+Future H0 measurements from the MCP will improve on
+this precision by incorporating distance measurements
+from additional megamaser-hosting galaxies.
+                                       Megamaser Cosmology Project XIII                                                    11
+
+                                                       REFERENCES
+Argon, A. L., Greenhill, L. J., Reid, M. J., Moran, J. M., &   Kraan-Korteweg, R. C., Elson, E., Blyth, S., et al. 2016, in
+  Humphreys, E. M. L. 2007, ApJ, 659, 1040,                      MeerKAT Science: On the Pathway to the SKA, 21
+  doi: 10.1086/512718                                          Kuo, C. Y., Braatz, J. A., Reid, M. J., et al. 2013, ApJ,
+Braatz, J., Greenhill, L., Reid, M., et al. 2007, in IAU        767, 155, doi: 10.1088/0004-637X/767/2/155
+  Symposium, Vol. 242, Astrophysical Masers and their          Kuo, C. Y., Braatz, J. A., Condon, J. J., et al. 2011, ApJ,
+  Environments, ed. J. M. Chapman & W. A. Baan,                 727, 20, doi: 10.1088/0004-637X/727/1/20
+  399–401, doi: 10.1017/S1743921307013452                      Kuo, C. Y., Braatz, J. A., Lo, K. Y., et al. 2015, ApJ, 800,
+Braatz, J. A., & Gugliucci, N. E. 2008, ApJ, 678, 96,           26, doi: 10.1088/0004-637X/800/1/26
+  doi: 10.1086/529538
+                                                               Lavaux, G., & Hudson, M. J. 2011, MNRAS, 416, 2840,
+Braatz, J. A., Henkel, C., Greenhill, L. J., Moran, J. M., &
+                                                                 doi: 10.1111/j.1365-2966.2011.19233.x
+  Wilson, A. S. 2004, ApJL, 617, L29, doi: 10.1086/427185
+                                                               Masters, K. L., Springob, C. M., Haynes, M. P., &
+Braatz, J. A., Reid, M. J., Greenhill, L. J., et al. 2008,
+                                                                Giovanelli, R. 2006, ApJ, 653, 861, doi: 10.1086/508924
+  Astronomical Society of the Pacific Conference Series,
+                                                               Merritt, D., Berczik, P., & Laun, F. 2007, AJ, 133, 553,
+  Vol. 395, Investigating Dark Energy with Observations of
+                                                                doi: 10.1086/510294
+  H2 O Megamasers, ed. A. H. Bridle, J. J. Condon, &
+                                                               Miyoshi, M., Moran, J., Herrnstein, J., et al. 1995, Nature,
+  G. C. Hunt, 103
+                                                                373, 127, doi: 10.1038/373127a0
+Braatz, J. A., Reid, M. J., Humphreys, E. M. L., et al.
+  2010, ApJ, 718, 657, doi: 10.1088/0004-637X/718/2/657        Mould, J. R., Huchra, J. P., Freedman, W. L., et al. 2000,
+Carrick, J., Turnbull, S. J., Lavaux, G., & Hudson, M. J.       ApJ, 529, 786, doi: 10.1086/308304
+  2015, MNRAS, 450, 317, doi: 10.1093/mnras/stv547             Nakai, N., Inoue, M., & Miyoshi, M. 1993, Nature, 361, 45,
+Claussen, M. J., Heiligman, G. M., & Lo, K. Y. 1984,             doi: 10.1038/361045a0
+  Nature, 310, 298, doi: 10.1038/310298a0                      Pesce, D. W., Braatz, J. A., Condon, J. J., & Greene, J. E.
+Davis, M., Miller, A., & White, S. D. M. 1997, ApJ, 490,         2018, ApJ, 863, 149, doi: 10.3847/1538-4357/aad3c2
+  63, doi: 10.1086/304870                                      Pesce, D. W., Braatz, J. A., Reid, M. J., et al. 2020, arXiv
+Davis, T. M., & Scrimgeour, M. I. 2014, MNRAS, 442,              e-prints, arXiv:2001.04581.
+  1117, doi: 10.1093/mnras/stu920                                https://arxiv.org/abs/2001.04581
+Dressler, A., Faber, S. M., Burstein, D., et al. 1987, ApJL,   Planck Collaboration, Aghanim, N., Akrami, Y., et al.
+  313, L37, doi: 10.1086/184827                                  2018, arXiv e-prints, arXiv:1807.06209.
+Gao, F., Braatz, J. A., Reid, M. J., et al. 2017, ApJ, 834,      https://arxiv.org/abs/1807.06209
+  52, doi: 10.3847/1538-4357/834/1/52                          Poulin, V., Boddy, K. K., Bird, S., & Kamionkowski, M.
+Graziani, R., Courtois, H. M., Lavaux, G., et al. 2019,          2018, PhRvD, 97, 123504,
+  MNRAS, 488, 5438, doi: 10.1093/mnras/stz078                    doi: 10.1103/PhysRevD.97.123504
+Greenhill, L. J., Jiang, D. R., Moran, J. M., et al. 1995,     Raveri, M., Hu, W., Hoffman, T., & Wang, L.-T. 2017,
+  ApJ, 440, 619, doi: 10.1086/175301
+                                                                 PhRvD, 96, 103501, doi: 10.1103/PhysRevD.96.103501
+Herrnstein, J. R., Moran, J. M., Greenhill, L. J., et al.
+                                                               Reid, M. J., Braatz, J. A., Condon, J. J., et al. 2009, ApJ,
+  1999, Nature, 400, 539, doi: 10.1038/22972
+                                                                 695, 287, doi: 10.1088/0004-637X/695/1/287
+Hoffman, Y., Courtois, H. M., & Tully, R. B. 2015,
+                                                               —. 2013, ApJ, 767, 154, doi: 10.1088/0004-637X/767/2/154
+  MNRAS, 449, 4494, doi: 10.1093/mnras/stv615
+                                                               Reid, M. J., & Brunthaler, A. 2004, ApJ, 616, 872,
+Hoffman, Y., Pomarède, D., Tully, R. B., & Courtois,
+                                                                 doi: 10.1086/424960
+  H. M. 2017, Nature Astronomy, 1, 0036,
+                                                               —. 2020, arXiv e-prints, arXiv:2001.04386.
+  doi: 10.1038/s41550-016-0036
+Hu, W. 2005, Astronomical Society of the Pacific                https://arxiv.org/abs/2001.04386
+  Conference Series, Vol. 339, Dark Energy Probes in Light     Reid, M. J., Pesce, D. W., & Riess, A. G. 2019, ApJL, 886,
+  of the CMB, ed. S. C. Wolff & T. R. Lauer, 215                 L27, doi: 10.3847/2041-8213/ab552d
+Hubble, E. 1929, Proceedings of the National Academy of        Riess, A. G., Casertano, S., Yuan, W., Macri, L. M., &
+  Science, 15, 168, doi: 10.1073/pnas.15.3.168                   Scolnic, D. 2019, ApJ, 876, 85,
+Humphreys, E. M. L., Reid, M. J., Moran, J. M., Greenhill,       doi: 10.3847/1538-4357/ab1422
+  L. J., & Argon, A. L. 2013, ApJ, 775, 13,                    Salvatier, J., Wiecki, T. V., & Fonnesbeck, C. 2016, PeerJ
+  doi: 10.1088/0004-637X/775/1/13                                Computer Science, 2, e55, doi: 10.7717/peerj-cs.55
+12                                                      Pesce et al.
+
+Sivia, D., & Skilling, J. 2006, Data analysis: a Bayesian      Verde, L., Treu, T., & Riess, A. G. 2019, Nature
+  tutorial, Oxford science publications (Oxford University       Astronomy, 3, 891, doi: 10.1038/s41550-019-0902-0
+  Press)
+Speagle, J. S. 2019, arXiv e-prints, arXiv:1904.02180.         Wong, K. C., Suyu, S. H., Chen, G. C. F., et al. 2019,
+  https://arxiv.org/abs/1904.02180                               arXiv e-prints, arXiv:1907.04869.
+Tully, R. B. 2015, AJ, 149, 171,
+                                                                 https://arxiv.org/abs/1907.04869
+  doi: 10.1088/0004-6256/149/5/171
+Tully, R. B., Courtois, H., Hoffman, Y., & Pomarède, D.       Zaroubi, S., Bernardi, M., da Costa, L. N., et al. 2001,
+  2014, Nature, 513, 71, doi: 10.1038/nature13674
+                                                                 MNRAS, 326, 375, doi: 10.1046/j.1365-8711.2001.04605.x
+Tully, R. B., Courtois, H. M., & Sorce, J. G. 2016, AJ, 152,
+  50, doi: 10.3847/0004-6256/152/2/50
+                                      Megamaser Cosmology Project XIII                                                    13
+
+                                            Table 5. Updated disk fitting results
+
+                                                                            Galaxy
+          Parameter        Units           UGC 3789            NGC 6264              NGC 6323        NGC 5765b
+          D                Mpc              51.5+4.5
+                                                −4.0           132.1+21.2
+                                                                    −17.3            109.4+34.2
+                                                                                          −23.4       112.2+5.4
+                                                                                                            −5.1
+          MBH            107 M              1.19+0.10
+                                                −0.09           2.76+0.45
+                                                                    −0.36             1.02+0.32
+                                                                                          −0.22       4.15+0.20
+                                                                                                           −0.19
+          v               km s−1          3319.9 ± 0.8       10192.6 ± 0.8        7801.5 ± 1.5      8525.7 ± 0.7
+          x0               mas          −0.4014 ± 0.0010    0.0050 ± 0.0012     0.0161 ± 0.0010   −0.0440 ± 0.0014
+          y0               mas          −0.4615 ± 0.0011    0.0076 ± 0.0016     0.0073 ± 0.0024   −0.0995 ± 0.0019
+          i0              degree           84.9 ± 0.6          91.3 ± 2.3           91.5 ± 0.3        72.4 ± 0.5
+          di
+          dr
+                       degree mas−1         7.7 ± 1.0          −1.5 ± 4.0               ...           12.5 ± 0.5
+          Ω0              degree          222.4 ± 0.4          84.7 ± 1.3          184.4 ± 0.6       149.7 ± 0.3
+          dΩ
+          dr
+                       degree mas−1        −1.6 ± 0.6          16.7 ± 2.2          12.9 ± 1.2        −3.2 ± 0.2
+
+          σx               mas           0.0045 ± 0.0011     0.0012+0.0011
+                                                                   −0.0008      0.0035 ± 0.0010     0.0028+0.0012
+                                                                                                          −0.0011
+          σy               mas           0.0063 ± 0.0013    0.0056 ± 0.0020      0.0037+0.0025
+                                                                                       −0.0022     0.0034 ± 0.0009
+          σv,sys          km s−1             1.7+0.9
+                                                −0.8            1.6+0.9
+                                                                   −0.8             2.1+1.0
+                                                                                       −0.9           1.1 ± 0.5
+          σv,hv           km s−1             1.8+0.9
+                                                −0.7            1.3+0.7
+                                                                   −0.6             1.9+0.9
+                                                                                       −0.7            1.5+0.6
+                                                                                                          −0.5
+          σa            km s−1 yr−1         0.34+0.06
+                                                −0.05          0.08+0.07
+                                                                   −0.05          0.21 ± 0.09       0.041 ± 0.014
+         Note—Top: Fitting results for the global parameters describing the maser disk, marginalized over all
+          other parameters; for each value we quote the posterior median and 1σ confidence interval (i.e., 16th to
+          84th percentile). Here, D is the angular-size distance to the galaxy, MBH is the mass of the SMBH, v
+          is the line-of-sight CMB-frame velocity of the SMBH, (x0 , y0 ) is the coordinate location of the SMBH,
+                                                            di
+          i0 is the inclination angle of the disk at r = 0, dr is the first-order inclination angle warping parameter,
+          Ω0 is the position angle of the disk at r = 0, and dΩdr
+                                                                   is the first-order position angle warping parameter.
+          For the uncertainties we quote 1σ (i.e., 16% and 84%) confidence intervals from the posteriors. The
+          SMBH coordinate locations are referenced to the coordinate zeropoint used in the respective data paper:
+          for UGC 3789, see Reid et al. (2009); for NGC 6264, see Kuo et al. (2013); for NGC 6323, see Kuo
+          et al. (2015); and for NGC 5765b, see Gao et al. (2017). Bottom: Fitting results for the error floor
+          parameters; σx is the x-position error floor, σy is the y-position error floor, σv,sys is the error floor for
+          the systemic feature velocities, σv,hv is the error floor for the high-velocity feature velocities, and σa is
+          the acceleration error floor.
+
+
+
+
+                                                        APPENDIX
+
+
+                             A. UPDATED DISK MODELING PARAMETER VALUES
+  In Table 5 we list the values for all model parameters from the updated disk fits to UGC 3789, NGC 6264, NGC
+6323, and NGC 5765b. A comprehensive description of the model is given in Pesce et al. (2020).
+

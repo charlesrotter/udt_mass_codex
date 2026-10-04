@@ -1,0 +1,1310 @@
+                                               Astronomy & Astrophysics manuscript no. 00main_aa                                                                                  ©ESO 2025
+                                               June 13, 2025
+
+
+
+
+                                                                       The ESPRESSO Redshift Drift Experiment⋆
+                                                  I. High-resolution spectra of the Lyman-α forest of QSO J052915.80-435152.0
+                                                   A. Trost1, 2, 3⋆⋆ , C. M. J. Marques4, 5, 6 , S. Cristiani1, 3, 7 , G. Cupani1, 7 , S. Di Stefano1, 2 , V. D’Odorico1, 7 , F.
+                                                 Guarneri1, 8 , C. J. A. P. Martins4, 5 , D. Milaković1, 7 , L. Pasquini9, 10 , R. Génova Santos11, 12 , P. Molaro1, 7 , M. T.
+                                               Murphy13 , N. J. Nunes14, 15 , T. M. Schmidt16 , Y. Alibert17 , K. Boutsia18 , G. Calderone1 , J. I. González Hernández11, 12 ,
+                                                    A. Grazian19 , G. Lo Curto9 , E. Palle11, 12 , F. Pepe16 , M. Porru1 , N. C. Santos5, 6 , A. Sozzetti20 , A. Suárez
+                                                                                      Mascareño10, 11 , and M. R. Zapatero Osorio21
+arXiv:2505.21615v1 [astro-ph.CO] 27 May 2025
+
+
+
+
+                                                      1
+                                                        INAF – Osservatorio Astronomico di Trieste, Via G.B. Tiepolo, 11, I-34143 Trieste, Italy
+                                                      2
+                                                        Dipartimento di Fisica dell’Università di Trieste, Sezione di Astronomia, Via G.B. Tiepolo, 11, I-34143 Trieste, Italy
+                                                      3
+                                                        INFN – National Institute for Nuclear Physics, via Valerio 2, I-34127 Trieste
+                                                      4
+                                                        Centro de Astrofísica da Universidade do Porto, Rua das Estrelas, 4150-762 Porto, Portugal
+                                                      5
+                                                        Instituto de Astrofísica e Ciências do Espaço, Universidade do Porto, Rua das Estrelas, 4150-762 Porto, Portugal
+                                                      6
+                                                        Faculdade de Ciências, Universidade do Porto, Rua do Campo Alegre, 4150-007 Porto, Portugal
+                                                      7
+                                                        IFPU – Institute for Fundamental Physics of the Universe, via Beirut 2, I-34151 Trieste, Italy
+                                                      8
+                                                        Hamburger Sternwarte, Universitaet Hamburg, Gojenbergsweg 112, D-21029 Hamburg, Germany
+                                                      9
+                                                        European Southern Observatory (ESO), Karl-Schwarzschild-Str. 2, 85748 Garching bei Munchen, Germany
+                                                     10
+                                                        INAF – Arcetri Astrophysical Observatory, Largo E. Fermi 5, I-50125 Florence, Italy
+                                                     11
+                                                        Instituto de Astrofísica de Canarias (IAC), Calle Vía Láctea s/n, E-38205 La Laguna, Tenerife, Spain
+                                                     12
+                                                        Departamento de Astrofísica, Universidad de La Laguna (ULL), E-38206 La Laguna, Tenerife, Spain
+                                                     13
+                                                        Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Hawthorn, Victoria 3122, Australia
+                                                     14
+                                                        Instituto de Astrofísica e Ciências do Espaço, Faculdade de Ciências da Universidade de Lisboa, Campo Grande, PT1749-016
+                                                        Lisboa, Portugal
+                                                     15
+                                                        Departamento de Física da Faculdade de Ciências da Universidade de Lisboa, Edifício C8, 1749-016 Lisboa, Portugal
+                                                     16
+                                                        Observatoire Astronomique de l’Université de Genève, Chemin Pegasi 51, CH-1290 Versoix, Switzerland
+                                                     17
+                                                        Center for Space and Habitability, University of Bern, Gesellschaftsstrasse 6, Switzerland
+                                                     18
+                                                        Cerro Tololo Inter-American Observatory/NSF NOIRLab, Casilla 603, La Serena, Chile
+                                                     19
+                                                        INAF – Osservatorio Astronomico di Padova, Vicolo dell’Osservatorio 5, I-35122, Padova, Italy
+                                                     20
+                                                        INAF – Osservatorio Astrofisico di Torino, Via Osservatorio 20, I-10025 Pino Torinese, Italy
+                                                     21
+                                                        Centro de Astrobiología, CSIC-INTA, Camino Bajo del Castillo s/n, 28602 Villanueva de la Cañada, Madrid, Spain
+
+                                                    Received XXX; accepted YYY
+
+                                                                                                                ABSTRACT
+
+                                                    Context. The measurement of the tiny temporal evolution in the redshift of distant objects, the redshift drift, is a powerful probe of
+                                                    universal expansion and cosmology.
+                                                    Aims. We perform the first steps towards a measurement of such effect using the Lyman-α forest in the spectra of bright quasars as a
+                                                    tracer of cosmological expansion. Our immediate goal is to determine to which precision a velocity shift measurement can be carried
+                                                    out with the signal-to-noise (S/N) level currently available and whether this precision aligns with previous theoretical expectations.
+                                                    A precise assessment of the achievable measurement precision is fundamental for estimating the time required to carry out the whole
+                                                    project. We also aim to study possible systematic effects of astrophysical or instrumental nature arising in the measurement.
+                                                    Methods. We acquire 12 hours of ESPRESSO observations distributed over 0.875 years of the brightest quasar known, J052915.80-
+                                                    435152.0 (zem = 3.962), to obtain high-resolution spectra of the Lyman-α forest, with median S/N of ∼ 86 per 1 km s−1 pixel at the
+                                                    continuum. We divide the observations into two distinct epochs and analyse them using both a pixel-by-pixel method and a model-
+                                                    based approach. This comparison allows us to estimate the velocity shift between the epochs, as well as the velocity precision that can
+                                                    be achieved at this S/N. The model-based method is calibrated using high-resolution simulations of the intergalactic medium from the
+                                                    Sherwood Simulation Suite, and it provides greater accuracy compared to the pixel-by-pixel approach.
+                                                    Results. We measure a velocity drift of the Lyman-α forest consistent with zero: ∆v = −1.25+4.44       −1
+                                                                                                                                                  −4.46 m s , equivalent to a cosmological
+                                                                       +5.08                      +7.75
+                                                    drift of v̇ = −1.43−5.10 m s yr or ż = −2.19−7.78 × 10 yr . The measurement uncertainties are on par with the expected precision.
+                                                                                −1 −1                       −8   −1
+
+                                                    We estimate that reaching a 99% detection of the cosmic drift requires a monitoring campaign of 5400 hours of integration time over
+                                                    54 years with an ELT and an ANDES-like high-resolution spectrograph.
+                                                    Key words.
+
+
+
+                                                ⋆
+                                                   Based on Guaranteed Time Observations collected at the European
+                                               Southern Observatory under ESO programmes 110.247Q and 112.25K7
+                                                                                                                         ⋆⋆
+                                               by the ESPRESSO Consortium.                                                    andrea.trost@inaf.it
+
+                                                                                                                                                                    Article number, page 1 of 19
+                                                      A&A proofs: manuscript no. 00main_aa
+
+1. Introduction                                                          the expansion history of the Universe in a cosmological model-
+                                                                         independent manner. However, achieving the required sensitiv-
+Directly measuring the expansion history of the Universe is              ity for detecting this effect is an observational challenge due to
+among the most pressing tasks of observational cosmology,                its exceedingly small expected magnitude. For instance, over a
+especially considering the evidence for its recent acceleration          timescale of ∼ 10 years, the redshift drift ż in ΛCDM (Planck
+phase (Riess et al. 1998, 2021; Garnavich et al. 1998; Albrecht          Collaboration et al. 2020) is typically of the order of 10−10 to
+et al. 2006; Dawson et al. 2013, 2016; Martins et al. 2024;              10−9 , or few centimetres per second per decade in spectroscopic
+Adame et al. 2025). Most studies aiming to do this include spe-          terms, for 0 < z < 6. Such precision necessitates both an ade-
+cific assumptions on an underlying model, or class of models,            quate tracer population and a high-resolution spectroscopic ca-
+leading to cosmological constraints which are model-dependent.           pability that ensures the systematic uncertainties are smaller than
+A conceptual alternative, not yet realised in practice but expected      the signal itself.
+to be achieved by forthcoming astrophysical facilities, is the red-           Among the possible tracers for this effect, the Lyman-α for-
+shift drift measurement, also known as the Sandage test.                 est stands out as a particularly promising candidate (Loeb 1998).
+     As first explored by Sandage (1962), the evolution of the           The Lyman-α forest consists of a series of absorption lines
+Hubble expansion causes the redshift of distant objects partici-         imprinted on the spectra of distant quasars due to intervening
+pating in the Hubble flow to change slowly with time. Just as the        clouds of neutral hydrogen in the intergalactic medium (IGM).
+cosmological redshift z provides evidence of the expansion, the          The suitability of the Lyman-α forest for redshift drift measure-
+drift in this redshift provides evidence of the expansion’s accel-       ments arises from several key factors:
+eration or deceleration between the epoch z and the present one.
+This implies that the expansion history of the Universe can be            – Low cosmic overdensities: The Lyman-α forest arises from
+detected and mapped, at least in principle, by means of a straight-         sparse intergalactic neutral hydrogen, which is physically
+forward spectroscopic monitoring campaign.                                  unconnected with the background source, faithfully tracing
+     For simplicity, we take a generic metric theory of gravity             the Hubble flow, apart from seldom strong absorbers due to
+with the further assumption of homogeneity and isotropy, in                 dense intervening galactic environments (Rauch 1998).
+which case the evolution of the metric tensor is entirely speci-          – Abundance of tracers: The Lyman-α forest provides a dense
+fied by the global scale factor a(t). A photon emitted by some              sampling of absorption features along the line of sight (with
+object at comoving distance χ at the time tem and observed by us            number density dn/dz ≈ 100 − 200 at z = 2 − 3, Kim et al.
+at tobs , will have a redshift                                              (2002)), enabling the measurement of the redshift drift across
+                                                                            numerous independent systems at varying redshifts.
+                       a(tobs )
+1 + z(tobs , tem ) =            .                                  (1)    – Spectroscopic accessibility: Even though the Lyman-α lines
+                       a(tem )                                              are not particularly narrow, with a typical linewidth of
+Now consider how the redshift of an object at a fixed comov-                ∼ 30 km s−1 (Kim et al. 2002), through the use of high-
+ing distance χ evolves with tobs . Over a comparatively short               resolution spectroscopy their positions can be determined
+timescale ∆tobs , it will drift by                                          with sufficiently high precision to enable the measurement
+                                                                            of the redshift drift. Moreover, the Lyman-α lines at z > 1.5
+dzχ     zχ (tobs + ∆tobs ) − zχ (tobs )                                     are observable with large ground facilities.
+      ≈                                 ,                          (2)    – High-redshift sensitivity: At high redshifts, specifically deep
+dtobs               ∆tobs
+                                                                            in the matter era where the Universe is decelerating, the term
+which, differentiating Eq. 1 with respect to tobs , leads to                (1 + z) in Eq. 4 amplifies the magnitude of the drift, making
+dzχ            h              i                                             the signal more detectable (c.f. Fig. 2 in Liske et al. 2008).
+      (tobs ) = 1 + zχ (tobs ) H(tobs ) − H(tem ) .                (3)
+dtobs                                                                    Thus far, no detection of this signal is available, and existing up-
+                                                                         per limits based on other probes such as H i 21cm absorption
+Finally, we obtain, in simplified form (McVittie 1962)                   lines (Darling 2012) and narrow metal absorption lines (Cooke
+        dz                                                               2020), have error bars three orders of magnitude larger than the
+ż ≡         = (1 + z) H0 − H(z).                                  (4)   expected signal. The first detections of the signal are expected
+       dtobs
+                                                                         to come from the ArmazoNes high Dispersion Echelle Spectro-
+Measuring ż for a number of objects at different z gives the func-      graph (ANDES) at the ESO’s Extremely Large Telescope (ELT)
+tion ȧ(z) and, given a(z), it is possible to reconstruct a(t). There-   (Marconi et al. 2024; Martins et al. 2024) and by the full con-
+fore, a measurement of ż amounts to a purely dynamical and              figuration of the Square Kilometre Array (SKA) (Klöckner et al.
+model-independent reconstruction of the expansion history of             2015; Kang et al. 2025), which are sensitive to the high redshift
+the Universe.                                                            (matter era) and low redshift (acceleration era), respectively.
+    The effect is conceptually simple and provides a tool for key            The Echelle SPectrograph for Rocky Exoplanets and Stable
+cosmological tests. Inter alia, one can easily verify that in de-        Spectroscopic Observations (ESPRESSO) spectrograph at the
+celerating universes, one expects a negative redshift drift at all       combined Coudé focus of ESO’s VLT (Pepe et al. 2021), has
+redshifts. Conversely, a positive drift signal implies a violation       a similar design to ANDES and enables us to bridge the gap
+of the strong energy condition and hence the presence of some            between the present and the future. As part of the ESPRESSO
+form of dark energy that accelerates the Universe (Liske et al.          Science Team’s Guaranteed Time Observations (GTO), we are
+2008; Uzan et al. 2008; Quercellini et al. 2012; Heinesen 2021).         carrying out the first dedicated redshift drift experiment, with a
+Mapping the redshift evolution of the drift can also lead to con-        nominal experiment time of one year and an observation time of
+straints on parameters in specific models, either alone or in com-       four nights (ca. 40 hours). This paper presents the first results,
+bination with traditional cosmological probes (Alves et al. 2019;        derived from 12h of observations of one quasar target.
+Rocha & Martins 2022; Marques et al. 2023, 2024).                            Our two overarching goals are to improve the aforemen-
+    The theoretical framework outlined above highlights the im-          tioned upper limits and to start developing, testing, and vali-
+mense potential of redshift drift measurements to directly probe         dating a full end-to-end analysis pipeline, which will provide a
+Article number, page 2 of 19
+                                          A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+baseline for the corresponding pipeline for the ANDES redshift            3. Data acquisition and treatment
+drift measurement. This is the first of a series of reports on this
+experiment.                                                               In this work, we present high-resolution, high S/N optical spec-
+                                                                          troscopy of this outstanding object obtained with ESPRESSO.
+     Specifically, in this work we set the first two epochs of
+                                                                          ESPRESSO observations have been carried out using the single
+observations with high-resolution, high-stability ESPRESSO
+                                                                          UT mode (Pepe et al. 2021) and achieve a resolving power of
+spectroscopy and estimate the achievable precision. We check
+                                                                          R = λ/∆λ ∼ 135000, where ∆λ is the full width at half maxi-
+whether this aligns with previous estimates and if systematic ef-
+                                                                          mum of resolution element (∼ 2.2 km s−1 in velocity space), with
+fects of astrophysical or instrumental nature appear at the present
+                                                                          a 4x2 detector binning, chosen to optimize the S/N in the region
+level of signal-to-noise (S/N). We extrapolate our estimates to
+                                                                          covering the Lyman-α forest. A summary of the observations is
+a realistic ANDES observational campaign to estimate the re-
+                                                                          given in Table 1.
+quired amount of time to achieve a significant detection of the
+cosmological expansion.                                                        The observations have been reduced using the ESPRESSO
+                                                                          Data Reduction Software2 (DRS, Di Marcantonio et al. 2018),
+     In Sect. 2 we present the quasar targeted for our study. In
+                                                                          version 3.1.0. Laser Frequency Combs (LFC) frames were used
+Sect. 3 we describe the observation taken with ESPRESSO, the
+                                                                          for wavelength calibration of the spectra. We also produced spec-
+data reduction, the definition of the two observational epochs
+                                                                          tra calibrated on the Fabry-Pérot (FP) etalon combined with a
+and the recognition of metal lines and strong absorbers through-
+                                                                          ThAr lamp frames to investigate the presence of possible instru-
+out the spectrum. The expected precision of a velocity drift mea-
+                                                                          mental systematics due to calibration stability and accuracy (see
+surement at the current level of S/N is presented in Sect. 4. In
+                                                                          Sect. 7.5).
+Sect.5 we apply a direct pixel-by-pixel method, based on the
+work of (Bouchy et al. 2001), to estimate the velocity shift ∆v                The final products of the pipeline were flat-fielded, blaze-
+that has occurred between the two epochs. A different method              corrected, sky-subtracted and wavelength-calibrated. The spec-
+to perform the measurement, based on modelling the Lyman-α                tra were also corrected to the Solar System barycentre using
+forest, is presented in Sect. 6. In Sect. 7 we investigate the va-        standard pipeline procedures, employing INPOP13c ephemeris
+lidity of our estimates and tackle the possible systematic effects        (Fienga et al. 2014). Earth’s precession is taken into account in
+arising in the measurement due to astrophysical or instrumental           the correction, consistently with the requirements for achieving
+effects. In Sect. 8 we extrapolate our results to estimate the total      sub-m s−1 precision (Wright & Eastman 2014).
+observational time required to carry out a significant detection of            and barycentric-corrected spectra, both in order-by-order and
+the cosmological drift, either with ESPRESSO or with ANDES.               order-merged format.
+Finally, we summarise and discuss our results in Sect. 9.                      Order-by-order spectra were optimally extracted along de-
+                                                                          tector rows (in the cross-dispersion direction), retaining for each
+                                                                          pixel the original calibrated wavelength of the rows themselves,
+                                                                          while the order-merged spectra were rebinned to a common
+2. Target selection                                                       wavelength grid.
+The QUBRICS (QUasars as BRIght beacons for Cosmology in                        The coaddition of the extracted spectra was performed us-
+the Southern hemisphere) survey (Cristiani et al. 2023) provides          ing the Astrocook software3 (Cupani et al. 2020), following the
+a Golden Sample of seven bright quasars specifically selected to          ‘drizzling’-like approach described in Cupani et al. (2016). A
+carry out the measurement of the redshift drift, observing their          wavelength grid was defined with a fixed step of 1 km s−1 , and
+Lyman-α forest with an ESPRESSO- or ANDES-like spectro-                   the pixels contributing to each bin in the grid were selected from
+graph. For the present case study and the first epoch observa-            the order-by-order spectra, to combine them all together in a sin-
+tion, we consider the brightest object from the Golden Sample,            gle rebinning procedure. Contributing pixels were weighted by
+J052915.80-435152.0, hereafter called Super Bright 2 (SB2). In            their associated error and by how much they overlapped with the
+a parallel paper (Marques et al. in prep.) we will discuss the            wavelength range of the bins themselves. Order-by-order spectra
+observation of the second-most luminous object of the sam-                were equalised prior to coaddition by multiplying their flux by
+ple J212540.97-171951.4 (hereafter called SB1)1 . SB2 has the             scalars to get the same median flux level, to eliminate differences
+identifier QID 1128023 in the QUBRICS database (Calderone                 in flux levels due to varying observing conditions.
+et al. 2019) with coordinates (J2000) RA 05:29:15.81 and Dec                   Coaddition of individual exposures resulted in a single spec-
+-43:51:52.1 and magnitudes r = 16.3005, i = 16.1184 (Onken                trum, with a median S/N ∼ 86 per 1 km s−1 pixel at the con-
+et al. 2024) and G = 16.3452 (Gaia Collaboration et al. 2021)             tinuum level in the forest, and ∼ 105 redward of the Lyman-α
+    Besides being particularly suited for the Sandage test, SB2           emission, as shown in Fig. 1. The Lyman-α forest highlighted in
+is an outstanding object, the most luminous quasar known in the           the figure is defined as the spectral interval between the Lyman-
+Universe. Medium resolution spectra taken with X-Shooter (Ver-            α and Lyman-β emission of the quasar, namely 509 − 603 nm,
+net et al. 2011) have revealed that SB2 has a bolometric lumi-            shown in more detail in Fig. 2. This section of the spectrum con-
+nosity of log(Lbol /erg s−1 ) = 48.27, supported by an accretion of       tains Lyman-α absorption lines with 3.18 ≤ z ≤ 3.96, and no
+370M⊙ per year onto a supermassive black hole (SMBH) of mass              Lyman-β absorptions.
+log M/M⊙ ∼ 10.24 or, in other terms, about 1 solar mass per day                Observations taken in the two ESO observing periods P110
+accreting onto a SMBH of ∼ 17 billion solar masses. From the              and P112 (see Table 1), respectively, were also combined sepa-
+same data, Wolf et al. (2024) report an emission redshift for SB2         rately to provide two independent spectra that were used as the
+of zem = 3.962.                                                           two epochs of the Sandage test. The 1st (P110) and 2nd (P112)
+                                                                          epoch spectra have a median S/N level at the continuum in the
+1
+   The terminology "Super Bright quasars" used in this paper is purely    Lyman-α forest of ∼ 47 and ∼ 72, respectively. We defined the
+chronological and does not reflect hierarchy based on luminosity, orig-   temporal baseline occurring between the two epochs’ spectra as
+inating from the observation sequence: J212540.97 was identified at an
+                                                                          2
+earlier stage in the QUBRICS survey and is designated as SB1, whereas         https://www.eso.org/sci/software/pipelines/espresso/
+                                                                          3
+the brighter J052915.80 was discovered later.                                 https://github.com/DAS-OATs/astrocook
+
+                                                                                                                 Article number, page 3 of 19
+                                                    A&A proofs: manuscript no. 00main_aa
+
+Table 1. Summary of single Observing Blocks (OB) of SB2 taken during observing periods P110 and P112.
+
+                    Period     Exposure Start (UTC)               MJD             texp      Grade       Seeing       Airmass
+                                                                                   [s]                 [arcsec]
+                    P110        2022-10-29 07:21:01        59881.31068001        3438.0        C         0.93         1.066
+                                2023-01-22 01:04:40        59966.04843679        3438.0        A         0.62         1.071
+                                2023-01-22 02:13:07        59966.09453567        3438.0        B         0.72         1.075
+                                2023-01-23 01:14:56        59997.04166665        3438.0        C         1.28         1.066
+                                2023-02-22 00:54.53        59967.05436154        3438.0        A         0.60         1.116
+                    P112        2023-08-25 08:41:12        60285.19820316        3438.0        A         0.42         1.278
+                                2023-11-11 05:22:38        60284.18013713        3453.0        C         0.99         1.087
+                                2023-11-19 05:02:35        60345.18147687        3453.0        A         0.64         1.078
+                                2023-12-06 04:15:02        60259.22743581        3453.0        A         0.49         1.069
+                                2023-12-07 04:41:30        60267.21411237        3453.0        A         0.56         1.065
+                                2023-12-11 04:47:35        60289.20252708        3453.0        A         0.57         1.070
+                                2023-12-13 05:22:56        60291.22794520        3453.0        A         0.54         1.103
+                                2024-02-05 04:15:20        60181.36712803        3453.0        C         0.50         1.512
+Notes. The first column specifies the ESO period in which the observations were collected. The second column gives the date and hour of the start
+of observations (UT), which is also reported in MJD format in the third column. The fourth column gives the exposure time in seconds. The fifth
+column reports the OB grade, given by ESO on a set of constraints on observing parameters (image quality, airmass, sky transparency, fractional
+moon illumination, moon distance, precipitable water vapour, twilight allowance): ‘A’ means that all constraints are fulfilled; ‘B’ and ‘C’ mean
+that at least one constraint is exceeded by less than 10% or more than 10% respectively. The sixth and seventh columns report the seeing and
+airmass, respectively, as quoted from the FITS files’ headers. Upon inspection, grade B and C observations did not show a decrease in the achieved
+S/N. Exceptionally, we consider them for our purposes since we do not expect any strong systematic influence on the final results at our level of
+S/N. In the future, only grade A observations will be considered.
+
+
+the difference between the mean observational date of each pe-            Table 2. Metallic absorption systems identified in the spectrum of SB2.
+riod ∆t = 0.875 yr.
+                                                                                   z                                                    Ions
+                                                                                   0.96                                 Fe ii, Mg i, Mg ii
+3.1. Removing metal transitions from the Lyman-α forest                            1.13                                 Fe ii, Mg i, Mg ii
+                                                                                   1.44                                        Fe ii, Mg ii
+As shown by Cristiani et al. (2024), Lyman-α and metal lines                       1.63                                        Fe ii, Mg ii
+have significantly different dynamical behaviour on the tempo-                     1.84                                   Al ii, Al iii, Feii
+ral and physical scales probed by the experiment. The authors                      2.12                                    Al ii, Fe ii, Siii
+showed that absorption lines due to neutral hydrogen on adja-                      2.30              Al ii, Al iii, C ii, C iv, Si ii, Si iv
+cent sightlines (with sub-kpc separations) appear identical within                 2.33                                                 C iv
+the noise, whereas metal lines show significant differences in                     2.46                                          C iv, Si iv
+their velocity structure. These intrinsic dynamical effects can be                 2.91                                                 C iv
+a source of strong systematic effects, inducing a velocity shift                   3.01                                                 C iv
+in the metal lines up to a few cm s−1 yr−1 , of the same order of                  3.13                                          C iv, Si iii
+magnitude as the expected cosmic signal. We therefore removed                      3.17               Al ii, C ii, C iv, Si ii, Si iii, Si iv
+the metal-polluted regions from our analysis to reduce possible                    3.29                                                 C iv
+systematics.                                                                       3.33                 Al ii, C ii, C iv, O i, Si ii, Si iv
+    This process was done using the Astrocook software (Cu-                        3.29                                                 C iv
+pani et al. 2020) to provide a secure identification of metal lines                3.49                            C iii, C iv, Si iii, Si iv
+in the spectrum. First, the quasar continuum emission was esti-                    3.59                                                 C iv
+mated by applying an iterative sigma-clipping procedure to re-                     3.60                            C iii, C iv, Si iii, Si iv
+move absorption features while masking sky emission lines, tel-                    3.63    Al ii, C ii, C iv, Fe ii, O i, S iv, Si ii, Si iv
+luric absorption lines, or spurious, narrow spikes in flux (e.g.                   3.67                                         C iv, Fe iii
+‘cosmic rays’ that were not removed by the coadding process),                      3.71                                          C iv, Si iv
+and manually correcting the continuum level where necessary.                       3.78                                   C iv, Si iii, Si iv
+Sky and telluric lines were masked using a reference Skycorr                       3.80                                   C iv, Si iii, Si iv
+model (Noll et al. 2014) and empirically defining proper cuts                      3.84                                   C iii, C iv, Si iv
+to conservatively remove even the line wings. We performed a                       3.86                                                 C iv
+search for metal absorption lines throughout the spectrum, start-                  3.90                                          C iii, C iv
+ing from line doublets (e.g. C iv, Si iv and Mg ii) redward of the
+Lyman-α emission and following up with associated lines, i.e.             Notes. The left column reports the system redshift, and the right column
+other ionic transitions at the same redshift as the found doublets.       the identified atomic species.
+Table 2 reports the absorption systems, i.e. the groups of ionic
+transitions with the same redshift, found along the spectrum of
+SB2.                                                                      timating the absorber’s redshift, column density, and Doppler
+    Once identified, we fit composite Voigt profiles to the metal         broadening. Metal lines blueward of the Lyman-α emission were
+absorption lines that fall redward of the Lyman-α emission, es-           not fitted, as this would require modelling multiple blended H i
+Article number, page 4 of 19
+                                           A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+
+
+
+Fig. 1. Combined spectrum of SB2. Top panel: Flux density in arbitrary units is shown in black, with the dashed purple line denoting the flux density
+error. Bottom panel: S/N per 1 km s−1 pixel. The green shaded area highlights the Lyman-α forest considered in the redshift drift measurement,
+bound by the Lyman-α and Lyman-β emissions of the quasar, namely between 509 − 603 nm.
+
+
+components, making the analysis significantly more complex.                 of our experiment, the expected velocity shift between the two
+Since this is beyond the scope of the present study, we left it un-         epoch spectra is therefore ∆v = −0.38 cm s−1 .
+addressed and masked out such lines, removing the spectral re-                  Liske et al. (2008) provided a practical formula to assess
+gions in velocity space associated with higher wavelength transi-           the precision expected from an experiment performed on the
+tions. Table A.1 reports the fitted Voigt parameters for the metal          ELT based on an ensemble of quasars at different redshifts. We
+transitions found redward of the Lyman-α emission.                          adapted this formula to estimate the precision expected from our
+                                                                            data. Given the SB2 ESPRESSO spectra at the two epochs, we
+3.2. A sub-DLA at zabs = 3.63                                               estimated the predicted precision in the velocity shift measure-
+                                                                            ment, adapting the scaling relation of Liske et al. (2008)
+As visible in Fig. 1, the spectrum of SB2 presents a strong H i
+absorption at λ ∼ 563 nm or z ∼ 3.63. We study this absorbing
+system in more detail to understand, based on its column density,                                  !−1
+                                                                                                         NQSO −0.5 1 + zQSO −γ −0.5
+                                                                                                             !             !
+whether it might belong to a dense environment prone to proper                            S/N
+                                                                            σv = g × 1.35                                     fLyα cm s−1
+motions related to galactic dynamical processes, or it stems from                         4075            30          5
+the sparse cosmic web following the Hubble flow and thus can                                                                             (5)
+be considered in the redshift drift measurement. We found strong
+and complex associated metal absorption redward of the Lyman-
+α emission, stemming from ions with both low (O i, Al ii, C ii,
+Fe ii, Si ii) and high (C iv, Si iv) ionization states. We fitted the       where S/N = 86 is the median signal-to-noise ratio at the con-
+Lyman-α absorber within Astrocook using 3 components, tying                 tinuum level per 1 km s−1 pixel per object, accumulated over all
+the redshifts of H i and low ionisation species. The total H i col-         observations (i.e. the S/N level of the combined spectrum). NQSO
+umn density of the system is log NH i ≈ 19.8, corresponding to a            is the number of quasars in the sample (NQSO = 1 in our case),
+sub-Damped Lyman-α System (sub-DLA, Péroux et al. (2003)).                  and zQSO = 3.962 is the redshift of the quasar. The γ exponent
+    Given this value, we decided to exclude the spectral range              is 1.7 for zQSO ≤ 4 and 0.9 above. The factor fLyα = 0.8215
+tied to this absorber from the analysis, as it is probably related          is the fraction of the Lyman-α forest considered after masking.
+to an intervening galactic system and could potentially induce              The factor g, called form factor, depends on the observing strat-
+systematics in the measurement due to its peculiar motions. We              egy, being 1 if half of the exposures are taken at the beginning
+thus mask the region of the spectrum spanning ±2000 km s−1                  of the experiment and half at the end, and becoming larger if
+from the column density weighted average redshift position of               the measurements are spread out over time, reaching 1.7 for a
+the system. The final masked spectra used in our analysis have              uniform distribution (see Sect. 6 of Liske et al. (2008) for fur-
+41737 pixels (1 km s−1 wide) in the Lyman-α forest, compared to             ther details on the computation of the form factor). In our case,
+50805 pixels without mask. Meaning we consider only 82.15%                  given the fact that 38% of the total integration time is collected
+of the total Lyman-α forest. Fig. 2 shows the normalised flux               at the 1st epoch, and 62% at the 2nd, the form factor has a value
+of the Lyman-α forest in the spectrum of SB2, highlighting the              of g = 1.03. From Eq. 5, we can estimate the expected maxi-
+masked-out regions.                                                         mum precision allowed by photon noise on our current data to
+                                                                            be σv = 4.02 m s−1 .
+                                                                                 Note that in this work we analysed only one sightline,
+4. Expected velocity precision                                              whereas the relation from which Eq. 5 is derived has been
+                                                                            calibrated on a measurement based on an ensemble of spec-
+In a ΛCDM Universe (Planck Collaboration et al. 2020), the ex-              tra. Sightline-to-sightline deviations from the predicted measure-
+pected cosmological redshift drift at redshift z = 3.573 (i.e. the          ment precision due to cosmic variance are expected due to the
+middle of SB2’s Lyman-α forest) is ż = −6.5×10−11 yr−1 , equiv-            varying number of Lyman-α lines and strong absorbers found in
+alent to v̇ = −0.43 cm s−1 yr−1 in velocity space. On the baseline          the spectra of different objects.
+                                                                                                                       Article number, page 5 of 19
+                                                    A&A proofs: manuscript no. 00main_aa
+
+
+
+
+Fig. 2. Normalised transmitted flux of the Lyman-α forest in the combined spectrum of SB2 as a function of wavelength. The light blue solid line
+highlights the spectral regions masked due to metal absorption, the sub-DLA and bad pixels. The purple solid line reports the flux error.
+
+
+5. Redshift drift measurement: pixel-by-pixel                            where each pixel is weighted by wi = σ−2         vi , i.e. the inverse vari-
+   method                                                                ance of δvi . Accounting for the uncertainties in both epochs’
+                                                                         spectra and in their derivative, the variance becomes
+We first measured ∆v using a method developed for measuring
+radial velocity shifts between repeated observations of stars for                              #2 "
+                                                                                                                   (F2,i − F1,i )2 2
+                                                                                "                                                       #
+                                                                                       c
+exoplanet search (Bouchy et al. 2001), which we refer to as the          σ2vi =                    σ21,i + σ22,i +                  σ  ′ ,        (8)
+                                                                                  λi (dFi /dλ)                      (dFi /dλ)2 Fi
+pixel-by-pixel method. In summary, due to the drift of the ab-
+sorption lines, the flux of the i-th pixel at the second epoch, F2,i ,   where σ1,i and σ2,i are the i-th pixel flux error in the two spectra,
+can be expressed as a small perturbation of the flux in the same         and σFi′ is the error on the flux slope at the i-th pixel. With this
+pixel at the first epoch, F1,i :                                         choice of weights, the uncertainty on the final ∆v estimate is
+                dFi δvi
+F2,i = F1,i +           λi ,                                      (6)           X −2 −1/2
+                                                                                         
+                 dλ c
+                                                                         σv =  σvi        .                                                (9)
+where λi is the observed wavelength of the i-th pixel, and dFi /dλ
+                                                                                  i
+is the slope of the spectrum at that pixel. The perturbation of the
+fluxes between two epochs defines, for each pixel, a small veloc-            It is worth noting that, at first order, the flux slope term
+ity shift δvi . Note that Eq. 6 holds only for δvi much smaller than     dFi /dλ is epoch-invariant (under the assumption of very small
+the typical line width (∼ 30 km s−1 ). The single pixel’s velocities     shifts) and does not carry any epoch-dependent information. For
+can be averaged over the whole spectrum to estimate the velocity         this reason, we computed the flux derivative by means of finite
+drift occurring between the two epochs.                                  differences of non-adjacent points, on the second epoch spec-
+          δvi wi
+       P
+                                                                         trum to exploit the higher S/N level and lower the noise in its
+∆v = P           ,                                                (7)    evaluation.
+           i wi
+
+Article number, page 6 of 19
+                                         A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+     We evaluated the velocity shift δv occurring between the two
+epochs, exploiting the normalised fluxes in the Lyman-α forest
+of the two spectra, where we have masked metal lines, the strong
+H i absorber at z ∼ 3.63, and bad pixels. Our estimate yields
+∆v = −2.67 ± 6.64 m s−1 . Taking into account the mean baseline
+between the two epochs of ∆t = 0.875 years, we estimate a drift
+of v̇ = −3.06 ± 7.59 m s−1 yr−1 , equivalent to a redshift drift of
+ż = (−0.47 ± 1.15) × 10−7 yr−1
+
+6. Redshift drift measurement: model-based
+The larger than expected uncertainty from the direct method is
+surprising and is not completely understood whether it stems
+from either instrumental systematics, problems in the measure-
+ment procedure or it is intrinsic to our sightline. Loss of pre-
+cision prolongs the time required for reliably detecting the red-
+shift drift signal and raises the risk of critical failure. A secure
+estimate of the measurement uncertainty is therefore of crucial
+impact on the experiment timeline.                                      Fig. 3. Distribution of the S/N per pixel in the Lyman-α forest of the
+     In this section, we developed a different approach to the          three spectra of SB2 (dashed red) and of the corresponding mock spec-
+measurement to investigate whether a higher precision can be            tra (solid black). Upper panel: first epoch, middle panel: second epoch,
+achieved with the current data. Instead of directly comparing the       bottom panel: combined spectrum.
+two epochs’ spectra, we built an ensemble of analytical models
+of the forest of SB2 that are then correlated to the two epochs.
+The modelling procedure is calibrated on mock spectra extracted             The long spectra were then convolved with a Gaussian of
+from state-of-the-art physical simulations of the IGM and is thus       FWHM ∼ 2.2 km s−1 to mimic ESPRESSO’s resolution and re-
+‘informed’ on the spectral scales of the single Lyman-α lines and       binned to a grid of pixels 1 km s−1 wide (the average native pixel
+is able to de-prioritise pixels that might be affected by metal tran-   size extracted from the simulation was 0.593 km s−1 ), match-
+sitions or outlier pixels (e.g. non-removed cosmic rays). With          ing the binning of our data. The noise properties of the original
+this approach, we are capable of reducing the uncertainty in the        spectrum were added to the mocks following the prescription of
+measurement by a significant fraction and decreasing the total          Rorai et al. (2017) (see also Trost et al. 2025). Summarising, the
+amount of integration time needed for the experiment.                   original 1st epoch spectrum was divided into 10 chunks, ∼ 10
+     Summarising, the main steps of the method are:                     nm wide. For each of these chunks, we:
+ – Production of realistic mock sightlines that reproduce the            – divided the pixels into 50 bins according to their normalised
+   properties of the ESPRESSO spectra of SB2 considered in                 flux value, producing 50 corresponding noise distributions;
+   the measurement.
+                                                                         – assigned a noise value to each simulated pixel, where the
+ – Calibration of the modelling procedure on the mock data.
+ – Construction of an ensemble of models of the Lyman-α for-               value was randomly sampled from the distribution associated
+   est of SB2.                                                             with the pixel’s flux value, as defined in the point above.
+ – Evaluation of the velocity shift between the model ensemble
+   and the 1st and 2nd epoch data.                                          This procedure was repeated for each chunk of the 1st epoch
+                                                                        spectrum and its corresponding mock spectra, to preserve the
+   We stress that the mock data were only used to calibrate the         relation between S/N at the continuum level and wavelength.
+modelling procedure and are not involved in the final measure-              The second epoch spectra were generated in the same way
+ment.                                                                   from the same sightlines. However, before sightline extraction,
+                                                                        we artificially added a velocity drift of −0.38 cm s−1 , i.e. the ex-
+                                                                        pected drift at z ∼ 3.57 for a ΛCDM Universe during our base-
+6.1. Mock spectra
+                                                                        line ∆t = 0.875 yr, to the simulated particles’ velocities. These
+We used realistic mock spectra that reproduce the properties of         sightlines were then processed in the same way, and the noise of
+the three SB2 spectra (1st epoch, 2nd epoch, and combined) to           the 2nd epoch was added to the flux, as explained above.
+calibrate the modelling pipeline and validate the measurement               We combined the first and second epochs’ mock datasets via
+results. Starting from the hydrodynamical cosmological simula-          a weighted average, with weights proportional to the inverse of
+tions of the IGM of the Sherwood Simulation Suite (Bolton et al.        the pixels’ flux variance, to create the mock combined spectrum.
+2017) (with box size of 10 Mpc/h and 2 × 10243 dark matter and          Fig. 3 shows the distribution of the S/N per pixel in the three
+gas particles), we extracted the gas particle data and computed         mock datasets and the original spectra. To further validate the
+the H i optical depth along 5000 skewers piercing the box at ev-        analysis (see Sect. 7), we also built second epoch mock datasets
+ery redshift step ∆z = 0.1, within 3.1 ≤ z ≤ 4. The optical depth       assuming either no drift between the two epochs or 103 and 104
+of the spectra was rescaled to match the mean optical depth ob-         years of temporal separation, adding a velocity drift to the simu-
+served at z ∼ 3.57 (centre of the forest) from Becker & Bolton          lation’s particles of −3.8 m s−1 and −37.6 m s−1 , respectively.
+(2013). The sightlines (10 Mpc/h long) are randomly selected                On all spectra, we applied the same pixel masking of the
+from the appropriate redshift interval, shifted so that they begin      original data, derived from metal, sub-DLA and bad pixels’ re-
+and end with regions of no absorption, and stitched together to         moval, to ensure the absence of systematics in the final measure-
+form 100 spectra that match the length of the Lyman-α of SB2            ment due to pixel masking and to conserve the total amount of
+(∼ 421 Mpc/h long, or 50321 km s−1 ).                                   pixels involved in the measurement.
+                                                                                                                  Article number, page 7 of 19
+                                                       A&A proofs: manuscript no. 00main_aa
+
+6.2. Model assessment
+We relied on mock data to calibrate the modelling procedure be-
+fore building the best possible model of SB2. Multiple sightlines
+were considered in the calibration to properly account for cos-
+mic variance effects in the modelling procedure. Given the short
+time-scales between the two epochs and that the total S/N is in-
+sufficient to detect the cosmic drift signal, we simplified the pro-
+cedure by creating a fiducial model of the combined spectrum
+instead of modelling the two epoch spectra individually. A fur-
+ther simplification regards our decision to model the spectrum
+using cubic splines4 instead of the more traditional approach us-
+ing Voigt profile decomposition. This was done because we were
+not interested in measuring physical properties of the gas but
+rather differences between the SB2’s spectra in the two epochs,
+for which the spline method was sufficient.                                   Fig. 4. Standard deviation of the fit residuals between the combined
+                                                                              mock spectra’s flux and the spline model with internodal distance A.
+    In quasar spectra, Lyman-α lines have a typical width of                  The blue squares describe the σR of models on different mock spectra
+∼ 30 km s−1 (Kim et al. 2002), while outlier features (e.g. cosmic            and randomly drawn initial node phase ϕ. The black error bars define
+rays) and metal transitions are typically narrower (down to few               the average and standard deviation of σR (A) − 1. The vertical purple
+km s−1 ). We calibrated the spline knot spacing on mock spectra               dashed line denotes the optimal value of A.
+containing only Lyman-α absorption, so that our procedure was
+‘informed’ on the scales that we want to probe. Then, by gen-
+erating an ensemble of models for SB2, we recovered a higher
+variance among models in the regions that might be affected by                6.3. Building the forest model
+sharp non-Lyman-α absorption and could de-prioritise such fea-
+tures in the final measurement of ∆v. The described procedure                 Given the optimal knot spacing and its uncertainty, A and σA , we
+also prevents over-fitting of the noise.                                      were able to construct a large number of models of the Lyman-α
+    In practice, let S k (λ|n(A, ϕ)) be the spline model fitted on            forest of SB2 that describe the data equally well in terms of a
+the k-th spectrum of the combined mock dataset described in the               goodness-of-fit statistic (e.g. χ2 ). This allowed us to more thor-
+previous section, using the square inverse of the flux noise as               oughly assess the impact of model non-uniqueness on the final
+weights in the fit, where n is a vector defining the positions of             result. This is conceptually similar to the approach taken by, for
+the spline knots along the spectrum. The knots are equispaced                 example, Lee et al. (2021); Milaković et al. (2024); Webb et al.
+in velocity space, separated by a constant velocity A, starting               (2025) in the context of fundamental constant and isotopic ratio
+from an initial position (or phase) 0 < ϕ < A with respect to the             measurements. Additionally, we identified parts of the spectrum
+beginning of the Lyman-α forest.                                              where model non-uniqueness was minimal, such that those re-
+    Goodness of fit for the model                                             gions can be prioritised in our analysis, whereas regions where
+                                  was determined from its resid-            model diversity (and hence uncertainty) was larger are consid-
+uals to the data, Rk (λ|A, ϕ) = F − S k (λ|n(A, ϕ)) /σF . We con-
+                                                                              ered ‘less trustworthy’. Moreover, we implement a weighting
+sidered a model to be good if the residuals are centred at zero
+                                                                              scheme based on the model’s gradient and its uncertainty, mim-
+with a variance equal to unity, Rk ∼ N(0, 1).
+                                                                              icking the pixel-by-pixel method (Sect. 5), to achieve a larger
+    One hundred mock spectra were fitted in this way, varying                 sensitivity to velocity shifts. Both aspects are major benefits of
+both the inter-nodal distance A and the initial phase ϕ, and their            the model-based method, which results in a better handling of
+residuals were calculated as above. For each value of A and ϕ,                uncertainties.
+we calculated the mean and the variance of the residuals for all
+100 mock spectra. The optimal value of A was determined by                        We started by fitting the combined SB2 spectrum with N =
+examining which combination of parameters results in residuals                500 splines S j (λ | n j ). The node positions of the j-th model, n j ,
+most closely matching values drawn from N(0, 1). Mathemati-                   were generated starting from an equispaced sequence of nodes
+cally, we searched for a value of A that minimises:                           in velocity space n j,0 , with inter-nodal separation A j drawn from
+                                                                              a normal distribution N(A, σA ), and initial phase 0 ≤ ϕ j < A j ,
+                                                                              drawn with uniform probability. The node positions are then per-
+          (σR (A) − 1)2
+ε(A) =                  ,                                             (10)    turbed by adding random noise in velocity space as n j = n j,0 +m,
+            σ2σR (A)                                                          where each element of the m array is randomly drawn from a
+                                                                              normal distribution N(0, σA ).
+where σR (A) is the standard deviation of the fit residuals of
+                                                                                From the ensemble of spline models, we evaluated the mean
+splines with internodal distance A, averaged over all spectra and
+                                                                              model, S̄ , and the variance between the models σ2S .
+all considered initial node phases. σ2σR (A) is the variance of the
+quantity σR (A) due to sightline variance and variations of the ini-              Fig. 5 shows a region of the 1st, 2nd and combined spectra,
+tial node phase. Fig. 4 shows σR −1 and its variance as a function            alongside the mean spline model. In the figure, flux noise and
+of internodal distance A. Minimizing Eq. 10 yields a best inter-              model variance are shown in the middle panel. The periodic pat-
+nodal distance of A = 8.37+0.26        −1
+                             −0.24 km s . Note that this value of A
+                                                                              tern found in the flux noise results from the coaddition of several
+is valid only for this precise S/N level, resolution, pixel size and          exposures and the subsequent rebinning to a fixed grid, which
+redshift. For any change in the spectral properties, A should be              creates an aliasing effect in the error arrays, whose frequency
+re-evaluated.                                                                 depends on the position of the pixels within the spectral order.
+                                                                              The bottom panel shows the pixel weights used in the measure-
+4
+    Using higher order splines does not affect the results of the analysis.   ment (see Eq. 12), proportional to the local model derivative.
+Article number, page 8 of 19
+                                                    A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+                                                                                 where the sum is performed over all non-masked pixels. F and
+                                                                                 σF are the normalised flux and its uncertainty, respectively, of
+                                                                                 either the 1st or 2nd epoch spectra of SB2. N pix is the num-
+                                                                                 ber of non-masked pixels, S̄ (λ|δv) is the mean spline model and
+                                                                                 σ2S̄ (λ|δv) is the variance within the ensemble of spline models,
+                                                                                 where the latter is included as an additional term at the denom-
+                                                                                 inator to effectively consider ‘less trustworthy’ the pixels for
+                                                                                 which the ensemble’s models are not consistent. For both terms,
+                                                                                 the dependence on δv denotes the fact that the splines’ nodes
+                                                                                 have been solidly shifted by δv in velocity space, and the mod-
+                                                                                 els are re-evaluated on the spectrum’s pixel grid at each step of
+                                                                                 the MCMC process. The term W contains information on pixel
+                                                                                 weights.
+                                                                                       Similarly to Bouchy et al. (2001), we wanted to assign a
+                                                                                 higher weight to pixels sensitive to velocity shifts, such as those
+                                                                                 with large flux gradients (i.e. the sides of the lines) and those
+                                                                                 for which variance in the flux gradient is minimal (i.e. for which
+                                                                                 models are consistent). The former aspect is similar to what is
+                                                                                 done in Sect. 5, but the latter aspect was only possible because
+                                                                                 we produced a large number of spline models. The two contribu-
+                                                                                 tions were defined by evaluating the mean derivative (in absolute
+                                                                                 values) S̄ ′ = ⟨ dS j /dλ ⟩ and the standard deviation within first
+                                                                                 derivatives’ magnitudes in the model ensemble σS ′ . The weights
+                                                                                 were therefore defined as
+                                                                                                                     N pix              −1
+                                                                                                   S̄ ′ (λi |δv) X S̄ ′ (λ j |δv) 
+                                                                                 W(λi |δv) = N pix                                        ,            (12)
+                                                                                                   σS ′ (λi |δv)  j σS ′ (λ j |δv) 
+                                                                                                                    
+
+
+                                                                                 where S̄ ′ and σS ′ are the mean absolute model derivative and
+                                                                                 its standard deviation among models. The normalization of the
+                                                                                                                     PN
+                                                                                 W term is assumed such that i pix W(λi ) = N pix , as in the non-
+                                                                                 weighted case (W(λi ) = 1 for all pixels). As S̄ and σS̄ , W is also
+Fig. 5. Section of the SB2 spectrum. Top panel: Normalised flux of the           recalculated at each step of the MCMC process. In practice, the
+1st epoch (green), 2nd epoch (orange) and combined (purple) spectra.             new scheme resulted in weighting line edges more strongly than
+The mean model S̄ is shown as a solid black line. The spectra are shifted        the continuum and other flat regions, as seen in the bottom panel
+vertically for clarity. Middle panel: The top three coloured lines are the       of Fig. 5.
+normalised flux errors, σF , for the three spectra shown in the above                 We ran MCMC to estimate δv for each epoch independently.
+panel, with the same colour coding. The black solid line is the standard         Fig. 6 shows the posterior probability distributions probed by
+deviation of our model, σS̄ , i.e. it shows where our ensemble of models         the MCMC analysis for δv1 (green filled) and δv2 (orange). The
+exhibits large variation and hence uncertainty. Bottom panel: Normal-
+ized pixel weights W as defined in Eq. 12. Regions with higher values
+                                                                                 obtained results for the shifts are δv1 = −2.57+3.72     −3.73 m s
+                                                                                                                                                   −1
+                                                                                                                                                      and
+                                                                                                +2.43
+provide more constraints on our final ż measurement.                            δv2 = −3.82−2.44 m s , where the uncertainties correspond to
+                                                                                                            −1
+
+                                                                                 the 16th and 84th percentiles of the posterior distribution and
+                                                                                 should be considered equivalent to the 68% confidence interval.
+6.4. Velocity drift estimate                                                     Taking the difference between the two values above and propa-
+                                                                                 gating their uncertainties, we obtained a velocity shift between
+Strictly speaking, |ż| is larger at the red end of the Lyman-α forest           the two epochs of ∆v = −1.25+4.44            −1
+                                                                                                                     −4.46 m s , which translates into a
+than at its blue end, causing a redshift dependent compression of                drift of v̇ = −1.43−5.10 m s yr or ż = −2.19+7.75
+                                                                                                      +5.08      −1   −1
+                                                                                                                                      −7.78 × 10
+                                                                                                                                                 −8
+                                                                                                                                                    yr−1 .
+features in our spectrum. However, this effect is tiny and com-                       Both estimates of δvi have negative values. While this may
+pletely negligible at the S/N of our data. We therefore ignored the              first seem surprising, there is an easily understandable explana-
+redshift dependence of ż and assumed that only a rigid transla-                 tion related to the weighting scheme implemented in Eq. 11. To
+tion ∆v, in velocity space, occurred between the two epochs. ∆v                  demonstrate this, we carried out a simple test of measuring δv
+was measured indirectly, by first calculating the velocity shifts δv             on the combined spectrum, i.e. the same spectrum used to pro-
+occurring between individual epochs and the model. The mea-                      duce our 500 models. Naïvely, this should return a shift consis-
+sured shift between two epochs is then: ∆v = δv2 − δv1 , where                   tent with zero. Applying our measurement method to this data
+subscripts identify the epoch.                                                   resulted in δv0 = −2.71+2.08            −1
+                                                                                                               −2.02 m s , a value that is negative and
+    The value of δv was obtained through a Monte Carlo Markov                    marginally inconsistent with zero. However, temporarily fixing
+Chain (MCMC) process with a modified Gaussian likelihood of                      W = 1 in Eq. 11 resulted in δv0 = −0.43+3.59     −3.51 , consistent with
+the form:                                                                        zero. Obviously, our choice of W has given more weight to pixels
+                                                                                 with negative contributions to δv while simultaneously decreas-
+                  N pix
+                                                         2                     ing measuring uncertainties. Another way of looking at this is
+                                          Fi − S̄ (λi |δv)
+                                                                                 through a comparison of δv0 with δv1 and δv2 . Comparing their
+                  X
+ln L(δv) = −0.5           W(λi |δv)                            ,          (11)
+                    i
+                                      σ2F,i + σ2S̄ (λi |δv)                      values, one sees that δv0 falls in between δv1 and δv2 , as ex-
+                                                                                                                                  Article number, page 9 of 19
+                                                    A&A proofs: manuscript no. 00main_aa
+
+                                                                          ∆v over each individual one, using both the pixel-by-pixel and
+                                                                          model-based methods, following the usual procedures described
+                                                                          in Sects. 5 and 6.4.
+                                                                               Fig. 8 shows the measured ∆v for each chunk, as a function
+                                                                          of the chunk’s central wavelength λc , in the upper panel. The
+                                                                          middle panel shows the velocity shift uncertainty σv computed
+                                                                          on each chunk with the pixel-by-pixel (blue) and model-based
+                                                                          (red) methods. In the absence of systematics, the measurement
+                                                                          uncertainty is expected to depend solely on the median S/N at
+                                                                          continuum and the number of pixels (or the fraction of the forest
+                                                                           fLyα ) in each chunk, scaling as σv ∝ S/N−1 fLy
+                                                                                                                        −0.5
+                                                                                                                          α
+                                                                                                                             . The expected
+                                                                          measurement uncertainty is shown in the middle panel as a dot-
+                                                                          dashed (dashed) grey line, scaled by the pixel-by-pixel (model-
+                                                                          based) uncertainty obtained on the full spectrum. The estimated
+                                                                          uncertainties closely follow the scaling expectations for both
+Fig. 6. Posterior probability distributions obtained by the MCMC anal-    methods, highlighting the absence of wavelength-dependent sys-
+ysis comparing the mean model to the spectra of epoch 1 (green filled)    tematic effects.
+and epoch 2 (orange) through the likelihood defined in Eq. 11 (see
+Sect. 6.4). Scatter points with error bars define the median values and
+the 68% confidence intervals.                                             7.3. Influence of the quasar
+                                                                          Given the extraordinary nature of SB2 (Wolf et al. 2024), with
+pected. In that sense, the obtained values of δv1 and δv2 are not         its high black hole accretion rate ( Ṁ ∼ 370 M⊙ yr−1 ) and lu-
+surprising.                                                               minosity variability (∼ 15% over the last 6 years), one would
+                                                                          expect to find a strong signature of IGM photoionization in the
+7. Validation and systematics                                             Lyman-α forest close to the quasar emission redshift. However,
+                                                                          our data do not show an important decrease in strength and num-
+7.1. Measurement validation                                               ber of Lyman-α lines close to zem , nor a significant variability of
+We validated the measurement procedures by applying the pixel-            such lines, which could be related to the quasar’s strong activ-
+by-pixel (see Sect. 5) and the model-based (see Sect. 6.4) meth-          ity. Therefore, in our previous analysis, we based the redshift
+ods to a synthetic sample of mock spectra for which we know a             drift measurement on the whole forest, without excluding the
+priori the velocity shift occurring between the two epochs. We            proximity region, about 5000 km s−1 from the quasar emission
+thus produced mock datasets assuming the same S/N distribu-               redshift.
+tion, pixel size, spectral range and resolution of the SB2 spec-               We checked for systematic effects due to the proximity to
+tra, simulating a ∆v of 0 cm s−1 , −0.38 cm s−1 , −4.3 m s−1 , and        the quasar by performing the same measurement as before, but
+−42.9 m s−1 , corresponding to a temporal baseline of zero, 0.875,        excluding such region, and measured a velocity drift between
+103 and 104 years in a ΛCDM Universe.                                     the two epochs of ∆v = 3.88 ± 5.08 m s−1 . Having excluded
+     We applied our methods to 10 random sightlines from each             the proximity region reduces the number of pixels used in the
+mock dataset, with the results shown in Fig. 7. The top panel             measurement to ∼ 37400, or ∼ 74% of the total amount found
+shows the measured velocity shifts ∆v obtained with the pixel-            in the forest. When ignoring the proximity region, we excluded
+by-pixel (blue) and model-based (red) methods in the four base-           the range close to the Lyman-α emission where the spectra have
+line cases. Both methods were applied to the same set of 10               the highest S/N levels at the continuum, with a median of 89,
+sightlines. We found that the two methods are capable of recov-           134 and 161 per pixel in the 1st epoch, 2nd epoch and combined
+ering the imposed drift, with an uncertainty that depends solely          spectra, respectively, and performed the measurement on spectra
+on the S/N level of the two spectra (matched to the SB2 data,             with effectively lower S/N. Therefore, the uncertainty grows not
+regardless of the simulated ∆v) and on the number of Lyman-               only due to a reduced pixel sample, but also due to a smaller me-
+α lines contained in each sightline. The scatter among the 10             dian S/N level (∼ 82 per pixel at the continuum in the combined
+measured velocity shifts is consistent with the estimated uncer-          spectrum) outside of the proximity region. These two effects add
+tainties. Notably, the pixel-by-pixel method shows a slight dis-          up to a scaling factor (82/86)−1 (0.74/0.84)−1/2 ∼ 1.12, explain-
+crepancy between the expected signal and the mean measured ∆v             ing the new uncertainty.
+when applied to the longest baseline of 10,000 years. The cause                Still, the measurement is compatible with the expected value,
+of such bias is not clear, although it could stem from the pertur-        and no systematic effect due to excluding or taking into account
+bative assumption taken in Eq. 6 that might not hold any longer           the proximity region is clearly visible.
+for the large shift imposed in this simulated case. Nonetheless,
+our aim is to measure very small shifts for which such an as-             7.4. Influence of local motions
+sumption is solid. The model-based method recovers the im-
+posed shift well in all instances.                                        As shown by Inoue et al. (2020), the mass of the Milky Way
+                                                                          (MW) and the other galaxies in the Local Group (LG), espe-
+7.2. Uncertainty across the spectrum                                      cially the Large Magellanic Cloud (LMC) and M31, have a non-
+                                                                          negligible impact on the proper motion of the Sun, providing a
+It is possible that a narrow segment of the Lyman-α forest con-           local source of acceleration along a certain sightline. Left un-
+tains unidentified contaminants that spoil the measurement on             corrected, this effect will impact the cosmological redshift drift
+∆v. We investigated this possibility by dividing the Lyman-α for-         signal measurement. The amplitude of this effect is sightline de-
+est into 10 equally sized chunks (of width 9.4 nm) and measuring          pendent and, in the case of SB2, induces an additional systematic
+Article number, page 10 of 19
+                                           A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+
+
+
+Fig. 7. Velocity shift ∆v measured on 10 random mock sightline pairs with both the pixel-by-pixel (blue square scatter points, see Sect. 5) and
+model-based methods (red diamond scatter points, see Sect. 6.4) where a different baseline is assumed between the two epochs. The horizontal
+blue dotted and red dashed lines report the average ∆v measured with the pixel-by-pixel and the model-based methods, respectively From left to
+right, the mock datasets are built assuming no shift (∆vexp = 0 m s−1 ), ∆t = 0.875 yr (the same time elapsed between the two observed spectra,
+∆vexp = −0.38 cm s−1 ), ∆t = 103 yr (∆vexp = −4.3 m s−1 ), and ∆t = 104 yr (∆vexp = −42.9 m s−1 ). The grey dashed lines report the assumed shift.
+
+
+                                                                            implying it can be measured on a shorter temporal baseline, at
+                                                                            fixed total integration time.
+                                                                                However, such shift is the composite of the local and cos-
+                                                                            mological effects, where the former should be removed from the
+                                                                            measured shift to infer the actual redshift drift. The required du-
+                                                                            ration of the experiment is not affected by the local component,
+                                                                            if not for the fact that its amplitude is inferred from measure-
+                                                                            ments of the MW and LG’s galaxies masses, and has an uncer-
+                                                                            tainty that will be propagated to the redshift drift measurement’s
+                                                                            uncertainty. Such uncertainty is one order of magnitude smaller
+                                                                            than the expected redshift drift, of order 0.04 cm s−1 yr−1 , where
+                                                                            the cosmological signal is ∼ −0.429 cm s−1 yr−1 , and its propa-
+                                                                            gation in the actual measurement is sub-dominant with respect
+                                                                            to the measurement uncertainty related to the spectral analysis
+                                                                            (see Sect. 8).
+
+                                                                            7.5. Instrumental systematics
+                                                                            ESPRESSO’s wavelength calibration is a crucial aspect for ro-
+                                                                            bustly measuring the redshift drift signal. Previous studies iden-
+                                                                            tified differences as large as 20 m s−1 between the two calibra-
+                                                                            tion methods available on ESPRESSO, the LFC and the Fabry-
+                                                                            Pérot (FP) etalon combined with a ThAr lamp (Schmidt et al.
+                                                                            2021). Their impact is expected to decrease by considering a
+Fig. 8. Estimated velocity shift ∆v computed on 10 equispaced sections
+of the Lyman-α forest. Top panel: ∆v estimated on each spectral chunk
+                                                                            large number of lines over a broad spectral range, but the true
+with the pixel-by-pixel (blue squares) and model-based (red diamonds)       quantification on a real measurement was so far lacking. We
+methods, as a function of the section’s central wavelength λc . Middle      therefore repeated our analysis on SB2 observations calibrated
+panel: measurement uncertainty σv for the two methods, shown with           using ThAr+FP frames instead of LFC, created specifically for
+the same colour coding as the panel above. The dot-dashed and dashed        this purpose following the same procedures used previously in
+grey lines report the expected uncertainty of the two methods, based        Sect. 6.3-6.4. We measured ∆v = −0.81+4.47  −4.39 m s
+                                                                                                                                 −1
+                                                                                                                                    from these
+on the median S/N and pixel number of each chunk. Bottom panel: the         data, a change of +0.44 m s with respect to LFC-calibrated
+                                                                                                           −1
+solid black line and the left-hand axis denote the fraction of the Lyman-   data. The two measurements agree within uncertainties.
+α forest fLyα considered in the measurement within each chunk, taking
+into account the masking of metals, strong absorbers and bad pixels.
+                                                                                 Another source of uncertainty relates to assumptions on the
+Note that the spectral chunk centred at 560.7 nm contains the sub-DLA       shape of the line-spread function (LSF), used for determin-
+absorber and has a significantly smaller fraction of usable pixels than     ing line centres during wavelength calibration. The standard
+the other regions. The right-hand axis of the same panel reports the        ESPRESSO DRS wavelength calibration procedures assume a
+median S/N at continuum level in each chunk in the 1st and 2nd epoch        Gaussian LSF shape and, because this cannot be modified with-
+spectra, shown with dashed green and orange lines, respectively.            out significant changes to the entire procedure, we were unable
+                                                                            to directly quantify the impact of this assumption on our results.
+                                                                            However, considering that using a Gaussian LSF should intro-
+                                                                            duce wavelength calibration errors similar to the differences ob-
+drift in the Lyman-α lines of v̇⊙ = −0.16 ± 0.04 cm s−1 yr−1 . This         served between using LFC and ThAr+FP (i.e. 20 m s−1 , Schmidt
+is of the same order of magnitude as the cosmological signal we             et al. (2021); Schmidt (2024)), a reasonable expected additional
+want to measure. Thus, the expected velocity shift between two              systematic uncertainty is ∼ 0.5 m s−1 through analogy with the
+epochs of SB2 grows effectively to v̇SB2 ∼ −0.59 cm s−1 yr−1 ,              previous paragraph.
+                                                                                                                   Article number, page 11 of 19
+                                                     A&A proofs: manuscript no. 00main_aa
+
+                                                                           Table 3. Temporal baselines required to achieve a 1σ, 3σ or 5σ detec-
+                                                                           tion following up the SB2 spectra with a total integration time of 10,
+                                                                           100, or 1000 hours per year, if performed with ESPRESSO or ANDES
+                                                                           (assuming a 10% efficiency).
+
+                                                                                          T [h/yr]       1σ     3σ              5σ
+                                                                                                       ESPRESSO
+                                                                                          10          149 yr 310 yr       436 yr
+                                                                                          100          70 yr 145 yr       203 yr
+                                                                                          1000         33 yr  68 yr        95 yr
+                                                                                                        ANDES
+                                                                                          10           56 yr 115 yr       161 yr
+                                                                                          100          26 yr  54 yr        75 yr
+                                                                                          1000         13 yr  25 yr        35 yr
+
+Fig. 9. Velocity shift uncertainty reached with ESPRESSO spectra of
+SB2, as a function of total temporal baseline of the experiment, assum-         Similarly, assuming a fixed yearly integration time, the same
+ing three different observational strategies with an integration time of   level of precision in the measurement of the cosmic acceleration
+10 hours per year (blue), 100 hours per year (yellow), and 1000 hours      σv̇ can be achieved with ANDES with a temporal baseline that is
+per year (red). The horizontal dashed black line defines the magnitude     a factor 201/3 ∼ 2.714 shorter than in the case of an ESPRESSO
+of the cosmological signal expected for a ΛCDM Universe at the av-         experiment, due to the scaling of Eq. 13. In this case, a 3σ (5σ)
+erage redshift of SB2’s Lyman-α forest. Vertical lines define the time     detection of the redshift drift can be carried out by means of
+needed to achieve a 3σ (solid) and 5σ (dotted) detection for the three     a monitoring campaign of SB2 with 100 hours of integration
+observational strategies.                                                  per year, in 54 years (75 years) with ANDES, instead of 145
+                                                                           years (203 years) with ESPRESSO. Table 3 reports the tempo-
+8. Future perspectives                                                     ral baselines required for detection in an ANDES-based experi-
+                                                                           ment, when allocating 10, 100, or 1000 total hours of exposure
+Based on our results, we estimated the time required for a sta-            per year.
+tistically significant detection of the cosmological signal with                The ANDES spectrograph is yet to be constructed, and its ef-
+ESPRESSO and ANDES.                                                        ficiency could change in the future design phases. We can easily
+     We envision an observational monitoring programme, car-               parametrise the required baseline of the measurement to reach a
+ried out for Ne epochs, with a cadence of T hours of ESPRESSO              3σ detection, letting the total efficiency of ANDES, ϵ, as a free
+integration of SB2 each year. The precision on the measurement             parameter:
+of the cosmic acceleration (v̇ ∼ ∆v/∆t) scales in time, adapting
+                                                                                                         !−1/3  −1/3
+Eq. 5 to account for the additional temporal dependency, as                                      T               ϵ
+                                                                           ∆t3σ
+                                                                              ANDES
+                                                                                     ≈ 54                               yr,               (14)
+σv̇ ∝ g(Ne ) × S/Ntot (Ne , T )−1 × (Ne − 1)−1 ,                   (13)                      100 h yr −1        0.1
+where the experiment baseline is ∆t = Ne − 1 (e.g. 1 year of               where T is the total integration time of an ANDES-like spectro-
+programme has 2 epochs, 2 years of programme have 3 epochs,                graph per year of the experiment. The total amount of integration
+and so on), and the √ total S/N obtained after Ne epochs scales as         hours needed for a 3σ detection is simply
+S/Ntot (Ne , T ) ∝ Ne T . The form factor g(Ne ) depends on the
+distribution across time of the observational epochs, being 1.7                                                        T
+                                                                                                                                !2/3 
+                                                                                                                                          ϵ −1/3
+for the continuous monitoring program we considered.                       Total integration time = 5.4 × 10   3
+                                                                                                                                                   h,
+    Fig. 9 shows the acceleration measurement uncertainty σv̇                                                      100 h yr−1            0.1
+achieved with ESPRESSO as a function of the temporal baseline                                                                                     (15)
+of our experiment, starting from the data already collected, and
+following up with a monitoring campaign of 10, 100, or 1000                depending on the amount of telescope time that can be continu-
+hours of integration time each year. The vertical solid lines de-          ously allocated to this project.
+note at what epoch we can achieve a 3σ (or 5σ vertical dotted
+lines) detection of the cosmological signal in the three cases.            9. Results and discussion
+The estimates of the required baseline for a detection are also
+reported in Table 3.                                                       We set out to assess the feasibility of measuring the red-
+    Clearly, the timescales for the experiment are long due to             shift drift signal using Lyman-α forest spectroscopy, based
+the limited collecting area of VLT. However, these results can be          on the highest-quality data available prior to the commission-
+used to estimate, at first order, what will be the impact of mov-          ing of ELT/ANDES. We used new, high-resolution and high-
+ing the observational campaign to the ELT/ANDES spectrograph               S/N spectra of the most luminous known quasar in the Uni-
+(Marconi et al. 2024). Assuming that the total efficiencies of the         verse, J052915.80-435152.0 (SB2; zem = 3.962), obtained with
+ESPRESSO and ANDES spectrographs are similar (about 10%),                  ESPRESSO at the VLT. This exceptionally bright object is es-
+since the latter is fed by a telescope with a collecting area ∼ 20         pecially suited to perform the Sandage test of cosmic redshift
+times larger than the area of one VLT unit, the same accuracy in           drift, owing to its luminosity and emission redshift. We began
+measuring ∆v can be reached in 1/20-th of the total ESPRESSO               this decades-long experiment with the ultra-stable spectrograph
+integration time. By this logic, a 3σ (5σ) detection of the red-           ESPRESSO over a one-year baseline. The primary goal was to
+shift drift can be carried out observing SB2 with ANDES in 68              investigate the measurement’s intrinsic systematics and validate
+years (95 years), with 50 hours of total integration time per year,        the predictions on the expected total integration time required to
+instead of 1000 hours per year as in the case of ESPRESSO.                 achieve a statistically significant detection. This work presents
+Article number, page 12 of 19
+                                        A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+the first two epochs of the experiment, intended to serve as an       (Sect. 7.3). The shift is likely a consequence of a large (10%) de-
+anchor for comparison to future observations, initially carried       crease in the number of available pixels, and not a true estimate
+out with ESPRESSO and subsequently with ELT/ANDES.                    of uncertainty from quasar variability. More data and longer time
+    Our main results are:                                             baselines are needed to confirm whether temporal variability in
+                                                                      quasar flux causes a systematic effect on ∆v. Wavelength calibra-
+ – Applying the pixel-by-pixel method of Bouchy et al. (2001)         tion uncertainties are estimated to be ≈ 1 m s−1 (Sect. 7.5). Con-
+   (Sect. 5), we measured a velocity shift between two epochs         sidering the latter is approximately one fourth of the statistical
+   of ∆v = −2.67 ± 6.64 m s−1 . These uncertainties are 65%           uncertainty, we expect that systematic effects will start playing a
+   above the prediction made by Liske et al. (2008) (σv,Liske =       significant role in the error budget (in SB2 measurements) once
+   4.02 m s−1 , see Eq. 5).                                           the total S/N quadruples (c.f. Eq. 5).
+ – Using an ensemble of 500 models specifically tailored to
+   the resolution, pixel size and S/N of our data (Sect. 6), we           A caveat of both methods used in this paper is that they
+   identified spectral regions more sensitive to velocity shifts      are unable to disentangle a real velocity shift in the data from
+   and gave them more weight in our analysis, obtaining ∆v =          any changes to the instrument properties, such as its LSF.
+   −1.25+4.44      −1                                                 LSF is known to change when important components are re-
+          −4.46 m s . This is a 30% improvement in statistical        placed (Lo Curto et al. 2015), and is likely to occur in exper-
+   uncertainty over the direct method, and only 10% greater
+   than the value predicted by Liske et al. (2008).                   iments spanning several decades. There were no major inter-
+ – The redshift drift measured between the two epochs turns           ventions in ESPRESSO over the time period spanning obser-
+   out to be ż = −2.19+7.75        −8
+                                       yr−1 at ⟨z⟩ = 3.57, which      vations presented here that would raise concerns about LSF or
+                         −7.78 × 10
+   represents the main result of this paper. This value is fully      other instrument properties varying. However, removing instru-
+   consistent with the value expected within the ΛCDM model,          mental imprints will be important in the future, for example
+   −6.6 × 10−11 yr−1 . The quoted uncertainties are only statisti-    by using advanced data reduction frameworks such as ‘spectro-
+   cal and three orders of magnitude larger than the cosmologi-       perfectionism’ (Bolton & Schlegel 2010) or similar (Piskunov
+   cal signal. Systematic uncertainties due to the motion of the      et al. 2021).
+   Solar system, temporal variability of SB2’s luminosity, and            Based on considerations presented in Sect. 8, a 3σ detec-
+   wavelength calibration are currently subdominant.                  tion of ż using SB2 will require 54 years of observations with
+ – Based on these findings, we estimate that a 3σ detection of        ANDES when allocating 12.5 nights per year to this project (Ta-
+   the redshift drift could be achieved with ESPRESSO (AN-            ble 3). Shorter timescales can be achieved with a more intensive
+   DES) after 145 (54) years, assuming 100 hours of observa-          campaign or by increasing the total efficiency of ANDES (c.f.
+   tion per year for SB2 (Table 3).                                   Eq. 14). For obvious reasons, an intensive monitoring campaign
+                                                                      of such magnitude focusing on only one object is not ideal. In a
+The best current upper limit on cosmic acceleration is |v̇| ≤         more realistic case, multiple bright objects will be observed si-
+2.2 m s−1 yr−1 at 1σ confidence level (Darling 2012). Our             multaneously, spread over a large range of right ascensions. A
+measurement of ∆v = −1.25+4.44    −4.46 m s
+                                           −1
+                                               translates into v̇ =   Golden Sample of 7 quasars compiled with this goal in mind has
+       +5.08    −1   −1                                               already been proposed by (Cristiani et al. 2023). In such a case,
+−1.43−5.10 m s yr (Sect. 6), making our limit a factor 2.3
+larger than that of Darling (2012). However, their result is based    being SB2 the brightest quasar of the sample, the experiment
+on observations of H i 21 cm absorption line systems in 10 ob-        baseline will slightly increase with respect to Eq. 14 at fixed total
+jects over a baseline of 13 years, while we obtained a comparable     observational cadence T , with time shared among multiple tar-
+result with only 12.4h of Lyman-α forest and a ∼ 1 year baseline.     gets. However, the other quasar’s sightline might be better suited
+By expanding our dataset by another 12 hours over the next 1.5        for the test, with more narrow lines, fewer strong absorbers and
+years, we expect to match the uncertainty in the measurement of       a larger fraction of the forest available for the measurement, than
+Darling (2012), showcasing the power of Lyman-α observations          what we found on SB2. A measurement on such sightlines would
+for ż measurements.                                                  have smaller uncertainties and counterbalance the lower S/N re-
+    Interestingly, neither the pixel-by-pixel method (Sect. 5) nor    lated to the fainter objects. At this level, it is not straightforward
+our newly developed method based on splines (Sect. 6) precisely       to formally predict the consequences of such effects on the base-
+reproduce the uncertainties predicted by the scaling relation of      line of an experiment involving all seven quasars of the Golden
+Liske et al. (2008). This discrepancy may arise because the Liske     Sample. In a parallel paper (Marques et al, in prep.), we will
+et al. (2008) relation was calibrated assuming a measurement          analyse the spectrum of SB1, the second brightest object of the
+carried out on a sample of multiple objects, whereas we anal-         sample, in order to address this point.
+ysed a single sightline. Sightline-to-sightline fluctuations in the   Acknowledgements. AT is grateful to Vid Iršič for the prolific discussions.
+measurement uncertainties are expected due to cosmic variance,        The INAF authors acknowledge financial support of the Italian Ministry of
+where the analysis of SB1 will provide further insight into this      Education, University, and Research with PRIN 201278X4FL and the "Pro-
+issue (Marques et al., in prep.).                                     getti Premiali" funding scheme. This work was financed by Portuguese funds
+    We examined the validity of our methods and some potential        through FCT (Fundação para a Ciência e a Tecnologia) in the framework of the
+                                                                      project 2022.04048.PTDC (Phi in the Sky, DOI 10.54499/2022.04048.PTDC).
+sources of systematic uncertainties in Sect. 7. While both the di-    CJM also acknowledges FCT and POCH/FSE (EC) support through
+rect and the spline methods recover simulated ∆v (within uncer-       Investigador FCT Contract 2021.01214.CEECIND/CP1658/CT0001 (DOI
+tainties) for |∆v| < 5 m s−1 , the pixel-by-pixel methods shows a     10.54499/2021.01214.CEECIND/CP1658/CT0001). CMJM is supported by an
+systematic underestimation of the shift when recovering the sim-      FCT fellowship, grant number 2023.03984.BD. MTM acknowledges the sup-
+                                                                      port of the Australian Research Council through Future Fellowship grant
+ulated |∆v| ≈ 40 m s−1 (Fig. 7). Such a result is not currently un-   FT180100194 and through the Australian Research Council Centre of Ex-
+derstood. Solar system accelerations add ∼ 1 cm s−1 yr−1 to the       cellence in Optical Microcombs for Breakthrough Science (project number
+expected signal, being negligible at the current level of S/N. The    CE230100006) funded by the Australian Government. TMS acknowledges the
+presence of such effect does not alter the experiment’s expected      support from the SNF synergia grant CRSII5-193689 (BLUVES). The work
+                                                                      of KB is supported by NOIRLab, which is managed by the Association of
+temporal baseline (see Sect. 7.4). Excluding the quasar proxim-       Universities for Research in Astronomy (AURA) under a cooperative agree-
+ity zone from our analysis shifted ∆v by 5.14 m s−1 , a value only    ment with the U.S. National Science Foundation. EP acknowledges financial
+marginally inconsistent (∼ 1.01σ) with the statistical uncertainty    support from the Agencia Estatal de Investigación of the Ministerio de Cien-
+
+                                                                                                                 Article number, page 13 of 19
+                                                              A&A proofs: manuscript no. 00main_aa
+
+cia e Innovación MCIN/AEI/10.13039/501100011033 and the ERDF “A way                    Sandage, A. 1962, ApJ, 136, 319
+of making Europe” through project PID2021-125627OB-C32, and from the                   Schmidt, T. M. 2024, MNRAS, 532, 1635
+Centre of Excellence “Severo Ochoa” award to the Instituto de Astrofisica              Schmidt, T. M., Molaro, P., Murphy, M. T., et al. 2021, A&A, 646, A144
+de Canarias. ASM and JIGH acknowledge financial support from the Spanish               Trost, A., Bolton, J. S., Caputo, A., et al. 2025, Phys. Rev. D, 111, 083034
+Ministry of Science, Innovation and Universities (MICIU) projects PID2020-             Uzan, J.-P., Clarkson, C., & Ellis, G. F. R. 2008, Phys. Rev. Lett., 100, 191303
+117493GB-I00 and PID2023-149982NB-I00. NS and NN acknowledge finan-                    Vernet, J., Dekker, H., D’Odorico, S., et al. 2011, A&A, 536, A105
+cial support by FCT - Fundação para a Ciência e a Tecnologia through national          Webb, J. K., Lee, C.-C., Milaković, D., et al. 2025, MN-
+funds by these grants: UIDB/04434/2020 DOI: 10.54499/UIDB/04434/2020,                     RAS[arXiv:2401.00888]
+UIDP/04434/2020 DOI: 10.54499/UIDP/04434/2020.                                         Wolf, C., Lai, S., Onken, C. A., et al. 2024, Nature Astronomy, 8, 520
+                                                                                       Wright, J. T. & Eastman, J. D. 2014, Publications of the Astronomical Society
+                                                                                          of the Pacific, 126, 838
+
+References
+Adame, A. G., Aguilar, J., Ahlen, S., et al. 2025, J. Cosmology Astropart. Phys.,
+   2025, 021
+Albrecht, A., Bernstein, G., Cahn, R., et al. 2006, arXiv e-prints, astro
+Alves, C. S., Leite, A. C. O., Martins, C. J. A. P., Matos, J. G. B., & Silva, T. A.
+   2019, Mon. Not. Roy. Astron. Soc., 488, 3607
+Becker, G. D. & Bolton, J. S. 2013, MNRAS, 436, 1023
+Bolton, A. S. & Schlegel, D. J. 2010, PASP, 122, 248
+Bolton, J. S., Puchwein, E., Sijacki, D., et al. 2017, MNRAS, 464, 897
+Bouchy, F., Pepe, F., & Queloz, D. 2001, A&A, 374, 733
+Calderone, G., Boutsia, K., Cristiani, S., et al. 2019, ApJ, 887, 268
+Cooke, R. 2020, MNRAS, 492, 2044
+Cristiani, S., Cupani, G., Trost, A., et al. 2024, MNRAS, 528, 6845
+Cristiani, S., Porru, M., Guarneri, F., et al. 2023, MNRAS, 522, 2019
+Cupani, G., D’Odorico, V., Cristiani, S., et al. 2016, in Society of Photo-Optical
+   Instrumentation Engineers (SPIE) Conference Series, Vol. 9913, Software
+   and Cyberinfrastructure for Astronomy IV, ed. G. Chiozzi & J. C. Guzman,
+   99131T
+Cupani, G., D’Odorico, V., Cristiani, S., et al. 2020, in Software and Cyber-
+   infrastructure for Astronomy VI, ed. J. C. Guzman & J. Ibsen, Vol. 11452,
+   International Society for Optics and Photonics (SPIE), 372 – 388
+Darling, J. 2012, Astrophys. J., 761, L26
+Dawson, K. S., Kneib, J.-P., Percival, W. J., et al. 2016, AJ, 151, 44
+Dawson, K. S., Schlegel, D. J., Ahn, C. P., et al. 2013, AJ, 145, 10
+Di Marcantonio, P., Sosnowska, D., Cupani, G., et al. 2018, in Society of Photo-
+   Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 10704, Ob-
+   servatory Operations: Strategies, Processes, and Systems VII, 107040F
+Fienga, A., Manche, H., Laskar, J., Gastineau, M., & Verma, A. 2014, arXiv
+   e-prints, arXiv:1405.0484
+Gaia Collaboration, Brown, A. G. A., Vallenari, A., et al. 2021, A&A, 649, A1
+Garnavich, P. M., Kirshner, R. P., Challis, P., et al. 1998, ApJ, 493, L53
+Heinesen, A. 2021, Phys. Rev. D, 103, L081302
+Inoue, T., Komatsu, E., Aoki, W., et al. 2020, PASJ, 72, L1
+Kang, J., Zhang, T.-J., He, P., & Zhu, M. 2025, ApJ, 982, 177
+Kim, T. S., Carswell, R. F., Cristiani, S., D’Odorico, S., & Giallongo, E. 2002,
+   MNRAS, 335, 555
+Klöckner, H.-R., Obreschkow, D., Martins, C., et al. 2015, PoS, AASKA14, 027
+Lee, C.-C., Webb, J. K., Milaković, D., & Carswell, R. F. 2021, MNRAS, 507,
+   27
+Liske, J., Grazian, A., Vanzella, E., et al. 2008, MNRAS, 386, 1192
+Lo Curto, G., Pepe, F., Avila, G., et al. 2015, The Messenger, 162, 9
+Loeb, A. 1998, ApJ, 499, L111
+Marconi, A., Abreu, M., Adibekyan, V., et al. 2024, in Society of Photo-Optical
+   Instrumentation Engineers (SPIE) Conference Series, Vol. 13096, Ground-
+   based and Airborne Instrumentation for Astronomy X, ed. J. J. Bryant, K. Mo-
+   tohara, & J. R. D. Vernet, 1309613
+Marques, C. M. J., Martins, C. J. A. P., & Alves, C. S. 2023, MNRAS, 522, 5973
+Marques, C. M. J., Martins, C. J. A. P., & Gilabert López, B. 2024, MNRAS,
+   527, 9918
+Martins, C. J. A. P. et al. 2024, Exper. Astron., 57, 5
+McVittie, G. C. 1962, ApJ, 136, 334
+Milaković, D., Webb, J. K., Molaro, P., et al. 2024, MNRAS, 534, 12
+Noll, S., Kausch, W., Kimeswenger, S., et al. 2014, A&A, 567, A25
+Onken, C. A., Wolf, C., Bessell, M. S., et al. 2024, PASA, 41, e061
+Pepe, F., Cristiani, S., Rebolo, R., et al. 2021, A&A, 645, A96
+Péroux, C., McMahon, R. G., Storrie-Lombardi, L. J., & Irwin, M. J. 2003, MN-
+   RAS, 346, 1103
+Piskunov, N., Wehrhahn, A., & Marquart, T. 2021, A&A, 646, A32
+Planck Collaboration, Aghanim, N., Akrami, Y., et al. 2020, A&A, 641, A6
+Quercellini, C., Amendola, L., Balbi, A., Cabella, P., & Quartin, M. 2012, Phys.
+   Rept., 521, 95
+Rauch, M. 1998, ARA&A, 36, 267
+Riess, A. G., Casertano, S., Yuan, W., et al. 2021, ApJ, 908, L6
+Riess, A. G., Filippenko, A. V., Challis, P., et al. 1998, AJ, 116, 1009
+Rocha, B. A. R. & Martins, C. J. A. P. 2022, Mon. Not. Roy. Astron. Soc., 518,
+   2853
+Rorai, A., Becker, G. D., Haehnelt, M. G., et al. 2017, MNRAS, 466, 2690
+
+Article number, page 14 of 19
+                                    A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+Appendix A: Metal lines
+
+                          Table A.1. Parameters obtained from the fit of all detected metal transitions
+                          with λ > 603 nm. The first column reports the ionic transitions. The second
+                          and third columns report the redshift position of the Voigt profile with its uncer-
+                          tainty. Fourth and fifth columns contain the logarithmic column density and its
+                          uncertainty. Sixth and seventh columns report the Doppler b-parameter and its
+                          uncertainty.
+
+
+                                                                                        
+                   Transition                        z             σz         log N/cm−2         σlogN        b           σb
+                                                               [1 × 10−5 ]                                 [km s−1 ]    [km s−1 ]
+        Mg i 2852                              1.133524        0.46           10.515             0.106     5.648        1.697
+        Mg i 2852                              1.133604        0.10           11.150             0.018     4.640        0.192
+        Mg ii 2796, 2803                       1.444199        0.13           12.100             0.010     9.764        0.275
+        Fe ii 2600                             1.444199        0.13           11.459             0.094     7.855        2.299
+        Mg i 2852                              1.444208        0.22           10.350             0.071     2.537        0.480
+        Mg i 2852                              1.444252        0.75           11.093             0.027     18.394       1.416
+        Mg ii 2796, 2803                       1.444316        0.20           11.333             0.053     4.221        0.502
+        Mg i 2852                              1.444577        0.31           10.486             0.044     4.454        0.571
+        Mg ii 2796, 2803                       1.444590        0.47           11.667             0.111     7.081        1.214
+        Mg ii 2796, 2803                       1.444682        0.43           11.420             0.131     4.778        0.977
+        Mg ii 2796, 2803                       1.444834        0.16           12.536             0.064     4.065        0.138
+        Fe ii 2382, 2600                       1.444834        0.16           11.794             0.042     3.151        0.477
+        Mg i 2852                              1.444838        0.19           10.908             0.022     5.629        0.348
+        Mg ii 2796, 2803                       1.444880        0.13           11.715             0.017     4.997        0.218
+        Mg ii 2796, 2803                       1.444911        0.68           12.183             0.067     17.595       2.163
+        Mg i 2852                              1.444950        0.54           10.453             0.063     5.719        1.019
+        Mg ii 2796, 2803                       1.444950        0.50           11.837             0.137     4.155        0.638
+        Mg ii 2796, 2803                       1.446247        0.16           11.146             0.028     3.368        0.291
+        Mg ii 2796, 2803                       1.62936         2.49           11.432             0.122     11.167       3.630
+        Mg ii 2796, 2803                       1.629514        0.78           11.368             0.213     4.532        1.289
+        Mg ii 2796, 2803                       1.62983         1.26           12.404             0.045     18.429       1.008
+        Fe ii 2344, 2382, 2600, 2586           1.629843        0.66           11.585             0.065     6.239        1.171
+        Fe ii 2344, 2382, 2600, 2586           1.629902        0.26           11.999             0.262     4.115        0.426
+        Mg ii 2796, 2803                       1.629902        0.26           12.482             0.031     6.515        0.235
+        Fe ii 2344, 2382, 2600, 2586           1.629969        0.17           11.957             0.038     5.428        0.373
+        Mg ii 2796, 2803                       1.629969        0.17           12.635             0.032     5.785        0.237
+        Fe ii 2344, 2382, 2600                 1.836536        0.19           11.287             0.050     1.942        0.414
+        Fe ii 2344, 2382, 2600                 1.8367040       0.08           11.833             0.015     2.129        0.138
+        Fe ii 2344, 2382, 2600                 1.836996        0.36           11.129             0.049     4.073        0.617
+        Fe ii 2344, 2374, 2382                 2.11649         1.03           11.289             0.608     2.271        2.386
+        Fe ii 2344, 2374, 2382                 2.116592        0.21           11.922             0.099     2.175        0.480
+        Fe ii 2344, 2374, 2382                 2.116676        0.53           12.754             0.029     10.737       0.735
+        Fe ii 2344, 2374, 2382                 2.116946        0.39           12.565             0.023     10.223       0.635
+        Fe ii 2344, 2374, 2382                 2.117289        0.15           12.367             0.051     1.717        0.254
+        Fe ii 2344, 2374, 2382                 2.117300        0.45           13.217             0.019     12.028       0.476
+        Fe ii 2344, 2374, 2382                 2.1174760       0.07           13.518             0.008     6.656        0.072
+        Al iii 1854, 1862                      2.300497        0.46           10.935             0.096     2.929        1.058
+        Al iii 1854, 1862                      2.300666        0.18           11.675             0.027     3.472        0.321
+        Al iii 1854, 1862                      2.301041        0.89           11.415             0.056     7.994        1.314
+        Al iii 1854, 1862                      2.302742        0.22           11.241             0.026     3.850        0.302
+        Al iii 1854, 1862                      2.303459        0.26           11.344             0.040     4.217        0.580
+        Al iii 1854, 1862                      2.304136        0.81           11.452             0.041     11.223       1.417
+        C iv 1548, 1550                        2.911425        0.51           11.659             0.192     4.204        1.100
+        C iv 1548, 1550                        2.911613        0.62           12.837             0.028     17.011       1.209
+        C iv 1548, 1550                        2.912090        0.31           12.255             0.014     8.846        0.349
+        C iv 1548, 1550                        2.912281        0.12           13.046             0.003     15.675       0.126
+        C iv 1548, 1550                        2.912303        0.68           11.867             0.033     8.160        0.740
+        C iv 1548, 1550                        2.912730        0.65           12.643             0.044     11.268       0.800
+        C iv 1548, 1550                        2.91318         2.43           11.895             0.401     9.656        3.912
+                                                                                                       Continue on the next page
+
+                                                                                                                Article number, page 15 of 19
+                                                    A&A proofs: manuscript no. 00main_aa
+
+                                Table A.1. Parameters obtained from the fit of all detected metal transitions with
+                                λ > 603 nm. The first column reports the ionic transitions. The second and third
+                                columns report the redshift position of the Voigt component with its uncertainty.
+                                Fourth and fifth columns contain the logarithmic column density and its uncer-
+                                tainty. Sixth and seventh columns report the Doppler b-parameter and its uncer-
+                                tainty.
+                                                                                              
+                        Transition                         z             σz         log N/cm−2        σlogN        b          σb
+                                                                     [1 × 10−5 ]                                [km s−1 ]   [km s−1 ]
+           C iv 1548, 1550                           2.91344         2.13           13.128            0.043     29.411      1.403
+           C iv 1548, 1550                           2.91354         1.15           12.653            0.114     9.038       1.399
+           C iv 1548, 1550                           2.913694        0.41           12.765            0.052     6.464       0.261
+           C iv 1548, 1550                           3.01060         5.27           12.941            0.114     20.110      3.115
+           C iv 1548, 1550                           3.01077         2.45           12.279            0.440     8.986       2.746
+           C iv 1548, 1550                           3.01097         2.73           12.475            0.136     11.209      2.337
+           C iv 1548, 1550                           3.12690         4.90           13.235            0.085     24.354      2.385
+           C iv 1548, 1550                           3.127032        0.77           12.571            0.135     9.130       0.926
+           C iv 1548, 1550                           3.12727         1.75           12.745            0.178     13.388      1.442
+           C iv 1548, 1550                           3.128909        0.40           12.394            0.022     9.451       0.630
+           Si ii 1190, 1193, 1260, 1304, 1526        3.166417        0.27           12.409            0.021     5.363       0.356
+           Al ii 1670                                3.16647         1.12           11.755            0.066     12.811      1.746
+           C iv 1548, 1550                           3.166501        0.50           12.336            0.039     8.654       0.640
+           Si ii 1526                                3.166957        0.90           12.385            0.027     12.800      0.948
+           Al ii 1670                                3.166965        0.70           11.644            0.028     11.659      0.906
+           C iv 1548, 1550                           3.167111        0.57           13.350            0.006     37.359      0.718
+           C iv 1548, 1550                           3.16986         1.45           11.573            0.210     4.864       1.901
+           C iv 1548, 1550                           3.17016         1.00           12.503            0.056     9.966       1.039
+           C iv 1548, 1550                           3.17046         1.50           11.869            0.283     3.701       1.193
+           C iv 1548, 1550                           3.17056         1.73           12.181            0.186     5.507       1.534
+           C iv 1548, 1550                           3.170889        0.80           13.074            0.011     27.625      0.767
+           C iv 1548, 1550                           3.17093         1.43           12.202            0.232     6.461       1.482
+           C iv 1548, 1550                           3.171157        0.23           13.341            0.057     10.086      0.506
+           C iv 1548, 1550                           3.17184         1.57           12.710            0.026     26.687      2.057
+           C iv 1548, 1550                           3.17214         4.76           11.781            0.187     9.757       4.776
+           C iv 1548, 1550                           3.172948        0.54           12.485            0.030     8.993       0.599
+           C iv 1548, 1550                           3.173405        0.43           13.086            0.009     20.806      0.570
+           C iv 1548, 1550                           3.17397         1.02           12.143            0.059     7.459       1.141
+           C iv 1548, 1550                           3.17419         2.13           11.708            0.148     6.211       2.157
+           C iv 1548, 1550                           3.174690        0.80           12.861            0.034     10.919      0.649
+           C iv 1548, 1550                           3.174912        0.34           12.916            0.033     7.828       0.338
+           C iv 1548, 1550                           3.17536         2.35           13.294            0.068     22.115      2.337
+           C iv 1548, 1550                           3.175694        0.68           12.957            0.107     11.871      1.333
+           C iv 1548, 1550                           3.17596         1.49           12.537            0.155     10.011      1.851
+           C iv 1548, 1550                           3.28575         1.64           12.219            0.060     13.116      2.019
+           C iv 1548, 1550                           3.28617         1.10           12.582            0.059     13.463      1.357
+           C iv 1548, 1550                           3.286672        0.74           13.027            0.032     21.250      1.770
+           C iv 1548, 1550                           3.287079        0.51           12.896            0.040     9.966       0.577
+           C iv 1548, 1550                           3.28733         1.18           12.543            0.058     9.895       1.105
+           C iv 1548, 1550                           3.293307        0.28           12.504            0.013     8.029       0.278
+           Si iv 1393, 1402                          3.334303        0.32           11.418            0.119     4.044       0.633
+           C iv 1548, 1550                           3.334325        0.50           12.293            0.213     8.369       1.540
+           Si iv 1393, 1402                          3.33456         1.47           12.551            0.051     18.584      2.044
+           C iv 1548, 1550                           3.33461         1.49           12.978            0.089     21.013      4.118
+           Si iv 1393, 1402                          3.334662        0.50           10.962            0.159     2.658       0.778
+           Si iv 1393, 1402                          3.334951        0.54           11.738            0.017     11.749      0.525
+           Si iv 1393, 1402                          3.335219        0.44           12.281            0.056     8.025       0.496
+           C iv 1548, 1550                           3.335228        0.57           12.617            0.013     16.343      0.557
+           Al ii 1670                                3.335367        0.12           11.603            0.026     4.390       0.188
+           Si ii 1526                                3.335367        0.12           12.805            0.021     4.057       0.141
+           Si iv 1393, 1402                          3.335380        0.50           11.287            0.166     3.373       0.714
+           C iv 1548, 1550                           3.33548         4.42           12.443            0.572     12.199      3.604
+           Si iv 1393, 1402                          3.335490        0.96           12.645            0.027     14.589      0.767
+                                                                                                            Continue on the next page
+
+Article number, page 16 of 19
+                             A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+                   Table A.1. Parameters obtained from the fit of all detected metal transitions with
+                   λ > 603 nm. The first column reports the ionic transitions. The second and third
+                   columns report the redshift position of the Voigt component with its uncertainty.
+                   Fourth and fifth columns contain the logarithmic column density and its uncer-
+                   tainty. Sixth and seventh columns report the Doppler b-parameter and its uncer-
+                   tainty.
+                                                                                 
+           Transition                         z             σz         log N/cm−2        σlogN        b           σb
+                                                        [1 × 10−5 ]                                [km s−1 ]    [km s−1 ]
+Al ii 1670                              3.335532        0.52           11.713            0.024     9.875        0.584
+Si ii 1526                              3.335532        0.52           12.858            0.021     9.309        0.488
+C iv 1548, 1550                         3.335914        0.70           12.750            0.023     16.190       0.990
+Si iv 1393, 1402                        3.335956        0.73           11.851            0.045     10.186       1.149
+C iv 1548, 1550                         3.38587         1.37           11.927            0.314     5.616        4.883
+C iv 1548, 1550                         3.486931        0.66           12.370            0.136     7.867        1.419
+Si iv 1393, 1402                        3.487848        0.34           11.988            0.041     5.634        0.485
+C iv 1548, 1550                         3.487848        0.68           12.278            0.106     5.901        0.868
+C iv 1548, 1550                         3.48814         6.41           13.283            0.083     23.026       2.761
+Si iv 1393, 1402                        3.48815         1.56           12.607            0.055     12.240       1.181
+Si iv 1393, 1402                        3.488320        0.22           11.953            0.089     2.990        0.384
+C iv 1548, 1550                         3.488322        0.87           12.320            0.676     4.645        2.099
+Si iv 1393, 1402                        3.488415        0.80           12.817            0.039     9.322        0.388
+C iv 1548, 1550                         3.48842         4.79           12.908            0.345     8.884        3.234
+C iv 1548, 1550                         3.48984         1.39           12.611            0.051     12.046       1.563
+Si iv 1393, 1402                        3.489858        0.65           11.669            0.033     7.802        0.804
+C iv 1548, 1550                         3.49049         2.43           12.413            0.129     14.553       5.219
+C iv 1548, 1550                         3.58757         2.47           12.348            0.045     20.347       2.494
+C iv 1548, 1550                         3.588900        0.48           12.321            0.153     7.428        1.122
+C iv 1548, 1550                         3.58904         1.49           12.897            0.015     38.239       1.613
+C iv 1548, 1550                         3.58973         1.93           12.001            0.052     13.181       1.942
+C iv 1548, 1550                         3.58978         4.23           12.027            0.092     16.131       3.930
+C iv 1548, 1550                         3.59860         1.42           12.157            0.065     13.409       2.583
+C iv 1548, 1550                         3.60138         2.31           12.744            0.108     11.691       1.222
+C iv 1548, 1550                         3.60177         3.61           13.323            0.180     15.903       2.943
+Si iv 1393, 1402                        3.601972        0.28           11.950            0.022     5.156        0.341
+C iv 1548, 1550                         3.601976        0.19           12.725            0.064     5.488        0.354
+C iv 1548, 1550                         3.60213         1.08           12.632            0.021     19.093       1.114
+C iv 1548, 1550                         3.603594        0.40           12.123            0.039     4.698        0.607
+C ii 1334                               3.63199         1.59           12.430            0.049     11.481       1.378
+Fe ii 1608                              3.63211         1.23           12.715            0.037     14.608       1.681
+C ii 1334                               3.632238        0.13           12.837            0.006     6.598        0.115
+O i 1302                                3.63224         1.12           12.802            0.117     7.089        1.428
+Si iv 1393, 1402                        3.63227         2.43           12.685            0.027     32.986       2.545
+C iv 1548, 1550                         3.63228         1.67           12.898            0.039     15.635       1.708
+Al ii 1670                              3.63230         1.35           11.591            0.147     11.493       1.855
+Si iv 1393, 1402                        3.632306        0.31           12.424            0.032     8.032        0.354
+Si ii 1304, 1526                        3.63230         1.52           12.466            0.045     11.605       1.119
+C ii 1334                               3.632341        0.25           12.992            0.006     13.940       0.224
+C ii 1334                               3.632393        0.61           12.373            0.261     4.389        0.843
+Si ii 1304, 1526                        3.632394        0.66           11.236            0.256     1.320        1.081
+O i 1302                                3.632396        0.75           12.659            0.171     4.616        0.796
+O i 1302                                3.63261         3.06           13.376            0.075     18.343       3.556
+Si ii 1304, 1526                        3.632720        0.30           11.990            0.048     2.815        0.400
+O i 1302                                3.632723        0.10           13.121            0.023     3.803        0.127
+C ii 1334                               3.632727        0.11           12.823            0.016     4.454        0.115
+Al ii 1670                              3.632753        0.65           10.624            0.193     2.666        0.999
+C ii 1334                               3.63296         1.04           12.304            0.096     5.001        1.009
+O i 1302                                3.632977        0.69           12.488            0.181     5.160        1.023
+C ii 1334                               3.63311         1.04           12.284            0.186     4.823        1.492
+Al ii 1670                              3.63315         6.85           11.122            0.100     16.002       3.569
+Si iv 1393, 1402                        3.633185        0.61           12.506            0.028     8.949        0.556
+C iv 1548, 1550                         3.63318         1.78           13.084            0.060     12.195       1.070
+                                                                                               Continue on the next page
+
+                                                                                                        Article number, page 17 of 19
+                                                    A&A proofs: manuscript no. 00main_aa
+
+                                Table A.1. Parameters obtained from the fit of all detected metal transitions with
+                                λ > 603 nm. The first column reports the ionic transitions. The second and third
+                                columns report the redshift position of the Voigt component with its uncertainty.
+                                Fourth and fifth columns contain the logarithmic column density and its uncer-
+                                tainty. Sixth and seventh columns report the Doppler b-parameter and its uncer-
+                                tainty.
+                                                                                              
+                        Transition                         z             σz         log N/cm−2        σlogN        b          σb
+                                                                     [1 × 10−5 ]                                [km s−1 ]   [km s−1 ]
+           C ii 1334                                 3.63326         1.10           12.477            0.095     5.882       1.091
+           O i 1302                                  3.633274        0.30           12.506            0.076     3.068       0.351
+           O i 1302                                  3.633357        0.80           13.066            0.013     19.848      0.680
+           C iv 1548, 1550                           3.633494        0.12           13.416            0.044     6.122       0.249
+           Si iv 1393, 1402                          3.6335000       0.08           13.032            0.024     5.079       0.139
+           Si ii 1304, 1526                          3.633510        0.51           11.478            0.124     1.025       0.951
+           C ii 1334                                 3.633522        0.45           13.077            0.029     7.407       0.448
+           O i 1302                                  3.63352         1.06           13.157            0.267     6.425       1.284
+           Al ii 1670                                3.633538        0.70           11.263            0.151     5.338       0.858
+           C iv 1548, 1550                           3.63360         2.02           13.519            0.055     14.129      0.752
+           Si iv 1393, 1402                          3.633609        0.87           13.073            0.027     12.083      0.382
+           O i 1302                                  3.633681        0.72           12.837            0.519     3.126       0.960
+           Si ii 1304, 1526                          3.63368         2.09           12.384            0.211     8.106       3.056
+           Al ii 1670                                3.633699        0.48           11.208            0.127     4.574       0.611
+           C ii 1334                                 3.633699        0.27           13.025            0.041     5.631       0.347
+           O i 1302                                  3.633766        0.12           13.069            0.007     5.436       0.111
+           Al ii 1670                                3.633880        0.75           11.268            0.349     5.869       2.170
+           C ii 1334                                 3.633884        0.13           13.415            0.009     6.534       0.130
+           Fe ii 1608                                3.633888        0.62           12.275            0.076     3.477       0.955
+           O i 1302                                  3.63389         1.21           13.602            0.106     5.683       0.421
+           Si ii 1304, 1526                          3.633891        0.42           12.630            0.037     5.495       0.305
+           C ii 1334                                 3.634066        0.84           11.629            0.136     2.893       1.038
+           C iv 1548, 1550                           3.66797         1.06           12.558            0.079     10.854      2.198
+           C iv 1548, 1550                           3.668310        0.83           12.507            0.043     8.492       0.724
+           Si iv 1393, 1402                          3.707394        0.41           11.773            0.047     4.329       0.362
+           Si iv 1393, 1402                          3.707592        0.45           12.134            0.110     8.217       0.910
+           C iv 1548, 1550                           3.707634        0.73           12.769            0.015     17.691      0.749
+           Si iv 1393, 1402                          3.70787         4.65           12.311            0.099     20.498      4.312
+           C iv 1548, 1550                           3.70800         1.54           13.297            0.018     28.860      0.955
+           C iv 1548, 1550                           3.70869         1.59           12.557            0.094     13.005      1.509
+           C iv 1548, 1550                           3.78479         1.06           12.856            0.023     15.534      0.612
+           Si iv 1393, 1402                          3.784828        0.33           12.043            0.017     7.777       0.399
+           C iv 1548, 1550                           3.784896        0.20           12.570            0.034     4.906       0.254
+           C iv 1548, 1550                           3.79516         2.10           12.255            0.128     8.989       2.560
+           C iv 1548, 1550                           3.79568         3.99           12.990            0.096     19.425      3.161
+           C iv 1548, 1550                           3.79612         4.27           12.173            0.100     13.856      3.487
+           C iv 1548, 1550                           3.837585        0.80           11.889            0.254     4.680       1.432
+           Si iv 1393, 1402                          3.837603        0.74           11.516            0.042     5.939       0.741
+           C iv 1548, 1550                           3.83779         2.14           12.744            0.072     16.676      2.851
+           C iv 1548, 1550                           3.83816         1.35           11.995            0.152     7.026       1.576
+           C iv 1548, 1550                           3.83867         6.33           12.941            0.171     15.501      2.524
+           Si iv 1393, 1402                          3.838675        0.68           12.010            0.030     10.330      0.962
+           C iv 1548, 1550                           3.839101        0.32           12.754            0.010     11.559      0.316
+           C iv 1548, 1550                           3.84380         1.15           11.899            0.056     7.427       1.233
+           C iv 1548, 1550                           3.845443        0.43           12.598            0.018     9.369       0.453
+           C iv 1548, 1550                           3.84625         1.04           12.648            0.021     16.865      0.979
+           C iv 1548, 1550                           3.84683         3.12           11.904            0.099     10.730      2.798
+           C iv 1548, 1550                           3.862214        0.56           12.339            0.028     9.058       0.798
+           C iv 1548, 1550                           3.897837        0.29           12.856            0.007     14.606      0.300
+           C iv 1548, 1550                           3.90051         2.39           12.463            0.109     21.360      6.125
+           C iv 1548, 1550                           3.90220         2.63           12.319            0.091     9.651       1.526
+           C iv 1548, 1550                           3.902256        0.77           11.204            0.372     1.000       1.738
+           C iv 1548, 1550                           3.903427        0.60           12.320            0.033     7.570       0.802
+                                                                                                            Continue on the next page
+
+Article number, page 18 of 19
+                            A. Trost et al.: The ESPRESSO Redshift Drift Experiment I
+
+                  Table A.1. Parameters obtained from the fit of all detected metal transitions with
+                  λ > 603 nm. The first column reports the ionic transitions. The second and third
+                  columns report the redshift position of the Voigt component with its uncertainty.
+                  Fourth and fifth columns contain the logarithmic column density and its uncer-
+                  tainty. Sixth and seventh columns report the Doppler b-parameter and its uncer-
+                  tainty.
+                                                                                
+           Transition                        z             σz         log N/cm−2        σlogN        b           σb
+                                                       [1 × 10−5 ]                                [km s−1 ]    [km s−1 ]
+C iv 1548, 1550                        3.904377        0.57           12.367            0.026     8.343        0.669
+C iv 1548, 1550                        3.904716        0.15           12.953            0.006     7.675        0.138
+
+
+
+
+                                                                                                       Article number, page 19 of 19
+

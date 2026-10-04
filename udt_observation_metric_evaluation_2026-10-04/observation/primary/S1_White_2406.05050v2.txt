@@ -1,0 +1,1226 @@
+                                                                                                                                                                    DES-2024-0831
+                                                                                                                                                                    FERMILAB-PUB-24-0293-PPD
+                                               MNRAS 000, 1–14 (2024)                                              Preprint 21 August 2024             Compiled using MNRAS LATEX style file v3.0
+
+
+
+
+                                               The Dark Energy Survey Supernova Program: Slow supernovae show
+                                               cosmological time dilation out to 𝑧 ∼ 1.
+                                               R. M. T. White,1★ T. M. Davis,1 G. F. Lewis,2 D. Brout,3 L. Galbany,4,5 K. Glazebrook,6
+                                               S. R. Hinton,1 J. Lee,7 C. Lidman,8,9 A. Möller,6 M. Sako,7 D. Scolnic,10 M. Smith,11
+                                               M. Sullivan,11 B. O. Sánchez,10,48 P. Shah,12 M. Vincenzi,13,11 P. Wiseman,11 T. M. C. Abbott,14
+                                               M. Aguena,15 S. Allam,16 F. Andrade-Oliveira,17,15 J. Asorey,18 D. Bacon,13 S. Bocquet,19 D. Brooks,12
+arXiv:2406.05050v2 [astro-ph.CO] 20 Aug 2024
+
+
+
+
+                                               E. Buckley-Geer,20,16 D. L. Burke,21,22 A. Carnero Rosell,23,15 D. Carollo,24 J. Carretero,25
+                                               L. N. da Costa,15 M. E. S. Pereira,26 J. De Vicente,27 S. Desai,28 H. T. Diehl,16 S. Everett,29
+                                               I. Ferrero,30 B. Flaugher,16 J. Frieman,16,31 J. García-Bellido,32 E. Gaztanaga,4,13,5 G. Giannini,25,31
+                                               R. A. Gruendl,33,34 D. L. Hollowood,35 K. Honscheid,36,37 D. J. James,53,54 R. Kessler,20,31
+                                               K. Kuehn,38,39 O. Lahav,12 S. Lee,29 M. Lima,40,15 J. L. Marshall,41 J. Mena-Fernández,42
+                                               R. Miquel,43,25 J. Myles,44 R. C. Nichol,13 R. L. C. Ogando,45 A. Palmese,46 A. Pieres,15,45
+                                               A. A. Plazas Malagón,21,22 A. K. Romer,47 E. Sanchez,27 D. Sanchez Cid,27 M. Schubnell,49
+                                               E. Suchyta,50 G. Tarle,49 B. E. Tucker,9 A. R. Walker,14 and N. Weaverdyck51,52
+                                                                                                           (DES Collaboration)
+
+                                               Affiliations are listed at the end of the paper.
+
+
+
+                                               Accepted XXX. Received YYY; in original form ZZZ
+
+
+
+                                               ABSTRACT
+                                               We present a precise measurement of cosmological time dilation using the light curves of 1504 type Ia supernovae from the
+                                               Dark Energy Survey spanning a redshift range 0.1 ≲ 𝑧 ≲ 1.2. We find that the width of supernova light curves is proportional
+                                               to (1 + 𝑧), as expected for time dilation due to the expansion of the Universe. Assuming type Ia supernovae light curves are
+                                               emitted with a consistent duration Δ𝑡em , and parameterising the observed duration as Δ𝑡 obs = Δ𝑡em (1 + 𝑧) 𝑏 , we fit for the form of
+                                               time dilation using two methods. Firstly, we find that a power of 𝑏 ≈ 1 minimises the flux scatter in stacked subsamples of light
+                                               curves across different redshifts. Secondly, we fit each target supernova to a stacked light curve (stacking all supernovae with
+                                               observed bandpasses matching that of the target light curve) and find 𝑏 = 1.003 ± 0.005 (stat) ± 0.010 (sys). Thanks to the large
+                                               number of supernovae and large redshift-range of the sample, this analysis gives the most precise measurement of cosmological
+                                               time dilation to date, ruling out any non-time-dilating cosmological models at very high significance.
+                                               Key words: supernovae: general – cosmology: observations
+
+
+
+                                               1 INTRODUCTION                                                               by Rust (1974). One of the first observational hints of time dilation
+                                                                                                                            was the observation by Piran (1992) and Norris et al. (1994) that the
+                                               Time dilation is a fundamental implication of Einstein’s theory of
+                                                                                                                            duration of gamma-ray bursts (GRBs) was inversely proportional to
+                                               relativity in an expanding Universe — the observed duration of an
+                                                                                                                            their brightness – they used this to argue that at least some GRBs
+                                               event, Δ𝑡 obs , should be longer than the intrinsic emitted (or rest-
+                                                                                                                            must be cosmological. The first measurements of cosmological time-
+                                               frame) duration, Δ𝑡 em , by a factor of one plus the observed redshift,
+                                                                                                                            dilation using supernovae were made by Leibundgut et al. (1996) for
+                                               𝑧,
+                                                                                                                            a single Type Ia supernova (SN Ia) at 𝑧 = 0.479 and Goldhaber et al.
+                                               Δ𝑡obs = Δ𝑡 em (1 + 𝑧).                                              (1)      (1997) for seven supernovae at 0.3 < 𝑧 < 0.5. Most relevant to this
+                                                                                                                            work, we take Goldhaber et al. (2001) as the current state of the art
+                                               The idea of using time dilation to test the hypothesis that the Universe     in identifying cosmological time dilation in SN Ia photometry. They
+                                               is expanding dates back as far as Wilson (1939) and was revisited            used 35 supernovae in the redshift range 0.30 ≤ 𝑧 ≤ 0.70, to test a
+                                                                                                                            model with a factor (1 + 𝑧) 𝑏 time dilation and found 𝑏 ∼ 1.07 ± 0.06.
+
+                                               ★ E-mail:ryan.white@uq.edu.au                                                  To avoid degeneracy between the natural variation of light-curve
+
+                                               © 2024 The Authors
+2      White et al.
+width and time dilation, the evolution of spectral features of high-𝑧         This paper is arranged as follows. In Section 2 we discuss the use
+SNe Ia was used to measure time dilation by Riess et al. (1997), Foley     of type Ia supernovae as standard clocks, and the challenges that
+et al. (2005), and Blondin et al. (2008). The first two of these studies   need to be taken into account when comparing SNe Ia light curves
+found inconsistency with no time dilation at the 96.4% confidence          observed in different bands across different redshifts. In Section 3, we
+level (for SN1996bj) and 99% (for SN1997ex) respectively, and the          present the data used in this study, while Section 4 we describe our
+third finding 𝑏 = 0.97 ± 0.10. Most recently, Lewis & Brewer (2023)        approach of defining a reference light curve and the determination of
+inferred 𝑏 = 1.28+0.28
+                    −0.29
+                          using the variability of 190 quasars out to      the redshift dependence of the time dilation signal. We discuss our
+𝑧 ∼ 4. Despite these successes, there remains continued discussion         results in Section 5 and conclude in Section 6 that the null hypothesis
+of hybrid or static-universe models such as Tired Light (Zwicky 1929;      of no time dilation is inconsistent with the data.
+Gupta 2023) that do not predict expansion-induced time dilation.
+   In this study, we measure cosmological time dilation using SNe Ia
+from the full 5-year sample released by the Dark Energy Survey             2 TYPE IA SUPERNOVAE AS STANDARD CLOCKS
+(DES) (DES Collaboration et al. 2024), which contains ∼ 1500 SN Ia
+spanning the redshift range 0.1 ≲ 𝑧 ≲ 1.2 — significantly larger and       Any investigation into the physics at large length scales in the uni-
+higher-redshift than any sample of supernovae previously used for a        verse relies on known quantities, be they standard candles, rulers,
+time-dilation measurement. Such a large sample of SNe is important         sirens, or clocks. SNe Ia have long fit the bill of a standardisable can-
+in reducing statistical uncertainty and such a high-redshift sample        dle on the basis of their extreme brightness and consistency (Tripp
+is the ideal regime to robustly identify time dilation. Over half the      1998; Müller-Bravo et al. 2022; Scolnic et al. 2023), allowing their
+DES-SN5YR sample are at 𝑧 > 0.5, compared to only 12% in the               observation over cosmic distances with only little uncertainty in their
+previous gold-standard Pantheon+ sample (Brout 2019) and 37% in            intrinsic properties. As SNe Ia are the explosions of a white dwarf
+the Goldhaber analysis (Goldhaber et al. 2001). Therefore the DES          approaching the Chandrasekhar limit (Hoyle & Fowler 1960; Ruiter
+sample should have observed light-curve durations more than 1.5            2019), their properties are reasonably uniform across their popula-
+times longer than their rest frame durations (up to 2.2 times longer       tion compared to other SN types; not only are they standardisable in
+for those at 𝑧 ∼ 1.2). This means their time dilation signal should be     brightness, but also in time (Phillips 1993; Leibundgut et al. 1996).
+significantly larger than the intrinsic width variation expected due to    Hence, the observed duration of SN Ia explosions are well suited
+SNe Ia diversity in their subtypes.                                        to investigating time dilation as a result of an expanding universe
+   We test the model that time dilation occurs according to,               (Wilson 1939; Rust 1974).
+                                                                              The presence of a time dilation signal in SNe Ia data tests the gen-
+Δ𝑡 obs = Δ𝑡 em (1 + 𝑧) 𝑏 .                                          (2)    eral relativistic prediction of an expanding universe having a factor
+If standard time dilation is true we should find 𝑏 = 1. If no time         of (1 + 𝑧) time dilation (Wilson 1939; Blondin et al. 2008). This
+dilation occurs we should find 𝑏 = 0.                                      signal needs to be corrected for in supernova cosmology analyses
+   For this work we aim to keep supernova modelling assumptions to         (Leibundgut & Sullivan 2018; Carr et al. 2022) and so conclusively
+a minimum to avoid circularity in our arguments (because most mod-         quantifying the effect of time dilation is foundational to our cos-
+els of supernova light curves are generated assuming time-dilation         mological model, especially considering the continued discussion of
+occurs). We therefore take two data-driven approaches to measuring         hybrid or static-universe models such as Tired Light (Zwicky 1929;
+time dilation:                                                             Gupta 2023) that do not predict expansion-induced time dilation.
+
+   (i) Firstly, we simply take all the light curves, divide their time
+axis by (1 + 𝑧) 𝑏 relative to the time at peak brightness, and find the    2.1 The importance of colour
+value of 𝑏 that minimises the flux scatter.                                SNe Ia are known to spectrally evolve over the duration of their
+   (ii) Secondly, we ‘de-redshift’ all the supernova light curves and      ∼ 70 day bright period. The early-time spectrum is relatively blue
+stack them to define a data-driven SN Ia ‘reference light curve’. Then     with spectral features dominated by transitions from intermediate
+for each individual SN Ia we measure the observed light curve width        mass elements. The spectrum then reddens on the order of days from
+(𝑤) relative to the appropriate reference, Δ𝑡obs = 𝑤Δ𝑡 reference . This    heavier element emission lines and the cooling of the continuum
+allows us to see if the time-dilation occurs smoothly with redshift        (Filippenko 1997). Previous papers have described the redward evo-
+and find the best-fit value of 𝑏, where the expected result would be       lution of SNe Ia spectra over time (Takanashi et al. 2008; Blondin
+𝑤 = (1 + 𝑧) corresponding to 𝑏 = 1.                                        et al. 2012; Branch & Wheeler 2017), while photometric evidence
+   The first method is entirely data-driven and has no time-dilation       of this phenomenon is seen in the light curve peaking later in redder
+assumptions. In the second method for ease of computation we create        bandpasses than in bluer ones (as in Figure 1) for a light curve in
+the stacked reference by dividing the time axis of the light curves by     the rest-frame optical. As such, the photometric behaviour of a light
+(1+𝑧). This method therefore includes an assumption of time-dilation       curve is dependent on the rest-frame wavelength range observed.
+in the generation of the reference. Even though this assumption is         This means that, to a good approximation, a typical high-𝑧 SN Ia
+justified by the result of the first method, the second method should      observed in a redder band should have the same photometric and
+strictly be considered a consistency check. We note it is possible         spectral characteristics as a medium-𝑧 SN Ia observed in a bluer band
+to remove any circularity by keeping the reference light curves in         (Figure 2). Since our photometric bands are fixed, they sample dif-
+                                                                      𝑏   ferent rest-frame wavelength ranges as the supernovae are redshifted.
+their rest frame and fitting to 𝑤 = (1 + 𝑧 target )/(1 + 𝑧 reference ) ,
+                                                                           Therefore, it is critical to design a method that ensures time dilation
+which requires multiple different reference light curves per target
+                                                                           measurements compare light curves measured at similar rest-frame
+supernova; mathematically this is very similar to our approach but
+                                                                           wavelengths.1
+requires even more data. To further check that this method rules out
+no time dilation we re-test method two without de-redshifting the
+reference light curves; it dramatically fails the consistency check,       1 A note on language: The phrase ‘rest-frame’ wavelengths arises from the
+see Appendix C.                                                            usual assumption that redshifts are due to recession velocities. The fact red-
+
+MNRAS 000, 1–14 (2024)
+                                                                                                                             Time Dilation with DES SNe Ia                      3
+                                                                                                        light curves are all similar. One dissimilarity between SNe Ia is the
+                                                                                       r-band data      ‘stretch’ in their light curve – an intrinsic width variation of up to
+                                    1.0                                                i-band data      ∼ 20% that is separate from time dilation and strongly correlated
+                                                                                       z-band data
+                                                                                                        with the peak brightness (Phillips et al. 1999). With this amount of
+                                    0.8                                                                 data at such high redshifts we can simply treat this intrinsic variation
+                                                                                                        as noise. The stretch variation between SNe Ia essentially acts as
+ Normalised Flux
+
+
+
+
+                                                                                                        random (but intrinsic) scatter in the obtained widths of light curves.
+                                    0.6
+                                                                                                        This does not affect the overall trend of light curve width against
+                                                                                                        redshift. We therefore make no correction for the stretch-luminosity
+                                    0.4                                                                 relation in this work, to maintain maximal model-independence.
+                                                                                                           As long as there is a representative sample of the entire popula-
+                                    0.2
+                                                                                                        tion of SNe Ia at every redshift, this simple analysis should measure
+                                                                                                        time-dilation without bias. However, Malmquist bias can influence
+                                                                                                        the result since brighter supernovae have wider light curves. If faint
+                                    0.0                                                                 supernovae are under-represented at high-redshifts one might ex-
+                                                                                                        pect a slight bias toward a higher inferred time dilation at high-
+                                          −20        0          20           40           60            𝑧. Thankfully, the DES data are well-sampled to such high-𝑧 that
+                                                Time Since Peak Brightness, t − tpeak (days)
+                                                                                                        Malmquist bias has minimal impact on our results. Möller et al.
+                                                                                                        (2022) showed that the full stretch distribution is well represented in
+Figure 1. The normalised (in flux) light curve of a SN Ia at 𝑧 = 0.4754                                 the DES-SN5YR sample out to 𝑧 ∼ 1.1 (see also Fig. A2), meaning
+shows intrinsically broader light curves at redder wavelengths that tend to                             that the stretch-luminosity relation should have a negligible effect on
+peak later (at least in the optical regime observed across our dataset). The
+                                                                                                        our results.
+𝑥-axis represents time in the observer frame, and SALT3 model fits (solid
+lines) are overlaid onto the data in each band.
+                                                                                                           Previous studies (e.g. Nicolas et al. 2021) have also found that
+                                                                                                        the stretch distribution of the SN Ia population drifts slightly with
+                                                                                                        redshift (getting wider by ∼ 3% between 0.0 < 𝑧 < 1.4). Even though
+                                    1.0                                                                 we do not see this drift in the DES-SN5YR sample (see Fig. A2),
+                                                                                               DES g    we quantify the possible impact of this effect on our time dilation
+                                                                                               DES r    measurement in Appendix A and find it to be small.
+                                                                                               DES i
+ Relative Transmittance/Intensity
+
+
+
+
+                                    0.8
+                                                                                               z = z1
+                                                                                               z = z2   3 DATA
+                                    0.6
+                                                                                                        We exclusively use the data of the 1635 type Ia supernovae measured
+                                                                                                        by the Dark Energy Survey Supernova Program (DES Collaboration
+                                                                                                        et al. 2024). The DECam instrument on the 4m Blanco telescope at
+                                    0.4
+                                                                                                        the Cerro Tololo Inter-American Observatory (Flaugher et al. 2015)
+                                                                                                        observed most of the photometrically classified SN Ia candidates in
+                                                                                                        the 𝑔, 𝑟, 𝑖, and 𝑧 bands according to the criteria in Smith et al. (2020).
+                                    0.2
+                                                                                                        The flux is determined by difference imaging (Kessler et al. 2015).
+                                                                                                        High-redshift SNe Ia typically show negligible flux in the ultraviolet
+                                                                                                        wavelength region, so 𝑔 and 𝑟 band light curves are only useful for
+                                    0.0
+                                          400       500        600         700            800           SNe at 𝑧 ≲ 0.4 and 𝑧 ≲ 0.85 respectively (see DES Collaboration
+                                                             Wavelength (nm)                            et al. 2024, Fig. 2). The SALT3 (Kenworthy et al. 2021) template fits
+                                                                                                        with a cadence of 2-day time sampling in each band were available
+Figure 2. For a supernova at redshift 𝑧1 observed in a given filter, there exists                       for each SN candidate. We use these fits only to estimate the peak
+a higher redshift 𝑧2 > 𝑧1 such that another supernova at 𝑧2 observed in a                               flux of each supernova and the associated time of peak flux (given
+redder filter will have a similar rest frame effective wavelength as the nearer                         by the 𝐵-band maximum time in the observer frame) so that we
+supernova. We show here the spectrum of SN2001V (Matheson et al. 2008)                                  can normalize the light curves in brightness and in time relative
+at 𝑧1 ∼ 0.01 and again artificially redshifted to 𝑧2 ∼ 0.35. Here we can                                to the peak brightness. We otherwise discard the SALT supernova
+clearly see the Si II absorption line (615nm) redshifted from the 𝑟 band to                             information.
+roughly the same position along the bandwidth in the 𝑖 band. Overlaid are the                              We performed an initial quality cut on the sample of 1635 SNe Ia,
+transmission curves of the DES filters from Abbott et al. (2018) Fig. 1.                                requiring the probability of being a type Ia PROBIa > 0.5 as classified
+                                                                                                        with SuperNNova (Möller & de Boissière 2020; Möller et al. 2022;
+                                                                                                        Vincenzi et al. 2024). This kept the sample of usable light curves
+2.2 Stretch-Luminosity relation
+                                                                                                        high while removing possible type II supernova contaminants. We
+Our fitting methods are independent of individual supernova light                                       removed individual data points from each light curve that had an
+curve models and are based only on the assumption that supernova                                        error in their flux (FLUXCALERR2 for the flux value FLUXCAL) greater
+                                                                                                        than 20; this was done to restrict our fitting to the highest quality ob-
+                                                                                                        servations, particularly cutting those with very low signal-to-noise at
+shifts occur is not in question here (so it is fine to use (1 + 𝑧) to calculate
+matching rest-frame wavelengths, and this contains no time-dilation assump-
+tion). The question is whether that redshift arises due to a recession velocity,                        2 FLUXCALERR is the Poisson error on FLUXCAL, which is the variable used
+which would also cause time-dilation.                                                                   for flux in SNANA corresponding to mag = 27.5 − 2.5 log10 (FLUXCAL).
+
+                                                                                                                                                       MNRAS 000, 1–14 (2024)
+4                              White et al.
+                                                                                                          to any one target SN. The target SN is the SN whose width we are
+                                                                             104                          trying to measure.
+                         1.0
+                                                                                                             Since the shape of a SN Ia light curve is dependent on the rest-
+                                                                                                          frame effective wavelength at which it is observed (Fig. 1; see also
+                                                                                                          Takanashi et al. 2008; Blondin et al. 2012), the reference photometry
+                         0.8
+ Target SNe Redshift z
+
+
+
+
+                                                                                   Reference Population
+                                                                                                          must be composed only of light curves that have the same (or very
+                                                                                                          similar) intrinsic shape as the target SN. Hence, we must choose ref-
+                         0.6                                                                              erence photometry that samples the same rest-frame effective wave-
+                                                                             103
+                                                                                                          length as the target light curve. This effect is shown in Fig. 2, where,
+                                                                                                          for example, we might compare a low-𝑧 supernova in some band
+                         0.4                                                                              to a higher-𝑧 supernova observed in a redder band with the same
+                                                                                                          (or similar) rest frame effective wavelength. We can compare the
+                                                                                                          photometry between the two events provided that their rest-frame
+                         0.2
+                                                                                                          effective wavelength (and hence their light curve shape/evolution) is
+                                                                             102                          alike.
+                                 2−1     2−2        2−3          2−4   2−5                                   If we chose instead to fit each target light curve in some band
+                                               Width Factor, δ                                            against all of the photometry from that band, we would expect a non-
+                                                                                                          linear change in slope as a function of redshift on a width-vs-redshift
+Figure 3. For each of the SNe Ia in our sample, we constructed a reference                                plot. The explanation for this lies in the fact that SNe Ia spectra get
+light curve with a 𝛿 = 2 −𝑥 parameter according to Equation 3, with Δ𝜆 𝑓                                  redder over time; the light curves measured in a redder band are
+band FWHM. We counted how many data points populated the reference                                        intrinsically wider than those measured in a bluer band as shown
+curves (i.e. the number of points in Fig. 4 for example) changing 𝛿 in integer
+                                                                                                          in Fig. 1. Hence, with this hypothetical method (comparing to all
+steps of powers of 2. This plot shows the reference populations for a target
+                                                                                                          photometry), we would observe a bluer than average rest-frame curve
+SN measured in the observer frame 𝑖 band, and is largely similar for the
+different bands differing mainly by a linear shift on the vertical axis. That is,                         for a high redshift SNe which would bias the obtained width to an
+an analogous plot in a bluer band would see the colour distribution shifted                               intrinsically thinner value. Conversely, we would be biased towards
+downwards in target redshift and a redder band upwards.                                                   a wider (redder) than average width for low redshift supernovae. To
+                                                                                                          avoid this bias, we use the aforementioned method of only using
+                                                                                                          reference photometry with a similar rest-frame wavelength as our
+high redshift (whose observations had comparatively low FLUXCAL).                                         target light curve.
+In the analysis, we did not attempt to fit SNe light curve widths if                                         To find relevant light curves to populate the reference curve, we
+their light curve had fewer than 5 data points and if their reference                                     pick all light curves out of a calculated redshift range. To fit a single
+curve had fewer than 100 data points (discussed in Section 4). This                                       (target) SN light curve at redshift 𝑧 imaged in a band of central
+was done on a per-band basis; we estimated the width of each SN                                           wavelength 𝜆 𝑓 , we can populate the reference curve with SNe within
+light curve in each band where it satisfied these criteria. Individual                                    the redshift range
+light curves were also omitted from the analysis if the 𝜒2 width fitting                                  𝜆𝑟 (1 + 𝑧)    Δ𝜆 𝑓            𝜆𝑟 (1 + 𝑧)    Δ𝜆 𝑓
+did not converge. All together, after these quality cuts we were left                                                −𝛿      ≤ 1 + 𝑧𝑟 ≤            +𝛿                          (3)
+                                                                                                              𝜆𝑓        𝜆𝑓                  𝜆𝑓        𝜆𝑓
+with width measurements of 1504 unique SN Ia across the dataset.
+                                                                                                          whose photometry is measured in a band of central wavelength 𝜆𝑟 .
+                                                                                                          Here 𝛿 is a free parameter which, together with the band full width at
+                                                                                                          half maximum (FWHM) Δ𝜆 𝑓 , describe the acceptable wiggle room
+4 FITTING SUPERNOVA PHOTOMETRY TO A                                                                       in the relative band overlap. A derivation of this formula is given
+  REFERENCE LIGHT CURVE                                                                                   in Appendix B and a graphical representation of this construction is
+The photometric analysis in Goldhaber et al. (2001) relied funda-                                         shown on the left-side plots in Fig. 6.
+mentally on template fitting to measure the expansion-induced time                                           We show in Fig. 3 the number of points in the reference curves
+dilation signal in SNe Ia. With the wealth of data now available we                                       (hereafter referred to as reference population) for all of the DES SNe
+can in principle obtain the same dilation signal using the data alone,                                    with a variable 𝛿 parameter. Ideally, this 𝛿 parameter should be as
+independent of a light-curve template. Herein we describe such a                                          small as practical to ensure that the reference curve is consistent in
+template-independent method involving scaling the time axis of each                                       shape (i.e. the spread of rest frame effective wavelengths is small). In
+of the 1504 individual light curves to fit their own unique reference                                     practice, we find a value of 𝛿 = 2 −4 is the minimal value that provides
+curve composed of all the matching photometry in the DES dataset.                                         a large enough reference population for high/low redshift target SNe
+The time dilation signal in each light curve is the multiplicative in-                                    (on the order of ∼ 102 needed to satisfy the Section 3 criteria at
+verse of said scaling factor, and this can be found for each of the 1504                                  𝑧 ∼ 1.1). For medium range target SNe redshifts (in the context of
+SN Ia light curves in the data. This differs from a traditional template-                                 the DES-SN sample), we note that the reference population is large
+fitting method in that we do not assume the shape of a light curve                                        (∼ 103 ) even for 𝛿 ≲ 2 −4 .
+but instead let the data from other SNe compose the template-like                                            After populating the reference curve with data points we then nor-
+reference curve.                                                                                          malise the photometry in flux; as the curve is populated with the data
+                                                                                                          of several SNe at different redshifts, the curve must be homogeneous
+                                                                                                          in flux. To do this, we utilised the peak flux in the SALT3 model
+                                                                                                          light curves provided for each SNe, which is independent of the time
+4.1 Reference curve construction
+                                                                                                          dilation signal. The data in each constituent curve is normalised by
+The main functionality of this method is to use the photometric data                                      this value before being added to the reference. For convenience we
+of many SNe to automatically create a reference light curve unique                                        also use the time of peak brightness given by SALT3 as the reference
+
+MNRAS 000, 1–14 (2024)
+                                                                                                                                                    Time Dilation with DES SNe Ia             5
+
+                                     1.4                                                                                             0.150
+
+                                     1.2
+ Normalised Flux (Pre-Correction)
+
+
+
+
+                                                                                                         Reference Flux Dispersion
+                                                                                                                                     0.145
+                                     1.0
+
+                                     0.8
+                                                                                                                                     0.140
+                                     0.6
+
+                                     0.4                                                                                             0.135
+
+                                     0.2
+                                                                                                                                     0.130
+                                     0.0
+
+                                    −0.2
+                                     1.4                                           z ∼ 0.21 (r band)                                         −1.0   −0.5   0.0   0.5    1.0     1.5     2.0
+                                                                                                                                                                  b
+                                                                                   z ∼ 0.48 (i band)
+                                     1.2                                           z ∼ 0.74 (z band)
+ Normalised Flux (Corrected)
+
+
+
+
+                                                                                                        Figure 5. By scaling the reference photometry in time according to (1+𝑧) 𝑏 for
+                                     1.0                                                                some free parameter 𝑏, we find 𝑏 ∼ 1 minimises the reference flux dispersion
+                                                                                                        across the entire SNe sample. The reference flux dispersion represents the
+                                     0.8                                                                median dispersion of flux across the entire sample of normalised reference
+                                                                                                        light curves in each band (here averaged for the 𝑟𝑖𝑧 bands), where the errorbars
+                                     0.6                                                                indicate one standard deviation in these values. We note that this figure yields
+                                                                                                        a signal of (1 + 𝑧) time dilation in the DES dataset, independent of the rest
+                                     0.4
+                                                                                                        of the analysis.
+                                     0.2
+
+                                     0.0
+
+                                    −0.2
+                                           −20         0         20         40          60         80
+                                                 Time Since Peak Brightness, t − tpeak (days)           in time. Hence, finding the value of 𝑏 that minimises the flux scatter
+                                                                                                        gives us our correction factor.
+Figure 4. For a target SN Ia at 𝑧 ≃ 0.48, the 𝑖-band reference curve consists of                           To investigate this, we generated reference curves for each of the
+data from the 𝑟, 𝑖, and 𝑧 bands. These data are chosen at redshifts according                           target SNe per observing band and scaled the data in time according
+to equation (3) (and visually shown in the left plots of Fig. 6). Top: the data                         to the aforementioned relation in terms of 𝑏 (Fig. 4 shows this scaling
+in different bands are not in phase (in the observer frame). It is visually                             for 𝑏 = 1 as an example). Then, we binned the timeseries data into
+obvious that light curves appear wider in time at higher redshift. Bottom:                              30 equal-width time bins and found the standard deviation of the
+after a (1 + 𝑧) correction to the SN Ia light curves, we see a consistent trend                         flux within each bin. We calculated the median of these 30 standard
+across all bandpasses and time. This alone is evidence for some degree of                               deviations as a representative estimate of the total flux scatter for that
+time-dilation.                                                                                          reference curve with that tested 𝑏 value. We then took the median of
+                                                                                                        those results across all the SN reference curves as our estimate of the
+                                                                                                        dispersion for that 𝑏, which is shown in Fig. 5. That is, our reference
+point about which to stretch the light curves (see equation 5), and                                     flux dispersion is
+this parameter is also in the observer frame of reference. These are
+the only uses of SALT3 information and we expect that the same
+                                                                                                                                                                                              
+time dilation signal would be obtained in the data with any other                                       𝜎rf (𝑏) = Med {{Med(𝜎𝑖 𝑗 (𝑏))| ∀ 𝑗 ∈ (1, ..., 30)}| ∀𝑖 ∈ (1, ..., 𝑁sn )}
+consistent normalisation measures.                                                                                                                                                        (4)
+
+
+                                                                                                        for 𝑁sn supernova light curves in that band, and 𝜎𝑖 𝑗 (𝑏) being the
+4.2 First measure of time dilation: minimising scatter in the
+                                                                                                        flux standard deviation of the 𝑖th light curve in the 𝑗th timeseries
+    reference curve
+                                                                                                        bin. This process was repeated for each of the 𝑟𝑖𝑧 observing bands,
+After the flux of the reference curve is normalised, we see that the                                    omitting the 𝑔 band due to the smaller number of SNe. We crudely
+different bandpass data in the curve are temporally stretched (see the                                  estimate the error (for each 𝑏) in this method as being the standard
+colour gradient of the top plot in Fig. 4). As the redder bandpasses                                    deviation of the median dispersions across all light curves. We find
+are sampled at higher redshift, this is an immediate indication of time                                 an optimal scaling corresponding to 𝑏 ∼ 1 (Fig. 5) across the entire
+dilation. Without assuming our expected cosmological time dilation                                      dataset, which is the expected dilation factor of ∼ (1 + 𝑧).
+of (1 + 𝑧), we can scale the data in all of the reference curves by a                                      If there was no time dilation we would expect the minimum dis-
+factor of (1 + 𝑧 𝑗 ) 𝑏 , where 𝑧 𝑗 is the redshift of each constituent curve                            persion in the reference curve to be at 𝑏 ∼ 0 (i.e. no time scaling) in
+in a reference and 𝑏 is a free parameter. We posit that minimising                                      Fig. 5. The fact that we find 𝑏 ≈ 1 is evidence for time dilation of the
+the flux dispersion in the reference curve is analogous to finding the                                  expected form. This is a rough but completely model independent
+optimal temporal scaling, simultaneously minimising the dispersion                                      measure of time dilation and it is the paper’s first main result.
+
+                                                                                                                                                                       MNRAS 000, 1–14 (2024)
+6      White et al.
+4.3 Second measure of time dilation: Finding each light curve                  the width and the final error is the standard deviation in these widths.
+    width                                                                      To provide some measure of the error in the reference curve, we
+                                                                               imposed an error floor of 𝜎𝑚 (1 + 𝑧) on the Monte Carlo uncertainty,
+After constructing the reference curves for a target SN, we are ready
+                                                                               for 𝜎𝑚 representing the median (normalised) flux dispersion in the
+to fit for the width, 𝑤, of each individual target light curve and look
+                                                                               reference curve. The 𝜎𝑚 dependence is from our rationale that the
+for a trend with redshift. This method enables a more precise measure
+                                                                               fit width is only as good as the quality of the reference curve, and the
+of 𝑏.
+                                                                               (1 + 𝑧) dependence arises from our scaling of the reference curve.
+    We first normalise the target data to the peak flux using the SALT3
+                                                                                   An example of how a reference curve is created is shown in Fig. 4.
+fit (as with the reference curves). The free parameter in the fit is the
+                                                                               We note the difference in the reference curve timescale before and
+scaling parameter 1/𝑤, whereby changing this value would stretch
+                                                                               after (1 + 𝑧) correction, and the larger dispersion in flux between the
+and squash the data relative to 𝑡 peak (the time since peak flux) until
+                                                                               points at any one time prior to correction. Several examples of width
+the 𝜒2 is minimised. That is, we assume the SN Ia light curve of the           fitting and reference curve construction for low, medium, and high
+𝑖th supernova is of a mathematical form similar to that described in           redshift target SNe (in the context of the DES-SN sample) are shown
+Goldhaber et al. (2001),                                                       in Fig. 6.
+               𝑡 − 𝑡peak
+                        
+                                                                                   We note that while the width fitting for the whole dataset was calcu-
+𝐹𝑖 (𝑡) ≃ 𝑓𝑖                                                          (5)
+                   𝑤                                                           lated in all four DECam bands, only the 𝑖 band data encompasses the
+                                                                               entire redshift range of the DES-SN sample. Due to the spectral shift-
+and change 𝑤 until the data most closely matches the reference. Here,
+                                                                               ing inherent in redshifted data, the 𝑔 and 𝑟 filters are unable to detect
+ 𝑓𝑖 (𝑡) corresponds to the 𝑖th target light curve; 𝐹𝑖 (𝑡) corresponds to
+                                                                               SNe at sufficiently high redshift (𝑧 ≳ 0.4 and 𝑧 ≳ 0.85 respectively)
+the 𝑖th reference curve where each point is now scaled in time by
+                                                                               as the observed wavelengths shift to lower emitted wavelengths (see
+(1 + 𝑧) relative to 𝑡 peak as per the results of Section 4.2.
+                                                                               Fig. 2 of DES Collaboration et al. 2024) and become fainter as a re-
+    To fit the target light curve width using its reference curve, we
+                                                                               sult. Fig. 6 shows that fitting 𝑧 ≲ 0.2 SNe in the 𝑧-band would require
+minimised the 𝜒2 value of the differences in the target flux compared
+                                                                               negative redshifted SNe in the other bands to populate the reference;
+to the median reference flux in a narrow bin around time values of the
+                                                                               hence there is an inherent redshift floor for 𝑧-band fits leaving the
+target photometry. That is, for each target light curve we minimised
+                                                                               𝑖-band as the only suitable bandpass for the entire redshift range.
+                                                                   2
+        𝑁𝑝                                                                         The widths obtained in all four bands separately are shown in
+                         
+   2
+        ∑︁   𝑓𝑖 𝑗 − Med 𝐹𝑖 (𝑡) | ∀𝑡 ∈ [𝑡 𝑖 𝑗 /𝑤 − 𝜏, 𝑡 𝑖 𝑗 /𝑤 + 𝜏]
+𝜒𝑖 =                                                                  (6)      Fig. 7. We see the truncated 𝑔, 𝑟 and 𝑧 band data, and fit widths
+                                      𝜎𝑖2𝑗
+         𝑗                                                                     consistent with the expected (1 + 𝑧) relationship across all bands.
+for 𝑁 𝑝 number of points in the 𝑖th target SN light curve ( 𝑓𝑖 ). The          The averaged widths of all the bands are shown in Fig. 8, again
+points in the reference curve (𝐹𝑖 ) bin that are averaged and compared         showing excellent agreement with the (1 + 𝑧) expected theory.
+to each target SN flux value ( 𝑓𝑖 𝑗 – with error 𝜎𝑖 𝑗 ) are selected within        As mentioned in the introduction, this method has an element of
+the time range [𝑡 𝑖 𝑗 /𝑤 − 𝜏, 𝑡𝑖 𝑗 /𝑤 + 𝜏]; here 𝑡𝑖 𝑗 is the time since peak   circularity because we de-time-dilated the observed light curves to
+brightness of each target data point scaled by the fitted width 𝑤, and         generate each reference light curve. As a cross-check to ensure that
+𝜏 is the half bin width either side of the central time value 𝑡𝑖 𝑗 .           we are not just getting the answer we put in we repeated the analysis
+   During the fitting process, the bounds of this narrow bin around            without de-redshifting the data. This effectively makes the reference
+each time value changes as the target data is scaled in time but remains       light curves more noisy and wider (like the top plot of Fig. 4). If
+the same width. We chose a bin width, 2𝜏, of 4 rest-frame days (i.e.           time dilation is absent we should get a consistent 𝑏 = 0 fit in this
+±𝜏 = ±2 of a central value); ideally this would be as low as practical         case. However, if (1 + 𝑧) time dilation is present we should find a
+to maximise intrinsic similarity between the target data point position        slope inconsistent with 𝑏 = 0 and an intercept offset from 𝑤 = 1.0
+and the reference curve slice, but needs to be large enough to provide         (because the reference light curve will itself be time-dilated). We
+a sufficiently populated sample of the reference to compare to. We             find, as expected, that the 𝑏 = 0 result is excluded strongly by this
+find that a width of 4 days (just under the width of a minor tick span in      test (see Appendix C and Fig. C1).
+Fig. 4) is low enough that the reference curve does not significantly
+change in flux but still contains enough points even for high/low
+redshift target SNe with small reference populations. With this 𝜏 = 2
+                                                                               5 DISCUSSION
+value we find ≳ 50 data points per time slice at the highest and lowest
+redshifts, where a 𝜏 = 1 yields a prohibitively small ≲ 20 data points         As we see in Fig. 7, there is a clear and significant non-zero time
+per slice even in the most well sampled photometric band (𝑖-band).             dilation signature in the DES SN Ia dataset, conclusively ruling out
+   In fitting the data, we did not include any target SN data points that      any static universe models. Our method described in Section 4 detects
+extended past the maximum time value in the reference curve; the               a time dilation signature in all of the 𝑔, 𝑟, 𝑖, and 𝑧 DECam bandpasses
+late-time light curves of SNe dwindle slowly and are less constraining         as expected. The power-law fits to the data in each bandpass are all
+for width-measurements than those near the peak. We also omitted               consistent with the expected (1 + 𝑧) law to within 2𝜎.
+any points that had observation times prior to the first reference curve          Since there is a well documented stretch-luminosity relationship in
+point from the fitting procedure.                                              Ia light curves (Phillips 1993; Phillips et al. 1999; Kasen & Woosley
+   We note that this method of fitting is not fundamentally limited to         2007), it is possible that Malmquist bias could skew the data to larger
+target SN data with pre-peak brightness observations in each band.             widths at high redshift where we may not see the less-luminous
+Given enough target data (on the order of several well-spaced points           SNe. Regardless, this does not greatly influence the quality of our
+in time), the mapping of this data to the corresponding reference curve        fits since the DES SN data extend to such high redshifts that the
+phases is unique regardless of whether pre-peak data is available.             intrinsic dispersion in widths is significantly smaller than the time
+   The uncertainty in each estimated width was found via Monte                 dilation signal. In fact, we find that the standard deviation in the
+Carlo uncertainty propagation, where the target data was resampled             width residuals (i.e. of 𝑤 𝑖 − (1 + 𝑧 𝑖 ) 1.003 for all SNe) within Fig. 8
+200 times according to its Gaussian error; for each iteration we fit           is only ∼ 0.15 (which includes observational uncertainty as well as
+
+MNRAS 000, 1–14 (2024)
+                                                                                                                                        Time Dilation with DES SNe Ia      7
+
+                                    1.4        g Band                                                                                     Reference Photometry
+                                                                                                1.4
+                                               r Band                                                                                     Target Photometry (Obs. Frame)
+                                               i Band                                                                                     Target Photometry (Scaled)
+                                    1.2                                                         1.2
+                                               z Band
+
+
+                                    1.0                                                         1.0
+
+
+
+
+                                                                             Normalised Flux
+                                                                                                0.8
+                      Reference z
+
+
+                                    0.8
+
+                                                                                                0.6
+                                    0.6
+                                                                                                0.4
+
+                                    0.4
+                                                                                                0.2
+
+                                    0.2
+                                                                                                0.0
+
+
+                                    0.0                                                        −0.2
+                                       0.00   0.25     0.50    0.75   1.00                                  −10       0         10         20          30        40
+                                                     Target SNe z                                                      Time Since Peak Brightness (days)
+
+
+                                    1.4        g Band                                                                                     Reference Photometry
+                                                                                                1.4
+                                               r Band                                                                                     Target Photometry (Obs. Frame)
+                                               i Band                                                                                     Target Photometry (Scaled)
+                                    1.2                                                         1.2
+                                               z Band
+
+
+                                    1.0                                                         1.0
+                                                                             Normalised Flux
+
+
+
+
+                                                                                                0.8
+                      Reference z
+
+
+
+
+                                    0.8
+
+                                                                                                0.6
+                                    0.6
+                                                                                                0.4
+
+                                    0.4
+                                                                                                0.2
+
+                                    0.2
+                                                                                                0.0
+
+
+                                    0.0                                                        −0.2
+                                       0.00   0.25     0.50    0.75   1.00                            −20     −10        0         10        20          30      40
+                                                     Target SNe z                                                      Time Since Peak Brightness (days)
+
+
+                                    1.4        g Band                                                                                     Reference Photometry
+                                                                                                1.4
+                                               r Band                                                                                     Target Photometry (Obs. Frame)
+                                               i Band                                                                                     Target Photometry (Scaled)
+                                    1.2                                                         1.2
+                                               z Band
+
+
+                                    1.0                                                         1.0
+                                                                             Normalised Flux
+
+
+
+
+                                                                                                0.8
+                      Reference z
+
+
+
+
+                                    0.8
+
+                                                                                                0.6
+                                    0.6
+                                                                                                0.4
+
+                                    0.4
+                                                                                                0.2
+
+                                    0.2
+                                                                                                0.0
+
+
+                                    0.0                                                        −0.2
+                                       0.00   0.25     0.50    0.75   1.00                         −30      −20     −10       0       10        20       30       40
+                                                     Target SNe z                                                      Time Since Peak Brightness (days)
+
+
+Figure 6. We show the reference curve construction and subsequent target SN fit for 3 SNe at redshifts 𝑧 ≃ 0.22, 𝑧 ≃ 0.43, and 𝑧 ≃ 1.02 and in fitting bands
+𝑟, 𝑖, and 𝑧 respectively (in descending order). The left plots show the allowed ranges for reference curve SN sampling given the target redshift (and 𝛿 = 2 −4 ).
+The vertical line of dots is plotted at the target SN redshift, with each dot representing the redshift of a DES supernova (vertical axis). The dots that fall in
+the narrow coloured bands are the SNe that make up the reference population, as those data all share approximately the same rest-frame wavelength in their
+respective bands; boxes are plotted surrounding these regions to more clearly indicate the light curve colour samples that make up the reference curve. The right
+plots show the constructed (1 + 𝑧) time-scaled reference curve (small coloured points) with respect to the target SN photometry (blue points) and subsequent
+target photometry scaled on the time axis to fit the reference (best-fit widths of 1.42, 1.49, and 2.17 respectively). Due to the statistics associated with such
+large reference curve populations, the contribution of any individual reference point uncertainty to the overall reference curve uncertainty is negligible and not
+plotted; the uncertainty in the target data has a much higher contribution to the uncertainty in the fitting.
+                                                                                                                                      MNRAS 000, 1–14 (2024)
+8      White et al.
+
+                                  3.5
+                                              1+z                                              (1 + z)1.004±0.008
+                                              (1 + z)1.021±0.027
+                                                                                 g                                                            r
+                                  3.0
+                                              Data
+                                              Binned Data
+                                  2.5
+             Lightcurve width w
+
+
+
+
+                                  2.0
+
+
+                                  1.5
+
+
+                                  1.0
+
+
+                                  0.5
+                                  3.5
+                                              (1 + z)0.988±0.008                               (1 + z)0.997±0.008
+                                                                                 i                                                            z
+                                  3.0
+
+
+                                  2.5
+             Lightcurve width w
+
+
+
+
+                                  2.0
+
+
+                                  1.5
+
+
+                                  1.0
+
+
+                                  0.5
+                                        1.0    1.2         1.4      1.6   1.8   2.0   1.0       1.2         1.4      1.6         1.8         2.0
+                                                                   1+z                                              1+z
+
+
+Figure 7. Using the reference-scaling method described in Section 4.3, we plot the fitted SNe widths of light curves observed in the 𝑔, 𝑟, 𝑖, and 𝑧 bands (left to
+right, top down respectively). The lines of best fit (blue dashed) are in excellent agreement with the expected (1 + 𝑧) time dilation (black dotted). The binned
+data are purely to visualise rough trends in 50 data point bins. 361 SNe in the 𝑔 band passed the quality cuts described in Section 3, while the 𝑟 band has 1380
+SNe, the 𝑖 band 1465, and the 𝑧 band 1381. The reduced chi-square values, 𝜒𝜈2 , of each fit (left to right, top down) are 0.537, 0.729, 0.788 and 0.896 respectively.
+
+
+
+intrinsic stretch dispersion). At 𝑧 ∼ 1 we would expect a time dilation                dilation signature no matter the photometric band. This is in contrast
+factor of ∼ 2 and so the contribution of time dilation far outweighs                   to Goldhaber et al. (2001) who showed time dilation in the 𝐵-band
+the intrinsic light curve stretch in the supernova population.                         and suggested it would hold in the other bands (see also Wang et al.
+    Nicolas et al. (2021) (see also Howell et al. 2007) showed that                    2003). Fig. 9 compares the calculated widths in each band relative
+there is a 5𝜎 ‘redshift drift’ in the stretch of their unbiased multi-                 to the 𝑖-band sample (which has the most SNe of any DECam band).
+survey sample of SNe Ia; that is, higher redshift SNe Ia tend to be                    The apparent discrepancies toward high widths in the 𝑖 band might
+intrinsically wider. Although we do not see this trend in the DES-                     be explained by dust effects or noise domination in the observation of
+SN5YR sample, we nevertheless quantify how such a drift could                          high redshift supernovae (Möller et al. 2022, 2024). With that said,
+affect a time dilation measurement (Appendix A). Given that the                        we see generally broad agreement between the widths in the different
+drift is so small, we find its impact would be minimal even if it is                   bands as expected of our source wavelength-flexible model.
+hidden in the data (|Δ𝑏| ≲ 0.02).                                                         To avoid de-redshifting reference light curves we devised another
+    As a test of the robustness of our method, we reran all the width-                 method, similar in concept to method two above, that would yield a
+fitting code with a requirement of pre-peak observations in each light                 posterior distribution of 𝑏. This entailed generating a reference curve
+curve. At most, this changed the power law fit by Δ𝑏 = −0.004 for                      without first scaling it in time (as in the second method), and fitting
+the 𝑔 band. The calculated 𝑏 values in the other bands were increased                  target data with a free 𝑏 (as opposed to 𝑤) to the reference data of
+by one or two thousandths (including the averaged fit of Fig. 8), or                   each constituent band. That is,
+not at all. Interestingly, including this pre-peak restriction reduced                                          
+                                                                                                                   1 + 𝑧 target 𝑏
+                                                                                                                                  
+our number of unique SNe widths by only 24 in total. This reduction                    Δ𝑡 target = Δ𝑡 reference                                            (7)
+                                                                                                                  1 + 𝑧 reference
+does not let us conclusively say if this method is robust at fitting
+light curves without pre-peak data, and future analyses may look                       and we attempted this with the same 𝜒2 minimisation procedure as
+at purposefully degrading the dataset (e.g. by manually removing                       in equation (6). With this method we tried 1) separating the reference
+pre-peak data) to investigate this.                                                    data into the constituent bands, fitting the 𝜒2 to each band reference
+    Our method creates a unique reference light curve for each SN as                   and minimising the weighted sum of these 𝜒2 . The sum was weighted
+a function of bandpass and redshift, and so we are able to infer a time                according to how many points made up each constituent band ref-
+
+MNRAS 000, 1–14 (2024)
+                                                                                                          Time Dilation with DES SNe Ia                                       9
+
+                                  3.0
+                                              1+z
+                                              (1 + z)1.003±0.005
+                                                                                                                                               4
+                                              Data
+                                  2.5         Binned Data
+
+
+
+
+                                                                                                                                                   Number of Averaged Bands
+             Lightcurve width w
+
+
+
+
+                                                                                                                                               3
+                                  2.0
+
+
+
+
+                                  1.5
+                                                                                                                                               2
+
+
+
+                                  1.0
+
+                                                                                                                                               1
+
+
+                                  0.5
+                                        1.0          1.2           1.4          1.6                    1.8                 2.0
+                                                                              1+z
+
+Figure 8. We show here the width value for each SNe averaged across all available bands. Since cosmological time dilation is independent of the observed band
+of any SN, we are able to average the widths over observed bands to form a more robust estimate of the light curve width. This relationship of (1 + 𝑧) 1.003±0.005
+time dilation (reduced chi-square 𝜒𝜈2 ≃ 1.441) is comprised of the 1504 unique SNe across the 4 bandpasses, where the error bars here are the Gaussian
+propagation of the errors in each band. Points are coloured according to how many bandpasses were used in computing the averaged width. A linear model fit to
+the data recovers 𝑤 = (0.988 ± 0.016) (1 + 𝑧) + (0.020 ± 0.024) (with the same 𝜒𝜈2 to 4 significant figures), consistent with our power model fit above.
+
+
+
+erence curve, and this method is preferred as it assesses the fit to                SNe Ia from the Dark Energy Survey that met our quality cuts. We
+all bands fairly. We also tried 2) fitting 𝑏 using the 𝜒2 on the entire             make this detection with the most model-independent methods yet in
+scaled reference (i.e. all bands together), but this is not preferred as            the literature and with the largest survey of high redshift supernovae.
+the reference is not necessarily composed of points equally sampled
+from all bands and so can prefer fitting 𝑏 towards a single bands ref-
+erence (i.e. a particular redshift). This method was abandoned overall                For both methods, we create a ‘reference curve’ unique to each
+as we did not have enough data (even with the DES dataset) to ac-                   supernova (and each bandpass) which describes the expected light
+curately fit 𝜒2 values to each band. We expect that this procedure                  curve shape without accounting for the stretch variation associated
+would be viable in the future with an even larger SNe Ia dataset of                 with SN Ia subtypes. Doing this relied on the scale of the available
+a comparable redshift distribution, or by using a Bayesian approach                 DES data (the number of SNe, the frequency of imaging, and the
+(which will be the topic of future work). We instead performed the                  redshift range) and would not be possible with a significantly smaller
+analysis with flux-scatter-minimisation and width-fitting methods as                survey. Creating this reference curve only relies on the assumption
+the former does not rely on fitting target SN data and the latter fits to           that SNe Ia should be standard candles/clocks.
+a unified (in phase) reference curve composed of all available bands.
+   Finally, in the spirit of the results of Goldhaber et al. (2001),                   Using this reference curve we show an inherent preference of
+we similarly state that our method with the DES dataset would dis-                  ∼ (1 + 𝑧) 1 time dilation in the data, first by minimising the flux
+favour the null hypothesis of no cosmological time dilation to a                    scatter in the data via a redshift-dependent temporal scaling, and
+1.003/0.005 ≃ 200𝜎 significance. (If 𝜎 values were still meaningful                 then with a more traditional light curve width estimation. The latter
+at that extreme!) Our uncertainty estimate is a statistical uncertainty             allows for numerical estimates with uncertainty with which we obtain
+only; in Appendix A we look at a possible systematic effect due to                  a factor of (1+𝑧) 1.003±0.005 time dilation signature – the most precise
+evolution of the stretch of supernova light curves as a function of red-            constraint on cosmological time dilation yet.
+                                                             sys
+shift. We find it to be small, with a likely upper bound of 𝜎𝑏 ≃ 0.01.
+                                                   sys  stat
+Even with an upper limit to the uncertainty of 𝜎𝑏 +𝜎𝑏 ≃ 0.015 this
+remains the most precise constraint on cosmological time dilation.                     We discuss factors and choices that affect our fits and notably see
+                                                                                    no indication that Malmquist bias or light-curve stretch significantly
+                                                                                    impacts our results. Our results infer a cosmological time dilation
+                                                                                    signature aligning strongly with the expected theory, corroborating
+6 CONCLUSIONS
+                                                                                    past findings (Leibundgut et al. 1996; Goldhaber et al. 2001; Blondin
+Using two distinct methods, we have conclusively identified (1 + 𝑧)                 et al. 2008; Lewis & Brewer 2023) with more SNe and at a higher
+cosmological time dilation using the multi-band photometry of 1504                  redshift than ever before.
+
+                                                                                                                                      MNRAS 000, 1–14 (2024)
+10       White et al.
+
+                        3.0                                                       but are not limited to, the construction of DECam and other aspects
+                                             Raw Widths                           of collecting the data; data processing and calibration; developing
+                                                                                  broadly used methods, codes, and simulations; running the pipelines
+                                             Binned Widths
+                        2.5                                                       and validation tests; and promoting the science analysis.
+         g Band Width
+
+
+
+
+                        2.0
+                                                                                  ACKNOWLEDGEMENTS
+                        1.5                                                       RMTW, TMD, RCa, SH, acknowledge the support of an Australian
+                                                                                  Research Council Australian Laureate Fellowship (FL180100168)
+                                                                                  funded by the Australian Government. AM is supported by the ARC
+                        1.0                                                       Discovery Early Career Researcher Award (DECRA) project number
+                                                                                  DE230100055.
+                        3.0
+                                                                                     Funding for the DES Projects has been provided by the U.S. De-
+                                                                                  partment of Energy, the U.S. National Science Foundation, the Min-
+                                                                                  istry of Science and Education of Spain, the Science and Technology
+                        2.5
+                                                                                  Facilities Council of the United Kingdom, the Higher Education
+                                                                                  Funding Council for England, the National Center for Supercomput-
+         r Band Width
+
+
+
+
+                        2.0                                                       ing Applications at the University of Illinois at Urbana-Champaign,
+                                                                                  the Kavli Institute of Cosmological Physics at the University of
+                                                                                  Chicago, the Center for Cosmology and Astro-Particle Physics at
+                        1.5                                                       the Ohio State University, the Mitchell Institute for Fundamental
+                                                                                  Physics and Astronomy at Texas A&M University, Financiadora de
+                                                                                  Estudos e Projetos, Fundação Carlos Chagas Filho de Amparo à
+                        1.0                                                       Pesquisa do Estado do Rio de Janeiro, Conselho Nacional de Desen-
+                                                                                  volvimento Científico e Tecnológico and the Ministério da Ciência,
+                        3.0                                                       Tecnologia e Inovação, the Deutsche Forschungsgemeinschaft and
+                                                                                  the Collaborating Institutions in the Dark Energy Survey.
+                                                                                     The Collaborating Institutions are Argonne National Laboratory,
+                        2.5                                                       the University of California at Santa Cruz, the University of Cam-
+                                                                                  bridge, Centro de Investigaciones Energéticas, Medioambientales y
+         z Band Width
+
+
+
+
+                                                                                  Tecnológicas-Madrid, the University of Chicago, University Col-
+                        2.0                                                       lege London, the DES-Brazil Consortium, the University of Edin-
+                                                                                  burgh, the Eidgenössische Technische Hochschule (ETH) Zürich,
+                                                                                  Fermi National Accelerator Laboratory, the University of Illinois at
+                        1.5                                                       Urbana-Champaign, the Institut de Ciències de l’Espai (IEEC/CSIC),
+                                                                                  the Institut de Física d’Altes Energies, Lawrence Berkeley National
+                                                                                  Laboratory, the Ludwig-Maximilians Universität München and the
+                        1.0
+                                                                                  associated Excellence Cluster Universe, the University of Michigan,
+                                                                                  NSF’s NOIRLab, the University of Nottingham, The Ohio State Uni-
+                              1.0   1.5    2.0        2.5        3.0              versity, the University of Pennsylvania, the University of Portsmouth,
+                                    i Band Width                                  SLAC National Accelerator Laboratory, Stanford University, the Uni-
+                                                                                  versity of Sussex, Texas A&M University, and the OzDES Member-
+Figure 9. Since most SNe were observed in multiple bands, the fit widths in       ship Consortium.
+each band for each SNe should be intrinsically correlated as they arise from         Based in part on observations at Cerro Tololo Inter-American
+the same event. Hence, the widths for the same target SN should show some         Observatory at NSF’s NOIRLab (NOIRLab Prop. ID 2012B-0001;
+agreement between bands. We plot their agreement relative to the 𝑖 band           PI: J. Frieman), which is managed by the Association of Universities
+which had the most SNe pass the quality cuts. Each of the data points here        for Research in Astronomy (AURA) under a cooperative agreement
+corresponds to a width in Fig. 7 of bands 𝑔, 𝑟, or 𝑧 against the 𝑖 band widths.   with the National Science Foundation.
+A 1:1 dashed line is shown to represent perfect agreement and binned points          The DES data management system is supported by the Na-
+are plotted to represent the trends in the agreement.
+                                                                                  tional Science Foundation under Grant Numbers AST-1138766
+                                                                                  and AST-1536171. The DES participants from Spanish institutions
+                                                                                  are partially supported by MICINN under grants ESP2017-89838,
+CONTRIBUTION STATEMENT
+                                                                                  PGC2018-094773, PGC2018-102021, SEV-2016-0588, SEV-2016-
+RMTW performed the main analysis and drafted the manuscript;                      0597, and MDM-2015-0509, some of which include ERDF funds
+TMD supervised the project, performed the redshift drift analysis,                from the European Union. IFAE is partially funded by the CERCA
+and wrote/edited sections of the paper; GFL assisted in testing the               program of the Generalitat de Catalunya. Research leading to these re-
+code and developing ideas; PS, CL were internal reviewers and RK                  sults has received funding from the European Research Council under
+the final reader. JDV, HTD, KG, and AM gave feedback on the                       the European Union’s Seventh Framework Program (FP7/2007-2013)
+draft manuscript; AM, DB, RK advised on the data and analysis; the                including ERC grant agreements 240672, 291329, and 306478. We
+remaining authors have made contributions to this paper that include,             acknowledge support from the Brazilian Instituto Nacional de Ciên-
+
+MNRAS 000, 1–14 (2024)
+                                                                                                      Time Dilation with DES SNe Ia                        11
+cia e Tecnologia (INCT) do e-Universo (CNPq grant 465376/2014-                     Möller A., et al., 2022, MNRAS, 514, 5159
+2).                                                                                Möller A., et al., 2024, arXiv e-prints, p. arXiv:2402.18690
+   This manuscript has been authored by Fermi Research Alliance,                   Müller-Bravo T. E., et al., 2022, A&A, 665, A123
+LLC under Contract No. DE-AC02-07CH11359 with the U.S. De-                         Nelder J. A., Mead R., 1965, The Computer Journal, 7, 308
+partment of Energy, Office of Science, Office of High Energy Physics.              Nicolas N., et al., 2021, A&A, 649, A74
+                                                                                   Norris J. P., Nemiroff R. J., Scargle J. D., Kouveliotou C., Fishman G. J.,
+                                                                                       Meegan C. A., Paciesas W. S., Bonnell J. T., 1994, ApJ, 424, 540
+                                                                                   Phillips M. M., 1993, ApJ, 413, L105
+DATA AVAILABILITY                                                                  Phillips M. M., Lira P., Suntzeff N. B., Schommer R. A., Hamuy M., Maza
+                                                                                       J., 1999, AJ, 118, 1766
+The data are available on Zenodo and GitHub as described in the                    Piran T., 1992, ApJ, 389, L45
+DES supernova cosmology paper (DES Collaboration et al. 2024)                      Riess A. G., et al., 1997, AJ, 114, 722
+and DES-SN5YR data release paper (Sanchez et al. 2024). The gen-                   Rigault M., et al., 2013, A&A, 560, A66
+erated width fits and associated uncertainties for all 1504 SNe are                Ruiter A. J., 2019, Proceedings of the International Astronomical Union, 15,
+included in the analysis GitHub (see Code Availability section), as                    1–15
+are supplementary plots not included in the paper.                                 Rust B. W., 1974, PhD thesis, Oak Ridge National Laboratory, Tennessee
+                                                                                   Sanchez et al. B., 2024, in prep
+                                                                                   Scolnic D., et al., 2023, ApJ, 954, L31
+                                                                                   Smith M., et al., 2020, AJ, 160, 267
+CODE AVAILABILITY                                                                  Takanashi N., Doi M., Yasuda N., 2008, MNRAS, 389, 1577
+                                                                                   Tripp R., 1998, A&A, 331, 815
+Our code in all analysis and plotting relied on the open source Python
+                                                                                   Vincenzi M., et al., 2024, arXiv e-prints, p. arXiv:2401.02945
+packages NumPy (Harris et al. 2020), Matplotlib (Hunter 2007),
+                                                                                   Virtanen P., et al., 2020, Nature Methods, 17, 261
+Pandas (pandas development team 2023), and SciPy (Virtanen et al.                  Wang L., Goldhaber G., Aldering G., Perlmutter S., 2003, ApJ, 590, 944
+2020) – specifically the Nelder-Mead algorithm described in Nelder                 Wilson O. C., 1939, ApJ, 90, 634
+& Mead (1965).                                                                     Zwicky F., 1929, Proceedings of the National Academy of Sciences, 15, 773
+The code used to generate the width fits/reference curves and all                  pandas development team T., 2023, pandas-dev/pandas: Pandas,
+associated figures is available at github.com/ryanwhite1/DES-Time-                     doi:10.5281/zenodo.8364959, https://doi.org/10.5281/zenodo.
+Dilation.                                                                              8364959
+
+
+
+REFERENCES                                                                         APPENDIX A: STRETCH DRIFT WITH REDSHIFT
+Abbott T. M. C., et al., 2018, ApJS, 239, 18                                       There is evidence that the stretch distribution of SNe evolves with
+Blondin S., et al., 2008, ApJ, 682, 724                                            redshift, as the fraction of older and younger progenitors evolves.
+Blondin S., et al., 2012, AJ, 143, 126                                             Nicolas et al. (2021) give the following relation for the evolution of
+Branch D., Wheeler J. C., 2017, Observational Properties. Springer Berlin
+                                                                                   the SN stretch distribution,
+     Heidelberg, Berlin, Heidelberg, pp 483–517, doi:10.1007/978-3-662-
+     55054-0_20, https://doi.org/10.1007/978-3-662-55054-0_20                                                                                              
+Brout D., 2019, in KITP Conference: Tensions between the Early and the Late        𝑃(𝑥1 ) = 𝛿(𝑧)N (𝜇1 , 𝜎12 )+(1−𝛿(𝑧)) 𝑎N (𝜇1 , 𝜎12 ) + (1 − 𝑎)N (𝜇2 , 𝜎22 ) ,
+     Universe. p. 26                                                                                                                                     (A1)
+Carr A., Davis T. M., Scolnic D., Said K., Brout D., Peterson E. R., Kessler
+     R., 2022, Publ. Astron. Soc. Australia, 39, e046                              where N (𝜇, 𝜎 2 ) is a normal distribution with mean 𝜇 and variance
+DES Collaboration et al., 2024, arXiv e-prints, p. arXiv:2401.02929                𝜎 2 and the values of the parameters were (𝑎, 𝜇1 , 𝜇2 , 𝜎1 , 𝜎2 , 𝐾) =
+Filippenko A. V., 1997, Annual Review of Astronomy and Astrophysics, 35,           (0.51, 0.37, −1.22, 0.61, 0.56, 0.87). The fraction of young super-
+     309                                                                           novae in the population is given by,
+Flaugher B., et al., 2015, AJ, 150, 150
+                                                                                                                −1
+Foley R. J., Filippenko A. V., Leonard D. C., Riess A. G., Nugent P., Perlmutter   𝛿(𝑧) = 𝐾 −1 (1 + 𝑧) −2.8 + 1      .                               (A2)
+     S., 2005, ApJ, 626, L11
+Goldhaber G., et al., 1997, Observation of Cosmological Time Dilation Us-          where the parameter 𝐾 is related to the star formation rate within
+     ing Type Ia Supernovae as Clocks. Springer, Dordrecht, pp 777—-784,           galaxies (Rigault et al. 2013). The distribution given by equation (A1)
+     doi:10.1007/978-94-011-5710-0_48
+                                                                                   is shown in the upper panel of Fig. A1 for several redshifts, where
+Goldhaber G., et al., 2001, ApJ, 558, 359
+Gupta R. P., 2023, Monthly Notices of the Royal Astronomical Society, 524,
+                                                                                   the vertical dashed lines show the resulting change in the mean 𝑥1 .
+     3385                                                                          The relationship between 𝑥1 and the stretch of the supernova is given
+Guy J., et al., 2007, A&A, 466, 11                                                 by (Guy et al. 2007),
+Harris C. R., et al., 2020, Nature, 585, 357
+                                                                                   𝑠 = 0.98 + 0.091𝑥1 + 0.003𝑥 12 − 0.00075𝑥13                           (A3)
+Howell D. A., Sullivan M., Conley A., Carlberg R., 2007, ApJ, 667, L37
+Hoyle F., Fowler W. A., 1960, ApJ, 132, 565                                        and this is shown in the lower panel of Fig. A1.
+Hunter J. D., 2007, Computing in Science & Engineering, 9, 90                         Since light curve width is directly proportional to stretch, that
+Kasen D., Woosley S. E., 2007, ApJ, 656, 661
+                                                                                   means that light curves at redshift 𝑧 = 1 should be approximately
+Kenworthy W. D., et al., 2021, ApJ, 923, 265
+                                                                                   3% wider than those at 𝑧 = 0. This is therefore substantially sub-
+Kessler R., et al., 2015, AJ, 150, 172
+Leibundgut B., Sullivan M., 2018, Space Sci. Rev., 214, 57                         dominant to the factor of 2 widening expected from time-dilation
+Leibundgut B., et al., 1996, ApJ, 466, L21                                         over the same range.
+Lewis G. F., Brewer B. J., 2023, Nature Astronomy, 7, 1265                            Compounding this effect, supernovae with wider light curves tend
+Matheson T., et al., 2008, AJ, 135, 1598                                           to be brighter, so selection effects might also cause you to find a shift
+Möller A., de Boissière T., 2020, MNRAS, 491, 4277                                 to wider light curves at higher redshifts.
+
+                                                                                                                                    MNRAS 000, 1–14 (2024)
+12       White et al.
+   Nevertheless, in the DES-SN5YR data there is no indication that                               1.0                                                                          1.4
+the mean stretch parameter 𝑥1 changes with redshift, see Fig. A2.                                                                                            main
+The stretch values shown in this plot are from the SALT3 fits to the                                                                                         secondary
+                                                                                                                                                                              1.2
+light curves and are in the rest frame of the supernova (i.e. corrected                          0.8
+for time dilation).
+                                                                                                                                                                              1.0
+   Despite the consistency of 𝑥1 in the DES sample we want to
+
+
+
+
+                                                                               x1 distribution
+quantify how large the potential drift in the light curve widths could                           0.6
+
+
+
+
+                                                                                                                                                                                    Redshift, z
+                                                                                                                                                                              0.8
+be if equation (A1) holds. Thankfully this over-estimation can be
+readily quantified. When you make a mock data set with this intrinsic
+widening included you find you would actually get a line of Δ𝑡 ≈                                                                                                              0.6
+                                                                                                 0.4
+1.03(1 + 𝑧) − 0.05 (see Fig. A3). In other words, it would change the
+slope by ∼3%. This is in contrast to the recovered linear model fit                                                                                                           0.4
+in the Fig. 8 caption, hence indicating that this redshift-dependent                             0.2
+stretch is not evident in the DES-SN5YR data.                                                                                                                                 0.2
+   The impact of high-redshift supernovae tending to have a few per-
+cent wider stretch than their low-redshift counterparts would cause us                           0.0                                                                          0.0
+to slightly overestimate 𝑏. The magnitude of the impact on 𝑏 depends                                    −3          −2          −1         0          1         2        3
+                                                                                                                                          x1
+on your redshift distribution, we estimate a shift of |Δ𝑏| ≲ 0.01 for
+the DES data, and we consider this a likely upper limit to the system-
+atic uncertainty on our result. Since our aim in this paper is to fit the
+
+
+
+
+                                                                               Mean Stretch
+                                                                                                 1.00
+light curves with the minimal modelling assumptions (and since we
+do not see an 𝑥1 trend in our light curve fits) we have chosen not to                            0.99
+correct for this trend. Instead we note that any potential effect would
+only be a small deviation around the slope of 𝑤/(1 + 𝑧) ∼ 1 that we                              0.98
+see.
+                                                                                                        0.0         0.2         0.4        0.6    0.8        1.0     1.2       1.4
+                                                                                                                                           Redshift, z
+
+
+APPENDIX B: REFERENCE CURVE SELECTION                                        Figure A1. Upper panel: Distribution of 𝑥1 values predicted by Nicolas et al.
+DERIVATION                                                                   (2021). The grey and black dashed Gaussians show the two components of
+                                                                             the supernova population. The coloured lines show the total distribution for
+We begin with the definition of redshift,                                    several different redshifts. The vertical dashed lines show the mean of the
+         𝜆𝑜                                                                  redshift distribution (in the same colours as the legend). One can see that the
+1+𝑧 =                                                               (B1)     mean drifts from low to high 𝑥1 as redshift increases. Lower panel: The black
+         𝜆𝑒
+                                                                             line shows the evolution of the mean stretch (𝑠) of the supernova population
+where 𝑧 is the source redshift, 𝜆 𝑜 is the observed wavelength of            with redshift, where colours match the redshifts in the upper legend. The
+light and 𝜆 𝑒 is the original emission wavelength of light. If we are        intrinsic light curve width is proportional to 𝑠, and therefore light curves are
+sampling from a band with central wavelength 𝜆𝑟 during reference             expected to be about 3% wider at 𝑧 = 1 than at 𝑧 = 0. This is much less than
+curve construction, we need to find a central redshift 𝑧𝑟 for our            the factor of two widening due to time dilation.
+reference SNe selection, given that we are fitting the target light
+curve in a band of central wavelength 𝜆 𝑓 . The idea is to match
+the original emitted wavelengths and so we can divide by another                                 1.2
+                                                                                                                                      Best fit: s = 0.0030z + 0.96
+instance of equation (B1),                                                                                                                                           2       0.2
+
+1+𝑧      𝜆 𝑓 /𝜆 𝑒 𝜆 𝑓                                                                            1.1                                                                 1
+                                                                                                                                                                             0.1
+       =         =                                                  (B2)
+                                                                                                                                                                                     SN Colour
+1 + 𝑧𝑟   𝜆𝑟 /𝜆 𝑒
+                                                                               Stretch
+
+
+
+
+                   𝜆𝑟
+                                                                                                 1.0                                                                 0
+                                                                                                                                                                             0.0
+Then, we can rearrange to find an expression for our target redshift
+𝑧𝑟 ,                                                                                                                                                                 −1
+                                                                                                 0.9                                                                         −0.1
+𝜆𝑟 (1 + 𝑧) = 𝜆 𝑓 (1 + 𝑧𝑟 )                                          (B3)                                                                                             −2
+                                                                                                 0.8                                                                         −0.2
+               𝜆𝑟 (1 + 𝑧)                                                                                                                                            −3
+        𝑧𝑟 =              −1                                        (B4)
+                   𝜆𝑓                                                                                         0.2         0.4      0.6          0.8       1.0
+                                                                                                                                Redshift, z
+We can then append a term ±Δ𝑧 on equation( B4) to give us a range of
+applicable redshift values as in Section 4.1. Finally, it is useful in the
+                                                                             Figure A2. The distribution of stretch in the DES-SN5YR data as a function
+broader context of the paper (and Fig. 3) to show this redshift range        of redshift (calculated from the SALT3 fitted 𝑥1 values in the SN rest frame
+in terms of some fraction of the band FWHM of the band that the              using equation A2), with 𝑥1 shown on the right axis. Fitting a straight line to
+target SN was observed in, 𝛿Δ𝜆 𝑓 . To do this we set Δ𝑧 = 𝛿Δ𝜆 𝑓 /𝜆 𝑓         this distribution shows no significant trend in the stretch with redshift.
+and shift the term into the fraction within equation (B4),
+       𝜆𝑟 (1 + 𝑧) ± 𝛿Δ𝜆 𝑓
+𝑧𝑟 =                         −1                                     (B5)
+               𝜆𝑓
+which yields the redshift sampling range of equation (3) that we use
+in the analysis.
+
+MNRAS 000, 1–14 (2024)
+                                                                                                                 Time Dilation with DES SNe Ia                   13
+                                                                                               12 Department of Physics & Astronomy, University College London,
+                         2.4         Time dilation only: ∆t = (1 + z)                          Gower Street, London, WC1E 6BT, UK
+                                     with stretch drift: ∆t = 1.03(1 + z) − 0.05               13 Institute of Cosmology and Gravitation, University of Portsmouth,
+                         2.2         no time dilation: ∆t = 0                                  Portsmouth, PO1 3FX, UK
+                                                                                               14 Cerro Tololo Inter-American Observatory, NSF’s National
+  Light Curve Width, w
+
+
+
+
+                         2.0
+                                                                                               Optical-Infrared Astronomy Research Laboratory, Casilla 603, La
+                         1.8
+                                                                                               Serena, Chile
+                                                                                               15 Laboratório Interinstitucional de e-Astronomia - LIneA, Rua Gal.
+
+                         1.6                                                                   José Cristino 77, Rio de Janeiro, RJ - 20921-400, Brazil
+                                                                                               16 Fermi National Accelerator Laboratory, P. O. Box 500, Batavia,
+
+                         1.4                                                                   IL 60510, USA
+                                                                                               17 Instituto de Física Teórica, Universidade Estadual Paulista, Sáo
+                         1.2                                                                   Paulo, Brazil
+                                                                                               18 Departamento de Física Teórica and Instituto de Física de Partícu-
+                         1.0                                                                   las y del Cosmos (IPARCOS-UCM), Universidad Complutense de
+                               1.0    1.2     1.4     1.6      1.8      2.0        2.2   2.4
+                                                                                               Madrid, 28040 Madrid, Spain
+                                                                                               19 University Observatory, Faculty of Physics, Ludwig-Maximilians-
+                                                            1+z
+                                                                                               Universität, Scheinerstr. 1, 81679 Munich, Germany
+                                                                                               20 Department of Astronomy and Astrophysics, University of
+Figure A3. The effect of adding the predicted stretch evolution of SNe Ia vs
+redshift is to cause the width vs redshift plot to be slightly steeper. If this                Chicago, Chicago, IL 60637, USA
+                                                                                               21 Kavli Institute for Particle Astrophysics & Cosmology, P. O. Box
+result is present we therefore expect to slightly overestimate 𝑏, as we will
+attribute that widening to time dilation.                                                      2450, Stanford University, Stanford, CA 94305, USA
+                                                                                               22 SLAC National Accelerator Laboratory, Menlo Park, CA 94025,
+                                                                                               USA
+APPENDIX C: NULL TEST — NO DE-REDSHIFTING OF                                                   23 Instituto de Astrofisica de Canarias, E-38205 La Laguna, Tenerife,
+REFERENCE LIGHT CURVES                                                                         Spain
+                                                                                               24 INAF-Osservatorio Astronomico di Trieste, via G. B. Tiepolo 11,
+To confirm that our method is able to rule out no time dilation we
+repeated the analysis without de-redshifting the reference curves.                             I-34143 Trieste, Italy
+                                                                                               25 Institut de Física d’Altes Energies (IFAE), The Barcelona Insti-
+That means that the reference curves would look like the top panel of
+Fig. 4. If the data were not time dilated, then we should fit consistently                     tute of Science and Technology, Campus UAB, 08193 Bellaterra
+𝑏 = 0 in this case. Fig. C1 clearly shows that this null test fails. Be-                       (Barcelona) Spain
+                                                                                               26 Hamburger Sternwarte, Universität Hamburg, Gojenbergsweg
+cause time-dilation is present in the data, it means that the reference
+curves are now wider than they should be — making the measured                                 112, 21029 Hamburg, Germany
+                                                                                               27 Centro de Investigaciones Energéticas, Medioambientales y Tec-
+light curve widths narrower. Despite this, the trend for higher-redshift
+light curves to be wider persists, in very strong contradiction to the                         nológicas (CIEMAT), Madrid, Spain
+                                                                                               28 Department of Physics, IIT Hyderabad, Kandi, Telangana 502285,
+no-time-dilation hypothesis.
+                                                                                               India
+                                                                                               29 Jet Propulsion Laboratory, California Institute of Technology,
+                                                                                               4800 Oak Grove Dr., Pasadena, CA 91109, USA
+AFFILIATIONS                                                                                   30 Institute of Theoretical Astrophysics, University of Oslo. P.O. Box
+1 School of Mathematics and Physics, University of Queensland,                                 1029 Blindern, NO-0315 Oslo, Norway
+                                                                                               31 Kavli Institute for Cosmological Physics, University of Chicago,
+Brisbane, QLD 4072, Australia
+2 Sydney Institute for Astronomy, School of Physics, A28, The Uni-                             Chicago, IL 60637, USA
+                                                                                               32 Instituto de Fisica Teorica UAM/CSIC, Universidad Autonoma de
+versity of Sydney, NSW 2006, Australia
+3 Center for Astrophysics | Harvard & Smithsonian, 60 Garden Street,                           Madrid, 28049 Madrid, Spain
+                                                                                               33 Center for Astrophysical Surveys, National Center for Supercom-
+Cambridge, MA 02138, USA
+4 Institut d’Estudis Espacials de Catalunya (IEEC), 08034 Barcelona,                           puting Applications, 1205 West Clark St., Urbana, IL 61801, USA
+                                                                                               34 Department of Astronomy, University of Illinois at Urbana-
+Spain
+5 Institute of Space Sciences (ICE, CSIC), Campus UAB, Carrer de                               Champaign, 1002 W. Green Street, Urbana, IL 61801, USA
+                                                                                               35 Santa Cruz Institute for Particle Physics, Santa Cruz, CA 95064,
+Can Magrans, s/n, 08193 Barcelona, Spain
+6 Centre for Astrophysics & Supercomputing, Swinburne University                               USA
+                                                                                               36 Center for Cosmology and Astro-Particle Physics, The Ohio State
+of Technology, Victoria 3122, Australia
+7 Department of Physics and Astronomy, University of Pennsylvania,                             University, Columbus, OH 43210, USA
+                                                                                               37 Department of Physics, The Ohio State University, Columbus, OH
+Philadelphia, PA 19104, USA
+8 Centre for Gravitational Astrophysics, College of Science, The                               43210, USA
+                                                                                               38 Australian Astronomical Optics, Macquarie University, North
+Australian National University, ACT 2601, Australia
+9 The Research School of Astronomy and Astrophysics, Australian                                Ryde, NSW 2113, Australia
+                                                                                               39 Lowell Observatory, 1400 Mars Hill Rd, Flagstaff, AZ 86001,
+National University, ACT 2601, Australia
+10 Department of Physics, Duke University Durham, NC 27708,                                    USA
+                                                                                               40 Departamento de Física Matemática, Instituto de Física, Univer-
+USA
+11 School of Physics and Astronomy, University of Southampton,                                 sidade de São Paulo, CP 66318, São Paulo, SP, 05314-970, Brazil
+                                                                                               41 George P. and Cynthia Woods Mitchell Institute for Fundamental
+Southampton, SO17 1BJ, UK
+
+                                                                                                                                            MNRAS 000, 1–14 (2024)
+14       White et al.
+
+                                  2.0         1+z                                               (1 + z)−0.016±0.013
+                                                     −0.346±0.039
+                                              (1 + z)
+                                  1.8         No Time Dil
+                                                                                  g                                                           r
+                                              Data
+                                  1.6         Binned Data
+             Lightcurve width w
+
+
+
+
+                                  1.4
+
+                                  1.2
+
+                                  1.0
+
+                                  0.8
+
+                                  0.6
+
+                                  0.4
+                                  2.0         (1 + z)0.087±0.012                                (1 + z)0.221±0.011
+
+                                  1.8                                             i                                                           z
+                                  1.6
+             Lightcurve width w
+
+
+
+
+                                  1.4
+
+                                  1.2
+
+                                  1.0
+
+                                  0.8
+
+                                  0.6
+
+                                  0.4
+                                        1.0    1.2         1.4       1.6   1.8   2.0   1.0       1.2         1.4       1.6        1.8        2.0
+                                                                    1+z                                               1+z
+
+
+Figure C1. Light curve widths measured with respect to a reference curve that has not been de-time-dilated. We nevertheless still see a persistent trend of
+increasing light curve width with redshift. The vertical offset from the (1 + 𝑧) line arises because the non-de-time-dilated reference curves are wider than
+rest-frame light curves, i.e. this offset is yet another indication of time dilation. The black horizontal dashed line indicates no time dilation and the blue dashed
+lines are (poor) (1 + 𝑧) 𝑏 model fits to the data. If there was no time dilation, these fits would be horizontal lines with 𝑏 = 0.
+
+
+Physics and Astronomy, and Department of Physics and Astronomy,                         54 Applied Materials Inc., 35 Dory Road, Gloucester, MA 01930,
+Texas A&M University, College Station, TX 77843, USA                                    USA
+42 LPSC Grenoble - 53, Avenue des Martyrs 38026 Grenoble, France
+43 Institució Catalana de Recerca i Estudis Avançats, E-08010
+                                                                                        This paper has been typeset from a TEX/LATEX file prepared by the author.
+Barcelona, Spain
+44 Department of Astrophysical Sciences, Princeton University, Pey-
+ton Hall, Princeton, NJ 08544, USA
+45 Observatório Nacional, Rua Gal. José Cristino 77, Rio de Janeiro,
+RJ - 20921-400, Brazil
+46 Department of Physics, Carnegie Mellon University, Pittsburgh,
+Pennsylvania 15312, USA
+47 Department of Physics and Astronomy, Pevensey Building, Uni-
+versity of Sussex, Brighton, BN1 9QH, UK
+48 Université Grenoble Alpes, CNRS, LPSC-IN2P3, 38000 Greno-
+ble, France
+49 Department of Physics, University of Michigan, Ann Arbor, MI
+48109, USA
+50 Computer Science and Mathematics Division, Oak Ridge National
+Laboratory, Oak Ridge, TN 37831
+51 Department of Astronomy, University of California, Berkeley, 501
+Campbell Hall, Berkeley, CA 94720, USA
+52 Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berke-
+ley, CA 94720, USA
+53 ASTRAVEO LLC, PO Box 1668, MA 01931, USA
+
+
+
+MNRAS 000, 1–14 (2024)
+

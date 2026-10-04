@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T20:04:20.076575+00:00",
+  "sha256": {
+    "udt_observation_metric_evaluation_2026-10-04/observation/DIAGNOSTIC_PLAN.md": "f1c9007dd59bd7d503d194812b9b47c8edb676edcc21caf4ca584158863ef617",
+    "udt_observation_metric_evaluation_2026-10-04/observation/MCP_TABLE1_INPUT.tsv": "114e4412eed79d088dff9cbfc68890d49dd6a902811b7f0370c085b980554910",
+    "udt_observation_metric_evaluation_2026-10-04/observation/reduce_table.py": "027dd3def97a6cd6e82c48af5e8b840500ab4f9e821f26ae0d94b101fa7b4ee8",
+    "udt_observation_metric_evaluation_2026-10-04/observation/primary/M1_Pesce_2001.09213v2.pdf": "c9f2d2b626fee60d77928856d217a2cbe546f06c69cd9e7ac804f4ab652e731a"
+  },
+  "history": "Rules frozen before parent numerical table exposure. Parent then read source text and directly viewed locally rendered PDF p4 Table1, following failed web screenshot cache retrieval. Exact table edition used, not AppendixA higher-precision variant. Source outcomes exposed; no confirmation claim. Frozen before conversion execution."
+}
