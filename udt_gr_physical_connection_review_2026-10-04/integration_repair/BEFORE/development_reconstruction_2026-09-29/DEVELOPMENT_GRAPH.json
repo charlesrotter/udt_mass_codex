@@ -4514,7 +4514,7 @@
     "udt_asymptotic_curvature_implication_2026-10-04/WORK_ORDER.md": "f35396e3ad156128ab994dd02fa7b0e703d531cb244c48f0031d0fe0dd357b99",
     "udt_gr_physical_connection_review_2026-10-04/INITIAL_SYNTHESIS.md": "c22dba85f79bb91334cad3f89ead99e0d1974f0aeebbe123f80c96efd5d56260",
     "udt_gr_physical_connection_review_2026-10-04/REPAIR.md": "7da831304cce71ab3937b3108317403f270b2fa1435e81d45e9aab2c2973ba71",
-    "udt_gr_physical_connection_review_2026-10-04/REVIEWED_RESULT.md": "5c4295bc12e2aff5e5b6537e68821071f4356247733be360e9b8f610b3b93bb9",
+    "udt_gr_physical_connection_review_2026-10-04/REVIEWED_RESULT.md": "d0f988636311c8cf96e22928e8aad370327fb3c0e88f5465e8d7e806102d8a1c",
     "udt_gr_physical_connection_review_2026-10-04/WORK_ORDER.md": "ef79677af4a89794b3e4deec0cfc230877075067bbbc5292563bef226f79ebf7"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
@@ -7074,27 +7074,6 @@
       "path": "udt_gr_physical_connection_review_2026-10-04/review_fidelity/REPAIR_REVIEW.md",
       "sha256": "dadec92b6c746b8a23f1fdc335c47047c4ea4014909b2c3793413acc5bdbe957",
       "role": "review_evidence",
-      "targets": [
-        "D1",
-        "R6",
-        "R7",
-        "R8",
-        "R8ACI",
-        "R9",
-        "R13",
-        "R14",
-        "R16CPA",
-        "R8GRL",
-        "R18",
-        "C_GRL_RIGIDITY",
-        "C_GRL_DRIFT",
-        "O_GRL_ASSIGNMENT"
-      ]
-    },
-    {
-      "path": "udt_gr_physical_connection_review_2026-10-04/integration_repair/REPAIR_RECORD.md",
-      "sha256": "2883db0ddff3b6ae629683cd98fbae1f68273cb40b91cd020329897b72b00884",
-      "role": "repair_scope",
       "targets": [
         "D1",
         "R6",

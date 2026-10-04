@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T17:53:04.581001+00:00",
+  "files": {
+    "SOURCE_FIRST.md": "7469a211f15f3b934549f392b2c35a90bdda8bef35a4bed7a1105d1c00302bdd",
+    "SEAL.json": "b08b579885e20dfa2e7be74f04a381485e3f0da4c3a86d46783497b44b4a03f9",
+    "EXPOSED_REVIEW.md": "74889c92b41e12b82d63dc05b9240e764a4282bf50cc19f44dbd1549f033a7d6",
+    "EXPOSED_INPUT_PINS.json": "4a18a9e34d6952e9bb62319379721b95f260cfece2fe203a8d3fb5121bf8cdf1"
+  },
+  "statement": "Exposed candidate review; not a final integration attestation."
+}

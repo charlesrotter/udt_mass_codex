@@ -1,24 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T18:11:32.145532+00:00",
-  "scope": "GRL1 bounded ten-primary-paper review; conditional operational rigidity and corrected local geodesic-congruence drift tests with exact adverse controls. Native physical assignment remains OPEN; no response, sign, field equation, population, scale/X_max or physical adoption. Initial candidate fixed; one same-premise precision repair and actual re-review.",
-  "independence": "Three separate sealed research contexts and two additional fresh source-first/exposed/final reviewers; old proof/verdict exposure disclosed. Parent candidate frozen after research reports before new reviewers substantive findings; prior hand exploration disclosed. Reviewers independently hand-derived rigidity, C1 drift and original incidence controls. One precision repair re-reviewed, credited C1/Riccati additions. Shared inherited model, exact revision unexposed; no scientific CPU/GPU, human, different-model, formal, independent-code or empirical review.",
-  "freeze": "udt_gr_physical_connection_review_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "e17fb45758c9f940a7ff3008f5d2c082ab95b3f552dc71ba40d82d6f7bc3aa29",
-  "prior_review_record": "udt_gr_physical_connection_review_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "4853172beb961a0af0b7da6bbd80c39439922228c9eb48e6dd2b3ef36420c81e",
-  "reviewers": [
-    {
-      "context": "/root/grl_math",
-      "attestation": "udt_gr_physical_connection_review_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "9ebdf0d05888d4854f9ea52b8c3891d708905e3c429e605dd5d01e2b0d848f04"
-    },
-    {
-      "context": "/root/grl_fidelity",
-      "attestation": "udt_gr_physical_connection_review_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "da84e6d4b989e5f7db83beedd3f8e643129f24338415b91862ac53bd95e526f6"
-    }
-  ],
+  "context": "/root/grl_math",
+  "utc": "2026-10-04T18:11:08.296203+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_gr_physical_connection_review_2026-10-04/review_math/FINAL_REVIEW.md",
+  "report_sha256": "06585dc0df0db981fdc570c9ff1af545853f3e4751188c5c25fdaf58d57ce22d",
+  "integration_freeze_path": "udt_gr_physical_connection_review_2026-10-04/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "e17fb45758c9f940a7ff3008f5d2c082ab95b3f552dc71ba40d82d6f7bc3aa29",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -13656,5 +13643,17 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
+  },
+  "scope": "Actual final semantic review plus full accepted-map correspondence; conditional T1/T2 mathematics, native physical assignment OPEN; no inherited-source re-proof, adoption or canon.",
+  "independence": "Fresh source-first then exposed candidate/repair/final same inherited model context; exact model revision unexposed. Independent hand arguments; no different-model, human, formal, empirical or independent-code claim.",
+  "checks": {
+    "protected_path_preflight": "PASS before mapped payload read/hash",
+    "accepted_files": 13636,
+    "mismatches": 0,
+    "prior_untracked_names_preserved": 76,
+    "prior_seals_and_candidate_unchanged": true,
+    "generated_program": "independently matches central",
+    "draft_and_57_maintenance": "parent captured receipts inspected and stream hashes verified, not independently rerun",
+    "full406_and_remote_closure": "not certified by this pre-banking attestation"
   }
 }

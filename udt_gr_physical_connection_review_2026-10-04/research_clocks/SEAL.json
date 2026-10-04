@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-04T17:42:45.864178+00:00",
+  "context": "/root/grl_clocks",
+  "stage": "SOURCE_FIRST_RESEARCH_FROZEN_BEFORE_SUBSTANTIVE_SHARING",
+  "review_state": "DRAFT_FOR_PARENT_AND_LATER_FRESH_ADVERSARIAL_REVIEW",
+  "head": "865a116365f8274c3706f4d3c0a5dfeecf51e4ac",
+  "branch": "grok",
+  "files": {
+    "REPORT.md": {
+      "sha256": "1685dd5427b9201fa7478c87acd0c5c3c98d4f409a31b7a73d9839e09702d3af",
+      "bytes": 11820
+    },
+    "SOURCES.json": {
+      "sha256": "3abe3019f88ad2a1bd8fb4e9d1c3fd3c1358a1231176f17375a965b807180136",
+      "bytes": 10742
+    },
+    "EXPOSURE.md": {
+      "sha256": "4eea75638665f6008013929ccff432f776ee5ce48bd1d511bfc6e38c6739c439",
+      "bytes": 3595
+    }
+  },
+  "source_pin_checks": {
+    "local_source_count": 28,
+    "all_match_at_seal": true,
+    "external_pdf_bytes_unverified": true
+  },
+  "exposure": {
+    "parent_synthesis": false,
+    "sibling_reports": false,
+    "older_proofs_and_verdicts": true,
+    "substantive_preseal_messages": false,
+    "model": "inherited Codex; exact revision unexposed",
+    "different_model_independence": false
+  },
+  "work": {
+    "substantive_primary_papers": 3,
+    "direct_paper_id_count_including_discarded_metadata": 4,
+    "scientific_programs": 0,
+    "new_parent_candidate_tests": 0,
+    "findings": 2,
+    "physical_selection_leads": 0,
+    "hand_checks": "Covariant Jacobi identity and PSW sign/preparation control; flat null-arrival chain-rule control. Exploratory hand work, not independent source reproof."
+  },
+  "preservation": {
+    "writes_confined_to": "udt_gr_physical_connection_review_2026-10-04/research_clocks/",
+    "protected_payloads_read_or_hashed": false,
+    "tracked_diff_names_at_seal": []
+  },
+  "limits": "Seal records correspondence and exposure, not truth, adoption, empirical validity or external PDF byte identity."
+}

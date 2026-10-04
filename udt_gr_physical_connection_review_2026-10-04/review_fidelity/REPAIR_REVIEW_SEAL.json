@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T17:58:45.140097+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "report": "REPAIR_REVIEW.md",
+  "report_sha256": "dadec92b6c746b8a23f1fdc335c47047c4ea4014909b2c3793413acc5bdbe957",
+  "repair_sha256": "7da831304cce71ab3937b3108317403f270b2fa1435e81d45e9aab2c2973ba71",
+  "candidate_sha256": "c22dba85f79bb91334cad3f89ead99e0d1974f0aeebbe123f80c96efd5d56260",
+  "prior_seal_files_unchanged": true,
+  "central_final_integration_seen": false
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-04T17:46:49.105424+00:00",
+  "exposure": "All3research reports read. No freshreviewersourcefirstargument read. Parent exploratory hand reasoning already occurred. No blind preregistration claim.",
+  "sha256": {
+    "udt_gr_physical_connection_review_2026-10-04/WORK_ORDER.md": "ef79677af4a89794b3e4deec0cfc230877075067bbbc5292563bef226f79ebf7",
+    "udt_gr_physical_connection_review_2026-10-04/TEST_PLAN.md": "17a94eb4c713862bb852a7adc0b003a8094ebe48bce472b96300ae7851889201",
+    "udt_gr_physical_connection_review_2026-10-04/PARENT_PRE_REPORT_NOTES.md": "cc9e0c3bd55f0599fd30608f3f6fc77a08034d78dd47265b93b66da5fc48211d",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/REPORT.md": "313b52d18722b1efa8a53f367db6fe054495d1f631d5cf0cba65a2ccec1b72b6",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/SOURCES.json": "d86363ceca0e24cb732b8524cb78a5abfdaf9ece60e8122100f4fccee9a53179",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/SEAL.json": "00be4e80a1a08a41290ff1960f50e9ffd69fe31e3be6bc7ac3d6c15ce8d5f7f7",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/REPORT.md": "1685dd5427b9201fa7478c87acd0c5c3c98d4f409a31b7a73d9839e09702d3af",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/SOURCES.json": "3abe3019f88ad2a1bd8fb4e9d1c3fd3c1358a1231176f17375a965b807180136",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/SEAL.json": "81ec0d8feb43d79078fe01371eeb2450b67259ef556ab3c801cdd12a195f6140",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/REPORT.md": "a7c679753ade10d3beb59c0038a133604751742fecd22e092410e6770d0c4cee",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/SOURCES.json": "363498353defc9c9eb8f5706ca7c57cca0724e942158f12d7af9e97f89277c19",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/SEAL.json": "583a810b06afd12ad372c5844745f15f046a720dc516273124fe0c10961f5b0f"
+  }
+}

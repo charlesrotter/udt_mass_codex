@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-04T18:09:46.744910+00:00",
+  "freeze_sha256": "e17fb45758c9f940a7ff3008f5d2c082ab95b3f552dc71ba40d82d6f7bc3aa29",
+  "accepted_count": 13636,
+  "accepted_bytes_hashed": 2278597395,
+  "inherited_count": 13556,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "complete_protected_and_resolved_path_preflight_before_hashing": "PASS",
+  "accepted_hash_mismatches": [],
+  "rejected_snapshot_reconstruction": "PASS",
+  "own_source_first_exposed_seals_unchanged": "PASS",
+  "initial_candidate_and_repair_unchanged": "PASS",
+  "generated_program_and_insert": "PASS",
+  "existing_untracked_names_preserved": 76,
+  "attributed_receipts_verified": [
+    "final_draft_coherence",
+    "repaired_draft_coherence",
+    "final_maintenance"
+  ],
+  "receipt_limit": "Verified saved receipt bytes and outcomes, not independent rerun. No inherited scientific reproof.",
+  "elapsed_seconds": 1.5629944069078192
+}

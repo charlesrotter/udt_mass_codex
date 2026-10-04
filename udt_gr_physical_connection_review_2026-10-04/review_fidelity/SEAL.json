@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T17:49:22.408050+00:00",
+  "stage": "source-first-before-current-candidate-exposure",
+  "candidate_exposure": false,
+  "finding_transmission_before_parent_freeze": false,
+  "files": {
+    "CHECK_RECORD.json": "01a021bad63cda24599ce5a96b40f009b7679aab09d62eac97ede889cdec47a0",
+    "EXPOSURE.json": "8588afaa09bd1dbaa7ddf748713942bfa51c9cbe4ef1967c3b0b108e9524a2ed",
+    "INPUT_PINS.json": "97eb4aa654b66b0828ba96cee9c7ebc21bf591e27f1eda40755ac60751124335",
+    "PRIMARY_ACCESS.json": "e59591c0c1501c9d99de2cfd1b52956d1b02409fd2a8ca174511180366776d44",
+    "SOURCE_FIRST.md": "7469a211f15f3b934549f392b2c35a90bdda8bef35a4bed7a1105d1c00302bdd"
+  },
+  "statement": "Checksums bind exact bytes; no independent chronology or truth is established by hashes."
+}

@@ -1062,7 +1062,7 @@ so their received ratio Z is identical. An absolute clock calibration fixes C0
 but is not needed for equality of ratios.
 
 One common free congruence is insufficient. The supplied pair
-g0=-deta^2+dx^2+dy^2+dz^2 and g=exp(2H eta)g0, H>0, shares null paths and coordinate-
+g0=-deta^2+dx^2+dy^2+dz^2 and g=exp(2H eta)g0 shares null paths and coordinate-
 rest geodesics. Rest clocks separated by coordinate L have incidence
 eta_o=eta_e+L and Z_g=exp(HL), whereas Z_g0=1. For a tilted tangent
 v=partial_eta+b partial_x, 0<|b|<1, C(v,v) has components
@@ -1114,13 +1114,13 @@ not automatically a measured luminosity distance. Exact sky integration is
 not a finite-sample estimator, and geodesic motion is a neighborhood hypothesis.
 
 The adverse control uses flat inertial lines X(t,q)=q+tBq with
-B=diag(2h,h,h), h>0. Reception at (0,0) from emission (-r_E,r_E n_E) fixes
+B=diag(2h,h,h). Reception at (0,0) from emission (-r_E,r_E n_E) fixes
 q=(I-r_E B)^(-1)r_E n_E and constant v=Bq. Actual incidence at fixed q gives
 
     Z=gamma_v(1+n_E.v),
     dot Z=gamma_v|P_n_E v|^2/[r_E(1+n_E.v)].
 
-For 0<hr_E<1/8 the branch is regular and |v|<1/3. Simultaneous Fermi data satisfy
+For hr_E<1/8 the branch is regular and |v|<1/3. Simultaneous Fermi data satisfy
 r_F=|q|=r_E+O(r_E^2), n_F=n_E+O(r_E), so the limiting coefficient is
 J=h^2 n_1^2(1-n_1^2), with <J>=2h^2/15>0. Yet sigma^2=2h^2/3, W=0 and Ric=0:
 the corrected M vanishes. Raw positive drift therefore supplies no curvature
@@ -1137,7 +1137,7 @@ do not supply R13/R14's missing physical luminosity/energy-flux readout.
 
 The joint-cosmography source2406.06167v1 has an apparent quadrupole sign tension
 between its correction discussion and printed coefficients. That channel is
-quarantined; T2's scalar proof above does not use it. The mathematical reviewer checked an
+quarantined; T2's scalar proof above does not use it. The reviewers checked an
 ultrastatic adverse case, without claiming a full external-paper repair.
 
 The physical join remains explicit: independent records or a justified physical
@@ -5125,12 +5125,7 @@ original-incidence controls by hand. One bounded repair resolves excessive
 all-direction necessity wording and emission-versus-Fermi labels, and records
 the scaled-incidence C1 justification and independent Riccati argument with
 attribution. Initial candidate and all earlier seals remain fixed. The
-first frozen integration omitted the original H>0/h>0 control domains; both
-reviewers rejected that omission. Its freeze and before bytes are preserved,
-and the revised integration restores those hypotheses without changing the
-derivations. It also corrects attribution of the ultrastatic source check to
-the mathematical reviewer alone. The external quadrupole channel is unused.
-No scientific program, GPU campaign,
+external quadrupole channel is unused. No scientific program, GPU campaign,
 human, different-model, empirical, formal or full-corpus review occurred.
 [Work record](udt_gr_physical_connection_review_2026-10-04/WORK_RECORD.md) and
 [descendant review](udt_gr_physical_connection_review_2026-10-04/DESCENDANT_REVIEW.md)

@@ -1,0 +1,34 @@
+{
+  "context": "fresh source-first GRL1 mathematical reviewer /root/grl_math",
+  "model": "inherited Codex/GPT-6 family per system/developer context; exact revision unexposed",
+  "different_model": "UNTESTED; not claimed",
+  "argument": "source-first relative to GRL1 parent candidate, but exposed to old central proofs and verdict summaries",
+  "implementation": "independent hand algebra; no scientific code",
+  "exposed": [
+    "assigned question/premises/work order",
+    "central old scientific argument and its embedded proof/verdict summaries",
+    "admitted owner records",
+    "five assigned primary sources",
+    "EPS source cache path/hash and renderer metadata from parent",
+    "parent candidate-frozen announcement with filename/hash only before source-first seal"
+  ],
+  "not_exposed": [
+    "GRL1 parent candidate content",
+    "GRL1 TEST_PLAN",
+    "all three GRL1 lane reports",
+    "sibling reviews",
+    "GRL1 proposed verdicts"
+  ],
+  "publication_access": [
+    "web opened assigned primary URLs",
+    "web screenshots yielded citation strings only",
+    "sandbox shell download failed DNS",
+    "escalated read-only public downloads succeeded",
+    "pdftotext local extraction plus EPS page images from matching primary bytes",
+    "locally rendered drift PDF p8 for sign confirmation"
+  ],
+  "source_omissions": "See SOURCE_FIRST.md; no complete EPS primitive-structure proof or full compass/coefficient replay claimed",
+  "candidate_seen_before_seal": false,
+  "prior_verdict_blind": false,
+  "candidate_substantive_findings_sent_before_seal": false
+}

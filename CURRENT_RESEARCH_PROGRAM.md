@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — ACI1 finite-curvature implication attempt reviewed,
+**Current development — GRL1 bounded GR connection review completed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,42 +39,42 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** Charles directed retention of the completion results as
-tools and a search for an implication from an existing UDT commitment to a
-geometric restriction. ACI1 tests the working asymptotic slowing requirement
-without RG. The native physical assignment remains unclosed; a conditional
-finite curvature exclusion is obtained.
+**Current learning.** GRL1 examined ten primary papers in three separate
+research contexts, followed by two fresh adversarial reviewers. Two conditional
+geometric tests survive. The requested native physical connection remains OPEN.
 
-For specified actual clock comparisons admitting a regular fixed-endpoint
-path sweep, bounded initial relative motion and accumulated acceleration,
-unbounded received slowing requires an unbounded transported-curvature integral.
-The finite4D proof adds curvature control beyond the old endpoint-rapidity bound
-and small-loop expansion. The integral depends on the comparison/sweep and
-transported clock; it is not scalar curvature or a supplied bound for nature.
-Large integral alone predicts no redshift. The domain conditions matter.
+Exact agreement of light cones and sufficiently rich free-fall paths fixes the
+metric up to a constant scale; matched received-clock ratios then agree. One
+common free congruence is insufficient. This is a guard against appending a
+clock effect to otherwise identical complete geometric data, not a requirement
+of exact global GR agreement or a bound on permitted physical deviations.
 
-A supplied sharp control has free parallel-prepared clocks, divergent slowing,
-zero scalar curvature and regular local curvature, with reception proper time
-growing without bound. It excludes the earlier specific RG endpoint through
-CCW's necessary scalar limit. It is not a native-admitted UDT history or X_max.
-Flat initial-motion, acceleration and winding controls retain the theorem's
-kinematic and sweep limits.
+A local joint-drift identity separates curvature from changing line of sight
+and the source congruence's shear/vorticity. A supplied flat free-clock control
+has positive raw redshift drift but zero corrected curvature diagnostic. The
+result is a limiting measurement relation with explicit smoothness, geodesic,
+null-branch and sphere-average conditions, not a finite observational estimator.
 
-The unresolved physical step is attaching the additional positional requirement
-to the declared comparison family. Net redshift is not automatically positional
-attribution. No metric, response, sign, scale, population or new premise is
-selected, and no whole-postulate insufficiency is proved. CPA1's assessment
-survives: the completion results remain valid conditional tools, not native
-geometry selection. Repeating its source lookup or extending generic examples
-would not itself close this assignment.
+Operational GR foundations largely recover structure already in the metric
+interface. Curvature reconstruction does not identify DDR's response; received
+tick rates still require actual arrival maps, and geometric areas do not supply
+physical luminosity or energy-flux laws. An external quadrupole inconsistency
+was quarantined; the retained scalar drift relation was independently rederived.
 
-After orientation read R8ACI, R16CPA and R18. Two fresh reviewer contexts
-reconstructed and checked the finite argument and controls. Parent exposure to
-an early reviewer outline preceded its file freeze; independent pre-review
-parent discovery is not claimed. One parent control program passed51 symbolic
-assertions after two preserved exact-normalization failures; some assertions
-are consistency checks. Final attestations and required checks own closure.
-Stop for discussion of the physical assignment; no adoption or successor begins
+No inspected commitment fixes this drift diagnostic, its physical source family
+or the missing positional assignment. Temporal drift and the far-separation
+asymptote are different questions. ACI1's conditional finite curvature bound
+and prior completion tools survive. No response, sign, field equation, scale,
+population or X_max realization is selected. This finite review does not prove
+whole-postulate insufficiency or necessity for a new premise.
+
+After orientation read R8GRL and R18, with R8ACI/R16CPA as needed. The initial
+candidate and one bounded precision repair are preserved; actual separate-context
+reviews checked the arguments and exact controls by hand. Shared model/source
+exposure remains, with no human, different-model, formal or empirical review.
+No scientific CPU or GPU run was needed. Final attestations and required checks
+own closure. Stop for discussion of a justified physical comparison requirement
+or independent observational restriction; no successor or adoption starts
 automatically. The founding positional interpretation remains the premise.
 <!-- GENERATED_DEVELOPMENT_END -->
 

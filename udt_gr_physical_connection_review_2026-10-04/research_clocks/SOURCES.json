@@ -1,0 +1,181 @@
+{
+  "utc": "2026-10-04T17:42:06.284155+00:00",
+  "head": "865a116365f8274c3706f4d3c0a5dfeecf51e4ac",
+  "branch": "grok",
+  "substantive_primary_count": 3,
+  "direct_paper_id_count_including_discarded_metadata": 4,
+  "papers": [
+    {
+      "id": "P1",
+      "title": "Gravitational clock compass in General Relativity",
+      "authors": [
+        "Dirk Puetzfeld",
+        "Yuri N. Obukhov",
+        "Claus Laemmerzahl"
+      ],
+      "arxiv": "1805.10673v2",
+      "version_date": "2018-07-25",
+      "primary_url": "https://arxiv.org/pdf/1805.10673v2",
+      "metadata_url": "https://arxiv.org/abs/1805.10673v2",
+      "doi": "10.1103/PhysRevD.98.024032",
+      "pages_total": 12,
+      "inspected": [
+        {
+          "printed_pages": "1-5",
+          "sections": "I, II.A-C, III.A-B",
+          "equations": "1-24",
+          "scope": "Frame construction, metricity/Taylor expansion and rate quotient derivation read from full text."
+        },
+        {
+          "printed_pages": "5,7-8",
+          "sections": "IV setup and IV.D",
+          "equations": "25-28,52-77",
+          "scope": "Configuration definitions, curvature master equation and inverse component equations; selected ancillary B formulas also exposed."
+        },
+        {
+          "printed_pages": "9-10",
+          "sections": "IV.F, V",
+          "equations": "114-119",
+          "scope": "Full constrained-compass subsection and conclusion context."
+        }
+      ],
+      "omissions": [
+        "No full derivation audit of all inverse components.",
+        "IV.A-C calibration inverse formulas only partly read; no theorem taken from them.",
+        "IV.E vacuum component list not systematically inspected or used.",
+        "Appendix conventions/references not independently audited; report uses own stated convention."
+      ],
+      "external_byte_sha256": null
+    },
+    {
+      "id": "P2",
+      "title": "Extended gravitational clock compass: new exact solutions and simulations",
+      "authors": [
+        "Gerald Neumann",
+        "Dirk Puetzfeld",
+        "Guillermo F. Rubilar"
+      ],
+      "arxiv": "2006.09716v2",
+      "version_date": "2020-08-20",
+      "primary_url": "https://arxiv.org/pdf/2006.09716v2",
+      "metadata_url": "https://arxiv.org/abs/2006.09716v2",
+      "doi": "10.1103/PhysRevD.102.044027",
+      "pages_total": 20,
+      "inspected": [
+        {
+          "printed_pages": "1-2",
+          "sections": "I introductory scope; II complete",
+          "equations": "1-6",
+          "scope": "Full rate definition, fixed reference-clock normalization, neighborhood validity and time-transfer caveat."
+        },
+        {
+          "printed_pages": "6-8",
+          "sections": "V",
+          "equations": "33-57",
+          "scope": "Curvature inversion master equation, required positions/velocities, full inverse list and interpretation of measurement groups."
+        }
+      ],
+      "omissions": [
+        "No systematic read or reproduction of IV acceleration/rotation inverse, VI simulation analysis or appendices.",
+        "Search/open windows incidentally exposed some simulation/IV fragments; no simulation or apparatus claim used.",
+        "Higher-order time-transfer modeling references not followed."
+      ],
+      "external_byte_sha256": null
+    },
+    {
+      "id": "P3",
+      "title": "Generalized deviation equation and determination of the curvature in General Relativity",
+      "authors": [
+        "Dirk Puetzfeld",
+        "Yuri N. Obukhov"
+      ],
+      "arxiv": "1511.08465v2",
+      "version_date": "2016-02-29",
+      "primary_url": "https://arxiv.org/pdf/1511.08465v2",
+      "metadata_url": "https://arxiv.org/abs/1511.08465v2",
+      "doi": "10.1103/PhysRevD.93.044073",
+      "pages_total": 16,
+      "inspected": [
+        {
+          "printed_pages": "1-2",
+          "sections": "I, II.A opening",
+          "equations": "1 definition context",
+          "scope": "Unique connecting-geodesic/world-function setup and declared general curves."
+        },
+        {
+          "printed_pages": "5",
+          "sections": "III.A complete",
+          "equations": "36-41",
+          "scope": "Affine parameter condition, geodesic specialization and linear covariant deviation."
+        },
+        {
+          "printed_pages": "6-7",
+          "sections": "III.C-D, IV.A, IV.B preparation",
+          "equations": "53-61",
+          "scope": "Orthogonality/parameter caveats, coordinate versus covariant acceleration, compass initial positions/velocities."
+        }
+      ],
+      "omissions": [
+        "II full bitensor higher-order derivation not rederived or completely read.",
+        "III.B synchronization formulas only partly read.",
+        "IV.B inverse component list partly exposed but not independently audited or used as a complete-reconstruction theorem.",
+        "Generalized compass and appendices not used."
+      ],
+      "metadata_note": "Official abstract version date is2016-02-29; extracted PDF first page also prints Dated: April4,2018. No conclusion depends on resolving that compilation-date discrepancy.",
+      "external_byte_sha256": null
+    }
+  ],
+  "discarded_metadata_only": [
+    {
+      "url": "https://arxiv.org/abs/1509.05915",
+      "title": "The appearance, motion, and disappearance of three-dimensional magnetic null points",
+      "reason": "Mistaken guessed arXiv identifier; full text not opened or used."
+    }
+  ],
+  "discovery_only": "Other search-result titles/snippets were not opened as substantive papers or used as dependencies. NCI1 literature citation was encountered only through local SOURCE_MAP, not independently inspected.",
+  "access": {
+    "web_pdf_text": "Succeeded for listed sections of all three primary versioned PDFs.",
+    "screenshots": "Failed:2006.09716v2 Internal Error;1805.10673v2 and1511.08465v2 Cache miss.",
+    "direct_fetch_for_byte_pin": "Python urllib.request.urlopen of each versioned PDF failed: URLError <urlopen error [Errno -3] Temporary failure in name resolution>.",
+    "stored_full_papers": false,
+    "external_byte_pin_claim": false
+  },
+  "local_source_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "udt_gr_physical_connection_review_2026-10-04/WORK_ORDER.md": "ef79677af4a89794b3e4deec0cfc230877075067bbbc5292563bef226f79ebf7",
+    "udt_gr_physical_connection_review_2026-10-04/BASELINE.json": "225046b7ef65533a7c6c7b1b02cff30abbb1ff3373dadedaa5bee9458c201c1a",
+    "UDT_DEVELOPMENT.md": "ebcacb5e4de6691d06fa5b8241cc561ee1874d417b95742baf366c773de29847",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md": "318760918a414727a889c924186512cb1b9e46524c029cced9214b6b26c82e48",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+    "udt_positional_selection_whiteboard_2026-10-01/PRIMARY_METHOD_REFERENCES.md": "e7cc54b1e39305d0ad8240bcd1a453a5a6a6366b126c1d7f5a6e4454fed0a43f",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4",
+    "udt_null_clock_depth_integrability_assessment_2026-09-10/SOURCE_MAP.md": "e7ed5cce922b225f73e3eca8848e4c0bd832dac81f1ec55fd2ec183fe3bdb784",
+    "udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md": "448a5544104d534657c24dfc74481128c2c9deb1d0f87d3e5bbd71a2b2ed1594",
+    "udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md": "527f892953017c4fd49807dcac2d0cf865b3e4705b2c71a1e9e2ad616dd5caa2",
+    "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md": "b2838166492684b426f31c0e8aafc37a0a98ba360c3f16060e3a026724a9ce6d",
+    "udt_asymptotic_curvature_implication_2026-10-04/REVIEWED_RESULT.md": "9c0ea903e48115c261c6432d04fad5b9a2e522b8d8008d3472292ec3dcfeb16b",
+    "udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md": "5e2469b06dc71ed75b3af0e9e93ed2f32a12f4f2e72de4f9e7ecea96bfdd2a46",
+    "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md": "b93f54d9ff5432df425dd0afbf6ef95303519967fb7abc742a3bcd3bb549a9c4"
+  },
+  "local_read_scope": {
+    "UDT_DEVELOPMENT.md": "Bounded rg plus D1, R6/R7 interface, SGE, PSW/J1, ACI, FST, ECS, PCC, ESR, CMF/CBR and R18 route paragraphs; not whole document.",
+    "founding.md": "F1-F4, W1-W2, W4 text plus headings/search results; not whole document.",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "First120lines: antecedents, protocol, derivation, trace/sign, J1, beginning controls.",
+    "other_scientific_sources": "Listed exact source files opened; long combined tool displays had limited truncation, while load-bearing definitions, hypotheses and conclusions were inspected in separate central/source reads. Underlying programs/raw evidence were not replayed."
+  },
+  "science_check_kind": "Hand analytic reconstructions and source-hypothesis comparison; no scientific program or new parent shortlisted candidate test.",
+  "grade": "DRAFT_SOURCE_FIRST_RESEARCH_NOT_PROMOTED"
+}

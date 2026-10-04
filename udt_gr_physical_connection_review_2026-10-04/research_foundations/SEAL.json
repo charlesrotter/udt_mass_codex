@@ -1,0 +1,18 @@
+{
+  "status": "SOURCE_FIRST_RESEARCH_SEALED_UNREVIEWED",
+  "utc": "2026-10-04T17:43:25.587868+00:00",
+  "context": "/root/grl_foundations",
+  "exact_model": "not_exposed",
+  "head": "865a116365f8274c3706f4d3c0a5dfeecf51e4ac",
+  "branch": "grok",
+  "files": {
+    "REPORT.md": "313b52d18722b1efa8a53f367db6fe054495d1f631d5cf0cba65a2ccec1b72b6",
+    "SOURCES.json": "d86363ceca0e24cb732b8524cb78a5abfdaf9ece60e8122100f4fccee9a53179",
+    "INPUT_SHA256.json": "b964e5553082302baec9dddcdf26b5f7984a3136315456cd32ab99fda2ef75a1",
+    "EXPOSURE.md": "66f17db81e3a83068db2ca3ca353d2faf1bd6860d506c45f2a78c4f2794ed7e9"
+  },
+  "local_inputs_unchanged_at_seal": true,
+  "substantive_findings_shared_before_seal": false,
+  "sibling_findings_read": false,
+  "independence_limits": "Prior UDT central/reviewed-source exposure disclosed; no different-model or human review claim. Research candidate only."
+}

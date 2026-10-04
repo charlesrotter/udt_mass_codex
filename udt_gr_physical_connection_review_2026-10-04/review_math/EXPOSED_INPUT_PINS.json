@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-04T17:53:52.057096+00:00",
+  "stage": "EXPOSED_CANDIDATE_REVIEW",
+  "inputs": {
+    "udt_gr_physical_connection_review_2026-10-04/INITIAL_SYNTHESIS.md": "c22dba85f79bb91334cad3f89ead99e0d1974f0aeebbe123f80c96efd5d56260",
+    "udt_gr_physical_connection_review_2026-10-04/TEST_PLAN.md": "17a94eb4c713862bb852a7adc0b003a8094ebe48bce472b96300ae7851889201",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/REPORT.md": "313b52d18722b1efa8a53f367db6fe054495d1f631d5cf0cba65a2ccec1b72b6",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/SOURCES.json": "d86363ceca0e24cb732b8524cb78a5abfdaf9ece60e8122100f4fccee9a53179",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/SEAL.json": "00be4e80a1a08a41290ff1960f50e9ffd69fe31e3be6bc7ac3d6c15ce8d5f7f7",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/REPORT.md": "1685dd5427b9201fa7478c87acd0c5c3c98d4f409a31b7a73d9839e09702d3af",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/SOURCES.json": "3abe3019f88ad2a1bd8fb4e9d1c3fd3c1358a1231176f17375a965b807180136",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/SEAL.json": "81ec0d8feb43d79078fe01371eeb2450b67259ef556ab3c801cdd12a195f6140",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/REPORT.md": "a7c679753ade10d3beb59c0038a133604751742fecd22e092410e6770d0c4cee",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/SOURCES.json": "363498353defc9c9eb8f5706ca7c57cca0724e942158f12d7af9e97f89277c19",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/SEAL.json": "583a810b06afd12ad372c5844745f15f046a720dc516273124fe0c10961f5b0f"
+  },
+  "source_first_seal_sha256": "b87822c8d1f434201ba5252ad390279d13b9ff99fdc8d7c1a0a981312a2333c9",
+  "new_exposure": "Frozen parent candidate, plan, three lane reports and metadata; no sibling review. Additional paper claims are lane-attributed, not independent primary inspections.",
+  "checks": "Independent hand T1 bilinear/conformal proof and control; T2 scaled-incidence C1 proof, sphere moments, flat exact arrival control and separation-label conversion; no scientific code.",
+  "verdict": "VERIFIED-WITH-CAVEATS; M1 necessity wording and M2 finite emission/reception label precision repairs requested",
+  "source_first_files_unchanged": true
+}

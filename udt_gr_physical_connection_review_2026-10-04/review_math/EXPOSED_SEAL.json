@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-04T17:53:52.057385+00:00",
+  "stage": "EXPOSED_CANDIDATE_REVIEW",
+  "files": {
+    "EXPOSED_REVIEW.md": "925cf53671e14c23fbf9dd15f79ee52377f3dacb0f46bb75d94a5ef0b05534c6",
+    "EXPOSED_INPUT_PINS.json": "9ac4c347404499cdfe61ec9b59caede126e4ed4b1978766f918acdc50ba16591"
+  }
+}

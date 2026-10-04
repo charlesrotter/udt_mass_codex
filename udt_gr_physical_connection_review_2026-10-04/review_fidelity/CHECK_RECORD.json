@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-04T17:49:22.408050+00:00",
+  "commands": [
+    "git status --short --branch",
+    "git rev-parse HEAD",
+    "git branch --show-current",
+    "git ls-files --others --exclude-standard -z"
+  ],
+  "head": "865a116365f8274c3706f4d3c0a5dfeecf51e4ac",
+  "branch": "grok",
+  "tracked_diff": [],
+  "old_untracked_names_count": 76,
+  "old_untracked_names_missing": [],
+  "preservation_scope": "Names-only comparison; protected content equality not asserted.",
+  "scientific_programs_run": 0,
+  "remote_freshness": "Parent same-session startup attributed; not independently fetched."
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-04T17:49:22.408050+00:00",
+  "context": "Actual separate context /root/grl_fidelity; reviewer tasked from source-first definitions, no current candidate/proof supplied",
+  "model": "Inherited Codex/GPT-6-family runtime; exact model revision unexposed; no different-model claim",
+  "implementation": "Analytic hand checks only; no scientific program",
+  "argument": "Source-first reconstruction with historical prior-verdict exposure",
+  "current_parent_candidate_seen": false,
+  "current_research_lane_reports_seen": false,
+  "sibling_reviewer_seen": false,
+  "prior_verdict_exposure": [
+    "Parent task identifies ACI open physical assignment and previous freeze exposure defect",
+    "Existing central D1/R6/R7/R8PSW/R8ACI/R8ECS/R13/R14/R18",
+    "PSW REPAIR, NCI INITIAL_CANDIDATE and REPAIR, ECS INITIAL_DERIVATION, ACI REVIEWED_RESULT",
+    "Current owner authority and G312 reconciliation verdicts"
+  ],
+  "source_sections": "SOURCE_FIRST.md records exact primary sections and omitted work. Repository section reads are bounded in review tool history.",
+  "omissions": [
+    "No full startup replay, full406 rerun, or independent remote fetch",
+    "No full-corpus derivation or all scientific source tests",
+    "No primary-paper inversion formula or cosmographic expansion code replay",
+    "Remaining allocated primary papers not opened",
+    "No protected payload contents read, hashed, mined, edited or staged"
+  ],
+  "process_notes": [
+    "Initial direct paper download failed under sandbox DNS; authorized network escalation succeeded, no automatic rejection.",
+    "EPS is image-scanned; ordinary text extraction showed page headers only. Actual pages1605-1608 were read from rendered images; final reference page1609 also visible.",
+    "One overbroad registry regex including NCI accidentally matched many wide rows, producing truncated tool output; it was not a registry census or startup read. Follow-up queried only exact G220/G310/G311/G312 typed columns.",
+    "git path listing and status show names only; protected contents were not accessed.",
+    "No current source-first findings transmitted to parent before seal."
+  ]
+}

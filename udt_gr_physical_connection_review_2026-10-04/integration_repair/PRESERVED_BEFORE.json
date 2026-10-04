@@ -1,0 +1,38 @@
+{
+  "UDT_DEVELOPMENT.md": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/UDT_DEVELOPMENT.md",
+    "sha256": "e196fe559858bd76635cf8be9f74dfc1f9b35fd754915b574cc3a98ccd18bdd8"
+  },
+  "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "sha256": "85a791112bebc1107ab6dc9ff3f1ad6fe2f696ed37e6b97793d7c159d6a76d0d"
+  },
+  "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "sha256": "71ae65bedd86dc0874c5b656a8263ef353d3691114b7e80b2fb0d74d6cc9f9c0"
+  },
+  "udt_gr_physical_connection_review_2026-10-04/CENTRAL_INSERT.md": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/udt_gr_physical_connection_review_2026-10-04/CENTRAL_INSERT.md",
+    "sha256": "ef578dd3c120c2f850779c24c21f34720ac7a0bf9ea0e2ec6c6eedff837ac0ec"
+  },
+  "udt_gr_physical_connection_review_2026-10-04/REVIEWED_RESULT.md": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/udt_gr_physical_connection_review_2026-10-04/REVIEWED_RESULT.md",
+    "sha256": "d0f988636311c8cf96e22928e8aad370327fb3c0e88f5465e8d7e806102d8a1c"
+  },
+  "udt_gr_physical_connection_review_2026-10-04/checks/final_maintenance.json": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/udt_gr_physical_connection_review_2026-10-04/checks/final_maintenance.json",
+    "sha256": "b5b77ce1d39095feab4e3b4761f55ee3a41d2768f3f6fc41fe8ba7f40f7ab670"
+  },
+  "udt_gr_physical_connection_review_2026-10-04/checks/final_maintenance.stdout": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/udt_gr_physical_connection_review_2026-10-04/checks/final_maintenance.stdout",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "udt_gr_physical_connection_review_2026-10-04/checks/final_maintenance.stderr": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/udt_gr_physical_connection_review_2026-10-04/checks/final_maintenance.stderr",
+    "sha256": "17ee4508aa5c2f18e5c7ab117066dd49278a0ef0a0e5f8cdb567adbe7d644d0a"
+  },
+  "udt_gr_physical_connection_review_2026-10-04/WORK_RECORD.md": {
+    "saved": "udt_gr_physical_connection_review_2026-10-04/integration_repair/BEFORE/udt_gr_physical_connection_review_2026-10-04/WORK_RECORD.md",
+    "sha256": "efbe439d50075d33a9fc02c1e970846f498ac5b50f478dc93168456a6b3ca52c"
+  }
+}

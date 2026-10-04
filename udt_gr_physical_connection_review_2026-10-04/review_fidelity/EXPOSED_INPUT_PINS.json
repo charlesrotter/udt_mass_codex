@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-04T17:53:04.581001+00:00",
+  "stage": "exposed-candidate-review",
+  "candidate_frozen_sha256_confirmed": "c22dba85f79bb91334cad3f89ead99e0d1974f0aeebbe123f80c96efd5d56260",
+  "source_first_sealed_files_unchanged": {
+    "CHECK_RECORD.json": true,
+    "EXPOSURE.json": true,
+    "INPUT_PINS.json": true,
+    "PRIMARY_ACCESS.json": true,
+    "SOURCE_FIRST.md": true
+  },
+  "files": {
+    "udt_gr_physical_connection_review_2026-10-04/INITIAL_SYNTHESIS.md": "c22dba85f79bb91334cad3f89ead99e0d1974f0aeebbe123f80c96efd5d56260",
+    "udt_gr_physical_connection_review_2026-10-04/TEST_PLAN.md": "17a94eb4c713862bb852a7adc0b003a8094ebe48bce472b96300ae7851889201",
+    "udt_gr_physical_connection_review_2026-10-04/TEST_FREEZE.json": "701a406f8d80a89da00b8b74e7703828ecbe3f7ada16bbee600e1009c1fa4269",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/REPORT.md": "313b52d18722b1efa8a53f367db6fe054495d1f631d5cf0cba65a2ccec1b72b6",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/SOURCES.json": "d86363ceca0e24cb732b8524cb78a5abfdaf9ece60e8122100f4fccee9a53179",
+    "udt_gr_physical_connection_review_2026-10-04/research_foundations/SEAL.json": "00be4e80a1a08a41290ff1960f50e9ffd69fe31e3be6bc7ac3d6c15ce8d5f7f7",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/REPORT.md": "1685dd5427b9201fa7478c87acd0c5c3c98d4f409a31b7a73d9839e09702d3af",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/SOURCES.json": "3abe3019f88ad2a1bd8fb4e9d1c3fd3c1358a1231176f17375a965b807180136",
+    "udt_gr_physical_connection_review_2026-10-04/research_clocks/SEAL.json": "81ec0d8feb43d79078fe01371eeb2450b67259ef556ab3c801cdd12a195f6140",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/REPORT.md": "a7c679753ade10d3beb59c0038a133604751742fecd22e092410e6770d0c4cee",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/SOURCES.json": "363498353defc9c9eb8f5706ca7c57cca0724e942158f12d7af9e97f89277c19",
+    "udt_gr_physical_connection_review_2026-10-04/research_observables/SEAL.json": "583a810b06afd12ad372c5844745f15f046a720dc516273124fe0c10961f5b0f"
+  },
+  "primary_additional_access_after_source_first": [
+    {
+      "url": "https://arxiv.org/html/1611.10198v2",
+      "sections": "II convention; III definitions context; IV proof; V equation15/local-global integrability",
+      "full_paper_review": false
+    },
+    {
+      "url": "https://arxiv.org/html/2006.09716v2",
+      "sections": "II operative rate definition and time-transfer caveat",
+      "full_paper_review": false
+    },
+    {
+      "url": "https://arxiv.org/html/2010.06534v2",
+      "sections": "2 equations12-16 and immediate expansion context",
+      "full_paper_review": false
+    },
+    {
+      "url": "https://arxiv.org/html/2406.06167v1",
+      "sections": "VII full errata, equation26 and IX comparison",
+      "full_paper_review": false
+    }
+  ],
+  "exposure": "Current candidate, TEST_PLAN and all3researcher reports/source ledgers read after parent freeze confirmation and own source-first seal; no sibling review read.",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "required_scientific_repairs": [],
+  "minor_clarity_note": "Explicitly distinguish retarded emission R,N from simultaneous Fermi r,n in flat control; limiting result unchanged.",
+  "omitted": "No full literature proof reconstruction, scientific programs, independent source406 replay, final integration or bank verification."
+}

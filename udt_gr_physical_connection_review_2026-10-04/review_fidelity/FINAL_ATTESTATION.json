@@ -1,24 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T18:11:32.145532+00:00",
-  "scope": "GRL1 bounded ten-primary-paper review; conditional operational rigidity and corrected local geodesic-congruence drift tests with exact adverse controls. Native physical assignment remains OPEN; no response, sign, field equation, population, scale/X_max or physical adoption. Initial candidate fixed; one same-premise precision repair and actual re-review.",
-  "independence": "Three separate sealed research contexts and two additional fresh source-first/exposed/final reviewers; old proof/verdict exposure disclosed. Parent candidate frozen after research reports before new reviewers substantive findings; prior hand exploration disclosed. Reviewers independently hand-derived rigidity, C1 drift and original incidence controls. One precision repair re-reviewed, credited C1/Riccati additions. Shared inherited model, exact revision unexposed; no scientific CPU/GPU, human, different-model, formal, independent-code or empirical review.",
-  "freeze": "udt_gr_physical_connection_review_2026-10-04/INTEGRATION_FREEZE.json",
+  "utc": "2026-10-04T18:11:08.405804+00:00",
+  "context": "/root/grl_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_gr_physical_connection_review_2026-10-04/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "183504f6c57ed148f9c4f412e30215815aca20c0444492aee8f9f4a273ce800f",
+  "freeze_path": "udt_gr_physical_connection_review_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "e17fb45758c9f940a7ff3008f5d2c082ab95b3f552dc71ba40d82d6f7bc3aa29",
-  "prior_review_record": "udt_gr_physical_connection_review_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "4853172beb961a0af0b7da6bbd80c39439922228c9eb48e6dd2b3ef36420c81e",
-  "reviewers": [
-    {
-      "context": "/root/grl_math",
-      "attestation": "udt_gr_physical_connection_review_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "9ebdf0d05888d4854f9ea52b8c3891d708905e3c429e605dd5d01e2b0d848f04"
-    },
-    {
-      "context": "/root/grl_fidelity",
-      "attestation": "udt_gr_physical_connection_review_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "da84e6d4b989e5f7db83beedd3f8e643129f24338415b91862ac53bd95e526f6"
-    }
-  ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -13656,5 +13643,23 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "independence": {
+    "context": "Actual separate source-first/exposed/repair/final context; final pass exposed",
+    "model": "Inherited model family; exact revision unexposed; no different-model claim",
+    "argument": "Independent source-first and exposed hand derivations; final source/meaning/delta review",
+    "implementation": "No scientific code; independent bookkeeping byte checks only"
+  },
+  "resolved_objections": [
+    "Dropped H>0/h>0 and positive-short-separation restrictions restored",
+    "Ultrastatic check accurately attributed to mathematical reviewer only"
+  ],
+  "limits": [
+    "Complete accepted map hash validation is not inherited scientific reproof",
+    "Draft and57-maintenance outcomes attributed after receipt/stream verification",
+    "Normal/full406/binding/staging/commit/push checks remain parent closure actions",
+    "No physical adoption, registry regrade, human/different-model/formal/empirical review"
+  ],
+  "byte_check_path": "udt_gr_physical_connection_review_2026-10-04/review_fidelity/FINAL_BYTE_CHECK.json",
+  "byte_check_sha256": "6e9d2f55370e0be3348f5d111d1c995afa30d365cc853b5230df3205217aaab8"
 }

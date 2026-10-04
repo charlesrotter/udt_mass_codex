@@ -1,0 +1,152 @@
+{
+  "status": "SOURCE_FIRST_CANDIDATE_UNREVIEWED",
+  "access_date_utc": "2026-10-04T17:42:51.051885+00:00",
+  "unique_primary_papers_used": 3,
+  "paper_budget": 4,
+  "papers": [
+    {
+      "id": "EPS1972_REPRINT2012",
+      "title": "The geometry of free fall and light propagation",
+      "authors": [
+        "J. Ehlers",
+        "F. A. E. Pirani",
+        "A. Schild"
+      ],
+      "version": "2012 republication of 1972 original; not independently collated against the 1972 printing",
+      "doi": "10.1007/s10714-012-1353-4",
+      "urls": [
+        "https://doi.org/10.1007/s10714-012-1353-4",
+        "https://bpfoundations.org/plans/ehlers2012.pdf"
+      ],
+      "inspected": "Cover and every body/reference page of the reprint: journal pp.1587–1609; original pp.63–84; PDF pages1–23. Body inspected visually via local PNGs.",
+      "key_locators": [
+        "original pp.63–69: scope and result chain",
+        "original pp.70–74: D1–D4,L1–L2",
+        "original pp.76–81: P1–P2,C; equations(6)–(26)",
+        "original p.82: integrability and simple-connectedness; equations(27)–(29)"
+      ],
+      "access_omissions": [
+        "Browser extraction contained cover/footer text only; web screenshots did not reach this context as images. Initial sandbox download failed DNS. Approved read-only network retry succeeded; local pdftotext still lacked body text; rendered PDF pages were then inspected.",
+        "No archival comparison of original printing. EPS incomplete-formalization admission is retained."
+      ],
+      "abstract_only": false,
+      "temporary_pdf_sha256": "9a56654c468960d1025db708e8526f6a42de6f7202e44a21bdb411cab69da32d",
+      "pdf_saved_in_repository": false
+    },
+    {
+      "id": "MS2020",
+      "title": "Light cone and Weyl compatibility of conformal and projective structures",
+      "authors": [
+        "Vladimir S. Matveev",
+        "Erhard Scholz"
+      ],
+      "version": "arXiv:2001.01494v1, 6 January2020; manuscript dated25December2019",
+      "doi": "10.1007/s10714-020-02716-9",
+      "urls": [
+        "https://arxiv.org/abs/2001.01494v1",
+        "https://arxiv.org/pdf/2001.01494v1"
+      ],
+      "inspected": "Preprint pp.1–6: Introduction, §§1–4, Definitions1–2, Theorem1/proof and Remarks1–3.",
+      "key_locators": [
+        "pp.3–4 definitions and equations(1)–(3)",
+        "pp.4–5 Theorem1 and equations(4)–(8)",
+        "p.5 Remark2 integrability",
+        "p.6 discussion"
+      ],
+      "access_omissions": [
+        "Published nine-page version discovered but not used or collated; inspected eight-page preprint. Reference-only pp.7–8 not audited.",
+        "No formal machine proof or reconstruction of the full irreducible-polynomial argument."
+      ],
+      "abstract_only": false,
+      "temporary_pdf_sha256": "b1c56b6148e1ca2f96f054519090e4d49962ff32395ba2f559b047d426e63e92",
+      "pdf_saved_in_repository": false
+    },
+    {
+      "id": "ADR2018",
+      "title": "A note on the problem of proper time in Weyl space-time",
+      "authors": [
+        "R. Avalos",
+        "F. Dahia",
+        "C. Romero"
+      ],
+      "version": "arXiv:1611.10198v2, 6April2018",
+      "doi": "10.1007/s10701-017-0134-z",
+      "urls": [
+        "https://arxiv.org/abs/1611.10198v2",
+        "https://arxiv.org/pdf/1611.10198v2"
+      ],
+      "inspected": "Preprint pp.1–6,8–9,11–18 (PDF one-based): introduction, Weyl conventions, standard-clock definition, proper-time formula/limits, Proposition1 proof, §V reunion calculation and local/global integrability argument.",
+      "key_locators": [
+        "§II equation(2): nonmetricity convention",
+        "§III Definitions1–2 and equations(8)–(14)",
+        "§IV Proposition1,pp.11–12",
+        "§V equation(15),p.15; equation(16),p.17; closure argument,p.18"
+      ],
+      "access_omissions": [
+        "Detailed reparametrization derivation on p.7 and additivity discussion pp.9–11 not fully audited; not needed for independent reproof claims, none made.",
+        "Publisher edition and cited atomic-clock experiments not inspected. Global conclusion retains explicit topological hypothesis."
+      ],
+      "abstract_only": false,
+      "temporary_pdf_sha256": "301976b22c99fa633c256b3ab80ea1609b7f28a07bba5e889c093cd0452142f7",
+      "pdf_saved_in_repository": false
+    }
+  ],
+  "discovered_not_used_as_theorem_sources": [
+    "Perlick1987 DOI10.1007/BF00759142: bibliographic/search exposure only; primary paper not opened.",
+    "Trautman2012 editorial note: search snippets only; no theorem attributed to it.",
+    "Search snippets for later Weyl clock-model papers and secondary walkthroughs were exposed; no substantive claim depends on them."
+  ],
+  "local_read_scopes": {
+    "UDT_DEVELOPMENT.md": [
+      "D1",
+      "R5",
+      "R6",
+      "R7 including LKT1",
+      "R8 through SGE1",
+      "R8ACI",
+      "heading/index search for load-bearing routing"
+    ],
+    "founding.md": [
+      "Initial full-file read was output-truncated and included historical prompts/status; current F1–F4,W1,W4 reread in bounded ranges. Historical directives were not executed."
+    ],
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": [
+      "Header, exact G220 and G312 rows only; full-file bytes hashed without displaying other rows."
+    ],
+    "UDT_RESEARCH_ROADMAP.md": [
+      "Bounded duplicate text search only."
+    ],
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": [
+      "§§1–5 through line140."
+    ],
+    "udt_asymptotic_curvature_implication_2026-10-04/REVIEWED_RESULT.md": [
+      "Entire result, including prior exposure/verdict."
+    ]
+  },
+  "bounded_duplicate_search": {
+    "tracked_files": [
+      "UDT_DEVELOPMENT.md",
+      "CURRENT_SCIENTIFIC_PREMISES.md",
+      "founding.md",
+      "UDT_RESEARCH_ROADMAP.md"
+    ],
+    "final_pattern": "\\b(Ehlers|Pirani|Schild|EPS)\\b|second.clock|projective.*conformal|conformal.*projective",
+    "result": "No matches in those four files. Earlier loose EPS pattern matched epsilon and was discarded as noisy. R5/R6/R7/R8 contain functional overlap despite no source-name match.",
+    "not_claimed": "No full-repository novelty or absence claim."
+  },
+  "administrative_commands": [
+    "git status --short --branch",
+    "git rev-parse HEAD",
+    "targeted cat/sed/rg/git grep and csv row reads recorded in tool transcript",
+    "urllib.request retrieval to /tmp; pdftotext -layout",
+    "pdftoppm -f 2 -l 23 -r 95 -png /tmp/grl1-foundations-eps.pdf /tmp/grl1-foundations-eps",
+    "tools.view_image on rendered EPS pages02–23",
+    "SHA-256 of explicitly listed local inputs and downloaded primary PDFs"
+  ],
+  "scientific_computation": {
+    "programs": 0,
+    "gpu": 0,
+    "new_observations": 0,
+    "candidate_parent_tests_executed": 0,
+    "method": "Hand reconstruction of conditional rigidity; proposed adverse test is not claimed executed."
+  }
+}

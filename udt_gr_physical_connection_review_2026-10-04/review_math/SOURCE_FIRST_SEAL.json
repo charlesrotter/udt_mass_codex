@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-04T17:50:32.975562+00:00",
+  "stage": "SOURCE_FIRST",
+  "files": {
+    "SOURCE_FIRST.md": "bc78442a480cfa9c2d12b01b890380e7dd2ef28a1f81ce0b00e2c91dde04fe5a",
+    "INPUT_PINS.json": "52e8b6d8b223019a2a531aaa8757d779216a60f4ebf6e8af696fe99686199ed7",
+    "EXPOSURE.json": "648acd9a4926d0c27dd50fcd2307f0cf3453a03badb8f1a04f0c5ce481a5c185"
+  },
+  "parent_candidate_content_exposed": false,
+  "substantive_findings_shared_before_seal": false,
+  "interpretation": "hashes establish bytes; chronology additionally rests on actual tool/message sequence"
+}

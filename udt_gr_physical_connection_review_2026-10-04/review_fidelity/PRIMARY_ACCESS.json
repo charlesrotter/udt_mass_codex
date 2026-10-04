@@ -1,0 +1,26 @@
+[
+  {
+    "tag": "matveev",
+    "url": "https://arxiv.org/html/2001.01494v1",
+    "download_sha256": "43767bb07cbeef8d3e7bfdd0965f50f8457612c029b00251e0751f5bb7574f26",
+    "bytes": 132625
+  },
+  {
+    "tag": "compass",
+    "url": "https://arxiv.org/html/1805.10673v2",
+    "download_sha256": "1bc21c0ad1a135b4b8d1947247d60a4eca543dba56f67192220c6ba516acb61f",
+    "bytes": 495840
+  },
+  {
+    "tag": "drifts",
+    "url": "https://arxiv.org/html/2406.06167v1",
+    "download_sha256": "64bd357a5f6b21baa9454874c87711abc67b6a97cd75f94d19b7def0e1faef70",
+    "bytes": 482194
+  },
+  {
+    "tag": "eps",
+    "url": "https://bpfoundations.org/plans/ehlers2012.pdf",
+    "download_sha256": "9a56654c468960d1025db708e8526f6a42de6f7202e44a21bdb411cab69da32d",
+    "bytes": 3123240
+  }
+]

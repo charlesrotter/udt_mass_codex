@@ -1,0 +1,21 @@
+{
+  "state": "SEALED_SOURCE_FIRST_DRAFT_RESEARCH_NOT_REVIEWED",
+  "utc": "2026-10-04T17:44:21.067172+00:00",
+  "context": "/root/grl_observables",
+  "head": "865a116365f8274c3706f4d3c0a5dfeecf51e4ac",
+  "branch": "grok",
+  "primary_paper_count": 4,
+  "candidate_lead_count": 2,
+  "scientific_programs_run": 0,
+  "sibling_or_parent_synthesis_exposed": false,
+  "old_proofs_and_verdicts_exposed": true,
+  "preseal_substantive_findings_sent": false,
+  "files_sha256": {
+    "REPORT.md": "a7c679753ade10d3beb59c0038a133604751742fecd22e092410e6770d0c4cee",
+    "SOURCES.json": "363498353defc9c9eb8f5706ca7c57cca0724e942158f12d7af9e97f89277c19",
+    "EXPOSURE.md": "f9f63fc456a7d5be086e0e85f422bcaf327bd1c3e402327af6b255f111f73884",
+    "TEST_FREEZE.md": "ead7f3676ab9946a6517b9ad8b07b8ed20928fe6133d5834947ece0759cf5316",
+    "BOOKKEEPING_RECEIPT.json": "e5bf0ca090d0fbe4f6c7c050f6428bd6c49a933fc39554c119800dbeeed4995b"
+  },
+  "limits": "Draft hand-checked research; no independent adversarial review yet. Pins establish correspondence, not truth or chronology."
+}
