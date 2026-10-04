@@ -1,24 +1,11 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T19:40:52.530711+00:00",
-  "scope": "PRT1 steps1-3 conditional positional translation using existing prepared free-clock comparison; weak tidal inequalities, supplied non-Einstein sign control and cubic-onset future asymptote control. Native positional assignment remains OPEN. No physical reference, field equation, population, response, scale/X_max or physical adoption. Steps4/5 receive a reviewed handoff only; no data campaign or numerical solve.",
-  "independence": "Two actual fresh source-first/exposed/final reviewer contexts; old owner/proof/verdict exposure disclosed. Parent froze candidate before reading either new reviewer substantive findings; prior hand exploration disclosed. Both independently hand-checked original metric curvature, boost contractions, reverse preparation, actual arrival derivative, integral/tail and first/echo limits. Precision and handoff wording correction reviewed; original editions preserved. Shared inherited model, exact revision unexposed; no scientific program, human, different-model, formal, independent-code or empirical review.",
-  "freeze": "udt_positional_requirement_translation_2026-10-04/INTEGRATION_FREEZE.json",
+  "context": "/root/prt_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-04T19:40:32.263636+00:00",
+  "freeze_path": "udt_positional_requirement_translation_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "21e766c2140af43873c78b1a254445a44b532284db513d0a7418f134fd221372",
-  "prior_review_record": "udt_positional_requirement_translation_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "223906e3976ae921f352f5b97c45565aad05e39b44e51fa029d06f2ab9465a51",
-  "reviewers": [
-    {
-      "context": "/root/prt_math",
-      "attestation": "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "5005b6a9d006d7637846a9adcd0e13b6a8e9a0612416e031b42bd37cebfaf3bf"
-    },
-    {
-      "context": "/root/prt_fidelity",
-      "attestation": "udt_positional_requirement_translation_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "2a637cb55f2a1f925a5eb6fdb9035104ece1171a1170e72ba50537b5fac6cb1e"
-    }
-  ],
+  "report_path": "udt_positional_requirement_translation_2026-10-04/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "667527cb2bdbca5507ae0568b57e58c3b090c5badd6c8d387c8b249c06c4eaa9",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -13726,5 +13713,35 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "scope": "Actual source-first/exposed/final fidelity review of PRT1 conditional translation, two supplied controls, corrected dependency meaning and step4/5 handoff. Native positional assignment remains OPEN; no physical adoption or execution.",
+  "independence": {
+    "context": "fresh separate reviewer context, maintained through source-first/exposed/precision/final stages",
+    "model": "same inherited model family; exact revision unexposed",
+    "argument": "independent hand reconstruction/checks with old owner/proof/verdict exposure",
+    "implementation": "no scientific program or independent code",
+    "human_different_model_formal_empirical": "not performed"
+  },
+  "exposure": [
+    "On-disk owner/current sources and old proofs/verdicts as pinned in SOURCE_PINS.json",
+    "Parent candidate after SOURCE_FIRST_SEAL.json",
+    "Precision/handoff after explicit dispatch",
+    "Frozen central/integration and parent repair/sequencing narratives",
+    "Sibling review filenames/hashes only; no sibling report text"
+  ],
+  "checks": [
+    "All accepted names/resolved paths validated for protected-prefix and outside-task-untracked exclusion before hashing",
+    "13,706/13,706 accepted SHA256 values match corrected freeze",
+    "Actual graph single-edge correction and retained proof/hypothesis/open-boundary edges reviewed",
+    "Corrected handoff diff and preserved initial editions reviewed",
+    "Parent post-repair draft and 57-test maintenance receipt stream hashes independently matched"
+  ],
+  "omissions": [
+    "No reviewer full406/normal/maintenance rerun",
+    "No full-corpus scientific reproof or old scientific-program replay",
+    "No scientific CPU/GPU, observational data, new external source or model campaign",
+    "No final stage/commit/push or post-banking remote verification",
+    "No physical assignment derivation, premise adoption or stage4/5 execution"
+  ],
+  "correspondence_path": "udt_positional_requirement_translation_2026-10-04/review_fidelity/FINAL_CORRESPONDENCE_CORRECTED.json"
 }

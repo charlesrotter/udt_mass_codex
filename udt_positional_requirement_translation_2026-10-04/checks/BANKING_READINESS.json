@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "c641bf5a69913cad1072e9c2857179898f810daf",
+  "origin_before_commit": "c641bf5a69913cad1072e9c2857179898f810daf",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 13706,
+  "claim_limit": "PRT1 steps1-3 conditional positional translation using existing prepared free-clock comparison; weak tidal inequalities, supplied non-Einstein sign control and cubic-onset future asymptote control. Native positional assignment remains OPEN. No physical reference, field equation, population, response, scale/X_max or physical adoption. Steps4/5 receive a reviewed handoff only; no data campaign or numerical solve."
+}

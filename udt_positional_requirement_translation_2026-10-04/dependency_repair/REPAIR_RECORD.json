@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T19:35:26.792115+00:00",
+  "reporter": "/root/prt_fidelity",
+  "defect": "R8PCC proof edge risks inheriting stronger C_PCC_ALLFRAME equality, which PRT does not assume.",
+  "survivor": "All displayed mathematics and conditional scope; R6/R7/R8 proof edges.",
+  "smallest_repair": "Change R8PCC -> R8PRT kind from proof to context; actual final re-review required.",
+  "preserved_sha256": {
+    "udt_positional_requirement_translation_2026-10-04/dependency_repair/INITIAL_DEVELOPMENT_GRAPH.json": "770b3e4bdbe5c65ee5984ed88d1532d00e68650b350dc70dc0d009de4e739b34",
+    "udt_positional_requirement_translation_2026-10-04/dependency_repair/INITIAL_integrate_development.py": "6b4c77242dd133eb34e5cd237138781d4b8781d1d99c30cf2de0b8f7ff6e7587",
+    "udt_positional_requirement_translation_2026-10-04/dependency_repair/INITIAL_WORK_RECORD.md": "94628855e9e369eb75efc073188826d0f39a94cad3148323d72645ff83e607bf",
+    "udt_positional_requirement_translation_2026-10-04/dependency_repair/INITIAL_INTEGRATION_FREEZE.json": "70bef4d7579df8ab718881596f028a0c6a60a6848d7791e89983ce30121d08a8"
+  }
+}

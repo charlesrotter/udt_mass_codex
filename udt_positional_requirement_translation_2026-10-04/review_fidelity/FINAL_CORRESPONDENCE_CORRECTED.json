@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-04T19:38:30.960510+00:00",
+  "freeze_sha256": "21e766c2140af43873c78b1a254445a44b532284db513d0a7418f134fd221372",
+  "accepted_count": 13706,
+  "correspondence": "PASS",
+  "mismatches": [],
+  "protected_prefix_entries": 0,
+  "outside_task_untracked_entries": 0,
+  "path_preflight": "All names and resolved paths checked before hashing accepted entries",
+  "bytes_hashed": 2286525757,
+  "elapsed_seconds": 1.1767067989567295,
+  "changed_from_original_freeze": [
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "udt_positional_requirement_translation_2026-10-04/WORK_RECORD.md",
+    "udt_positional_requirement_translation_2026-10-04/checks/final_maintenance.json",
+    "udt_positional_requirement_translation_2026-10-04/checks/final_maintenance.stderr",
+    "udt_positional_requirement_translation_2026-10-04/integrate_development.py"
+  ],
+  "new_entries_count": 18,
+  "removed_entries": [],
+  "scope": "Version correspondence, not a full scientific reproof; sibling text was not exposed."
+}

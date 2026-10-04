@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T19:19:28.165594+00:00",
+  "candidate_sha256": "094d55da5829235c130f45bb15b2cc2226c6aa3aa14f26212f6f5346de631c89",
+  "source_first_seal_sha256": "edc400da864fc9b379561eeae02c0bbb7922ae6be6c059439a2f91a02ad46d4c",
+  "review_sha256": "d2b8f29593ddbbbb164304117bc1b800a2dbad0feb5da0708c373491872fa6cd",
+  "sibling_exposure": false,
+  "scientific_program": false,
+  "verdict": "VERIFIED-WITH-CAVEATS; final integration and handoff precision pending"
+}

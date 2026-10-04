@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-04T19:31:27.651866+00:00",
+  "kind": "Operational route labels; no science change",
+  "preserved_sha256": {
+    "udt_positional_requirement_translation_2026-10-04/integration_repair/INITIAL_LIVE.md": "6a61503d1a4846db1336a0d997b0c50bcbc9b1d5e0d987e82faebb27952d521b",
+    "udt_positional_requirement_translation_2026-10-04/integration_repair/INITIAL_HANDOFF.md": "b23d4c815df58d186b5fd6424d1221ef7012fe9d365ba53f931887a2c84d26fd",
+    "udt_positional_requirement_translation_2026-10-04/integration_repair/INITIAL_integrate_development.py": "82d7ef16adb4ec31dc6c3779e031e510e84392596e7cf0f6464613c089c779eb"
+  },
+  "initial_draft_receipt": "udt_positional_requirement_translation_2026-10-04/checks/draft_coherence.json",
+  "initial_maintenance_receipt": "udt_positional_requirement_translation_2026-10-04/checks/initial_integration_failure/final_maintenance.json",
+  "repair": "Restore exact Stop for lay discussion and Next: markers without changing recommendation or authorization."
+}

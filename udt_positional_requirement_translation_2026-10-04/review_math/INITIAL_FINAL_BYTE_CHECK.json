@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-04T19:33:37.076626+00:00",
+  "integration_freeze_sha256": "70bef4d7579df8ab718881596f028a0c6a60a6848d7791e89983ce30121d08a8",
+  "entries_checked": 13688,
+  "bytes_hashed": 2281302452,
+  "protected_paths_rejected_before_hash": [],
+  "old_untracked_overlap": [],
+  "mismatches": [],
+  "mode": "Opaque SHA-256 correspondence only; not scientific full-corpus review. Sibling report content not exposed to model."
+}

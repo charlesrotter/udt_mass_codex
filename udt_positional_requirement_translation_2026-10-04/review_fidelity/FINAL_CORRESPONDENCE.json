@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T19:33:33.401543+00:00",
+  "freeze_sha256": "70bef4d7579df8ab718881596f028a0c6a60a6848d7791e89983ce30121d08a8",
+  "entry_count": 13688,
+  "protected_prefix_entries": 0,
+  "outside_task_untracked_entries": 0,
+  "path_and_resolved_path_validation": "PASS before any accepted-entry hash",
+  "correspondence": "PASS",
+  "mismatches": [],
+  "bytes_hashed": 2281302452,
+  "elapsed_seconds": 1.1787774950498715,
+  "scope": "Version correspondence only; old/sibling artifacts not exposed as content or scientifically re-reviewed."
+}

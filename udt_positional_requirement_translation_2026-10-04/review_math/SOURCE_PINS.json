@@ -1,0 +1,151 @@
+{
+  "scope": "Version pins for actual read files; full hash is correspondence, not full-text scientific review. Excerpts/searches are disclosed in EXPOSURE.md.",
+  "created_utc": "2026-10-04T19:17:02.667492+00:00",
+  "head": "c641bf5a69913cad1072e9c2857179898f810daf",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d"
+    },
+    {
+      "path": "LIVE.md",
+      "sha256": "5fcfc8b36e1bb293700801441e9ba90434fc925c01854e416df9aba431ea8dcf"
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "cfefa09432e40daad695808ee6e89a776b53ee03e52996a87079a6a133e1083b"
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "sha256": "f345f4459028da41187f2e482b9563354b30ef678acd6286e4ea0af817064c4b"
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.md",
+      "sha256": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4"
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "79be0981180b3a241fb0be15697d731884218796dc36fde4cd6fce08ab55e8a1"
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761"
+    },
+    {
+      "path": "CROSS_MODEL_VERIFY.md",
+      "sha256": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1"
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0"
+    },
+    {
+      "path": ".claude/skills/verifier-before-record/SKILL.md",
+      "sha256": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac"
+    },
+    {
+      "path": ".claude/skills/solution-space-not-imposition/SKILL.md",
+      "sha256": "095561e8f307928b286f7935d1d6f161b33ac56fe227d702c708f81a329bd47c"
+    },
+    {
+      "path": "udt_positional_requirement_translation_2026-10-04/WORK_ORDER.md",
+      "sha256": "d827538284c4d57c2fcc75102fa0ea6965f45e884249572ba5a7209d82e35106"
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "sha256": "7e747e98121247c3571328805838b3ba16820dd2b7416fc033cfab8ed6d6ae6e"
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "sha256": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0"
+    },
+    {
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md",
+      "sha256": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69"
+    },
+    {
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+      "sha256": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7"
+    },
+    {
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/WORK_ORDER.md",
+      "sha256": "74802e3dbb0100ba03287d89a25a0a485f3e3af63dd4866d52878d0cd469b31f"
+    },
+    {
+      "path": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+      "sha256": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b"
+    },
+    {
+      "path": "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+      "sha256": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50"
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md",
+      "sha256": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c"
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+      "sha256": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1"
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+      "sha256": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97"
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md",
+      "sha256": "f5a8d91b349794862550453224459edfe0ec629b856b42e4a7dd4b7ac3ce1170"
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
+      "sha256": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5"
+    },
+    {
+      "path": "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md",
+      "sha256": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b"
+    },
+    {
+      "path": "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
+      "sha256": "45c92396691b9278bea5b8cf0583cb77709292473d8a50b76280be3fa1b029cd"
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md",
+      "sha256": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10"
+    },
+    {
+      "path": "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md",
+      "sha256": "6fd58301461585fabd0ec7adf4db9adfa24f00a3b5a4659bef099af5e62c1ee4"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md",
+      "sha256": "aa57035504c19a42586d8266d863d7973d543b884872b6fd636d61e9f80e4859"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/CONTROL_SUPPLEMENT.md",
+      "sha256": "f5b9072b51ba243a690af5904fdbd77573fa6efda2f65561a5ea5cd12a46f4c2"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/WORK_ORDER.md",
+      "sha256": "f35396e3ad156128ab994dd02fa7b0e703d531cb244c48f0031d0fe0dd357b99"
+    },
+    {
+      "path": "udt_gr_physical_connection_review_2026-10-04/INITIAL_SYNTHESIS.md",
+      "sha256": "c22dba85f79bb91334cad3f89ead99e0d1974f0aeebbe123f80c96efd5d56260"
+    },
+    {
+      "path": "udt_gr_physical_connection_review_2026-10-04/REPAIR.md",
+      "sha256": "7da831304cce71ab3937b3108317403f270b2fa1435e81d45e9aab2c2973ba71"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4"
+    }
+  ]
+}

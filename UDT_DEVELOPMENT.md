@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — GRL1 bounded GR connection review completed,
+**Current development — PRT1 positional translation and step4/5 handoff reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,43 +35,50 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** GRL1 examined ten primary papers in three separate
-research contexts, followed by two fresh adversarial reviewers. Two conditional
-geometric tests survive. The requested native physical connection remains OPEN.
+**Current learning.** Charles authorized an existing comparison, faithful
+translation of the positional requirement and derivation of its restrictions,
+then a handoff to observations and numerics. PRT1 returns a reviewed conditional
+formulation; the native positional assignment remains OPEN.
 
-Exact agreement of light cones and sufficiently rich free-fall paths fixes the
-metric up to a constant scale; matched received-clock ratios then agree. One
-common free congruence is insufficient. This is a guard against appending a
-clock effect to otherwise identical complete geometric data, not a requirement
-of exact global GR agreement or a bound on permitted physical deviations.
+The chosen experiment uses properly separated, parallel-prepared free clocks
+and two independent first signals. Its ordinary query data need no universal
+population law. Free preparation removes initial velocity mismatch and proper
+acceleration but does not remove ordinary curvature or isolate a positional
+component. Net positivity and a selected reference contrast therefore remain
+explicit alternative conditional assignments, not derived physical laws.
 
-A local joint-drift identity separates curvature from changing line of sight
-and the source congruence's shear/vorticity. A supplied flat free-clock control
-has positive raw redshift drift but zero corrected curvature diagnostic. The
-result is a limiting measurement relation with explicit smoothness, geodesic,
-null-branch and sphere-average conditions, not a finite observational estimator.
+Strict finite slowing can imply only a weak local tidal sign; its quadratic
+coefficient may vanish. Same sign across laboratories is weaker than PCC's
+identical coefficient. A supplied existing control satisfies the weaker
+all-frame signs in a stated region without being an Einstein metric. Another
+existing control has zero initial curvature, cubic clock onset and a divergent
+first-reception ratio at a finite limiting preparation distance, while future
+local curvature stays regular. The new future-domain calculation is conditional;
+its scale, limit and power are not native X_max or an adopted cosmology.
 
-Operational GR foundations largely recover structure already in the metric
-interface. Curvature reconstruction does not identify DDR's response; received
-tick rates still require actual arrival maps, and geometric areas do not supply
-physical luminosity or energy-flux laws. An external quadrupole inconsistency
-was quarantined; the retained scalar drift relation was independently rederived.
+These checks prevent selecting a quadratic onset, constant-curvature form or
+asymptotic exponent from qualitative slowing alone. They preserve the founding
+requirement and old positive/negative results without proving that the full
+postulates are insufficient or a new premise is necessary. No response, physical
+reference, field equation, population or scale is selected.
 
-No inspected commitment fixes this drift diagnostic, its physical source family
-or the missing positional assignment. Temporal drift and the far-separation
-asymptote are different questions. ACI1's conditional finite curvature bound
-and prior completion tools survive. No response, sign, field equation, scale,
-population or X_max realization is selected. This finite review does not prove
-whole-postulate insufficiency or necessity for a new premise.
+The concrete next handoff is step4A: a bounded observation-to-comparison table
+for at most three channels, with actual readouts, independent distance, source/
+observer histories, uncertainty and prior exposure. Then freeze one candidate
+analysis before inspecting new confirmation outcomes. Supplied-metric clock/
+ray/transport evaluation in step5A can proceed independently under its own
+work order. Broader step5B needs declared equations/conditional constraints,
+domains and actual-workload smoke/load/restart gates; it is not a complete
+native-space survey. No stage4/5 campaign runs in this return.
 
-After orientation read R8GRL and R18, with R8ACI/R16CPA as needed. The initial
-candidate and one bounded precision repair are preserved; actual separate-context
-reviews checked the arguments and exact controls by hand. Shared model/source
-exposure remains, with no human, different-model, formal or empirical review.
-No scientific CPU or GPU run was needed. Final attestations and required checks
-own closure. Stop for discussion of a justified physical comparison requirement
-or independent observational restriction; no successor or adoption starts
-automatically. The founding positional interpretation remains the premise.
+After orientation read R8PRT and R18, with PSW/FPC/PCC/ACI/GRL as load-bearing.
+Two fresh reviewer contexts hand-checked the arguments and actual controls,
+then reviewed precision and handoff. Initial candidates and wording corrections
+remain preserved. Shared model/source exposure is disclosed; no scientific
+program, human, different-model, formal or empirical review is claimed. Actual
+final attestations and normal/maintenance/full406 receipts own closure. The
+recommended next task is the bounded step4A interface audit, not an automatic
+startup dispatch or physical adoption.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1148,12 +1155,163 @@ have different quantifiers. No new-postulate necessity, whole-UDT insufficiency,
 physical response, sign, source population, field equation or X_max is derived.
 ACI1 and the completion tools retain their original limits. Generating all
 records from a freely supplied metric and checking their agreement cannot itself
-select nature's metric. R18 owns the return for discussion.
+select nature's metric. Charles's subsequent PRT1 task below tests a precise
+translation and supplies the next-stage handoff; R18 owns the current return.
 
 [Initial synthesis](udt_gr_physical_connection_review_2026-10-04/INITIAL_SYNTHESIS.md),
 [controlling precision repair](udt_gr_physical_connection_review_2026-10-04/REPAIR.md)
 and [reviewed scope](udt_gr_physical_connection_review_2026-10-04/REVIEWED_RESULT.md)
 preserve derivations, exact controls, source versions and review exposure.
+
+
+<a id="r8prt"></a>
+
+#### Translating the positional requirement and handing off to observations — PRT1
+
+Charles authorized steps1–3 after GRL1: use an existing comparison, express what
+the founding requirement demands, and derive the resulting geometric restriction;
+then leave a clear handoff to observations and numerics. **The reviewed return is
+conditional: the experiment and its possible restrictions are precise, while the
+native positional assignment remains OPEN.** This is neither a newly undefined
+observable nor a proof that a new postulate must be introduced.
+
+**One legitimate query.** Use PSW/FPC's event o, unit future U, perpendicular
+spatial unit n, proper preparation length L and spacelike exponential B0=exp_o(Ln).
+Parallel-transport U along preparation, release both clocks freely and hold their
+histories fixed while differentiating nearby emissions. Use length units for time,
+c_E=1. Independently emit first signals from A0 and B0 on direct regular future
+null branches, with proper-arrival derivatives p_+(L),p_-(L). Their redshifts are
+p_+-1,p_--1. The preparation matches initial events without choosing a universal
+present or observer population. A later immediate echo has a different second
+ratio q; neither p_- nor q is the mathematical inverse of p_+. Finite equality
+of p_+ and p_- requires further symmetry. These choices are query data, not laws.
+
+Ordinary local clocks, received ticking, additional mutual positional slowing
+and one geometry are existing commitments. Parallel preparation and free fall
+remove initial velocity mismatch and proper acceleration, but ordinary tidal
+curvature still affects the experiment. The owner's combined-net-redshift
+expectation was tentative; no arithmetic split of effects is specified.
+Consequently the query alone does not identify its net p as a pure positional
+reading. Two possible precise assignments are retained visibly **UNADOPTED**:
+
+* N: both net first ratios exceed1 for every sufficiently small positive L in
+  a stated laboratory, with a threshold allowed to depend on the query.
+* C: a justified reference g0 and physical matching I of event/orthonormal frame,
+  proper L, parallel preparation, units and branch give positive contrasts
+  c_+=log(p_+/p0_+), c_-=log(p_-/p0_-) throughout the common small branch.
+
+C needs its reference because it is a contrast, not because every possible
+native law needs a GR comparator. Neither N/C has been derived from the inspected
+owner statements. No population-selection law is demanded to choose the query.
+
+**Weak signs do not impose PCC's equality.** Let A_g(X,Y,Z,W)=g(R(X,Y)Z,W).
+PSW gives log p_+=-A_g(n,U,U,n)L^2/2+O(L^3). Reversing the preparation applies
+that same theorem at B0 with transported U and reversed n; its curvature differs
+by O(L) on the common smooth normal tube. Thus log p_- has the same leading
+coefficient, without a finite equality. The original controlled C1 remainder
+and fixed-history assumptions remain necessary.
+
+Under N, strict finite positivity therefore implies only T_U(n,n)<=0. Under C,
+with the algebraic curvature difference D=A_g-I*A_g0, it gives
+
+    lim_(L->0) 2c_+/L^2 = lim 2c_-/L^2 = -D(n,U,U,n) >= 0.
+
+The limit may be zero. All directions in one U give a negative-semidefinite
+electric form and a nonpositive Ricci contraction. All U give a cone of
+inequalities, not the identical all-frame coefficient of PCC1. If Ric(D)=0
+**as a symmetric tensor** and these inequalities hold for all U,n at an event,
+each electric form has zero trace and is zero. Projection, polynomial extension
+from the timelike cone and curvature polarization give D=0 at that event.
+Zero scalar curvature alone does not suffice, nor does this conclusion equate
+connections or finite records. FPC's stronger net Ric=0/open-region exclusion
+retains its own quantifiers; this matched pointwise statement does not replace it.
+
+A supplied existing PSW control shows the inequality is genuinely weaker. Take
+g=-dt^2+a(t)^2 sum dx_i^2 on an unquotiented spatial chart, a=1+k t^2, k>0,
+and a physically matched flat reference. Original connection components
+Gamma^0_ij=aa' delta_ij and Gamma^i_0j=(a'/a)delta^i_j give temporal tide -A
+and spatial sectional curvature B, where
+
+    A=a''/a=2k/(1+kt^2),  B=(a'/a)^2=4k^2t^2/(1+kt^2)^2.
+
+For U=gamma(e0+v e1), |v|<1, and unit perpendicular
+n=cos(theta)gamma(v e0+e1)+sin(theta)e2, direct contraction gives
+
+    -D(n,U,U,n)=A+(A-B)gamma^2v^2 sin^2(theta),
+    A-B=2k(1-kt^2)/(1+kt^2)^2>0 for |t|<k^(-1/2).
+
+Each fixed laboratory in that open region consequently has positive first
+contrasts at sufficiently small L. Thresholds need not be uniform over unbounded
+boosts. Yet Ric_00=-3A, Ric_ii=A+2B, and A!=B: this is not an Einstein metric or
+PCC's curvature-difference equality. The control does not select physical UDT
+geometry or an expanding-cosmos mechanism. The underlying weak-sign inference
+reuses PSW/FPC/PCC; its clearer translation is not a new native law.
+
+**A higher-order onset can coexist with the distant receiving limit.** Extend
+PCC's old local cubic control only on the declared supplied domain
+(-b^(-1/3),infinity) times R^3, b>0, with a(t)=1+b t^3 and preparation t=0.
+There is no spatial quotient, winding or reflected branch. At preparation
+a=1,a'=a''=0, so all curvature vanishes; the straight spatial preparation is a
+geodesic and transports partial_t unchanged. Resting clocks are unit free
+geodesics. Midpoint reflection exchanges the clocks in this particular control.
+
+The original null-incidence equation on fixed worldlines is
+eta(t_receive)-eta(t_emit)=L, eta'=1/a. Its actual derivative at emission0 gives
+p_+=p_-=1+b t_receive^3>1. Local analytic inversion gives
+log p=bL^3+O(L^6), so the quadratic coefficient is zero. In the future,
+
+    L_* = integral_0^infinity dt/(1+b t^3)
+        = 2pi/[3sqrt(3)b^(1/3)],
+    delta=L_*-L=1/(2b t_receive^2)+O(t_receive^-5),
+    p ~ delta^(-3/2)/[2^(3/2)sqrt(b)].
+
+Partial fractions evaluate the integral; expanding1/(1+b t^3) on a large-t
+tail and integrating its bounded remainder gives the asymptotic estimate.
+Strict monotonicity of eta supplies a unique finite direct reception for each
+0<L<L_*, with reception proper time diverging toward the limit. The immediate
+echo needs2L<L_* and has q=a(t(2L))/a(t(L)); independent first signals do not
+inherit this earlier echo limit. There is no finite receiving event at L_*.
+
+The orthonormal temporal/spatial curvature magnitudes are6bt/(1+bt^3) and
+9b^2t^4/(1+bt^3)^2. Both remain bounded on t>=0 and decay at infinity, as do
+their algebraic scalar contractions. This does not bound ACI's transported
+curvature budget or sweep extent. The cubic control does not satisfy the first
+control's all-frame regional sign requirement throughout its future: its A-B
+changes sign at bt^3=2. No global completeness or physical X_max is asserted.
+The global tail calculation is new PRT1 work on the old local PCC control;
+neither k nor b is a derived/fitted physical scale. These particular local and
+asymptotic query properties do not force a quadratic onset, constant curvature,
+local singularity or unique pole exponent. Additional native conditions may
+still restrict them. No full-postulate countermodel has been constructed.
+
+**Handoff.** Step4A's concrete first deliverable is a bounded table of at most
+three observation channels: actual spectral/tick/drift readouts, independently
+supported distance, source/observer histories, branch and source/flux assumptions,
+selection/covariance/error model and prior exposure. Astronomical sources need
+their actual R6 query; they are not automatically PSW laboratories. A redshift-
+derived distance cannot independently confirm the same curve. Step4B freezes
+model, estimator, exclusions, tuning, covariance treatment and decision rule
+before inspecting new confirmation outcomes. Fits constrain a declared candidate;
+they do not become a native metric law or independent kernel multiplier.
+
+Step5A can evaluate supplied geometry independently of completing step4. Its
+state is clock x,u, affine-ray y,k, declared transport P and arrival parameters;
+the original equations are nabla_u u=0, nabla_k k=0 and nabla_cdot P=0, with
+g(u,u)=-1, g(k,k)=0, metricity and actual endpoint incidence. Proper arrival
+derivatives and endpoint frequency contractions can be independently arranged.
+Small-L error includes epsilon(L)/L^2 and truncation. Step5B requires an actual
+equation/conditional constraint class, domains and sufficient data; observations
+alone do not supply native dynamics. Original residuals, convergence and the
+actual workload's smoke/load/checkpoint/restart/manual-stop gates precede long
+production. A finite supplied-class search is not complete native-space coverage.
+
+Step4 design can proceed with the native join open; numerical evaluation need
+not wait for observations. The precise next work is in the fixed
+[step4/5 handoff](udt_positional_requirement_translation_2026-10-04/STEPS_4_5_HANDOFF.md)
+and [controlling precision](udt_positional_requirement_translation_2026-10-04/PRECISION.md).
+No stage4/5 campaign is executed here. [Initial candidate](udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md)
+and [reviewed return](udt_positional_requirement_translation_2026-10-04/REVIEWED_RESULT.md)
+preserve the exact conditional scope. R18 owns the recommended next bounded task.
 
 
 #### Finite mutual ticking and its causal limits — FPC1
@@ -4151,15 +4309,40 @@ metric is stronger than GR FILTER ONLY; temporal drift is not the asymptotic
 separation requirement. The supplied flat control blocks a raw-drift curvature
 sign inference while preserving the corrected geometric identity.
 
-[GRL1's decision brief](udt_gr_physical_connection_review_2026-10-04/DECISION_BRIEF.md)
-owns the current lay return. A next proposal needs a justified physical
-requirement for an actual comparison, or independently defined observations
-that constrain the geometry under disclosed assumptions. This review selects
-neither route. Another inverse-measurement identity alone cannot supply the
-physical restriction. No whole-postulate insufficiency, new-premise necessity,
-native field equation or X_max realization is proved. Stop for discussion;
-no further literature/model/data campaign or physical adoption begins
-automatically. Prior fixed decisions and mathematical tools retain their scope.
+The [fixed GRL1 return](udt_gr_physical_connection_review_2026-10-04/DECISION_BRIEF.md)
+retains that distinction. Charles then authorized PRT1's steps1–3 and a clear
+handoff to4/5. R8PRT now specifies the existing prepared free-clock experiment,
+separates its net and matched-contrast readings from the required additional
+effect, and derives conditional weak tidal inequalities. Its non-Einstein
+positive-sign control preserves the distinction from PCC's equal-coefficient
+trial. The old cubic control's newly checked future domain allows zero initial
+quadratic term and a distant first-reception asymptote with bounded future local
+curvature. These supplied controls do not select a native UDT geometry.
+
+[PRT1's decision brief](udt_positional_requirement_translation_2026-10-04/DECISION_BRIEF.md)
+owns the current lay return. The native positional assignment remains open;
+steps1–3 return a precise conditional chain rather than a closed physical law.
+No whole-postulate insufficiency or new-postulate necessity is inferred. Existing
+mathematical tools and their adverse examples keep their source grades/domains.
+
+The recommended next bounded task is step4A's observation-to-comparison map,
+specified in the [step4/5 handoff](udt_positional_requirement_translation_2026-10-04/STEPS_4_5_HANDOFF.md)
+with [controlling precision](udt_positional_requirement_translation_2026-10-04/PRECISION.md).
+For at most three channels identify actual observed ratios, independent distance,
+source/observer histories, readout/flux assumptions, errors/covariance, selection
+and prior exposure. Then propose one frozen candidate analysis. This design work
+can begin before native dynamics is closed; a missing protocol bridge limits its
+inference, not all observational planning. Native positional attribution still
+cannot be inferred merely from a positive measured net shift.
+
+Step5A may independently evaluate clock/null/transport queries on a supplied
+geometry with original residual and incidence checks. Step5B needs a declared
+equation/constraint class and domains/data; observation constraints alone do not
+provide native evolution. The actual workload needs smoke/load/restart/stop
+checks before long production. No generic fitted response, preferred power-law
+onset/asymptote, complete native census or automatic old-GPU-campaign restart is
+authorized by this handoff. This task ends with the reviewed handoff; actual
+stage4/5 execution proceeds under its bounded work order.
 
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
@@ -5137,6 +5320,27 @@ human, different-model, empirical, formal or full-corpus review occurred.
 retain the scope, omissions and both positive/negative interpretation checks.
 Actual final attestations and normal/maintenance/full406 receipts own closure;
 review and banking do not adopt the open physical join.
+
+PRT1 uses two fresh source-first/exposed/final contexts, with old owner/proof/
+verdict exposure disclosed. Parent froze its new candidate before reading either
+new reviewer's substantive findings. Both reviewers independently hand-derived
+the original metric curvature, Lorentz-frame contractions, reverse preparation,
+actual arrival derivative, conformal integral/tail and first/echo branch limits.
+No scientific program ran. The local sign inference mainly reuses PSW/FPC/PCC;
+the future cubic control analysis is newly scoped work on the old supplied
+example, not native admission. Precision clarifies Ric(D) as a tensor, the
+unquotiented future domain and independent availability of supplied-metric
+evaluation. The concrete handoff was written after source-first review; its
+contrast-tail caution is credited. Both reviewers caught wording that appeared
+to freeze confirmation outcomes; the corrected text freezes analysis choices
+before inspecting outcomes. Its first edition and actual correction are retained,
+and the next task is explicitly recommended under a bounded work order.
+[Work record](udt_positional_requirement_translation_2026-10-04/WORK_RECORD.md) and
+[descendant review](udt_positional_requirement_translation_2026-10-04/DESCENDANT_REVIEW.md)
+record positive/negative scope and omissions. No human, different-model, formal,
+independent-code, empirical or full-corpus scientific review is claimed. Actual
+final accepted-map attestations and required captured checks own closure; neither
+review nor commit supplies the open physical assignment or adopts physics.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

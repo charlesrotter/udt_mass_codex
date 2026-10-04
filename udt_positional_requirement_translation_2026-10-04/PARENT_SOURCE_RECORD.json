@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T19:17:52.751784+00:00",
+  "source_sha256": {
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md": "1b217aa30932d3986557abb7e95f7d1e8a8196946e75091794b1ef06058e2911",
+    "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md": "f6421c2aa59a2619027cdff706b472ee36eaa350ae43b91c2137dc0c93a54499",
+    "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md": "2b0f71487c0f0de7a9b478b84ce2f570508ade27b95183c1e1cdf2ae547f15b5",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10",
+    "udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md": "6fd58301461585fabd0ec7adf4db9adfa24f00a3b5a4659bef099af5e62c1ee4"
+  },
+  "read_scope": "Listed PSW/FPC/PCC files and central D1/R6-R8/GRL/PCC/ACI interpretations. PSW INITIAL first110lines; REPAIR first155(full); FPC INITIAL first155(full); PCC INITIAL full180 lines; PCC SUPPLEMENT full. Combined earlier displays truncated, then load-bearing owner/PCC/PSW/FPC sections read separately. Some original-source reads occurred after candidate freeze to crosscheck the central excerpts; no source changed. New reviewer source-first arguments first read after parent freeze; math full read19:17UTC, fidelity full read after seal announcement. No scientificCPU/GPU."
+}

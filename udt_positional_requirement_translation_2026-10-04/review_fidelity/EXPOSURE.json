@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/prt_fidelity",
+  "context": "fresh separate context, inherited model; exact revision unexposed",
+  "prior_arguments_and_verdicts": "PSW/FPC/FST/PCC/ACI/GRL exposed as recorded in source pins; FPC prior fidelity report read",
+  "new_parent_candidate_seen": false,
+  "sibling_review_seen": false,
+  "startup_full406": "attributed parent same-session startup; not rerun",
+  "scientific_code": "none",
+  "external_papers": "none",
+  "protected_payload": "not read/hashed/mined",
+  "parent_freeze_notice": "Received parent message during source-first writing: candidate frozen at 19:15:46 UTC, hash 094d55da5829235c130f45bb15b2cc2226c6aa3aa14f26212f6f5346de631c89; contents not read."
+}

@@ -1,0 +1,10 @@
+{
+  "reviewer": "/root/prt_fidelity",
+  "utc": "2026-10-04T19:17:19.326453+00:00",
+  "state": "SOURCE_FIRST_SEALED_BEFORE_NEW_CANDIDATE_EXPOSURE",
+  "files": {
+    "SOURCE_FIRST.md": "3fa470a25af3e8b04780c3b61b9efbf7a01826ada5de128c6b1855c33f204ffb",
+    "SOURCE_PINS.json": "9ed490bf4cf874faf2baa307c4cb8a71e55be9cbd2cdfd0de7ca77e6f6468fb0",
+    "EXPOSURE.json": "ddfcea268d06e3b24ff4bd319d687e33f8e224294656b227831acadcc8dac976"
+  }
+}

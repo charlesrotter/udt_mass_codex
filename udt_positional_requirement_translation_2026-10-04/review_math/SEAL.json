@@ -1,0 +1,22 @@
+{
+  "scope": "PRT1 math source-first seal before substantive parent findings and before PRT1 candidate exposure",
+  "created_utc": "2026-10-04T19:17:02.669454+00:00",
+  "head": "c641bf5a69913cad1072e9c2857179898f810daf",
+  "parent_candidate_read": false,
+  "sibling_review_read": false,
+  "scientific_computation_run": false,
+  "files": [
+    {
+      "path": "udt_positional_requirement_translation_2026-10-04/review_math/SOURCE_FIRST.md",
+      "sha256": "a491dca95ff83f9be76b4502f2f893e72d0ee15bcaf9b1836dadfa5b01b78cfa"
+    },
+    {
+      "path": "udt_positional_requirement_translation_2026-10-04/review_math/SOURCE_PINS.json",
+      "sha256": "cfc8c04196f21b0b8801b871b7686b48ecf3780f0f4795822d8540180014f503"
+    },
+    {
+      "path": "udt_positional_requirement_translation_2026-10-04/review_math/EXPOSURE.md",
+      "sha256": "7c320ef873f77b8d3652592a89d53088c37117d8a494d2ad6371ade2a2957a44"
+    }
+  ]
+}

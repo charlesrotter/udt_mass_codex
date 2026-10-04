@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T19:40:52.530711+00:00",
+  "utc": "2026-10-04T19:36:00.606244+00:00",
   "scope": "PRT1 steps1-3 conditional positional translation using existing prepared free-clock comparison; weak tidal inequalities, supplied non-Einstein sign control and cubic-onset future asymptote control. Native positional assignment remains OPEN. No physical reference, field equation, population, response, scale/X_max or physical adoption. Steps4/5 receive a reviewed handoff only; no data campaign or numerical solve.",
-  "independence": "Two actual fresh source-first/exposed/final reviewer contexts; old owner/proof/verdict exposure disclosed. Parent froze candidate before reading either new reviewer substantive findings; prior hand exploration disclosed. Both independently hand-checked original metric curvature, boost contractions, reverse preparation, actual arrival derivative, integral/tail and first/echo limits. Precision and handoff wording correction reviewed; original editions preserved. Shared inherited model, exact revision unexposed; no scientific program, human, different-model, formal, independent-code or empirical review.",
-  "freeze": "udt_positional_requirement_translation_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "21e766c2140af43873c78b1a254445a44b532284db513d0a7418f134fd221372",
-  "prior_review_record": "udt_positional_requirement_translation_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "223906e3976ae921f352f5b97c45565aad05e39b44e51fa029d06f2ab9465a51",
-  "reviewers": [
-    {
-      "context": "/root/prt_math",
-      "attestation": "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "5005b6a9d006d7637846a9adcd0e13b6a8e9a0612416e031b42bd37cebfaf3bf"
-    },
-    {
-      "context": "/root/prt_fidelity",
-      "attestation": "udt_positional_requirement_translation_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "2a637cb55f2a1f925a5eb6fdb9035104ece1171a1170e72ba50537b5fac6cb1e"
-    }
+  "base_head": "c641bf5a69913cad1072e9c2857179898f810daf",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 13636,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -1964,8 +1956,6 @@
     "udt_positional_requirement_translation_2026-10-04/dependency_repair/INITIAL_WORK_RECORD.md": "94628855e9e369eb75efc073188826d0f39a94cad3148323d72645ff83e607bf",
     "udt_positional_requirement_translation_2026-10-04/dependency_repair/INITIAL_integrate_development.py": "6b4c77242dd133eb34e5cd237138781d4b8781d1d99c30cf2de0b8f7ff6e7587",
     "udt_positional_requirement_translation_2026-10-04/dependency_repair/REPAIR_RECORD.json": "314932637bef01626a8f4faaf2747c44f01e71b6e53373c9e5f04cb55cac2db1",
-    "udt_positional_requirement_translation_2026-10-04/dependency_repair/REVIEW_SEQUENCE.md": "68754ca58cf5a8723f37a69cbfb14bb39e3290154683766c22dd7f64c80e0a81",
-    "udt_positional_requirement_translation_2026-10-04/dependency_repair/UNATTESTED_INTERMEDIATE_FREEZE.json": "13a1c9499b2316ffed8818f86791f0b7c34a582e1b6c781b09a73ce982165c64",
     "udt_positional_requirement_translation_2026-10-04/handoff_repair/INITIAL_STEPS_4_5_HANDOFF.md": "5c3d8ea4845e394fe8cdc94203078eead43f854aba0a5181f03858aceba6b6d4",
     "udt_positional_requirement_translation_2026-10-04/handoff_repair/REPAIR_RECORD.md": "017af4d6aba89ecc2c5a522423ba44b21c0d786b5972b91cea40b80640aeb931",
     "udt_positional_requirement_translation_2026-10-04/integrate_development.py": "4f0354e71b85f23de7df9387d1ae7860a2c54f0d8d2e0b5741b8c916d5b9c403",
@@ -1985,9 +1975,8 @@
     "udt_positional_requirement_translation_2026-10-04/review_math/CANDIDATE_REVIEW.md": "d2b8f29593ddbbbb164304117bc1b800a2dbad0feb5da0708c373491872fa6cd",
     "udt_positional_requirement_translation_2026-10-04/review_math/CANDIDATE_REVIEW_SEAL.json": "6163ce37009629e286686e6b47ed40ca708afe03b15af21731c4c75aec80c28e",
     "udt_positional_requirement_translation_2026-10-04/review_math/EXPOSURE.md": "7c320ef873f77b8d3652592a89d53088c37117d8a494d2ad6371ade2a2957a44",
-    "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_INTEGRATION_INITIAL_REVIEW.md": "03661d720df95c64fdfc10cd01893535f637147978ad052c76ddee65aaf680dd",
-    "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_REVIEW_REPAIR_HISTORY.json": "c93bd6eed93e42be9e8f4d344db487537225d94a2175af2f12a8f227298a561b",
-    "udt_positional_requirement_translation_2026-10-04/review_math/INITIAL_FINAL_BYTE_CHECK.json": "fe23b4275d0385fdb62f643b08e0ae112927b5b9acb917e9b3f138c4b96b05a7",
+    "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_BYTE_CHECK.json": "fe23b4275d0385fdb62f643b08e0ae112927b5b9acb917e9b3f138c4b96b05a7",
+    "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_REVIEW.md": "03661d720df95c64fdfc10cd01893535f637147978ad052c76ddee65aaf680dd",
     "udt_positional_requirement_translation_2026-10-04/review_math/PRECISION_HANDOFF_REVIEW.md": "1117480bf5bd5b2df9f017fdef09d8d77fffee980c0ed37dfe43a478ee0c94bd",
     "udt_positional_requirement_translation_2026-10-04/review_math/SEAL.json": "edc400da864fc9b379561eeae02c0bbb7922ae6be6c059439a2f91a02ad46d4c",
     "udt_positional_requirement_translation_2026-10-04/review_math/SOURCE_FIRST.md": "a491dca95ff83f9be76b4502f2f893e72d0ee15bcaf9b1836dadfa5b01b78cfa",

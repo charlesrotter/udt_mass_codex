@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-04T19:19:37.389077+00:00",
+  "stage": "exposed_initial_candidate_review",
+  "reviewer": "/root/prt_fidelity",
+  "source_first_seal_preserved": true,
+  "sibling_seen": false,
+  "scientific_program": "none",
+  "files": {
+    "INITIAL_CANDIDATE.md": "094d55da5829235c130f45bb15b2cc2226c6aa3aa14f26212f6f5346de631c89",
+    "CANDIDATE_FREEZE.json": "ad7a3ded4e6d6d84949eb9edde91b492340557ce8211d082e263876beb98e37d",
+    "review_fidelity/CANDIDATE_REVIEW.md": "2c0ea654007f61f8c753b92dddbfbb8ac34e5ae345556e07858a7ba53efe52b5"
+  }
+}

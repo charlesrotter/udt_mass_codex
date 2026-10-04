@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-04T19:36:17.646895+00:00",
+  "preserved_report": "udt_positional_requirement_translation_2026-10-04/review_math/INITIAL_FINAL_REVIEW.md",
+  "sha256": "03661d720df95c64fdfc10cd01893535f637147978ad052c76ddee65aaf680dd",
+  "state": "Unattested preliminary final review of initial freeze; superseded pending graph dependency precision",
+  "reason": "Parent communicated actual fidelity finding: R8PCC proof edge could import optional C_PCC_ALLFRAME. New graph will route PCC as context. Prior attempted attestation failed before write because parent moved integration freeze for preservation.",
+  "attestation_written": false,
+  "next": "Actual corrected-map and graph re-review before new FINAL_REVIEW/FINAL_ATTESTATION."
+}

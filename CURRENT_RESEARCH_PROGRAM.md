@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — GRL1 bounded GR connection review completed,
+**Current development — PRT1 positional translation and step4/5 handoff reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,43 +39,50 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** GRL1 examined ten primary papers in three separate
-research contexts, followed by two fresh adversarial reviewers. Two conditional
-geometric tests survive. The requested native physical connection remains OPEN.
+**Current learning.** Charles authorized an existing comparison, faithful
+translation of the positional requirement and derivation of its restrictions,
+then a handoff to observations and numerics. PRT1 returns a reviewed conditional
+formulation; the native positional assignment remains OPEN.
 
-Exact agreement of light cones and sufficiently rich free-fall paths fixes the
-metric up to a constant scale; matched received-clock ratios then agree. One
-common free congruence is insufficient. This is a guard against appending a
-clock effect to otherwise identical complete geometric data, not a requirement
-of exact global GR agreement or a bound on permitted physical deviations.
+The chosen experiment uses properly separated, parallel-prepared free clocks
+and two independent first signals. Its ordinary query data need no universal
+population law. Free preparation removes initial velocity mismatch and proper
+acceleration but does not remove ordinary curvature or isolate a positional
+component. Net positivity and a selected reference contrast therefore remain
+explicit alternative conditional assignments, not derived physical laws.
 
-A local joint-drift identity separates curvature from changing line of sight
-and the source congruence's shear/vorticity. A supplied flat free-clock control
-has positive raw redshift drift but zero corrected curvature diagnostic. The
-result is a limiting measurement relation with explicit smoothness, geodesic,
-null-branch and sphere-average conditions, not a finite observational estimator.
+Strict finite slowing can imply only a weak local tidal sign; its quadratic
+coefficient may vanish. Same sign across laboratories is weaker than PCC's
+identical coefficient. A supplied existing control satisfies the weaker
+all-frame signs in a stated region without being an Einstein metric. Another
+existing control has zero initial curvature, cubic clock onset and a divergent
+first-reception ratio at a finite limiting preparation distance, while future
+local curvature stays regular. The new future-domain calculation is conditional;
+its scale, limit and power are not native X_max or an adopted cosmology.
 
-Operational GR foundations largely recover structure already in the metric
-interface. Curvature reconstruction does not identify DDR's response; received
-tick rates still require actual arrival maps, and geometric areas do not supply
-physical luminosity or energy-flux laws. An external quadrupole inconsistency
-was quarantined; the retained scalar drift relation was independently rederived.
+These checks prevent selecting a quadratic onset, constant-curvature form or
+asymptotic exponent from qualitative slowing alone. They preserve the founding
+requirement and old positive/negative results without proving that the full
+postulates are insufficient or a new premise is necessary. No response, physical
+reference, field equation, population or scale is selected.
 
-No inspected commitment fixes this drift diagnostic, its physical source family
-or the missing positional assignment. Temporal drift and the far-separation
-asymptote are different questions. ACI1's conditional finite curvature bound
-and prior completion tools survive. No response, sign, field equation, scale,
-population or X_max realization is selected. This finite review does not prove
-whole-postulate insufficiency or necessity for a new premise.
+The concrete next handoff is step4A: a bounded observation-to-comparison table
+for at most three channels, with actual readouts, independent distance, source/
+observer histories, uncertainty and prior exposure. Then freeze one candidate
+analysis before inspecting new confirmation outcomes. Supplied-metric clock/
+ray/transport evaluation in step5A can proceed independently under its own
+work order. Broader step5B needs declared equations/conditional constraints,
+domains and actual-workload smoke/load/restart gates; it is not a complete
+native-space survey. No stage4/5 campaign runs in this return.
 
-After orientation read R8GRL and R18, with R8ACI/R16CPA as needed. The initial
-candidate and one bounded precision repair are preserved; actual separate-context
-reviews checked the arguments and exact controls by hand. Shared model/source
-exposure remains, with no human, different-model, formal or empirical review.
-No scientific CPU or GPU run was needed. Final attestations and required checks
-own closure. Stop for discussion of a justified physical comparison requirement
-or independent observational restriction; no successor or adoption starts
-automatically. The founding positional interpretation remains the premise.
+After orientation read R8PRT and R18, with PSW/FPC/PCC/ACI/GRL as load-bearing.
+Two fresh reviewer contexts hand-checked the arguments and actual controls,
+then reviewed precision and handoff. Initial candidates and wording corrections
+remain preserved. Shared model/source exposure is disclosed; no scientific
+program, human, different-model, formal or empirical review is claimed. Actual
+final attestations and normal/maintenance/full406 receipts own closure. The
+recommended next task is the bounded step4A interface audit, not an automatic
+startup dispatch or physical adoption.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T19:40:52.530711+00:00",
+  "utc": "2026-10-04T19:37:12.650833+00:00",
   "scope": "PRT1 steps1-3 conditional positional translation using existing prepared free-clock comparison; weak tidal inequalities, supplied non-Einstein sign control and cubic-onset future asymptote control. Native positional assignment remains OPEN. No physical reference, field equation, population, response, scale/X_max or physical adoption. Steps4/5 receive a reviewed handoff only; no data campaign or numerical solve.",
-  "independence": "Two actual fresh source-first/exposed/final reviewer contexts; old owner/proof/verdict exposure disclosed. Parent froze candidate before reading either new reviewer substantive findings; prior hand exploration disclosed. Both independently hand-checked original metric curvature, boost contractions, reverse preparation, actual arrival derivative, integral/tail and first/echo limits. Precision and handoff wording correction reviewed; original editions preserved. Shared inherited model, exact revision unexposed; no scientific program, human, different-model, formal, independent-code or empirical review.",
-  "freeze": "udt_positional_requirement_translation_2026-10-04/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "21e766c2140af43873c78b1a254445a44b532284db513d0a7418f134fd221372",
-  "prior_review_record": "udt_positional_requirement_translation_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "223906e3976ae921f352f5b97c45565aad05e39b44e51fa029d06f2ab9465a51",
-  "reviewers": [
-    {
-      "context": "/root/prt_math",
-      "attestation": "udt_positional_requirement_translation_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "5005b6a9d006d7637846a9adcd0e13b6a8e9a0612416e031b42bd37cebfaf3bf"
-    },
-    {
-      "context": "/root/prt_fidelity",
-      "attestation": "udt_positional_requirement_translation_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "2a637cb55f2a1f925a5eb6fdb9035104ece1171a1170e72ba50537b5fac6cb1e"
-    }
+  "base_head": "c641bf5a69913cad1072e9c2857179898f810daf",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 13636,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

@@ -18,8 +18,7 @@ their actual review history. Final attestations and normal/maintenance/full406
 receipts own closure; commit/push and byte checks own banking. Verify actual
 HEAD, remote, dirt and processes rather than treating this text as the tip.
 
-Next: Stop for lay discussion of the reviewed steps1–3 and the step4/5 handoff.
-The recommended step4A task is a bounded observation-to-comparison map, then a proposed
+Next handoff: step4A's bounded observation-to-comparison map, then a proposed
 frozen analysis; STEPS_4_5_HANDOFF and PRECISION in PRT1 own the fixed details.
 Supplied-metric step5A evaluation can proceed independently under its own bounded
 work order. Broader5B needs declared equations/constraints and workload gates.
