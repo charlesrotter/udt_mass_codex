@@ -1,33 +1,33 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — CPW1 physical clock-law whiteboard return, 2026-10-03
+## CURRENT STATE — startup focus and authorized free-clock derivation, 2026-10-03
 
-CDR1 remains the central-development architecture; exact grades stay in
-CURRENT_SCIENTIFIC_PREMISES.tsv. LIVE.md owns status. Verify grok HEAD, remote,
-dirt and actual host state. Charles authorized the bounded three-perspective
-whiteboard, short checks, two fresh adversarial reviews, same-premise repair,
-central integration and lay return. Fixed evidence is under
-`udt_clock_law_physical_whiteboard_2026-10-03/`; UDT_DEVELOPMENT.md
-R8CPW/R16CPW/R18 owns the maintained argument. CURRENT_RESEARCH_PROGRAM.md is
-its generated startup excerpt. No physical premise, equation, scale, registry
-grade or CANON adoption is made. FC/RG remain UNADOPTED.
+CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
+sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and its
+sources own exact grades. Startup reads the concise generated
+CURRENT_RESEARCH_PROGRAM.md, then gives orientation before opening evidence.
 
-Three source-first contributions, two fresh exposed reviews and scoped exact
-controls are saved. Actual final attestations and normal/maintenance/full406
-receipts own acceptance/pass status. The initial symbolic comparison failure
-and same-equation repair remain preserved. No GPU, empirical/hardware campaign
-or generic completion/free-clock theorem is part of CPW1. No-timeout direction
-persists with finite/resource/manual stops. Preserve protected/unrelated work.
+CPW1 is completed and synchronized at342b9d90 (verify actual HEAD/remote rather
+than assuming this remains the tip). Three contributors, two fresh reviewers,
+scoped controls, the full406 audit and57 maintenance tests support its bounded
+return. Its fixed evidence is udt_clock_law_physical_whiteboard_2026-10-03/.
+The relevant central chapters are R8CPW/R16CPW/R18; sources own scientific limits.
 
-Next: Stop for lay discussion of the CPW1 decision brief. The parent proposes
-one optional completion/free-clock robustness test; its exact narrowed scope
-is SUCCESSOR_SCOPE.md in that package. It requires a new bounded decision and
-does not start automatically. This does not adopt RG or a physical clock
-population. A clock anomaly is not the project objective. Verify processes;
-review bindings remain in development_reconstruction_2026-09-29. TPS1 raw
-fields/large streams remain local-only; compact remote records cannot replay
-raw-dependent checks. CPW1 is banked only after actual commit/push and byte checks.
+Charles then authorized: “First cleanup the startup surface in case we need to
+start a new session and then proceeed with the derivation.” The active dispatch
+is udt_startup_focus_2026-10-03/WORK_ORDER.md. Finish/review/bank this editorial
+checkpoint first; then execute the already-authorized CPW1 SUCCESSOR_SCOPE in
+udt_free_clock_completion_2026-10-03/. Check its actual files before resuming;
+this startup checkpoint itself contains no successor theorem or execution.
+
+The derivation includes one analytic construction, at most two short parent
+controls, two fresh adversarial reviewer checks, one same-premise repair round,
+central integration, required checks and commit/push. No GPU or long solve;
+2GiB per process, one BLAS thread,100MiB output, no elapsed/CPU timeout, finite
+scope/resource/manual stops. No RG/FC adoption, source/action equation, registry
+promotion, empirical/hardware campaign or automatic extension is authorized.
+Stop for lay discussion after the reviewed conditional return or explicit gap.
 
 ### Honest claim
 
@@ -60,9 +60,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Stop for lay discussion of CPW1 using central R8CPW/R16CPW/R18 and its decision
-brief/SUCCESSOR_SCOPE. Physical admission, native geometry/response and positional
-attribution remain open. No automatic successor, premise adoption, GPU/data
-campaign or hardware experiment. Existing pauses/protected boundaries remain.
+Next: complete the editorial checkpoint, then carry out the authorized bounded
+free-clock completion test. Do not re-ask to begin its included checks/reviews.
+Stop for lay discussion at its return point. Verify actual processes, evidence
+and review bindings; no solver is launched by startup itself. Existing pauses
+and protected boundaries persist. TPS1 raw fields/large streams remain local-only;
+compact remote records cannot replay raw-dependent checks.
 
 <!-- STARTUP_CURRENT_END -->

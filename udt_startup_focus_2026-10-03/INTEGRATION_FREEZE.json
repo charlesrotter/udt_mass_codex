@@ -1,24 +1,14 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T00:56:10.188761+00:00",
+  "utc": "2026-10-04T00:51:35.440362+00:00",
   "scope": "SFC1 editorial startup compression and owner-authorized next action. Central body after orientation, graph, registry, canon and scientific sources unchanged. Two reused separate CPW1 reviewer contexts perform proportionate editorial/routing checks. Restored original area-scope qualifier after failed G349 startup check; original failure preserved. No successor theorem or scientific promotion.",
-  "independence": "Two reused separate CPW1 reviewer contexts; same model, exposed editorial comparison. Not fresh scientific review. Exact body-preservation and authorization/routing checks; inherited scientific evidence retains prior review limits",
-  "freeze": "udt_startup_focus_2026-10-03/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "85d54eee0b8c5bb6e18c7c7805deba716ff32c2c9dfb1edd6adeb3d2ff8dd743",
-  "prior_review_record": "udt_startup_focus_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "3a9d3daa4289f785908f47d381af2b775905141264a2c31e7418144a80063019",
-  "reviewers": [
-    {
-      "context": "/root/cpw_review_math",
-      "attestation": "udt_startup_focus_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "d497235e7627be436cb11bd358ffa95792c3c26a819411202ddaef2102418805"
-    },
-    {
-      "context": "/root/cpw_review_fidelity",
-      "attestation": "udt_startup_focus_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "d0568763c9e6abee3217cde85387417ea8705e5eccf6dce025256cb6d69f7ae8"
-    }
+  "base_head": "342b9d90af80057b02943a1f60e8bac74dc651a1",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md"
   ],
+  "inherited_count": 13321,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

@@ -1,24 +1,14 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T00:56:10.188761+00:00",
-  "scope": "SFC1 editorial startup compression and owner-authorized next action. Central body after orientation, graph, registry, canon and scientific sources unchanged. Two reused separate CPW1 reviewer contexts perform proportionate editorial/routing checks. Restored original area-scope qualifier after failed G349 startup check; original failure preserved. No successor theorem or scientific promotion.",
-  "independence": "Two reused separate CPW1 reviewer contexts; same model, exposed editorial comparison. Not fresh scientific review. Exact body-preservation and authorization/routing checks; inherited scientific evidence retains prior review limits",
-  "freeze": "udt_startup_focus_2026-10-03/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "85d54eee0b8c5bb6e18c7c7805deba716ff32c2c9dfb1edd6adeb3d2ff8dd743",
-  "prior_review_record": "udt_startup_focus_2026-10-03/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "3a9d3daa4289f785908f47d381af2b775905141264a2c31e7418144a80063019",
-  "reviewers": [
-    {
-      "context": "/root/cpw_review_math",
-      "attestation": "udt_startup_focus_2026-10-03/review_math/FINAL_ATTESTATION.json",
-      "sha256": "d497235e7627be436cb11bd358ffa95792c3c26a819411202ddaef2102418805"
-    },
-    {
-      "context": "/root/cpw_review_fidelity",
-      "attestation": "udt_startup_focus_2026-10-03/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "d0568763c9e6abee3217cde85387417ea8705e5eccf6dce025256cb6d69f7ae8"
-    }
+  "utc": "2026-10-04T00:51:13.704402+00:00",
+  "scope": "SFC1 editorial startup compression and owner-authorized next action. Central body after orientation, graph, registry, canon and scientific sources unchanged. Two reused separate CPW1 reviewer contexts perform proportionate editorial/routing checks. No successor theorem or scientific promotion.",
+  "base_head": "342b9d90af80057b02943a1f60e8bac74dc651a1",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md"
   ],
+  "inherited_count": 13321,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -1813,7 +1803,6 @@
     "udt_startup_focus_2026-10-03/BASELINE.json": "fca4adf0f7aec463d9cd1d6bea80431d495ae905835e29e11224c98dad874837",
     "udt_startup_focus_2026-10-03/BASELINE_REPAIR.md": "5eb984e0b2de3892d1c7d23257dc034905305e8f506e7f0cb55cd4f9b3fba2c1",
     "udt_startup_focus_2026-10-03/EDITORIAL_REVIEW_SCOPE.md": "e0f3a25f06e6efd6f47fd187559b9d898f16a338ee426b8fa5c070b0adfa1e8d",
-    "udt_startup_focus_2026-10-03/GUARD_REPAIR_DRAFT_FREEZE.json": "9f50836c3026622cb3af291efc67dc8746e311f0320cbd76a8a60d71ebce5f20",
     "udt_startup_focus_2026-10-03/INITIAL_BASELINE.json": "9340b965a2d7b7527458a3bb4ca726c0f88b585dddca3acea9c7c3329a77d7e6",
     "udt_startup_focus_2026-10-03/INITIAL_INTEGRATION_FREEZE.json": "98529b8e64f68cf044d7c3d88cb2af333dc696b5696e463e389b4b59d1331417",
     "udt_startup_focus_2026-10-03/METADATA_REPAIRED_FREEZE.json": "294a400f0121190f870d6ac2d97f1780a03377d3b2439245bb4e828ee69b7912",
@@ -1835,7 +1824,7 @@
     "udt_startup_focus_2026-10-03/checks/final_premises_windowed.json": "6693b4d52ca837521cd8b39eb51d845dca114fc1e5cc2ca8f6077625f1f77484",
     "udt_startup_focus_2026-10-03/checks/final_premises_windowed.stderr": "639790b97e479f17e3049bd20a49c85913082a1c983b41f3a8214528c2d0ca7a",
     "udt_startup_focus_2026-10-03/checks/final_premises_windowed.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "udt_startup_focus_2026-10-03/close_checkpoint.py": "c3f2a05f37444b510847a7e7dc1079ad2c9cab9ed7cc23090280b4cc6206747f",
+    "udt_startup_focus_2026-10-03/close_checkpoint.py": "6040325d656098079ce1a4fc2e7bfcaf445c4b8d955d2a7241fb12441d8fd3ef",
     "udt_startup_focus_2026-10-03/pre_guard_repair/CURRENT_RESEARCH_PROGRAM.md": "93ab3b3af567be2f05d7ffe9ff1f42040784c6a7d1f1c3b9fe4366be504e30cf",
     "udt_startup_focus_2026-10-03/pre_guard_repair/UDT_DEVELOPMENT.md": "f1c22f683a59b5ab436fd55e2ba77b0115c12c6552919e6114b6b6a4db3cd9a4",
     "udt_startup_focus_2026-10-03/review_fidelity/PRE_GUARD_FINAL_ATTESTATION.json": "8007e0aa0dc68ccc584b015bfb918cf1ff5848ff083a45b00c36676b423a4fb1",

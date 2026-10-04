@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T00:52:06.718594+00:00",
+  "duration_seconds": 1.2383999800076708,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 32244,
+  "forwarded_signals": [],
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "0ccf297a4c420f22afb999f60601757ddb7ce716a1af7087fe18cb2543477475",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

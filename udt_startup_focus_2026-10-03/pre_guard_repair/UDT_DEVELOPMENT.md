@@ -31,9 +31,6 @@ X_max is WORKING/OPEN asymptotic global completion: value, realization, modulati
 and operational distance relation are open. It is inactive as a local kernel
 input, never a preferred center, material wall, seam or cutoff.
 Angular-sector cancellation alone owns loud--quiet--loud.
-Finite null-patch results distinguish multiplicity-counted sheet area from
-geometric endpoint image-union; the latter requires global preimage identification.
-These geometric results do not identify physical light, brightness or carried content.
 
 **Current learning.** CPW1 (R8CPW/R16CPW/R18) recommends parking scalar echo
 sufficiency FC as a physical selector. Its extra assumption is not established

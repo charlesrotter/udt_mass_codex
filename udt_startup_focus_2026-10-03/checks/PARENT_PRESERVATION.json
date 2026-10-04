@@ -1,0 +1,14 @@
+{
+  "scope": "editorial preservation only",
+  "body_sha256": "343223ebc51c339342b05ef0a79eaea1006d49adb59d4c93c19592b278024098",
+  "old_orientation_words": 2191,
+  "new_orientation_words": 488,
+  "changed_tracked": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md"
+  ],
+  "program_exact": true,
+  "whitespace_pass": true
+}
