@@ -1,28 +1,27 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — CCW1 completion-connection whiteboard return, 2026-10-04
+## Current handoff — PDA1 prepared-distance return, 2026-10-04
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. The generated CURRENT_RESEARCH_PROGRAM.md is the bounded
-startup orientation. Read R16CCW/R16FCL/R18 after orientation for the current argument.
+startup orientation. Read R16PDA/R16CCW/R16FCL/R18 after orientation.
 
-Charles authorized the CCW1 whiteboard after the completed FCL1 derivation and
-startup cleanup. FCL1 was checked, committed and synchronized at28efe475;
-CCW1 evidence is in udt_completion_connection_whiteboard_2026-10-03/.
-Its WORK_ORDER owns scope. Three source-first contributions, the original
-synthesis, exact controls and fresh/reused exposed reviews are preserved.
+Charles authorized the prepared-distance test after the completed CCW1 return
+at976f860d. PDA1 evidence is in udt_prepared_distance_attachment_2026-10-04/;
+its WORK_ORDER owns scope. The unchanged initial candidate, frozen exact
+controls and two fresh source-first/exposed/final reviews are preserved.
 Final attestations and actual normal/maintenance/full406 receipts own closure;
 commit/push and byte checks own banking. Verify actual HEAD, remote, dirt and
 processes rather than assuming this text identifies the tip.
 
-Next: Stop for lay discussion of the CCW1 decision brief and unexecuted
-prepared-distance proposal. The whiteboard authorizes no successor or RG/FC
-adoption, native field/source/action law, registry promotion, GPU/data/hardware
-campaign. One short CPU exact-control script was run; no long solver. The
-no-timeout direction persists with finite scope/resource/manual stops.
-Preserve protected and unrelated work.
+Next: Stop for lay discussion of the PDA1 decision brief. A possible source-led
+native-admission audit is an unexecuted discussion recommendation, not an
+authorized successor. No RG/FC adoption, native field/source/action law, registry
+promotion, GPU/data/hardware campaign starts automatically. One short CPU exact
+control program ran; no long solver. The no-timeout direction persists with
+finite scope/resource/manual stops. Preserve protected and unrelated work.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

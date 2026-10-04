@@ -1,0 +1,76 @@
+{
+  "utc": "2026-10-04T05:14:16.522521+00:00",
+  "status": "PASS",
+  "scope": "Artifact correspondence and scoped integration structure; not full-corpus semantic review",
+  "freeze_sha256": "2ca818e902ebb26fba4addfa92e7c889fada60b7d31cc89b7e65358dd158de34",
+  "accepted_paths_verified": 13462,
+  "protected_prefixes_excluded_before_payload_reads": [
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
+  ],
+  "protected_payload_reads": 0,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_package_paths": 40,
+  "unchanged_authority_files": {
+    "CANON.md": {
+      "unchanged_against_HEAD": true,
+      "baseline_checked": true,
+      "sha256": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250"
+    },
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": {
+      "unchanged_against_HEAD": true,
+      "baseline_checked": true,
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b"
+    },
+    "founding.md": {
+      "unchanged_against_HEAD": true,
+      "baseline_checked": false,
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    "AGENTS.md": {
+      "unchanged_against_HEAD": true,
+      "baseline_checked": true,
+      "sha256": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d"
+    },
+    "CLAUDE.md": {
+      "unchanged_against_HEAD": true,
+      "baseline_checked": true,
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4"
+    }
+  },
+  "source_pins": 229,
+  "review_support": 152,
+  "graph_nodes": 132,
+  "graph_edges": 380,
+  "orientation_whitespace_tokens_excluding_markers": 560,
+  "orientation_counter_including_open_marker": 563,
+  "generated_orientation_exact": true,
+  "central_insert_exact": true,
+  "receipts": {
+    "draft_coherence": {
+      "returncode": 0,
+      "duration_seconds": 0.07693860598374158,
+      "hashes_match": true
+    },
+    "final_maintenance": {
+      "returncode": 0,
+      "duration_seconds": 1.3260209599975497,
+      "hashes_match": true
+    },
+    "parent_controls": {
+      "returncode": 0,
+      "duration_seconds": 2.0098897189600393,
+      "hashes_match": true
+    }
+  },
+  "normal_full406_binding_commit": "Pending; not represented as passed here"
+}

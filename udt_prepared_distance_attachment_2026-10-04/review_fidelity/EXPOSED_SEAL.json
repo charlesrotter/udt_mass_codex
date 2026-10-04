@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-04T05:02:45.932266+00:00",
+  "reviewer_context": "/root/pda_fidelity",
+  "model": "Inherited Codex GPT-6 family, exact variant unavailable",
+  "verdict": "ACCEPT_WITH_LIMITS / VERIFIED-WITH-CAVEATS",
+  "required_scientific_repair": false,
+  "scientific_programs_run": 0,
+  "independence": "Separate context and independent analytic arguments/hand recomputation; not different-model or separate scientific implementation",
+  "siblings_arguments_read": false,
+  "final_integration_reviewed": false,
+  "files": {
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+    "udt_prepared_distance_attachment_2026-10-04/CANDIDATE_FREEZE.json": "b716e4dee547a7b3bb1aaa084a48fd880ec9598d524fc9ef520f9b7175e1d03c",
+    "udt_prepared_distance_attachment_2026-10-04/CHECK_PLAN.md": "e24b0039619ccc169c9db1e81ce1533f5fa80aa9f20d4095cec0cc03d907d724",
+    "udt_prepared_distance_attachment_2026-10-04/CONTROL_FREEZE.json": "7c4c0b237009723db6e6b292ea8bb0e0186edb4cb5cc6bb601e61d1b5751b8f4",
+    "udt_prepared_distance_attachment_2026-10-04/check_controls.py": "9f68bad0abe16a7d646d05ccda3f3e677953d8215247019bfc591e33b85d702f",
+    "udt_prepared_distance_attachment_2026-10-04/checks/parent_controls.json": "c26668f81c36473cb5eb469a4067a2aa305e6d2be730722e37b96427f53b3de5",
+    "udt_prepared_distance_attachment_2026-10-04/checks/parent_controls.stdout": "51e4810c88545394b1b2dc26fa711a1844d8cf7b1bad8429ad9adba4becb5aea",
+    "udt_prepared_distance_attachment_2026-10-04/checks/parent_controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/SOURCE_FIRST.md": "f689e1b03ece96919b0b44cc52e1729518907c4e060b7b432ec7d677bfeed5ec",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/SOURCE_FIRST_SEAL.json": "a6128602306629fae8d8fe3df7d22128cfd9e83b93df4132ed45a015fd70d71e",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/EXPOSED_ANALYTIC_REVIEW.md": "8d1e46e19557040d3a23efe132b868919b156f822004f2fa099dd5fd678ba958",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/EXPOSED_ANALYTIC_SEAL.json": "0188572ca46cbfdf9a4a4b8ab73d481d2379caa1a1aa1206cc11baf9b26e9e09",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/CONTROL_CORRESPONDENCE.json": "6ac17904c96643e0d7f2c2da01e06bf427a8c3e7fd91033e00f011230d58fedf",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/EXPOSED_REVIEW.md": "c8a2d147cd238ea8e9f84c4cf32434d8f2f062fce6e8187ed6a798d656a94a09"
+  },
+  "capture_source": {
+    "path": "udt_time_live_production_survey_2026-10-01/capture.py",
+    "sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  }
+}

@@ -1747,7 +1747,7 @@
     {
       "id": "O_FCW_ADMISSION",
       "kind": "open_join",
-      "statement": "Physical RG admission, native geometry and additional-effect attribution remain OPEN. CCW1 supplies necessary curvature/clock diagnostics and scoped local signal existence, not a selector. CPW1 parks physical FC; prior conditional diagnostics survive. A prepared-distance successor is proposed but unexecuted; no scale/X_max selection.",
+      "statement": "Physical RG admission, native geometry and additional-effect attribution remain OPEN. CCW1 invariant/local-source and PDA1 prepared-distance results evaluate supplied conditions, not select the geometry. CPW1 physical FC remains parked. No native scale/X_max or whole-postulate insufficiency theorem.",
       "sources": [
         "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
@@ -1758,7 +1758,8 @@
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
-        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1879,12 +1880,13 @@
     {
       "id": "O_CPW_FREECLOCK_LIMIT",
       "kind": "open_join",
-      "statement": "FCL1 answers its pointwise free-receiver limit; CCW1 adds invariant source-clock-gap/curvature relations and an explicit-extension local chosen-emitter existence lemma. Prescribed remote/global access, uniform prepared populations and fixed-emission distance attachment remain open. The unbounded-boost free population control prevents a silent quantifier exchange. This open join is not a proof input.",
+      "statement": "FCL1 pointwise limit and CCW1 clock-curvature/local-source results survive. PDA1 conditionally closes fixed-ray prepared-distance attachment under explicit uniform collar, endpoint derivative/nonsingularity and distance-transversality conditions. Generic admission of those preparation conditions, prescribed remote/global populations and distance-only universality remain OPEN. Unbounded-boost and bounded-degenerate controls keep distinct scopes. Open join is not a proof input.",
       "sources": [
         "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
-        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1992,6 +1994,69 @@
         "P_NULL",
         "C_CCW_RG",
         "C_CCW_QUERY"
+      ]
+    },
+    {
+      "id": "C_PDA_RG_RAY",
+      "kind": "conditional_protocol",
+      "statement": "UNADOPTED supplied C3 Lorentz4 RG g=x^-2 b, nonzero timelike dx and normal collar; one fixed interior emission and regular fixed null ray with nonzero limiting conformal affine tangent, whole-ray omega_e1; local actual emitter variations at each reception. No native geometry or global source-access claim.",
+      "sources": [
+        "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_PDA_PREPARATION",
+      "kind": "conditional_protocol",
+      "statement": "H1 supplied smooth bounded free receivers prepared on an interior spacelike surface, initial metric proper distance from specified origin away from cut locus; common actual compact collar/transit/coefficient/entry bounds. Query choices, not a physical population; compactness alone is insufficient.",
+      "sources": [
+        "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_PDA_ENDPOINT",
+      "kind": "conditional_protocol",
+      "statement": "H2 supplied C1 interior label flow with uniform first-label-derivative convergence to continuous J, F(a*)=ray endpoint and detJ(a*) nonzero. F existence/continuity follows H1. Not derived generically from FCL or bare C3; explicit exact controls check it.",
+      "sources": [
+        "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_PDA_TRANSVERSE",
+      "kind": "conditional_protocol",
+      "statement": "H3 for the positive simple-pole theorem: d=D L J^-1 z_prime(0)<0, c=-d>0. Above-endpoint orientation analogous; d0 is independently analyzed. The bounded square-root witness satisfies H1/H2 and fails this condition; no iff criterion.",
+      "sources": [
+        "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R16PDA",
+      "kind": "argument",
+      "anchor": "r16pda",
+      "title": "Conditional fixed-ray prepared-distance pole and bounded noncrossing attachment degeneracy",
+      "sources": [
+        "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md",
+        "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_NULL",
+        "C_PDA_RG_RAY",
+        "C_PDA_PREPARATION",
+        "C_PDA_ENDPOINT",
+        "C_PDA_TRANSVERSE"
       ]
     }
   ],
@@ -3830,6 +3895,71 @@
       "from": "R16CCW",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "hypothesis",
+      "from": "P_NULL"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "hypothesis",
+      "from": "C_PDA_RG_RAY"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "hypothesis",
+      "from": "C_PDA_PREPARATION"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "hypothesis",
+      "from": "C_PDA_ENDPOINT"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "hypothesis",
+      "from": "C_PDA_TRANSVERSE"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "proof",
+      "from": "R6"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "proof",
+      "from": "R16FCL"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "context",
+      "from": "R16CCW"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "context",
+      "from": "R16CPW"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "context",
+      "from": "R8"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "open_boundary",
+      "from": "O_FCW_ADMISSION"
+    },
+    {
+      "to": "R16PDA",
+      "kind": "open_boundary",
+      "from": "O_CPW_FREECLOCK_LIMIT"
+    },
+    {
+      "to": "R18",
+      "kind": "context",
+      "from": "R16PDA"
     }
   ],
   "sources_sha256": {
@@ -4058,7 +4188,10 @@
     "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de",
     "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "1b300a65b544cbf63dacfb5a8a449cd4d638694ef62a25bb7bf38271888dea69",
     "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md": "1ee575402bbfb05eee04d3590c24538e2c67f04ba0613423832cc6c8aa62a6d0",
-    "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md": "b49e17b9260215bb803d13e2d3e30ef9b81d9acd15bb38d132bb07d3010e4549"
+    "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md": "b49e17b9260215bb803d13e2d3e30ef9b81d9acd15bb38d132bb07d3010e4549",
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+    "udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md": "a1ca1aed2fd69e3e1b52f966a52e7101518ec4128088a9c3e52d3d7580619518",
+    "udt_prepared_distance_attachment_2026-10-04/WORK_ORDER.md": "2e2b21c6689eeab5973b00cd1ee57c6a5644a9a639b8b8e718d119af2eb87b73"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -6108,6 +6241,98 @@
         "O_FCW_ADMISSION",
         "C_CCW_RG",
         "C_CCW_QUERY"
+      ]
+    },
+    {
+      "path": "udt_prepared_distance_attachment_2026-10-04/review_math/EXPOSED_REVIEW.md",
+      "sha256": "c886c18fd592ddab5557627e542e3f8dd9f61e3c61c9106a7d81af654ee16bef",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_PDA_RG_RAY",
+        "C_PDA_PREPARATION",
+        "C_PDA_ENDPOINT",
+        "C_PDA_TRANSVERSE"
+      ]
+    },
+    {
+      "path": "udt_prepared_distance_attachment_2026-10-04/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "c8a2d147cd238ea8e9f84c4cf32434d8f2f062fce6e8187ed6a798d656a94a09",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_PDA_RG_RAY",
+        "C_PDA_PREPARATION",
+        "C_PDA_ENDPOINT",
+        "C_PDA_TRANSVERSE"
+      ]
+    },
+    {
+      "path": "udt_prepared_distance_attachment_2026-10-04/DESCENDANT_REVIEW.md",
+      "sha256": "9cd9992d61fe2e9003b97eb9417de7877f0c9596de13e8ec151ea7f8690478c0",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_PDA_RG_RAY",
+        "C_PDA_PREPARATION",
+        "C_PDA_ENDPOINT",
+        "C_PDA_TRANSVERSE"
+      ]
+    },
+    {
+      "path": "udt_prepared_distance_attachment_2026-10-04/PARENT_CHECK_RESULT.md",
+      "sha256": "fb48bc2bc70d79a8dfa25b3743d57e6eaffc3ed4da5c4a32ad7b57c34526821a",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R16PDA",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_PDA_RG_RAY",
+        "C_PDA_PREPARATION",
+        "C_PDA_ENDPOINT",
+        "C_PDA_TRANSVERSE"
       ]
     }
   ]

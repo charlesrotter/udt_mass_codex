@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-04T05:14:58.681554+00:00",
+  "status": "PASS",
+  "context": "/root/pda_math",
+  "integration_freeze_sha256": "2ca818e902ebb26fba4addfa92e7c889fada60b7d31cc89b7e65358dd158de34",
+  "accepted_paths_checked": 13462,
+  "accepted_bytes_stream_hashed": 2262144256,
+  "protected_prefixes_rejected_before_open": [
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/",
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/"
+  ],
+  "baseline_untracked_names_excluded_and_preserved": 76,
+  "inherited_paths": 13422,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_paths": 40,
+  "prior_graph_source_pins_unchanged": 226,
+  "graph_counts": {
+    "nodes": 132,
+    "edges": 380,
+    "source_pins": 229,
+    "review_support": 152
+  },
+  "graph_source_pins_independently_hashed": 229,
+  "graph_review_support_independently_hashed": 152,
+  "later_returns": 57,
+  "generated_orientation_matches": true,
+  "orientation_words_with_markers": 563,
+  "candidate_unchanged": true,
+  "receipts": {
+    "draft_coherence": {
+      "returncode": 0,
+      "duration_seconds": 0.07693860598374158,
+      "stdout_sha256": "ba012e9b87189fb6e3f5c76a5119df8c6a8534d51ded9dea01e1140a14865739",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "final_maintenance": {
+      "returncode": 0,
+      "duration_seconds": 1.3260209599975497,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "3579ff6eacdd789c6de9d8b651050b10a65aed759f4a77284e39c23a1b4c1109"
+    }
+  },
+  "current_head": "976f860dcbb4dc382152d540e604e18e8874f0ce",
+  "current_branch": "grok",
+  "independent_scientific_rerun": false,
+  "prior_metadata_failure": "First audit completed every accepted-map hash then raised KeyError by assuming all graph source paths were map keys. Corrected to direct protected-path-screened graph-pin hashing; no scientific artifact changed.",
+  "limits": "Bookkeeping, source correspondence and scoped integration checks; not an independent reproof of the inherited corpus. Normal/full406/binding/commit/push remain pending."
+}

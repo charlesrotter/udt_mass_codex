@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-04T05:12:31.839522+00:00",
+  "first_metadata_attempt": {
+    "status": "FAILED_BEFORE_RESULT_WRITE",
+    "exception": "KeyError: 'CANON.md'",
+    "reason": "Reviewer attempted to compare CANON via inherited accepted maps, but CANON is outside those maps. All 13462 payload hashes and protected-prefix exclusions had passed before this metadata lookup.",
+    "scientific_failure": false,
+    "repair": "Check unchanged CANON and other authority files against baseline recorded source SHA where present and HEAD bytes. No frozen scientific or integration artifact modified."
+  },
+  "second_metadata_attempt": {
+    "utc": "2026-10-04T05:13:54.072187+00:00",
+    "status": "FAILED_BEFORE_RESULT_WRITE",
+    "exception": "AssertionError on orientation count",
+    "reason": "Reviewer used whitespace split count while dispatch used its maintained word-count convention; exact central/generated orientation correspondence already passed.",
+    "scientific_failure": false,
+    "repair": "Record the actual count convention; inspect maintained verifier word-count calculation."
+  }
+}

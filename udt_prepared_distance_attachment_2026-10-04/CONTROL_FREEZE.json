@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-04T04:59:25.249972+00:00",
+  "stage": "code and plan frozen before execution; source-first arguments exposed after candidate freeze",
+  "files": {
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+    "udt_prepared_distance_attachment_2026-10-04/CHECK_PLAN.md": "e24b0039619ccc169c9db1e81ce1533f5fa80aa9f20d4095cec0cc03d907d724",
+    "udt_prepared_distance_attachment_2026-10-04/check_controls.py": "9f68bad0abe16a7d646d05ccda3f3e677953d8215247019bfc591e33b85d702f",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/SOURCE_FIRST.md": "f51139176d669cdbee262191e99a5db8e558391dea410dc11e149aee641609d7",
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/SOURCE_FIRST.md": "f689e1b03ece96919b0b44cc52e1729518907c4e060b7b432ec7d677bfeed5ec"
+  }
+}

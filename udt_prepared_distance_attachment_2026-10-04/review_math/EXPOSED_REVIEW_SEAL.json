@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-04T05:04:17.171147+00:00",
+  "context": "/root/pda_math",
+  "verdict": "VERIFIED-WITH-CAVEATS; no required scientific repair; final integration review pending",
+  "sha256": {
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+    "udt_prepared_distance_attachment_2026-10-04/CANDIDATE_FREEZE.json": "b716e4dee547a7b3bb1aaa084a48fd880ec9598d524fc9ef520f9b7175e1d03c",
+    "udt_prepared_distance_attachment_2026-10-04/CHECK_PLAN.md": "e24b0039619ccc169c9db1e81ce1533f5fa80aa9f20d4095cec0cc03d907d724",
+    "udt_prepared_distance_attachment_2026-10-04/CONTROL_FREEZE.json": "7c4c0b237009723db6e6b292ea8bb0e0186edb4cb5cc6bb601e61d1b5751b8f4",
+    "udt_prepared_distance_attachment_2026-10-04/check_controls.py": "9f68bad0abe16a7d646d05ccda3f3e677953d8215247019bfc591e33b85d702f",
+    "udt_prepared_distance_attachment_2026-10-04/checks/parent_controls.stdout": "51e4810c88545394b1b2dc26fa711a1844d8cf7b1bad8429ad9adba4becb5aea",
+    "udt_prepared_distance_attachment_2026-10-04/checks/parent_controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_prepared_distance_attachment_2026-10-04/checks/parent_controls.json": "c26668f81c36473cb5eb469a4067a2aa305e6d2be730722e37b96427f53b3de5",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/SOURCE_FIRST.md": "f51139176d669cdbee262191e99a5db8e558391dea410dc11e149aee641609d7",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/SOURCE_FIRST_SEAL.json": "67c2f56a6940f4fe9199d03d36d10806e23fea5aa5f491b08206ec1a6db1bdf9",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/ANALYTIC_EXPOSED.md": "b9364f2845af068b18d26f7d0db35ce3d8e4e24427ebfd1bdc470f69fabb1e08",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/ANALYTIC_EXPOSED_SEAL.json": "9e0ca64fe6ab49708991ee33acb00ca370b9eccbb07f2b65bfcce7da3f75814c",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/CONTROL_CORRESPONDENCE.json": "fd394eb3c639088f78ef6dd8bb115dd228cdf8db4379799779e25ad4515c4ab1",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/EXPOSED_REVIEW.md": "c886c18fd592ddab5557627e542e3f8dd9f61e3c61c9106a7d81af654ee16bef"
+  },
+  "sibling_review_exposure": false,
+  "independent_scientific_program": false,
+  "independent_hand_derivations": true
+}

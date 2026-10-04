@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Artifact correspondence only; not a scientific rerun or independent chronology proof",
+  "checks": {
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": true,
+    "udt_prepared_distance_attachment_2026-10-04/CHECK_PLAN.md": true,
+    "udt_prepared_distance_attachment_2026-10-04/check_controls.py": true,
+    "udt_prepared_distance_attachment_2026-10-04/review_fidelity/SOURCE_FIRST.md": true,
+    "stdout_capture_hash": true,
+    "stderr_capture_hash": true,
+    "capture_source_hash": true,
+    "check_count_matches": true,
+    "receipt_success": true,
+    "captured_empty_stderr": true
+  },
+  "scientific_programs_run": 0
+}

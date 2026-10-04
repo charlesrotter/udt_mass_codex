@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — CCW1 completion-connection whiteboard reviewed,
+**Current development — PDA1 prepared-distance attachment reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,34 +39,33 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FCL1 (R16FCL) derives the free-receiver limit in
-supplied UNADOPTED regular conformal completion RG. CCW1 (R16CCW) links it to
-invariant clock readings and curvature: if epsilon is the remaining source
-proper-time interval to the limiting emission, epsilon Z tends to N_*>0 and
-the receiver's limiting scalar curvature is12/N_*^2. Neither epsilon nor Omega
-is spatial distance. This is a conditional relation, not a native geometry law.
+**Current learning.** FCL1 derives the free-clock limit in supplied UNADOPTED
+regular conformal completion RG; CCW1 links it to invariant source-clock gaps
+and limiting curvature. PDA1 (R16PDA) now derives a distance attachment: for one
+fixed emitted ray through a specified bounded free-clock population, a regular
+endpoint map and nonzero distance slope yield Z proportional asymptotically to
+1/(L_*-L). L is actual initial surface distance, not a renamed geometry variable.
 
-With an explicit local C3 extension, a chosen nearby emitter and regular
-signal family can be constructed. Prescribed distant sources/global rays remain
-separate. A different-free-receiver population with unbounded initial boosts
-can have Z=1 even as its reception events approach the boundary. The individual
-FCL theorem survives; fixed-emission distance comparisons need preparation and
-incidence control. The beta2 same-future-tail obstruction is strengthened by
-its invariant zero-curvature limit; interior nonuniqueness remains.
+The uniform common collar, label-derivative limit and attachment slope are
+explicit conditions, checked in exact examples. A smooth bounded noncrossing
+preparation can instead give Z proportional to1/sqrt(L_*-L). Thus bounded
+initial motion alone does not fix the distance exponent. Both examples retain
+divergent received slowing; neither selects a physical observer population.
+CCW's Z=1 population instead has unbounded initial boosts and fails this gate.
+An immediate echo in the supplied controls ceases before the one-way limit.
 
-No inspected argument supplies physical RG admission, native event/path
-assignment, additional-effect attribution, scale or X_max. No whole-postulate
-insufficiency or need for a new premise is proved. CPW1's scalar echo sufficiency
-FC remains parked as a physical selector; its conditional diagnostics survive.
-The next proposed test derives a fixed-emission distance attachment for a
-specified bounded free-clock preparation in supplied RG. It is unexecuted and
-would not select the native geometry. Retaining the conditional result without
-adopting RG remains an option.
+The result is local to that ray/preparation, not a universal distance-only law.
+Generic endpoint regularity, prescribed remote/global rays, physical RG
+admission, native event/path assignment, additional-effect attribution, scale
+and X_max remain open. No whole-postulate insufficiency or need for a new premise
+is proved. CPW1's scalar echo sufficiency FC stays parked as a physical selector.
+FCL/CCW's earlier invariant and adverse results retain their stated scopes.
 
-After orientation read R16CCW/R16FCL and R18. LIVE/HANDOFF own closure and the
-lay decision. Three source-first contributors, a fourth fresh adversarial
-reviewer, a reused fidelity reviewer and exact controls support the scoped
-return; no successor or physical adoption starts automatically.
+After orientation read R16PDA/R16CCW/R16FCL and R18. Two fresh source-first,
+exposed and final reviewer contexts and45 exact parent controls support this
+conditional return. LIVE/HANDOFF own closure and the discussion stop. The next
+discussion should address native geometry admission; no successor or physical
+adoption starts automatically. Keeping the conditional result remains an option.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

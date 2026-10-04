@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-04T05:00:34.737841+00:00",
+  "context": "/root/pda_math",
+  "stage": "exposed analytic only; control and integration review pending",
+  "sha256": {
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+    "udt_prepared_distance_attachment_2026-10-04/CANDIDATE_FREEZE.json": "b716e4dee547a7b3bb1aaa084a48fd880ec9598d524fc9ef520f9b7175e1d03c",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/SOURCE_FIRST.md": "f51139176d669cdbee262191e99a5db8e558391dea410dc11e149aee641609d7",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/SOURCE_FIRST_SEAL.json": "67c2f56a6940f4fe9199d03d36d10806e23fea5aa5f491b08206ec1a6db1bdf9",
+    "udt_prepared_distance_attachment_2026-10-04/review_math/ANALYTIC_EXPOSED.md": "b9364f2845af068b18d26f7d0db35ce3d8e4e24427ebfd1bdc470f69fabb1e08"
+  },
+  "candidate_exposure_after_source_first": true,
+  "sibling_reviewer_exposure": false,
+  "scientific_program_run": false
+}

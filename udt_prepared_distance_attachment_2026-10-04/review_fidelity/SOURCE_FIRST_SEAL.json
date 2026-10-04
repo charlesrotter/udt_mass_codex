@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T04:52:08.076035+00:00",
+  "reviewer_context": "/root/pda_fidelity",
+  "model": "Inherited Codex GPT-6 family; exact deployed variant unavailable; not different-model",
+  "head": "976f860dcbb4dc382152d540e604e18e8874f0ce",
+  "source_first_sha256": "f689e1b03ece96919b0b44cc52e1729518907c4e060b7b432ec7d677bfeed5ec",
+  "source_versions_sha256": "bbe864ffa3e585d4a9c0d1ab1642d4391b64ed4fa28d3716249e073fce3e94c6",
+  "parent_candidate_exposure": false,
+  "other_pda1_reviewer_exposure": false,
+  "prior_review_verdict_exposure": "FCL, CCW and SGE reviewed-result source scopes read",
+  "scientific_programs_run": 0,
+  "checks": "Analytic independent incidence, constant-momentum frequency, bounded degeneracy, echo and uniform collar arguments; branch/hash/status/process checks",
+  "startup": "Attributed actual parent same-session startup and CCW closure; not rerun"
+}

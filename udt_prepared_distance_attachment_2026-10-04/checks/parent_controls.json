@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_prepared_distance_attachment_2026-10-04/check_controls.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-04T04:59:32.288859+00:00",
+  "duration_seconds": 2.0098897189600393,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 51500,
+  "forwarded_signals": [],
+  "stdout_sha256": "51e4810c88545394b1b2dc26fa711a1844d8cf7b1bad8429ad9adba4becb5aea",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

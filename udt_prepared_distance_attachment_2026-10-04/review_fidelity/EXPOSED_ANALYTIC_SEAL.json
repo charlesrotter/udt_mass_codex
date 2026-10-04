@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T04:59:31.724081+00:00",
+  "reviewer_context": "/root/pda_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS_ANALYTIC_ONLY",
+  "candidate_sha256": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+  "source_first_sha256": "f689e1b03ece96919b0b44cc52e1729518907c4e060b7b432ec7d677bfeed5ec",
+  "exposed_review_sha256": "8d1e46e19557040d3a23efe132b868919b156f822004f2fa099dd5fd678ba958",
+  "source_versions": {
+    "INITIAL_CANDIDATE.md": "ac895bd3e9b7691ef94eef15274484a10d6883bba962e46b18ae35c91c2d7453",
+    "CANDIDATE_FREEZE.json": "b716e4dee547a7b3bb1aaa084a48fd880ec9598d524fc9ef520f9b7175e1d03c",
+    "WORK_ORDER.md": "2e2b21c6689eeab5973b00cd1ee57c6a5644a9a639b8b8e718d119af2eb87b73"
+  },
+  "siblings_read": false,
+  "scientific_programs_run": 0,
+  "pending": [
+    "parent control code and outcomes",
+    "final central integration"
+  ]
+}

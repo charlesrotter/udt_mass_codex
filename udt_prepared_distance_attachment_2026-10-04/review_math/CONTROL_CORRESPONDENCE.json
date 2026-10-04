@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-04T05:02:54.349690+00:00",
+  "checks": {
+    "udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md": true,
+    "udt_prepared_distance_attachment_2026-10-04/CHECK_PLAN.md": true,
+    "udt_prepared_distance_attachment_2026-10-04/check_controls.py": true,
+    "udt_prepared_distance_attachment_2026-10-04/review_math/SOURCE_FIRST.md": true,
+    "receipt_stdout": true,
+    "receipt_stderr": true,
+    "check_count": true,
+    "receipt_returncode": true,
+    "stderr_empty": true,
+    "capture_hash": true
+  },
+  "actual_capture_path": "udt_time_live_production_survey_2026-10-01/capture.py",
+  "scientific_program_rerun": false,
+  "prior_metadata_failure": "Initial lookup assumed B/capture.py and raised FileNotFoundError before returning the audit summary; parent supplied actual reused wrapper path. Scientific control artifacts were unchanged.",
+  "sibling_review_hash_not_recomputed": "Other reviewer content remains unexposed."
+}

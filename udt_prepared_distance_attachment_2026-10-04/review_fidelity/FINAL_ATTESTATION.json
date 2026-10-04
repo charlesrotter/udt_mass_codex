@@ -1,24 +1,14 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-04T05:17:23.324005+00:00",
-  "scope": "PDA1 conditional fixed-ray prepared initial-distance pole under explicit H1 uniform collar, H2 endpoint derivatives/invertibility and H3 transversality; smooth bounded noncrossing square-root-pole counterexample to automatic H3. RG UNADOPTED. No native geometry, universal distance-only law, physical positional attribution, scale/X_max or adoption. Original candidate unchanged; two fresh source-first/exposed/final reviewers and45 exact controls; stop for discussion.",
-  "independence": "Two fresh source-first/exposed/final contexts independently derived wavefront/path attachment routes before parent fixed-ray candidate exposure; actual exposed review checked its separate quantifier, H1/H2/H3 and bounded noncrossing degeneracy. Independent hand recomputation of original-metric geodesics and implicit distance jets. Parent frozen SymPy program45checks/fivefamilies; no reviewer scientific execution or scientific repair. Shared inherited model/premises; no different-model/human/formal/empirical review.",
-  "freeze": "udt_prepared_distance_attachment_2026-10-04/INTEGRATION_FREEZE.json",
+  "context": "/root/pda_fidelity",
+  "utc": "2026-10-04T05:16:04.186588+00:00",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "report_path": "udt_prepared_distance_attachment_2026-10-04/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "ed083e66adb707b42e91b5dfa911e6e51ed3c0a2da80508da69173f094a98ce5",
+  "freeze_path": "udt_prepared_distance_attachment_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "2ca818e902ebb26fba4addfa92e7c889fada60b7d31cc89b7e65358dd158de34",
-  "prior_review_record": "udt_prepared_distance_attachment_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "58d77d89fe104ef80608e72d3e2f56880bc787502daccf0451f7f89ab35f75d0",
-  "reviewers": [
-    {
-      "context": "/root/pda_math",
-      "attestation": "udt_prepared_distance_attachment_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "4cf9e24b8c032592274ca11f522271cd951ba1ec3c3950f3a798f7f13856471e"
-    },
-    {
-      "context": "/root/pda_fidelity",
-      "attestation": "udt_prepared_distance_attachment_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "586b47d3de307d0ed76a68530bcc350fbc4de2508cc67e146f545bb8c5a528cf"
-    }
-  ],
+  "model": "Inherited Codex GPT-6 family; exact deployed variant unavailable",
+  "exposure": "Actual source-first, parent-candidate/control exposed review, and final integration review. Parent integration summarizes sibling contribution; sibling argument not read. Old source verdict exposure disclosed.",
+  "independence": "Separate context and independent analytic hand derivations; not different-model, independent scientific execution, formal, human or empirical review",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -13482,5 +13472,21 @@
     "udt_time_live_smoke_gate_2026-09-30/smoke_runner.py": "724bf5405dd9596bff343a0a6967393d26a0a0c7529124e9a0bfdd70e569d52f",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "correspondence_path": "udt_prepared_distance_attachment_2026-10-04/review_fidelity/INTEGRATION_CORRESPONDENCE.json",
+  "correspondence_sha256": "ceeb253108491b0fae6e07a4d2ffc15a73242cb683291b36e2e349e6c615f633",
+  "checks": {
+    "accepted_paths_verified": 13462,
+    "protected_payload_reads": 0,
+    "scientific_programs_run": 0,
+    "graph_nodes": 132,
+    "graph_edges": 380,
+    "source_pins": 229,
+    "review_support_records": 152,
+    "draft_coherence_receipt": "PASS / DRAFT_COHERENCE_ONLY",
+    "maintenance_receipt": "57 tests OK",
+    "normal_full406_binding_commit": "Pending; not claimed passed"
+  },
+  "limits": "Conditional fixed-ray H1/H2/H3 theorem; no generic H2 derivation, native adoption/physical attribution/universal distance-only law/scale/X_max, full-corpus reproof or future banking claim",
+  "required_repair": false
 }
