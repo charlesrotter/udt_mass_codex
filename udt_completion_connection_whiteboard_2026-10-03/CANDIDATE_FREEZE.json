@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-04T04:02:02.024811+00:00",
+  "scope": "CCW1 initial analytic synthesis and targeted finite controls before exposed fresh review and scientific execution",
+  "exposure": "Parent received provisional contributor messages then read all three sealed reports. Fresh reviewer summary arrived after INITIAL_SYNTHESIS was written but before this metadata seal; full source-first review unread at seal. No scientific code executed.",
+  "metadata_failure": "First freeze attempt assumed uniform report_sha256 seal key and raised KeyError before writing any freeze. Adversarial seal instead nests its report hash. Actual keys inspected; validation now uses their exact schemas. Candidate and scientific test code unchanged.",
+  "sha256": {
+    "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md": "b49e17b9260215bb803d13e2d3e30ef9b81d9acd15bb38d132bb07d3010e4549",
+    "udt_completion_connection_whiteboard_2026-10-03/CHECK_PLAN.md": "eb2d89ed0ec3ac7e6079b35fb30a959acf8c9ade8cf1bed4923eaed3342bef23",
+    "udt_completion_connection_whiteboard_2026-10-03/check_controls.py": "771c63b830faec25bb2430abf21c00e08d3032ac344e603e486b4d701595edc8",
+    "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "1b300a65b544cbf63dacfb5a8a449cd4d638694ef62a25bb7bf38271888dea69",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_geometry/REPORT.md": "4b1470898e75b15753d7d56527c3edd15094e63e9d5c2a043699beef310dc226",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_geometry/SEAL.json": "a89f16361dc8b723ed52763925567aff7fb866865f22ceec75e84084b5c53778",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_physical/REPORT.md": "e63cbf4a6ed675817e90755775114aa6336806e2797d721f3a7a9272824600f9",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_physical/SEAL.json": "163839357f814e890e5ad0347b604fb0064676bc35d44aedac5cd543caae0475",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_adversarial/REPORT.md": "4b694cf65068a348b5a2e603d75d897ff8cce8915398762efd7be68e82e327a5",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_adversarial/SEAL.json": "80f4b2468685ebef83d7dd521c9f7a493d93b8e02967610eeb046d52e87b60b0"
+  }
+}

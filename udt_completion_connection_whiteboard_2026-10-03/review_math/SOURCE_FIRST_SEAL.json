@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T03:59:23.235767+00:00",
+  "stage": "SOURCE_FIRST_SEALED",
+  "reviewer": "/root/ccw_review",
+  "context": "Fresh separate context; inherited Codex GPT-6 model; not a different model",
+  "candidate_exposure": "No CCW1 contributor reports, CHECK_PLAN or INITIAL_SYNTHESIS read before this seal",
+  "report_path": "udt_completion_connection_whiteboard_2026-10-03/review_math/SOURCE_FIRST.md",
+  "report_sha256": "0b49c06743ca5b884e1fe212cb2b9c534e94dbbc5be7ea296668000ae83bb55b",
+  "source_manifest_path": "udt_completion_connection_whiteboard_2026-10-03/review_math/SOURCE_VERSIONS.json",
+  "source_manifest_sha256": "9aa62dc312681d3f98d3e02b22816a92fc3ce86bb5de3fd1030bdc6d345aa1a8",
+  "scientific_programs_run": 0,
+  "analytic_checks": "Lowered geodesic, norm estimate, proper-time remainder, gauge invariant boundary norm, actual proper-time emission-gap pole, conformal Ricci/scalar formula",
+  "limits": "No physical adoption; parent startup attributed; no central mutation; exposed and final review pending"
+}

@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-04T03:57:19.885371+00:00",
+  "head": "28efe475b8453698475d9bfe6e674a6cca71a3c7",
+  "origin": "28efe475b8453698475d9bfe6e674a6cca71a3c7",
+  "branch": "grok",
+  "source_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md": "b49e17b9260215bb803d13e2d3e30ef9b81d9acd15bb38d132bb07d3010e4549",
+    "udt_completion_connection_whiteboard_2026-10-03/BASELINE.json": "5b8757bbf9c2d9b1ea6060d69abf0fe41ec443d40335a4743d009772066faf0b",
+    "UDT_DEVELOPMENT.md": "15cbe73158cdcdf603a2eab257f33248f8581bbb2bdeb4423245e0c129ff516a",
+    "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md": "9563063c01c69ffef69654915e522d0019192d7470fb41d2c88fbf438a3c8371",
+    "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md": "67171de5b7f892cb0243f893b720f41f6d691add7039e325e25092dec98dfa6c",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41"
+  },
+  "python": "3.10.12",
+  "scientific_programs_run": 0,
+  "scope": "Source-first analytic review. Python here only hashes listed allowed files and records metadata."
+}

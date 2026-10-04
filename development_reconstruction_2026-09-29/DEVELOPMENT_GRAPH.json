@@ -143,7 +143,8 @@
         "udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md",
         "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "M_GEOMETRY",
@@ -414,7 +415,8 @@
         "udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": [
         "P_SCALE"
@@ -525,7 +527,8 @@
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -1744,7 +1747,7 @@
     {
       "id": "O_FCW_ADMISSION",
       "kind": "open_join",
-      "statement": "Physical justification/adoption of FC or RG and native geometry/scale remain OPEN. ESR1 retains its conditional locally symmetric FC classification; CPW1 parks physical FC extension. FCL1 proves the specified pointwise completion/free-clock limit under supplied C3 RG and regular interior-emitter null family, without physical admission or global/population/distance selection.",
+      "statement": "Physical RG admission, native geometry and additional-effect attribution remain OPEN. CCW1 supplies necessary curvature/clock diagnostics and scoped local signal existence, not a selector. CPW1 parks physical FC; prior conditional diagnostics survive. A prepared-distance successor is proposed but unexecuted; no scale/X_max selection.",
       "sources": [
         "udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
         "udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md",
@@ -1754,7 +1757,8 @@
         "udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md",
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1788,7 +1792,8 @@
         "udt_finite_comparison_whiteboard_2026-10-03/consistency/INITIAL_PROPOSAL.md",
         "udt_finite_comparison_whiteboard_2026-10-03/relational/INITIAL_PROPOSAL.md",
         "udt_finite_comparison_whiteboard_2026-10-03/operational/ATTRIBUTION_REPAIR.md",
-        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": [],
       "required_conditions": [
@@ -1874,11 +1879,12 @@
     {
       "id": "O_CPW_FREECLOCK_LIMIT",
       "kind": "open_join",
-      "statement": "FCL1 ANSWERS the specified pointwise geodesic receiver/frequency limit under C_FCL_RG_CLOCK. Residual open boundary: physical RG/branch admission, arbitrary accelerated clocks, uniform populations, fixed-emission distance curves, echo availability and X_max identification. This node is not a proof input; do not leave the answered conditional question mislabeled unexecuted.",
+      "statement": "FCL1 answers its pointwise free-receiver limit; CCW1 adds invariant source-clock-gap/curvature relations and an explicit-extension local chosen-emitter existence lemma. Prescribed remote/global access, uniform prepared populations and fixed-emission distance attachment remain open. The unbounded-boost free population control prevents a silent quantifier exchange. This open join is not a proof input.",
       "sources": [
         "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
-        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md"
+        "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": []
     },
@@ -1940,12 +1946,52 @@
       "sources": [
         "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md",
         "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
-        "udt_free_clock_completion_2026-10-03/WORK_ORDER.md"
+        "udt_free_clock_completion_2026-10-03/WORK_ORDER.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
       ],
       "registry_ids": [],
       "required_conditions": [
         "P_NULL",
         "C_FCL_RG_CLOCK"
+      ]
+    },
+    {
+      "id": "C_CCW_RG",
+      "kind": "conditional_protocol",
+      "statement": "UNADOPTED supplied C3 Lorentz4 regular spacelike conformal endpoint g=x^-2 b, nonzero timelike dx; for the clock/local-receiver conclusions, one finite-data free receiver approaching that endpoint. No rescaled-velocity bound, native selection or field equation. Curvature identity itself only needs the stated completion.",
+      "sources": [
+        "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_CCW_QUERY",
+      "kind": "conditional_protocol",
+      "statement": "Scope split: clock limits additionally use an actual regular interior-emitter null family with consistent normalization; local family existence instead uses a C3 Lorentz extension/convex normal neighborhood and existentially chosen timelike emitter, without assuming that branch. A prescribed remote source, uniform population, distance map and physical attribution are not supplied by this condition. Diagnostic metrics/preparations are freely supplied controls.",
+      "sources": [
+        "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R16CCW",
+      "kind": "argument",
+      "anchor": "r16ccw",
+      "title": "Conditional invariant clock-curvature relation, local signal existence and population limitation",
+      "sources": [
+        "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md",
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_NULL",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
       ]
     }
   ],
@@ -3734,6 +3780,56 @@
       "to": "R18",
       "kind": "context",
       "from": "R16FCL"
+    },
+    {
+      "from": "P_NULL",
+      "to": "R16CCW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CCW_RG",
+      "to": "R16CCW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_CCW_QUERY",
+      "to": "R16CCW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6",
+      "to": "R16CCW",
+      "kind": "proof"
+    },
+    {
+      "from": "R16CPW",
+      "to": "R16CCW",
+      "kind": "proof"
+    },
+    {
+      "from": "R16FCL",
+      "to": "R16CCW",
+      "kind": "proof"
+    },
+    {
+      "from": "R16FCW",
+      "to": "R16CCW",
+      "kind": "context"
+    },
+    {
+      "from": "R9FST",
+      "to": "R16CCW",
+      "kind": "context"
+    },
+    {
+      "from": "O_FCW_ADMISSION",
+      "to": "R16CCW",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R16CCW",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -3959,7 +4055,10 @@
     "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md": "2f3e3122f7b3e94aedc1baf37278cd8ed07f5edcca408c90f62362deccf6cdfd",
     "udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md": "9563063c01c69ffef69654915e522d0019192d7470fb41d2c88fbf438a3c8371",
     "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md": "67171de5b7f892cb0243f893b720f41f6d691add7039e325e25092dec98dfa6c",
-    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de"
+    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de",
+    "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "1b300a65b544cbf63dacfb5a8a449cd4d638694ef62a25bb7bf38271888dea69",
+    "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md": "1ee575402bbfb05eee04d3590c24538e2c67f04ba0613423832cc6c8aa62a6d0",
+    "udt_completion_connection_whiteboard_2026-10-03/WORK_ORDER.md": "b49e17b9260215bb803d13e2d3e30ef9b81d9acd15bb38d132bb07d3010e4549"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -5889,6 +5988,126 @@
         "O_CPW_FREECLOCK_LIMIT",
         "O_FCW_ADMISSION",
         "C_FCL_RG_CLOCK"
+      ]
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/contributor_geometry/REPORT.md",
+      "sha256": "4b1470898e75b15753d7d56527c3edd15094e63e9d5c2a043699beef310dc226",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
+      ]
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/contributor_physical/REPORT.md",
+      "sha256": "e63cbf4a6ed675817e90755775114aa6336806e2797d721f3a7a9272824600f9",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
+      ]
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/contributor_adversarial/REPORT.md",
+      "sha256": "4b694cf65068a348b5a2e603d75d897ff8cce8915398762efd7be68e82e327a5",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
+      ]
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/review_math/EXPOSED_REVIEW.md",
+      "sha256": "55e360a85f985f0ba871b35d7f96839dd14af0b05043478f2c97a84a08539768",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
+      ]
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "ae3deac48a9bc8329d1dabd11b946e56ef041f38fd45e9621902c4e49846befe",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
+      ]
+    },
+    {
+      "path": "udt_completion_connection_whiteboard_2026-10-03/DESCENDANT_REVIEW.md",
+      "sha256": "88df9982342efe9dbc687025d86167605ecf168f2f725bfb3bedd755ecfbe9bd",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R8",
+        "R16",
+        "R16FCW",
+        "R16CPW",
+        "R16FCL",
+        "R16CCW",
+        "R18",
+        "O_CPW_FREECLOCK_LIMIT",
+        "O_FCW_ADMISSION",
+        "C_CCW_RG",
+        "C_CCW_QUERY"
       ]
     }
   ]

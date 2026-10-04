@@ -1,0 +1,10 @@
+{
+  "status": "EXACT_SUPPLIED_CONTROLS_PASS",
+  "families": 4,
+  "cases": 7,
+  "duration_seconds": 0.5244726039236411,
+  "maxrss_kib": 48588,
+  "independence": "Parent direct physical-metric Christoffel/Ricci computation checks contributor conformal identity on one nonuniform and one beta2 control. Constant-P geodesic identities checked before population substitution. Shared SymPy exact arithmetic; no generic theorem by sampling.",
+  "analytic_review_pending": true,
+  "capture_sha256": "0922e5097a6f789ec10795a3df94a9349c882a0fedab8e47210f0377a060dd0c"
+}

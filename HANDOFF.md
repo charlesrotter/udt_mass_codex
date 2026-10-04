@@ -1,28 +1,28 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — FCL1 conditional free-clock return, 2026-10-03
+## Current handoff — CCW1 completion-connection whiteboard return, 2026-10-04
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. The generated CURRENT_RESEARCH_PROGRAM.md is the bounded
-startup orientation. Read R16FCL/R18 after orientation for the current argument.
+startup orientation. Read R16CCW/R16FCL/R18 after orientation for the current argument.
 
-Charles authorized startup cleanup followed by CPW1's bounded free-clock derivation.
-The cleanup was reviewed, checked, committed and synchronized at4d9f202f, including
-its preserved metadata/guard repairs. FCL1 evidence is in
-udt_free_clock_completion_2026-10-03/; WORK_ORDER owns its completed scope.
-The original candidate, exact controls, two fresh independent source-first and
-exposed reviews are saved. Final attestations and actual normal/maintenance/full406
-receipts own integration/pass status. Commit/push and byte checks own banking;
-verify actual HEAD, remote, dirt and processes rather than assuming this is the tip.
+Charles authorized the CCW1 whiteboard after the completed FCL1 derivation and
+startup cleanup. FCL1 was checked, committed and synchronized at28efe475;
+CCW1 evidence is in udt_completion_connection_whiteboard_2026-10-03/.
+Its WORK_ORDER owns scope. Three source-first contributions, the original
+synthesis, exact controls and fresh/reused exposed reviews are preserved.
+Final attestations and actual normal/maintenance/full406 receipts own closure;
+commit/push and byte checks own banking. Verify actual HEAD, remote, dirt and
+processes rather than assuming this text identifies the tip.
 
-Next: Stop for lay discussion of FCL1's conditional result and decision brief.
-Its authorized construction/review cycle is the current return, not permission
-for a further successor. No RG/FC adoption, native field/source/action law,
-registry promotion, GPU/data/hardware campaign or automatic extension. One short
-CPU exact-control script was run; no long solver. No-timeout direction persists
-with finite scope/resource/manual stops. Preserve protected/unrelated work.
+Next: Stop for lay discussion of the CCW1 decision brief and unexecuted
+prepared-distance proposal. The whiteboard authorizes no successor or RG/FC
+adoption, native field/source/action law, registry promotion, GPU/data/hardware
+campaign. One short CPU exact-control script was run; no long solver. The
+no-timeout direction persists with finite scope/resource/manual stops.
+Preserve protected and unrelated work.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

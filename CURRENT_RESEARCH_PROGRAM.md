@@ -5,8 +5,8 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — FCL1 conditional free-clock result reviewed,
-2026-10-03.** This is the sole maintained scientific argument. The exact registry
+**Current development — CCW1 completion-connection whiteboard reviewed,
+2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
 
@@ -39,32 +39,34 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** CPW1 (R8CPW/R16CPW/R18) recommends parking scalar echo
-sufficiency FC as a physical selector. Its extra assumption is not established
-by the inspected founding argument; its conditional diagnostic and earlier
-positive/adverse results survive. Full directional and future-path comparison
-data already evaluate supplied geometry without selecting it. No native
-physical equation or additional positional prediction has been obtained here.
+**Current learning.** FCL1 (R16FCL) derives the free-receiver limit in
+supplied UNADOPTED regular conformal completion RG. CCW1 (R16CCW) links it to
+invariant clock readings and curvature: if epsilon is the remaining source
+proper-time interval to the limiting emission, epsilon Z tends to N_*>0 and
+the receiver's limiting scalar curvature is12/N_*^2. Neither epsilon nor Omega
+is spatial distance. This is a conditional relation, not a native geometry law.
 
-**Current result.** FCL1 (R16FCL) derives the missing receiver limit within
-UNADOPTED regular conformal completion RG. One finite-data freely falling receiver
-approaching the specified spacelike boundary has rescaled tangent tending to its
-conformal normal. Its physical proper time diverges. For the supplied regular
-interior-emitter null family, physical received frequency tends to zero and
-Omega_o Z tends to a finite positive constant. Motion and nonuniform geometry
-are allowed; no bounded rescaled velocity or Einstein equation is assumed.
+With an explicit local C3 extension, a chosen nearby emitter and regular
+signal family can be constructed. Prescribed distant sources/global rays remain
+separate. A different-free-receiver population with unbounded initial boosts
+can have Z=1 even as its reception events approach the boundary. The individual
+FCL theorem survives; fixed-emission distance comparisons need preparation and
+incidence control. The beta2 same-future-tail obstruction is strengthened by
+its invariant zero-curvature limit; interior nonuniqueness remains.
 
-This is a varying-emission single-receiver limit, not a monotonic full-history
-or fixed-emission distance curve, population theorem or X_max derivation. RG and
-the regular signal family remain supplied; physical admission, native event/path
-assignment, positional attribution and scale remain OPEN. The accelerated-clock
-control lies outside the free-receiver theorem. Earlier adverse and positive
-results keep their source scopes.
+No inspected argument supplies physical RG admission, native event/path
+assignment, additional-effect attribution, scale or X_max. No whole-postulate
+insufficiency or need for a new premise is proved. CPW1's scalar echo sufficiency
+FC remains parked as a physical selector; its conditional diagnostics survive.
+The next proposed test derives a fixed-emission distance attachment for a
+specified bounded free-clock preparation in supplied RG. It is unexecuted and
+would not select the native geometry. Retaining the conditional result without
+adopting RG remains an option.
 
-After orientation read R16FCL, R16FCW/R16CPW for its conditional origin and R6
-for the clock observable. LIVE/HANDOFF own actual closure status and the lay
-return. The bounded derivation includes two fresh independent argument reviews
-and exact controls; no further investigation or physical adoption starts here.
+After orientation read R16CCW/R16FCL and R18. LIVE/HANDOFF own closure and the
+lay decision. Three source-first contributors, a fourth fresh adversarial
+reviewer, a reused fidelity reviewer and exact controls support the scoped
+return; no successor or physical adoption starts automatically.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

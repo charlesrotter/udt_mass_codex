@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-04T04:08:15.637096+00:00",
+  "stage": "EXPOSED_REVIEW_SEALED",
+  "reviewer": "/root/ccw_review",
+  "context": "Fresh separate context; inherited Codex GPT-6 model; same model, no exact backend identifier additionally exposed",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "scope": "Frozen CCW1 conditional synthesis; final integration not yet attested",
+  "report_path": "udt_completion_connection_whiteboard_2026-10-03/review_math/EXPOSED_REVIEW.md",
+  "report_sha256": "55e360a85f985f0ba871b35d7f96839dd14af0b05043478f2c97a84a08539768",
+  "source_first_report_sha256": "0b49c06743ca5b884e1fe212cb2b9c534e94dbbc5be7ea296668000ae83bb55b",
+  "reviewed_sha256": {
+    "udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md": "1b300a65b544cbf63dacfb5a8a449cd4d638694ef62a25bb7bf38271888dea69",
+    "udt_completion_connection_whiteboard_2026-10-03/CANDIDATE_FREEZE.json": "e60420c800ebbbd571255bf3296dce1405880866e04e9fd0146a7fa79d87c540",
+    "udt_completion_connection_whiteboard_2026-10-03/CHECK_PLAN.md": "eb2d89ed0ec3ac7e6079b35fb30a959acf8c9ade8cf1bed4923eaed3342bef23",
+    "udt_completion_connection_whiteboard_2026-10-03/check_controls.py": "771c63b830faec25bb2430abf21c00e08d3032ac344e603e486b4d701595edc8",
+    "udt_completion_connection_whiteboard_2026-10-03/checks/parent_controls.stdout": "455cdaa50141913dd36adaf14b1b2c0d522a45242ef47241ec953ad9792fd567",
+    "udt_completion_connection_whiteboard_2026-10-03/checks/parent_controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_completion_connection_whiteboard_2026-10-03/checks/parent_controls.json": "0922e5097a6f789ec10795a3df94a9349c882a0fedab8e47210f0377a060dd0c",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_geometry/REPORT.md": "4b1470898e75b15753d7d56527c3edd15094e63e9d5c2a043699beef310dc226",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_adversarial/REPORT.md": "4b694cf65068a348b5a2e603d75d897ff8cce8915398762efd7be68e82e327a5",
+    "udt_completion_connection_whiteboard_2026-10-03/contributor_physical/REPORT.md": "e63cbf4a6ed675817e90755775114aa6336806e2797d721f3a7a9272824600f9",
+    "udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md": "2f3e3122f7b3e94aedc1baf37278cd8ed07f5edcca408c90f62362deccf6cdfd",
+    "udt_free_clock_completion_2026-10-03/WORK_ORDER.md": "165e406106c5812a5b72d6a90bd43ad6a36d63191cde5903271d8584a7b6c9de",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007"
+  },
+  "scientific_programs_run": 0,
+  "required_repairs": [],
+  "nonblocking_precision": "Preserve C2 interior null-family variation versus only C1 receiver endpoint extension; no extra boundary differentiability claim.",
+  "review_axes": {
+    "context": "separate fresh context",
+    "model": "same inherited model; different model UNTESTED",
+    "implementation": "not computational; direct analytic recomputations",
+    "argument": "unexposed source-first clock/curvature route; exposed analytic challenge of full synthesis",
+    "exposure": "candidate and all three contributor reports, controls code and actual outputs after source-first seal"
+  }
+}

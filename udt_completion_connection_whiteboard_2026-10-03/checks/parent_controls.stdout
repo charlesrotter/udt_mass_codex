@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "families": 4,
+  "cases": 7,
+  "limits": "Exact supplied controls; general analytic proofs and physical attribution separate.",
+  "results": {
+    "nonuniform_curvature": {
+      "direct_scalar": "4*(-x**2*y**2 - x**2 + 3)/(y**4 + 2*y**2 + 1)",
+      "identity_residual": "0",
+      "boundary_scalar": "12/(y**4 + 2*y**2 + 1)",
+      "boundary_residual": "0",
+      "direct_ricci": [
+        [
+          "2*y**2 + 2 - 3/x**2",
+          "-4*y/(x*(y**2 + 1))",
+          "0",
+          "0"
+        ],
+        [
+          "-4*y/(x*(y**2 + 1))",
+          "(-2*x**2*y**2 - 2*x**2 + 3)/(x**2*(y**4 + 2*y**2 + 1))",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3/(x**2*(y**4 + 2*y**2 + 1))",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3/(x**2*(y**4 + 2*y**2 + 1))"
+        ]
+      ],
+      "omitted_leading_term_detected": true
+    },
+    "beta2": {
+      "direct_scalar": "36*x**2",
+      "residual": "0",
+      "boundary_scalar": "0"
+    },
+    "proper_clock_map": {
+      "derivative_residual": "0",
+      "gap_residue": "1",
+      "log_rate": "1",
+      "curvature": "12"
+    },
+    "fixed_emission_population": {
+      "unit_residual": "0",
+      "geodesic_residuals_constant_P": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_residual": "0",
+      "affine_residuals": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "population_received_frequency": "1",
+      "P_limit": "-oo",
+      "cases": [
+        {
+          "x": "1/2",
+          "constant_P_for_this_receiver": "-3/2",
+          "received_frequency": "1"
+        },
+        {
+          "x": "1/4",
+          "constant_P_for_this_receiver": "-15/2",
+          "received_frequency": "1"
+        },
+        {
+          "x": "1/8",
+          "constant_P_for_this_receiver": "-63/2",
+          "received_frequency": "1"
+        }
+      ],
+      "scope": "Different free receivers through (x,1-x); emission (1,0), omega_e=1. Unbounded preparation momentum; not a single accelerated curve or a bounded-population counterexample."
+    }
+  }
+}
