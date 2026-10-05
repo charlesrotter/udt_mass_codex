@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-05T14:44:06.179625+00:00",
+  "planned_cases": 36,
+  "case_budget": 100,
+  "address_space_bytes": 2147483648,
+  "wall_timeout": null,
+  "cpu_timeout": null,
+  "files": {
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SOURCE_FIRST.md": "eac823fa58fcc3cd996881bc2395d16a5198f57d88ed193634173e0dadff1e57",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/NUMERICAL_FREEZE.md": "b77ce50353db9cbb94e0a9e33ef3c55f8ef09cde2f5e7a1f4e6fe5024fca9445",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/independent_timing.py": "b69d918846c806546c8caca951fbbf3faf98e83f333dab48bf04399fb7021da0",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  }
+}

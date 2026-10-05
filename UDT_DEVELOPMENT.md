@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — OJM1 conditional angular/Jacobi attachment reviewed,
+**Current development — TSI1 conditional timing/scale identification reviewed,
 2026-10-05.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,36 +35,36 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** OJM1 derives the full two-dimensional map between
-observed angle and source rest-screen size for the existing conditional metric.
-It generally stretches the two directions differently. On the actual b_*=0
-late history, the angular-area distance has the same finite1/H endpoint and
-leading received-clock pole as OAA1's affine distance. Finite rays retain their
-nonzero varying b; no separate optical or redshift curve is inserted.
+**Current learning.** TSI1 supplies a conditional way to determine the scale
+without a known source size. For the existing metric and regular source/receiver
+histories, the late logarithmic redshift rate on the receiver's calibrated clock
+tends to c_E H. Thus that ideal timing record gives1/H=c_E/rate. The principal
+angular-position track gives the same late rate in its specified parallel frame.
+These follow from actual varying incidences; no redshift curve is inserted.
 
-Other ray histories have different optical endpoints and can pass through
-caustics. Before the first caustic angular-area distance is no greater than
-affine distance; that inequality cannot be extended through every crossing.
-The full map is retained, with an inverse only off caustics. A geometric source
-rest-screen is not yet a finite material disk or independently known ruler.
-No universal maximum distance, native metric selection or X_max follows.
+Untimed redshift/angle records retain an exact scale freedom. Calibrated time
+breaks it, without selecting the metric or determining every other parameter.
+c_E supplies the time-to-length conversion. G_obs would need a separately
+justified physical mass/density connection to add independent information;
+a quantity with mass units is not automatically physical source mass.
 
-Two actual fresh contexts reconstruct the argument and independently replay
-saved quantities. Parent exact/finite controls pass; independent original-metric
-Jacobi and neighboring-ray checks support the map. One reviewer's initial
-strong-ray finite-angle approximation failed, and its smaller-angle repair
-at unchanged tolerance is preserved. Map/error wording is clarified without
-changing equations. Actual final bindings and normal/maintenance/full406 receipts
-own closure. Review, regression and numerical agreement are not physical adoption.
+The ideal-record limit matters. Fixed-spacing ticks in the finite remaining
+emitter interval cannot sample infinitely late derivatives. Source variability,
+angular reference and finite resolving power require explicit treatment before
+empirical use. Finite practical accuracy remains open. Physically matched GR
+still gives the same records; no extra UDT prediction or X_max follows.
 
-After orientation read R13OJM and R18, with R8ACP/CPR/OAA and R16 as needed.
-The conditional optical map is explicit; native metric/comparison admission,
-independent source/scale calibration and empirical use remain open. Physically
-matched GR gives the same records. The proposed next bounded question is whether
-specified timing/angular records determine H or retain degeneracies, without
-silently adding a known source size. This does not itself select UDT dynamics.
-Stop for lay discussion; no automatic successor, fit, physical adoption, large
-solve or parked/protected program restart.
+Parent exact/finite controls and two actual fresh separate contexts support the
+conditional result and independently recompute saved quantities. Exposure and
+shared-model/library limits are recorded. Actual final bindings and required
+normal/maintenance/full406 receipts own closure, not the numerical agreement.
+
+After orientation read R16TSI and R18, with R8CPR/OAA and R13OJM as dependencies.
+The next proposed bounded question is finite-record identifiability with declared
+source/motion uncertainty and a justified error bound or explicit degeneracy.
+Native geometry/comparison admission remains a separate gate. Stop for lay
+discussion; no automatic successor, fit, physical adoption, large solve or
+parked/protected program restart.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1888,7 +1888,9 @@ retain scope/provenance. Standard affine-distance definitions are methods;
 neither literature nor numerical agreement supplies a new physical premise.
 The geometric attachment is now explicit. OJM1 in R13OJM supplies the
 conditional infinitesimal source-screen/angular map; native positional meaning,
-independent measurement and actual astronomical source admission remain open. A
+independent measurement and actual astronomical source admission remain open.
+R16TSI supplies a conditional timing-to-scale interface, distinct from such
+an actual measurement or a new native metric selection. A
 physically matched GR calculation gives the same records. No additional effect,
 universal finite X_max or native field-law admission is established.
 
@@ -3690,8 +3692,9 @@ agreement and regression are not interval certification or native selection.
 A finite map x(theta) with a supplied Hessian bound M has the usual forward
 remainder M|delta theta|²/2; inverse angular error needs its own control. No such
 numeric bound, finite source/disk, known astronomical ruler or flux law is
-provided. The conditional optical calculation is now explicit; native metric/
-comparison selection, independent physical source/scale calibration and data
+provided. The conditional optical calculation is now explicit. R16TSI
+supplies an ideal timing route to scale without a known source ruler; finite
+source reduction, actual usable data and native metric/comparison selection
 remain open. H is not an identified observed Hubble constant or X_max.
 Physically matched GR queries still give the same records. No additional UDT
 prediction or need for a new postulate has been established by this calculation.
@@ -3835,13 +3838,126 @@ or make that endpoint a universal affine ceiling; an explicit conditional
 counterexample rules out that last stronger interpretation. OJM1 in R13OJM
 extends the specified late endpoint and pole to angular-area distance, while
 retaining generic shear/caustic and source-calibration limits. This does not
-fix1/H in light-years or identify H with an observed Hubble parameter.
+fix1/H in light-years from those formulas alone or identify H with an
+observed Hubble parameter. TSI1 below now gives a conditional clock-calibration
+route without a known ruler; an actual usable timing record remains unsupplied.
 
 RCD1's conditional coefficient recovery in R8RCD requires an informative smooth
 clock curve and an independent length/time calibration. c_E converts units;
 c_E and G_obs alone still do not choose alpha. Lambda is an integration datum
 and initial derivatives describe state. This does not establish a physical
 source scale or the absolute normalization of a response tensor.
+
+<a id="r16tsi"></a>
+
+#### Timed records can calibrate the conditional scale — TSI1
+
+The missing ruler in R13OJM need not be a known source size. A specified ideal
+receiver-clock record can supply a scale. This is a conditional inverse result
+for R8CPR's already supplied metric and histories, not native metric selection,
+an astronomical measurement or an additional physically matched-GR prediction.
+H has units inverse length; write ell_o=c_E t_o for receiver proper time in
+length units, with t_o in seconds. The ordinary local clock stays ordinary.
+
+Declare the records before inversion. T is the smooth arrival map of labeled
+emitter proper-clock readings against calibrated receiver proper time, giving
+Z=dell_o/dell_e. A stable source frequency can instead give Z up to a constant;
+unknown time-dependent source frequency need not do so. A is the same source's
+pointlike angular position against receiver time in a specified parallel
+transported radial frame. Neither requires source size. U is only an untimed
+ordered Z/angle curve, with no known length or calibrated time interval.
+These are distinct conditional interfaces, not claims of available observations.
+
+For the inherited fixed finite-E escaping receiver and strict limiting
+|b_*|<a/sqrt(f(a)), put x=1/R and
+
+    V=sqrt(H²+(E²-1)x²+2mx³),
+    s=sqrt(1+H²b²-b²x²+2mb²x³),
+    alpha=1/(Ex+V)+Vb²/(1+s),
+    A=x alpha, F=(1-Omega b)/(sqrt(h) alpha), Z=F(x)/x.
+
+The limiting incidence Jacobian I_infty(1-Omega b_*) is strictly positive.
+Smooth tails and the implicit function theorem give smooth actual b(x), hence
+positive smooth F near0; F(0)=H(1-Omega b_*)/[sqrt(h)sqrt(1+H²b_*²)].
+This derivative control is essential; Z~constant R alone would not suffice.
+Since dx/dell_o=-xV,
+
+    dlog Z/dell_o = V(1-xF'/F) -> H,
+    K := lim dlog Z/dt_o = c_E H,
+    H=K/c_E,   1/H=c_E/K.                              (TSI1-T)
+
+This ideal T record fixes H independently of m,a,E and regular b_*, without a
+known ruler. It does not determine those remaining parameters or select the
+metric. If |F'/F|<=B on a final interval, a finite error bound is
+
+    |dlog Z/dell_o-H| <= |V-H|+VBx,
+    |V-H| <= (|E²-1|x²+2mx³)/(V+H).
+
+B and the onset interval depend on the branch. No uniform known observational
+error bar is supplied. A finite difference of log Z divided by receiver elapsed
+time averages the exact rate and inherits only a justified bound on that interval.
+Agreement in finite samples is not a proof that an unknown source is in this tail.
+
+The angular route is narrower. In outgoing EF coordinates the radial unit vector
+e_r=(-1/(E+v),E,0,0) and equatorial e_phi=(0,0,0,1/R) are parallel transported
+along the radial receiver. Future ray directions obey
+
+    n_phi=b/alpha,
+    n_r=[s/(E+v)-v b²/(R²(1+s))]/A,
+    theta=atan2(n_phi,n_r), tan(theta_*)=H b_*.
+
+The incoming sky direction is opposite; the sign/frame convention is fixed.
+For the principal preparation b_*=0, actual incidence yields
+b=Omega a x/H²+O(x²), theta=Omega a x/H+O(x²). Its nonzero leading coefficient
+and smooth remainder give
+
+    -dlog|theta|/dt_o -> c_E H.                          (TSI1-A)
+
+This is a timed source-position track, not angular size. It requires the
+specified preparation and angular reference. Generic limiting angle alone
+determines only H b_*; arbitrary frame rotation/centroid motion can spoil the
+inference. No universal angular logarithmic rate for all preparations is claimed.
+
+The U record retains an exact scale degeneracy. Under m,a,R,b,u,t_e,ell_o,ell_e
+multiplied by lambda and H,Omega divided by lambda, E is unchanged. Corresponding
+incidences have identical h,s,v,A,Z and angles; U_integral scales by lambda,
+P is invariant and I scales inversely. The metric pulls back to lambda²g;
+OJM1's Jacobi factors and any unknown source size co-scale. Thus combined untimed
+redshift/angular data do not fix this homothety. Timed records instead satisfy
+Z_lambda(t)=Z(t/lambda) with corresponding origins, and rates scale by1/lambda.
+A fixed receiver calibration is physical information, not a free relabeling.
+This conditional family comparison is not an adopted native UDT scale symmetry.
+
+There is an operational limit. The finite emitter-time endpoint admits only
+finitely many pulses at fixed positive spacing in any finite remaining emission
+interval. Such pulses cannot sample an infinite late derivative record. A
+continuous ideal phase/map, or indefinitely refined sampling, needs a separate
+physical-source/resolution assessment. If nu_o=nu_e/Z, the negative logarithmic
+frequency drift, -dlog nu_o/dt_o, is dlog Z/dt_o-dlog nu_e/dt_o. Constant source normalization
+cancels; arbitrary variability can mimic a finite record. Positive endpoint
+frequency with bounded logarithmic derivative in emitter proper time makes
+that contaminant decay as1/Z, but this regularity is an extra source condition,
+not a derived material or astronomical fact. Angular tracking likewise needs
+late visibility and resolving power. No practical detectability is established.
+
+c_E supplies the conversion from measured K to a length. This added dimensional
+timing record is exactly what the c_E/G_obs-only obstruction does not include.
+G_obs allows the mass-dimension combination c_E³/(G_obs K), but it is not a
+derived physical mass or an independent second constraint. A proposed
+m=G_obs M/c_E² interface would need separate justification and independent M;
+co-scaling a geometric mass or defining M from the measured K adds no datum.
+MGC1's independently justified mass/density routes remain possible and open.
+No physical X_max or observed Hubble parameter has been identified.
+
+The [frozen candidate](udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md)
+owns the full argument and [work record](udt_timing_scale_identifiability_2026-10-05/WORK_RECORD.md)
+records exact/finite checks, actual separate-context reviews, exposure and limits.
+The positive change is a ruler-free conditional scale interface. The negative
+result concerns untimed records; it does not extend to calibrated time histories.
+Finite practical inversion, empirical source admission and native geometry
+selection remain separate gates. The [return brief](udt_timing_scale_identifiability_2026-10-05/DECISION_BRIEF.md)
+states the next bounded proposal without launching it.
+
 
 <a id="r16fcw"></a>
 
@@ -5130,14 +5246,20 @@ leading clock pole. Generic optical endpoints retain ray dependence; no scalar
 distance describes all directional lengths or supplies an inverse at a caustic.
 This is a positive geometric consequence, not a fitted optical/redshift profile.
 
-The next proposed bounded question is whether specified timing and angular
-records determine this conditional H or leave a preparation/parameter degeneracy.
-Declare available records before inversion; do not silently supply a known ruler,
-source model, Hubble parameter or observational likelihood. Physical calibration
-and native metric/comparison selection remain separate. Identical geometry and
-physically matched GR queries still give identical records. The [fixed OJM1
-return and proposed scope](udt_optical_jacobi_attachment_2026-10-05/DECISION_BRIEF.md)
-states limits, resource/review bounds and next decision. Stop for lay discussion;
+TSI1 in R16TSI now distinguishes calibrated timing from untimed records.
+The ideal late logarithmic redshift rate determines c_E H for this family;
+the principal angular track supplies a narrower independent route. No known
+source size is required. Untimed redshift/angle records retain an explicit
+homothety. This is a positive conditional inverse result, not native selection.
+
+The next proposed bounded question is finite-record identifiability: can a
+finite calibrated interval constrain H with declared source motion/frequency
+uncertainty and justified error control? Fixed-spacing ticks do not sample the
+infinite asymptote, and arbitrary source variability can confound a finite
+record. Specify the available records and nuisance freedoms before inference.
+The [fixed TSI1 return and proposed scope](udt_timing_scale_identifiability_2026-10-05/DECISION_BRIEF.md)
+states resource/review bounds. Native metric/comparison admission remains a
+separate gate; matched GR gives the same records. Stop for lay discussion;
 no automatic successor, fit, larger solve or protected-work restart.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
@@ -6215,6 +6337,16 @@ exposure. The [descendant review](udt_optical_jacobi_attachment_2026-10-05/DESCE
 updates optical, clock, scale and adverse uses together. Exact proofs, finite
 checks, same-formula regression and reviewed byte bindings remain distinct;
 neither a finite source model nor native/empirical admission is inferred.
+
+TSI1's two fresh source-first/exposed/final contexts independently derive
+the timed/untimed distinction, check operational cadence and mass boundaries,
+and replay saved rates and scale transformations with separate implementations.
+Its [work record](udt_timing_scale_identifiability_2026-10-05/WORK_RECORD.md) and
+[descendant review](udt_timing_scale_identifiability_2026-10-05/DESCENDANT_REVIEW.md)
+record formula exposure, conditional source protocols and the positive update
+to scale calibration alongside the surviving constants-only/untimed limits.
+Neither asymptotic identifiability nor numerical agreement establishes finite
+astronomical access, native selection or an additional matched-GR effect.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

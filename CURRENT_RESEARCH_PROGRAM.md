@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — OJM1 conditional angular/Jacobi attachment reviewed,
+**Current development — TSI1 conditional timing/scale identification reviewed,
 2026-10-05.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,36 +39,36 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** OJM1 derives the full two-dimensional map between
-observed angle and source rest-screen size for the existing conditional metric.
-It generally stretches the two directions differently. On the actual b_*=0
-late history, the angular-area distance has the same finite1/H endpoint and
-leading received-clock pole as OAA1's affine distance. Finite rays retain their
-nonzero varying b; no separate optical or redshift curve is inserted.
+**Current learning.** TSI1 supplies a conditional way to determine the scale
+without a known source size. For the existing metric and regular source/receiver
+histories, the late logarithmic redshift rate on the receiver's calibrated clock
+tends to c_E H. Thus that ideal timing record gives1/H=c_E/rate. The principal
+angular-position track gives the same late rate in its specified parallel frame.
+These follow from actual varying incidences; no redshift curve is inserted.
 
-Other ray histories have different optical endpoints and can pass through
-caustics. Before the first caustic angular-area distance is no greater than
-affine distance; that inequality cannot be extended through every crossing.
-The full map is retained, with an inverse only off caustics. A geometric source
-rest-screen is not yet a finite material disk or independently known ruler.
-No universal maximum distance, native metric selection or X_max follows.
+Untimed redshift/angle records retain an exact scale freedom. Calibrated time
+breaks it, without selecting the metric or determining every other parameter.
+c_E supplies the time-to-length conversion. G_obs would need a separately
+justified physical mass/density connection to add independent information;
+a quantity with mass units is not automatically physical source mass.
 
-Two actual fresh contexts reconstruct the argument and independently replay
-saved quantities. Parent exact/finite controls pass; independent original-metric
-Jacobi and neighboring-ray checks support the map. One reviewer's initial
-strong-ray finite-angle approximation failed, and its smaller-angle repair
-at unchanged tolerance is preserved. Map/error wording is clarified without
-changing equations. Actual final bindings and normal/maintenance/full406 receipts
-own closure. Review, regression and numerical agreement are not physical adoption.
+The ideal-record limit matters. Fixed-spacing ticks in the finite remaining
+emitter interval cannot sample infinitely late derivatives. Source variability,
+angular reference and finite resolving power require explicit treatment before
+empirical use. Finite practical accuracy remains open. Physically matched GR
+still gives the same records; no extra UDT prediction or X_max follows.
 
-After orientation read R13OJM and R18, with R8ACP/CPR/OAA and R16 as needed.
-The conditional optical map is explicit; native metric/comparison admission,
-independent source/scale calibration and empirical use remain open. Physically
-matched GR gives the same records. The proposed next bounded question is whether
-specified timing/angular records determine H or retain degeneracies, without
-silently adding a known source size. This does not itself select UDT dynamics.
-Stop for lay discussion; no automatic successor, fit, physical adoption, large
-solve or parked/protected program restart.
+Parent exact/finite controls and two actual fresh separate contexts support the
+conditional result and independently recompute saved quantities. Exposure and
+shared-model/library limits are recorded. Actual final bindings and required
+normal/maintenance/full406 receipts own closure, not the numerical agreement.
+
+After orientation read R16TSI and R18, with R8CPR/OAA and R13OJM as dependencies.
+The next proposed bounded question is finite-record identifiability with declared
+source/motion uncertainty and a justified error bound or explicit degeneracy.
+Native geometry/comparison admission remains a separate gate. Stop for lay
+discussion; no automatic successor, fit, physical adoption, large solve or
+parked/protected program restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

@@ -1,0 +1,3 @@
+max homothety rel error 1.0358802704502068e-10
+max finite rel error 2.564726209186574e-12
+PASS: captured recombination agrees exactly with preserved initial result

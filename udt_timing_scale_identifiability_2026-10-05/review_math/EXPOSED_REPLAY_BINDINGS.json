@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-10-05T14:46:50.741548+00:00",
+  "files": {
+    "udt_timing_scale_identifiability_2026-10-05/review_math/EXPOSED_REPLAY_FREEZE.md": "c459612b4bfdd90c413dcbf625387cb9a3d3be23c89babdd715ad6318b1f60c6",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/replay_saved.py": "417d0487f83637eaed1711ffc8e949b7339c4f09a9daea61c69bce0cb2497dfc",
+    "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md": "47dcb13c0b92e3f21367b24134efd8af2be8f7857c364a15fe75f71b444f357a",
+    "udt_timing_scale_identifiability_2026-10-05/NUMERICAL_FREEZE.md": "1fc4e1900e646b9b3f07e5e52e01f772c2bacec22a73fac0b2eae6b7e64306fd",
+    "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py": "449ba079e653c4aafeae0741044edbe1076cdc238744224f4fbedef7242ca24b",
+    "udt_timing_scale_identifiability_2026-10-05/CONSTRUCTION_RESULT.json": "3af3c20ff9dafdc008fbd9b97418340bc983da6ed2d9dea7e2f395299741448b"
+  }
+}

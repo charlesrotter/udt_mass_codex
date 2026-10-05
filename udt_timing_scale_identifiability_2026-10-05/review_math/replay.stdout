@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "case_count": 31,
+  "cumulative_case_count": 67,
+  "maxima": {
+    "scaled_error": 2.2689418703245035e-12,
+    "relative_rate_error": 7.076380148518524e-09,
+    "residual": 5.551115123125783e-17
+  }
+}

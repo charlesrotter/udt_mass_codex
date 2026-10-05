@@ -2674,6 +2674,66 @@
         "C_OJM_RAY",
         "C_OJM_SCREEN"
       ]
+    },
+    {
+      "id": "C_TSI_HISTORY",
+      "kind": "conditional_protocol",
+      "statement": "Inherited CPR1/OJM1 positive-H strict regular outgoing ray branch, finite fixed-E escaping receiver and circular source. Smooth actual incidence b(x), ordinary proper clocks; principal b_star0 only for angular logarithmic slope.",
+      "sources": [
+        "udt_timing_scale_identifiability_2026-10-05/WORK_ORDER.md",
+        "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_timing_scale_identifiability_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py",
+        "udt_timing_scale_identifiability_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_timing_scale_identifiability_2026-10-05/NUMERICAL_FREEZE.md",
+        "udt_timing_scale_identifiability_2026-10-05/CLARIFICATIONS.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_TSI_RECORD",
+      "kind": "conditional_protocol",
+      "statement": "T ideal smooth calibrated clock arrival map or constant-normalization frequency ratio; A principal point-position track in fixed parallel radial frame. Infinite asymptotic access not supplied by finite fixed-spacing ticks. U untimed data retain homothety.",
+      "sources": [
+        "udt_timing_scale_identifiability_2026-10-05/WORK_ORDER.md",
+        "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_timing_scale_identifiability_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py",
+        "udt_timing_scale_identifiability_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_timing_scale_identifiability_2026-10-05/NUMERICAL_FREEZE.md",
+        "udt_timing_scale_identifiability_2026-10-05/CLARIFICATIONS.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_TSI_ADMISSION",
+      "kind": "open_join",
+      "statement": "Finite-record/source/noise admission and native metric/comparison selection remain open. No m-to-physical-mass interface, new matched-GR effect, X_max or observed Hubble parameter adopted.",
+      "sources": [
+        "udt_timing_scale_identifiability_2026-10-05/WORK_ORDER.md",
+        "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R16TSI",
+      "kind": "argument",
+      "anchor": "r16tsi",
+      "title": "Conditional timing and principal angular scale recovery with untimed homothety",
+      "sources": [
+        "udt_timing_scale_identifiability_2026-10-05/WORK_ORDER.md",
+        "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_timing_scale_identifiability_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py",
+        "udt_timing_scale_identifiability_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_timing_scale_identifiability_2026-10-05/NUMERICAL_FREEZE.md",
+        "udt_timing_scale_identifiability_2026-10-05/CLARIFICATIONS.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD"
+      ]
     }
   ],
   "edges": [
@@ -5376,6 +5436,111 @@
       "from": "R13OJM",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "R8CPR",
+      "to": "R16TSI",
+      "kind": "proof"
+    },
+    {
+      "from": "R8OAA",
+      "to": "R16TSI",
+      "kind": "proof"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R16TSI",
+      "kind": "proof"
+    },
+    {
+      "from": "R16",
+      "to": "R16TSI",
+      "kind": "proof"
+    },
+    {
+      "from": "C_TSI_HISTORY",
+      "to": "R16TSI",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_TSI_RECORD",
+      "to": "R16TSI",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "D1",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R2",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R8CGE",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACP",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R10",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R13",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R14",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R15",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R16TSI",
+      "kind": "context"
+    },
+    {
+      "from": "O_TSI_ADMISSION",
+      "to": "R16TSI",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R16TSI",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -5687,7 +5852,14 @@
     "udt_optical_jacobi_attachment_2026-10-05/check_optical_map.py": "4ca5ab4840e29bdfa1ca05ff291aff465fa654d0beda12f3d549db17aa73dae2",
     "udt_optical_jacobi_attachment_2026-10-05/CANDIDATE_FREEZE.json": "16310673330978aba2d36a502e3d3c091f12fe0c5961fc68869634e7293f0e1f",
     "udt_optical_jacobi_attachment_2026-10-05/NUMERICAL_FREEZE.md": "e1ca613700720fb80ada22ed548cee2d44a7bd5aa1c1e98e349de58ea9c1a342",
-    "udt_optical_jacobi_attachment_2026-10-05/METHOD_REFERENCES.md": "afbf63bc346106814ed22411decdcc2a8337855679df3c39166332673f096e38"
+    "udt_optical_jacobi_attachment_2026-10-05/METHOD_REFERENCES.md": "afbf63bc346106814ed22411decdcc2a8337855679df3c39166332673f096e38",
+    "udt_timing_scale_identifiability_2026-10-05/WORK_ORDER.md": "7b1baeb158bb00e1f533f9e06d66361c93dd12098a84af74feae9fea1aa82ad8",
+    "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md": "47dcb13c0b92e3f21367b24134efd8af2be8f7857c364a15fe75f71b444f357a",
+    "udt_timing_scale_identifiability_2026-10-05/CONSTRUCTION_RESULT.json": "3af3c20ff9dafdc008fbd9b97418340bc983da6ed2d9dea7e2f395299741448b",
+    "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py": "449ba079e653c4aafeae0741044edbe1076cdc238744224f4fbedef7242ca24b",
+    "udt_timing_scale_identifiability_2026-10-05/CANDIDATE_FREEZE.json": "363c07718bc13f774edc50719e108603eb483dced4a4adb47e5188b9e65a3c15",
+    "udt_timing_scale_identifiability_2026-10-05/NUMERICAL_FREEZE.md": "1fc4e1900e646b9b3f07e5e52e01f772c2bacec22a73fac0b2eae6b7e64306fd",
+    "udt_timing_scale_identifiability_2026-10-05/CLARIFICATIONS.md": "2fb1be35515f7c60eccf4ab3f9fb6d7005782bd48c9a365a3cb6e3109a660135"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -9774,6 +9946,180 @@
         "R13OJM",
         "R16",
         "R18"
+      ]
+    },
+    {
+      "path": "udt_timing_scale_identifiability_2026-10-05/WORK_RECORD.md",
+      "sha256": "f697bf16d662d3af24fb74aaca5890a336190e858a2cbfb87d1fa47125585636",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R13OJM",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R16TSI",
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD",
+        "O_TSI_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_timing_scale_identifiability_2026-10-05/DESCENDANT_REVIEW.md",
+      "sha256": "63f869dcd9ca0688f0a7e2d9d85fc35c99df69642d59c0f5575de82f3691e971",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R13OJM",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R16TSI",
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD",
+        "O_TSI_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_timing_scale_identifiability_2026-10-05/review_math/SOURCE_FIRST.md",
+      "sha256": "eac823fa58fcc3cd996881bc2395d16a5198f57d88ed193634173e0dadff1e57",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R13OJM",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R16TSI",
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD",
+        "O_TSI_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_timing_scale_identifiability_2026-10-05/review_math/EXPOSED_REVIEW.md",
+      "sha256": "2cb2edb2de914f7dcdd0f0eecbfd1372e94b57048e7588d7b686a5fc195577e6",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R13OJM",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R16TSI",
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD",
+        "O_TSI_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_timing_scale_identifiability_2026-10-05/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "6bd674c26da89f57c58569ffd03282f25d67340b63a2970735626a384076baf4",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R13OJM",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R16TSI",
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD",
+        "O_TSI_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_timing_scale_identifiability_2026-10-05/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "f7a57d9da5fce747014e4949d0917a1004a86540b5ed93a84c167ee94bd64957",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R13OJM",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R16TSI",
+        "C_TSI_HISTORY",
+        "C_TSI_RECORD",
+        "O_TSI_ADMISSION"
       ]
     }
   ]

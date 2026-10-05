@@ -1,0 +1,31 @@
+{
+  "reviewer": "/root/tsi_fidelity",
+  "HEAD": "ded574c12a93d9b659c773be42b80f6331aed03b",
+  "hashes": {
+    "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md": "47dcb13c0b92e3f21367b24134efd8af2be8f7857c364a15fe75f71b444f357a",
+    "udt_timing_scale_identifiability_2026-10-05/NUMERICAL_FREEZE.md": "1fc4e1900e646b9b3f07e5e52e01f772c2bacec22a73fac0b2eae6b7e64306fd",
+    "udt_timing_scale_identifiability_2026-10-05/CONSTRUCTION_RESULT.json": "3af3c20ff9dafdc008fbd9b97418340bc983da6ed2d9dea7e2f395299741448b",
+    "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py": "449ba079e653c4aafeae0741044edbe1076cdc238744224f4fbedef7242ca24b",
+    "udt_timing_scale_identifiability_2026-10-05/review_fidelity/CONTROL_FREEZE.md": "7d8a7068c7bed9f92b595582dc844996048d04ca077f0bd90d1284faf43b7492",
+    "udt_timing_scale_identifiability_2026-10-05/review_fidelity/SOURCE_FIRST.md": "6bd674c26da89f57c58569ffd03282f25d67340b63a2970735626a384076baf4",
+    "udt_timing_scale_identifiability_2026-10-05/review_fidelity/independent_checks.py": "3c77e160c28a4464236fca601172eaeb72e535fb3e12beca44f0c0a8c0a4b3a3",
+    "udt_timing_scale_identifiability_2026-10-05/review_fidelity/EXPOSED_FREEZE.md": "4ffa12be90908a091be8b5f5b0bd3faa831930feaf25fce1f5ae49a33c9167a8",
+    "udt_timing_scale_identifiability_2026-10-05/review_fidelity/recheck_saved.py": "d12c4286314db9d37ddd68a7298d241bcd1e577f687f6b48667564e084648af3",
+    "udt_timing_scale_identifiability_2026-10-05/review_fidelity/EXPOSED_REVIEW.md": "f7a57d9da5fce747014e4949d0917a1004a86540b5ed93a84c167ee94bd64957"
+  },
+  "source_first_inputs": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "UDT_DEVELOPMENT.md": "c20dbb663943f0c952952dd248c4189b82ee4820e0726228d15ef781cf25cb81",
+    "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md": "bb72612b16076c34ebebf074e1028d59249790106dea8b4e0b414d302cc6c2cb",
+    "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md": "77290539a6accacccd56dcdff85344f026fc9f9aeea02d80445e97948a467d67",
+    "udt_optical_jacobi_attachment_2026-10-05/DECISION_BRIEF.md": "3fbf5b339014fe7325714769ff747ebfdd0c7684dbc8e5959b1274eb50831d4b",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_free_clock_completion_2026-10-03/close_checkpoint.py": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9"
+  },
+  "baseline_development_sha256_independently_checked": "c20dbb663943f0c952952dd248c4189b82ee4820e0726228d15ef781cf25cb81",
+  "note": "Source-first chronology/exposure disclosed in reports; hashes certify correspondence, not discovery chronology."
+}

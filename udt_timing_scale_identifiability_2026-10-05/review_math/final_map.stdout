@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-05T14:52:58.504819+00:00",
+  "freeze_sha256": "32328dad8868ebc2726ae3df0745f87b4f94c9d5bd21e700c063d960edfb21f6",
+  "accepted_map_entries_checked": 14446,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "protected_map_entries": 0,
+  "inherited_binding_only_not_full_semantic_reproof": 14371,
+  "base_head": "ded574c12a93d9b659c773be42b80f6331aed03b",
+  "checks_inspected": [
+    "construction",
+    "draft",
+    "final_maintenance"
+  ],
+  "pending_parent_banking_gates": [
+    "actual final review binding",
+    "final_normal_bound",
+    "final_premises_windowed",
+    "manifest/stage/commit/push/remote verification"
+  ]
+}

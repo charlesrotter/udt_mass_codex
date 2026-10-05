@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-10-05T14:44:25.749908+00:00",
+  "parent_candidate_exposed": false,
+  "parent_code_exposed": false,
+  "parent_output_exposed": false,
+  "case_count": 36,
+  "remaining_case_budget": 64,
+  "files": {
+    "udt_timing_scale_identifiability_2026-10-05/review_math/EXECUTION_FREEZE.json": "a07513423b42bfbd44e89567672c78122f9012e738c71e2b19665b69026ff933",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/NUMERICAL_FREEZE.md": "b77ce50353db9cbb94e0a9e33ef3c55f8ef09cde2f5e7a1f4e6fe5024fca9445",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SOURCE_FIRST.md": "eac823fa58fcc3cd996881bc2395d16a5198f57d88ed193634173e0dadff1e57",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SOURCE_FIRST_BINDINGS.json": "72649d49555414981813a80ca1780a4c1aac84179c2d85d4a64a34d8deab71f3",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SOURCE_FIRST_RESULT.json": "c53287fff1ad81847c1791e7446abedcf0cd0b765927b8fd8108d64106a5389b",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/independent_timing.py": "b69d918846c806546c8caca951fbbf3faf98e83f333dab48bf04399fb7021da0",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/source_first.json": "77d84fd52302234e63dc3f8fdb62fcf52c4aa40749614a59439814237f191204",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/source_first.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/source_first.stdout": "76df198fab9a0cda2e908cc2f91f3d437b3d951401fbf90cafcf03c0737fea62"
+  }
+}

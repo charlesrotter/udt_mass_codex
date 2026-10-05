@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-05T14:42:41.999353+00:00",
+  "head": "ded574c12a93d9b659c773be42b80f6331aed03b",
+  "files": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "udt_timing_scale_identifiability_2026-10-05/WORK_ORDER.md": "7b1baeb158bb00e1f533f9e06d66361c93dd12098a84af74feae9fea1aa82ad8",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9",
+    "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md": "bb72612b16076c34ebebf074e1028d59249790106dea8b4e0b414d302cc6c2cb",
+    "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md": "77290539a6accacccd56dcdff85344f026fc9f9aeea02d80445e97948a467d67",
+    "UDT_DEVELOPMENT.md": "c20dbb663943f0c952952dd248c4189b82ee4820e0726228d15ef781cf25cb81",
+    "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54",
+    "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SOURCE_FIRST.md": "eac823fa58fcc3cd996881bc2395d16a5198f57d88ed193634173e0dadff1e57",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/NUMERICAL_FREEZE.md": "b77ce50353db9cbb94e0a9e33ef3c55f8ef09cde2f5e7a1f4e6fe5024fca9445"
+  }
+}

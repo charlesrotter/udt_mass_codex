@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "integration_freeze_sha256": "32328dad8868ebc2726ae3df0745f87b4f94c9d5bd21e700c063d960edfb21f6",
+  "accepted_count": 14446,
+  "byte_count": 2337325870,
+  "protected_prefix_entries": 0,
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "generated_orientation": "EXACT",
+  "negative_drift_label": "CORRECTED",
+  "original_insert_preservation": "BYTE_IDENTICAL",
+  "scope": "Byte correspondence and specified packaging checks only; semantic review is separate."
+}

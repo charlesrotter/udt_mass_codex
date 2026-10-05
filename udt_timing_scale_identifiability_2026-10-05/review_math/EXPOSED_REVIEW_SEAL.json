@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-05T14:49:28.198513+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS; CONDITIONAL; final integration pending",
+  "files": {
+    "udt_timing_scale_identifiability_2026-10-05/review_math/EXPOSED_REVIEW.md": "2cb2edb2de914f7dcdd0f0eecbfd1372e94b57048e7588d7b686a5fc195577e6",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/EXPOSED_REPLAY_FREEZE.md": "c459612b4bfdd90c413dcbf625387cb9a3d3be23c89babdd715ad6318b1f60c6",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/EXPOSED_REPLAY_BINDINGS.json": "f3b97db2e400ae282cf73b93d67fabb63b0bbc7a539bac71be99447155c8975d",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SAVED_REPLAY_RESULT.json": "cda4547fdca5ad1ab3d496643c7abff4e559432610032023fc87c4a878896712",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/SAVED_RECOMBINATION_RESULT.json": "d2c09ffd6539aa8c89a35a8c19088fddab4639275885ca23b02903c7a0602434",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/CAPTURED_RECOMBINATION_RESULT.json": "d2c09ffd6539aa8c89a35a8c19088fddab4639275885ca23b02903c7a0602434",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/RECOMBINATION_EXECUTION_NOTE.md": "cfa70612c2a8d955575485fb24f965ddba91909829c255f6ccf226341fce53e8",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/replay_saved.py": "417d0487f83637eaed1711ffc8e949b7339c4f09a9daea61c69bce0cb2497dfc",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/recombine_saved.py": "662065cb5d947d56ec71a7bed7a85b0eb5790ddbadfb16111decb36bb4c25cf7",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/replay.json": "c58c316e0ebe861ab6b5a0d3340d9f7e801dfcc385c95ed990b1bcd4435bcbcd",
+    "udt_timing_scale_identifiability_2026-10-05/review_math/recombine.json": "08d2b4178095d1da42691ee499807ac81d1ec6a6237db13f3bc110bcc2c89a39"
+  }
+}

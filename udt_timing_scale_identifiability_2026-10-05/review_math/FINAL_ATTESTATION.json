@@ -1,23 +1,18 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-05T14:54:32.405594+00:00",
-  "scope": "TSI1 conditional ideal receiver-clock redshift drift determines c_E H, principal angular track gives same limit; untimed records retain homothety. No known source size, native metric selection, finite empirical access, physical mass law, X_max or extra matched-GR prediction.",
-  "independence": "Two fresh same-model source-first/exposed/final contexts independently derive smooth-tail rates and record limits; distinct implementations recompute saved incidences, rates and scale transforms. Parent preliminary timing formula disclosed at dispatch; candidate/code/results exposed after source-first. Shared premises/model/libraries; no human, different-model, formal, interval or empirical review.",
-  "freeze": "udt_timing_scale_identifiability_2026-10-05/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "32328dad8868ebc2726ae3df0745f87b4f94c9d5bd21e700c063d960edfb21f6",
-  "prior_review_record": "udt_timing_scale_identifiability_2026-10-05/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "2d951b7ea7a4d1d3e4a17cba818704e132a60076af64d2cb0314cf0a11887c7e",
-  "reviewers": [
-    {
-      "context": "/root/tsi_math",
-      "attestation": "udt_timing_scale_identifiability_2026-10-05/review_math/FINAL_ATTESTATION.json",
-      "sha256": "f561405857d8baa4509591e68ce6ba72bda0050d05e3a75e77515d9b6d1eb956"
-    },
-    {
-      "context": "/root/tsi_fidelity",
-      "attestation": "udt_timing_scale_identifiability_2026-10-05/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "700878b83d59e9997acc6d20899fcc9a1138d6f5ac0c841086b9dc1bd4ef9a6c"
-    }
+  "context": "/root/tsi_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "created_utc": "2026-10-05T14:54:18.857529+00:00",
+  "report_path": "udt_timing_scale_identifiability_2026-10-05/review_math/FINAL_REVIEW.md",
+  "report_sha256": "06635858d22d0c6aaaaf84790955b4680584c33741abb6dfaba077ef0f626b95",
+  "integration_freeze_path": "udt_timing_scale_identifiability_2026-10-05/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "32328dad8868ebc2726ae3df0745f87b4f94c9d5bd21e700c063d960edfb21f6",
+  "independence": "Actual separate context; preliminary formula exposed; independent source-first argument and code; exposed SciPy Brent/integrated-time saved replay; no different-model or human claim.",
+  "scope": "Conditional ideal timing/principal-angular scale recovery and exact untimed homothety; actual final semantic review and full accepted-map hash correspondence. No native/empirical/canon promotion.",
+  "pending_banking_checks": [
+    "actual attestation binding",
+    "final_normal_bound",
+    "final_premises_windowed",
+    "manifest/stage/commit/push/remote verification"
   ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",

@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "ded574c12a93d9b659c773be42b80f6331aed03b",
+  "origin_before_commit": "ded574c12a93d9b659c773be42b80f6331aed03b",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 14446,
+  "claim_limit": "TSI1 conditional ideal receiver-clock redshift drift determines c_E H, principal angular track gives same limit; untimed records retain homothety. No known source size, native metric selection, finite empirical access, physical mass law, X_max or extra matched-GR prediction."
+}
