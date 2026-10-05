@@ -1,0 +1,4 @@
+{
+  "initial_integration_freeze_sha256": "de498e1e31889f453e4e048499778aa002e4b4d053e97947ca6a9ff586a11321",
+  "issue": "Displayed central H lower endpoints round inward; request outward rounding or explicit approximate marker. No scientific/numeric changes requested."
+}

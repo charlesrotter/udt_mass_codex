@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "evidence": "exact rational checks of analytic bounds; no incidence cases",
+  "python": "3.10.12",
+  "cases_consumed": 0,
+  "checks": {
+    "ray_lower_squared": true,
+    "ray_upper_squared": true,
+    "h_lower": true,
+    "f_lower": true,
+    "omega_lower_squared": true,
+    "omega_upper_squared": true,
+    "root_bracket": true,
+    "W_upper_squared": true,
+    "Wprime_upper": true,
+    "alpha_upper": true,
+    "Bprime_upper": true,
+    "sprime_upper": true,
+    "jprime_upper": true,
+    "logF_upper": true,
+    "eta_upper": true,
+    "countercheck_overstrong_eta_rejected": true,
+    "countercheck_expanded_tail_not_certified": true
+  },
+  "values": {
+    "ray_lower_squared": {
+      "left": "998001/1000000",
+      "right": "249999/250000",
+      "left_float": 0.998001,
+      "right_float": 0.999996
+    },
+    "ray_upper_squared": {
+      "left": "100000161/100000000",
+      "right": "1002001/1000000",
+      "left_float": 1.00000161,
+      "right_float": 1.002001
+    },
+    "h_lower": {
+      "left": "2/5",
+      "right": "2/5",
+      "left_float": 0.4,
+      "right_float": 0.4
+    },
+    "f_lower": {
+      "left": "59/100",
+      "right": "59/100",
+      "left_float": 0.59,
+      "right_float": 0.59
+    },
+    "omega_lower_squared": {
+      "left": "4",
+      "right": "4",
+      "left_float": 4.0,
+      "right_float": 4.0
+    },
+    "omega_upper_squared": {
+      "left": "79",
+      "right": "81",
+      "left_float": 79.0,
+      "right_float": 81.0
+    },
+    "root_bracket": {
+      "left": "9/50000",
+      "right": "768498463/769615000000",
+      "left_float": 0.00018,
+      "right_float": 0.0009985492265613327
+    },
+    "W_upper_squared": {
+      "left": "6250000247500001/6250000000000000",
+      "right": "2500000100000001/2500000000000000",
+      "left_float": 1.0000000396000002,
+      "right_float": 1.0000000400000004
+    },
+    "Wprime_upper": {
+      "left": "495000003/250000000000",
+      "right": "1/500",
+      "left_float": 0.001980000012,
+      "right_float": 0.002
+    },
+    "alpha_upper": {
+      "left": "9995000050000001/9995000000000000",
+      "right": "500000003/500000000",
+      "left_float": 1.0000000050025013,
+      "right_float": 1.000000006
+    },
+    "Bprime_upper": {
+      "left": "90135911870148203067999981991/99759985434630090000000000000",
+      "right": "1",
+      "left_float": 0.9035277168240139,
+      "right_float": 1.0
+    },
+    "sprime_upper": {
+      "left": "12500000025000017/124875000000000000000",
+      "right": "101/1000000",
+      "left_float": 0.00010010010030030043,
+      "right_float": 0.000101
+    },
+    "jprime_upper": {
+      "left": "100019989243949249881010101/999000250000000000000000000000",
+      "right": "101/1000000",
+      "left_float": 0.0001001200842982264,
+      "right_float": 0.000101
+    },
+    "logF_upper": {
+      "left": "189741098800208036296955561171919091/9981011497750000000000000000000000",
+      "right": "20",
+      "left_float": 19.01020741665121,
+      "right_float": 20.0
+    },
+    "eta_upper": {
+      "left": "50002501/125000000000",
+      "right": "1/2000",
+      "left_float": 0.000400020008,
+      "right_float": 0.0005
+    }
+  },
+  "script_sha256": "ee1868495e7a09e869240deaea308fc02a145281c842523a50e7fc4d6c488b9f"
+}

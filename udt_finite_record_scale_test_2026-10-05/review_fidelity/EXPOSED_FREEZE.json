@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-05T16:52:14.535829+00:00",
+  "candidate_sha256": "364c3feca8a0a43d0f5780a1ae378c6e065bcc10d2f1f8d391962ce23544a2ad",
+  "review": "Exposed draft proof read after independent28case source-first seal; saved parent result not yet read.",
+  "planned_checks": [
+    "Independent original-incidence replay of all or selected parent centres at identical receiver proper times, including E=10 via independent proper-time integral inversion",
+    "Recompute finite interval arithmetic from saved records without importing parent code",
+    "Verify finite-window compatibility by exact slope envelopes stated in candidate",
+    "Review final maintained semantics and exact hashes"
+  ]
+}

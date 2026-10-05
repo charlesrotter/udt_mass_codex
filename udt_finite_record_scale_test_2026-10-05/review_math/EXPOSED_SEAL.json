@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-05T16:50:37.933148+00:00",
+  "files": {
+    "udt_finite_record_scale_test_2026-10-05/review_math/EXPOSED_REVIEW.md": "bd5fb46a9bd66ee0168cb0ceaf258f996a5ee73a59b2825b99d01d90b0d51f03",
+    "udt_finite_record_scale_test_2026-10-05/review_math/incidence_check.py": "d6ce57253c4dd7a85758276899c434f03a9ae3cb3592932dc32337dc1a6eb550",
+    "udt_finite_record_scale_test_2026-10-05/review_math/INCIDENCE_FREEZE.md": "bb9313cd953e6f2d1f5b6a0780e8f7f892b753dccc65b37ab013db5334aa6767",
+    "udt_finite_record_scale_test_2026-10-05/review_math/INCIDENCE_RESULT.json": "99fa880ef6e84f4446aebfa847c7efb1a8b4632446b5bf5da49aed1090f787b7",
+    "udt_finite_record_scale_test_2026-10-05/INITIAL_CANDIDATE.md": "eae895e1360a512f818fbc30391dc3d8139d08bb039c5cceac15c919fc5ed2fc"
+  },
+  "incidence_cases_consumed": 36
+}

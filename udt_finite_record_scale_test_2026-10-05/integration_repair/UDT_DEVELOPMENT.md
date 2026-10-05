@@ -4057,8 +4057,8 @@ coverage/uncertainty, not all finite recovery or UDT itself.
 
 For the longer fixed interval T=200 with the same widths/readout errors,
 timestamp error.2 and allowed source drift q=.000005, synthetic base records
-give H in[.0049725835,.0050676842] for the supplied H=.005. Repeating withE10
-gives[.0049722998,.0050673991]. The widths are about1.902% of the input H;
+give H in[.0049725836,.0050676842] for the supplied H=.005. Repeating withE10
+gives[.0049722999,.0050673991]. The widths are about1.902% of the input H;
 these are total deterministic interval widths, not one-sigma error bars.
 Both exclude.0025. The paired long angular records also separate beyond their
 declared errors, but no all-parameter angular inverse theorem is claimed.

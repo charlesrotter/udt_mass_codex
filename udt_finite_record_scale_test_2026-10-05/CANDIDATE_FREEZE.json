@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-05T16:51:36.097434+00:00",
+  "sha256": {
+    "udt_finite_record_scale_test_2026-10-05/WORK_ORDER.md": "f005fb3dcb1dce7b41b938814e4afa94b1873f8aba47a6cb8a1f235a806ece13",
+    "udt_finite_record_scale_test_2026-10-05/INITIAL_CANDIDATE.md": "364c3feca8a0a43d0f5780a1ae378c6e065bcc10d2f1f8d391962ce23544a2ad",
+    "udt_finite_record_scale_test_2026-10-05/check_finite_records.py": "7880404d32b3dba4dc25081062ade05d4c8b45baca5bbd402b64afc9c75bce4f",
+    "udt_finite_record_scale_test_2026-10-05/NUMERICAL_FREEZE.md": "445ccbdeef2a4c6a6a3bac8c28b0a1cf0cfedab9e900a0929fe9bd52febc67a7",
+    "udt_timing_scale_identifiability_2026-10-05/check_timing_scale.py": "449ba079e653c4aafeae0741044edbe1076cdc238744224f4fbedef7242ca24b"
+  }
+}

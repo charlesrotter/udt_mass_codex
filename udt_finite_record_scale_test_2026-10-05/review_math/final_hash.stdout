@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-05T17:03:25.536218+00:00",
+  "freeze_sha256": "d8de971fe59ff0de19b4c6fb46a0f95d435594320afbf9898d2fd801d778879c",
+  "accepted_entries_checked": 14535,
+  "mismatches": [],
+  "protected_prefix_hits": [],
+  "actual_branch": "grok",
+  "actual_HEAD": "37c0864880b1c336247a403b84d1eba1896995ce",
+  "semantic_controls": [
+    "central insert present",
+    "root bracket pronoun and W(z) clarified",
+    "generated orientation matches",
+    "saved replay accurately described",
+    "conditional nodes and required conditions",
+    "proof/hypothesis/open-boundary edges",
+    "review support remains review evidence",
+    "new disposition remains conditional"
+  ],
+  "scope": "Corroborates actual human-readable semantic review; hashes establish correspondence only",
+  "new_incidence_cases": 0,
+  "cumulative_incidence_cases": 63
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-05T16:43:17.919855+00:00",
+  "head": "37c0864880b1c336247a403b84d1eba1896995ce",
+  "source_sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "UDT_DEVELOPMENT.md": "8837508c54aed25594506d7722643e664973b9a7d980b5e504d59e41641d1872",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9",
+    "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md": "47dcb13c0b92e3f21367b24134efd8af2be8f7857c364a15fe75f71b444f357a",
+    "udt_finite_record_scale_test_2026-10-05/WORK_ORDER.md": "f005fb3dcb1dce7b41b938814e4afa94b1873f8aba47a6cb8a1f235a806ece13",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+  }
+}

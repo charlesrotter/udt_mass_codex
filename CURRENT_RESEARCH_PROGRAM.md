@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — TSI1 conditional timing/scale identification reviewed,
+**Current development — FRI1 finite-record scale bounds and ambiguity reviewed,
 2026-10-05.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,36 +39,34 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** TSI1 supplies a conditional way to determine the scale
-without a known source size. For the existing metric and regular source/receiver
-histories, the late logarithmic redshift rate on the receiver's calibrated clock
-tends to c_E H. Thus that ideal timing record gives1/H=c_E/rate. The principal
-angular-position track gives the same late rate in its specified parallel frame.
-These follow from actual varying incidences; no redshift curve is inserted.
+**Current learning.** FRI1 moves the conditional scale question to finite
+records. Exact bounds on the actual clock history give a finite H enclosure
+with explicit source drift, measurement and timestamp uncertainty. Frozen
+longer-record controls yield total interval widths about1.902% of the input H,
+including a receiver-energy change. These are deterministic conditional bounds,
+not observational error bars or an adopted geometry.
 
-Untimed redshift/angle records retain an exact scale freedom. Calibrated time
-breaks it, without selecting the metric or determining every other parameter.
-c_E supplies the time-to-length conversion. G_obs would need a separately
-justified physical mass/density connection to add independent information;
-a quantity with mass units is not automatically physical source mass.
+The shorter record has a proved factor2 ambiguity: two different scales can
+match the same finite timing AND angular means within the declared errors,
+even with stable sources. They are compared at the same calibrated times.
+This is not equality of noiseless curves or a no-go for every finite record.
 
-The ideal-record limit matters. Fixed-spacing ticks in the finite remaining
-emitter interval cannot sample infinitely late derivatives. Source variability,
-angular reference and finite resolving power require explicit treatment before
-empirical use. Finite practical accuracy remains open. Physically matched GR
-still gives the same records; no extra UDT prediction or X_max follows.
+The supplied shape/tail domain is scale invariant and does not give a known
+source ruler. Its physical admission, finite readout errors, source drift and
+angular reference remain explicit conditions. c_E converts clock data to length;
+G_obs has no newly derived independent mass/density interface. Matched GR gives
+the same records; native geometry/comparison selection and X_max remain open.
 
-Parent exact/finite controls and two actual fresh separate contexts support the
-conditional result and independently recompute saved quantities. Exposure and
-shared-model/library limits are recorded. Actual final bindings and required
-normal/maintenance/full406 receipts own closure, not the numerical agreement.
+Parent exact-rational/finite controls and two actual fresh contexts support
+the argument and independently replay saved incidences and uncertainty bounds.
+Formula exposure, reused parent evaluator and shared-model/library limits are
+recorded. Final semantic/hash bindings and required checks own closure.
 
-After orientation read R16TSI and R18, with R8CPR/OAA and R13OJM as dependencies.
-The next proposed bounded question is finite-record identifiability with declared
-source/motion uncertainty and a justified error bound or explicit degeneracy.
-Native geometry/comparison admission remains a separate gate. Stop for lay
-discussion; no automatic successor, fit, physical adoption, large solve or
-parked/protected program restart.
+After orientation read R16FRI/R18, with R16TSI and R8CPR as dependencies.
+The proposed next bounded step is to audit independent physical support for
+the shape/tail, source-drift and finite-readout conditions before claiming an
+empirical scale. Stop for lay discussion; no automatic successor, data fit,
+new physical premise, large solve or parked/protected program restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/check_remaining_arithmetic.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-05T16:58:15.616467+00:00",
+  "duration_seconds": 0.029622705071233213,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 18364,
+  "forwarded_signals": [],
+  "stdout_sha256": "ddfa0620564d2e34bb92bcb5f4ee35d4754c5edd32a0cef4b8ea61c35b1557d0",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

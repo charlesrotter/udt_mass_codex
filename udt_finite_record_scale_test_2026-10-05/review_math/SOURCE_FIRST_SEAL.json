@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-05T16:46:22.657571+00:00",
+  "phase": "source-first; parent theoretical lead exposed; no parent candidate/code/output read",
+  "files": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "UDT_DEVELOPMENT.md": "8837508c54aed25594506d7722643e664973b9a7d980b5e504d59e41641d1872",
+    "udt_finite_record_scale_test_2026-10-05/WORK_ORDER.md": "f005fb3dcb1dce7b41b938814e4afa94b1873f8aba47a6cb8a1f235a806ece13",
+    "udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md": "47dcb13c0b92e3f21367b24134efd8af2be8f7857c364a15fe75f71b444f357a",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9",
+    "udt_finite_record_scale_test_2026-10-05/review_math/SOURCE_FIRST.md": "6c09bfcef0bcd99d292f8b222a54feda439cb494ad0786b32d559d2af0092bab",
+    "udt_finite_record_scale_test_2026-10-05/review_math/SHAPE_DOMAIN_REVIEW.md": "2e75d485c488bad1fc46ff778b18caa662ef7bd47fb6a0174894261a24cc041d",
+    "udt_finite_record_scale_test_2026-10-05/review_math/BOUND_FREEZE.md": "fb72f693108366bd1b3bc856c768b1720be788735d625c54ceae0a499ac498f5",
+    "udt_finite_record_scale_test_2026-10-05/review_math/bound_check.py": "ee1868495e7a09e869240deaea308fc02a145281c842523a50e7fc4d6c488b9f",
+    "udt_finite_record_scale_test_2026-10-05/review_math/BOUND_RESULT.json": "2866515718b767c581c6c51b88630a8fc31aa6f061d25605c0fcfb7b2d6d3fe9"
+  }
+}

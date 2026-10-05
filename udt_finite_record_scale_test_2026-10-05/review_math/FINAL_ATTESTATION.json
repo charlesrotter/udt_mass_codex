@@ -1,23 +1,17 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-05T17:05:53.345609+00:00",
-  "scope": "FRI1 conditional finite timing scale enclosure and explicit same-time factor2 scale ambiguity in finite timing/angular records. Exact dimensionless-domain derivative/error bounds, synthetic controls only. Physical domain/source/error admission, native metric selection, mass and X_max OPEN; matched GR identical.",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts independently derive bounds and replay saved original-incidence/proper-time/finite-window quantities. Theoretical leads exposed during discovery; parent reused pinned TSI evaluator, reviewer implementations separate. Shared premises/model/Python/mpmath; no human, different-model, formal, numerical-interval or empirical review.",
-  "freeze": "udt_finite_record_scale_test_2026-10-05/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "d8de971fe59ff0de19b4c6fb46a0f95d435594320afbf9898d2fd801d778879c",
-  "prior_review_record": "udt_finite_record_scale_test_2026-10-05/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "dd8e7e18afa175d5e2836192bdcbedb27a2b2748a2115f65e4dc3b18cc9bb799",
-  "reviewers": [
-    {
-      "context": "/root/fri_math",
-      "attestation": "udt_finite_record_scale_test_2026-10-05/review_math/FINAL_ATTESTATION.json",
-      "sha256": "a393c9d516ae7ff56a45f8823f3e781d8fd26fadc66a2155ab3e34bd18f7f609"
-    },
-    {
-      "context": "/root/fri_fidelity",
-      "attestation": "udt_finite_record_scale_test_2026-10-05/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "0afd569400c24375eead28080bedd43e414eb2ce262ca38af7f2722cd7decf3e"
-    }
+  "context": "/root/fri_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "created_utc": "2026-10-05T17:05:32.255716+00:00",
+  "report_path": "udt_finite_record_scale_test_2026-10-05/review_math/FINAL_REVIEW.md",
+  "report_sha256": "ea81b46ee36a1698e1be79d99816d5319800edef6c0f684f60ba65fad47b76b6",
+  "integration_freeze_path": "udt_finite_record_scale_test_2026-10-05/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "d8de971fe59ff0de19b4c6fb46a0f95d435594320afbf9898d2fd801d778879c",
+  "independence": "Actual separate same-model-family context; theoretical lead and discovery exchanges exposed; independent source-first algebra and code; 36 original root solves plus25 original-equation saved-state replays and2 corruption controls; no parent evaluator import, different-model or human claim.",
+  "scope": "Conditional finite timing-scale enclosure and explicit same-time factor-two timing/angular ambiguity; actual final semantic review and all14535 accepted-file hash checks. No physical/native/empirical/canon promotion.",
+  "pending_banking_checks": [
+    "actual attestation binding",
+    "final normal bound and full406 receipts",
+    "manifest/stage/commit/push/remote verification"
   ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
@@ -14555,5 +14549,8 @@
     "udt_timing_scale_identifiability_2026-10-05/review_math/source_first.stdout": "76df198fab9a0cda2e908cc2f91f3d437b3d951401fbf90cafcf03c0737fea62",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
+  },
+  "review_appendix_sha256": {
+    "udt_finite_record_scale_test_2026-10-05/review_math/DISPLAY_ROUNDING_NOTE.md": "39440c20f8d46d417bb8a2d0d763ebf9c75698fd62c9b6bb113762f3ef7992c7"
   }
 }

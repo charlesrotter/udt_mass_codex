@@ -1,27 +1,27 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — TSI1 timing/scale return, 2026-10-05
+## Current handoff — FRI1 finite-record return, 2026-10-05
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. After orientation read R16TSI/R18, with R8CPR/OAA and R13OJM as needed.
+orientation. After orientation read R16FRI/R18, with R16TSI/R8CPR as needed.
 
-After OJM1 atded574c1, Charles authorized the next timing/scale tests and
-reaffirmed c_E/G_obs anchors. TSI1 evidence is in
-udt_timing_scale_identifiability_2026-10-05/; WORK_ORDER owns scope/stops.
-Two fresh source-first/exposed/final contexts reconstruct the argument and
-recompute saved quantities; formula exposure and limits are recorded. Actual
-final attestations, normal/maintenance/full406 receipts and committed/remote
-byte checks own closure. Verify actual HEAD, remote and dirt yourself.
+After TSI1 at37c08648, Charles explicitly authorized finite timing/angular
+records with uncertainty, seeking scale recovery or demonstrable ambiguity.
+FRI1 evidence is in udt_finite_record_scale_test_2026-10-05/; WORK_ORDER owns
+scope/stops. Two fresh source-first/exposed/final contexts reconstruct the
+argument and recompute saved quantities. Exposure and evaluator reuse are
+recorded. Actual final attestations, normal/maintenance/full406 receipts and
+committed/remote byte checks own closure. Verify HEAD, remote and dirt yourself.
 
-Next: Stop for lay discussion of TSI1. R18 and DECISION_BRIEF distinguish
-ideal conditional scale recovery from finite-record availability and native
-selection, and propose a bounded finite-record test for later authorization.
-No new physical premise, response law, registry grade or X_max is adopted.
-No GPU/long production or parked/protected program restarted. Standing pauses,
-preservation, no-timeout/manual-stop and resource rules persist.
+Next: Stop for lay discussion of FRI1. R18 and DECISION_BRIEF distinguish
+finite conditional bounds/ambiguity from independent physical source/error
+admission and native selection. A bounded interface audit is proposed for
+subsequent authorization. No new physical premise, response law, registry grade
+or X_max is adopted. No GPU/long production or parked/protected program restart.
+Standing pauses, preservation, no-timeout/manual-stop and resource rules persist.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-05T16:56:41.296645+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "sha256": {
+    "udt_finite_record_scale_test_2026-10-05/INITIAL_CANDIDATE.md": "364c3feca8a0a43d0f5780a1ae378c6e065bcc10d2f1f8d391962ce23544a2ad",
+    "udt_finite_record_scale_test_2026-10-05/CANDIDATE_FREEZE.json": "64c2f1d4ad5c28eda98233e7a118daf2fef314628d170d792972d8004b9226ed",
+    "udt_finite_record_scale_test_2026-10-05/NUMERICAL_FREEZE.md": "445ccbdeef2a4c6a6a3bac8c28b0a1cf0cfedab9e900a0929fe9bd52febc67a7",
+    "udt_finite_record_scale_test_2026-10-05/CONSTRUCTION_RESULT.json": "7b606504135e61742203185cf904d02073892532149264d8b3fde0d5d4c1d6ff",
+    "udt_finite_record_scale_test_2026-10-05/check_finite_records.py": "7880404d32b3dba4dc25081062ade05d4c8b45baca5bbd402b64afc9c75bce4f",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/EXPOSED_PLAN.md": "b68a0aaab0ca452e19bfe4440185d42301f2e8ab364d3278200c98af3e098e19",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/EXPOSED_REVIEW.md": "7d7b7c5cdf730f7a523a696c20c32f0fbca1639b00294bec9d9e865bc21eb676",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/replay_saved.py": "861d0f138cf85d86b1b15b842ddb39d3f509ff23ee17fa3e24ae40c15feaf333",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/SAVED_REPLAY.json": "911761ab067d681ea03742de89046d721dabb394a2086a2eb8b2ad22891e93cd",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/saved_replay_01.json": "1ce15fdbd4bcadc1d345851248d895982d04a6f36d6f0a052edc5c7335242854",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/saved_replay_01.stdout": "0042fae3fce78801147fa224360b2f57293883952013c59d5743a4ce30c683bc",
+    "udt_finite_record_scale_test_2026-10-05/review_fidelity/saved_replay_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

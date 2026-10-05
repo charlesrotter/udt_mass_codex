@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-05T16:54:50.015560+00:00",
+  "files": {
+    "udt_finite_record_scale_test_2026-10-05/review_math/SAVED_REPLAY_FREEZE.md": "2e9fcae3b49eaec5b1d4e093fe4c8941241f44463100fe7de3f8146cf57fcc7b",
+    "udt_finite_record_scale_test_2026-10-05/review_math/saved_replay.py": "d854b4165fdf90d4107812c4717cada066c9e130ccee46f4af5337fe0ad00cdb",
+    "udt_finite_record_scale_test_2026-10-05/review_math/SAVED_REPLAY_RESULT.json": "26522a77a8088029421604971bf6690edc0db8758cffabfedbb00c75bf41aa83",
+    "udt_finite_record_scale_test_2026-10-05/review_math/SAVED_REPLAY_REVIEW.md": "198389387b59cf69a05b236564fdb9f5dc0eb21f594dcb1a16a59edbaea5cc01",
+    "udt_finite_record_scale_test_2026-10-05/INITIAL_CANDIDATE.md": "364c3feca8a0a43d0f5780a1ae378c6e065bcc10d2f1f8d391962ce23544a2ad",
+    "udt_finite_record_scale_test_2026-10-05/NUMERICAL_FREEZE.md": "445ccbdeef2a4c6a6a3bac8c28b0a1cf0cfedab9e900a0929fe9bd52febc67a7",
+    "udt_finite_record_scale_test_2026-10-05/CONSTRUCTION_RESULT.json": "7b606504135e61742203185cf904d02073892532149264d8b3fde0d5d4c1d6ff",
+    "udt_finite_record_scale_test_2026-10-05/CANDIDATE_FREEZE.json": "64c2f1d4ad5c28eda98233e7a118daf2fef314628d170d792972d8004b9226ed"
+  },
+  "incidence_cases_consumed": 63
+}
