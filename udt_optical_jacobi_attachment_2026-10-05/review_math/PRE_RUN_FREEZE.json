@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-05T13:26:48.629728+00:00",
+  "files": {
+    "SOURCE_FIRST_DERIVATION.md": "ffe47a98de4b22dfeb925acb699dfd9584666f7e26415b5a7c74c032c2d6bb97",
+    "CHECK_FREEZE.md": "4936980d5732a998b81b4f92bab09e8b060baf94e3e20c66049652d18861bef2",
+    "check_original_metric.py": "2493e1495c45c119a013f7d0f6136e667d276b11a242a486ee4c7e9fb317a087"
+  },
+  "exposure": "Hand derivation and numeric plan were saved before parent reply; parent then reported matching equations/basis and requested original metric check. No parent candidate or code has been opened."
+}

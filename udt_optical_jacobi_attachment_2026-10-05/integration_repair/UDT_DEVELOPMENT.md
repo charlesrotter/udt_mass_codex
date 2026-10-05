@@ -3835,7 +3835,7 @@ or make that endpoint a universal affine ceiling; an explicit conditional
 counterexample rules out that last stronger interpretation. OJM1 in R13OJM
 extends the specified late endpoint and pole to angular-area distance, while
 retaining generic shear/caustic and source-calibration limits. This does not
-fix1/H in light-years or identify H with an observed Hubble parameter.
+fix1/H in light-years or identify it with an observed Hubble parameter.
 
 RCD1's conditional coefficient recovery in R8RCD requires an informative smooth
 clock curve and an independent length/time calibration. c_E converts units;

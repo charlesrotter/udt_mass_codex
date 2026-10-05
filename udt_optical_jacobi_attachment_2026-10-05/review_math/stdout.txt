@@ -1,0 +1,3 @@
+optical (1, 0.02, 6, 1, 30, 0) PASS
+optical (1, 0.02, 6, 1, 100, 4) PASS
+optical (1, 0.05, 4, 1, 100, 5) PASS

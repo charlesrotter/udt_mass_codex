@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_optical_jacobi_attachment_2026-10-05/review_math/check_original_metric.py", line 137, in <module>
+    results['cases'].append(optical_case(*case));results['finite_case_count']+=10;save()
+  File "/home/udt-admin/udt_mass_codex/udt_optical_jacobi_attachment_2026-10-05/review_math/check_original_metric.py", line 100, in optical_case
+    assert errors[-1]<=2e-5 and (errors[-1]<errors[0] or errors[-1]<=2e-7)
+AssertionError

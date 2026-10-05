@@ -1,0 +1,13 @@
+item	type	scope	source
+ordinary clocks and one geometry	current owner commitment	interframe received ticking and shared velocity/gravity/positional geometry	UDT_DEVELOPMENT.md R6/R8 and controlling owner sources
+conditional metric/histories	inherited CONDITIONAL	m>0,H>0,Omega>0,a>3m,f(a)>0; fixed finite-E escaping receiver; strict regular outgoing incidence	CPR1 INITIAL_CANDIDATE.md with CLARIFICATIONS.md
+quotient screen and reciprocity	DERIVED_CONDITIONAL_BOUNDED method	supplied smooth Lorentzian metric, affine null ray and endpoint observers; phase map survives caustics	G348 EXACT_DERIVATION.md; central R13
+source rest-screen	declared geometric query	orthogonal to source proper velocity and central ray; not selected disk, ruler or population	INITIAL_CANDIDATE.md section1
+two-dimensional Jacobi block	conditional derived consequence	chosen regular outgoing ray and fixed endpoint quotient bases; signed factors retained	INITIAL_CANDIDATE.md sections2-3
+area distance	declared geometric readout	D_A^2=|det J|; no universal scalar length conversion; J inverse only off caustics	INITIAL_CANDIDATE.md with CLARIFICATIONS.md
+pre-caustic bound	conditional derived consequence	D_A<=D_o before first conjugate point only; strict for m>0,b!=0	INITIAL_CANDIDATE.md section3
+optical asymptotic pole	conditional derived consequence	actual b_*=0 preparation, varying b(R), eventual caustic-free tail only	INITIAL_CANDIDATE.md section4
+general optical endpoint	conditional derived consequence	depends on limiting ray/source geometry; limiting rank loss needs separate order analysis	INITIAL_CANDIDATE.md section4
+source size and absolute scale	OPEN	no independently known ruler or H in light-years; no observed Hubble parameter identification	INITIAL_CANDIDATE.md section5; central R16
+native admission/additional effect	OPEN	same geometry and physically matched GR query give identical records; no UDT law selection	INITIAL_CANDIDATE.md section5; central R9/R10/R18
+finite numerical values	free-and-explored controls	frozen selected rays, actual incidences and finite differences; no empirical fitting	NUMERICAL_FREEZE.md

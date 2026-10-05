@@ -5,8 +5,8 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — OAA1 conditional affine-distance attachment reviewed,
-2026-10-04.** This is the sole maintained scientific argument. The exact registry
+**Current development — OJM1 conditional angular/Jacobi attachment reviewed,
+2026-10-05.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
 
@@ -39,38 +39,36 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** OAA1 connects the existing conditional clock asymptote
-to a specified geometric distance. Along the actual source/receiver histories,
-the receiver-normalized affine distance tends to1/H while received redshift
-diverges. On the already supplied preparation a simple pole in the distance
-deficit follows from the metric and rays. No separate redshift curve is fitted.
-The emitter normalization of the same ray instead grows without bound.
+**Current learning.** OJM1 derives the full two-dimensional map between
+observed angle and source rest-screen size for the existing conditional metric.
+It generally stretches the two directions differently. On the actual b_*=0
+late history, the angular-area distance has the same finite1/H endpoint and
+leading received-clock pole as OAA1's affine distance. Finite rays retain their
+nonzero varying b; no separate optical or redshift curve is inserted.
 
-This supplies a concrete geometric attachment, while its native physical meaning
-remains open. The finite endpoint is not a universal maximum: another allowed
-preparation approaches it from above, with an exact rational sign proof. The
-from-below result holds on its stated eventual tail, not every earlier epoch.
-Late receiver events cannot return a signal to the original interior source;
-the affine limit is therefore distinct from that source's completed radar
-experiment. Neither observer-dependent readouts nor this scoped counterexample
-refute the owner's same-law universality or intended asymptotic target.
+Other ray histories have different optical endpoints and can pass through
+caustics. Before the first caustic angular-area distance is no greater than
+affine distance; that inequality cannot be extended through every crossing.
+The full map is retained, with an inverse only off caustics. A geometric source
+rest-screen is not yet a finite material disk or independently known ruler.
+No universal maximum distance, native metric selection or X_max follows.
 
-Two actual fresh contexts reconstructed the argument and checked saved quantities
-with independent implementations. Parent finite checks, the exact ceiling
-counterexample and the conditional circular-source radar bound pass. A reviewer
-caught an overbroad finite-time sentence; its narrower tail scope and initial
-text are preserved. A source-first early-branch failure and reviewer resource
-repair remain visible. Actual final bindings and normal/maintenance/full406
-receipts own closure. No native metric/distance selection or empirical test
-has been established, and physically matched GR records remain identical.
+Two actual fresh contexts reconstruct the argument and independently replay
+saved quantities. Parent exact/finite controls pass; independent original-metric
+Jacobi and neighboring-ray checks support the map. One reviewer's initial
+strong-ray finite-angle approximation failed, and its smaller-angle repair
+at unchanged tolerance is preserved. Map/error wording is clarified without
+changing equations. Actual final bindings and normal/maintenance/full406 receipts
+own closure. Review, regression and numerical agreement are not physical adoption.
 
-After orientation read R8OAA and R18, with R8/SGE1, R13 and R16 as needed.
-The remaining attachment is physical selection and independent observational
-meaning. A proposed next bounded step is the same candidate's actual angular/
-Jacobi map, to test how this affine endpoint relates to geometric source-size
-and angle records. It does not assume affine equals angular distance or select
-UDT dynamics. Stop for lay discussion; no automatic successor, fit, physical
-adoption, large solve or parked/protected campaign restart.
+After orientation read R13OJM and R18, with R8ACP/CPR/OAA and R16 as needed.
+The conditional optical map is explicit; native metric/comparison admission,
+independent source/scale calibration and empirical use remain open. Physically
+matched GR gives the same records. The proposed next bounded question is whether
+specified timing/angular records determine H or retain degeneracies, without
+silently adding a known source size. This does not itself select UDT dynamics.
+Stop for lay discussion; no automatic successor, fit, physical adoption, large
+solve or parked/protected program restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

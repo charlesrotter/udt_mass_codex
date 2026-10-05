@@ -2606,6 +2606,74 @@
         "C_OAA_AFFINE",
         "C_OAA_BRANCH"
       ]
+    },
+    {
+      "id": "C_OJM_RAY",
+      "kind": "conditional_protocol",
+      "statement": "Inherited conditional positive-H CPR1/OAA1 regular outgoing ray and fixed clock histories. Actual b varies between emissions. Principal b_star0 tail is distinct from general limiting rays and caustics.",
+      "sources": [
+        "udt_optical_jacobi_attachment_2026-10-05/WORK_ORDER.md",
+        "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md",
+        "udt_optical_jacobi_attachment_2026-10-05/PREMISE_LEDGER.tsv",
+        "udt_optical_jacobi_attachment_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_optical_jacobi_attachment_2026-10-05/check_optical_map.py",
+        "udt_optical_jacobi_attachment_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_optical_jacobi_attachment_2026-10-05/NUMERICAL_FREEZE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/METHOD_REFERENCES.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_OJM_SCREEN",
+      "kind": "conditional_protocol",
+      "statement": "Infinitesimal source proper rest-screen and quotient-parallel endpoint bases; J maps sky to size, inverse only off caustics. D_A is angular-area, not a universal scalar length map or finite material ruler.",
+      "sources": [
+        "udt_optical_jacobi_attachment_2026-10-05/WORK_ORDER.md",
+        "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md",
+        "udt_optical_jacobi_attachment_2026-10-05/PREMISE_LEDGER.tsv",
+        "udt_optical_jacobi_attachment_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_optical_jacobi_attachment_2026-10-05/check_optical_map.py",
+        "udt_optical_jacobi_attachment_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_optical_jacobi_attachment_2026-10-05/NUMERICAL_FREEZE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/METHOD_REFERENCES.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_OJM_ADMISSION",
+      "kind": "open_join",
+      "statement": "Native metric/comparison selection, independently known astronomical source/ruler and physical H calibration remain open. No extra physically matched-GR prediction, universal X_max or empirical admission.",
+      "sources": [
+        "udt_optical_jacobi_attachment_2026-10-05/WORK_ORDER.md",
+        "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md",
+        "udt_optical_jacobi_attachment_2026-10-05/PREMISE_LEDGER.tsv"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R13OJM",
+      "kind": "argument",
+      "anchor": "r13ojm",
+      "title": "Conditional full optical map, caustics and actual angular-area clock pole",
+      "sources": [
+        "udt_optical_jacobi_attachment_2026-10-05/WORK_ORDER.md",
+        "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md",
+        "udt_optical_jacobi_attachment_2026-10-05/PREMISE_LEDGER.tsv",
+        "udt_optical_jacobi_attachment_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_optical_jacobi_attachment_2026-10-05/check_optical_map.py",
+        "udt_optical_jacobi_attachment_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_optical_jacobi_attachment_2026-10-05/NUMERICAL_FREEZE.md",
+        "udt_optical_jacobi_attachment_2026-10-05/METHOD_REFERENCES.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_OJM_RAY",
+        "C_OJM_SCREEN"
+      ]
     }
   ],
   "edges": [
@@ -5208,6 +5276,106 @@
       "from": "R8OAA",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "R13",
+      "to": "R13OJM",
+      "kind": "proof"
+    },
+    {
+      "from": "R8CPR",
+      "to": "R13OJM",
+      "kind": "proof"
+    },
+    {
+      "from": "R8OAA",
+      "to": "R13OJM",
+      "kind": "proof"
+    },
+    {
+      "from": "C_OJM_RAY",
+      "to": "R13OJM",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_OJM_SCREEN",
+      "to": "R13OJM",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "D1",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R2",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R8CGE",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACP",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R10",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R14",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R15",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R16",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R13OJM",
+      "kind": "context"
+    },
+    {
+      "from": "O_OJM_ADMISSION",
+      "to": "R13OJM",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -5510,7 +5678,16 @@
     "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py": "e63a0ce951edde522dbbc2fd5934d68a596a0f8be0a1e72f1a0c10c14ac732eb",
     "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json": "f78bbd3b372a24b869e2ae8fab4792e4aecc2922fc3134926b3a3f6207cd996d",
     "udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md": "fc82530547ddbcbbaad78fdb100233bff0ddc95d63cb2e59eb62c74e26f47039",
-    "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md": "8f697555ae01254bf018938e3f91c7e48ac6ca6e575303c8d2c7cc462692761e"
+    "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md": "8f697555ae01254bf018938e3f91c7e48ac6ca6e575303c8d2c7cc462692761e",
+    "udt_optical_jacobi_attachment_2026-10-05/WORK_ORDER.md": "80bf93e52be1360e052d60c922c3af00f58bcbd33b9d94fc3e738a1606478142",
+    "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md": "bb72612b16076c34ebebf074e1028d59249790106dea8b4e0b414d302cc6c2cb",
+    "udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md": "77290539a6accacccd56dcdff85344f026fc9f9aeea02d80445e97948a467d67",
+    "udt_optical_jacobi_attachment_2026-10-05/PREMISE_LEDGER.tsv": "aa1118b4da22a1a80a58bad5b018b6e350a3d473d97fffad25b8bf8a5e31bb3d",
+    "udt_optical_jacobi_attachment_2026-10-05/CONSTRUCTION_RESULT.json": "be6e9461ab8d66b676cc44cf97e2955ae3512eb3a8842e66bd0fe53c0972b091",
+    "udt_optical_jacobi_attachment_2026-10-05/check_optical_map.py": "4ca5ab4840e29bdfa1ca05ff291aff465fa654d0beda12f3d549db17aa73dae2",
+    "udt_optical_jacobi_attachment_2026-10-05/CANDIDATE_FREEZE.json": "16310673330978aba2d36a502e3d3c091f12fe0c5961fc68869634e7293f0e1f",
+    "udt_optical_jacobi_attachment_2026-10-05/NUMERICAL_FREEZE.md": "e1ca613700720fb80ada22ed548cee2d44a7bd5aa1c1e98e349de58ea9c1a342",
+    "udt_optical_jacobi_attachment_2026-10-05/METHOD_REFERENCES.md": "afbf63bc346106814ed22411decdcc2a8337855679df3c39166332673f096e38"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -9363,6 +9540,240 @@
         "C_OAA_AFFINE",
         "C_OAA_BRANCH",
         "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/WORK_RECORD.md",
+      "sha256": "426a580e0fde555d24f75c3779d8628ac8ec3c0937f683aff68c2e7a9496fe79",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/DESCENDANT_REVIEW.md",
+      "sha256": "7952bb907fd8b99f7823e454145d80ae7b99adad0ee21a3e842b1946ae9a70c3",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/review_math/SOURCE_FIRST.md",
+      "sha256": "673a2e7a7d89c56e6ddd0626f58b8c19b44aab38d6dd2ac4a3ff624802a8b362",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/review_math/EXPOSED_REVIEW.md",
+      "sha256": "b55c434dae115a43265b1c5f8e527d4c2d118d9048f199803c75bfaa0a3fe285",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/review_math/RETURN_SCOPE_REVIEW.md",
+      "sha256": "c2821d0a42fe630a27585f05436df8fa158f358a5bed69ad12300eca455c63d2",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "258c386b004ef54be91d6661f346d6099e1c0b04ed69181e4c144c04aa59c03d",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/review_fidelity/INDEPENDENT_CHECK_REPORT.md",
+      "sha256": "6ac2e09057af8a28542375109d8663231c94859d1f1f28bd3f1a128ef356b3ac",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "c8ffa1beec8f556d91e9d0aab7b34f0aa412b9074bdeadcb444cd2cf3c062d2d",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8OAA",
+        "R8ACP",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R13OJM",
+        "C_OJM_RAY",
+        "C_OJM_SCREEN",
+        "O_OJM_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_optical_jacobi_attachment_2026-10-05/integration_repair/REPAIR_RECORD.md",
+      "sha256": "3a209bf1802bbb39f1c8c4620e7be3664ce25135620f901832998df410dd8e4e",
+      "role": "review_evidence",
+      "targets": [
+        "R13OJM",
+        "R16",
+        "R18"
       ]
     }
   ]

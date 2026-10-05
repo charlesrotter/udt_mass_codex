@@ -1,0 +1,6 @@
+optical (1, 0.18, 3.001, 1, 30, 14.670529313335562) PASS
+incidence 1000.0 PASS
+incidence 10000.0 PASS
+incidence 100000.0 PASS
+incidence 1000000.0 PASS
+ALL PASS

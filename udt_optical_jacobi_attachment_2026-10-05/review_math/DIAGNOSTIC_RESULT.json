@@ -1,0 +1,14 @@
+{
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "sympy": "1.13.1"
+  },
+  "cases": [],
+  "incidences": [],
+  "finite_case_count": 0,
+  "status": "FAIL",
+  "failure": "AssertionError()",
+  "elapsed_seconds": 0.32315659523010254
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-05T13:29:45.025117+00:00",
+  "stage": "before parent numerical execution; matching preliminary reviewer formulas exposed",
+  "sha256": {
+    "udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md": "bb72612b16076c34ebebf074e1028d59249790106dea8b4e0b414d302cc6c2cb",
+    "udt_optical_jacobi_attachment_2026-10-05/check_optical_map.py": "4ca5ab4840e29bdfa1ca05ff291aff465fa654d0beda12f3d549db17aa73dae2",
+    "udt_optical_jacobi_attachment_2026-10-05/NUMERICAL_FREEZE.md": "e1ca613700720fb80ada22ed548cee2d44a7bd5aa1c1e98e349de58ea9c1a342",
+    "udt_optical_jacobi_attachment_2026-10-05/WORK_ORDER.md": "80bf93e52be1360e052d60c922c3af00f58bcbd33b9d94fc3e738a1606478142"
+  }
+}

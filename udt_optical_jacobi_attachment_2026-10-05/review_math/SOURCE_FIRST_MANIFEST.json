@@ -1,0 +1,28 @@
+{
+  "sealed_utc": "2026-10-05T13:29:09.477327+00:00",
+  "files": {
+    "CHECK_FREEZE.md": "4936980d5732a998b81b4f92bab09e8b060baf94e3e20c66049652d18861bef2",
+    "DIAGNOSTIC_LAST_OPTICAL_CASE.json": "2619ca26a9d9883fd7d8b836314e05da6ea33a42f97f83b5f8eba6a650e0e25f",
+    "DIAGNOSTIC_PLAN.md": "891a4ce8a7103c4cabcfb5d1ad6effa22ede7ed50914b696f0d39d9c5d2860cd",
+    "DIAGNOSTIC_RESULT.json": "1bfc5b925d4a1eaa25c9ae22c56d326e9b8c24032fbefcba1c8001e4b7e46bd6",
+    "DIAGNOSTIC_check_original_metric.py": "06f6d9ee35a2fa00035b1e29250eafb90d6f2e0c198683396b1270aee30ad3a4",
+    "INITIAL_RESULT.json": "68dbfe0af0105bea42434749c7b2715270ebdab55a7644ff9bcfba0dd5212028",
+    "INITIAL_check_original_metric.py": "2493e1495c45c119a013f7d0f6136e667d276b11a242a486ee4c7e9fb317a087",
+    "INITIAL_stderr.txt": "909baf347fc5d202e466337bcde29eccfdc589ed38da574365af4df72a0d7fd7",
+    "INITIAL_stdout.txt": "31f96ac5396a3f275c99025867c42d06d4c4d0a968729f6e81b60db457caad9d",
+    "LAST_OPTICAL_CASE.json": "48d6de545d1140744e8d1dd01d4da8ae7fff3731a7c8482b662d2858d47d0513",
+    "PRE_RUN_FREEZE.json": "bae2ecbcdfa88fcba00378e6dc39687555e8ca67d3f6486d4481cce218f257dc",
+    "REPAIR_FREEZE.json": "93089080fb6c519fc6a408331ed6eb696e3ba4a1a34ff57fd2c253934fa7e63b",
+    "REPAIR_FREEZE.md": "a013acdf55f1ba64f58c10a9b333f21d8d465c8da9a8542b549405a608305c01",
+    "RESULT.json": "b054ab41ab2915e45ced8d209c03d1b86bd49b7c1ca0bf8a6d398e6052e55aae",
+    "SOURCE_FIRST.md": "673a2e7a7d89c56e6ddd0626f58b8c19b44aab38d6dd2ac4a3ff624802a8b362",
+    "SOURCE_FIRST_DERIVATION.md": "ffe47a98de4b22dfeb925acb699dfd9584666f7e26415b5a7c74c032c2d6bb97",
+    "check_original_metric.py": "b423037508e8afb3c431415d2ab52ce5883d2ad5de1f12ede2f45fde1f86da03",
+    "diagnostic_stderr.txt": "aa3b7a7906f376dc15fc11cb4454a464eb1f80544e277313afb72300af1da130",
+    "diagnostic_stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "repaired_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "repaired_stdout.txt": "1980916cabd4ffeef0a0ac38d086a226a0b364c0a4d86c0871cacf22aaefc7aa",
+    "stderr.txt": "909baf347fc5d202e466337bcde29eccfdc589ed38da574365af4df72a0d7fd7",
+    "stdout.txt": "31f96ac5396a3f275c99025867c42d06d4c4d0a968729f6e81b60db457caad9d"
+  }
+}

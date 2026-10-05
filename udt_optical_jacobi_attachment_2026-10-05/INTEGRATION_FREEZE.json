@@ -1,24 +1,16 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-05T13:48:44.473301+00:00",
+  "utc": "2026-10-05T13:46:06.194030+00:00",
   "scope": "OJM1 conditional full two-dimensional optical map from existing metric and actual clocks; signed caustics and pre-caustic area bound; actual b_star0 late angular-area endpoint1/H and clock pole. Native metric/comparison, known source and physical scale OPEN; matched GR identical; no fit, flux, X_max or physical adoption",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts, independent geodesic-variation arguments, original4D metric/Jacobi and distinct saved-quantity replays. Matching preliminary formula exposure disclosed. Strong-ray finite-angle failure and smaller-step repair at unchanged tolerance retained; map/error and null-ray wording clarified. No different-model, human, interval, full-corpus or empirical review",
-  "freeze": "udt_optical_jacobi_attachment_2026-10-05/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "7c508dd7da9949a8ae0b4b1b4bfd86a0df1b0e008eebdfb352597b217379dd1d",
-  "prior_review_record": "udt_optical_jacobi_attachment_2026-10-05/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "2885fc97ffcb7d19003993b57cecd5a4e98ed4766b155087036032977f12c93d",
-  "reviewers": [
-    {
-      "context": "/root/ojm_math",
-      "attestation": "udt_optical_jacobi_attachment_2026-10-05/review_math/FINAL_ATTESTATION.json",
-      "sha256": "7b3ba76e3cb316d41e153fc1693a4ceca608bc759afb6aa9d8d724a9b328daf7"
-    },
-    {
-      "context": "/root/ojm_fidelity",
-      "attestation": "udt_optical_jacobi_attachment_2026-10-05/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "e65e5001d837f51223dd5ca846b3726f99e8b5cbf2d7bec55cec418bf397e505"
-    }
+  "base_head": "278a8f126dc7a1283c0c2dcdb074c183fce7cdde",
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
   ],
+  "inherited_count": 14284,
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

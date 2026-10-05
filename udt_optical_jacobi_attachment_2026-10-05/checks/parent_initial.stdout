@@ -1,0 +1,3 @@
+precision 40 PASS
+precision 70 PASS
+{"status": "PASS", "actual_incidences": 16, "neighbor_controls": 6, "max_scaled_precision_error": "1.298558075960861752335948259973856036353420469700156544608845430267411e-37"}

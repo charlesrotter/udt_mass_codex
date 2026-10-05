@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "278a8f126dc7a1283c0c2dcdb074c183fce7cdde",
+  "origin_before_commit": "278a8f126dc7a1283c0c2dcdb074c183fce7cdde",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 14377,
+  "claim_limit": "OJM1 conditional full two-dimensional optical map from existing metric and actual clocks; signed caustics and pre-caustic area bound; actual b_star0 late angular-area endpoint1/H and clock pole. Native metric/comparison, known source and physical scale OPEN; matched GR identical; no fit, flux, X_max or physical adoption"
+}
