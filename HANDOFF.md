@@ -1,27 +1,27 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — CPR1 commitment restriction return, 2026-10-04
+## Current handoff — OAA1 affine attachment return, 2026-10-04
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. After orientation read R8CPR and R18, with R9/R10 when load-bearing.
+orientation. After orientation read R8OAA/R18, with R8/SGE1,R13/R16 as needed.
 
-After CGE1 ata8ddc1af, Charles authorized testing existing UDT commitments against
-the candidate. CPR1 evidence is in udt_candidate_commitment_restriction_2026-10-04/;
+After CPR1 at11cca783, Charles authorized the operational-separation attachment
+test. OAA1 evidence is in udt_operational_asymptote_attachment_2026-10-04/;
 WORK_ORDER owns scope/stops. Two actual fresh source-first/exposed/final contexts
-review the argument and independent numerical controls. Failed checks, repairs,
-clarifications and exposure history are retained. Actual final attestations,
-normal/maintenance/full406 receipts and committed/remote byte checks own closure.
-Verify actual HEAD, remote, dirt and processes yourself.
+review the argument and saved quantities, with exact and finite checks. Initial
+candidate, early-branch failure, reviewer resource repair and scope clarification
+are preserved. Actual final attestations, normal/maintenance/full406 receipts and
+committed/remote byte checks own closure. Verify actual HEAD, remote and dirt.
 
-Next: Stop for lay discussion of CPR1's conditional restrictions and the still-open
-physical attachment in R18. No native response class, additional positional effect,
-X_max value or empirical bound has been established. Native/source/map/data gates
-remain distinct. No new premise, registry grade, field law or scale is adopted.
-No GPU/long production or parked/protected campaign restarted. Standing pauses,
-preservation, no-timeout/manual-stop and resource rules persist.
+Next: Stop for lay discussion of OAA1. R18 and DECISION_BRIEF distinguish the
+reviewed conditional affine attachment from native/empirical admission and
+propose the bounded angular/Jacobi-map step for subsequent authorization.
+No new physical distance postulate, response law, registry grade or X_max is
+adopted. No GPU/long production or parked/protected program restarted. Standing
+pauses, preservation, no-timeout/manual-stop and resource rules persist.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

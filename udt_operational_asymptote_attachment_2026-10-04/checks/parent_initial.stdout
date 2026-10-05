@@ -1,0 +1,3 @@
+precision 40 PASS
+precision 70 PASS
+{"status": "PASS", "incidence_cases": 16, "radar_interval_cases": 6, "precision_discrepancy": "1.029487194594931083819500735533726019379e-37"}

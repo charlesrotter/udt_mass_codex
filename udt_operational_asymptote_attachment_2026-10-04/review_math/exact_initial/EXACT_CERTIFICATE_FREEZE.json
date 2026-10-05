@@ -1,0 +1,14 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_operational_asymptote_attachment_2026-10-04/review_math/check_exact_certificate.py > udt_operational_asymptote_attachment_2026-10-04/review_math/exact_certificate_stdout.txt 2> udt_operational_asymptote_attachment_2026-10-04/review_math/exact_certificate_stderr.txt",
+  "inputs": {
+    "udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md": "6750ddb67e4b277b97d99d9690d535814bbc27c5b2ad24f8105f3c76a651c710",
+    "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json": "f78bbd3b372a24b869e2ae8fab4792e4aecc2922fc3134926b3a3f6207cd996d",
+    "udt_operational_asymptote_attachment_2026-10-04/CEILING_EXACT_RESULT.json": "55e09c7abea6757626a59b6656595f850fe8852e29d0f77248fb0ea7cf530da1",
+    "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md": "14b2521f2c434cedde26661c3cca298cb3edc0e56b7a3267cff26a3627c37bf6",
+    "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py": "e63a0ce951edde522dbbc2fd5934d68a596a0f8be0a1e72f1a0c10c14ac732eb",
+    "udt_operational_asymptote_attachment_2026-10-04/review_math/check_exact_certificate.py": "098346ebf5bd10cd6ceef8c34e2869102d602738ddf23fe50ca1fee028498986"
+  },
+  "plan": "SymPy rational arithmetic verifies source bounds, derivative sign identity, nine stored right-endpoint bounds, all interval coverage, omitted-tail positivity argument and positive B bound; nine doubled-q negative controls; no new finite float cases; CPU2GiB1BLAS noGPU/notimeout",
+  "stage": "exposed exact counterexample certificate replay",
+  "utc": "2026-10-05T03:15:59.005035+00:00"
+}

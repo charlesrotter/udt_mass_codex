@@ -1,0 +1,72 @@
+{
+  "all_passed": true,
+  "blas_threads": 1,
+  "case_budget": 18,
+  "cases": 18,
+  "cases_passed": 18,
+  "code_sha256": "a2644fc943243be30997413009e9bf6c494ddb6893dd68dda823cd40e953e157",
+  "cpu_only": true,
+  "elapsed_s": 20.83104658126831,
+  "memory_limit_bytes": 2147483648,
+  "mpmath": "1.3.0",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "precision_checks": [
+    {
+      "R": "10000",
+      "config": "radial_limit",
+      "max_scaled_discrepancy": "3.566648344741837082953294657403969183256e-60",
+      "passed": true
+    },
+    {
+      "R": "1000000",
+      "config": "radial_limit",
+      "max_scaled_discrepancy": "4.214382496792650504319081532525911073837e-60",
+      "passed": true
+    },
+    {
+      "R": "100000000",
+      "config": "radial_limit",
+      "max_scaled_discrepancy": "1.120938373669191436510423746189209840956e-49",
+      "passed": true
+    },
+    {
+      "R": "10000",
+      "config": "regular_nonzero",
+      "max_scaled_discrepancy": "3.133768481277943221380101364881132181981e-61",
+      "passed": true
+    },
+    {
+      "R": "1000000",
+      "config": "regular_nonzero",
+      "max_scaled_discrepancy": "4.105419120187990310937548489756034588966e-60",
+      "passed": true
+    },
+    {
+      "R": "100000000",
+      "config": "regular_nonzero",
+      "max_scaled_discrepancy": "8.935426195892111934287846334791491055404e-51",
+      "passed": true
+    },
+    {
+      "R": "10000",
+      "config": "near_photon_negative",
+      "max_scaled_discrepancy": "5.542360702934223376150456457738869537808e-59",
+      "passed": true
+    },
+    {
+      "R": "1000000",
+      "config": "near_photon_negative",
+      "max_scaled_discrepancy": "5.566211200065081567028484255939238567783e-59",
+      "passed": true
+    },
+    {
+      "R": "100000000",
+      "config": "near_photon_negative",
+      "max_scaled_discrepancy": "5.679877105148506122884227004967918917646e-59",
+      "passed": true
+    }
+  ],
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "raw_sha256": "9c59b4b1e3d6d73da9b327bfe14a6f805fae60dbdfb5b2cd1b9f9e3865599bb0",
+  "wall_or_cpu_timeout": null
+}

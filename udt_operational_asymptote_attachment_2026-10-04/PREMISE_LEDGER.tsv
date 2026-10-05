@@ -1,0 +1,15 @@
+item	type	scope	source
+ordinary clocks and one geometry	owner commitment	proper clocks, causal comparisons, velocity/gravity/positional effects share geometry	udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md
+additional effect	owner commitment	physically matched GR comparison required before claiming additional observational consequence	udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md
+asymptote and correspondence	owner target	no numerical scale, operational distance definition, population or empirical threshold selected	UDT_RESEARCH_ROADMAP.md quoted owner section at SOURCE_FREEZE
+GR role and response	FILTER ONLY; R10 CONDITIONAL	no native Einstein-class admission from method definitions	udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md
+CPR metric and histories	inherited CONDITIONAL data	m>0,H>0,Omega>0,regular circular source/fixed finite-E escaping receiver/strict limiting incidence	udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md with CLARIFICATIONS.md
+endpoint-normalized affine distance	declared standard geometric readout	branchwise, affine-rescaling invariant; endpoint observer dependence remains; no automatic radar/area-distance identity	INITIAL_CANDIDATE.md section1; METHOD_REFERENCES.md
+finite endpoint and simple pole	conditional derived consequence	D_o->1/H on regular limiting branches; eventual from-below simple pole only on stated b_*=0 preparation	INITIAL_CANDIDATE.md sections2-3 with CLARIFICATIONS.md
+global affine ceiling	refuted within conditional family	other allowed preparation approaches1/H from above; not UDT no-go or real source selection	AFFINE_CEILING_COUNTEREXAMPLE.md
+causal no-return	conditional geometric obstruction	late receiver event outside outer horizon cannot send future signal back to original interior source	INITIAL_CANDIDATE.md section4
+static radial radar/slice control	free-and-explored different query	not the original circular geodesic source; ideal relay; no source interaction derived	INITIAL_CANDIDATE.md section4
+boosted endpoint observer	free-and-explored comparison control	changed physical observer, not affine gauge; no fixed-E family membership assumed	INITIAL_CANDIDATE.md section5
+proper-orbital epsilon	supplied conditional tolerance	D_*>=sqrt(a^3/(m epsilon)) follows only with CPR matching and tolerance	INITIAL_CANDIDATE.md section3
+X_max and selected scale	WORKING/OPEN	no equality of affine endpoint, global range or scale derivation adopted	CURRENT_SCIENTIFIC_PREMISES.md
+numerical controls	free-and-explored frozen tests	40/70digits actual finite incidences and different radar protocol; no fit or interval proof	CANDIDATE_FREEZE.json

@@ -1,0 +1,70 @@
+{
+  "B_lower": "8991379/1134000",
+  "J_lower": "341133/100000",
+  "code_sha256": "4b39c31053f55a17ae23de24ffaa595c517eb3feab604f075dee7384c87c2110",
+  "conservative_count_including_each_certificate_and_negative_control": 48,
+  "finite_numeric_cases_so_far": 30,
+  "method": "independent symbolic derivative and rational checking of supplied lower-bound certificate; no parent code execution",
+  "monotonic_derivative": "134864910050035005000*(r - 3)/(2498123813729567081*r**4)",
+  "negative_controls_rejected": 9,
+  "positive_margin": "8991379/12500000",
+  "rational_intervals": 9,
+  "rows": [
+    {
+      "doubled_q_margin_rejected": "-5109276414568033472288206591/1703152180249036615970249525",
+      "left": "3001/1000",
+      "right": "301/100",
+      "valid_margin": "45031544769093905635496/1703152180249036615970249525"
+    },
+    {
+      "doubled_q_margin_rejected": "-403151995627907773081529726949/134389341915687917360875484375",
+      "left": "301/100",
+      "right": "151/50",
+      "valid_margin": "4007529788994750274181544/134389341915687917360875484375"
+    },
+    {
+      "doubled_q_margin_rejected": "-17009409241010592805265480901/5670266413641508656124610000",
+      "left": "151/50",
+      "right": "61/20",
+      "valid_margin": "1389999913933163108349099/22681065654566034624498440000"
+    },
+    {
+      "doubled_q_margin_rejected": "-3488179684637694638111180496/1162837602106523951719859375",
+      "left": "61/20",
+      "right": "31/10",
+      "valid_margin": "333121681877217048397629/4651350408426095806879437500"
+    },
+    {
+      "doubled_q_margin_rejected": "-959014911872687773719415733/319759848157384586368000000",
+      "left": "31/10",
+      "right": "16/5",
+      "valid_margin": "264632599465985384584267/1279039392629538345472000000"
+    },
+    {
+      "doubled_q_margin_rejected": "-642320114001121157864909743/214214117027310377195750000",
+      "left": "16/5",
+      "right": "7/2",
+      "valid_margin": "322237080809973722340257/856856468109241508783000000"
+    },
+    {
+      "doubled_q_margin_rejected": "-117085517963325649915719/39033184589524485640625",
+      "left": "7/2",
+      "right": "4",
+      "valid_margin": "3508951311951751539/39033184589524485640625"
+    },
+    {
+      "doubled_q_margin_rejected": "-74930509630488427217949/24981238137295670810000",
+      "left": "4",
+      "right": "5",
+      "valid_margin": "13204781398585212051/99924952549182683240000"
+    },
+    {
+      "doubled_q_margin_rejected": "-468365929370072181324519/156132738358097942562500",
+      "left": "5",
+      "right": "6",
+      "valid_margin": "32285704221646362981/624530953432391770250000"
+    }
+  ],
+  "source_sha256": "55e09c7abea6757626a59b6656595f850fe8852e29d0f77248fb0ea7cf530da1",
+  "status": "PASS_EXACT_CERTIFICATE"
+}

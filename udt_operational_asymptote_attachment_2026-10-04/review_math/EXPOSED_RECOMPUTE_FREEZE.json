@@ -1,0 +1,18 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_operational_asymptote_attachment_2026-10-04/review_math/recompute_saved.py > udt_operational_asymptote_attachment_2026-10-04/review_math/saved_recompute_stdout.txt 2> udt_operational_asymptote_attachment_2026-10-04/review_math/saved_recompute_stderr.txt",
+  "files": {
+    "udt_operational_asymptote_attachment_2026-10-04/CANDIDATE_FREEZE.json": "fa07ccd6a1b0e912dd9b8e468ff007d47efe83433809c2a375cca9b13b8a3d5a",
+    "udt_operational_asymptote_attachment_2026-10-04/CONSTRUCTION_RESULT.json": "009a25e9e63f7ebdd3b0bbe73c5e4fc03fcad0492bb09b1c664652943f047f67",
+    "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md": "d984271a263fb7b1e1268b27e95512863f29b847820efc08fe6c67f08e88ec69",
+    "udt_operational_asymptote_attachment_2026-10-04/NUMERICAL_FREEZE.md": "ec467503718d23ca7ace8928a65344cf1022343cc04aa0b4aeecdf0a1bc0ad14",
+    "udt_operational_asymptote_attachment_2026-10-04/check_attachment.py": "de8dc038aa75b1510494e30157cfdcc3945bd7b5015278ffe5ec95eaafebcc30",
+    "udt_operational_asymptote_attachment_2026-10-04/checks/parent_initial.json": "af10131963ac3eb6ba57d6c05c1bae0a1e711f08df0a312c43e41dd98c6b7207",
+    "udt_operational_asymptote_attachment_2026-10-04/checks/parent_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_operational_asymptote_attachment_2026-10-04/review_math/recompute_saved.py": "c2b0a5e3633b00ec384b2eb6a2b26cf99256b837238ebab7f0d89c0ffb5e5862"
+  },
+  "plan": "12 additional finite cases: four saved parent incidences at60/100digits plus two saved static radar intervals at60/100digits; use saved70digit inputs; no call to parent code; original incidence residuals and direct log-radius affine quadrature",
+  "resources": "CPU2GiB1BLAS; noGPU/no wall or CPU timeout; total reviewer cases30 of100 after this run",
+  "stage": "exposed review; source-first seal completed before this exposure",
+  "tolerance": "incidence residual and scaled saved-value errors <1e-50; radar/slice controls <1e-45; preserve failures with no automatic retry",
+  "utc": "2026-10-05T03:14:40.789283+00:00"
+}

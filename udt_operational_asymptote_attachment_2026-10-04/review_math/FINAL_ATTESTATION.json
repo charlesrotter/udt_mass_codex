@@ -1,24 +1,13 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-05T03:34:10.088590+00:00",
-  "scope": "OAA1 conditional endpoint-affine distance attachment: D_o tends1/H with received-clock pole on stated eventual b_star0 tail; exact counterexample to universal affine ceiling; causal late-return obstruction and conditional circular-source radar bound. Native distance/metric and observational attachment OPEN. No extra matched-GR prediction, X_max selection, fit or physical adoption",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts, preliminary formula exposure disclosed. Independent affine-limit/incidence/causal arguments and saved-quantity implementations; reviewer-discovered counterexample independently checked with exact rational bounds and negative controls. Initial early-branch failure, source-preserving tail clarification and reviewer resource-enforcement repair retained. No human, different-model, interval, full-corpus or empirical confirmation",
-  "freeze": "udt_operational_asymptote_attachment_2026-10-04/INTEGRATION_FREEZE.json",
+  "context": "/root/oaa_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-05T03:33:50.709489+00:00",
+  "scope": "Actual source-first and exposed mathematics plus final central integration fidelity and all14284 exact file bindings; conditional endpoint-affine clock pole, counterexample and causal/radar limits only. Native physical distance/metric, empirical admission and pending normal/full406/banking closure are not certified.",
+  "exposure": "Actual separate same-model source-first context, subsequently exposed candidate/code/results and final integration; independent argument and implementation, shared sources/libraries, no different-model/human or full-corpus semantic reproof claim. See sealed prior stages and final report.",
+  "freeze_path": "udt_operational_asymptote_attachment_2026-10-04/INTEGRATION_FREEZE.json",
   "freeze_sha256": "b38dd78b3930f8539ff791b904f44ed67c914eacf251cbbef009e6b38bbb5cd2",
-  "prior_review_record": "udt_operational_asymptote_attachment_2026-10-04/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "a5d8a9c3d30d5155a73daf4a19879143c73b564ded60f4905827c624b7209519",
-  "reviewers": [
-    {
-      "context": "/root/oaa_math",
-      "attestation": "udt_operational_asymptote_attachment_2026-10-04/review_math/FINAL_ATTESTATION.json",
-      "sha256": "2f9954f291c3df8ac6e390a5325c0beb35f8bae90919ab47a1e63392a5a59b5c"
-    },
-    {
-      "context": "/root/oaa_fidelity",
-      "attestation": "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "ff3a2e19898717b5b8b67bc3cc8670b6d58ad6a69ea085df14bd5ab5d826cb31"
-    }
-  ],
+  "report_path": "udt_operational_asymptote_attachment_2026-10-04/review_math/FINAL_REVIEW.md",
+  "report_sha256": "f86be4202ea9d2fce7187a2d4504a3495523b0b1942b0f523318ffca7a5d0d83",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",

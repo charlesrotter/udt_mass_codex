@@ -1,0 +1,2985 @@
+{
+  "metadata": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "mpmath": "1.3.0",
+    "code_sha256": "2f73bcb3e21e840244b6286d1a04d0edc456a886a8068707879dee3ab8c6e404",
+    "blas_env": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "cap_bytes": 2147483648,
+    "wall_cpu_timeout": false
+  },
+  "finite_case_count": 56,
+  "total_including_initial_failure": 69,
+  "checks": [
+    {
+      "name": "incidence_45_8.0_60.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_60.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_60.0",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_59.9994",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_59.9994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_59.9994",
+      "actual": "5.47382212626881668329581868472623488781352321e-48",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_59.9994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_59.9994",
+      "actual": "2.62743462060903200798199296866859274615049114e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_59.9994",
+      "actual": "4.37905770101505334663665494778098791025081857e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_60.0006",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_60.0006",
+      "actual": "2.73691106313440834164790934236311744390676161e-48",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_60.0006",
+      "actual": "4.37905770101505334663665494778098791025081857e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_8.0_60.0",
+      "actual": "0.0000000000197531693111532439577195838065776341220116213",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_600.0",
+      "actual": "4.37905770101505334663665494778098791025081857e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_600.0",
+      "actual": "6.6819117752304891153513411678787046970379922e-52",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_599.994",
+      "actual": "2.18952885050752667331832747389049395512540928e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_599.994",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_600.006",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_600.006",
+      "actual": "6.6819117752304891153513411678787046970379922e-52",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_600.006",
+      "actual": "1.09476442525376333665916373694524697756270464e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_8.0_600.0",
+      "actual": "0.0000000000627453158888111050590697990113583911159683702",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_6000.0",
+      "actual": "1.7943955265006858722179355063148459635137023e-41",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_6000.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_6000.0",
+      "actual": "1.3684555315672041708239546711815587219533808e-48",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_5999.94",
+      "actual": "1.79467633357576346251378858181337241936344713e-41",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_5999.94",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_5999.94",
+      "actual": "3.50324616081204267730932395822479032820065485e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_6000.06",
+      "actual": "1.79411499311671459536291659560725374397570185e-41",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_6000.06",
+      "actual": "8.15663058499815565838786763657068444462645532e-56",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_8.0_6000.0",
+      "actual": "0.0000000000661943640801347477658028998042028758633300033",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_60000.0",
+      "actual": "1.710569414459005213529943338976948402441726e-49",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_60000.0",
+      "actual": "4.97841222228891336571525124302409939247220173e-60",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_59999.4",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_59999.4",
+      "actual": "9.95682444457782673143050248604819878494440347e-60",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_59999.4",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_8.0_60000.6",
+      "actual": "1.710569414459005213529943338976948402441726e-49",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_8.0_60000.6",
+      "actual": "9.95682444457782673143050248604819878494440347e-60",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_8.0_60000.0",
+      "actual": "0.0000000000666185383980090242293972750968326548851960224",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "limit_final_45_8.0",
+      "actual": "0.00113235340451310416177131693138356790006053821",
+      "threshold": "0.005",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_1_45_8.0",
+      "actual": "0.100779941761358902736882045887425047034812529",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_2_45_8.0",
+      "actual": "0.107919109912619162554831391065617170091364763",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_600.0",
+      "actual": "6.56858655152258001995498242167148186537622785e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_600.0",
+      "actual": "2.1382117680737565169124291737211855030521575e-50",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_600.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_600.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_600.0",
+      "actual": "2.18952885050752667331832747389049395512540928e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_599.994",
+      "actual": "6.56858655152258001995498242167148186537622785e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_599.994",
+      "actual": "6.41463530422126955073728752116355650915647251e-50",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_599.994",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_599.994",
+      "actual": "2.18952885050752667331832747389049395512540928e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_600.006",
+      "actual": "2.18952885050752667331832747389049395512540928e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_600.006",
+      "actual": "2.1382117680737565169124291737211855030521575e-50",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_600.006",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_600.006",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_10.0_600.0",
+      "actual": "0.0000000000691834052019720432423723843308988274349912748",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_6000.0",
+      "actual": "1.57089461780752448570608612864685545067239352e-39",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_6000.0",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_6000.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_6000.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_5999.94",
+      "actual": "1.57108440616828647811812936127229227868842379e-39",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_5999.94",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_5999.94",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_6000.06",
+      "actual": "1.57070487323733950344457636238796810046624235e-39",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_6000.06",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_6000.06",
+      "actual": "2.08809742975952784854729411496209521782437256e-53",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_6000.06",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_10.0_6000.0",
+      "actual": "0.0000000000667469576800500411905186436171098316507047681",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_60000.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_60000.0",
+      "actual": "1.63132611699963113167757352731413688892529106e-55",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_60000.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_60000.0",
+      "actual": "1.710569414459005213529943338976948402441726e-49",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_59999.4",
+      "actual": "2.18952885050752667331832747389049395512540928e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_59999.4",
+      "actual": "8.75811540203010669327330989556197582050163714e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_59999.4",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_59999.4",
+      "actual": "1.710569414459005213529943338976948402441726e-49",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_45_10.0_60000.6",
+      "actual": "2.18952885050752667331832747389049395512540928e-47",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_45_10.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_45_10.0_60000.6",
+      "actual": "1.63132611699963113167757352731413688892529106e-55",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_45_10.0_60000.6",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_45_10.0_60000.6",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_45_10.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_45_10.0_60000.0",
+      "actual": "0.0000000000666696994809050162599021365834707886362109679",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "limit_final_45_10.0",
+      "actual": "0.00182675256587056400654113769968699849224219047",
+      "threshold": "0.005",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_1_45_10.0",
+      "actual": "0.101598655028387371410417151594145377526689493",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_2_45_10.0",
+      "actual": "0.117168849106643419252466891571359102316392443",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "boost_45_-1.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "boost_45_0.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "boost_45_0.5",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "boost_45_1.0",
+      "actual": "1.75162308040602133865466197911239516410032743e-46",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "radar_increases_45_1",
+      "actual": "-64.4335068581024671149996408455185669816799665",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "slice_bounded_45_1",
+      "actual": "-20.8310654980662202725327486918778024025374183",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "radar_increases_45_2",
+      "actual": "-52.0294463659341050661446356138955890802103621",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "slice_bounded_45_2",
+      "actual": "-6.54256115614472729471878772588378041016078167",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "radar_increases_45_3",
+      "actual": "-51.2040354756066176184209751302351408732687272",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "slice_bounded_45_3",
+      "actual": "-2.06755423089717423629160049059883858123952489",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_60.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_60.0",
+      "actual": "6.90893484407555570030908149024031965689280029154902510801896277613487344253e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_59.9994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_59.9994",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_59.9994",
+      "actual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_59.9994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_59.9994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_59.9994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_60.0006",
+      "actual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_60.0006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_8.0_60.0",
+      "actual": "0.0000000000197531693111532439577195838065881761454474283623271187206128943328262332872",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_600.0",
+      "actual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_600.0",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_600.0",
+      "actual": "2.10843958864610464486971481025400380154199227647370151001555260502162885819e-81",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_600.0",
+      "actual": "1.72723371101888892507727037256007991422320007288725627700474069403371836063e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_599.994",
+      "actual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_599.994",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_599.994",
+      "actual": "1.0542197943230523224348574051270019007709961382368507550077763025108144291e-81",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_600.006",
+      "actual": "1.0542197943230523224348574051270019007709961382368507550077763025108144291e-81",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_600.006",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_600.006",
+      "actual": "1.72723371101888892507727037256007991422320007288725627700474069403371836063e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_8.0_600.0",
+      "actual": "0.0000000000627453158888111050590697990113540317814056801430945602872435077196880650411",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_6000.0",
+      "actual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_6000.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_6000.0",
+      "actual": "1.28688939736700722953473804336792224215209489530865570679660193177589651989e-85",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_6000.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_6000.0",
+      "actual": "2.15904213877361115634658796570009989277900009110907034625592586754214795079e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_5999.94",
+      "actual": "1.28688939736700722953473804336792224215209489530865570679660193177589651989e-85",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_6000.06",
+      "actual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_6000.06",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_6000.06",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_6000.06",
+      "actual": "2.15904213877361115634658796570009989277900009110907034625592586754214795079e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_8.0_6000.0",
+      "actual": "0.0000000000661943640801347477658028998042937040589511501490569843199869713094907328405",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_59999.4",
+      "actual": "1.34940133673350697271661747856256243298687505694316896640995366721384246924e-79",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_8.0_60000.6",
+      "actual": "2.69880267346701394543323495712512486597375011388633793281990733442768493849e-79",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_8.0_60000.6",
+      "actual": "4.14536090644533342018544889414419179413568017492941506481137766568092406552e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_8.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_8.0_60000.6",
+      "actual": "1.34940133673350697271661747856256243298687505694316896640995366721384246924e-79",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_8.0_60000.0",
+      "actual": "0.0000000000666185383980090242293972750968342615489271583755950748023139150833098759008",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "limit_final_75_8.0",
+      "actual": "0.0011323534045131041617713169313835679000605382649664857892179736074950044517",
+      "threshold": "0.005",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_1_75_8.0",
+      "actual": "0.10077994176135890273688204588742504703481253562247771853784870481165872443",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_2_75_8.0",
+      "actual": "0.107919109912619162554831391065617170091364760803079483111663435671883916208",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_600.0",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_600.0",
+      "actual": "3.37350334183376743179154369640640608246718764235792241602488416803460617311e-80",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_600.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_600.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_599.994",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_599.994",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_600.006",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_600.006",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_600.006",
+      "actual": "3.37350334183376743179154369640640608246718764235792241602488416803460617311e-80",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_600.006",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_600.006",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_600.006",
+      "actual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_10.0_600.0",
+      "actual": "0.0000000000691834052019720432423723843308993238003185344181446484846938148877009899816",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_6000.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_6000.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_6000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_5999.94",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_5999.94",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_5999.94",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_6000.06",
+      "actual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_6000.06",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_6000.06",
+      "actual": "3.29443685725953850760892939102188093990936293199015860939930094534629509093e-83",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_6000.06",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_6000.06",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_6000.06",
+      "actual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_10.0_6000.0",
+      "actual": "0.0000000000667469576800500411905186436463255871661784372533251060665081689778816332493",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_60000.0",
+      "actual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_60000.0",
+      "actual": "2.57377879473401445906947608673584448430418979061731141359320386355179303979e-85",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_60000.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_60000.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_59999.4",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_59999.4",
+      "actual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_59999.4",
+      "actual": "2.57377879473401445906947608673584448430418979061731141359320386355179303979e-85",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_59999.4",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_59999.4",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_59999.4",
+      "actual": "2.69880267346701394543323495712512486597375011388633793281990733442768493849e-79",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "incidence_75_10.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_norm_75_10.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "ray_norm_75_10.0_60000.6",
+      "actual": "2.57377879473401445906947608673584448430418979061731141359320386355179303979e-85",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_norm_75_10.0_60000.6",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "emitter_frequency_75_10.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "receiver_frequency_75_10.0_60000.6",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "arrival_derivative_75_10.0_60000.0",
+      "actual": "0.0000000000666696994809050162599021365834888289935131622255034181915631135715389956738",
+      "threshold": "0.00000003",
+      "passed": true
+    },
+    {
+      "name": "limit_final_75_10.0",
+      "actual": "0.00182675256587056400654113769968699849224219044450661644337476089995488519543",
+      "threshold": "0.005",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_1_75_10.0",
+      "actual": "0.101598655028387371410417151594145377526693449232520844722386893982052651979",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "limit_shrinks_2_75_10.0",
+      "actual": "0.117168849106643419252466891571359102316387879072601865352565420748528668449",
+      "threshold": "1.0",
+      "passed": true
+    },
+    {
+      "name": "boost_75_-1.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "boost_75_0.0",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "boost_75_0.5",
+      "actual": "0.0",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "boost_75_1.0",
+      "actual": "2.76357393763022228012363259609612786275712011661961004320758511045394937701e-76",
+      "threshold": "1.0e-30",
+      "passed": true
+    },
+    {
+      "name": "radar_increases_75_1",
+      "actual": "-64.4335068581024671149996408455185669816799665002727255077240618019595897318",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "slice_bounded_75_1",
+      "actual": "-20.8310654980662202725327486918778024068424208957119320030900411045100764019",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "radar_increases_75_2",
+      "actual": "-52.029446365934105066144635613895589080210362184212805739859066544926465152",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "slice_bounded_75_2",
+      "actual": "-6.54256115614472729471878772588378041446578424135746473785242847065550591647",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "radar_increases_75_3",
+      "actual": "-51.2040354756066176184209751302351408732687266585056970717123958581582805817",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "slice_bounded_75_3",
+      "actual": "-2.06755423089717423629160049059883858554452749143211463272983818751813943922",
+      "threshold": "0.0",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60.0_b",
+      "actual": "9.02608926285539567072831522110464539399609342884421105455292881201711914541e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60.0_te",
+      "actual": "1.85333688744861795099987344157546502583182632725743294855046302159975707465e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60.0_affine",
+      "actual": "7.44857442149078848829232737825112096568299553136662798933007271506360164893e-48",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60.0_d_o",
+      "actual": "7.50775045249360626596952395058452616435630638552742404978093056111360992366e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60.0_d_e",
+      "actual": "3.30327881174044843541268687921082947627792364945654437736148627118623176518e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60.0_Z",
+      "actual": "1.14151835809532401338689842072760102747027225670553470471290742515949940639e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_600.0_b",
+      "actual": "1.72627221022424863255137793450451837446463736143423124202126156067434648641e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_600.0_te",
+      "actual": "3.54075872917545512404870082779205138067345858058444465446534627068034723312e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_600.0_affine",
+      "actual": "4.81831686344676306248450200280321502020434516692905741221037067830600812241e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_600.0_d_o",
+      "actual": "4.21021385104110733676193378184233689092514627098971522935262670595582941532e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_600.0_d_e",
+      "actual": "8.22591084213653760828341923640453406533170170477106528411283015346921306296e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_600.0_Z",
+      "actual": "2.249813250603861791861425555463651815464502299878294436349391953131316126e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_6000.0_b",
+      "actual": "1.44476208628556077743929845148627261618027475523623136216513608340106494211e-40",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_6000.0_te",
+      "actual": "2.36689741345005782882009222272021233392258462071529806225663784300531463296e-42",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_6000.0_affine",
+      "actual": "7.28936490045294213775324545860135670270381408508657980879270293147170036717e-45",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_6000.0_d_o",
+      "actual": "2.27612881471739838447587335191374023621234364601541193762171576561708219294e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_6000.0_d_e",
+      "actual": "5.73069808455603616346860776314180111607865623826660046912844430533462058016e-42",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_6000.0_Z",
+      "actual": "5.73087159235356921282376356135408610988037760800472823108432059754847022903e-42",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60000.0_b",
+      "actual": "1.02978164242675256672587444804685961649801984584484042299255452804126353346e-48",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60000.0_te",
+      "actual": "3.85661207861521643235449581510448102728835262002706009042263371713875963735e-48",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60000.0_affine",
+      "actual": "1.59956510577575529675052395069511705842583120680169735381251105780975702404e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60000.0_d_o",
+      "actual": "5.22680056823999496200569664755523124621803943037680058296365771521042447744e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60000.0_d_e",
+      "actual": "1.28956370024426486848607610009784889940720186303290240675127689435533979727e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_8_60000.0_Z",
+      "actual": "1.45125054703464493410340108989683737597475257194884134264270905626382305011e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_600.0_b",
+      "actual": "1.28499902663476497375388721386539078382613467184302762355685310760447693611e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_600.0_te",
+      "actual": "9.73703835184565552110145654570573415795930456005279374310885828342138221589e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_600.0_affine",
+      "actual": "4.49154225030205534069344843390560446921265049151569459423935023775814024856e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_600.0_d_o",
+      "actual": "1.72148783435237010621955102425088054355668129919055228247521952344374058434e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_600.0_d_e",
+      "actual": "1.44321708440381430068621550722174344297400958832836486709277557575462987729e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_600.0_Z",
+      "actual": "2.38954488958717919784929408613015506799951733513597341153123140068230631506e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_6000.0_b",
+      "actual": "6.5638786357892268130138256599629969791600763758215930589531812952826470412e-39",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_6000.0_te",
+      "actual": "2.41938404373129412682156785006676737006754669461230108424198578981659405902e-39",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_6000.0_affine",
+      "actual": "3.5383910559179995249590977384448159590825913792538410543323045145470547691e-42",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_6000.0_d_o",
+      "actual": "7.13259578174212181620707630907703313167649540226753045016956114530200950135e-43",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_6000.0_d_e",
+      "actual": "5.41481399554154719929543674699111674995196084500445031521383512608784378652e-40",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_6000.0_Z",
+      "actual": "5.42194558791352282388429999513299030812495593869424438772288182420049994864e-40",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_60000.0_b",
+      "actual": "3.1492299251098959321108997846530790716850967747158870860923160649533342063e-49",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_60000.0_te",
+      "actual": "2.08048938202533472261256674454174306803780976997605799575973222584378061472e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_60000.0_affine",
+      "actual": "1.06479103027639612379094525805738969846851366963101190087157558604508504746e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_60000.0_d_o",
+      "actual": "4.00431586519944818809145033301192094395459106839621926402840038437981154124e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_60000.0_d_e",
+      "actual": "5.57762315872933282886366842272796666297312169283759644030336159321191165684e-47",
+      "threshold": "1.0e-25",
+      "passed": true
+    },
+    {
+      "name": "precision_10_60000.0_Z",
+      "actual": "1.03559706437108119382375760661081810738280192464754559586150580701763541498e-46",
+      "threshold": "1.0e-25",
+      "passed": true
+    }
+  ],
+  "rows": [
+    {
+      "kind": "incidence",
+      "case": 1,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60.0",
+      "b": "8.93452701977477465762092148739485603443868463",
+      "te": "-34.2120177719905478219402228314200390016191354",
+      "affine": "56.9725503822398579774414484206723201270978084",
+      "d_o": "22.9261857335156052707065126478098753147084223",
+      "d_e": "46.6905380814782900854849559937031710614021418",
+      "Z": "2.03655935724283043549501043412566419164928429",
+      "Hd_o": "0.458523714670312105414130252956197506294168446",
+      "incidence_residual": "1.75162308040602133865466197911239516410032743e-46",
+      "iterations": 10
+    },
+    {
+      "kind": "incidence",
+      "case": 2,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "59.9994",
+      "b": "8.93455638126210976993705852966124897426725428",
+      "te": "-34.2122871870354621181145948889342935579568702",
+      "affine": "56.9720315506906379815465600490914190267673814",
+      "d_o": "22.9260815527708830008478829684518153946405286",
+      "d_e": "46.6900294971786551420716028029393134296063736",
+      "Z": "2.03654642812415640491102165255808381204516962",
+      "Hd_o": "0.458521631055417660016957659369036307892810573",
+      "incidence_residual": "1.75162308040602133865466197911239516410032743e-46",
+      "iterations": 10
+    },
+    {
+      "kind": "incidence",
+      "case": 3,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60.0006",
+      "b": "8.93449765774365179255219681846388680104617157",
+      "te": "-34.2117483606601848947498627425045819373821396",
+      "affine": "56.9730692152076296090046551121791065141124335",
+      "d_o": "22.9262899137161720061267531225098817607461458",
+      "d_e": "46.69104667000366664564107517166448479261265",
+      "Z": "2.03657228647665712634194669353564549652632003",
+      "Hd_o": "0.458525798274323440122535062450197635214922915",
+      "incidence_residual": "1.75162308040602133865466197911239516410032743e-46",
+      "iterations": 10
+    },
+    {
+      "kind": "incidence",
+      "case": 4,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "600.0",
+      "b": "1.29676640287157512190734971927234403692732328",
+      "te": "-4.07164288558173142924173928905739783103120882",
+      "affine": "591.891932129094199690954310446390828810713181",
+      "d_o": "44.794295202461187458707474223738710736264649",
+      "d_e": "710.428680150060984697170093978627358241199679",
+      "Z": "15.8598026141290205500476260080534937338630697",
+      "Hd_o": "0.895885904049223749174149484474774214725292981",
+      "incidence_residual": "4.37905770101505334663665494778098791025081857e-47",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 5,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "599.994",
+      "b": "1.29677917392624005629446545220017273043568946",
+      "te": "-4.07168270262092410168585393274991731666337226",
+      "affine": "591.885932012827967967382909707755540040923384",
+      "d_o": "44.7942474802833305996239926348312793978282921",
+      "d_e": "710.42110159037856802332977705598724313372444",
+      "Z": "15.8596503245886215697408392646694695932143788",
+      "Hd_o": "0.895884949605666611992479852696625587956565842",
+      "incidence_residual": "2.18952885050752667331832747389049395512540928e-47",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 6,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "600.006",
+      "b": "1.29675363206782553115448049295702597590582579",
+      "te": "-4.07160306932180736911547165789600723101313793",
+      "affine": "591.897932245376878857854135926755498555768241",
+      "d_o": "44.7943429237661769926011045806796814790223641",
+      "d_e": "710.436258709999398371472354634131289555188918",
+      "Z": "15.8599549036596963460853493442835651208895394",
+      "Hd_o": "0.895886858475323539852022091613593629580447282",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 7,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "6000.0",
+      "b": "0.131221378899174801516378625126344358671548499",
+      "te": "-0.415667728977335315610818163193941572459064966",
+      "affine": "5991.98030506711654996763207958093545157767094",
+      "d_o": "49.4382049717817600047881457116614566847523228",
+      "d_e": "7540.12650648719257310932755933958808862497539",
+      "Z": "152.516186839528881287290371737024211103037283",
+      "Hd_o": "0.988764099435635200095762914233229133695046455",
+      "incidence_residual": "1.7943955265006858722179355063148459635137023e-41",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 8,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "5999.94",
+      "b": "0.131222689656081058259934741694412429157384369",
+      "te": "-0.415671875764538616689153855537746056778272619",
+      "affine": "5991.92030488027346537479404246842512892490606",
+      "d_o": "49.4381994021834314444774935665622034259232402",
+      "d_e": "7540.05061255191734900372698431652615643356677",
+      "Z": "152.514668894250060919410182186020338897593808",
+      "Hd_o": "0.988763988043668628889549871331244068518464804",
+      "incidence_residual": "1.79467633357576346251378858181337241936344713e-41",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 9,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "6000.06",
+      "b": "0.131220068168453483299066007584965920286240746",
+      "te": "-0.415663582272869451687257481477227471759186518",
+      "affine": "5992.04030525395609937507054673103401625419346",
+      "d_o": "49.438210541269659705058343373018156507729557",
+      "d_e": "7540.20240042248279561584495269830599782672342",
+      "Z": "152.517704784806663262019269656131919240728297",
+      "Hd_o": "0.988764210825393194101166867460363130154591141",
+      "incidence_residual": "1.79411499311671459536291659560725374397570185e-41",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 10,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60000.0",
+      "b": "0.0131351500107496781853808849359851022101758581",
+      "te": "-0.0416566248004573569140201226772535633668165562",
+      "affine": "59991.9979393240878661264486081370888376887992",
+      "d_o": "49.9433823297743447919114341534308216049969731",
+      "d_e": "75845.260132756562169310784620882132262832228",
+      "Z": "1518.62482264322941320648044216971086672244033",
+      "Hd_o": "0.998867646595486895838228683068616432099939462",
+      "incidence_residual": "1.710569414459005213529943338976948402441726e-49",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 11,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "59999.4",
+      "b": "0.0131352813493465960780607078725775832290585572",
+      "te": "-0.0416570412705091204372915046970658366691950215",
+      "affine": "59991.3979393035824511328476115972197970292641",
+      "d_o": "49.9433817640816417652324779457579159035307466",
+      "d_e": "75844.501186187110330753302784658081598070049",
+      "Z": "1518.60964370524615800308107662612073516666567",
+      "Hd_o": "0.998867635281632835304649558915158318070614932",
+      "incidence_residual": "0.0",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 12,
+      "dps": 45,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60000.6",
+      "b": "0.0131350186747792211019611441553493765410916102",
+      "te": "-0.041656208338732905127703873496763348990150575",
+      "affine": "59992.5979393445928730462729584446345371733095",
+      "d_o": "49.943382895455743864336153566292113484429152",
+      "d_e": "75846.0190793260153919503938422319851451681432",
+      "Z": "1518.64000158121256413730781714203533207684381",
+      "Hd_o": "0.998867657909114877286723071325842269688583039",
+      "incidence_residual": "1.710569414459005213529943338976948402441726e-49",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 13,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "600.0",
+      "b": "6.92820578793448669358233545426850952491374097",
+      "te": "-17.8707694161178590146051933566384157679296403",
+      "affine": "590.952486719273870632936550674743709313538415",
+      "d_o": "84.6545508937564897309553548268677371633141638",
+      "d_e": "559.516719702785392360379786391557213886523965",
+      "Z": "6.60941099793905253354015344518413717007378071",
+      "Hd_o": "0.846545508937564897309553548268677371633141638",
+      "incidence_residual": "6.56858655152258001995498242167148186537622785e-47",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 14,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "599.994",
+      "b": "6.92824955528019114007656059322462503240823392",
+      "te": "-17.8709502469648854672525292364299324557118073",
+      "affine": "590.946516694344608580187273227590039620696503",
+      "d_o": "84.6544245127370312032580057179880185444403369",
+      "d_e": "559.5101398462949770866163633947000231150456",
+      "Z": "6.60934313908319779896530341298616574578118876",
+      "Hd_o": "0.846544245127370312032580057179880185444403369",
+      "incidence_residual": "6.56858655152258001995498242167148186537622785e-47",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 15,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "600.006",
+      "b": "6.92816202130766439911647597749906020453315527",
+      "te": "-17.8705885889354440752898260993300638540383968",
+      "affine": "590.958456745040834477282973564791780608529667",
+      "d_o": "84.6546772727436633299070738208619330638592043",
+      "d_e": "559.523299563574129231560242865265109861759189",
+      "Z": "6.6094788568017411858518703925802473585865953",
+      "Hd_o": "0.846546772727436633299070738208619330638592043",
+      "incidence_residual": "2.18952885050752667331832747389049395512540928e-47",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 16,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "6000.0",
+      "b": "2.52490490731391207269045236192832761433737981",
+      "te": "-1.77376665161154851014839715357785560126394347",
+      "affine": "5988.38140253649025328543561311037018436142095",
+      "d_o": "98.2019913891968780254018385781783664612179203",
+      "d_e": "6615.32572287546338640343720352848988311130726",
+      "Z": "67.364476313493679729727335434246344372735325",
+      "Hd_o": "0.982019913891968780254018385781783664612179203",
+      "incidence_residual": "1.57089461780752448570608612864685545067239352e-39",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 17,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "5999.94",
+      "b": "2.52491013866455926922645436379125127955748082",
+      "te": "-1.77378439450180984894575310101481830551185747",
+      "affine": "5988.32141495906190955445345300507590769406383",
+      "d_o": "98.2019737256145180713747855051602489970308405",
+      "d_e": "6615.25833170335682778055309116548046665513067",
+      "Z": "67.3638021796487120858490952140731565448983127",
+      "Hd_o": "0.982019737256145180713747855051602489970308405",
+      "incidence_residual": "1.57108440616828647811812936127229227868842379e-39",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 18,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "6000.06",
+      "b": "2.524899676067499951068733225414980057816495",
+      "te": "-1.7737489090762702179350874045599982246052981",
+      "affine": "5988.44139011392982955733899849135897416788391",
+      "d_o": "98.2020090524322441393151919296375772968298864",
+      "d_e": "6615.39311404770521588763360193175371870446532",
+      "Z": "67.3651504473355448476745348526024304358783021",
+      "Hd_o": "0.982020090524322441393151919296375772968298864",
+      "incidence_residual": "1.57070487323733950344457636238796810046624235e-39",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 19,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "60000.0",
+      "b": "2.05263586781837511672939362098752706549910116",
+      "te": "-0.177342743700210298331054538907195935731375701",
+      "affine": "59977.5572336128993931310578189328167970457837",
+      "d_o": "99.817324743412943599345886230031300150775781",
+      "d_e": "67272.4797305291775066663234906535385096045153",
+      "Z": "673.95594806269903910755368810323602327584884",
+      "Hd_o": "0.99817324743412943599345886230031300150775781",
+      "incidence_residual": "0.0",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 20,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "59999.4",
+      "b": "2.05263639403658796606222004951280636013565158",
+      "te": "-0.177344517170071788129633741039737656220236647",
+      "affine": "59976.957353595230564091824958083114258393165",
+      "d_o": "99.8173229198633125842831650895750192876247613",
+      "d_e": "67271.8057569059790177734378112089172469661281",
+      "Z": "673.949208304394579463251471058202454681339981",
+      "Hd_o": "0.998173229198633125842831650895750192876247613",
+      "incidence_residual": "2.18952885050752667331832747389049395512540928e-47",
+      "iterations": 4
+    },
+    {
+      "kind": "incidence",
+      "case": 21,
+      "dps": 45,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "60000.6",
+      "b": "2.05263534161068357717654133334140217108275635",
+      "te": "-0.177340970265818374250055625524733308865613443",
+      "affine": "59978.1571136305686154481217355860966471769269",
+      "d_o": "99.8173265669261683469727236204273535768176433",
+      "d_e": "67273.1537041523867207981787120428623548591551",
+      "Z": "673.962687821003164376592450536592255784858266",
+      "Hd_o": "0.998173265669261683469727236204273535768176433",
+      "incidence_residual": "2.18952885050752667331832747389049395512540928e-47",
+      "iterations": 4
+    },
+    {
+      "kind": "boost",
+      "case": 22,
+      "dps": 45,
+      "eta": "-1.0",
+      "d_o": "8.15484548537713570608086241405798749327174128",
+      "Z": "0.367879441171442321595523770161460867445811131"
+    },
+    {
+      "kind": "boost",
+      "case": 23,
+      "dps": 45,
+      "eta": "0.0",
+      "d_o": "3.0",
+      "Z": "1.0"
+    },
+    {
+      "kind": "boost",
+      "case": 24,
+      "dps": 45,
+      "eta": "0.5",
+      "d_o": "1.81959197913790027081139860497354136032575441",
+      "Z": "1.6487212707001281468486507878141635716537761"
+    },
+    {
+      "kind": "boost",
+      "case": 25,
+      "dps": 45,
+      "eta": "1.0",
+      "d_o": "1.10363832351432696478657131048438260233743339",
+      "Z": "2.71828182845904523536028747135266249775724709"
+    },
+    {
+      "kind": "radar_control",
+      "case": 26,
+      "dps": 45,
+      "R": "44.8714579991259698879655167524504435207655508",
+      "rc": "48.9682866656955220977394630582782705786283898",
+      "radar": "64.4335068581024671149996408455185669816799665",
+      "spatial": "51.3844567412216170863366412302977945601960372",
+      "truncated_slice_endpoint": "72.2155222392878373588693899221755969627334555"
+    },
+    {
+      "kind": "radar_control",
+      "case": 27,
+      "dps": 45,
+      "R": "48.5586037990385668767620684276954878728421059",
+      "rc": "48.9682866656955220977394630582782705786283898",
+      "radar": "116.462953224036572181144276459414156061890329",
+      "spatial": "65.6729610831431100641506021962918165525726738",
+      "truncated_slice_endpoint": "72.2155222392878373588693899221755969627334555"
+    },
+    {
+      "kind": "radar_control",
+      "case": 28,
+      "dps": 45,
+      "R": "48.9273183790298265756417235952199923080497614",
+      "rc": "48.9682866656955220977394630582782705786283898",
+      "radar": "167.666988699643189799565251589649296935159056",
+      "spatial": "70.1479680083906631225777894315767583814939306",
+      "truncated_slice_endpoint": "72.2155222392878373588693899221755969627334555"
+    },
+    {
+      "kind": "incidence",
+      "case": 29,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60.0",
+      "b": "8.93452701977477465762092148739485603443868463551072630863913768961893734401",
+      "te": "-34.2120177719905478219402228314200390016191353618605891000825117163479739761",
+      "affine": "56.972550382239857977441448420672320127097808389974333602166923385523757663",
+      "d_o": "22.9261857335156052707065126478098753147084223146041080135435069174595507688",
+      "d_e": "46.6905380814782900854849559937031710614021417558572303132970197696312044161",
+      "Z": "2.03655935724283043549501043412566419164928429363535805110254889414860698774",
+      "Hd_o": "0.458523714670312105414130252956197506294168446292082160270870138349191015376",
+      "incidence_residual": "0.0",
+      "iterations": 11
+    },
+    {
+      "kind": "incidence",
+      "case": 30,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "59.9994",
+      "b": "8.93455638126210976993705852966124897426725427874611251617043845015575428403",
+      "te": "-34.21228718703546211811459488893429355795687021496765542656849343692566009",
+      "affine": "56.9720315506906379815465600490914190267673814114548298302529551299861255307",
+      "d_o": "22.9260815527708830008478829684518153946405286477940831653774908841348878008",
+      "d_e": "46.6900294971786551420716028029393134296063735757561965007591685277428390639",
+      "Z": "2.03654642812415640491102165255808381204516962371718926369713816079203047406",
+      "Hd_o": "0.458521631055417660016957659369036307892810572955881663307549817682697756017",
+      "incidence_residual": "0.0",
+      "iterations": 11
+    },
+    {
+      "kind": "incidence",
+      "case": 31,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60.0006",
+      "b": "8.93449765774365179255219681846388680104617157385659505841044895758749817904",
+      "te": "-34.2117483606601848947498627425045819373821395749767937583895931644676727269",
+      "affine": "56.9730692152076296090046551121791065141124335164065302407972164799202515502",
+      "d_o": "22.9262899137161720061267531225098817607461457607465183338714278495928513429",
+      "d_e": "46.6910466700036666456410751716644847926126500271652794618334146774254996513",
+      "Z": "2.03657228647665712634194669353564549652632003092238672166051283485001405382",
+      "Hd_o": "0.458525798274323440122535062450197635214922915214930366677428556991857026858",
+      "incidence_residual": "0.0",
+      "iterations": 11
+    },
+    {
+      "kind": "incidence",
+      "case": 32,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "600.0",
+      "b": "1.29676640287157512190734971927234403692732327564267032520511758066888215817",
+      "te": "-4.07164288558173142924173928905739783103120881881880817629099321479654141632",
+      "affine": "591.891932129094199690954310446390828810713181366527816827622194263699518934",
+      "d_o": "44.7942952024611874587074742237387107362646490273628893456300152288139843558",
+      "d_e": "710.428680150060984697170093978627358241199679402925699555890257333731855409",
+      "Z": "15.8598026141290205500476260080534937338630697487464123199808421040726873239",
+      "Hd_o": "0.895885904049223749174149484474774214725292980547257786912600304576279687116",
+      "incidence_residual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "iterations": 6
+    },
+    {
+      "kind": "incidence",
+      "case": 33,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "599.994",
+      "b": "1.29677917392624005629446545220017273043568946200566616238743274583301894428",
+      "te": "-4.07168270262092410168585393274991731666337226099864334140960361545513162925",
+      "affine": "591.885932012827967967382909707755540040923383739336435057952453850896365862",
+      "d_o": "44.7942474802833305996239926348312793978282921073191240371430270000472130054",
+      "d_e": "710.42110159037856802332977705598724313372443968656933872457416825987498717",
+      "Z": "15.8596503245886215697408392646694695932143787749445768736532729356266599881",
+      "Hd_o": "0.895884949605666611992479852696625587956565842146382480742860540000944260109",
+      "incidence_residual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "iterations": 6
+    },
+    {
+      "kind": "incidence",
+      "case": 34,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "600.006",
+      "b": "1.29675363206782553115448049295702597590582578874492399912295308168525967244",
+      "te": "-4.07160306932180736911547165789600723101313793003835569787317970338732591096",
+      "affine": "591.897932245376878857854135926755498555768240971774621885903379947555033159",
+      "d_o": "44.7943429237661769926011045806796814790223640951653627540084484722395255836",
+      "d_e": "710.436258709999398371472354634131289555188918278954813324876649119352072644",
+      "Z": "15.8599549036596963460853493442835651208895393608152538244035167598892942918",
+      "Hd_o": "0.895886858475323539852022091613593629580447281903307255080168969444790511671",
+      "incidence_residual": "0.0",
+      "iterations": 6
+    },
+    {
+      "kind": "incidence",
+      "case": 35,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "6000.0",
+      "b": "0.1312213788991748015163786251263443586716929755651606855693613316823340736",
+      "te": "-0.415667728977335315610818163193941572459067332611771670964810791016733204066",
+      "affine": "5991.98030506711654996763207958093545157767089878906950444122843796344390766",
+      "d_o": "49.438204971781760004788145711661456684752322778215860141620491975374643953",
+      "d_e": "7540.12650648719257310932755933958808862493217708848837616821404748802540855",
+      "Z": "152.516186839528881287290371737024211103036408466203052238713305307496196898",
+      "Hd_o": "0.98876409943563520009576291423322913369504645556431720283240983950749287906",
+      "incidence_residual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 36,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "5999.94",
+      "b": "0.131222689656081058259934741694412429157528868294807105815688137506144124215",
+      "te": "-0.415671875764538616689153855537746056778274985768430609737940320866319677807",
+      "affine": "5991.92030488027346537479404246842512892490602062005328303187129506881764912",
+      "d_o": "49.4381994021834314444774935665622034259232402211559784948155541369840598289",
+      "d_e": "7540.05061255191734900372698431652615643352355654065020985065028750250620116",
+      "Z": "152.514668894250060919410182186020338897592934203113142924494085219746394804",
+      "Hd_o": "0.988763988043668628889549871331244068518464804423119569896311082739681196579",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 37,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "6000.06",
+      "b": "0.131220068168453483299066007584965920286385199424133204532047439016499772559",
+      "te": "-0.415663582272869451687257481477227471759188884046333545150709710633338060109",
+      "affine": "5992.04030525395609937507054673103401625419341368070149235558317675306421094",
+      "d_o": "49.4382105412696597050583433730181565077295570573131409585070571884441154604",
+      "d_e": "7540.20240042248279561584495269830599782668021659986735796434848802051349764",
+      "Z": "152.517704784806663262019269656131919240727423020249649679834356034562935944",
+      "Hd_o": "0.988764210825393194101166867460363130154591141146262819170141143768882309209",
+      "incidence_residual": "4.31808427754722231269317593140019978555800018221814069251185173508429590158e-78",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 38,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60000.0",
+      "b": "0.0131351500107496781853808849359851022101758580641307885559304714751259589964",
+      "te": "-0.0416566248004573569140201226772535633668165561782584580130058515382284943643",
+      "affine": "59991.997939324087866126448608137088837688799222869230967415095249443325039",
+      "d_o": "49.9433823297743447919114341534308216049969730867516757105391013196252497774",
+      "d_e": "75845.2601327565621693107846208821322628322279859361386863911823114557319135",
+      "Z": "1518.62482264322941320648044216971086672244032809241285946697228407020116154",
+      "Hd_o": "0.998867646595486895838228683068616432099939461735033514210782026392504995548",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 39,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "59999.4",
+      "b": "0.0131352813493465960780607078725775832290585571589255370350743363038554496128",
+      "te": "-0.0416570412705091204372915046970658366691950214975897636544938788482943421651",
+      "affine": "59991.3979393035824511328476115972197970292641054345194921698300868237018244",
+      "d_o": "49.9433817640816417652324779457579159035307465752855058630930921695097079121",
+      "d_e": "75844.5011861871103307533027846580815980700490344719324704274945712397628236",
+      "Z": "1518.60964370524615800308107662612073516666567402760613545201396946457224381",
+      "Hd_o": "0.998867635281632835304649558915158318070614931505710117261861843390194158242",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 40,
+      "dps": 75,
+      "a": "8.0",
+      "H": "0.02",
+      "E": "1.2",
+      "bstar": "0.0",
+      "R": "60000.6",
+      "b": "0.0131350186747792211019611441553493765410916101879018013022471852783757511104",
+      "te": "-0.0416562083387329051277038734967633489901505749993647602485143243505720292682",
+      "affine": "59992.5979393445928730462729584446345371733095348676813428080217514468817058",
+      "d_o": "49.9433828954557438643361535662921134844291519593452498754756794261393155767",
+      "d_e": "75846.0190793260153919503938422319851451681432339641558553692635728192821332",
+      "Z": "1518.64000158121256413730781714203533207684381138783065256933930190911353331",
+      "Hd_o": "0.998867657909114877286723071325842269688583039186904997509513588522786311535",
+      "incidence_residual": "2.69880267346701394543323495712512486597375011388633793281990733442768493849e-79",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 41,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "600.0",
+      "b": "6.92820578793448669358233545426850952491374096578698887091980996865361467852",
+      "te": "-17.8707694161178590146051933566384157679296402993258553329483519379351074148",
+      "affine": "590.952486719273870632936550674743709313538414847499639380949619774050454308",
+      "d_o": "84.6545508937564897309553548268677371633141637713051195671455497169957992362",
+      "d_e": "559.516719702785392360379786391557213886523965418152687117734636509621527752",
+      "Z": "6.60941099793905253354015344518413717007378070733323942334718090977833877645",
+      "Hd_o": "0.846545508937564897309553548268677371633141637713051195671455497169957992362",
+      "incidence_residual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "iterations": 6
+    },
+    {
+      "kind": "incidence",
+      "case": 42,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "599.994",
+      "b": "6.92824955528019114007656059322462503240823391572647050179392979966303267001",
+      "te": "-17.8709502469648854672525292364299324557118073326202213670817245613692922958",
+      "affine": "590.946516694344608580187273227590039620696503215982773021872890833049570905",
+      "d_o": "84.654424512737031203258005717988018544440336915185286802314424512859637718",
+      "d_e": "559.510139846294977086616363394700023115045599572206800739371688746224276234",
+      "Z": "6.60934313908319779896530341298616574578118876399909082070688047816032445177",
+      "Hd_o": "0.846544245127370312032580057179880185444403369151852868023144245128596377179",
+      "incidence_residual": "0.0",
+      "iterations": 6
+    },
+    {
+      "kind": "incidence",
+      "case": 43,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "600.006",
+      "b": "6.92816202130766439911647597749906020453315526954066729229059257618026026225",
+      "te": "-17.8705885889354440752898260993300638540383967576202113190267860741757188915",
+      "affine": "590.958456745040834477282973564791780608529667077474566270031236190045567951",
+      "d_o": "84.6546772727436633299070738208619330638592042532031268002239517826875376257",
+      "d_e": "559.523299563574129231560242865265109861759188648363033298543144019873470406",
+      "Z": "6.60947885680174118585187039258024735858659530319939358807644040543210391205",
+      "Hd_o": "0.846546772727436633299070738208619330638592042532031268002239517826875376257",
+      "incidence_residual": "1.38178696881511114006181629804806393137856005830980502160379255522697468851e-76",
+      "iterations": 6
+    },
+    {
+      "kind": "incidence",
+      "case": 44,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "6000.0",
+      "b": "2.52490490731391207269045236192832761435395297954574120695188776708809580334",
+      "te": "-1.77376665161154851014839715357785560126823489295811753648238928852181680896",
+      "affine": "5988.38140253649025328543561311037018436139975903044028608703308705433269942",
+      "d_o": "98.2019913891968780254018385781783664612179903225215797876614449276342476928",
+      "d_e": "6615.32572287546338640343720352848988310772518914894131040347038502008825162",
+      "Z": "67.3644763134936797297273354342463443726988003289014772057993983791505422195",
+      "Hd_o": "0.982019913891968780254018385781783664612179903225215797876614449276342476928",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 45,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "5999.94",
+      "b": "2.5249101386645592692264543637912512795740559948378013043154907535157556162",
+      "te": "-1.77378439450180984894575310101481830551614942388510071195749275277327954786",
+      "affine": "5988.32141495906190955445345300507590769404263800917772149848905236912938348",
+      "d_o": "98.2019737256145180713747855051602489970309105469327270411848849526288673332",
+      "d_e": "6615.25833170335682778055309116548046665154819562928204631365981893231506181",
+      "Z": "67.3638021796487120858490952140731565448617840294829878652468243165503207167",
+      "Hd_o": "0.982019737256145180713747855051602489970309105469327270411848849526288673332",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 46,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "6000.06",
+      "b": "2.52489967606749995106873322541498005783306616836364818718028375798906854118",
+      "te": "-1.77374890907627021793508740455999822460958899503712170876645799593257402885",
+      "affine": "5988.44139011392982955733899849135897416786272507907842084295807517762420978",
+      "d_o": "98.2020090524322441393151919296375772968299564634168603839036342307136163209",
+      "d_e": "6615.39311404770521588763360193175371870088363893661302773972011643384344377",
+      "Z": "67.3651504473355448476745348526024304358417815047341920705013751022474004875",
+      "Hd_o": "0.982020090524322441393151919296375772968299564634168603839036342307136163209",
+      "incidence_residual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 47,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "60000.0",
+      "b": "2.05263586781837511672939362098752706549910115971046741140154543543498907572",
+      "te": "-0.177342743700210298331054538907195935731375700622582117422280709122848237111",
+      "affine": "59977.5572336128993931310578189328167970457836946201637265541207611349784998",
+      "d_o": "99.8173247434129435993458862300313001507757809555493383556625239100045114805",
+      "d_e": "67272.4797305291775066663234906535385096045152841362655374511285048453820732",
+      "Z": "673.955948062699039107553688103236023275848839974580096721317609698439612391",
+      "Hd_o": "0.998173247434129435993458862300313001507757809555493383556625239100045114805",
+      "incidence_residual": "3.45446742203777785015454074512015982844640014577451255400948138806743672126e-77",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 48,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "59999.4",
+      "b": "2.05263639403658796606222004951280636013565157819508232021126235663192864547",
+      "te": "-0.177344517170071788129633741039737656220236647407849846627312321242970303513",
+      "affine": "59976.957353595230564091824958083114258393165022718367360527340797888339704",
+      "d_o": "99.8173229198633125842831650895750192876247612634083420358565442559710668642",
+      "d_e": "67271.8057569059790177734378112089172469661281089830428601059691084504059106",
+      "Z": "673.949208304394579463251471058202454681339981224411166185670290035337967122",
+      "Hd_o": "0.998173229198633125842831650895750192876247612634083420358565442559710668642",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "incidence",
+      "case": 49,
+      "dps": 75,
+      "a": "10.0",
+      "H": "0.01",
+      "E": "1.0",
+      "bstar": "2.0",
+      "R": "60000.6",
+      "b": "2.05263534161068357717654133334140217108275634724047643468128802486274287638",
+      "te": "-0.177340970265818374250055625524733308865613442803865813246637222960642118191",
+      "affine": "59978.1571136305686154481217355860966471769269469441464552981348146252648034",
+      "d_o": "99.8173265669261683469727236204273535768176433485563535281167807232274968708",
+      "d_e": "67273.1537041523867207981787120428623548591551357189632286095114935106838918",
+      "Z": "673.962687821003164376592450536592255784858265875066926799877486964673527357",
+      "Hd_o": "0.998173265669261683469727236204273535768176433485563535281167807232274968707",
+      "incidence_residual": "0.0",
+      "iterations": 5
+    },
+    {
+      "kind": "boost",
+      "case": 50,
+      "dps": 75,
+      "eta": "-1.0",
+      "d_o": "8.15484548537713570608086241405798749327174128109987872490090288317222989106",
+      "Z": "0.367879441171442321595523770161460867445811131031767834507836801697461495745"
+    },
+    {
+      "kind": "boost",
+      "case": 51,
+      "dps": 75,
+      "eta": "0.0",
+      "d_o": "3.0",
+      "Z": "1.0"
+    },
+    {
+      "kind": "boost",
+      "case": 52,
+      "dps": 75,
+      "eta": "0.5",
+      "d_o": "1.81959197913790027081139860497354136032575440646156086704867647620516955824",
+      "Z": "1.64872127070012814684865078781416357165377610071014801157507931164066102119"
+    },
+    {
+      "kind": "boost",
+      "case": 53,
+      "dps": 75,
+      "eta": "1.0",
+      "d_o": "1.10363832351432696478657131048438260233743339309530350352351040509238448723",
+      "Z": "2.71828182845904523536028747135266249775724709369995957496696762772407663035"
+    },
+    {
+      "kind": "radar_control",
+      "case": 54,
+      "dps": 75,
+      "R": "44.8714579991259698879655167524504435207655508018481855719720932200465636568",
+      "rc": "48.9682866656955220977394630582782705786283897798313173021912146889406262854",
+      "radar": "64.4335068581024671149996408455185669816799665002727255077240618019595897318",
+      "spatial": "51.3844567412216170863366412302977945601960371641703382181992984446471931422",
+      "truncated_slice_endpoint": "72.215522239287837358869389922175596967038458059882270221289339549157269544"
+    },
+    {
+      "kind": "radar_control",
+      "case": 55,
+      "dps": 75,
+      "R": "48.5586037990385668767620684276954878728421058820330041291693025420512200225",
+      "rc": "48.9682866656955220977394630582782705786283897798313173021912146889406262854",
+      "radar": "116.462953224036572181144276459414156061890328684485531247583128346886054884",
+      "spatial": "65.6729610831431100641506021962918165525726738185248054834369110785017636276",
+      "truncated_slice_endpoint": "72.215522239287837358869389922175596967038458059882270221289339549157269544"
+    },
+    {
+      "kind": "radar_control",
+      "case": 56,
+      "dps": 75,
+      "R": "48.9273183790298265756417235952199923080497613900514859848890234742516856591",
+      "rc": "48.9682866656955220977394630582782705786283897798313173021912146889406262854",
+      "radar": "167.666988699643189799565251589649296935159055342991228319295524205044335465",
+      "spatial": "70.1479680083906631225777894315767583814939305684501555885595013616391301048",
+      "truncated_slice_endpoint": "72.215522239287837358869389922175596967038458059882270221289339549157269544"
+    }
+  ],
+  "exception": null,
+  "passed": true
+}

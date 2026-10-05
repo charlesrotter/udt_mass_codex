@@ -1,0 +1,21 @@
+{
+  "scope": "unchanged sources at baseline before integration",
+  "sha256": {
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "UDT_DEVELOPMENT.md": "40851bac04ac68077cbe25ea173bdf8f4583c065892e9639f3fc58e21899c35e",
+    "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+    "UDT_RESEARCH_ROADMAP.md": "7511d5d68216399a2912c9339bb83b6453092104981ec472bf4e7582f8b469f0",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c",
+    "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_free_clock_completion_2026-10-03/close_checkpoint.py": "d6b0fec3f680fda86c7a223750dd7b6bc6833112441039cfa28f32a5dc8f49c9"
+  }
+}

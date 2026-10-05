@@ -1,0 +1,24 @@
+{"case": 1, "kind": "saved_incidence", "dps": 60, "passed": true, "failure": null}
+{"case": 2, "kind": "saved_incidence", "dps": 60, "passed": true, "failure": null}
+{"case": 3, "kind": "saved_incidence", "dps": 60, "passed": true, "failure": null}
+{"case": 4, "kind": "saved_incidence", "dps": 60, "passed": true, "failure": null}
+{"case": 5, "kind": "saved_static_radar_control", "dps": 60, "passed": true, "failure": null}
+{"case": 6, "kind": "saved_static_radar_control", "dps": 60, "passed": true, "failure": null}
+{"case": 7, "kind": "saved_incidence", "dps": 100, "passed": true, "failure": null}
+{"case": 8, "kind": "saved_incidence", "dps": 100, "passed": true, "failure": null}
+{"case": 9, "kind": "saved_incidence", "dps": 100, "passed": true, "failure": null}
+{"case": 10, "kind": "saved_incidence", "dps": 100, "passed": true, "failure": null}
+{"case": 11, "kind": "saved_static_radar_control", "dps": 100, "passed": true, "failure": null}
+{"case": 12, "kind": "saved_static_radar_control", "dps": 100, "passed": true, "failure": null}
+{
+  "all_passed": true,
+  "cases": 12,
+  "code_sha256": "c2b0a5e3633b00ec384b2eb6a2b26cf99256b837238ebab7f0d89c0ffb5e5862",
+  "combined_cases": 30,
+  "elapsed_s": 2.4065284729003906,
+  "limits": "finite floating-point saved-value replay, not formal interval or empirical certification",
+  "max_scaled_error": "1.4362709791311182198727074814908680747970141591826e-53",
+  "raw_sha256": "8a7dfc2c724828549d324e82c27ff43d6c9679de395349ff888b65cc6a65c08c",
+  "source_first_cases": 18,
+  "source_sha256": "009a25e9e63f7ebdd3b0bbe73c5e4fc03fcad0492bb09b1c664652943f047f67"
+}

@@ -1,0 +1,26 @@
+{
+  "branch": "grok",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_operational_asymptote_attachment_2026-10-04/review_math/source_first_check.py > udt_operational_asymptote_attachment_2026-10-04/review_math/source_first_stdout.txt 2> udt_operational_asymptote_attachment_2026-10-04/review_math/source_first_stderr.txt",
+  "head": "11cca783c02f94fad287a95595928df36340ad06",
+  "numerics": "18 cases total: three fixed parameter sets at three radii at 60 and 100 digits; no retries in initial implementation; no randomness; limits and domain are established analytically, numerics are finite floating-point checks",
+  "resources": "CPU only; 2GiB address space; one BLAS thread; no GPU or wall/CPU timeout",
+  "reviewer": "/root/oaa_math; fresh separate context; same inherited model; not different-model or human review",
+  "scope": "endpoint-affine normalization, actual circular-emitter incidence, positive-H escaping asymptote and its residue, causal return restriction; same-metric GR and observer-universality limits",
+  "source_sha256": {
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "UDT_DEVELOPMENT.md": "40851bac04ac68077cbe25ea173bdf8f4583c065892e9639f3fc58e21899c35e",
+    "udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md": "3268158af09427ad6ba3cf85e2e0dfe1d88900fc84c2eb442a8f5e3aecc0b3d9",
+    "udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md": "108f8bf7a12f2243826a1484cbb11968c838dd956ea9112258d657a51ba195bb",
+    "udt_candidate_commitment_restriction_2026-10-04/PREMISE_LEDGER.tsv": "88f6e89cc6bbc9bb447e1bc152508cc7fe698a6b6f34b599b2fb0af3faeecbfe",
+    "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md": "15a032dc1017416cf8542f3987a43ff363d9cc113efc79f2709d40535020eab6",
+    "udt_operational_asymptote_attachment_2026-10-04/review_math/source_first_check.py": "a2644fc943243be30997413009e9bf6c494ddb6893dd68dda823cd40e953e157"
+  },
+  "stage": "source-first; parent OAA candidate/code/results unexposed",
+  "startup_attribution": "Parent continuing-session startup reports fresh fetch HEAD/origin11cca783c02f94fad287a95595928df36340ad06, tracked clean,76 old local names, normal guard PASS, last-turn full406 CPR1 audit408.622785s PASS. Reviewer independently checked branch/head/tracked cleanliness; no independent full406 replay or remote synchronization.",
+  "tolerances": "per-case relative/absolute checks 10^(-dps+15); Newton root stop 10^(-dps+12), max16; two-precision scaled discrepancy <1e-40; asymptotic residues retained numerically without a finite-radius pass threshold",
+  "utc": "2026-10-05T03:07:44.233786+00:00"
+}

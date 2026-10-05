@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-05T03:14:36.623889+00:00",
+  "phase": "actual exposed review",
+  "sha256": {
+    "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md": "15a032dc1017416cf8542f3987a43ff363d9cc113efc79f2709d40535020eab6",
+    "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md": "d984271a263fb7b1e1268b27e95512863f29b847820efc08fe6c67f08e88ec69",
+    "udt_operational_asymptote_attachment_2026-10-04/CANDIDATE_FREEZE.json": "fa07ccd6a1b0e912dd9b8e468ff007d47efe83433809c2a375cca9b13b8a3d5a",
+    "udt_operational_asymptote_attachment_2026-10-04/NUMERICAL_FREEZE.md": "ec467503718d23ca7ace8928a65344cf1022343cc04aa0b4aeecdf0a1bc0ad14",
+    "udt_operational_asymptote_attachment_2026-10-04/check_attachment.py": "de8dc038aa75b1510494e30157cfdcc3945bd7b5015278ffe5ec95eaafebcc30",
+    "udt_operational_asymptote_attachment_2026-10-04/CONSTRUCTION_RESULT.json": "009a25e9e63f7ebdd3b0bbe73c5e4fc03fcad0492bb09b1c664652943f047f67",
+    "udt_operational_asymptote_attachment_2026-10-04/checks/parent_initial.json": "af10131963ac3eb6ba57d6c05c1bae0a1e711f08df0a312c43e41dd98c6b7207",
+    "udt_operational_asymptote_attachment_2026-10-04/checks/parent_initial.stdout": "6f91004505c0e8b816dbe21953c72566371b1d68cfcf159f632c0a7187167c76",
+    "udt_operational_asymptote_attachment_2026-10-04/checks/parent_initial.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/SOURCE_FIRST.md": "1b29694bf3099b39d9430dca554028f39910fe96046ad3d48bcfb9c0a99228c4",
+    "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/INDEPENDENT_RESULT.md": "83b7f65bcbc4acf2d6b3f48a42effc1efd2a9cb812c8fdfb0530c326585dfd19",
+    "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/EXPOSED_REVIEW.md": "dbc5e0c7402d98c9980f2183bc2920c8cc0fdd763617d1c6b7f62e62daac3893",
+    "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/SAVED_RECOMPUTATION.json": "8a8881a512f1921287cabadeb536717ef98206529fec74c009d49a4de1ff4f67"
+  }
+}

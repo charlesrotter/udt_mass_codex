@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-05T03:11:58.449452+00:00",
+  "exposure": "reviewer supplied this example from independent discovery; parent now checks sign by a distinct rational argument",
+  "question": "prove eventual above-limit approach for this fixed conditional preparation, not globalnative exclusion",
+  "case_count": 1,
+  "intervals": 9,
+  "method": "exact integer/Fraction, no floating point, no acceptance tolerance",
+  "code_sha256": "e63a0ce951edde522dbbc2fd5934d68a596a0f8be0a1e72f1a0c10c14ac732eb"
+}

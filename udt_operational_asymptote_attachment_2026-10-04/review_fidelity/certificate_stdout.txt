@@ -1,0 +1,1 @@
+{"passed": true, "B_lower": "8991379/1134000", "doubled_q_rejected": true}

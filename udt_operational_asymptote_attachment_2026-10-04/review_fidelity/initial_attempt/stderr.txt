@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_operational_asymptote_attachment_2026-10-04/review_fidelity/check_independent.py", line 182, in <module>
+    main()
+  File "/home/udt-admin/udt_mass_codex/udt_operational_asymptote_attachment_2026-10-04/review_fidelity/check_independent.py", line 165, in main
+    values[(dps,args[0])]=family(*args,dps)
+  File "/home/udt-admin/udt_mass_codex/udt_operational_asymptote_attachment_2026-10-04/review_fidelity/check_independent.py", line 113, in family
+    c=solve(R)
+  File "/home/udt-admin/udt_mass_codex/udt_operational_asymptote_attachment_2026-10-04/review_fidelity/check_independent.py", line 66, in solve
+    raise ValueError('Frozen bracket does not enclose root')
+ValueError: Frozen bracket does not enclose root

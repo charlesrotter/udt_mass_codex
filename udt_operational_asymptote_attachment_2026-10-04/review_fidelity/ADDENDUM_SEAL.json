@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-05T03:17:07.141805+00:00",
+  "phase": "actual exposed clarification and counterexample re-review",
+  "sha256": {
+    "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md": "14b2521f2c434cedde26661c3cca298cb3edc0e56b7a3267cff26a3627c37bf6",
+    "udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md": "6750ddb67e4b277b97d99d9690d535814bbc27c5b2ad24f8105f3c76a651c710",
+    "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py": "e63a0ce951edde522dbbc2fd5934d68a596a0f8be0a1e72f1a0c10c14ac732eb",
+    "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json": "f78bbd3b372a24b869e2ae8fab4792e4aecc2922fc3134926b3a3f6207cd996d",
+    "udt_operational_asymptote_attachment_2026-10-04/CEILING_EXACT_RESULT.json": "55e09c7abea6757626a59b6656595f850fe8852e29d0f77248fb0ea7cf530da1",
+    "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md": "8f697555ae01254bf018938e3f91c7e48ac6ca6e575303c8d2c7cc462692761e",
+    "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/EXPOSED_ADDENDUM.md": "b9277ee48a1b6f48b1295b8c7c857d9c30ba07a79922a08a4f2208346b318613",
+    "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/CERTIFICATE_RESULT.json": "da57a41f68112128e34a0e8b97ead81a4940eb277f427866c9165353a57c00f2"
+  }
+}

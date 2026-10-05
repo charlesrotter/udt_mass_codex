@@ -2526,6 +2526,86 @@
         "C_CPR_REALIZATION",
         "C_CPR_RECOVERY"
       ]
+    },
+    {
+      "id": "C_OAA_AFFINE",
+      "kind": "conditional_protocol",
+      "statement": "Chosen actual CPR1 ray and endpoint proper clocks; D_i=omega_i times affine interval. Coordinate/affine-gauge invariant but observer-dependent geometric readout, not adopted distance or radar/area equality.",
+      "sources": [
+        "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md",
+        "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md",
+        "udt_operational_asymptote_attachment_2026-10-04/PREMISE_LEDGER.tsv",
+        "udt_operational_asymptote_attachment_2026-10-04/CONSTRUCTION_RESULT.json",
+        "udt_operational_asymptote_attachment_2026-10-04/check_attachment.py",
+        "udt_operational_asymptote_attachment_2026-10-04/CANDIDATE_FREEZE.json",
+        "udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CEILING_EXACT_RESULT.json",
+        "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py",
+        "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json",
+        "udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md",
+        "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_OAA_BRANCH",
+      "kind": "conditional_protocol",
+      "statement": "Inherited conditional positive-H CPR1 escaping regular branch. General finite receiver-affine limit; eventual below-limit pole only for stated b_star0 preparation. Radar lower bound conditional on echo existence; static radial control a different query.",
+      "sources": [
+        "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md",
+        "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md",
+        "udt_operational_asymptote_attachment_2026-10-04/PREMISE_LEDGER.tsv",
+        "udt_operational_asymptote_attachment_2026-10-04/CONSTRUCTION_RESULT.json",
+        "udt_operational_asymptote_attachment_2026-10-04/check_attachment.py",
+        "udt_operational_asymptote_attachment_2026-10-04/CANDIDATE_FREEZE.json",
+        "udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CEILING_EXACT_RESULT.json",
+        "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py",
+        "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json",
+        "udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md",
+        "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_OAA_PHYSICAL",
+      "kind": "open_join",
+      "statement": "Native physical separation/response admission, independently observed distance and full source-screen/Jacobi map remain open. Finite affine endpoint not universal ceiling/X_max or extra matched-GR prediction.",
+      "sources": [
+        "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md",
+        "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md",
+        "udt_operational_asymptote_attachment_2026-10-04/PREMISE_LEDGER.tsv"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8OAA",
+      "kind": "argument",
+      "anchor": "r8oaa",
+      "title": "Conditional receiver-affine distance pole and causal/radar attachment limits",
+      "sources": [
+        "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md",
+        "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md",
+        "udt_operational_asymptote_attachment_2026-10-04/PREMISE_LEDGER.tsv",
+        "udt_operational_asymptote_attachment_2026-10-04/CONSTRUCTION_RESULT.json",
+        "udt_operational_asymptote_attachment_2026-10-04/check_attachment.py",
+        "udt_operational_asymptote_attachment_2026-10-04/CANDIDATE_FREEZE.json",
+        "udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md",
+        "udt_operational_asymptote_attachment_2026-10-04/CEILING_EXACT_RESULT.json",
+        "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py",
+        "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json",
+        "udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md",
+        "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH"
+      ]
     }
   ],
   "edges": [
@@ -5028,6 +5108,106 @@
       "from": "R8CPR",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R8OAA",
+      "kind": "proof"
+    },
+    {
+      "from": "R8CPR",
+      "to": "R8OAA",
+      "kind": "proof"
+    },
+    {
+      "from": "C_OAA_AFFINE",
+      "to": "R8OAA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_OAA_BRANCH",
+      "to": "R8OAA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "D1",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R2",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R8CGE",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACP",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R8PRT",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R10",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R13",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R14",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R15",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R16",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R8OAA",
+      "kind": "context"
+    },
+    {
+      "from": "O_OAA_PHYSICAL",
+      "to": "R8OAA",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R8OAA",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -5317,7 +5497,20 @@
     "udt_candidate_commitment_restriction_2026-10-04/CANDIDATE_FREEZE.json": "4a0b1ce8fbed21aae3d8ec5ef06733204f2904eeb9540b670710b30c7a474299",
     "udt_candidate_commitment_restriction_2026-10-04/CHECK_REPAIR.md": "c2aa01b8b96fea0cc20d0bb31f1b0cf248e1fc9b2663a7b09c59aba7cd08f376",
     "udt_candidate_commitment_restriction_2026-10-04/REPAIRED_CHECK_FREEZE.json": "d22f71a3f211caab70514f304ff79d48f5baae27c497b62e3ab33bd9820252ab",
-    "udt_candidate_commitment_restriction_2026-10-04/METHOD_REFERENCES.md": "ecd8ec942eb15272be2a9e5b653f46f3b8b58a0a92e996723ed3e73cc6a8e725"
+    "udt_candidate_commitment_restriction_2026-10-04/METHOD_REFERENCES.md": "ecd8ec942eb15272be2a9e5b653f46f3b8b58a0a92e996723ed3e73cc6a8e725",
+    "udt_operational_asymptote_attachment_2026-10-04/WORK_ORDER.md": "15a032dc1017416cf8542f3987a43ff363d9cc113efc79f2709d40535020eab6",
+    "udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md": "d984271a263fb7b1e1268b27e95512863f29b847820efc08fe6c67f08e88ec69",
+    "udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md": "14b2521f2c434cedde26661c3cca298cb3edc0e56b7a3267cff26a3627c37bf6",
+    "udt_operational_asymptote_attachment_2026-10-04/PREMISE_LEDGER.tsv": "df7a5c0f0d2e0379d31140f3578a51e03e32c5b209b451213e92970f865008c9",
+    "udt_operational_asymptote_attachment_2026-10-04/CONSTRUCTION_RESULT.json": "009a25e9e63f7ebdd3b0bbe73c5e4fc03fcad0492bb09b1c664652943f047f67",
+    "udt_operational_asymptote_attachment_2026-10-04/check_attachment.py": "de8dc038aa75b1510494e30157cfdcc3945bd7b5015278ffe5ec95eaafebcc30",
+    "udt_operational_asymptote_attachment_2026-10-04/CANDIDATE_FREEZE.json": "fa07ccd6a1b0e912dd9b8e468ff007d47efe83433809c2a375cca9b13b8a3d5a",
+    "udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md": "6750ddb67e4b277b97d99d9690d535814bbc27c5b2ad24f8105f3c76a651c710",
+    "udt_operational_asymptote_attachment_2026-10-04/CEILING_EXACT_RESULT.json": "55e09c7abea6757626a59b6656595f850fe8852e29d0f77248fb0ea7cf530da1",
+    "udt_operational_asymptote_attachment_2026-10-04/check_ceiling_exact.py": "e63a0ce951edde522dbbc2fd5934d68a596a0f8be0a1e72f1a0c10c14ac732eb",
+    "udt_operational_asymptote_attachment_2026-10-04/CEILING_CHECK_FREEZE.json": "f78bbd3b372a24b869e2ae8fab4792e4aecc2922fc3134926b3a3f6207cd996d",
+    "udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md": "fc82530547ddbcbbaad78fdb100233bff0ddc95d63cb2e59eb62c74e26f47039",
+    "udt_operational_asymptote_attachment_2026-10-04/METHOD_REFERENCES.md": "8f697555ae01254bf018938e3f91c7e48ac6ca6e575303c8d2c7cc462692761e"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -8946,6 +9139,230 @@
         "R8CPR",
         "C_CPR_REALIZATION",
         "R18"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/WORK_RECORD.md",
+      "sha256": "3886aef762fffa0ac84a63cc383808e3a74e960fcc3e030db751e203ad25b157",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/DESCENDANT_REVIEW.md",
+      "sha256": "d5654d1996c3c785107beb72eecc5a178c08d868c2ab922d52be6184f34e99de",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/review_math/SOURCE_FIRST.md",
+      "sha256": "f9a0eb860a0dea0c150d27687996f8d47f8ae9c5f7e589c9c55e73f620252d9f",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/review_math/EXPOSED_REVIEW.md",
+      "sha256": "5c283d92460a59334078c64f882a6220c9820671ff046ff5fcc759ab60854e61",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "1b29694bf3099b39d9430dca554028f39910fe96046ad3d48bcfb9c0a99228c4",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "dbc5e0c7402d98c9980f2183bc2920c8cc0fdd763617d1c6b7f62e62daac3893",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/EXPOSED_ADDENDUM.md",
+      "sha256": "b9277ee48a1b6f48b1295b8c7c857d9c30ba07a79922a08a4f2208346b318613",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
+      ]
+    },
+    {
+      "path": "udt_operational_asymptote_attachment_2026-10-04/review_fidelity/RADAR_EXTENSION_REVIEW.md",
+      "sha256": "729791dc2cd0197bd21050dba3dbdb3332d3214949a3436bf6da7c6a5f1a3649",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R2",
+        "R6",
+        "R7",
+        "R8",
+        "R8CGE",
+        "R8CPR",
+        "R8ACP",
+        "R8PRT",
+        "R9",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R8OAA",
+        "C_OAA_AFFINE",
+        "C_OAA_BRANCH",
+        "O_OAA_PHYSICAL"
       ]
     }
   ]

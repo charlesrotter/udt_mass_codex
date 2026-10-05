@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — CPR1 existing-commitment restriction audit reviewed,
+**Current development — OAA1 conditional affine-distance attachment reviewed,
 2026-10-04.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,39 +35,38 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** CPR1 tests the conditional CGE1 geometry against the
-existing asymptotic slowing and tested-regime recovery commitments. For its
-fixed circular source and one fixed finite-energy outgoing receiver, received
-slowing stays bounded in the static region, even at its chart horizon. The
-smooth outward extension can produce unbounded slowing with positive Lambda,
-an escaping receiver and regular connecting signals. Zero or negative Lambda
-cannot give that same unbounded-outward mechanism.
+**Current learning.** OAA1 connects the existing conditional clock asymptote
+to a specified geometric distance. Along the actual source/receiver histories,
+the receiver-normalized affine distance tends to1/H while received redshift
+diverges. On the already supplied preparation a simple pole in the distance
+deficit follows from the metric and rays. No separate redshift curve is fitted.
+The emitter normalization of the same ray instead grows without bound.
 
-This is a conditional restriction on a concrete realization. Emission approaches
-a finite limiting time while receiver proper time tends to infinity; areal r
-is not automatically physical observer separation or finite X_max. No current
-argument attaches this reception-horizon limit to UDT's additional positional
-effect. Identical geometry and physically matched GR queries still give the
-same records. A proper orbital-rate comparison supplies a conditional recovery
-bound once its matching and tolerance are specified, with no empirical value
-invented. Angular cancellation supplies no Lambda selection here. DDR inside
-R10 remains conditional; locality alone does not fix its physical response.
+This supplies a concrete geometric attachment, while its native physical meaning
+remains open. The finite endpoint is not a universal maximum: another allowed
+preparation approaches it from above, with an exact rational sign proof. The
+from-below result holds on its stated eventual tail, not every earlier epoch.
+Late receiver events cannot return a signal to the original interior source;
+the affine limit is therefore distinct from that source's completed radar
+experiment. Neither observer-dependent readouts nor this scoped counterexample
+refute the owner's same-law universality or intended asymptotic target.
 
-Two actual fresh contexts checked sources, algebra, original curvature and
-actual clock incidences independently. Original-equation and bounded finite
-checks pass. A too-loose root stopping condition was caught by the original
-incidence residual; its tightened repair, unchanged acceptance tolerances and
-reduced sampling are preserved. This is a reviewed conditional consequence,
-not native field-law selection or empirical confirmation. Actual final review
-bindings and normal/maintenance/full406 receipts own closure.
+Two actual fresh contexts reconstructed the argument and checked saved quantities
+with independent implementations. Parent finite checks, the exact ceiling
+counterexample and the conditional circular-source radar bound pass. A reviewer
+caught an overbroad finite-time sentence; its narrower tail scope and initial
+text are preserved. A source-first early-branch failure and reviewer resource
+repair remain visible. Actual final bindings and normal/maintenance/full406
+receipts own closure. No native metric/distance selection or empirical test
+has been established, and physically matched GR records remain identical.
 
-After orientation read R8CPR, R9/R10 as needed, and R18. The next gate is the
-operational attachment: does the additional positional asymptote correspond
-to this fixed-history limit, or require another physical comparison? Derive
-the attachment from existing commitments or leave it open; no new premise is
-declared necessary. Full astronomical source/map/data gates remain distinct.
-Stop for lay discussion; no automatic fit, large solve, conditional-class
-adoption or parked/protected program restart.
+After orientation read R8OAA and R18, with R8/SGE1, R13 and R16 as needed.
+The remaining attachment is physical selection and independent observational
+meaning. A proposed next bounded step is the same candidate's actual angular/
+Jacobi map, to test how this affine endpoint relates to geometric source-size
+and angle records. It does not assume affine equals angular distance or select
+UDT dynamics. Stop for lay discussion; no automatic successor, fit, physical
+adoption, large solve or parked/protected campaign restart.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -702,7 +701,9 @@ No additive or multiplicative decomposition is assumed.
 
 On a regular ray admitting a compatible smooth future unit extension U of its
 endpoint clocks in a tube, let ω=−g(k,U), n=k/ω−U and dℓ=ω dλ. This is an
-observer-normalized null-path length, not automatically radar/spatial distance.
+observer-normalized null-path length, not automatically radar/spatial distance. OAA1 in R8OAA
+uses a different quantity: one endpoint frequency times the full affine interval.
+It is not this auxiliary-field integral or an adopted universal distance.
 Write ∇ₐU_b=−Uₐa_b+Hh_ab+σ_ab+ϖ_ab, with H=div U/3, spatial trace-free
 shear σ and spatial antisymmetric vorticity ϖ. Metricity and affine transport
 give dω/dλ=−kᵃkᵇ∇ₐU_b, hence the established DCI1/FSL1 relation
@@ -1778,7 +1779,114 @@ arrival-error<7.746e-9 and precision discrepancy<3.653e-40; its original too-loo
 root stop and unchanged-tolerance repair survive. These support the scoped
 calculation, not empirical or native confirmation. R18 now owns the physical
 attachment question; no complete-postulate insufficiency or new-premise necessity
-follows from the remaining open join.
+follows from the remaining open join. OAA1 below now supplies a
+declared affine-distance attachment to this limit, while preserving the open
+native physical identification and distinguishing the actual radar domain.
+
+
+<a id="r8oaa"></a>
+
+#### An explicit distance attachment, with physical limits — OAA1
+
+CPR1 left open which physical distance, if any, accompanies its received-clock
+asymptote. OAA1 supplies an attachment to a declared standard geometric distance.
+It does not select that definition as native positional separation or admit the
+conditional metric. Keep one actual affine null branch and endpoint proper
+clocks. If L=lambda_o-lambda_e>0 and omega_i=-g(u_i,k_i)>0, define
+
+    D_o=omega_o L, D_e=omega_e L, D_e=Z D_o.
+
+These are invariant under positive affine rescaling: k->c k, L->L/c. At reception
+the spatial projection of the past null displacement -L k_o has norm D_o.
+This recovers the standard receiver-normalized affine distance on a specified
+branch, without assuming a globally unique exponential inverse. D_e uses the
+emitter normalization of the same future ray; it is not a later echo distance.
+Neither quantity is automatically radar, spatial-slice, angular or luminosity
+distance. They also differ from SGE1's auxiliary-field integral of omega(lambda)
+along a ray. The identity alone supplies no independent distance observation.
+
+Keep CPR1's m>0, H=sqrt(Lambda/3)>0, a>3m, h=1-3m/a,
+Omega=sqrt(m/a³-H²)>0, fixed finite E>0 escaping receiver and strict regular
+limiting incidence b_*. The same source/receiver preparations remain fixed,
+while b changes between emitted rays. With s=sqrt(1-fb²/r²), v=sqrt(E²-f),
+
+    L=integral_a^R dr/s, A=1/(E+v)+v b²/[R²(1+s)],
+    D_o=A L, D_e=(1-Omega b)L/sqrt(h).
+
+Let S(b)=sqrt(1+H²b²) and
+C(b)=-a/S(b)+integral_a^infinity[1/s-1/S(b)]dr. The integrand is O(r^-2),
+and CPR's strict source bound gives uniform ray regularity near b_*.
+Uniform smooth expansions give
+
+    L=R/S(b)+C(b)+O(R^-1),
+    A=S(b)/(HR)-E/(H²R²)+O(R^-3),
+    D_o=1/H+B/R+O(R^-2),
+    B=S_* C(b_*)/H-E/(H² S_*).
+
+The leading constant survives the actual b(R)=b_*+O(1/R) incidence. Therefore
+D_o->1/H while D_e grows without bound and D_e=Z D_o. H is supplied geometry,
+not selected by c_E/G_obs or the definition. If CPR's matched proper-orbital
+tolerance epsilon is supplied, its bound implies1/H>=sqrt(a³/(m epsilon));
+no empirical tolerance, physical mass law or full recovery claim follows.
+
+On the already supplied u_infinity=phi_0=0 preparation, b_*=0 and C(0)=-a.
+Thus B=-(a/H+E/H²)<0 and
+
+    Z(1/H-D_o) -> (a+E/H)/sqrt(h).
+
+Smooth tail expansions justify eventual monotone approach from below and a
+simple pole in the affine-distance deficit. **On this eventual tail** the
+limiting value remains unattained at finite receiver proper time. No proof
+excludes an earlier crossing elsewhere on the full history. Source emission
+approaches a finite endpoint while receiver proper time tends to infinity.
+Finite R remains regular; b is not frozen to zero along the orbiting source.
+
+The qualification is substantial. Another admitted conditional preparation,
+m=1,a=3.001,H=.18,E=1,b_*=-.999 a/sqrt(f(a)), has B>0. Its limiting phase
+and receiver time origin can be chosen to satisfy the same actual incidence.
+An independent reviewer found this case; a distinct exact rational lower-bound
+argument proves B>8991379/1134000>0. It approaches1/H from **above**. This is a
+circular test-clock example, with no stable-orbit or native-population claim.
+Thus1/H is not a universal affine-distance ceiling across this conditional
+family. The b_*=0 tail survives. No general reversal of UDT dilation or whole-
+postulate failure follows from this metric/query counterexample.
+
+Return signals supply a separate constraint. The source bounds imply a simple
+outer root r_c>a. For r>r_c, grad r is past timelike, with norm f<0, so every
+nonzero future causal tangent has dr>0. At r_c, dr is nonnegative. A late
+receiver event at R>=r_c cannot send a future return to the original source
+at a. This statement is about the specified outward continuation; it does not
+rule out every earlier-probe radar assignment based on another clock.
+
+If an actual echo through R<r_c to the original circular emitter exists,
+static-region causality gives dt>=|dr|/f and hence
+
+    D_rad,circular >= sqrt(h) integral_a^R dr/f.
+
+It diverges as R->r_c if echoes persist that far. Their universal existence or
+unique return branch has not been proved. A separately accelerated static radial
+clock gives equality with sqrt(f(a)) replacing sqrt(h). Its radar length
+diverges logarithmically whereas static-slice length integral dr/sqrt(f) stays
+finite at r_c. Those are different queries/measurements from the late affine
+limit. A coordinate horizon, finite slice length and finite D_o cannot be equated.
+
+Changing the receiving observer at the same event by velocity beta along the
+future ray multiplies D_o by gamma(1-beta) and divides Z by that factor.
+This is physical observer dependence, not affine gauge. Such a sequence of
+boosted observers need not belong to the fixed-E geodesic family. The owner's
+same-law universality permits circumstance-dependent readouts; this fact is
+not a refutation of that postulate or a selection of X_max modulation.
+
+The [candidate](udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md),
+[tail clarification](udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md),
+[exact ceiling counterexample](udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md)
+and [radar bound](udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md)
+retain scope/provenance. Standard affine-distance definitions are methods;
+neither literature nor numerical agreement supplies a new physical premise.
+The geometric attachment is now explicit, but its native positional meaning,
+independent measurement and source-screen/angular interface remain open. A
+physically matched GR calculation gives the same records. No additional effect,
+universal finite X_max or native field-law admission is established.
 
 
 #### Finite mutual ticking and its causal limits — FPC1
@@ -3453,7 +3561,10 @@ ratio is Z² only on the rank2 domain det B≠0. This is metric angular-area rec
 brightness, luminosity distance, photons or detector flux. ACP1's astronomical
 application in R8ACP retains the complete observer-to-source Jacobi map;
 its determinant alone does not supply a scalar disk-length map. Source/observer
-and finite-patch identification are separate conditional readout requirements.
+and finite-patch identification are separate conditional readout requirements. OAA1 in R8OAA
+now gives a finite receiver-normalized affine endpoint in the conditional CGE1
+family. Its affine parameter is not a Jacobi/area distance by declaration;
+the actual two-dimensional map remains the next proposed geometric interface.
 
 The full phase-space propagator remains invertible through conjugate points
 although B may lose rank. Finite-sheet maps carry multiplicity; a sheet area
@@ -3594,7 +3705,11 @@ Sources: G275/G276; [ICN1 constants](udt_interframe_clock_network_2026-09-28/REV
 No external GR control in MGC1 is a native-admitted UDT countermodel. Physical
 X_max remains an asymptotic global-completion target: its value, realization,
 modulation, relation to operational distance and populated domain remain OPEN.
-Neither a finite diameter, a coordinate boundary nor a norm bound supplies it.
+Neither a finite diameter, a coordinate boundary nor a norm bound supplies it. OAA1 in R8OAA
+adds a declared affine endpoint1/H on the conditional CPR1 histories and its
+proper-orbital tolerance bound. It does not select H, identify a global X_max
+or make that endpoint a universal affine ceiling; an explicit conditional
+counterexample rules out that last stronger interpretation.
 
 RCD1's conditional coefficient recovery in R8RCD requires an informative smooth
 clock curve and an independent length/time calibration. c_E converts units;
@@ -4864,17 +4979,33 @@ X_max remains open. Angular trace cancellation does not select Lambda or make
 this clock divergence a proved angular loud regime. R10-class DDR is automatic;
 R9FST's stronger spaceform invariance does not apply to the m>0 exterior.
 
-The next substantive question is operational attachment: derive from existing
-commitments whether the additional positional target is this actual clock limit
-or another comparison, specifying measured separation/clock records and the
-physically matched GR reference. Merely naming a chart horizon or fitting an
-extra curve cannot establish the connection. The same geometry and matched
-queries predict the same records. A failed attachment on this example would
-not prove that all clarified postulates are insufficient or require a new one.
-Native response admission, astronomical source environment/full angular map and
-actual observation reduction remain distinct gates. The [fixed CPR1 return](udt_candidate_commitment_restriction_2026-10-04/DECISION_BRIEF.md)
-records the restriction and unresolved identification. Stop for lay discussion;
-no automatic fit, larger solve or parked/protected/source campaign restart.
+OAA1 now supplies the missing mathematical attachment to one declared
+geometric distance: the receiver-normalized affine interval D_o tends to1/H.
+The actual b_*=0 source/receiver preparation has a late simple pole in1/H-D_o,
+derived from the same metric rather than an independently supplied redshift
+profile. Emitter-normalized affine distance diverges on that same ray. This
+advances the conditional construction, without selecting a UDT physical
+distance, metric law or independently measured astronomical separation.
+
+The result also restricts its own interpretation. An independently discovered
+regular preparation approaches1/H from above, with an exact rational sign
+certificate; therefore it is not a universal affine maximum over this conditional
+family. Source return is unavailable from the late receiver events beyond the
+outer horizon. Conditional earlier circular-source echoes obey a divergent
+radar lower bound as that horizon is approached. These distinctions prevent a
+finite affine endpoint from silently becoming radar distance or X_max. None
+proves whole-postulate insufficiency or a required new premise.
+
+The next proposed bounded scientific step is the actual two-dimensional
+source-screen/Jacobi map for the same metric and declared branch. Determine how
+the affine endpoint and clock pole appear in geometric source-size/angle records,
+retaining caustics, screen identification and existing reciprocity. Do not assume
+affine equals D_A, add a flux/matter law, fit data or reopen paused source programs.
+Physical selection of this comparison and native response admission remain
+separate gates; identical geometry and physically matched GR queries still
+produce identical records. The [fixed OAA1 return and proposed scope](udt_operational_asymptote_attachment_2026-10-04/DECISION_BRIEF.md)
+state the reviewed result, resource/review bounds and next decision. Stop for
+lay discussion; no automatic successor, larger solve or protected-work restart.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -5932,6 +6063,16 @@ covers positive conditional uses and narrowed negative claims, including the
 nonspaceform DDR distinction and open asymptote attachment. Final file-hash
 review and required regression receipts are separate from scientific proof;
 none supplies a new physical premise or empirical confirmation.
+
+OAA1's two fresh source-first/exposed/final contexts independently reconstruct
+the affine limit and causal/radar distinction, replay actual saved incidences,
+and check the exact ceiling counterexample. Its [work record](udt_operational_asymptote_attachment_2026-10-04/WORK_RECORD.md)
+states shared-model/library exposure, the preserved early-branch failure,
+reviewer resource-enforcement repair and narrowed eventual-tail wording. The
+[descendant review](udt_operational_asymptote_attachment_2026-10-04/DESCENDANT_REVIEW.md)
+updates distance, scale, optical and adverse uses together. Exact rational proof,
+finite arithmetic, independent review and version checks remain distinct; no
+native, empirical, full-corpus or universal-distance claim is inferred.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

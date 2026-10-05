@@ -1,0 +1,14 @@
+{
+  "budget": "30 finite floating-point cases; eighteen rational checks plus controls initial and eighteen after wrapper repair, conservative total66<=100",
+  "code_sha256": "4b39c31053f55a17ae23de24ffaa595c517eb3feab604f075dee7384c87c2110",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python3 udt_operational_asymptote_attachment_2026-10-04/review_math/check_exact_certificate.py > udt_operational_asymptote_attachment_2026-10-04/review_math/exact_certificate_stdout.txt 2> udt_operational_asymptote_attachment_2026-10-04/review_math/exact_certificate_stderr.txt",
+  "initial_files": {
+    "EXACT_CERTIFICATE_FREEZE.json": "92bc24fcfb24a2721ff994fc1dc5652760323f446ad69ec8c400ca13552aeefe",
+    "EXACT_CERTIFICATE_RESULT.json": "2ce30a5de198b15c585ea12bea53868806bd9708cc758081bb4a9bf5afafece3",
+    "check_exact_certificate.py": "098346ebf5bd10cd6ceef8c34e2869102d602738ddf23fe50ca1fee028498986",
+    "exact_certificate_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exact_certificate_stdout.txt": "2ce30a5de198b15c585ea12bea53868806bd9708cc758081bb4a9bf5afafece3"
+  },
+  "reason": "First exact rational pass omitted enforcement of the declared 2GiB address-space cap. Preserve every initial code/freeze/output in exact_initial; add only RLIMIT_AS enforcement and rerun the identical certificate, tolerances and nine negative controls. No mathematical repair. Initial exact checks passed.",
+  "utc": "2026-10-05T03:16:49.238210+00:00"
+}

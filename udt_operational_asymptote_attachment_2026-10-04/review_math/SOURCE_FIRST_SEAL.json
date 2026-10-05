@@ -1,0 +1,13 @@
+{
+  "files": {
+    "SOURCE_FIRST.md": "f9a0eb860a0dea0c150d27687996f8d47f8ae9c5f7e589c9c55e73f620252d9f",
+    "SOURCE_FIRST_FREEZE.json": "928eaa2fe58bc956fc70062ce0dc267be828d3ea97fbd9e83c98ed5ad4b5067e",
+    "SOURCE_FIRST_RESULT.json": "5d3f34ab7eea5ac98f96766cae0da601f07571e295417a72bcd4da25219c5053",
+    "source_first_check.py": "a2644fc943243be30997413009e9bf6c494ddb6893dd68dda823cd40e953e157",
+    "source_first_raw.jsonl": "9c59b4b1e3d6d73da9b327bfe14a6f805fae60dbdfb5b2cd1b9f9e3865599bb0",
+    "source_first_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_first_stdout.txt": "9e92614dc6520f168a132e2b5975a49f7865eac2cf66d2f552ba7a475bd086a0"
+  },
+  "stage": "source-first sealed before parent OAA1 candidate/code/results exposure",
+  "utc": "2026-10-05T03:11:55.157677+00:00"
+}
