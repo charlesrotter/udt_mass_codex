@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — FRI1 finite-record scale bounds and ambiguity reviewed,
+**Current development — PIA1 physical clock/source interface audited,
 2026-10-05.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,34 +35,38 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FRI1 moves the conditional scale question to finite
-records. Exact bounds on the actual clock history give a finite H enclosure
-with explicit source drift, measurement and timestamp uncertainty. Frozen
-longer-record controls yield total interval widths about1.902% of the input H,
-including a receiver-energy change. These are deterministic conditional bounds,
-not observational error bars or an adopted geometry.
+**Current learning.** PIA1 independently audits whether real clock/source
+protocols justify FRI1's observing regime and error bounds. Its supplied tail
+requires a TOTAL paired-clock ratio Z>54180, alongside particular source/
+receiver preparation. No complete physical admission is supplied by the three
+reviewed protocol classes: engineered atomic links, pulsar timing, or resolved
+megamaser monitoring. This is a scoped missing interface, not a no-go for UDT
+or every possible finite experiment.
 
-The shorter record has a proved factor2 ambiguity: two different scales can
-match the same finite timing AND angular means within the declared errors,
-even with stable sources. They are compared at the same calibrated times.
-This is not equality of noiseless curves or a no-go for every finite record.
+FRI1's finite H enclosure and short-record factor2 ambiguity survive under
+their original conditions. The longer synthetic interval's1.902% total width
+is not an experimental precision forecast. Precise clocks alone do not admit
+the geometry. Published source/model/frame reductions and statistical errors
+cannot silently replace actual clock ratios or all-time deterministic bounds.
 
-The supplied shape/tail domain is scale invariant and does not give a known
-source ruler. Its physical admission, finite readout errors, source drift and
-angular reference remain explicit conditions. c_E converts clock data to length;
-G_obs has no newly derived independent mass/density interface. Matched GR gives
-the same records; native geometry/comparison selection and X_max remain open.
+PIA1 derives a finite mean-frequency/mean-log conversion bound, retains source
+and receiver calibration separately, and explains how a justified JOINT error
+model could supply conditional coverage. No such physical model is adopted.
+c_E converts calibrated time; G_obs supplies no new mass interface. Matched GR
+still gives the same records; native geometry/comparison selection and X_max
+remain open.
 
-Parent exact-rational/finite controls and two actual fresh contexts support
-the argument and independently replay saved incidences and uncertainty bounds.
-Formula exposure, reused parent evaluator and shared-model/library limits are
-recorded. Final semantic/hash bindings and required checks own closure.
+Two actual fresh source-first/exposed/final contexts check the algebra and
+saved arithmetic; the fidelity reviewer also checks the five primary sources.
+Shared model and exposure limits, initial candidate and review clarifications
+are retained. Exact final bindings and required checks own closure.
 
-After orientation read R16FRI/R18, with R16TSI and R8CPR as dependencies.
-The proposed next bounded step is to audit independent physical support for
-the shape/tail, source-drift and finite-readout conditions before claiming an
-empirical scale. Stop for lay discussion; no automatic successor, data fit,
-new physical premise, large solve or parked/protected program restart.
+After orientation read R16PIA/R18, with R16FRI/R16TSI and R8ACP as dependencies.
+The proposed next bounded step is to test a specified moderate-ratio protocol
+for applicability and scale sensitivity or explicit ambiguity in the same
+conditional metric. The tail certificate does not transfer. Stop for lay
+discussion; no automatic successor, data fit, new physical premise, large solve
+or parked/protected program restart.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -4072,7 +4076,102 @@ preserve the exact bounds, actual finite records, review exposure and limits.
 Finite conditional inversion is now established for the stated domain and
 interfaces; real tail/source/error admission and native geometry selection
 remain open. Matched GR gives the same records. The [return brief](udt_finite_record_scale_test_2026-10-05/DECISION_BRIEF.md)
-proposes checking those physical interfaces before claiming empirical scale.
+preserves the earlier proposal. R16PIA below now audits those physical
+interfaces and finds a concrete missing admission, without changing this
+conditional enclosure or the adverse finite-record witness.
+
+
+<a id="r16pia"></a>
+
+#### Physical clock/source admission — PIA1
+
+The independent interface audit finds no admitted physical realization of
+FRI1 among the three reviewed protocols. The obstacle is more specific than
+instrument precision: FRI1's supplied tail requires an extreme TOTAL clock
+ratio, a particular source/receiver geometry and independently justified error
+conditions. This does not refute FRI1's conditional inversion, UDT, or all
+possible finite experiments. It blocks presenting the1.902% synthetic width
+as an experimental accuracy forecast.
+
+From the existing class, h<=.85, B<=.0001, w<9 and alpha<=1.000000006 give
+
+    Z>54180, HR>=50000, R/a>=500000, R/m>=5000000.       (PIA1-1)
+
+The first inequality follows from Z=(1-wB)/(sqrt(h)alpha y) and the exact
+lower bound .9991/[sqrt(.85)*1.000000006*.00002]>54180. Also f(R)<0;
+the receiver is outside the supplied static region. These are implications
+of the conditional metric/query, not measurements, an extra redshift factor,
+or native UDT predictions. An independently valid upper bound on the actual
+paired-clock total Z below54180 would reject THIS class. An unknown source
+normalization or a reduced systemic spectral proxy cannot supply it directly.
+Large Z alone does not establish the class. Exact principal B_*=0 preparation
+and entire-support-hull admission remain unverified by finite angular samples.
+
+Writing K=c_E H and C=K T_seconds gives a/c_E=A T/C and R/c_E>=50000 T/C.
+For the BASE synthetic history the long control has C=1, short C=.008 and
+K delta=.0005. Its homothetic companion has half those values at the same
+calibrated times. Changing H to shorten the observing period also changes
+the required geometry. No time in years is established; R remains areal
+radius, not an observed distance, travel time or X_max. G has no new mass
+interface and H has not been identified with an observed Hubble rate.
+
+**Source and instrument interfaces.** Ordinary proper-clock kinematics give
+nu_o=nu_e/Z, so FRI1's Y is -log(nu_o/nu_ref). An independently supported
+emitter-time drift bound Q_e transfers to receiver seconds as q_seconds<=Q_e/Zmin,
+only once the needed Z lower bound is independently admitted over the interval.
+Source calibration, reference stability, finite pulse/cycle resolution and
+visibility are additional physical interfaces. Bounded frequency amplitude or
+sampled stability does not by itself bound the derivative through all gaps.
+Allowing arbitrary source drift defeats timing identification: replacing
+nu_e1 by nu_e2=nu_e1 Z2/Z1 along each history gives identical nu_o.
+This is an ambiguity outside FRI1's q restriction, not a new source law.
+
+A uniform phase-window counter measures mean frequency, whereas FRI1 uses
+mean log-frequency. If |Y'|<=M on a window of width delta, then
+
+    0<=mean Y + log(mean exp(-Y)) <= M² delta²/8.         (PIA1-2)
+
+The proof bounds the variance of Y under exponential reweighting by one
+quarter of its squared range and integrates twice. The base long-control
+values bound the bias by3.13438203125e-8. It can be budgeted or corrected;
+this does not certify any real counter. An independent M or an H-dependent
+compatibility calculation is needed, not substitution of the desired H.
+Actual weighting, gating, dead time, clock rate and width calibration need
+their own reductions. Timestamp-center error does not automatically cover them.
+
+The nominal epsilon_z=.003 allows at most about.29955% uniform fractional
+frequency error if this were the sole error. The angular tolerance5e-8rad is
+about10.313mas in the declared parallel radial frame. Physical budgets must
+include transfer/reference/estimator errors and angular-frame registration,
+motion and feature stability. Relative position precision alone does not fix
+the frame; an unknown rotation can mimic the angular drift.
+
+**Three reviewed protocol classes.** [Primary-source audit](udt_physical_clock_interface_audit_2026-10-05/SOURCES.md)
+links the methods and qualifications, with published outcomes exposed.
+Engineered atomic-clock links support precise calibrated frequency transfer
+in their tested local setup, but do not realize this extreme-tail geometry.
+The reviewed pulsar protocol fits unknown spin/spin-down; residual precision
+does not independently bound the secular source rate needed here. Megamaser
+monitoring supplies spectral and angular records, but feature/disk reductions
+are not FRI1's means/frame. The existing near-unity systemic proxies do not
+certify the extreme paired-clock regime; no new likelihood exclusion is made.
+
+Published statistical uncertainty is not a deterministic all-time bound.
+This does not require unattainable absolute empirical certainty: for each
+fixed admitted history, a measurement model giving the JOINT required-bound
+event probability>=1-p transfers that coverage to the deterministic H enclosure.
+Conditional component failure probabilities can be combined by a union bound,
+without independence. No such instrument model or coverage certificate is
+supplied here; pointwise errors alone do not certify a whole observing hull.
+
+The [initial argument](udt_physical_clock_interface_audit_2026-10-05/INITIAL_CANDIDATE.md),
+[review clarifications](udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md)
+and [descendant review](udt_physical_clock_interface_audit_2026-10-05/DESCENDANT_REVIEW.md)
+preserve positive and negative scope. The supported return is an explicit
+missing physical interface. FRI1 remains a tool; native geometry selection,
+physical mass/X_max and an additional effect beyond matched GR remain open.
+The [decision brief](udt_physical_clock_interface_audit_2026-10-05/DECISION_BRIEF.md)
+proposes testing a specified moderate-regime protocol before any empirical fit.
 
 
 <a id="r16fcw"></a>
@@ -5369,14 +5468,20 @@ range, while a short finite timing-and-angle record provably admits two scales
 differing by2. These are compatible conditional conclusions, not a universal
 identifiability or non-identifiability theorem.
 
-The remaining practical gate is independent physical admission of the shape/
-tail, source-frequency bound and finite-window readout errors. They were supplied
-conditions, not established from these records or from a native matter/light law.
-The [fixed FRI1 return and proposed scope](udt_finite_record_scale_test_2026-10-05/DECISION_BRIEF.md)
-proposes a bounded interface audit before empirical inference. Native metric/
-comparison selection remains separate; matched GR gives the same records.
-Stop for lay discussion; no automatic successor, fit, larger solve or protected
-work restart.
+PIA1 in R16PIA now audits that practical gate. The conditional class requires
+total Z>54180; no complete independent shape/tail/source/frame/error admission
+is supplied by the three reviewed physical protocols. FRI1's positive enclosure
+and negative short-record witness survive, but the synthetic1.902% width is
+not an instrument forecast. An independently valid actual-Z bound could reject
+this class; reduced astronomical proxies do not establish that test directly.
+
+The [PIA1 return and proposed scope](udt_physical_clock_interface_audit_2026-10-05/DECISION_BRIEF.md)
+recommends examining a specified moderate-ratio protocol in the same conditional
+metric, deriving applicable readouts and sensitivity or an explicit ambiguity.
+The extreme-tail error certificate cannot be transplanted. Native metric/
+comparison selection is separate; matched GR still gives the same records.
+Stop for lay discussion; no automatic successor, fit, larger solve, new
+source law or protected/parked restart.
 
 NGD1's numerical return in R12N adds a validated comparison tool and finite
 nonlinear clock-shift histories. Its positive contribution relative to a specified
@@ -6471,6 +6576,14 @@ discloses source-first leads, parent evaluator reuse and shared-model/library
 limits. The [descendant review](udt_finite_record_scale_test_2026-10-05/DESCENDANT_REVIEW.md)
 updates both the positive finite calibration and the adverse short-record
 ambiguity without extending either to native selection or real instruments.
+
+PIA1 adds two actual fresh contexts with independent arithmetic/argument
+checks and an independent primary-source methods audit. Its
+[work record](udt_physical_clock_interface_audit_2026-10-05/WORK_RECORD.md)
+distinguishes same-model review from physical instrument validation. The
+[source-preserving repair](udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md)
+clarifies conditional coverage, base-history schedules, total-Z admission and
+actual instrument weighting. No FRI1 equation or registry grade changes.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

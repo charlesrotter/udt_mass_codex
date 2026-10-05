@@ -1,0 +1,8 @@
+{
+  "status": "REVIEW_AND_REQUIRED_CHECKS_PASS",
+  "head_before_commit": "0c5386a6a6749de9dec6d4524b2fbdc1dbed5981",
+  "origin_before_commit": "0c5386a6a6749de9dec6d4524b2fbdc1dbed5981",
+  "preserved_existing_untracked_names": 76,
+  "accepted_files": 14580,
+  "claim_limit": "PIA1 conditional physical clock/source interface audit of the existing FRI1 domain: extreme total-ratio and geometric requirements, finite readout conversion and source/error admission. Three primary-source protocol classes supply no complete physical admission. No empirical exclusion, native selection, source law, mass or X_max adoption."
+}

@@ -1,27 +1,27 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — FRI1 finite-record return, 2026-10-05
+## CURRENT STATE — PIA1 physical-interface return, 2026-10-05
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. After orientation read R16FRI/R18, with R16TSI/R8CPR as needed.
+orientation. After orientation read R16PIA/R18, with R16FRI/R16TSI/R8ACP as needed.
 
-After TSI1 at37c08648, Charles explicitly authorized finite timing/angular
-records with uncertainty, seeking scale recovery or demonstrable ambiguity.
-FRI1 evidence is in udt_finite_record_scale_test_2026-10-05/; WORK_ORDER owns
-scope/stops. Two fresh source-first/exposed/final contexts reconstruct the
-argument and recompute saved quantities. Exposure and evaluator reuse are
-recorded. Actual final attestations, normal/maintenance/full406 receipts and
-committed/remote byte checks own closure. Verify HEAD, remote and dirt yourself.
+After FRI1 at0c5386a6, Charles authorized an independent physical clock/source
+audit of the observation regime and uncertainty bounds. PIA1 evidence is in
+udt_physical_clock_interface_audit_2026-10-05/; WORK_ORDER owns scope/stops.
+Two fresh source-first/exposed/final contexts audit arguments and saved arithmetic;
+primary-source verification and exposure are recorded. Actual final attestations,
+normal/maintenance/full406 receipts and committed/remote byte checks own closure.
+Verify actual HEAD, remote and dirt yourself.
 
-Next: Stop for lay discussion of FRI1. R18 and DECISION_BRIEF distinguish
-finite conditional bounds/ambiguity from independent physical source/error
-admission and native selection. A bounded interface audit is proposed for
-subsequent authorization. No new physical premise, response law, registry grade
-or X_max is adopted. No GPU/long production or parked/protected program restart.
-Standing pauses, preservation, no-timeout/manual-stop and resource rules persist.
+Next: Stop for lay discussion of PIA1's scoped missing physical interface.
+R18 and DECISION_BRIEF propose a subsequent bounded moderate-regime applicability/
+ambiguity test. No automatic successor, physical premise, source law, registry
+grade, empirical fit or X_max adoption. No GPU/long production or parked/
+protected program restart. Standing preservation, no-timeout/manual-stop and
+resource rules persist.
 
 ### Honest claim
 
@@ -54,10 +54,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Use central R16FRI/R18 and FRI1's decision brief for finite conditional scale
-bounds/ambiguity and the physical-interface gate. Native response/metric and
-empirical admission remain open. Verify final review, required checks and
-banking evidence. Pauses/protected boundaries persist;
+Use central R16PIA/R18 and PIA1's decision brief for the physical-interface
+audit and proposed bounded successor. FRI1 remains a conditional tool; physical
+admission and native selection remain open. Verify actual final review, required
+checks and banking evidence. Pauses/protected boundaries persist;
 TPS1 raw fields/large streams remain local-only, not remotely replayable.
 
 <!-- STARTUP_CURRENT_END -->

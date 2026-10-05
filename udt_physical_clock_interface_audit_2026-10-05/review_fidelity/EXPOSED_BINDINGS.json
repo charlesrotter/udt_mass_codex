@@ -1,0 +1,36 @@
+{
+  "reviewer": "/root/pia_fidelity",
+  "stage": "exposed repaired argument and proposed integration review",
+  "utc": "2026-10-05T20:27:42.808375+00:00",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "independence": {
+    "actual_separate_context": true,
+    "different_model": false,
+    "different_implementation": true,
+    "primary_sources_opened_independently": 5,
+    "parent_code_used": false,
+    "parent_numeric_result_read_after_own_controls": true
+  },
+  "controls": {
+    "run": 7,
+    "passed": 7,
+    "failures": 0
+  },
+  "files": {
+    "udt_physical_clock_interface_audit_2026-10-05/INITIAL_CANDIDATE.md": "2ff05d5321e894935e2843738209e61ad081e191cd630e591c929b3bfb1a7ca5",
+    "udt_physical_clock_interface_audit_2026-10-05/SOURCES.md": "c7385bb4ccef29264157cc0d9205bb37e402a83431bc20ac8b65e27b826f25be",
+    "udt_physical_clock_interface_audit_2026-10-05/CLARIFICATIONS.md": "cb9eaf936c4244c8953c5998ccdf23c24a82d2d845b144bd76f63f53e6063158",
+    "udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md": "564b27a331eedab4e7fc888c094060925f74e957b0f437de5a504225cf11c2a9",
+    "udt_physical_clock_interface_audit_2026-10-05/CENTRAL_INSERT.md": "10020694a38a694ae5c12658aa8d341ee2cce2112098190f69c27d1c1454b049",
+    "udt_physical_clock_interface_audit_2026-10-05/DESCENDANT_REVIEW.md": "eefd6173e9a322b3bc6322a5e975d308841759ac19111918d908a8ee9cf8e17a",
+    "udt_physical_clock_interface_audit_2026-10-05/DECISION_BRIEF.md": "cea422a749d237b4c69482a800bef27d3e2092a879b0f6a39150c4bac9dbf338",
+    "udt_physical_clock_interface_audit_2026-10-05/CONSTRUCTION_RESULT.json": "6b2981ae539c371159ed3d0c556dd405264d84844d32fb250321c2857f9c69b0",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/SOURCE_FIRST.md": "80977bbed481abcbf70c394987ca4845c79e9125693bec625767e8ae5d5bab61",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/SOURCE_FIRST_BINDINGS.json": "6745f0664f7b333cb0469b92d3c7f7aec859c351da216bcb15e65dbfaa924d9f",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/CONTROL_FREEZE.md": "c595790f965356b72bacbeca4e559d499e710ef172ca33e7586dd030ad63d7cd",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/independent_controls.py": "9c1bc922dfbd3495a777c0f28ca42568a7a2ba554988c816dfbfa71c605f2928",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/controls.stdout.json": "0eddf499e6dbabeaadfad3583546dbbde587a10372d6a43a7afa7b129cadcb2f",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/EXPOSED_REVIEW.md": "807e4b780ce254a7b653b9a283d4f4f3c350f9531c5203483758e86f715d1438"
+  }
+}

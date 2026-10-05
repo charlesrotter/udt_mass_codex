@@ -1,23 +1,17 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-05T20:31:50.883579+00:00",
-  "scope": "PIA1 conditional physical clock/source interface audit of the existing FRI1 domain: extreme total-ratio and geometric requirements, finite readout conversion and source/error admission. Three primary-source protocol classes supply no complete physical admission. No empirical exclusion, native selection, source law, mass or X_max adoption.",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts. Independent algebra and arithmetic implementations; fidelity reviewer directly rechecks the five primary-source methods. Discovery leads exchanged, saved outputs exposed after independent controls. Shared model/premises/Python, some libraries; no different-model/human/instrument validation/formal or empirical confirmation.",
-  "freeze": "udt_physical_clock_interface_audit_2026-10-05/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "664a2e96fa48d8a12ca38e64befd73c263dd30cb2e023a0ea0059bbf49c9f606",
-  "prior_review_record": "udt_physical_clock_interface_audit_2026-10-05/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "761811e0de1da5eeaa123f4f382c3031a8ed141c805297c119cdd8b3cd00e25c",
-  "reviewers": [
-    {
-      "context": "/root/pia_math",
-      "attestation": "udt_physical_clock_interface_audit_2026-10-05/review_math/FINAL_ATTESTATION.json",
-      "sha256": "4bee811998f49792fd62172f2c0bbcadd4d9d805f1624ded27dfd12b7d91850d"
-    },
-    {
-      "context": "/root/pia_fidelity",
-      "attestation": "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "8174bcab6c2a17daa201f9f8e4a6fd6fca45cea2a3d791c223a71a7600671b53"
-    }
+  "context": "/root/pia_math",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "created_utc": "2026-10-05T20:31:34.443037+00:00",
+  "report_path": "udt_physical_clock_interface_audit_2026-10-05/review_math/FINAL_REVIEW.md",
+  "report_sha256": "87812a449f1fbe735166a45148d1ae35f2f60277a923824c386624368bde9737",
+  "integration_freeze_path": "udt_physical_clock_interface_audit_2026-10-05/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "664a2e96fa48d8a12ca38e64befd73c263dd30cb2e023a0ea0059bbf49c9f606",
+  "independence": "Actual separate same-model-family context. Owned FRI/TSI sources exposed; independent source-first algebra and 12 standard-library controls before parent candidate/code exposure. Discovery leads exchanged. Parent arithmetic code first read only at final review. No parent evaluator import, different-model, human, formal, empirical or instrument-validation claim. External primary-source transcription attributed to parent/fidelity reviewer.",
+  "scope": "Conditional FRI1 physical clock/source interface implications and actual final semantic integration review; all 14580 accepted hashes independently checked after excluding protected lexical/resolved prefixes. No physical/native/empirical/canon promotion.",
+  "pending_banking_checks": [
+    "actual attestation binding",
+    "final normal bound and full406 receipts",
+    "manifest/stage/commit/push/remote verification"
   ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",

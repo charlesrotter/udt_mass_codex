@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "count": 12,
+  "controls": [
+    {
+      "name": "conservative_Z_lower_bound",
+      "pass": true,
+      "lower_bound": 54183.80477655202,
+      "exact_squared_numerator": 12477510125000000000000000000,
+      "exact_squared_denominator": 4250000051000000153
+    },
+    {
+      "name": "areal_R_over_a",
+      "pass": true,
+      "lower_bound": 500000
+    },
+    {
+      "name": "areal_R_over_m",
+      "pass": true,
+      "lower_bound": 5000000
+    },
+    {
+      "name": "C_equal_one_source_radius_to_duration",
+      "pass": true,
+      "a_over_c_duration": [
+        0.05,
+        0.1
+      ],
+      "R_over_c_duration_lower": 50000
+    },
+    {
+      "name": "emitter_drift_chain_rule",
+      "pass": true,
+      "numeric": 1.0347405096587637e-06,
+      "expected": 1.0347405095033505e-06,
+      "emitter_time": 6.282197960157916e-06
+    },
+    {
+      "name": "future_emitter_endpoint_enclosure",
+      "pass": true,
+      "lower": 4.924873322878325e-05,
+      "exact": 4.9273357595397637e-05,
+      "upper": 4.9298006598696986e-05
+    },
+    {
+      "name": "pulse_count_necessary_bound",
+      "pass": true,
+      "maximum_count": 2,
+      "hypothetical_receiver_duration": "1",
+      "hypothetical_emitter_spacing": "1/100000"
+    },
+    {
+      "name": "equal_translated_window_difference",
+      "pass": true,
+      "mean_difference": "3"
+    },
+    {
+      "name": "unequal_width_Lipschitz_bound_sharp_control",
+      "pass": true,
+      "error": "3/20",
+      "bound_formula": "L*abs(delta1-delta0)/4"
+    },
+    {
+      "name": "log_mean_is_not_mean_log",
+      "pass": true,
+      "Jensen_bias_by_center": [
+        7.092979606905352e-05,
+        0.02631766247007572
+      ],
+      "centers": [
+        0,
+        1
+      ],
+      "width": 0.4,
+      "quadrature": "composite Simpson 4096 subdivisions, non-certifying float64 control"
+    },
+    {
+      "name": "receiver_time_scale_calibration",
+      "pass": true,
+      "ratio_measured_to_true": "1000/1001"
+    },
+    {
+      "name": "frame_rate_difference_survives_window_average",
+      "pass": true,
+      "frame_mean_difference": "1/5000"
+    }
+  ]
+}

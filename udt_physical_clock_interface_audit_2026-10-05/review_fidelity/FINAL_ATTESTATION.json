@@ -1,24 +1,9 @@
 {
-  "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-05T20:31:50.883579+00:00",
-  "scope": "PIA1 conditional physical clock/source interface audit of the existing FRI1 domain: extreme total-ratio and geometric requirements, finite readout conversion and source/error admission. Three primary-source protocol classes supply no complete physical admission. No empirical exclusion, native selection, source law, mass or X_max adoption.",
-  "independence": "Two actual fresh same-model source-first/exposed/final contexts. Independent algebra and arithmetic implementations; fidelity reviewer directly rechecks the five primary-source methods. Discovery leads exchanged, saved outputs exposed after independent controls. Shared model/premises/Python, some libraries; no different-model/human/instrument validation/formal or empirical confirmation.",
-  "freeze": "udt_physical_clock_interface_audit_2026-10-05/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "664a2e96fa48d8a12ca38e64befd73c263dd30cb2e023a0ea0059bbf49c9f606",
-  "prior_review_record": "udt_physical_clock_interface_audit_2026-10-05/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "761811e0de1da5eeaa123f4f382c3031a8ed141c805297c119cdd8b3cd00e25c",
-  "reviewers": [
-    {
-      "context": "/root/pia_math",
-      "attestation": "udt_physical_clock_interface_audit_2026-10-05/review_math/FINAL_ATTESTATION.json",
-      "sha256": "4bee811998f49792fd62172f2c0bbcadd4d9d805f1624ded27dfd12b7d91850d"
-    },
-    {
-      "context": "/root/pia_fidelity",
-      "attestation": "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "8174bcab6c2a17daa201f9f8e4a6fd6fca45cea2a3d791c223a71a7600671b53"
-    }
-  ],
+  "context": "/root/pia_fidelity",
+  "verdict": "ACCEPT_WITH_LIMITS",
+  "utc": "2026-10-05T20:31:26.151273+00:00",
+  "report_path": "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/FINAL_REVIEW.md",
+  "report_sha256": "b4df3eade7719a6414440e5fa139da3d751bd00b92abc4fb6c3cdaab942bc22b",
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
     "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
@@ -14600,5 +14585,8 @@
     "udt_timing_scale_identifiability_2026-10-05/review_math/source_first.stdout": "76df198fab9a0cda2e908cc2f91f3d437b3d951401fbf90cafcf03c0737fea62",
     "verify_current_scientific_premises.py": "a983c2456ce3a122629a116c735b32b96e055829ed3012fb416fabfa9b0b8127",
     "verify_udt_development.py": "555e2733fa04c609874802369983f73b4a1d8a79610488d9dc732b1acfb0c2fa"
-  }
+  },
+  "integration_freeze_sha256": "664a2e96fa48d8a12ca38e64befd73c263dd30cb2e023a0ea0059bbf49c9f606",
+  "independence": "Actual separate context; same inherited model; independently opened five primary methods; independent seven-control implementation; exposed repair and final semantic reread; no parent code imports",
+  "scope": "Conditional PIA1 physical-interface audit and central integration; no empirical admission or scientific promotion"
 }

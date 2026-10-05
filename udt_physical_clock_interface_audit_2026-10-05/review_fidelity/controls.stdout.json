@@ -1,0 +1,84 @@
+{
+  "schema": "PIA1-independent-fidelity-controls-1",
+  "python": "3.10.12",
+  "implementation": "independent standard-library formulas; no parent imports",
+  "limits": {
+    "RLIMIT_AS": [
+      2147483648,
+      2147483648
+    ],
+    "BLAS_threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "timeout": null
+  },
+  "control_count": 7,
+  "all_passed": true,
+  "controls": [
+    {
+      "name": "P1_positive_squared_threshold",
+      "passed": true,
+      "squared_exact": "12477510125000000000000000000/4250000051000000153",
+      "illustrative_Z": 54183.80477655202
+    },
+    {
+      "name": "geometry_ratios",
+      "passed": true,
+      "exact": [
+        "50000",
+        "500000",
+        "5000000",
+        "1/20",
+        "1/5"
+      ]
+    },
+    {
+      "name": "phase_to_log_mean_counterexample",
+      "passed": true,
+      "phase_average_exact": "1",
+      "mean_log": -0.14384103622589045,
+      "positive_bias": 0.14384103622589045,
+      "range_only_bound": 0.15086862010157276
+    },
+    {
+      "name": "P3_long_control_bound",
+      "passed": true,
+      "M_exact": "2003/400000",
+      "bias_exact": "4012009/128000000000000",
+      "bias_float": 3.13438203125e-08
+    },
+    {
+      "name": "frequency_and_angle_conversions",
+      "passed": true,
+      "fractional_frequency_envelope": 0.002995504496627024,
+      "milliarcseconds": 10.313240312354818
+    },
+    {
+      "name": "comparison_only_optical_proxies",
+      "passed": true,
+      "values": [
+        1.0110739943964835,
+        1.033998853967167,
+        1.0260230028868838,
+        1.0284386740643088,
+        1.0239238840358018,
+        1.002265900898681
+      ],
+      "minimum": 1.002265900898681,
+      "maximum": 1.033998853967167,
+      "status": "model/frame proxies; not direct total-Z observations"
+    },
+    {
+      "name": "FRI_control_dimensionless_ratios",
+      "passed": true,
+      "exact": [
+        "1",
+        "1/125",
+        "1/2000",
+        "1/1000"
+      ]
+    }
+  ]
+}

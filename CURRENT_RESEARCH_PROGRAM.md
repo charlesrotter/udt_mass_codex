@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — FRI1 finite-record scale bounds and ambiguity reviewed,
+**Current development — PIA1 physical clock/source interface audited,
 2026-10-05.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,34 +39,38 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FRI1 moves the conditional scale question to finite
-records. Exact bounds on the actual clock history give a finite H enclosure
-with explicit source drift, measurement and timestamp uncertainty. Frozen
-longer-record controls yield total interval widths about1.902% of the input H,
-including a receiver-energy change. These are deterministic conditional bounds,
-not observational error bars or an adopted geometry.
+**Current learning.** PIA1 independently audits whether real clock/source
+protocols justify FRI1's observing regime and error bounds. Its supplied tail
+requires a TOTAL paired-clock ratio Z>54180, alongside particular source/
+receiver preparation. No complete physical admission is supplied by the three
+reviewed protocol classes: engineered atomic links, pulsar timing, or resolved
+megamaser monitoring. This is a scoped missing interface, not a no-go for UDT
+or every possible finite experiment.
 
-The shorter record has a proved factor2 ambiguity: two different scales can
-match the same finite timing AND angular means within the declared errors,
-even with stable sources. They are compared at the same calibrated times.
-This is not equality of noiseless curves or a no-go for every finite record.
+FRI1's finite H enclosure and short-record factor2 ambiguity survive under
+their original conditions. The longer synthetic interval's1.902% total width
+is not an experimental precision forecast. Precise clocks alone do not admit
+the geometry. Published source/model/frame reductions and statistical errors
+cannot silently replace actual clock ratios or all-time deterministic bounds.
 
-The supplied shape/tail domain is scale invariant and does not give a known
-source ruler. Its physical admission, finite readout errors, source drift and
-angular reference remain explicit conditions. c_E converts clock data to length;
-G_obs has no newly derived independent mass/density interface. Matched GR gives
-the same records; native geometry/comparison selection and X_max remain open.
+PIA1 derives a finite mean-frequency/mean-log conversion bound, retains source
+and receiver calibration separately, and explains how a justified JOINT error
+model could supply conditional coverage. No such physical model is adopted.
+c_E converts calibrated time; G_obs supplies no new mass interface. Matched GR
+still gives the same records; native geometry/comparison selection and X_max
+remain open.
 
-Parent exact-rational/finite controls and two actual fresh contexts support
-the argument and independently replay saved incidences and uncertainty bounds.
-Formula exposure, reused parent evaluator and shared-model/library limits are
-recorded. Final semantic/hash bindings and required checks own closure.
+Two actual fresh source-first/exposed/final contexts check the algebra and
+saved arithmetic; the fidelity reviewer also checks the five primary sources.
+Shared model and exposure limits, initial candidate and review clarifications
+are retained. Exact final bindings and required checks own closure.
 
-After orientation read R16FRI/R18, with R16TSI and R8CPR as dependencies.
-The proposed next bounded step is to audit independent physical support for
-the shape/tail, source-drift and finite-readout conditions before claiming an
-empirical scale. Stop for lay discussion; no automatic successor, data fit,
-new physical premise, large solve or parked/protected program restart.
+After orientation read R16PIA/R18, with R16FRI/R16TSI and R8ACP as dependencies.
+The proposed next bounded step is to test a specified moderate-ratio protocol
+for applicability and scale sensitivity or explicit ambiguity in the same
+conditional metric. The tail certificate does not transfer. Stop for lay
+discussion; no automatic successor, data fit, new physical premise, large solve
+or parked/protected program restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

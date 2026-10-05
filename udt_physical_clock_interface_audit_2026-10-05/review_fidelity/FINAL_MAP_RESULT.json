@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "Version correspondence only; separate FINAL_REVIEW owns semantics",
+  "freeze_sha256": "664a2e96fa48d8a12ca38e64befd73c263dd30cb2e023a0ea0059bbf49c9f606",
+  "accepted_count": 14580,
+  "head": "0c5386a6a6749de9dec6d4524b2fbdc1dbed5981",
+  "checks": {
+    "no_protected_paths_opened": true,
+    "all_frozen_hashes_match": true,
+    "changed_inherited_exact": true,
+    "generated_orientation_exact": true,
+    "reviewed_insert_present_exactly_once": true,
+    "freeze_hash_matches_parent_dispatch": true
+  },
+  "mismatches": [],
+  "changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-05T20:29:37.478847+00:00",
+  "freeze_sha256": "664a2e96fa48d8a12ca38e64befd73c263dd30cb2e023a0ea0059bbf49c9f606",
+  "accepted_count": 14580,
+  "hashed_bytes": 2348978360,
+  "protected_name_or_resolution_count": 0,
+  "mismatch_paths": [],
+  "actual_changed_inherited": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "declared_changed_match": true,
+  "HEAD": "0c5386a6a6749de9dec6d4524b2fbdc1dbed5981",
+  "branch": "grok"
+}

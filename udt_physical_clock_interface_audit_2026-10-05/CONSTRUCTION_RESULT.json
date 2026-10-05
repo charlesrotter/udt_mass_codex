@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "cases": 10,
+  "scope": "Exact arithmetic and70-digit illustrative anchors; written argument owns continuum bounds. No numerical interval certification, observation, source-law derivation or domain admission.",
+  "python": "3.10.12",
+  "mpmath": "1.3.0",
+  "dps": 70,
+  "script_sha256": "3e37dd55d376f89ade317f67eb35833542263189a95e7aebf5385cb201d3eb3c",
+  "checks": [
+    {
+      "name": "exact_squared_Z_floor",
+      "status": "PASS",
+      "floor_squared": "12477510125000000000000000000/4250000051000000153",
+      "decimal_floor": "54183.80477655201670200126587569362029528111895877572030852535596330535"
+    },
+    {
+      "name": "exact_shape_ratios",
+      "status": "PASS",
+      "R_over_a_min": "500000",
+      "R_over_m_min": "5000000"
+    },
+    {
+      "name": "exact_phase_estimator_bias",
+      "status": "PASS",
+      "bias": "4012009/128000000000000",
+      "decimal": "0.0000000313438203125"
+    },
+    {
+      "name": "linear_Y_phase_counter_control",
+      "status": "PASS",
+      "gap": "0.0000000104479400823347762695104151882110561533564725506397963433056408449688",
+      "bound": "0.0000000313438203125"
+    },
+    {
+      "name": "log_relative_error_conversion",
+      "status": "PASS",
+      "r": "0.002995504496627023987933765902439089258225195101552844092341066972354929"
+    },
+    {
+      "name": "angular_unit_conversion",
+      "status": "PASS",
+      "mas": "10.31324031235481775782366786653893065983298504398157787884884389501651"
+    },
+    {
+      "name": "long_short_duration_and_source_budget",
+      "status": "PASS",
+      "C_long": "1",
+      "C_short": "1/125",
+      "q_over_H": "1/1000"
+    },
+    {
+      "name": "unrestricted_source_drift_ambiguity",
+      "status": "PASS",
+      "Y1": "3/200",
+      "Y2": "3/200"
+    },
+    {
+      "name": "bounded_amplitude_not_rate_bound",
+      "status": "PASS",
+      "amplitude": "1/1000",
+      "peak_derivatives": "[Fraction(1, 1000), Fraction(1000, 1)]"
+    },
+    {
+      "name": "source_time_conversion",
+      "status": "PASS",
+      "emitter_Q": "1/100",
+      "receiver_q_upper": "1/5418000"
+    }
+  ]
+}

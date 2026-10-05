@@ -2794,6 +2794,41 @@
         "C_FRI_SHAPE",
         "C_FRI_RECORD"
       ]
+    },
+    {
+      "id": "O_PIA_ADMISSION",
+      "kind": "open_join",
+      "statement": "Independent physical extreme-tail/preparation/source/frame/readout admission remains missing for the three reviewed protocols. Statistical precision is not deterministic hull coverage. No empirical exclusion or all-experiment no-go.",
+      "sources": [
+        "udt_physical_clock_interface_audit_2026-10-05/WORK_ORDER.md",
+        "udt_physical_clock_interface_audit_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md",
+        "udt_physical_clock_interface_audit_2026-10-05/CLARIFICATIONS.md",
+        "udt_physical_clock_interface_audit_2026-10-05/SOURCES.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R16PIA",
+      "kind": "argument",
+      "anchor": "r16pia",
+      "title": "Physical clock/source regime and uncertainty audit",
+      "sources": [
+        "udt_physical_clock_interface_audit_2026-10-05/WORK_ORDER.md",
+        "udt_physical_clock_interface_audit_2026-10-05/INITIAL_CANDIDATE.md",
+        "udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md",
+        "udt_physical_clock_interface_audit_2026-10-05/CLARIFICATIONS.md",
+        "udt_physical_clock_interface_audit_2026-10-05/SOURCES.md",
+        "udt_physical_clock_interface_audit_2026-10-05/CONSTRUCTION_RESULT.json",
+        "udt_physical_clock_interface_audit_2026-10-05/check_interfaces.py",
+        "udt_physical_clock_interface_audit_2026-10-05/CANDIDATE_FREEZE.json",
+        "udt_physical_clock_interface_audit_2026-10-05/NUMERICAL_FREEZE.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_FRI_SHAPE",
+        "C_FRI_RECORD"
+      ]
     }
   ],
   "edges": [
@@ -5711,6 +5746,91 @@
       "from": "R16FRI",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "R16FRI",
+      "to": "R16PIA",
+      "kind": "proof"
+    },
+    {
+      "from": "C_FRI_SHAPE",
+      "to": "R16PIA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_FRI_RECORD",
+      "to": "R16PIA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "D1",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R8CPR",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACP",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R8OAA",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R13",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R16",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R16TSI",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "R17",
+      "to": "R16PIA",
+      "kind": "context"
+    },
+    {
+      "from": "O_PIA_ADMISSION",
+      "to": "R16PIA",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R16PIA",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -6036,7 +6156,16 @@
     "udt_finite_record_scale_test_2026-10-05/check_finite_records.py": "7880404d32b3dba4dc25081062ade05d4c8b45baca5bbd402b64afc9c75bce4f",
     "udt_finite_record_scale_test_2026-10-05/CANDIDATE_FREEZE.json": "64c2f1d4ad5c28eda98233e7a118daf2fef314628d170d792972d8004b9226ed",
     "udt_finite_record_scale_test_2026-10-05/NUMERICAL_FREEZE.md": "445ccbdeef2a4c6a6a3bac8c28b0a1cf0cfedab9e900a0929fe9bd52febc67a7",
-    "udt_finite_record_scale_test_2026-10-05/CLARIFICATIONS.md": "414229dcbc595102fb706c997b208d517ca2e6b8f2ed01b94b31194fb45c9a56"
+    "udt_finite_record_scale_test_2026-10-05/CLARIFICATIONS.md": "414229dcbc595102fb706c997b208d517ca2e6b8f2ed01b94b31194fb45c9a56",
+    "udt_physical_clock_interface_audit_2026-10-05/WORK_ORDER.md": "87e8e0b03188b910f3533c6fdab5b2c7dbcd38a0beabc2d5313237790cfc0f05",
+    "udt_physical_clock_interface_audit_2026-10-05/INITIAL_CANDIDATE.md": "2ff05d5321e894935e2843738209e61ad081e191cd630e591c929b3bfb1a7ca5",
+    "udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md": "564b27a331eedab4e7fc888c094060925f74e957b0f437de5a504225cf11c2a9",
+    "udt_physical_clock_interface_audit_2026-10-05/CLARIFICATIONS.md": "cb9eaf936c4244c8953c5998ccdf23c24a82d2d845b144bd76f63f53e6063158",
+    "udt_physical_clock_interface_audit_2026-10-05/SOURCES.md": "c7385bb4ccef29264157cc0d9205bb37e402a83431bc20ac8b65e27b826f25be",
+    "udt_physical_clock_interface_audit_2026-10-05/CONSTRUCTION_RESULT.json": "6b2981ae539c371159ed3d0c556dd405264d84844d32fb250321c2857f9c69b0",
+    "udt_physical_clock_interface_audit_2026-10-05/check_interfaces.py": "3e37dd55d376f89ade317f67eb35833542263189a95e7aebf5385cb201d3eb3c",
+    "udt_physical_clock_interface_audit_2026-10-05/CANDIDATE_FREEZE.json": "ff4f2875de8d8a050166599616a4139a686b065268b36de330a12a97a9f838a8",
+    "udt_physical_clock_interface_audit_2026-10-05/NUMERICAL_FREEZE.md": "b0247ddf692e9291ef774fcea1468f47d83f00e73c7bdabfd0920de7cde8bf7d"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -10597,6 +10726,174 @@
         "C_FRI_SHAPE",
         "C_FRI_RECORD",
         "O_FRI_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/WORK_RECORD.md",
+      "sha256": "dfe92eccb07248dc66fde39e54be5d900dc0ea02aeb659c10f45f10e04d85aec",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/DESCENDANT_REVIEW.md",
+      "sha256": "eefd6173e9a322b3bc6322a5e975d308841759ac19111918d908a8ee9cf8e17a",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/review_math/SOURCE_FIRST_REVIEW.md",
+      "sha256": "7f2812ea41bb45f20480fbc7c086a2724cd5fcb3701255abc9f726aea23bff5d",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/review_math/EXPOSED_REVIEW.md",
+      "sha256": "fa73f9faf48c4e4d47bd20e05038baee2cb39e9132d765273e7aef64890e6bf6",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/review_math/REPAIR_REVIEW.md",
+      "sha256": "81b379c2c97330a004e154d0fd190065660b7e103002fcd9e5e8ad045d80600f",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "80977bbed481abcbf70c394987ca4845c79e9125693bec625767e8ae5d5bab61",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_physical_clock_interface_audit_2026-10-05/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "807e4b780ce254a7b653b9a283d4f4f3c350f9531c5203483758e86f715d1438",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R6",
+        "R7",
+        "R8",
+        "R8CPR",
+        "R8ACP",
+        "R8OAA",
+        "R13",
+        "R13OJM",
+        "R16",
+        "R16TSI",
+        "R16FRI",
+        "R17",
+        "R18",
+        "R16PIA",
+        "O_FRI_ADMISSION",
+        "O_PIA_ADMISSION"
       ]
     }
   ]
