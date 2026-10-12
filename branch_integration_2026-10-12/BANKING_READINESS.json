@@ -1,0 +1,30 @@
+{
+  "status": "READY_FOR_AUTHORIZED_FAST_FORWARD",
+  "utc": "2026-10-12T22:51:21.270040+00:00",
+  "checks": {
+    "development": {
+      "returncode": 0,
+      "duration_seconds": 1.7465632290113717,
+      "stdout_sha256": "b86122766fac8a4ed524311a54a0e58e438117d026aa1e7e0865ba47fdb59d3b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "maintenance": {
+      "returncode": 0,
+      "duration_seconds": 1.9144935619551688,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "7bb51b57f06d0dd737adc941c5c3e4e2330d5e7e085f4d50996493976ab1ae87"
+    },
+    "premises": {
+      "returncode": 0,
+      "duration_seconds": 409.53973406599835,
+      "stdout_sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "scientific_source_and_review_bindings_unchanged": true,
+  "untracked_names_preserved": 76,
+  "precommit_head": "efa77d44dc1573cdee6ce88b8029a5b3c085e8de",
+  "old_main": "e482045498e67f1154345966306572445e7efdde",
+  "archive_tag": "archive/main-before-grok-2026-10-12",
+  "review_scope": "Parent operational/unchanged-science review; existing independent scientific reviews unchanged and attributed."
+}

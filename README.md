@@ -38,6 +38,8 @@ For the fixed metric/observer-pair account at scientific snapshot
 ## Repository rules
 
 - Work on `grok`; preserve unrelated dirt and protected local work.
+- `main` is the default reviewed checkpoint. Keep it current through the
+  [branch update workflow](BRANCH_WORKFLOW.md); a branch update does not canonize research.
 - The metric is the theory. External physics may be comparison/readout only, never silently imported
   as a UDT derivation.
 - Use the project premise labels exactly and run `python3 verify_current_scientific_premises.py`

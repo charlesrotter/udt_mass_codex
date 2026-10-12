@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T22:44:34.110449+00:00",
+  "status": "PASS",
+  "old_untracked_names_preserved": 76,
+  "changed_inherited_files": [
+    "README.md"
+  ],
+  "unchanged_accepted_bindings": 14580,
+  "protected_paths_read": 0,
+  "main_is_ancestor": true,
+  "scope": "Operational parent review and exact-byte preservation, not a new separate-context scientific review."
+}

@@ -1,0 +1,6 @@
+Preserve main before the authorized 2026-10-12 grok catch-up.
+
+Old main: e482045498e67f1154345966306572445e7efdde (2026-07-08).
+Reviewed scientific checkpoint: efa77d44dc1573cdee6ce88b8029a5b3c085e8de.
+The branch update preserves history and does not canonize scientific claims.
+See BRANCH_WORKFLOW.md and branch_integration_2026-10-12/RECORD.md on the updated branches.
