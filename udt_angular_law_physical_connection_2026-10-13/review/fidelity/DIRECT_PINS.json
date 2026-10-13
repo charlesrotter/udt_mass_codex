@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-13T23:33:40.254200+00:00",
+  "reviewer": "/root/alp_review_fidelity",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "sha256": {
+    "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md": "b510d53aeef4093cbd727d57f2ca3179b59dd3547c1539a95c756bd05513339f",
+    "udt_angular_law_physical_connection_2026-10-13/SCIENCE_FREEZE.json": "9a502898d0aac7f7bb0e6eb7dad3d6477617a5d1c2b20405c462221b44d95092",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": "8eb1b5655d6cddfa4bba6bb9ad2d8bce7587a0d3210a5c5228719a759a2d7ca9",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md": "0ad22aea982cf7fb014875de51af2f92ba99379fab29f397f434f90b4c8930c7",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/WORK_RECORD.md": "47b5ad570a2ab7cead1d02f2383be2b29d1fd6c8fbcf5df6b169678f9819a68a",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.md": "4256a3453d628dc2c2b6f31275ca329c450343d24654a40cb99c89be135b47b1",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stdout": "a731c12e7e42a6701727fd60a743ad582e836b0ad2bd332645f5fde078e73105",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.json": "6256aecfabdd0710649fb03295adfefadcf19ffe7229b3529083eb8a805c747a",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/SOURCE_FIRST.md": "32f557606cfb8b953a3933f68b576b6dfd56d4647cc4965c6b9f188bc15a5d5f",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/CHECK_FREEZE.md": "5dfd63e6c221862ef791c89b5fe91c9715b5b5463a9d566542a8b80c74673eff",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/CHECK_FREEZE.json": "738c15ddac8ac3858b104e70b1882662ebc1d42964c314bcce7ed26ff7e0109e",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/check_boost_measure.py": "2ccbd67e9c36bbcf581d9fd31a30314ff4ef651f7307aee4235fdb62082442dc",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/checks/boost_measure_01.stdout": "01ee2019d0b402d32a5612c22a381cdf71dc722daee9fa26945d53fb040612b3",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/checks/boost_measure_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/checks/boost_measure_01.json": "e911f187cdcff8b8d13ff51ac8fba916ad3cba4a193facd7648697ba735e618b",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/DIRECT_REVIEW.md": "92e523a205688a1f54b3186ff81e8d7b88e6b341465b6c84774aaa401c6dd33e"
+  },
+  "science_freeze_candidate_bindings": {
+    "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/WORK_ORDER.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/INITIAL_APPROACH.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/SOURCE_PINS.json": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/INITIAL_APPROACH.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/WORK_RECORD.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.json": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.md": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/MILESTONE_MANIFEST.json": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/check_moments.py": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.json": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stdout": true,
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stderr": true
+  },
+  "independence": {
+    "fresh_context": true,
+    "source_first_before_candidate": true,
+    "different_model": false,
+    "human_review": false,
+    "independent_implementation": true,
+    "independent_FAC1_proof": false
+  },
+  "exposure_omissions": "See DIRECT_REVIEW.md; B checker source not read or reused; no protected payloads"
+}

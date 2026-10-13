@@ -1,0 +1,61 @@
+{
+  "utc": "2026-10-13T23:44:36.927839+00:00",
+  "context": "/root/alp_review_fidelity",
+  "freeze_path": "udt_angular_law_physical_connection_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "0a808134118facb77e29751f4a08c844c13d0e912abc73f2fb81dbeb640d5bdf",
+  "accepted_count": 15171,
+  "all_accepted_bindings_match": true,
+  "mismatches": [],
+  "prior_count": 15096,
+  "unchanged_inherited_count": 15087,
+  "changed_inherited_count": 9,
+  "removed_inherited": [],
+  "new_count": 75,
+  "science_bindings_checked": 15,
+  "science_mismatches": [],
+  "prior_review_record_matches_baseline": true,
+  "original_integration_freeze_hash": "e84f9899184d26d0c85f39bb7f8c78c860095fb8cf0aefd98d026ce9593c08db",
+  "preserved_snapshots_match_initial_freeze": {
+    "UDT_DEVELOPMENT.md": true,
+    "DEVELOPMENT_GRAPH.json": true,
+    "REVIEWED_RESULT.md": true,
+    "DECISION_BRIEF.md": true,
+    "WORK_RECORD.md": true,
+    "NOTEBOOK.md": true
+  },
+  "generated_program_matches": true,
+  "packaging_receipts": {
+    "changed_before_review": {
+      "returncode": 1,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "draft_coherence": {
+      "returncode": 1,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "draft_coherence_repaired": {
+      "returncode": 0,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "review_gate": {
+      "returncode": 1,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "repair_impact": {
+      "returncode": 1,
+      "stdout_match": true,
+      "stderr_match": true
+    },
+    "integration_repair_coherence": {
+      "returncode": 0,
+      "stdout_match": true,
+      "stderr_match": true
+    }
+  },
+  "protected_paths_included": false,
+  "meaning": "File correspondence and explicit integration coherence only; inherited review not fresh corpus reproof; scientific runs not repeated"
+}

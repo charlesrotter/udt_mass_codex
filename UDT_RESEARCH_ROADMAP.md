@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-10-13: GRC1 conditional clock/optical research return. This is a direction document, not scientific
+Updated 2026-10-13: ALP1 angular-clock meaning and regime return. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -11,6 +11,19 @@ before choosing a new question. [INDEX.md](INDEX.md) routes supporting sources.
 This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current direction and retained scientific return
+
+The current scoped return is [ALP1 in R8ALP/R18](UDT_DEVELOPMENT.md#r8alp),
+with its fixed [decision packet](udt_angular_law_physical_connection_2026-10-13/DECISION_BRIEF.md).
+It tests physical justifications for angular-clock averaging and the distance
+regime, retaining a conditional diagnostic and precise failed identifications.
+A next useful proposal should motivate a relation among actual comparisons in
+a specified physical regime and name a discriminating test. Arbitrary averaging
+choices do not supply a sign law; no exhaustive failure of connections or need
+for a new premise is claimed. After ALP1's authorized banking gates, Stop for
+lay discussion. LIVE owns authorization and actual receipts own completion;
+no successor or deferred PIA1 application is automatic.
+
+The following earlier campaign direction retains its historical scope.
 
 Charles clarified that researchers should pursue the geometry-selection goal
 across ideas: generate and flesh out conjectures, mine GR/other physics/pure

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-13T22:19:04.287943+00:00",
+  "purpose": "Milestone correspondence only; no independent truth or chronology certificate",
+  "sha256": {
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md": "0ad22aea982cf7fb014875de51af2f92ba99379fab29f397f434f90b4c8930c7",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.json": "b8d052b6442fdb8a7d4a7eea573a2604af71b935270296091e3fb64c3fb077e1",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.md": "4256a3453d628dc2c2b6f31275ca329c450343d24654a40cb99c89be135b47b1",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/INITIAL_APPROACH.md": "298226c6e3b71cbea7a37b5e727e1ed5c93fb57ac21bb15921864e3285ffbab9",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/WORK_RECORD.md": "47b5ad570a2ab7cead1d02f2383be2b29d1fd6c8fbcf5df6b169678f9819a68a",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/check_moments.py": "3f3fc8b705c780ab5f573d0eeda041137255d7b9b432900bbac15baba5925270",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.json": "6256aecfabdd0710649fb03295adfefadcf19ffe7229b3529083eb8a805c747a",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stdout": "a731c12e7e42a6701727fd60a743ad582e836b0ad2bd332645f5fde078e73105",
+    "udt_finite_angular_clock_probe_2026-10-13/researcher_a/VACUUM_QUARTIC_CANDIDATE.md": "fe4311167189e5567962767ffabdaacc7cea6a8720e7f8d8e5111cc218db8100",
+    "udt_finite_separation_law_2026-09-28/REPAIR.md": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368"
+  }
+}

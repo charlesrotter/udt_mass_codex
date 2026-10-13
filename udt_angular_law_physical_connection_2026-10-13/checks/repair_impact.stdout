@@ -1,0 +1,1 @@
+FAIL: REVIEW_REQUIRED; changed sources=['udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md']; changed rows=[]; affected=['C_ALP_QUERY', 'C_ALP_TRIALS', 'O_ALP_PHYSICAL_JOIN', 'R18', 'R8ALP']

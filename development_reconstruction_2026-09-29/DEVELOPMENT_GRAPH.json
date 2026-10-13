@@ -535,7 +535,7 @@
     {
       "id": "P_FOUNDING",
       "kind": "declared_premises",
-      "statement": "F1\u2013F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
+      "statement": "F1–F4 as stated in R1/R2; composition, nontriviality and readout are distinct inputs"
     },
     {
       "id": "P_PAIR",
@@ -1159,7 +1159,7 @@
       "id": "R8FST",
       "kind": "argument",
       "anchor": "r8fst",
-      "title": "A discriminating matched comparison \u2014 FST1",
+      "title": "A discriminating matched comparison — FST1",
       "sources": [
         "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
@@ -1178,7 +1178,7 @@
       "id": "R9FST",
       "kind": "argument",
       "anchor": "r9fst",
-      "title": "Conditional space-form response isotropy \u2014 FST1",
+      "title": "Conditional space-form response isotropy — FST1",
       "sources": [
         "udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md",
         "udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md",
@@ -1535,7 +1535,7 @@
     {
       "id": "C_PSC_INTERVAL",
       "kind": "conditional_protocol",
-      "statement": "Strong S subclaim only: actual constant-curvature backgrounds on connected open interval containing0; fixed Lambda in each perturbation, varying sectors across family; F_R!=0,R+3mu\u00b2!=0,positive constant pole mu\u00b2,F0=1. Not owner universality or actual environments in one fixed sector.",
+      "statement": "Strong S subclaim only: actual constant-curvature backgrounds on connected open interval containing0; fixed Lambda in each perturbation, varying sectors across family; F_R!=0,R+3mu²!=0,positive constant pole mu²,F0=1. Not owner universality or actual environments in one fixed sector.",
       "sources": [
         "udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md"
       ],
@@ -1544,7 +1544,7 @@
     {
       "id": "C_PSC_CLOCK",
       "kind": "conditional_protocol",
-      "statement": "Clock subclaim only: f=R+alphaR\u00b2+betaR\u00b3 control, alpha!=0, regular homogeneous comoving RCD1 protocol, independent L, a0=1,H0=R0=Lambda=0,P0!=0; local f_RR!=0. Original constraint and full tensor retained.",
+      "statement": "Clock subclaim only: f=R+alphaR²+betaR³ control, alpha!=0, regular homogeneous comoving RCD1 protocol, independent L, a0=1,H0=R0=Lambda=0,P0!=0; local f_RR!=0. Original constraint and full tensor retained.",
       "sources": [
         "udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md"
       ],
@@ -1623,7 +1623,7 @@
     {
       "id": "C_CMF_TRACE",
       "kind": "conditional_class",
-      "statement": "Exact trace subclaim only: UNADOPTED source-free metric f=R+alphaR\u00b2 equation with constant finite alpha!=0,Lambda; informative independently measured R,Box R. Trace necessary not sufficient, no physical source certificate.",
+      "statement": "Exact trace subclaim only: UNADOPTED source-free metric f=R+alphaR² equation with constant finite alpha!=0,Lambda; informative independently measured R,Box R. Trace necessary not sufficient, no physical source certificate.",
       "sources": [
         "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
         "udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md",
@@ -3174,6 +3174,62 @@
       "registry_ids": [],
       "required_conditions": [
         "C_FAC_TRIALS"
+      ]
+    },
+    {
+      "id": "C_ALP_QUERY",
+      "kind": "condition",
+      "statement": "Supplied smooth time-oriented Lorentz4 metric, R6 regular null-clock interface, declared measures and actual fixed-worldline independent first emissions. Regional-vacuum moment results use FAC1 full fixed-finite-laboratory preparation and uniform small-L sphere remainder; fixed Lorentz-sky calculations are a different ensemble. The separate a_k controls assume k>-2, s>0, one t=0 parallel-free comoving preparation and direct finite regular rays; no vacuum or native physical admission.",
+      "sources": [
+        "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md",
+        "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_ALP_TRIALS",
+      "kind": "condition",
+      "statement": "SCN2 exact normalization and SCB2 sufficient bound are UNADOPTED trials, tested as conditional hypotheses rather than accepted physics. Nonzero-Weyl obstruction needs regional vacuum and all sufficiently short L for a fixed observer. SCN2 flatness requires every event and every finite timelike observer in an open region, with equality for all sufficiently short preparations at each laboratory. AMS is weaker. These trials are not premises of the measure identities, moment formulas or supplied finite/distant controls.",
+      "sources": [
+        "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md",
+        "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_ALP_PHYSICAL_JOIN",
+      "kind": "open_join",
+      "statement": "Physical justification of prepared angular measure/sign, additional-positional attribution and finite distance regime remains OPEN. No native geometry/depth/source/scale or physical X_max assignment, empirical GR recovery, full-postulate insufficiency, exhaustive route failure or need for a new premise follows.",
+      "sources": [
+        "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md",
+        "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8ALP",
+      "kind": "argument",
+      "anchor": "r8alp",
+      "title": "Angular-measure and normalization tests, conditional clock-moment diagnostic and supplied finite/distant nonimplication",
+      "sources": [
+        "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md",
+        "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_ALP_QUERY"
       ]
     }
   ],
@@ -6597,6 +6653,126 @@
       "from": "R8FACP",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "C_ALP_QUERY",
+      "to": "R8ALP",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_ALP_TRIALS",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "O_ALP_PHYSICAL_JOIN",
+      "to": "R8ALP",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "D1",
+      "to": "R8ALP",
+      "kind": "interpretation"
+    },
+    {
+      "from": "R1",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R8ALP",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R8ALP",
+      "kind": "proof"
+    },
+    {
+      "from": "R8",
+      "to": "R8ALP",
+      "kind": "proof"
+    },
+    {
+      "from": "R8FAC",
+      "to": "R8ALP",
+      "kind": "proof"
+    },
+    {
+      "from": "R8FACP",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8PRT",
+      "to": "R8ALP",
+      "kind": "proof"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8COC",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8PEA",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R7GRC",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8GRC",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8CMF",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8IEC",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8ESR",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R16",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R16PIA",
+      "to": "R8ALP",
+      "kind": "context"
+    },
+    {
+      "from": "R8ALP",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -6966,7 +7142,12 @@
     "udt_finite_angular_clock_probe_2026-10-13/RECOVERY_CONTINUATION.md": "1bba27b3539c944312a9752df6e70993766d12edfc33921f1012ae2190c1a336",
     "udt_finite_angular_clock_probe_2026-10-13/KERR_RECOVERY_APPLICATION.md": "4641cb612b5dedef520801b13de6152c445cd1c9481ff582b373fcae3cadbb13",
     "udt_finite_angular_clock_probe_2026-10-13/REVIEWED_RESULT.md": "bd0dbeba59816901c89e50ecac41d9fe4437b9574bce3dad5bd469ec95a1616a",
-    "udt_finite_angular_clock_probe_2026-10-13/DESCENDANT_REVIEW.md": "c15de9bbd6c1eedc1faaf1134436338c64557c41e66a1b64b0313f6c727ca409"
+    "udt_finite_angular_clock_probe_2026-10-13/DESCENDANT_REVIEW.md": "c15de9bbd6c1eedc1faaf1134436338c64557c41e66a1b64b0313f6c727ca409",
+    "udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md": "b510d53aeef4093cbd727d57f2ca3179b59dd3547c1539a95c756bd05513339f",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": "8eb1b5655d6cddfa4bba6bb9ad2d8bce7587a0d3210a5c5228719a759a2d7ca9",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md": "0ad22aea982cf7fb014875de51af2f92ba99379fab29f397f434f90b4c8930c7",
+    "udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md": "52243d67a6885f1a95079ae1970eab0f1262d786af5d075c5a2e86acdf22563a",
+    "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md": "82c2ce86d367486184ae245778ef6a7a9d3ab42f73c1284826599796868cfc7b"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -12118,6 +12299,60 @@
       "targets": [
         "R8FAC",
         "R8FACP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/math/SOURCE_FIRST.md",
+      "sha256": "8d1a85f0177978a4d56f9a2a7e2cb8e65b0658b2a2af881d1e3976bcf9e72b0f",
+      "role": "review_evidence",
+      "targets": [
+        "R8ALP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/math/DIRECT_REVIEW.md",
+      "sha256": "afa49a6e1f6747002841455b550275a5f2f7b351e3286771b89a91426a150ba5",
+      "role": "review_evidence",
+      "targets": [
+        "R8ALP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/fidelity/SOURCE_FIRST.md",
+      "sha256": "32f557606cfb8b953a3933f68b576b6dfd56d4647cc4965c6b9f188bc15a5d5f",
+      "role": "review_evidence",
+      "targets": [
+        "R8ALP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "92e523a205688a1f54b3186ff81e8d7b88e6b341465b6c84774aaa401c6dd33e",
+      "role": "review_evidence",
+      "targets": [
+        "R8ALP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_angular_law_physical_connection_2026-10-13/INTEGRATION_REPAIR.md",
+      "sha256": "44e3e6639eed61c8527130dc3c1dfcfa11e56ff311b753cee9680e85724f5811",
+      "role": "repair_scope",
+      "targets": [
+        "R8ALP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/math/INTEGRATION_OBJECTION.md",
+      "sha256": "74a7eacc72085b3b0b5092662675d8347acb618543b02bb6a530a02fda6eb2d7",
+      "role": "review_evidence",
+      "targets": [
+        "R8ALP",
         "R18"
       ]
     }

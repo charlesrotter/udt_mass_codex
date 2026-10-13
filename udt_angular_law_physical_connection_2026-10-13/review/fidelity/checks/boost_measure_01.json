@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_angular_law_physical_connection_2026-10-13/review/fidelity/check_boost_measure.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T23:31:49.248498+00:00",
+  "duration_seconds": 0.06103168100003131,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 10752,
+  "forwarded_signals": [],
+  "stdout_sha256": "01ee2019d0b402d32a5612c22a381cdf71dc722daee9fa26945d53fb040612b3",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

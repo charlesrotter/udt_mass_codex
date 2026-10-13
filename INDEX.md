@@ -13,6 +13,8 @@
 ## One development and its evidence
 
 - [Maintained argument: definitions and R1–R18](UDT_DEVELOPMENT.md).
+- [Angular-clock physical meaning and regime: R8ALP](UDT_DEVELOPMENT.md#r8alp);
+  [ALP1 fixed discussion packet](udt_angular_law_physical_connection_2026-10-13/DECISION_BRIEF.md).
 - [Finite angular clock restriction: R8FAC](UDT_DEVELOPMENT.md#r8fac);
   [FAC1 fixed discussion packet](udt_finite_angular_clock_probe_2026-10-13/DECISION_BRIEF.md).
 - [Positional reference and flat-limit test: R8PEA](UDT_DEVELOPMENT.md#r8pea);

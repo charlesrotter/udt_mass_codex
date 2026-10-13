@@ -1,0 +1,109 @@
+{
+  "record_type": "OPERATIONAL_CRASH_RECOVERY_NOT_SCIENTIFIC_REVIEW",
+  "recovery_utc": "2026-10-13T23:18:25.905606+00:00",
+  "head": "d8171f965e7759c11c16aecf4dec57d6d641f763",
+  "remote_refs": {
+    "origin/grok": "d8171f965e7759c11c16aecf4dec57d6d641f763",
+    "origin/main": "d8171f965e7759c11c16aecf4dec57d6d641f763"
+  },
+  "synchronization": "git fetch origin and git pull --ff-only origin grok succeeded; already up to date",
+  "tracked_changes": "",
+  "pre_recovery_file_count": 17,
+  "pre_recovery_sha256": {
+    "udt_angular_law_physical_connection_2026-10-13/BASELINE.json": "ee805b852cd849a56e4bb8782346b14d84c566dff82f413ca5e29179ee8de933",
+    "udt_angular_law_physical_connection_2026-10-13/NOTEBOOK.md": "8ca2e6746f6d2dbeb4c4de88106c706dbaf8f25eae45d7a6ac69f5f990103309",
+    "udt_angular_law_physical_connection_2026-10-13/PRIMARY_METHOD_NOTES.md": "5084bbf0aabdcf59ab6b857e4432833dda2340b50664d83472da632e59b9451a",
+    "udt_angular_law_physical_connection_2026-10-13/WORK_ORDER.md": "14ee5273324810c1c8ee07c66030ee26f03c30d5b71945d8968f923e3b94a06f",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": "8eb1b5655d6cddfa4bba6bb9ad2d8bce7587a0d3210a5c5228719a759a2d7ca9",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/INITIAL_APPROACH.md": "32069c96693ee16b0d49f5a0cb1936a4656c2802384b3f49d6cd9f0eb59cad9a",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_a/SOURCE_PINS.json": "d2842a97c8f1d67e65cc9892df722a41b40b1d12745eba6a1947593e315bdb04",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md": "0ad22aea982cf7fb014875de51af2f92ba99379fab29f397f434f90b4c8930c7",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.json": "b8d052b6442fdb8a7d4a7eea573a2604af71b935270296091e3fb64c3fb077e1",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.md": "4256a3453d628dc2c2b6f31275ca329c450343d24654a40cb99c89be135b47b1",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/INITIAL_APPROACH.md": "298226c6e3b71cbea7a37b5e727e1ed5c93fb57ac21bb15921864e3285ffbab9",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/MILESTONE_MANIFEST.json": "4c37fed198ad0cee5edfcdd009796e32c8aa8623e4e64af1d69727ef6878e2af",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/WORK_RECORD.md": "47b5ad570a2ab7cead1d02f2383be2b29d1fd6c8fbcf5df6b169678f9819a68a",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/check_moments.py": "3f3fc8b705c780ab5f573d0eeda041137255d7b9b432900bbac15baba5925270",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.json": "6256aecfabdd0710649fb03295adfefadcf19ffe7229b3529083eb8a805c747a",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.stdout": "a731c12e7e42a6701727fd60a743ad582e836b0ad2bd332645f5fde078e73105"
+  },
+  "recovery_notebook_sha256": "9c99c67d889b9fbf89a845aac7db7ae7b9f14ec2a73f96792471181bb02cab00",
+  "integrity": {
+    "hash_references_checked": 30250,
+    "matched": 30250,
+    "mismatches": [],
+    "checks_by_record": {
+      "udt_angular_law_physical_connection_2026-10-13/researcher_a/SOURCE_PINS.json": 19,
+      "udt_angular_law_physical_connection_2026-10-13/researcher_b/FREEZE_01.json": 8,
+      "udt_angular_law_physical_connection_2026-10-13/researcher_b/MILESTONE_MANIFEST.json": 11,
+      "FAC1 closure": 7,
+      "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.json": 2,
+      "udt_finite_angular_clock_probe_2026-10-13/checks/final_normal.json": 2,
+      "udt_finite_angular_clock_probe_2026-10-13/checks/final_maintenance.json": 2,
+      "udt_finite_angular_clock_probe_2026-10-13/checks/final_full406.json": 2,
+      "udt_finite_angular_clock_probe_2026-10-13/review/math/FINAL_ATTESTATION.json": 15098,
+      "udt_finite_angular_clock_probe_2026-10-13/review/fidelity/FINAL_ATTESTATION.json": 15099
+    },
+    "meaning": "Byte correspondence only; duplicate bindings across FAC1 attestations are counted separately. No fresh scientific review."
+  },
+  "prior_FAC1": {
+    "reviews": "Both saved ACCEPT_WITH_LIMITS attestations and 15096 accepted bindings per attestation matched",
+    "checks": "Saved normal, 57 maintenance tests, and full406 receipts/stdout/stderr matched; returncode 0",
+    "publication": "Actual HEAD and fetched origin/grok and origin/main all match d8171f965e7759c11c16aecf4dec57d6d641f763"
+  },
+  "fresh_premise_verifier": {
+    "command": "python3 verify_current_scientific_premises.py",
+    "state": "PASS",
+    "returncode": 0,
+    "tool_output": "PASS: G242/G243/G244/G245/G246/G247/G248/G249/G250/G251/G252/G253/G254/G255/G256/G257/G258/G259/G260/G261/G262/G263/G264/G265/G266/G267/G268/G269/G270/G271/G272/G273/G274/W5/G275/G276/G277/G278/G279/G280/G281/G282/G283/G284/G285/G286/G287/G288/G289/G290/G291/G292/G293/G294/W6/G295/G296/G297/G298/G299/G300/G301/G302/G303/G304/G305/G306/G307/G308/G309/G310/G311/G312/G313/G314/G315/G316/G317/G318/G319/G320/G321/G322/G323/G324/G325/G326/G327/G328/G329/G330/G331/G332/G333/G334/G335/G336/G337/G338/G339/G340/G341/G342/G343/G344/G345/G346/G347/G348/G349/G350/G351/G352 startup and premise guards; PASS: 406-row premise registry, current bounded startup route, archive integrity, relational-depth/orchestra guards, X_max semantics, 754 historical dispositions, and corrected DOF semantics; PASS: G353/G354/G355/G356 conditional banking with unchanged frozen sources and physical-identification limits; PASS: G357/G358/G359/G360 conditional banking with retained SC1 source map, SC5 false-pass repair history and unchanged frozen sources; PASS: G361/G362/G363 conditional local persistence banking with restricted seed, wave-method, fixed-product and physical-identification limits; PASS: G364/G365/G366 conditional restrictiveness banking with exact local scopes, RC2 exposure caveat, unchanged original evidence and no physical adoption; PASS: G367/G368/G369 conditional source-metric banking with optional-class, chosen-product, repair/exposure and no physical-source-adoption limits; PASS: G370/G371 conditional reconstruction/product-data banking with optional nonvacuum, full ambient closure, fixed/free data and retained review limits; PASS: G372/G373 conditional independent-data and LOCAL ANALYTIC coupled development with original product, excluded vacuous checks, paused optional source and retained review limits; PASS: G374/G375 conditional fixed-base local vacuum-scale banking with positivity, fixed-target scalar and review limits; no particle stability, size or absolute scale; PASS: G376 prerequisite BI1 and G377/G378 BG1/BG2 exact conditional banking with dependency closure, full tensor/false-pass evidence and no fibration/stability promotion for BG2; PASS: G379/CF1 and G380/CF2 exact conditional closed-fibre banking with supplied marking, lawful local developments, preserved Hopf survivors and false-pass/LOST-output caveats; no generic failure, physical instability, topology change or UDT-failure promotion; PASS: G381/NT1 and G382/NT2 exact conditional neighboring-tidal banking with full connection/finite-jet limits, restricted real null factor class, actual local Lambda0 realizations, free profiles and preserved false-pass/LOST-source caveats; no physical identification; PASS: G383--G412 reviewed backlog:27 conditional mathematical results, one design control, one published-summary benchmark and one finite procedure result; all original365 rows and frozen source evidence preserved; no physical adoption or canon; PASS: G413/TI1 conditional two-shape curvature and second-record-jet banking with unchanged original395 rows and TI1 sources; PASS: G414/TI2 conditional initial evolution, completion and record banking with unchanged original396 rows and TI2 sources; PASS: G415/NCB1 exact conditional longitudinal clock and infinitesimal beam banking with unchanged original397 rows and all87 NCB1 source files; PASS: G416--G423 exact conditional signal-chain banking, unchanged original398 rows and all662 source files; no new physical adoption or StageB/C promotion\n",
+    "capture_limit": "Direct exec tool output; separate stdout/stderr capture was not made for this mandatory startup command.",
+    "started_by_this_recovery": true
+  },
+  "session_evidence": {
+    "parent_log": "/home/udt-admin/.codex/sessions/2026/09/27/rollout-2026-09-27T15-42-05-01a0e463-907b-7fa1-988c-e7f7e4387c10.jsonl",
+    "read_scope": "Bounded final 2500000 bytes; relevant user authorization, tool/event metadata and task completion errors only; opaque stored messages not decoded",
+    "proceed_utc": "2026-10-13T22:09:14.829Z",
+    "first_disconnect_utc": "2026-10-13T22:16:52.656Z",
+    "first_request_id": "c886787e-72bf-4aff-a60e-8279f4a926d7",
+    "error": "stream disconnected before completion: An error occurred while processing your request",
+    "later_same_errors_utc": [
+      "2026-10-13T22:38:43.493Z",
+      "2026-10-13T22:47:43.671Z",
+      "2026-10-13T22:51:36.914Z",
+      "2026-10-13T22:53:30.818Z"
+    ],
+    "researcher_a": {
+      "context": "/root/alp_research_a",
+      "log": "/home/udt-admin/.codex/sessions/2026/10/13/rollout-2026-10-13T18-11-11-01a13751-d28b-7f73-ab0f-c134d61fb9f5.jsonl",
+      "task_complete_utc": "2026-10-13T22:17:38.324Z"
+    },
+    "researcher_b": {
+      "context": "/root/alp_research_b",
+      "log": "/home/udt-admin/.codex/sessions/2026/10/13/rollout-2026-10-13T18-11-25-01a13752-0a0d-7943-b815-d42ab5b9d5a0.jsonl",
+      "task_complete_utc": "2026-10-13T22:19:10.821Z"
+    },
+    "root_cause": "UNDETERMINED; recorded stream errors do not diagnose underlying cause"
+  },
+  "process_check": "Host ps found current session and its verifier, no surviving prior research worker; sandbox-only ps visibility was not used for that conclusion",
+  "ALP1_state": "Two unreviewed exploratory returns; no fresh-review, joint freeze, integration or closure artifacts found",
+  "scientific_run_reused": {
+    "receipt": "researcher_b/checks/moments_01.json",
+    "status": "Saved PASS, hashes matched; not rerun",
+    "documented_cpu_seconds": 0.005714065000000001,
+    "documented_wall_seconds": 0.029848245903849602
+  },
+  "ignored_evidence_to_preserve": [
+    "researcher_b/checks/moments_01.stdout"
+  ],
+  "limits": [
+    "Unsaved reasoning is not recovered",
+    "Candidate arguments are not independently certified by recovery",
+    "No new research, review agents, solvers, premise adoption or scientific integration started",
+    "Resource budget was not reset",
+    "Campaign remains local and uncommitted; no publication performed"
+  ],
+  "protected_payloads_read_or_hashed": false,
+  "recovery_completed_utc": "2026-10-13T23:19:58.139549+00:00",
+  "unrelated_untracked_names_preserved": 76
+}

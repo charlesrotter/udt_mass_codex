@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-13T23:44:40.029857+00:00",
+  "context": "/root/alp_review_math",
+  "status": "PASS",
+  "freeze_path": "udt_angular_law_physical_connection_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "0a808134118facb77e29751f4a08c844c13d0e912abc73f2fb81dbeb640d5bdf",
+  "accepted_bindings_checked": 15171,
+  "inherited_bindings": 15096,
+  "unchanged_inherited_bindings": 15087,
+  "changed_prior_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_files": 75,
+  "original_candidate_bindings_unchanged": 15,
+  "prior_review_record_matches_baseline_bytes": true,
+  "prior_reviewer_attestations_and_reports_matched": 2,
+  "all_prior_graph_objects_semantically_preserved": true,
+  "generated_program_exact_match": true,
+  "FAC1_central_argument_unchanged": true,
+  "initial_integration_versions_matched": 6,
+  "initial_freeze_matched": true,
+  "CANON_and_registry_bytes_unchanged": true,
+  "protected_paths_read_or_hashed": false,
+  "scope": "Byte correspondence and bounded integration review, not corpus reproof or empirical validation"
+}

@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "evidence": "exact Fraction algebra confirmation",
+  "limitations": "FAC1 input theorem not independently rederived; no metric/ray integration",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "sphere_bilinear_basis_checks": [
+    [
+      0,
+      0,
+      "4/15"
+    ],
+    [
+      0,
+      1,
+      "-2/15"
+    ],
+    [
+      0,
+      2,
+      "0"
+    ],
+    [
+      0,
+      3,
+      "0"
+    ],
+    [
+      0,
+      4,
+      "0"
+    ],
+    [
+      1,
+      0,
+      "-2/15"
+    ],
+    [
+      1,
+      1,
+      "4/15"
+    ],
+    [
+      1,
+      2,
+      "0"
+    ],
+    [
+      1,
+      3,
+      "0"
+    ],
+    [
+      1,
+      4,
+      "0"
+    ],
+    [
+      2,
+      0,
+      "0"
+    ],
+    [
+      2,
+      1,
+      "0"
+    ],
+    [
+      2,
+      2,
+      "4/15"
+    ],
+    [
+      2,
+      3,
+      "0"
+    ],
+    [
+      2,
+      4,
+      "0"
+    ],
+    [
+      3,
+      0,
+      "0"
+    ],
+    [
+      3,
+      1,
+      "0"
+    ],
+    [
+      3,
+      2,
+      "0"
+    ],
+    [
+      3,
+      3,
+      "4/15"
+    ],
+    [
+      3,
+      4,
+      "0"
+    ],
+    [
+      4,
+      0,
+      "0"
+    ],
+    [
+      4,
+      1,
+      "0"
+    ],
+    [
+      4,
+      2,
+      "0"
+    ],
+    [
+      4,
+      3,
+      "0"
+    ],
+    [
+      4,
+      4,
+      "4/15"
+    ]
+  ],
+  "normalization_E2_B2": [
+    "2/45",
+    "1/60"
+  ],
+  "recovered_E2_coefficients": [
+    "1",
+    "0"
+  ],
+  "recovered_B2_coefficients": [
+    "0",
+    "1"
+  ],
+  "controls": {
+    "kasner": {
+      "N_minus_one_L4": "16/1215",
+      "M_L4": "4/1215"
+    },
+    "plane_wave": {
+      "N_minus_one_L4": "11/360",
+      "M_L4": "1/720"
+    },
+    "kerr": {
+      "N_minus_one_L4": "1/270",
+      "M_L4": "-1/540"
+    }
+  },
+  "boost_normalizations": [
+    {
+      "cosh": "5/4",
+      "sinh": "3/4",
+      "N": "1"
+    },
+    {
+      "cosh": "13/12",
+      "sinh": "5/12",
+      "N": "1"
+    },
+    {
+      "cosh": "17/8",
+      "sinh": "15/8",
+      "N": "1"
+    }
+  ],
+  "cpu_seconds": 0.005714065000000001,
+  "maxrss_kib": 11136
+}

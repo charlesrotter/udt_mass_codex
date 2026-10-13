@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-13T23:53:12.014686+00:00",
+  "status": "REVIEW_AND_REQUIRED_CHECKS_COMPLETE_READY_FOR_BANKING",
+  "baseline_head": "d8171f965e7759c11c16aecf4dec57d6d641f763",
+  "scope": "ALP1 reviewed conditional mathematical return and central integration. No physical premise adoption, registry regrade or CANON change. Commit and publication require separate verification from actual Git refs.",
+  "freeze": "udt_angular_law_physical_connection_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "0a808134118facb77e29751f4a08c844c13d0e912abc73f2fb81dbeb640d5bdf",
+  "review_record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+  "review_record_sha256": "36c0e67555660caf6164869902a2aed5b2366686e9d4d3799cda4a024e19ae70",
+  "reviewers": [
+    {
+      "context": "/root/alp_review_math",
+      "attestation": "udt_angular_law_physical_connection_2026-10-13/review/math/FINAL_ATTESTATION.json",
+      "sha256": "2eb5a771d1c6354de9db15dba47cd258ea390314015ce1d11a0988483fcd98f8"
+    },
+    {
+      "context": "/root/alp_review_fidelity",
+      "attestation": "udt_angular_law_physical_connection_2026-10-13/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256": "3e9da1348c9e07b025a975268652553549b228bb512c0008ea0e156daf5abfd5"
+    }
+  ],
+  "checks": {
+    "final_normal": {
+      "receipt": "udt_angular_law_physical_connection_2026-10-13/checks/final_normal.json",
+      "sha256": "50067321f3fad5cbd580df55f650084b040c21d60eb2cf4d7fddfa70bd8011d2",
+      "duration_seconds": 1.8104981760002374,
+      "returncode": 0
+    },
+    "final_maintenance": {
+      "receipt": "udt_angular_law_physical_connection_2026-10-13/checks/final_maintenance.json",
+      "sha256": "0c0dab8b8200511a7d878ffbc1c6ae7c4b66abd513e5530d1e090ae5deabd409",
+      "duration_seconds": 2.2714180780003517,
+      "returncode": 0
+    },
+    "final_full406": {
+      "receipt": "udt_angular_law_physical_connection_2026-10-13/checks/final_full406.json",
+      "sha256": "3a6361242e5aee88b2aecd5aff23dc91d8bda886ce7b87cbc35555e8cdce4a3f",
+      "duration_seconds": 407.4220603419999,
+      "returncode": 0
+    }
+  },
+  "reviewed_bindings_verified": 15171,
+  "unchanged_original_scientific_files": 15,
+  "integration_repair_rounds_used": 1,
+  "integration_repair_rounds_allowed": 2,
+  "unrelated_untracked_names_preserved": 76,
+  "protected_payloads_read_or_hashed": false,
+  "scientific_capture_summary": "udt_angular_law_physical_connection_2026-10-13/RESOURCE_RECEIPT.json",
+  "documented_scientific_cpu_seconds": 1.903530255,
+  "unrecorded_precrash_resource_use": "UNVERIFIED; budget not reset",
+  "no_long_solver_or_GPU": true,
+  "return": "Stop for lay discussion; no automatic successor",
+  "gates_not_claimed_here": [
+    "commit creation",
+    "remote publication"
+  ]
+}

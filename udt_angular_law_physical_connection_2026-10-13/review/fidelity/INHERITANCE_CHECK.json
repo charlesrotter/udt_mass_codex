@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-13T23:40:53.235047+00:00",
+  "reviewer": "/root/alp_review_fidelity",
+  "scope": "unchanged inherited binding correspondence; not fresh corpus reproof",
+  "prior_map_count": 15096,
+  "inherited_unchanged_count": 15087,
+  "mismatches": [],
+  "removed_inherited_paths": [],
+  "changed_inherited_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_paths_count": 59,
+  "prior_review_record_byte_identical_to_baseline": true,
+  "existing_graph_node_semantic_changes": [],
+  "all_existing_graph_edges_retained": true,
+  "all_existing_source_pins_retained": true,
+  "all_existing_review_support_retained": true
+}

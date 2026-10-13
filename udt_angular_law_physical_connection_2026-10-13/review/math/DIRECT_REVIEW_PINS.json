@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-13T23:33:59.715374+00:00",
+  "context": "/root/alp_review_math",
+  "model": "inherited; exact ID unavailable",
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "source_pins": "CHECK_PINS.json",
+  "all_precheck_bindings_still_match": true,
+  "artifact_sha256": {
+    "udt_angular_law_physical_connection_2026-10-13/review/math/SOURCE_FIRST.md": "8d1a85f0177978a4d56f9a2a7e2cb8e65b0658b2a2af881d1e3976bcf9e72b0f",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/SOURCE_FIRST_PINS.json": "7bdf6f630f46dbd150159c54740fbcb401821fdaed6dd3b5f918cf0b5dc53f96",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/CHECK_FREEZE.md": "0cef586833008eeade27077edcd2856b1419766b00a21a872d4b29321415571a",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/CHECK_PINS.json": "d453162b2a2e1f4e981a13ad117005df9ce0976fc097ac53e5a8f9e7da75c988",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/check_finite.py": "e55ccae30368e085a1f0871e2973f3d25e0c279f168ae295e769c50513a9cb9c",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/DIRECT_REVIEW.md": "afa49a6e1f6747002841455b550275a5f2f7b351e3286771b89a91426a150ba5",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/checks/finite_01.stdout": "5ad929a7ad9a5e37e5fb70f6136b5b972d4a368e8df622be13162a7cfdbf2aac",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/checks/finite_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_angular_law_physical_connection_2026-10-13/review/math/checks/finite_01.json": "6cf7dd06ed900b331fe9e9dce3988a5138b761f3cfe0b1b732bc0beae2173c5f"
+  },
+  "scope": "Frozen candidate direct review only; not an integration attestation"
+}

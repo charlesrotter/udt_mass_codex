@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — FAC1 finite angular clock restriction,
+**Current development — ALP1 angular-clock meaning and regime,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,43 +35,48 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FAC1 derives the short-range full-sphere average of two
-independently emitted first-signal clock comparisons. For a fixed, freely
-released, initially parallel laboratory in a Ricci-flat neighborhood,
-M_±=(4|E|²-3|B|²)L⁴/360+O(L⁵). E/B are parts of Weyl curvature, not new fields.
-The natural-jet proof classifies the possible invariants before exact Kasner
-and plane-wave controls determine the constants. Both separate means share the
-displayed coefficient; their finite values need not agree. A zero coefficient
-leaves higher orders open. Pointwise vacuum alone does not meet the hypothesis.
+**Current learning.** ALP1 tests two proposed justifications for FAC1's angular
+clock law. A positive mean on one uniform reception sky does not transfer to
+FAC1's preparation sphere: changing the angular measure can reverse the sign.
+The precise UNADOPTED normalization N_±=<p_±^-2>=1, or its sufficient bound
+N_±<=1, is stronger than the proposed angular mutual slowing AMS. In a Ricci-flat
+neighborhood of a fixed freely prepared laboratory,
+N_±=1+(8|E|²+3|B|²)L⁴/180+O(L⁵), so both trials fail at nonzero Weyl curvature,
+even in examples where AMS holds. E/B are parts of curvature, not new fields.
 
-The full-sphere Kasner means are positive; the older negative principal-axis
-mean remains correct in its original scope. A regular nonextremal Kerr control
-has a negative coefficient, also at a point outside the ergosphere. Hence
-nonnegative angular means are not automatic in supplied GR vacuum. If the
-UNADOPTED angular mutual-slowing law AMS applies at every sufficiently small
-separation of the stated laboratory, it requires 4|E|²>=3|B|². Strict inequality
-suffices locally for that observer. This is a conditional curvature restriction,
-not a selected geometry, all-frame classification or native field equation.
+Two ideal short-distance clock moments consequently determine E² and B² under
+the same regional-vacuum/preparation hypotheses. This is a conditional diagnostic,
+not a vacuum detector, physical attribution or finite-precision instrument model.
+The actual small-L arrival-sky Jacobian can be measured independently, but its
+normalization does not fix the clock mean's sign.
 
-The physical join remains open: these are total prepared clock readings, not
-a derived isolation of the additional positional effect. No physical averaging
-law, native vacuum sector or mandatory strong-field recovery target is adopted.
-A separately reviewed smooth recovery family has a positive interval shrinking
-to zero while approaching the negative Kerr comparison. A recovery conflict
-therefore requires the same common finite query to remain inside the assumed
-positivity domain. Distant onset and finite-tolerance recovery are not excluded.
+A separate exact supplied family has distant mutual redshift with a common
+first-reception limiting separation and divergence power, yet opposite local
+signs. It defeats that particular distant-to-local inference in its kinematic
+class. These nonvacuum, one-observer controls are not native UDT histories,
+empirical GR recovery or a realization of X_max. No full-postulate insufficiency
+or requirement for a new physical premise is established.
 
-Two fresh contexts reviewed the proof and independently checked complementary
-parts. They share the model; neither review is human or empirical validation.
-No native event/path-depth, source, scale or cosmic curve is selected, and no
-full-postulate insufficiency is proved. PEA1's reference/flat-limit return and
-other prior positive and negative results retain their hypotheses and grades.
+FAC1 remains unchanged: M_±=(4|E|²-3|B|²)L⁴/360+O(L⁵) for the original sphere
+in a Ricci-flat neighborhood. Imposed at all sufficiently short separations,
+UNADOPTED AMS requires 4|E|²>=3|B|²; strict inequality suffices for that fixed
+observer and equality leaves higher orders open. Physical attribution, the
+averaging law, native vacuum admission and the distance regime remain open.
 
-After orientation read R8FAC and R18. The return is a mathematical discriminator
-and an explicit physical attribution/regime question. Stop for lay discussion
-after the authorized integration/check/publication gates. LIVE owns actual
-closure and authorization; the older PIA1 application remains deferred. No
-automatic successor, arbitrary profile survey or protected restart.
+Two actual fresh source-first/direct reviewers checked complementary analytic
+arguments and independent numerical implementations. They share the inherited
+model; no human, different-model, empirical or interval certification is claimed.
+The campaign reaches a precise rejected-identification return with surviving
+tools, not exhaustion of possible physical connections. Native event/path-depth,
+response, source, scale and cosmic curve remain unselected. Prior positive and
+negative results retain their original hypotheses and grades.
+
+After orientation read R8ALP and R18. A next physical connection must justify a
+relation among actual comparisons in its stated regime; choosing or normalizing
+an average does not supply it. Stop for lay discussion after the authorized
+integration/check/publication gates. LIVE and actual receipts own closure; the
+older PIA1 application stays deferred and no successor or protected restart is
+automatic.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -2694,6 +2699,158 @@ Sources: [original Kasner/plane-wave derivation](udt_finite_angular_clock_probe_
 [recovery continuation](udt_finite_angular_clock_probe_2026-10-13/RECOVERY_CONTINUATION.md),
 [Kerr recovery application](udt_finite_angular_clock_probe_2026-10-13/KERR_RECOVERY_APPLICATION.md),
 and [reviewed scope](udt_finite_angular_clock_probe_2026-10-13/REVIEWED_RESULT.md).
+
+
+<a id="r8alp"></a>
+
+#### What can justify an angular clock law — ALP1
+
+FAC1 provides a nonautomatic conditional restriction, while its physical
+averaging law and regime remain unadopted. ALP1 tests two proposed justifications:
+symmetry/reciprocity might fix the mean or its sign, and distant mutual slowing
+might force local AMS. The owner sources retain ordinary clocks, received ticks,
+one geometry and circumstance-dependent universality. Their combined-net-redshift
+and solar-distance expectations remain tentative; no inspected statement fixes
+this angular measure. This source finding is not a completeness theorem about
+all consequences of the founding commitments.
+
+**Convention versus physical condition.** A continuous encoding of positive
+ratios with h(pq)=h(p)+h(q) and h'(1)=1 is log: h(exp x) is normalized continuous
+additive. A normalized preparation density independent of directional geometry
+and invariant under every laboratory rotation is uniform on S². These are
+explicit procedural requirements. A covariant sampling rule can use directional
+curvature and need not be uniform; a changed timelike observer prepares a
+different experiment. Neither procedural choice supplies AMS.
+
+For successive matched comparisons with direction map F, integrating
+log[p(n)q(F(n))] transports the first measure to F_*mu. Replacing that transported
+measure by a separately uniform second preparation needs an extra property.
+Pointwise log-additivity and mathematical inversion cannot supply the sign of
+two independent future first-signal means.
+
+For one fixed R7 Lorentz arrow, Lambda l(n)=f(n)l(m), p=1/f. Differentiating
+and using metricity gives |dn|²=f²|dm|², hence dOmega_m=p(n)²dOmega_n.
+Writing the reception-sphere p=cosh(rho)-sinh(rho)mu gives
+
+    <p^-2>_reception=1,
+    <log p>_reception=rho coth(rho)-1>=0,
+    <log p>_emission=1-rho coth(rho)<=0.
+
+At rho=0 both means vanish by continuity. The two uniform measures are different;
+transporting the emission measure carries the displayed Jacobian. Rotation
+invariance fixes a sky probability, but boosts do not preserve it. These signs
+describe a fixed-arrow comparison, whereas FAC1 changes endpoint clocks and
+paths with n. They neither prove nor refute its physical slowing law.
+
+**Quantitative tests on the actual preparation sphere.** In a Ricci-flat
+neighborhood, set d_±=log p_±. FAC1/PRT give uniformly for each fixed laboratory
+d_±=-E(n,n)L²/2+O(L³) and M_±=(4E²-3B²)L⁴/360+O(L⁵). Here E/B are Weyl
+curvature components, not extra fields. The rotational fourth moment gives
+<E(n,n)²>=2E²/15, hence <d_±²>=E²L⁴/30+O(L⁵).
+
+An explicitly UNADOPTED diagnostic weight
+w_alpha=exp(alpha L²E(n,n))/<exp(alpha L²E(n,n))> is positive, normalized and
+rotation-covariant with the geometry. At fixed finite alpha,
+
+    <w_alpha d_±>=[(4E²-3B²)/360-alpha E²/15]L⁴+O(L⁵).
+
+For purely electric nonzero vacuum, uniform weight has coefficient E²/90;
+alpha=1/3 gives -E²/90. This tests uniqueness among covariant conventions; it
+does not choose a physical weight, fit data or change FAC1's fixed experiment.
+
+Now test the UNADOPTED sky-clock normalization SCN2: N_±=<p_±^-2>=1, or
+the sufficient bound SCB2: N_±<=1. Jensen would imply M_±>=-(1/2)log N_±>=0.
+These are nonautomatic trial conditions; setting a density proportional to
+p^-2 cannot prove its integral is one. Taylor expansion on the fixed sphere gives
+
+    N_±=1-2M_±+2<d_±²>+O(L⁶)
+       =1+(8E²+3B²)L⁴/180+O(L⁵).
+
+Every nonzero-Weyl regional-vacuum event therefore violates both trials at all
+sufficiently small positive L for each fixed finite observer, even when AMS's
+coefficient is positive. Kasner, plane-wave and negative-Kerr controls give
+respectively16/1215,11/360,1/270 for this coefficient. The substitutions reuse
+FAC1 and do not independently establish its theorem. Pointwise Ric=0 does not
+suffice; E=B=0 at one point leaves higher orders open.
+
+Exact SCN2 at every event, every finite future unit U and all sufficiently
+short preparations in an open region is stronger still. The general leading
+N=1+Ric(U,U)L²/3+O(L³) forces Ric=0 by polarization; the regional-vacuum term
+then forces Weyl=0. The conclusion is local flatness, not just the AMS
+inequality. A locally flat sufficiently small convex laboratory conversely has
+p_±=1. SCB2 alone does not yield the first equality step.
+
+For the reverse first-signal experiment, record sourceward arrival directions
+at A in a frame parallel-transported along A. At sufficiently small L the map
+F_L from preparation S² to that recorded sphere is C¹-close to the identity
+and a diffeomorphism. Its independently defined positive Jacobian J_L obeys
+<J_L>=1. Define Delta_L=log p_-+(1/2)log J_L. Then
+
+    M_-=-(1/2)<log J_L>+<Delta_L>.
+
+Normalization fixes only the first term's nonnegative sign. The mismatch is
+an actual clock/angle diagnostic, not a field or an isolated physical positional
+component. Imposing J_L=p_-^-2 would reinstate SCN2 and its obstruction. The
+small-L map argument makes no distant, caustic, multiple-image or incomplete-sky
+claim.
+
+One positive conditional tool survives: ideal small-separation clock moments
+recover the two Weyl norms under FAC1's regional-vacuum hypotheses. With
+m4=lim M/L⁴ and n4=lim(N-1)/L⁴,
+
+    E²=15(n4+2m4),    B²=20n4-80m4.
+
+Equivalently v4=lim Var(log p)/L⁴=E²/30 and B²=40v4-120m4. The two first
+signals share these limits, not necessarily their finite values. This is not
+vacuum detection, full curvature/history reconstruction, a finite-precision
+instrument model or native geometry selection.
+
+**A distant sign does not set the local sign in the tested class.** Supply
+g=-dt²+a_k(t)² dx·dx with a_k=1+k(t/s)²+(t/s)⁴, k>-2,s>0. This is an exact
+kinematic control, without a field equation, physical source or native admission.
+Positivity follows from x⁴+kx²+1=(x²-1)²+(k+2)x². At t=0, a=1,a'=0, so
+straight spatial preparation is geodesic and transports U=partial_t unchanged.
+The constant-position clocks are free with proper time t. Their fixed-worldline
+null incidence is eta_k(t_R)-eta_k(t_E)=L, eta_k'=1/a_k. Differentiation at
+t_E=0 gives p_+=p_-=a_k(t_R), eta_k(t_R)=L; spatial reflection supplies the
+independent reverse equality. Conformal-flat coordinates ensure unique regular
+direct finite receptions. No inverse-map reciprocity is substituted.
+
+Inversion x->1/x and v=x-1/x give the first-reception limiting separation
+L*_k=s pi/(2sqrt(k+2)). Choose any supplied D>0 and s=2D sqrt(k+2)/pi, so
+every member has the same L*_k=D. There is no finite reception at D; this is
+neither a spacetime wall nor physical X_max. At y=L/s,
+
+    M_±=k y²+(1+k²/6)y⁴+O(y⁶),
+    lim_(L->0) M_±/L²=pi²k/[4D²(k+2)].
+
+For -2<k<0 the nearby mean is negative, for k>0 positive, and at k=0 the
+quartic onset is positive. Nevertheless every member has distant mutual
+divergence p_±~[s/(3(D-L))]^(4/3). The exponent and boundary size are common;
+amplitudes need not agree. Each fixed member has bounded future orthonormal
+curvature, without uniformity in parameters or boosts. The exact k=-1,s=1
+crossing is L0=pi/4+log(2+sqrt3)/(2sqrt3), below L*=pi/2.
+
+Thus this supplied class defeats the particular inference from distant mutual
+net redshift, even with that boundary size and exponent, to local AMS. It does
+not meet a regional-vacuum premise or establish physical GR recovery, an
+all-observer sign, or a native UDT alternative. PRT1's cubic-onset precedent
+already separates zero quadratic onset from distant divergence; ALP1 adds
+strict opposite local signs and the common-D family.
+
+The surviving decision is specific: keep FAC1 and the new moment diagnostic,
+but do not justify a physical sign by changing measures, normalizing a sky map,
+or replacing a distant requirement with a local one. A further informative
+connection must state why actual comparisons obey a relation in a specified
+domain. This does not require a GR reference for every possible route or
+establish that another postulate is necessary. No native event/path-to-depth,
+response, source, scale or cosmic curve is selected. Existing owner commitments,
+conditional restrictions and open joins retain their status.
+
+Sources: [frozen joint candidate](udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md),
+[symmetry/finite-distance argument](udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md),
+[sky normalization/moment argument](udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md),
+and [reviewed scope](udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md).
 
 
 <a id="r8fna"></a>
@@ -5761,34 +5918,53 @@ are optional routes, not universal prerequisites for every clock consequence.
 
 ### R18. What can now be used, and what remains open
 
-**Current return — FAC1.** R8FAC supplies a reviewed local theorem for the
-full preparation-sphere means of two independent first emissions. In a Ricci-flat
-neighborhood their quartic coefficient is (4E²-3B²)/360 for each fixed laboratory.
-The exact positive Kasner/plane-wave and negative regular Kerr controls show
-that the proposed mean-sign law is nonautomatic. If AMS is imposed for every
-sufficiently short query, 4E²>=3B² is necessary at each required observer;
-strict inequality suffices locally and equality remains unresolved. This retains
-some nonzero tidal curvature without inheriting FPC1's much stronger all-event,
-all-observer, all-direction net-sign requirement. No all-frame classification
-or finite-range converse has been obtained.
+**Current return — ALP1.** R8ALP rejects two specific attempts to justify the
+prepared angular sign. A fixed Lorentz sky's positive reception mean depends
+on its measure; it is not the prepared finite-clock mean. The UNADOPTED
+SCN2 equality N_±=<p_±^-2>=1 and SCB2 bound N_±<=1 imply AMS by Jensen, but
+are stronger: in regional vacuum their leading deviation is
+(8E²+3B²)L⁴/180, positive at every nonzero-Weyl event for each fixed finite
+laboratory. Exact SCN2 at every event and observer in a region, for all
+sufficiently short preparations at each laboratory, forces first Ric=0 and
+then Weyl=0; that all-quantified flatness result is not assigned to
+AMS, SCB2 alone, a pointwise-vacuum query or a distant-only law.
 
-AMS, its physical attribution/regime and any native vacuum admission remain
-UNADOPTED. Its observable is a total actual-clock statistic. Ordinary proper
-clocks, one geometry and reciprocal positional interpretation do not yet derive
-this particular averaging law. A strong-field GR counterexample is not itself
-a mandatory tested-regime recovery target. Actual smooth conformal controls
-also realize positive intervals shrinking to zero in a negative Kerr limit;
-only a common finite query in the required positivity domain gives the fixed-
-query recovery contradiction. Distant onset and finite-tolerance recovery survive.
+The same calculation gives a positive conditional tool. Ideal short-distance
+moments m4=lim M/L⁴ and n4=lim(N-1)/L⁴ infer E²=15(n4+2m4) and
+B²=20n4-80m4 under FAC1's regional-vacuum/regular-preparation assumptions.
+It does not detect vacuum, reconstruct a full tensor/history, isolate positional
+physics or establish a finite-precision experiment. A normalized actual
+arrival-angle Jacobian leaves an uncontrolled clock mismatch; no physical sign
+law follows from its definition.
 
-Keep the theorem and recovery discriminator as tools. The next substantive
-question is physical attribution and applicability of a relation among actual
-comparisons, checked against the founding commitments and existing finite-clock
-work. An unmotivated supplied-geometry census cannot answer that question. No
-native geometry, response, source, scale or extra observational prediction is
-established, and no theorem requires a new postulate. LIVE owns closure and
-authorization; stop for lay discussion after required gates. The older PIA1
-application remains deferred and no successor runs automatically.
+The independent finite/distant control uses supplied nonvacuum metrics with
+opposite local signs, a common first-reception limiting separation D and the
+same distant divergence power. It refutes that kinematic distant-to-local
+implication, not the whole founding interpretation. D is not physical X_max,
+a spacetime boundary, an adopted scale or an empirical GR-recovery target.
+A distant physical relation remains possible; no all-observer result follows
+from that family. Neutral angular sampling is a legitimate convention, and
+curvature-dependent sampling is a different experiment, not a FAC1 repair.
+
+FAC1's regional-vacuum theorem M_±=(4E²-3B²)L⁴/360+O(L⁵), its actual positive
+Kasner/plane-wave and negative Kerr controls, and its conditional AMS inequality
+survive unchanged. AMS at all sufficiently short queries requires 4E²>=3B²;
+strict inequality suffices for each fixed observer and equality remains open.
+Native vacuum admission, physical attribution and regime remain UNADOPTED.
+The recovery obstruction still requires the same common finite query in the
+positivity domain. Shrinking domains, distant onset and finite-tolerance
+recovery remain distinct possibilities; no all-frame classification is supplied.
+
+Both fresh ALP1 reviewers challenged the continuation decision. The tested
+identifications and useful conditional diagnostic meet the work-order return
+point. This does not establish exhaustion of conjectures/literature, prove full-
+postulate insufficiency or require a new premise. A further informative route
+would motivate an actual clock-angle or finite-domain comparison relation and
+test it, rather than manufacture another positive average. No GR reference is
+mandatory for every possible approach. Native geometry, response, source and
+scale remain open. LIVE and actual final attestations/check/publication receipts
+own closure; Stop for lay discussion after those gates. The PIA1 application
+stays deferred and no successor is automatic.
 
 PEA1's conditional normalized conformal reference remains unique on its stated
 Weyl-injective existence domain; its incompatible flat-approach contrast limits
@@ -7390,6 +7566,30 @@ Kerr clock-ray solve, interval enclosure, all-frame classification, different-
 model/human/formal/empirical certification or full-corpus reproof is claimed.
 Actual final attestations and normal/maintenance/full406 receipts own closure.
 No AMS, vacuum sector, strengthened recovery law or physical attribution is adopted.
+
+ALP1 resumes two preserved independent-origin exploratory returns after a
+recorded session disconnection. Its [work record](udt_angular_law_physical_connection_2026-10-13/WORK_RECORD.md)
+and [notebook](udt_angular_law_physical_connection_2026-10-13/NOTEBOOK.md) distinguish
+recovery from research, initial proposal independence and later exchanged leads.
+Two further fresh contexts performed source-first/direct review before final
+integration review: [mathematical](udt_angular_law_physical_connection_2026-10-13/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_angular_law_physical_connection_2026-10-13/review/fidelity/DIRECT_REVIEW.md).
+They independently reconstructed complementary arguments, original-incidence
+checks and angular-measure quadrature, without importing the author checker.
+Both direct verdicts are VERIFIED-WITH-CAVEATS and request no substantive repair.
+Final integration review restores the explicit all-sufficiently-short-preparations
+quantifier in the compressed SCN2 flatness claim; the full proof was already
+correct. The [initial edition and repair](udt_angular_law_physical_connection_2026-10-13/INTEGRATION_REPAIR.md)
+remain preserved, and both reviewers re-review the corrected integration.
+The initial crossing error is preserved in discovery history and independently
+rejected; the frozen candidate contains the corrected value. The
+[descendant review](udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md)
+retains positive and negative source scopes. Same inherited model/runtime,
+analytic proof, author exact arithmetic and reviewer floating corroboration
+are distinguished. No physical law, finite-precision instrument, empirical
+recovery, all-frame AMS classification, global sky theorem or full-postulate
+verdict is claimed. Actual final attestations and required check/publication
+receipts own completion; no human, different-model or formal review is implied.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

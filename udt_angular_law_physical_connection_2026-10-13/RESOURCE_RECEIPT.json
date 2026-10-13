@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-13T23:35:43.176279+00:00",
+  "scope": "Saved ALP1 scientific captures only; routine repository verification excluded",
+  "runs": [
+    {
+      "receipt": "udt_angular_law_physical_connection_2026-10-13/researcher_b/checks/moments_01.json",
+      "receipt_sha256": "6256aecfabdd0710649fb03295adfefadcf19ffe7229b3529083eb8a805c747a",
+      "command": [
+        "python3",
+        "udt_angular_law_physical_connection_2026-10-13/researcher_b/check_moments.py"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.005714065000000001,
+      "wall_seconds": 0.029848245903849602,
+      "maxrss_kib": 11136,
+      "stdout_sha256": "a731c12e7e42a6701727fd60a743ad582e836b0ad2bd332645f5fde078e73105",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence": "exact Fraction algebra confirmation"
+    },
+    {
+      "receipt": "udt_angular_law_physical_connection_2026-10-13/review/math/checks/finite_01.json",
+      "receipt_sha256": "6cf7dd06ed900b331fe9e9dce3988a5138b761f3cfe0b1b732bc0beae2173c5f",
+      "command": [
+        "python3",
+        "udt_angular_law_physical_connection_2026-10-13/review/math/check_finite.py"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 1.853312957,
+      "wall_seconds": 1.903941254000074,
+      "maxrss_kib": 34520,
+      "stdout_sha256": "5ad929a7ad9a5e37e5fb70f6136b5b972d4a368e8df622be13162a7cfdbf2aac",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence": "Independent high-precision original-incidence quadrature and nearby-emission root solves; not an interval enclosure"
+    },
+    {
+      "receipt": "udt_angular_law_physical_connection_2026-10-13/review/fidelity/checks/boost_measure_01.json",
+      "receipt_sha256": "e911f187cdcff8b8d13ff51ac8fba916ad3cba4a193facd7648697ba735e618b",
+      "command": [
+        "python3",
+        "udt_angular_law_physical_connection_2026-10-13/review/fidelity/check_boost_measure.py"
+      ],
+      "returncode": 0,
+      "cpu_seconds": 0.044503233,
+      "wall_seconds": 0.06103168100003131,
+      "maxrss_kib": 10752,
+      "stdout_sha256": "01ee2019d0b402d32a5612c22a381cdf71dc722daee9fa26945d53fb040612b3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence": "Independent floating quadrature"
+    }
+  ],
+  "total_documented_cpu_seconds": 1.903530255,
+  "sum_wall_seconds_not_elapsed_time": 1.9948211809039549,
+  "saved_scientific_run_count": 3,
+  "current_package_bytes": 220018,
+  "cpu_budget_seconds": 1200,
+  "output_budget_bytes": 157286400,
+  "unrecorded_precrash_use": "UNVERIFIED; budget not reset",
+  "GPU": false,
+  "long_solver": false,
+  "killing_timeouts": false,
+  "process_caps": "At most two scientific CPU workers, one BLAS thread and 2GiB per process"
+}

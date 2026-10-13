@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — FAC1 finite angular clock restriction,
+**Current development — ALP1 angular-clock meaning and regime,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,43 +39,48 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** FAC1 derives the short-range full-sphere average of two
-independently emitted first-signal clock comparisons. For a fixed, freely
-released, initially parallel laboratory in a Ricci-flat neighborhood,
-M_±=(4|E|²-3|B|²)L⁴/360+O(L⁵). E/B are parts of Weyl curvature, not new fields.
-The natural-jet proof classifies the possible invariants before exact Kasner
-and plane-wave controls determine the constants. Both separate means share the
-displayed coefficient; their finite values need not agree. A zero coefficient
-leaves higher orders open. Pointwise vacuum alone does not meet the hypothesis.
+**Current learning.** ALP1 tests two proposed justifications for FAC1's angular
+clock law. A positive mean on one uniform reception sky does not transfer to
+FAC1's preparation sphere: changing the angular measure can reverse the sign.
+The precise UNADOPTED normalization N_±=<p_±^-2>=1, or its sufficient bound
+N_±<=1, is stronger than the proposed angular mutual slowing AMS. In a Ricci-flat
+neighborhood of a fixed freely prepared laboratory,
+N_±=1+(8|E|²+3|B|²)L⁴/180+O(L⁵), so both trials fail at nonzero Weyl curvature,
+even in examples where AMS holds. E/B are parts of curvature, not new fields.
 
-The full-sphere Kasner means are positive; the older negative principal-axis
-mean remains correct in its original scope. A regular nonextremal Kerr control
-has a negative coefficient, also at a point outside the ergosphere. Hence
-nonnegative angular means are not automatic in supplied GR vacuum. If the
-UNADOPTED angular mutual-slowing law AMS applies at every sufficiently small
-separation of the stated laboratory, it requires 4|E|²>=3|B|². Strict inequality
-suffices locally for that observer. This is a conditional curvature restriction,
-not a selected geometry, all-frame classification or native field equation.
+Two ideal short-distance clock moments consequently determine E² and B² under
+the same regional-vacuum/preparation hypotheses. This is a conditional diagnostic,
+not a vacuum detector, physical attribution or finite-precision instrument model.
+The actual small-L arrival-sky Jacobian can be measured independently, but its
+normalization does not fix the clock mean's sign.
 
-The physical join remains open: these are total prepared clock readings, not
-a derived isolation of the additional positional effect. No physical averaging
-law, native vacuum sector or mandatory strong-field recovery target is adopted.
-A separately reviewed smooth recovery family has a positive interval shrinking
-to zero while approaching the negative Kerr comparison. A recovery conflict
-therefore requires the same common finite query to remain inside the assumed
-positivity domain. Distant onset and finite-tolerance recovery are not excluded.
+A separate exact supplied family has distant mutual redshift with a common
+first-reception limiting separation and divergence power, yet opposite local
+signs. It defeats that particular distant-to-local inference in its kinematic
+class. These nonvacuum, one-observer controls are not native UDT histories,
+empirical GR recovery or a realization of X_max. No full-postulate insufficiency
+or requirement for a new physical premise is established.
 
-Two fresh contexts reviewed the proof and independently checked complementary
-parts. They share the model; neither review is human or empirical validation.
-No native event/path-depth, source, scale or cosmic curve is selected, and no
-full-postulate insufficiency is proved. PEA1's reference/flat-limit return and
-other prior positive and negative results retain their hypotheses and grades.
+FAC1 remains unchanged: M_±=(4|E|²-3|B|²)L⁴/360+O(L⁵) for the original sphere
+in a Ricci-flat neighborhood. Imposed at all sufficiently short separations,
+UNADOPTED AMS requires 4|E|²>=3|B|²; strict inequality suffices for that fixed
+observer and equality leaves higher orders open. Physical attribution, the
+averaging law, native vacuum admission and the distance regime remain open.
 
-After orientation read R8FAC and R18. The return is a mathematical discriminator
-and an explicit physical attribution/regime question. Stop for lay discussion
-after the authorized integration/check/publication gates. LIVE owns actual
-closure and authorization; the older PIA1 application remains deferred. No
-automatic successor, arbitrary profile survey or protected restart.
+Two actual fresh source-first/direct reviewers checked complementary analytic
+arguments and independent numerical implementations. They share the inherited
+model; no human, different-model, empirical or interval certification is claimed.
+The campaign reaches a precise rejected-identification return with surviving
+tools, not exhaustion of possible physical connections. Native event/path-depth,
+response, source, scale and cosmic curve remain unselected. Prior positive and
+negative results retain their original hypotheses and grades.
+
+After orientation read R8ALP and R18. A next physical connection must justify a
+relation among actual comparisons in its stated regime; choosing or normalizing
+an average does not supply it. Stop for lay discussion after the authorized
+integration/check/publication gates. LIVE and actual receipts own closure; the
+older PIA1 application stays deferred and no successor or protected restart is
+automatic.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate
