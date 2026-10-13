@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-13T13:30:10.600407+00:00",
+  "freeze_sha256": "2268d07448fdd18ca616396109380698838b6e00257a394b7c9fa29a8c2a2fb9",
+  "accepted_files_checked": 14864,
+  "bytes_hashed": 2375486108,
+  "protected_prefixes_rejected_before_hashing": [
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/"
+  ],
+  "protected_paths_present": 0,
+  "accepted_map_mismatches": [],
+  "initial_candidate_files_checked": 23,
+  "initial_candidate_mismatches": [],
+  "changed_prior_count": 8,
+  "new_count": 67,
+  "generated_orientation_matches": true,
+  "unchanged_prior_files_inherit_review_not_reproof": 14789,
+  "status": "PASS"
+}

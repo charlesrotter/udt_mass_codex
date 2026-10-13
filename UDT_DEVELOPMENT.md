@@ -1,7 +1,7 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — GRC1 clock/optical research return,
+**Current development — COC1 physical clock/optical connection,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -35,35 +35,40 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** GRC1 pursued explicitly unadopted physical connections
-across failed first ideas. Requiring every prepared laboratory's additional
-leading clock contrast to be nonnegative constrains the additional null optical
-tides to be nonpositive. A separate prohibition of extra null defocusing makes
-the difference isotropic. Neither physical condition follows merely from ordinary
-clocks or no preferred observer. The resulting isotropic class overlaps PCC1;
-the new content is the conditional clock-to-optics implication and its alternatives.
+**Current learning.** COC1 gives GRC1's optical proposal an explicit ideal
+measurement: a freely falling clock fixes a round-trip duration, and local
+screens/rulers supply the area and source angles of the two null cones'
+intersection. Its directional area coefficient combines clock tides and null
+Ricci curvature. Timing together with the independently measured clock tide determines the
+needed conversion to normalized affine distance; tick ratios or apparent brightness alone do not provide the area.
 
-Radial optical neutrality is weaker. In a declared spherical sector, an actual
-areal-clock endpoint law forces reciprocal static form but leaves its radial
-function free. The clock-sign trial then imposes inequalities on that function.
-A supplied anisotropic quartic witness has a proved finite released-clock exchange
-with both future legs redshifted; held clocks behave differently. It is neither
-a fitted nor a native-selected metric. A weaker angular-mean trial, in a declared
-Ricci-flat reference sector and with a separate optical inequality, gives the
-Einstein Ricci class while retaining Weyl tides. No response E is identified.
+Requiring the additional directional area coefficient to be nonpositive in every
+prepared frame is exactly GRC1's two strong clock/optical inequalities together.
+It gives the same isotropic curvature difference, conditionally. Applying that
+law to total geometry instead would remove all Weyl tides and fail nonzero
+Schwarzschild recovery. Applying it to a matched additional contribution keeps
+the physical reference and attribution open. The condition remains UNADOPTED.
 
-Physical attribution, reference/sector choice, optical law, scale and matter
-coupling remain open. The candidates restrict geometry conditionally; they do
-not establish an additional UDT prediction or derive a new native field equation.
-Existing positive and negative results retain their scopes, including GCP1's
-literal-support nonimplication, PSW1's open physical join and PIA1/FRI1's limits.
-Exact argument reviews and required checks own GRC1 closure; no premise or CANON
-change is made. These results do not establish full-postulate insufficiency.
+The angular mean instead measures total scalar curvature, a known geometric
+result and something CMF1 already reconstructs from clocks. A positive scalar
+part is not automatically received slowing: an exact ultrastatic control has
+positive scalar curvature while its static clocks exchange unchanged ticks.
+Its leading prepared clock coefficients in every finite frame are nonpositive,
+including zero. Requiring the scalar-subtracted curvature
+to satisfy Bianchi separately under the same physical metric connection would
+select constant scalar curvature, not the Einstein class, and is another unadopted physical restriction.
 
-After orientation read R7GRC/R8GRC and R18. Stop for lay discussion of the physical
-clock/optical alternatives and their unresolved attribution, rather than another
-arbitrary profile survey. LIVE owns authorization. The older moderate-regime PIA1
-application remains deferred; no automatic successor or protected restart.
+This narrows the physical choice and corrects the operational calibration; it
+does not select a native metric, source, response E or scale. Existing GRC1,
+PSW1, PCC1 and CMF1 conditional results survive at their stated scopes. No new
+premise or CANON change is made, and no full-postulate insufficiency is proved.
+Actual argument reviews, source-preserving clarification and required checks
+own COC1 closure.
+
+After orientation read R8COC and R18; R7GRC/R8GRC retain the preceding alternatives.
+Stop for lay discussion of the physical attribution and the narrowed restrictions.
+LIVE owns authorization. The older PIA1 application remains deferred; no automatic
+successor, arbitrary profile survey or protected restart follows this return.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -1159,6 +1164,140 @@ owns these proofs, exact metric checks and primary-source limits.
 
 The physical decision is which clock/optical conditions the positional commitment
 supports, rather than choosing an attractive member of the supplied function class.
+
+
+<a id="r8coc"></a>
+
+#### Giving the optical proposal an actual clock preparation — COC1
+
+GRC1's optical inequalities are conditional; COC1 asks whether actual clock/null
+comparisons can justify their physical meaning. Two independent researchers
+first proposed a scalar projector, then pursued its attribution and its actual
+measurement separately. A shared geometry permits these ideal queries but does
+not adopt their signs as laws. The result below removes an operational ambiguity
+while narrowing, rather than closing, the positional attribution.
+
+**Fix the observable before imposing its sign.** In a smooth Lorentz4 metric,
+let a central geodesic proper clock have p=gamma(0), q=gamma(2l). In a sufficiently
+small causally convex normal neighborhood, S_l is the spacelike two-surface where
+the future null cone of p meets the past null cone of q. Supply its induced proper
+area per source solid angle dOmega. Appropriate ideal local screens/rulers measure
+that area; neither frequency-only data nor apparent brightness supplies it.
+The surface is the cone-intersection edge, not a maximal slice, a spacelike filling
+volume or a sphere at proper radius l. Units set c_E=1 without selecting a scale.
+
+For source unit timelike U, unit n perpendicular to U, and k=U+n, write
+
+    e=A(n,U,U,n), rho=Ric(k,k),
+    dA_l/(l² dOmega)=1+a(U,n)l²+O(l³),
+    a(U,n)=(4e-rho)/6.
+
+Here A and the curvature sign are those of R8GRC. Quadratic Fermi geometry on
+the radial direction gives t(lambda)=lambda-e lambda³/3+O(lambda^4) and
+r(lambda)=lambda-e lambda³/6+O(lambda^4). The return-null incidence gives
+l=r-e r³/6+O(r^4), hence lambda=l+e l³/3+O(l^4). The normalized vertex-Jacobi
+area at fixed source-normalized affine lambda is 1-rho lambda²/6+O(lambda³).
+Substitution gives the stated coefficient; an angle-dependent edge shift adds
+only a null-generator component and leaves its induced area unchanged.
+Curvature derivatives and path bending are within the stated higher-order remainder.
+Each expansion is for a fixed finite frame and a smooth bounded local neighborhood;
+there is no uniform finite-l claim over unbounded boosts.
+
+PSW1's actual prepared clock ratios determine e at leading order, so rho=4e-6a
+uses an explicit timing/area preparation rather than an assumed affine-range
+measurement. A normalized affine parameter is unique after vertex and source
+normalization. An unspecified range label s=lambda+b(n)lambda³ instead changes
+the apparent coefficient by -2b; it is generally non-affine. Tangent calibration
+alone therefore does not supply the needed cubic range conversion. The initial
+parent wording incorrectly called this an “affine relabeling”; the [preserved
+clarification](udt_clock_optical_physical_connection_2026-10-13/REPAIR.md) corrects it.
+
+Angular integration cancels the U-dependent Ricci term:
+
+    Area(S_l)=4 pi l² [1-R(p)l²/18+O(l³)].
+
+This is the known small Alexandrov-edge area formula, not a new curvature law
+([Gibbons–Solodukhin, eq29](https://arxiv.org/pdf/hep-th/0703098), tau=2l).
+CMF1 already recovers total R from limiting clock coefficients. Acceleration
+cannot be omitted: a uniformly accelerated Minkowski central clock gives area
+4 pi sinh²(a0 l)/a0², so the geodesic estimator falsely returns -6a0² despite
+zero curvature. Finite normalized-area error epsilon(l) contributes epsilon(l)/l²
+to the extracted coefficient. No instrument precision or distant affine history
+has been reconstructed here.
+
+**A directional sign is a substantial physical choice.** Supply a reference g0,
+a time-oriented tangent isometry and corresponding geodesic preparations, source
+angles, units and l. With D=A_g-I*A_g0, the matched coefficient satisfies
+
+    6 Delta a=4 Delta e-Delta Ric(k,k).
+
+Propose **RA1-CONTRAST, UNADOPTED:** Delta a<=0 for every future unit U and unit
+n perpendicular to it. A boost inside their timelike plane keeps Delta e fixed
+and sends k to exp(eta)k. Requiring
+4 Delta e-exp(2eta)Delta Ric(k,k)<=0 for all finite eta implies Delta e<=0
+and Delta Ric(k,k)>=0, by the two boost limits. Conversely these imply the sign.
+The extracted local limit comes first; a violated inequality already has a finite
+boost witness, with its own sufficiently small local experiment. Thus
+
+    RA1-CONTRAST iff GRC1 S+F iff D=kappa B_g, kappa>=0.
+
+One operational condition has the same physical strength as the previous two;
+it is not a weaker premise or a new class. A single frame's entire sky is
+insufficient: the supplied GRC1 anisotropic witness has Delta a<0 there but
+Delta a>0 after a finite tangential boost. An angular mean sign alone gives
+Delta R>=0, not S, F or the Einstein Ricci class.
+
+**RA1-TOTAL, a separate UNADOPTED trial**, applies the same all-frame directional
+sign to total curvature. It forces A=kappa B_g with nonnegative kappa, so Weyl
+vanishes; contracted Bianchi makes kappa constant on a connected smooth region.
+Such metrics cannot converge in C² to a nonzero Schwarzschild exterior on a
+common regular region. This rejects that exact universal total law as a GR-tidal
+recovery route, not UDT, all optical proposals or restricted finite observations.
+The contrast version can retain reference Weyl, but its physical matching and
+positional attribution remain open. PCC1's different-connection caveat still
+prevents silently turning a pointwise difference into a regional field equation.
+
+**The scalar projector does not assign a physical cause.** Put K=R/12,
+S=Ric-(R/4)g and A_vis=A-KB_g. The pointwise null-screen kernel permits this
+split algebraically. Calibrated null Ricci data determine S given the tangent
+metric. If M is the sky mean of the actual leading clock coefficient C=-e
+and N is the sky mean of Ric(U+n,U+n), then
+
+    M=-Ric(U,U)/3, N=(R+4 Ric(U,U))/3, K=M+N/4.
+
+In the supplied exact ultrastatic product -dt²+h_b with constant spatial
+sectional curvature b>0, K=b/2>0. Yet for every finite U and n, C<=0: choosing
+U=(sqrt(1+w²),w,0,0) and an adapted spatial frame gives
+e=b w²(n2²+n3²)>=0. Static geodesic clocks have p=q=1. No nonnegative average
+of these net leading coefficients identifies positive K as received slowing.
+This does not exclude a positive additional part canceled by a remainder, a
+matched contrast, higher-order behavior or the founding interpretation. It is a
+metric-only control, not a full-UDT countermodel. An independently differentiated
+GR dust comparison likewise has positive K and negative comoving M. The imported
+Einstein equation is used only to identify that GR control's ordinary matter,
+never as UDT dynamics.
+
+On one physical metric with its own Levi-Civita connection, contracted Bianchi
+also gives div S=(1/4)dR=3dK. Thus calibrated regional null Ricci together with
+the supplied connection and derivative data determines dK, leaving one constant
+on a connected region. This is conditional differential information, not finite
+noisy reconstruction. A_vis itself satisfies differential Bianchi under that same
+connection iff dK=0: necessity follows by contraction and sufficiency from
+nabla B_g=0. **AUTONOMOUS-COMPLEMENT, UNADOPTED** would therefore impose constant
+scalar curvature, a weaker condition than Einstein. The supplied regular metric
+-dt²+sinh(2t)(dx²+dy²+dz²), t>0, has R=12 but S00=3/sinh²(2t) nonzero.
+A_vis is not thereby the curvature of another physical metric or an independent
+UDT sector. No different reference connection inherits this argument automatically.
+
+The [fixed initial candidate](udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md),
+[A attribution/closure proof](udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md),
+[B operational proof](udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md)
+and [scope supplement](udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md)
+retain discoveries, exact controls and limits. The [descendant review](udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md)
+keeps positive implications and negative controls equally scoped. The physical
+return is an explicit observable and a sharper test of possible laws. Neither
+more scalar tomography nor adoption by resemblance closes positional attribution.
+No native response, geometry, source or scale is selected.
 
 
 <a id="r8aci"></a>
@@ -5338,26 +5477,33 @@ are optional routes, not universal prerequisites for every clock consequence.
 
 ### R18. What can now be used, and what remains open
 
-**Current return — GRC1.** R7GRC/R8GRC provide conditional physical connections:
-a declared areal-clock law restricts a spherical metric; an every-laboratory
-additional clock-sign trial constrains optical tides; an extra optical inequality
-collapses that class to PCC1's isotropic difference. A weaker mean version in a
-declared Ricci-flat reference sector, together with the separately supplied total
-null-convergence inequality Ric_g(k,k)>=0, yields the Einstein Ricci class while
-retaining Weyl. The inequalities and their positional attribution are unadopted. No native
-geometry, response E, physical scale or source law has been selected.
+**Current return — COC1.** R8COC supplies an explicitly prepared clock/angle/area
+comparison and identifies the exact physical strength of a directional optical
+proposal. GRC1's S+F is equivalent to nonpositive additional leading radar-area
+coefficient in every prepared frame. This remains an unadopted matched condition,
+with physical reference and positional attribution open. Applied to total
+geometry, it forces a space form and fails nonzero Schwarzschild C² recovery.
+The angular mean measures total scalar curvature, not automatically a positional
+contribution. A positive scalar projector can coexist with unchanged static
+ticks and nonpositive net leading clock coefficients in all finite frames.
+Separately requiring Bianchi closure under the same physical metric connection
+after subtracting that projector would impose constant scalar curvature, not the Einstein class; it is also unadopted.
 
-These are substantive discriminators among proposed laws, not just evaluations of
-an arbitrary profile. The finite quartic and conformal controls test their limits;
-they do not become preferred UDT models. The physical issue now exposed is whether
-additional positional slowing permits extra null defocusing, and which actual
-comparison and sector isolate that contribution. Ordinary metric optical reciprocity
-does not decide that issue. Further arbitrary profile fitting or a larger supplied-
-equation solve would not justify the physical join. The proposed mean law is an
-alternative to the response identification below, not evidence that E=Ric is native.
-The older GCP1 negative results survive at their literal-support and assignment
-scopes; neither those failures nor these conditional successes prove full-postulate
-insufficiency. LIVE controls authorization; PIA1's older application stays deferred.
+This is narrower progress in the physical question: a measurement ambiguity is
+resolved, one tempting total law is excluded at an explicit recovery target, and
+two proposed identifications are distinguished from received slowing. It is not
+a native geometry selection or an additional UDT prediction. R7GRC/R8GRC's radial,
+mean, directional and conformal alternatives retain their scopes. PSW1's physical
+join, PCC1's reference/connection issue, CMF1's total-curvature reconstruction and
+R9's response assignment remain distinct. The supplied controls are neither
+preferred models nor full-postulate counterexamples. No new premise is adopted.
+
+Stop for lay discussion of the physical assignment before a successor. A further
+proposal should identify which actual comparison isolates the additional effect
+and how a proposed law preserves established GR tides; repeating scalar tomography
+or surveying arbitrary profiles does not supply that assignment. This is an open
+research target, not a proof that another premise is necessary. LIVE controls
+actual authorization; PIA1's older application remains deferred.
 
 R12T now supplies a three-coordinate metric engine, longer finite conditional
 histories and independently checked actual null-clock queries. TPP1 broadens
@@ -6888,6 +7034,22 @@ standard mathematical libraries and the candidate problem. Neither constitutes
 interval certification, human review or experimental validation. Exact final
 attestations and normal/maintenance/full406 receipts govern completed integration;
 review does not adopt the clock signs, optical condition, reference or geometry.
+
+COC1 adds two independently originating researchers and two further actual fresh
+source-first/direct/final reviewers. The [notebook](udt_clock_optical_physical_connection_2026-10-13/NOTEBOOK.md)
+and [work record](udt_clock_optical_physical_connection_2026-10-13/WORK_RECORD.md)
+disclose nearest-prior scalar reconstruction, researcher cross-exposure and the
+preserved parent range-label wording error. The math reviewer independently
+constructs an anisotropic dS2 x R2 cone edge from geodesics and induced area;
+this differs from the researchers' isotropic symbolic controls. The fidelity
+review challenges preparation, reference and physical attribution, including both
+positive and adverse descendants. Source-first derivation is followed by exposed
+candidate/integration review, not continued blindness. Shared model/library,
+finite symbolic checks, independent argument, byte correspondence and scientific
+adoption remain separate. No empirical accuracy, full theorem mechanization,
+different-model or human certification is claimed. Actual final attestations and
+required regression receipts own integration closure; every proposed physical
+law remains unadopted.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-13T13:40:53.293897+00:00",
+  "status": "REVIEWED_CONDITIONAL_RETURN_CHECKS_PASS",
+  "scope": "COC1 conditional geometry and scoped negative identifications only; no scientific premise adoption or native selection",
+  "review_record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+  "review_record_sha256": "efca4095db59019283e4b86c4d44a87d76014a6363261689261647af764f9e06",
+  "reviewers": [
+    {
+      "context": "/root/coc_review_math",
+      "attestation": "udt_clock_optical_physical_connection_2026-10-13/review_math/FINAL_ATTESTATION.json",
+      "sha256": "7b2905c9fb591173734519fc64c22e484d512e1ab9e96eac93e631db582d415e"
+    },
+    {
+      "context": "/root/coc_review_fidelity",
+      "attestation": "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/FINAL_ATTESTATION.json",
+      "sha256": "24fe7bfb8436b6ce0fcb72d640b92fb0739bae74293ceb3c5e8f7f8b5d947ac3"
+    }
+  ],
+  "accepted_sha256_count": 14864,
+  "freeze_sha256": "2268d07448fdd18ca616396109380698838b6e00257a394b7c9fa29a8c2a2fb9",
+  "required_checks": {
+    "final_development": {
+      "receipt": "udt_clock_optical_physical_connection_2026-10-13/checks/final_development.json",
+      "receipt_sha256": "86713bc703e099abdcb4fb1e50170e3573c6225cc5499fcae90c32bd58e63581",
+      "returncode": 0,
+      "duration_seconds": 1.7607362170238048
+    },
+    "final_maintenance": {
+      "receipt": "udt_clock_optical_physical_connection_2026-10-13/checks/final_maintenance.json",
+      "receipt_sha256": "da56f03a2e3db2c1fc0f4cd39ffa9a62c77af1bf56f92aff108a9395e5c93b67",
+      "returncode": 0,
+      "duration_seconds": 2.0972651140764356
+    },
+    "final_full406": {
+      "receipt": "udt_clock_optical_physical_connection_2026-10-13/checks/final_full406.json",
+      "receipt_sha256": "d0ea3a2c0b411427e0bab75b1ebf167e37ce1af25ffbf3563c022b10b43d96ed",
+      "returncode": 0,
+      "duration_seconds": 405.8016301000025
+    }
+  },
+  "initial_candidate_files_unchanged": 23,
+  "unrelated_names_preserved_without_payload_access": 76,
+  "protected_payloads_accessed": false,
+  "package_bytes_before_closure": 10802938,
+  "publication": "Commit and normal fast-forward grok/main publication are subsequent gates; this receipt does not pre-claim them. Actual tool/remote verification owns publication."
+}

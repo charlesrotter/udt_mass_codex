@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "evidence_kind": "finite exact symbolic controls, same researcher",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": [
+    {
+      "name": "de_sitter_original_metric_scalar",
+      "passed": true,
+      "residual": "0",
+      "scalar": "12*K"
+    },
+    {
+      "name": "de_sitter_exact_radar_area",
+      "passed": true,
+      "residual": "0",
+      "normalized_area": "tanh(sqrt(K)*ell)**2/(K*ell**2)"
+    },
+    {
+      "name": "ultrastatic_spatial_curvature_original_metric_scalar",
+      "passed": true,
+      "residual": "0",
+      "scalar": "6*K"
+    },
+    {
+      "name": "ultrastatic_spatial_curvature_exact_radar_area",
+      "passed": true,
+      "residual": "0",
+      "normalized_area": "sin(sqrt(K)*ell)**2/(K*ell**2)"
+    },
+    {
+      "name": "ultrastatic_spatial_curvature_clock_tide_zero",
+      "passed": true,
+      "residual": "0",
+      "interpretation": "Clock ratios equal one by time translation."
+    },
+    {
+      "name": "accelerated_minkowski_area",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "six_direction_null_mean",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "scalar_radar_mean_cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cubic_reparameterization",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radar_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Fermi_time_geodesic_linear_residual",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Fermi_radial_geodesic_linear_residual",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "radar_affine_cubic_relation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "rational_boost_lorentz",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "rational_boost_bivector",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "rational_boost_null_rescaling",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "grc1_unboosted_sky",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "grc1_boosted_area_failure",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "inputs_sha256": {
+    "INITIAL_PROPOSAL.md": "862e267d582df9d552c4eae1ee4238f14983e8839274ec8fc7968cf98d46e8ae",
+    "PROBE_FREEZE.md": "00404d16f399ab48176c72244b17af1fa836f019fca2ccf11b3ed2c3b22c1e92",
+    "OPERATIONAL_CANDIDATE.md": "343913b782b1a59f165840f5ea3a0f94fd84693ec421bb4babd25d0aa61782ea",
+    "check_operational.py": "004ec5b0510f4ae4106fe1996e295e2fca488d6e08e05b887808c0cc72f0fd29"
+  },
+  "omissions": [
+    "No finite-size error constant",
+    "No full theorem mechanization",
+    "No physical attribution test data",
+    "No independent context or implementation claim"
+  ]
+}

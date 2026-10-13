@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-13T13:15:33.634747+00:00",
+  "scope": "Preserved initial COC1 scientific candidate and supplied proof/control bytes, before direct candidate review. Not acceptance.",
+  "sha256": {
+    "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md": "fe46cc76a5f9b8a5eaf3c482612589a8db32f1f6380eec7777ce42613d21e9da",
+    "udt_clock_optical_physical_connection_2026-10-13/coordinator/PRIMARY_METHOD_NOTES.md": "ffb920d2558c60fb57d9f9d0fb5f3814ea48034c199b6e98b196e82c683805a9",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": "9c6dd8483de7c116250856f3fabc0bbd5614ea38fca961458f15cb1065807961",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CHECK_PLAN.md": "b4fd5dc6554cab40dc659381f0209eae31b80dc49aa734a1ea0bb04ed0f58ef8",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/INITIAL_PROPOSAL.md": "5e86e9bcea573c74e1234bed3c7c07d5dfdc51a7f100c20bb9f0e4fb1bacc692",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/REGIONAL_CHECK_RESULT.json": "b62571e1332539bd3249b0f66884b614f1565fad93546a6d96b8df4b9f792ad4",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/SOURCE_NOTES.md": "0e389dc86ffde22e4ae5550cd6c872e73c57c872e782ad107caa13cc0bc4f61a",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/check_regional_scalar.py": "4532ca955b4ec631fe44c8204e46899e8ff3307d81ac4becf9693d8e1a4fa32d",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/checks/regional_scalar_01.json": "3a00e709b4553b74ac0b60d1d1cbd56e59f504588fcbd0243fcef7a5b22715d7",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/checks/regional_scalar_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/checks/regional_scalar_01.stdout": "b62571e1332539bd3249b0f66884b614f1565fad93546a6d96b8df4b9f792ad4",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/checks/source_pins_01.json": "3cfd399a470f01deaf7bc999277e1b4c14cfb60059266070a60b39321a9a1bd3",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/checks/source_pins_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/checks/source_pins_01.stdout": "dbf7005980c81de679d80576f0a36c18f36fddfd1e7c0a0a9120ff0f4de63f6e",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/INITIAL_PROPOSAL.md": "862e267d582df9d552c4eae1ee4238f14983e8839274ec8fc7968cf98d46e8ae",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md": "343913b782b1a59f165840f5ea3a0f94fd84693ec421bb4babd25d0aa61782ea",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/PROBE_FREEZE.md": "00404d16f399ab48176c72244b17af1fa836f019fca2ccf11b3ed2c3b22c1e92",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SOURCE_EXPOSURE_RECORD.md": "d9d83d10ac09fd19b990cd90ab43603dbd94a854e50b3a9eac59e4e583eb574b",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md": "afe77f07c94a3468082936698251366be6489b0ff19d0fa7a83ae9a9cd01422a",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/check_operational.py": "004ec5b0510f4ae4106fe1996e295e2fca488d6e08e05b887808c0cc72f0fd29",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/checks/operational_01.json": "65d9c277442730a3f7a486bafa515d0d8265ad649f1bc05f8e32b495e1ab37a7",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/checks/operational_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/checks/operational_01.stdout": "615ae0362f196a22d4d26ea6d856bc37d3c336e66af773b45e73532449a2ff28"
+  }
+}

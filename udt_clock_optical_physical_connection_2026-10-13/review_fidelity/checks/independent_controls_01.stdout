@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "checks": [
+    "ultrastatic total scalar",
+    "boost normalization",
+    "rest basis orthogonality 0",
+    "rest basis unit 0",
+    "null 0 -1",
+    "null 0 1",
+    "rest basis orthogonality 1",
+    "rest basis unit 1",
+    "null 1 -1",
+    "null 1 1",
+    "rest basis orthogonality 2",
+    "rest basis unit 2",
+    "null 2 -1",
+    "null 2 1",
+    "boosted longitudinal tide",
+    "boosted first transverse tide",
+    "boosted second transverse tide",
+    "ultrastatic scalar projector",
+    "Schwarzschild Ricci norm",
+    "Kottler Ricci identity",
+    "matched full curvature difference",
+    "Schwarzschild total directional sign fails in one frame",
+    "differential-Bianchi scalar-gradient kernel is zero",
+    "accelerated exact interval area",
+    "accelerated integrated coefficient",
+    "accelerated source-angle first order",
+    "accelerated source-angle second order"
+  ],
+  "check_count": 27,
+  "ultrastatic": {
+    "electric": [
+      "0",
+      "16/9",
+      "16/9"
+    ],
+    "M": "-32/27",
+    "N": "182/27",
+    "K": "1/2"
+  },
+  "Schwarzschild_directional_area": [
+    "-2/15",
+    "1/15",
+    "1/15"
+  ],
+  "gradient_Bianchi_rank": 4,
+  "accelerated_area_series": "acc**2*l**2/3 + 1",
+  "accelerated_ray_series": "acc**2*l**2*z**2 - acc**2*l**2/3 + acc*l*z + 1",
+  "frozen_files_verified": 23,
+  "sha256": {
+    "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/check_independent.py": "edb937baa694e247493c957dbd6bf3cd30519f2c718b2bf6e6a3a0e7829c4f78",
+    "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/CHECK_PLAN.md": "df7c0fce7ad991a80ee7aa74dd2f1f27d25fdfd7f5c736fe74c52a41a7a887b8",
+    "udt_clock_optical_physical_connection_2026-10-13/CANDIDATE_FREEZE.json": "c312856da1cb2e012dde0cf73dc96bb4cd7384b1f4e0230f37dcd8821358d5f2",
+    "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md": "fe46cc76a5f9b8a5eaf3c482612589a8db32f1f6380eec7777ce42613d21e9da"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "script_sha256": "c1d7827a367f38db510b4babe84138247bddb3b783b5e9ac976b322dce3af0bc",
+  "scope": "Exact Taylor coefficients of two supplied original-metric controls; no general numerical certificate",
+  "dS2_product": {
+    "affine_cut_cubic": "-c**2/3",
+    "directional_density_l2": "1/6 - 5*c**2/6",
+    "mean_density_l2": "-1/9",
+    "axis_density_l2": "-2/3",
+    "transverse_density_l2": "1/6"
+  },
+  "flat_accelerated": {
+    "density_l1": "2*a*c",
+    "density_l2": "a**2*(9*c**2 - 2)/3",
+    "mean_density_l2": "a**2/3"
+  },
+  "zero_residual_checks": {
+    "t_geodesic_jet": "0",
+    "x_geodesic_jet": "0",
+    "null_incidence_l4": "0",
+    "directional_density_comparison": "0",
+    "scalar_mean_comparison": "0",
+    "accelerated_null_root": "0",
+    "accelerated_linear": "0",
+    "accelerated_quadratic": "0",
+    "accelerated_angular_mean": "0"
+  }
+}

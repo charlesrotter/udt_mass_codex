@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — GRC1 clock/optical research return,
+**Current development — COC1 physical clock/optical connection,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,35 +39,40 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** GRC1 pursued explicitly unadopted physical connections
-across failed first ideas. Requiring every prepared laboratory's additional
-leading clock contrast to be nonnegative constrains the additional null optical
-tides to be nonpositive. A separate prohibition of extra null defocusing makes
-the difference isotropic. Neither physical condition follows merely from ordinary
-clocks or no preferred observer. The resulting isotropic class overlaps PCC1;
-the new content is the conditional clock-to-optics implication and its alternatives.
+**Current learning.** COC1 gives GRC1's optical proposal an explicit ideal
+measurement: a freely falling clock fixes a round-trip duration, and local
+screens/rulers supply the area and source angles of the two null cones'
+intersection. Its directional area coefficient combines clock tides and null
+Ricci curvature. Timing together with the independently measured clock tide determines the
+needed conversion to normalized affine distance; tick ratios or apparent brightness alone do not provide the area.
 
-Radial optical neutrality is weaker. In a declared spherical sector, an actual
-areal-clock endpoint law forces reciprocal static form but leaves its radial
-function free. The clock-sign trial then imposes inequalities on that function.
-A supplied anisotropic quartic witness has a proved finite released-clock exchange
-with both future legs redshifted; held clocks behave differently. It is neither
-a fitted nor a native-selected metric. A weaker angular-mean trial, in a declared
-Ricci-flat reference sector and with a separate optical inequality, gives the
-Einstein Ricci class while retaining Weyl tides. No response E is identified.
+Requiring the additional directional area coefficient to be nonpositive in every
+prepared frame is exactly GRC1's two strong clock/optical inequalities together.
+It gives the same isotropic curvature difference, conditionally. Applying that
+law to total geometry instead would remove all Weyl tides and fail nonzero
+Schwarzschild recovery. Applying it to a matched additional contribution keeps
+the physical reference and attribution open. The condition remains UNADOPTED.
 
-Physical attribution, reference/sector choice, optical law, scale and matter
-coupling remain open. The candidates restrict geometry conditionally; they do
-not establish an additional UDT prediction or derive a new native field equation.
-Existing positive and negative results retain their scopes, including GCP1's
-literal-support nonimplication, PSW1's open physical join and PIA1/FRI1's limits.
-Exact argument reviews and required checks own GRC1 closure; no premise or CANON
-change is made. These results do not establish full-postulate insufficiency.
+The angular mean instead measures total scalar curvature, a known geometric
+result and something CMF1 already reconstructs from clocks. A positive scalar
+part is not automatically received slowing: an exact ultrastatic control has
+positive scalar curvature while its static clocks exchange unchanged ticks.
+Its leading prepared clock coefficients in every finite frame are nonpositive,
+including zero. Requiring the scalar-subtracted curvature
+to satisfy Bianchi separately under the same physical metric connection would
+select constant scalar curvature, not the Einstein class, and is another unadopted physical restriction.
 
-After orientation read R7GRC/R8GRC and R18. Stop for lay discussion of the physical
-clock/optical alternatives and their unresolved attribution, rather than another
-arbitrary profile survey. LIVE owns authorization. The older moderate-regime PIA1
-application remains deferred; no automatic successor or protected restart.
+This narrows the physical choice and corrects the operational calibration; it
+does not select a native metric, source, response E or scale. Existing GRC1,
+PSW1, PCC1 and CMF1 conditional results survive at their stated scopes. No new
+premise or CANON change is made, and no full-postulate insufficiency is proved.
+Actual argument reviews, source-preserving clarification and required checks
+own COC1 closure.
+
+After orientation read R8COC and R18; R7GRC/R8GRC retain the preceding alternatives.
+Stop for lay discussion of the physical attribution and the narrowed restrictions.
+LIVE owns authorization. The older PIA1 application remains deferred; no automatic
+successor, arbitrary profile survey or protected restart follows this return.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

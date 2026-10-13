@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-13T13:30:39.910480+00:00",
+  "python": "3.10.12",
+  "accepted_files_checked": 14864,
+  "prior_files": 14797,
+  "new_files": 67,
+  "changed_prior_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "initial_candidate_files_checked": 23,
+  "protected_payloads_opened": false,
+  "generated_orientation_equal": true,
+  "coc_review_support_pins_checked": 7,
+  "freeze_sha256": "2268d07448fdd18ca616396109380698838b6e00257a394b7c9fa29a8c2a2fb9",
+  "plan_sha256": "af72b400903b2c8719fdec204df837b5e286440bbacef14722d847701525f31c",
+  "script_sha256": "10f3eb69de72aaf89bf7ecaefbc4bfb9d5450f7fc565fe3171b6262b0a31b5e0",
+  "omissions": [
+    "No semantic reproof of inherited corpus",
+    "No pending normal/57/full406 checks",
+    "No publication or empirical/premise/canon approval"
+  ]
+}

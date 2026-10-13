@@ -1,13 +1,13 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — GRC1 conditional research return, 2026-10-13
+## CURRENT STATE — COC1 physical-connection return, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. GRC1's scoped conditional return is in
-udt_goal_research_campaign_2026-10-13/. WORK_ORDER owns authorization,
+orientation. COC1's scoped conditional return is in
+udt_clock_optical_physical_connection_2026-10-13/. WORK_ORDER owns authorization,
 NOTEBOOK records discovery, and actual final attestations plus check receipts
 own closure. Prior results retain their original scopes. Verify actual HEAD,
 remote refs, dirt and required checks rather than inferring completion from prose.
@@ -52,8 +52,8 @@ reviews, source-preserving repair and central integration. No three-hour solve
 or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
 Original proposals, failed routes, actual reviewer reports and version bindings
 remain in that package. Scientific premises, registry grades and CANON are unchanged.
-Next: complete any outstanding RSK1 skill review/check/publication gate, then
-Stop for lay discussion of GRC1's fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
+Next: Stop for lay discussion of COC1 in central R8COC/R18. Its actual final
+attestations, checks and publication evidence own completed banking.
 No automatic successor research follows. The earlier PIA1 application stays
 deferred; no empirical fit, desktop installation, GPU/long production, physical
 premise adoption or parked/protected restart is authorized by this return.
@@ -66,8 +66,24 @@ plan and tested in three fresh synthetic contexts. RSK1's scope, actual behavior
 outputs, method reviews and final check receipts are in research_skill_2026-10-13/.
 Those records own closure; verify actual bytes and refs. This is skill packaging,
 not a successor scientific campaign. Scientific sources, grades and the central
-GRC1 return retain their existing scope. Stop for lay discussion after the skill
-checkpoint; the scientific next decision remains central R7GRC/R8GRC/R18.
+GRC1 return retain their existing scope. That earlier skill discussion stop was superseded
+by the explicit COC1 authorization below.
+
+RSK1 closed at1fca5f69 with three synthetic trials, two actual final method
+reviews and required checks, then matched grok/main. Charles now explicitly
+invokes goal-directed-research and directs the next step. COC1 is authorized in
+udt_clock_optical_physical_connection_2026-10-13/WORK_ORDER.md: investigate physical
+attribution/calibration of the clock/optical connection, keeping all trials
+unadopted. BASELINE records its one-hour exploration checkpoint; this is no
+killing timeout. Two independent researchers, two further fresh reviews and
+up to two repairs are included. No GPU, long solver, premise adoption or
+protected restart is authorized. COC1 reached its bounded exploration return
+before the checkpoint, then used two fresh source-first/direct review contexts
+and source-preserving clarification. The current argument is central R8COC/R18;
+fixed evidence and DECISION_BRIEF are in the COC1 package. All physical trials
+remain unadopted. Actual final attestations, normal/maintenance/full406 receipts
+and committed/remote correspondence own closure; verify them and current refs.
+No automatic successor follows this discussion return.
 
 ### Honest claim
 
@@ -100,12 +116,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-RSK1's skill checkpoint requires its actual behavior records, two final method
-reviews, normal/maintenance/full406 checks and ordinary publication. Complete any
-outstanding gate shown by those receipts, then Stop for lay discussion. No new
-research campaign is authorized. The scientific decision remains GRC1's fixed
-DECISION_BRIEF and central R7GRC/R8GRC/R18. Pauses/protected boundaries persist;
-TPS1 raw fields/large streams remain local-only, not remotely replayable. Verify
-actual process, HEAD, dirt and synchronization.
+Stop for lay discussion of COC1's scoped physical-connection return in
+UDT_DEVELOPMENT R8COC/R18. Verify actual final reviews, required check receipts
+and publication before asserting completed banking. The next scientific decision
+is the physical attribution/comparison to investigate; no unadopted condition
+becomes a premise through review. Existing pauses and protected boundaries
+persist. TPS1 raw fields/large streams remain local-only, not remotely replayable.
+Verify actual process, HEAD, dirt and synchronization. No automatic successor.
 
 <!-- STARTUP_CURRENT_END -->

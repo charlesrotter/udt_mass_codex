@@ -2955,6 +2955,67 @@
         "C_GRC_CLOCK_OPTICAL",
         "C_GRC_CONFORMAL"
       ]
+    },
+    {
+      "id": "C_COC_QUERY",
+      "kind": "condition",
+      "statement": "Ideal smooth Lorentz4 regular cone-intersection query: geodesic central proper clock, source-normalized direction, supplied induced proper area and angles, each fixed finite frame and local limiting coefficient. Clock tide independently measured by PSW preparation. Area is not brightness or frequency-only data; no uniform boost error or instrument claim.",
+      "sources": [
+        "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md",
+        "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md",
+        "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_COC_TRIALS",
+      "kind": "condition",
+      "statement": "Separate UNADOPTED trials: matched all-frame directional RA1-CONTRAST with supplied reference/isometry/units/geodesic preparation; RA1-TOTAL on physical curvature for the recovery obstruction; or autonomous scalar-complement differential Bianchi under the SAME physical metric connection. Not a conjunction for all results. Regional reconstruction additionally supplies connection and compatible derivative data.",
+      "sources": [
+        "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md",
+        "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md",
+        "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_COC_ATTRIBUTION",
+      "kind": "open_join",
+      "statement": "Positional attribution, reference/sector/preparation justification, actual area/error access and native response/geometry/source/scale remain open. Measurable total scalar projection is not a separately identified physical cause. Nonnegative-averaging counterexample and total-law Weyl exclusion retain their narrow scopes, not full-postulate impossibility.",
+      "sources": [
+        "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md",
+        "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md",
+        "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8COC",
+      "kind": "argument",
+      "anchor": "r8coc",
+      "title": "Prepared radar-area coefficient, exact strong optical trial, total-law GR obstruction and scalar attribution/closure limits",
+      "sources": [
+        "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md",
+        "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md",
+        "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md",
+        "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_COC_QUERY",
+        "C_COC_TRIALS"
+      ]
     }
   ],
   "edges": [
@@ -6072,6 +6133,86 @@
       "from": "R8GRC",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "C_COC_QUERY",
+      "to": "R8COC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_COC_TRIALS",
+      "to": "R8COC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "O_COC_ATTRIBUTION",
+      "to": "R8COC",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "D1",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R8COC",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R8COC",
+      "kind": "proof"
+    },
+    {
+      "from": "R8PRT",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R8CMF",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R8GRC",
+      "to": "R8COC",
+      "kind": "proof"
+    },
+    {
+      "from": "R7GRC",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R16PIA",
+      "to": "R8COC",
+      "kind": "context"
+    },
+    {
+      "from": "R8COC",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -6419,7 +6560,13 @@
     "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md": "253686b3a3370f9a6ff63d261e937293877339bc6661e71c879b9fff21e6834d",
     "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md": "298cc123ff41eaef4b33136f6a29ab2fbc0cdc2376847b8f562ae82e21a5a316",
     "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md": "94c2c04cb766aafe79e02666f34b5b08525a1067a67d01c87491817419ef494c",
-    "udt_goal_research_campaign_2026-10-13/DESCENDANT_REVIEW.md": "076c6c6c775dc5d718e79fbfada0ead0bf8e41b0833020d7de77b9d6ba79fc36"
+    "udt_goal_research_campaign_2026-10-13/DESCENDANT_REVIEW.md": "076c6c6c775dc5d718e79fbfada0ead0bf8e41b0833020d7de77b9d6ba79fc36",
+    "udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md": "fe46cc76a5f9b8a5eaf3c482612589a8db32f1f6380eec7777ce42613d21e9da",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": "9c6dd8483de7c116250856f3fabc0bbd5614ea38fca961458f15cb1065807961",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md": "343913b782b1a59f165840f5ea3a0f94fd84693ec421bb4babd25d0aa61782ea",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md": "afe77f07c94a3468082936698251366be6489b0ff19d0fa7a83ae9a9cd01422a",
+    "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md": "3bcf547c0cb2507c8cc79122183a8c1152a8a00a1ec211c6d177e2dbc85bc2d9",
+    "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md": "38edb4e3dff95054cea5522175e4471e0c076ac19d646edc761900e9a9cb23e5"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -11345,6 +11492,72 @@
       "targets": [
         "R8GRC",
         "C_GRC_CLOCK_OPTICAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md",
+      "sha256": "3bcf547c0cb2507c8cc79122183a8c1152a8a00a1ec211c6d177e2dbc85bc2d9",
+      "role": "repair_scope",
+      "targets": [
+        "R8COC",
+        "C_COC_QUERY",
+        "C_COC_TRIALS",
+        "O_COC_ATTRIBUTION",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/review_math/SOURCE_FIRST.md",
+      "sha256": "3564714e48bebdb0868185b0875ed1dc1a30416dfbc7831b1f039cbd83e6a527",
+      "role": "review_evidence",
+      "targets": [
+        "R8COC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/review_math/DIRECT_REVIEW.md",
+      "sha256": "3a059d66d19d54be02be764de8cfe087946fd91ec22ec4f6accf74868dea3c41",
+      "role": "review_evidence",
+      "targets": [
+        "R8COC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/review_math/REPAIR_REVIEW.md",
+      "sha256": "9fcf6d3617df66fbebd8b3833f6c661edf3b9d084e1e1d02f2d9c6fc3d9bfae7",
+      "role": "review_evidence",
+      "targets": [
+        "R8COC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "e29cfcc6efa8e72de0a56372dc50fc7b71ab94631c5111d7b7e7eab3921f05ed",
+      "role": "review_evidence",
+      "targets": [
+        "R8COC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/DIRECT_REVIEW.md",
+      "sha256": "3e5844a64c33902693b3c90f223f7e1a6a43e91f7c7bf7c5e4ef13547d6a480f",
+      "role": "review_evidence",
+      "targets": [
+        "R8COC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/REPAIR_REVIEW.md",
+      "sha256": "b690b34ad3ce30b9531ed37260cfcf947a789fefc24ece70067338b551cd9597",
+      "role": "review_evidence",
+      "targets": [
+        "R8COC",
         "R18"
       ]
     }

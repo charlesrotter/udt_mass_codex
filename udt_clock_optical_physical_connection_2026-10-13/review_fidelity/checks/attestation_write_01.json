@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_clock_optical_physical_connection_2026-10-13/review_fidelity/write_final_attestation.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T13:32:46.858982+00:00",
+  "duration_seconds": 0.0344636810477823,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 23028,
+  "forwarded_signals": [],
+  "stdout_sha256": "714d82602d46b0d35a31ad9174576d919655d088c41f7670dd46d5cf5e7a2577",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

@@ -1,0 +1,48 @@
+{
+  "scope": "Exact symbolic original-metric FLRW controls; no finite observational or native selection claim",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "general": {
+    "R": "6*(a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2)/a(t)**2",
+    "M": "Derivative(a(t), (t, 2))/a(t)",
+    "N": "2*(-a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2)/a(t)**2",
+    "divS": [
+      "3*(a(t)**2*Derivative(a(t), (t, 3)) + a(t)*Derivative(a(t), t)*Derivative(a(t), (t, 2)) - 2*Derivative(a(t), t)**3)/(2*a(t)**3)",
+      "0",
+      "0",
+      "0"
+    ],
+    "bianchi_residual": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "dust": {
+    "R": "4/(3*t**2)",
+    "K": "1/(9*t**2)",
+    "M": "-2/(9*t**2)",
+    "N": "4/(3*t**2)",
+    "divS_t": "-2/(3*t**3)"
+  },
+  "dust_Einstein_tensor": "Matrix([[4/(3*t**2), 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])",
+  "constant_scalar_non_Einstein": {
+    "R": "12",
+    "K": "1",
+    "S00": "3/sinh(2*t)**2",
+    "divS_t": "0"
+  },
+  "source_sha256": {
+    "UDT_DEVELOPMENT.md": "88207b78810b9bd39b3f362fd9c26937c026bb7410696aeef49d50f161d47274",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md": "696a97a3b59c37a88a1044dae940df9a18414aabada55335f495217e4f226a97",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md": "298cc123ff41eaef4b33136f6a29ab2fbc0cdc2376847b8f562ae82e21a5a316",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CHECK_PLAN.md": "b4fd5dc6554cab40dc659381f0209eae31b80dc49aa734a1ea0bb04ed0f58ef8",
+    "/home/udt-admin/udt_mass_codex/udt_clock_optical_physical_connection_2026-10-13/researcher_a/check_regional_scalar.py": "4532ca955b4ec631fe44c8204e46899e8ff3307d81ac4becf9693d8e1a4fa32d"
+  },
+  "status": "PASS"
+}

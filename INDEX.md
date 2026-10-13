@@ -13,6 +13,8 @@
 ## One development and its evidence
 
 - [Maintained argument: definitions and R1–R18](UDT_DEVELOPMENT.md).
+- [Physical clock/optical connection: R8COC](UDT_DEVELOPMENT.md#r8coc);
+  [COC1 fixed discussion packet](udt_clock_optical_physical_connection_2026-10-13/DECISION_BRIEF.md).
 - [Clock/optical research connection: R7GRC/R8GRC](UDT_DEVELOPMENT.md#r8grc);
   [GRC1 fixed discussion packet](udt_goal_research_campaign_2026-10-13/DECISION_BRIEF.md).
 - [Numerical comparison return: R12N](UDT_DEVELOPMENT.md#r12n);

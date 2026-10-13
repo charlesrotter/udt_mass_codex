@@ -1,0 +1,31 @@
+{
+  "command": [
+    "sha256sum",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/INITIAL_PROPOSAL.md",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/CHECK_PLAN.md",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/SOURCE_NOTES.md",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/check_regional_scalar.py",
+    "udt_clock_optical_physical_connection_2026-10-13/researcher_a/REGIONAL_CHECK_RESULT.json",
+    "udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+    "udt_positional_selection_whiteboard_2026-10-01/REPAIR.md",
+    "udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md",
+    "UDT_DEVELOPMENT.md"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T13:08:30.101171+00:00",
+  "duration_seconds": 0.0035496519412845373,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 8860,
+  "forwarded_signals": [],
+  "stdout_sha256": "dbf7005980c81de679d80576f0a36c18f36fddfd1e7c0a0a9120ff0f4de63f6e",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}
