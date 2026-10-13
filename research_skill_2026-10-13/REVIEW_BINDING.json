@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-13T12:38:41.678658+00:00",
+  "record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+  "record_sha256": "3afd7357392d66996325e0545e8a2611ae2f9127993e3f70ecaa2b60df23996e",
+  "freeze_sha256": "c90d574075295c53afdcedb1f8ae9048155a4e9f2a19e72819e628b6445fa4c7",
+  "reviewers": [
+    {
+      "context": "/root/skill_trial_b",
+      "attestation": "research_skill_2026-10-13/review_fidelity/FINAL_ATTESTATION.json",
+      "sha256": "00614e887b99eecb7ba5ec07ce03e8584ca5a572d87a2fdb538071ac09816fb1"
+    },
+    {
+      "context": "/root/skill_trial_c; actual separate inherited-model context; prior Case C author; exposed final method reviewer, not newly blind or a scientific reviewer",
+      "attestation": "research_skill_2026-10-13/review_continuity/FINAL_ATTESTATION.json",
+      "sha256": "7447bb61fda6eebd287f1bf8a3943094d8b5ee90ed5eb84978b33ff87c300434"
+    }
+  ],
+  "verified_accepted_files": 14797,
+  "limits": "Binding only; actual reviews own judgments. Required final checks and publication still separate."
+}

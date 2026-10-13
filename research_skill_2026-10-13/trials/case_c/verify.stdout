@@ -1,0 +1,10 @@
+{
+  "check": "input byte preservation only; no scientific certification",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "command": "python3 /tmp/udt-research-skill-2026-10-13/case_c/output/verify_preservation.py",
+  "input_count": 6,
+  "changed": [],
+  "missing": [],
+  "unexpected": [],
+  "pass": true
+}

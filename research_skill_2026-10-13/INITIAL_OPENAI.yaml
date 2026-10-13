@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal-directed research"
+  short_description: "Pursue a research goal across tested and revised ideas"
+  default_prompt: "Use $goal-directed-research to pursue the agreed research objective within its authorized scope and budget."

@@ -1,0 +1,11 @@
+{
+  "kind": "input byte correspondence only",
+  "sha256": {
+    ".agents/skills/goal-directed-research/SKILL.md": "c85bde01dd49c0a9ce85af938da175b90d2641cde418db615d83fbbe6f4c6af7",
+    ".agents/skills/goal-directed-research/agents/openai.yaml": "bb5ccb822f2a857584e91b6375a709cdb2a2bcf2a5620e82958b973d496438d7",
+    "AGENTS.md": "aa614f46ea1913636108b5194626048f8fef600254293c9b71df72d53ba0b88b",
+    "NOTEBOOK.md": "accae00f5749488ac62471f9faff1beeac8b762f401c1094aa29386f56be3a1f",
+    "TASK.md": "07e5408e91229420ee1b7d82cdc915fd5e3b82b1117d950dfa500e988ef4b558",
+    "UDT_RESEARCH_OPERATING_PLAN.md": "c9decfa4cba925a6c7a92d35c52d8eb00839e79c20d817560c5d61791f3074c2"
+  }
+}

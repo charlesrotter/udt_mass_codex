@@ -1,0 +1,36 @@
+{
+  "review_stage": "INITIAL_METHOD_FIDELITY_REVIEW_NOT_FINAL_ATTESTATION",
+  "reviewer_context": "/root/skill_trial_b",
+  "model": "inherited model; exact identifier not independently verified",
+  "prior_exposure": [
+    "initial skill",
+    "Case B source packet and own outputs"
+  ],
+  "evaluation_plan_exposure": "first read in this integration review",
+  "sibling_review_or_parent_outcome_exposure_before_initial_save": false,
+  "parent_startup": "attributed synchronized grok at 60c273ef",
+  "independently_read_current_HEAD": "60c273ef24900535ea2f375a32ec394b8bc633b8",
+  "source_sha256": {
+    "AGENTS.md": "c7a1c89c7662e7af182a18c85052737df38a6e649c3b82b9c2bb36fd73aa386a",
+    "CLAUDE.md": "248540078a74edbe8ebba7e34c6a8d78d51de415541deb432839136044bb30bd",
+    "UDT_RESEARCH_OPERATING_PLAN.md": "7db3894b88748e8518da4dd8c6d58565f787815848a199d53ed89a3f44b8f69e",
+    "LIVE.md": "b3116cda9cf0806deddb315786923737404e17ef542b878380b956ef9a31aa1b",
+    "HANDOFF.md": "9e15832e4e5c05fbc34dbce648e0c2141f1c62138f85a08126b43a67fbfafdd9",
+    ".agents/skills/goal-directed-research/SKILL.md": "c85bde01dd49c0a9ce85af938da175b90d2641cde418db615d83fbbe6f4c6af7",
+    ".agents/skills/goal-directed-research/agents/openai.yaml": "bb5ccb822f2a857584e91b6375a709cdb2a2bcf2a5620e82958b973d496438d7",
+    "research_skill_2026-10-13/WORK_ORDER.md": "e15761a8cdf92016e7e848648c6801030e60e691a276d935c0146b1ff12a3474",
+    "research_skill_2026-10-13/EVALUATION_PLAN.md": "6bf7979b6f376134a795463d955ae49bfe61a61d8fcdf882d3f1b7bfc6e9f826",
+    "research_skill_2026-10-13/INITIAL_SKILL.md": "c85bde01dd49c0a9ce85af938da175b90d2641cde418db615d83fbbe6f4c6af7"
+  },
+  "initial_and_current_skill_byte_identical": true,
+  "tracked_diff_command": "git diff --no-ext-diff --binary HEAD -- AGENTS.md HANDOFF.md LIVE.md UDT_RESEARCH_OPERATING_PLAN.md",
+  "tracked_diff_sha256": "2c6964db20c6c5e65c5a816da6b0c4038d0d86f63396a4fa074561ca249c7f30",
+  "report_sha256": "2b6129b27f921c7e93747a96161960503ae115ac8425c45ddc57aab2fc6f52a2",
+  "source_files_stable_during_pin_capture": true,
+  "limits": [
+    "Only current LIVE/HANDOFF blocks received content review.",
+    "CLAUDE and operating-plan method sections were reviewed; full hashes pin versions only.",
+    "No final map, gate completion, remote sync, scientific truth or promotion is attested.",
+    "Checksums establish byte correspondence only."
+  ]
+}

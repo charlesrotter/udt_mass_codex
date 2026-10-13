@@ -100,6 +100,11 @@ truth/canon. A claimed independent reviewer must be an actual separate context.
 
 ### Goal-directed discovery — Charles's 2026-10-13 clarification
 
+For planning or executing an authorized goal-directed research campaign, use
+`.agents/skills/goal-directed-research/SKILL.md`. This compact execution aid routes
+to `UDT_RESEARCH_OPERATING_PLAN.md`; AGENTS remains the method authority. Skill
+selection supplies neither campaign authorization nor scientific premises.
+
 Researchers pursue the geometry-selection objective across ideas, rather than
 treating each assigned calculation as the objective. Within a written goal scope
 and resource budget, agents may originate, develop, combine, reject and replace

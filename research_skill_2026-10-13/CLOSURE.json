@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-13T12:46:51.221237+00:00",
+  "status": "REVIEWED_CHECKS_PASSED_READY_FOR_PUBLICATION",
+  "scope": "Method-only skill checkpoint; no scientific adoption or successor research.",
+  "reviewed_map_entries_checked": 14797,
+  "final_review_binding": "research_skill_2026-10-13/REVIEW_BINDING.json",
+  "final_review_binding_sha256": "411ede22b0cbe156e25d1949c25cfe3235e265329cfafd530c4f0077ba1c1ddc",
+  "required_pass_receipts": {
+    "final_skill_validator": {
+      "receipt": "research_skill_2026-10-13/checks/final_skill_validator.json",
+      "sha256": "f1d1b8d9d40ae8c61bd6eb33dedcb79b5dbca47fb294787d24326f23e8414a2d",
+      "returncode": 0,
+      "seconds": 0.02343840291723609
+    },
+    "case_a_replay": {
+      "receipt": "research_skill_2026-10-13/checks/case_a_replay.json",
+      "sha256": "0bfb9824359dc0e3ea7d0655d4e2fa60c06e8f3ca00f9327f873b3707e3d819a",
+      "returncode": 0,
+      "seconds": 0.015442412113770843
+    },
+    "maintenance": {
+      "receipt": "research_skill_2026-10-13/checks/maintenance.json",
+      "sha256": "3d033ad1e386d6024cec730e4e1d177d0429e7885388555f7830623a7c301499",
+      "returncode": 0,
+      "seconds": 2.0676607890054584
+    },
+    "final_development": {
+      "receipt": "research_skill_2026-10-13/checks/final_development.json",
+      "sha256": "83acffd1f9aaf2cb03f40c2b271d1964a4b5c1fc1015e5a21e7e8d6e519853b0",
+      "returncode": 0,
+      "seconds": 1.7637000589165837
+    },
+    "final_full406": {
+      "receipt": "research_skill_2026-10-13/checks/final_full406.json",
+      "sha256": "02857d5e72312ed8f610a9fc22c833040c5ae081a9f0c9173a721eb9cfe05d73",
+      "returncode": 0,
+      "seconds": 409.16932243318297
+    }
+  },
+  "unchanged_science": "All inherited accepted scientific bytes match; only four method/status files and central review binding changed among tracked files.",
+  "unrelated_names_preserved": 76,
+  "protected_payloads_not_read_hashed_or_staged": true,
+  "precommit_refs": {
+    "HEAD": "60c273ef24900535ea2f375a32ec394b8bc633b8",
+    "origin/grok": "60c273ef24900535ea2f375a32ec394b8bc633b8",
+    "origin/main": "60c273ef24900535ea2f375a32ec394b8bc633b8",
+    "main": "60c273ef24900535ea2f375a32ec394b8bc633b8"
+  },
+  "failed_attempts": "initial_guard is expected REVIEW_REQUIRED; development/full406 premature launches retained and explained in CHECK_LAUNCH_CORRECTION.md. Only final_development/final_full406 count as final passes.",
+  "formatting_exception": "WHITESPACE_SCOPE.json lists exact single-space blank context lines in frozen unified-diff evidence.",
+  "publication": "Still pending at this precommit record. Exact staged/committed/remote checks follow under BRANCH_WORKFLOW; Git refs and tool receipts own publication, not a prospective claim.",
+  "limits": "Synthetic explicit-invocation behavior only; same-model and exposed final method reviews; no automatic selection/UI/endurance or productivity guarantee."
+}

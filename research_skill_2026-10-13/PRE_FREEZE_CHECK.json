@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-13T12:30:54.473556+00:00",
+  "inherited_count": 14735,
+  "changed": {
+    "AGENTS.md": {
+      "before": "aa614f46ea1913636108b5194626048f8fef600254293c9b71df72d53ba0b88b",
+      "after": "c7a1c89c7662e7af182a18c85052737df38a6e649c3b82b9c2bb36fd73aa386a"
+    },
+    "HANDOFF.md": {
+      "before": "14129739836eaa950852ace110a48cc6a524a355b112727c62c1e566908e49ff",
+      "after": "9e15832e4e5c05fbc34dbce648e0c2141f1c62138f85a08126b43a67fbfafdd9"
+    },
+    "LIVE.md": {
+      "before": "579363875b2d0c906f65466dc22bf9c5474b496b47297b34a3677b01894c42ad",
+      "after": "e52429ec1d3ced8f50fb126c9e507937cd8f920889c50567080b029186862d78"
+    },
+    "UDT_RESEARCH_OPERATING_PLAN.md": {
+      "before": "c9decfa4cba925a6c7a92d35c52d8eb00839e79c20d817560c5d61791f3074c2",
+      "after": "c85c2da3d62e1b6fe0fae43847764e222857b8a9705c1b6d86f7f60e24f0c77c"
+    }
+  },
+  "all_other_inherited_bytes_unchanged": true,
+  "unrelated_untracked_names_preserved": 76,
+  "protected_contents_not_hashed": true,
+  "case_b_artifact_hashes_checked": 5,
+  "case_c_hashes_checked": 4,
+  "case_a_original_replay_comparisons_equal": true,
+  "limits": "Version/correspondence checks, not science reproof or artifact chronology."
+}

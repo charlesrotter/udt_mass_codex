@@ -13,6 +13,18 @@ This is a method proposal, not a second scientific account or a source of physic
 Its fixed [design record](research_operating_design_2026-10-12/WORK_RECORD.md)
 preserves the source snapshot, retrospective, review and limits.
 
+The repository skill [goal-directed-research](.agents/skills/goal-directed-research/SKILL.md)
+is the reusable execution entry for this plan. Its short workflow references this
+plan and AGENTS instead of maintaining another premise or status account. The
+fixed [RSK1 implementation and behavior evaluation](research_skill_2026-10-13/WORK_RECORD.md)
+records validation and limits. GRC1 is a dated example of a completed campaign;
+its [work record](udt_goal_research_campaign_2026-10-13/WORK_RECORD.md) supplies
+examples of redirection and review, not a default budget, team size or physical
+conclusion for future campaigns. Method selection does not authorize execution.
+Team counts and staffing patterns below are examples; the current work order
+sets actual staffing, review axes, resources and stops. This does not waive
+required independent review or authorize delegation outside that mandate.
+
 ## Recommendation
 
 Organize research around a persistent goal: find a physically defensible

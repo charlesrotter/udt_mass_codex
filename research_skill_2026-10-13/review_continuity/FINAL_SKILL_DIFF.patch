@@ -1,0 +1,14 @@
+--- INITIAL_SKILL.md
++++ .agents/skills/goal-directed-research/SKILL.md
+@@ -95,8 +95,9 @@
+ uncertainty, a justified restriction, a useful conditional tool or a concrete
+ rejected hypothesis; distinguish these outcomes explicitly.
+ 
+-Integrate the surviving argument and relevant failures into the existing central
+-development using the repository's maintenance/review process. Keep fixed campaign
++When authorized by the work order, integrate the surviving argument and relevant
++failures into the existing central development using the repository's
++maintenance/review process. Keep fixed campaign
+ evidence and update operational continuity proportionately. Explain the result,
+ limits and next decision in lay terms. Checkpointing and publication preserve
+ the work; a successor campaign follows only from its actual authorization.

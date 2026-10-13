@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "checks": {
+    "first_derivative": true,
+    "second_derivative": true,
+    "negative_curvature_phase": true,
+    "positive_curvature_phase": true,
+    "negative_slope_phase": true,
+    "positive_slope_phase": true
+  },
+  "first_derivative": [
+    {
+      "power": 5,
+      "factor": "cos",
+      "coefficient": -2
+    },
+    {
+      "power": 7,
+      "factor": "one",
+      "coefficient": 16
+    },
+    {
+      "power": 7,
+      "factor": "sin",
+      "coefficient": 8
+    }
+  ],
+  "second_derivative": [
+    {
+      "power": 2,
+      "factor": "sin",
+      "coefficient": -4
+    },
+    {
+      "power": 4,
+      "factor": "cos",
+      "coefficient": -26
+    },
+    {
+      "power": 6,
+      "factor": "one",
+      "coefficient": 112
+    },
+    {
+      "power": 6,
+      "factor": "sin",
+      "coefficient": 56
+    }
+  ],
+  "arithmetic": "Python exact integers; no floating-point scientific check",
+  "scope": "same-context algebra regression; no independent review",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "elapsed_seconds": 0.0009731631726026535,
+  "peak_resident_kib_linux": 10176
+}

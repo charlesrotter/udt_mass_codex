@@ -1,0 +1,8 @@
+{
+  "authority_link_resolves_to_root": true,
+  "operating_plan_link_resolves_to_root": true,
+  "actual_skill_matches_initial": true,
+  "rsk_work_record_link_exists": false,
+  "grc_example_link_exists": true,
+  "sources_changed_since_pin": []
+}

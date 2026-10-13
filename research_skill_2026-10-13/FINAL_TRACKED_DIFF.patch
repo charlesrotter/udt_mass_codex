@@ -1,0 +1,119 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index af3bd60b..dd563d39 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -100,6 +100,11 @@ truth/canon. A claimed independent reviewer must be an actual separate context.
+ 
+ ### Goal-directed discovery — Charles's 2026-10-13 clarification
+ 
++For planning or executing an authorized goal-directed research campaign, use
++`.agents/skills/goal-directed-research/SKILL.md`. This compact execution aid routes
++to `UDT_RESEARCH_OPERATING_PLAN.md`; AGENTS remains the method authority. Skill
++selection supplies neither campaign authorization nor scientific premises.
++
+ Researchers pursue the geometry-selection objective across ideas, rather than
+ treating each assigned calculation as the objective. Within a written goal scope
+ and resource budget, agents may originate, develop, combine, reject and replace
+diff --git a/HANDOFF.md b/HANDOFF.md
+index b45ca213..f46bf6d8 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -46,13 +46,23 @@ reviews, source-preserving repair and central integration. No three-hour solve
+ or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
+ Original proposals, failed routes, actual reviewer reports and version bindings
+ remain in that package. Scientific premises, registry grades and CANON are unchanged.
+-Next: complete any outstanding final review/check/publication gate, then
+-Stop for lay discussion of the fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
++Next: complete any outstanding RSK1 skill review/check/publication gate, then
++Stop for lay discussion of GRC1's fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
+ No automatic successor research follows. The earlier PIA1 application stays
+ deferred; no empirical fit, desktop installation, GPU/long production, physical
+ premise adoption or parked/protected restart is authorized by this return.
+ Preserve existing unrelated dirt and all pauses.
+ 
++GRC1 closed at60c273ef with two actual reviews and required checks, then matched
++grok/main. Charles subsequently approved preserving this method as the repository
++skill `.agents/skills/goal-directed-research/SKILL.md`, connected to the operating
++plan and tested in three fresh synthetic contexts. RSK1's scope, actual behavior
++outputs, method reviews and final check receipts are in research_skill_2026-10-13/.
++Those records own closure; verify actual bytes and refs. This is skill packaging,
++not a successor scientific campaign. Scientific sources, grades and the central
++GRC1 return retain their existing scope. Stop for lay discussion after the skill
++checkpoint; the scientific next decision remains central R7GRC/R8GRC/R18.
++
+ Protected payloads require explicit dispatch; preserve without inspecting/hashing:
+ 
+ - `udt_native_onshell_timelive_reset_owner_audit_2026-08-10/`
+diff --git a/LIVE.md b/LIVE.md
+index e4b09372..f0b08282 100644
+--- a/LIVE.md
++++ b/LIVE.md
+@@ -52,13 +52,23 @@ reviews, source-preserving repair and central integration. No three-hour solve
+ or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
+ Original proposals, failed routes, actual reviewer reports and version bindings
+ remain in that package. Scientific premises, registry grades and CANON are unchanged.
+-Next: complete any outstanding final review/check/publication gate, then
+-Stop for lay discussion of the fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
++Next: complete any outstanding RSK1 skill review/check/publication gate, then
++Stop for lay discussion of GRC1's fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
+ No automatic successor research follows. The earlier PIA1 application stays
+ deferred; no empirical fit, desktop installation, GPU/long production, physical
+ premise adoption or parked/protected restart is authorized by this return.
+ Preserve existing unrelated dirt and all pauses.
+ 
++GRC1 closed at60c273ef with two actual reviews and required checks, then matched
++grok/main. Charles subsequently approved preserving this method as the repository
++skill `.agents/skills/goal-directed-research/SKILL.md`, connected to the operating
++plan and tested in three fresh synthetic contexts. RSK1's scope, actual behavior
++outputs, method reviews and final check receipts are in research_skill_2026-10-13/.
++Those records own closure; verify actual bytes and refs. This is skill packaging,
++not a successor scientific campaign. Scientific sources, grades and the central
++GRC1 return retain their existing scope. Stop for lay discussion after the skill
++checkpoint; the scientific next decision remains central R7GRC/R8GRC/R18.
++
+ ### Honest claim
+ 
+ The maintained scientific argument is [UDT_DEVELOPMENT.md](UDT_DEVELOPMENT.md).
+@@ -90,12 +100,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
+ 
+ ### Next gate
+ 
+-GRC1 returns for lay discussion after its two actual final attestations, required
+-normal/maintenance/full406 checks and publication. Exact evidence owns completion;
+-verify any outstanding gate. The scientific argument is central R7GRC/R8GRC/R18;
+-DECISION_BRIEF is a fixed discussion packet, not another maintained summary.
+-No assumption is adopted and no successor starts automatically. Pauses/protected
+-boundaries persist. TPS1 raw fields/large streams remain local-only, not remotely
+-replayable. Verify actual process, HEAD, dirt and synchronization.
++RSK1's skill checkpoint requires its actual behavior records, two final method
++reviews, normal/maintenance/full406 checks and ordinary publication. Complete any
++outstanding gate shown by those receipts, then Stop for lay discussion. No new
++research campaign is authorized. The scientific decision remains GRC1's fixed
++DECISION_BRIEF and central R7GRC/R8GRC/R18. Pauses/protected boundaries persist;
++TPS1 raw fields/large streams remain local-only, not remotely replayable. Verify
++actual process, HEAD, dirt and synchronization.
+ 
+ <!-- STARTUP_CURRENT_END -->
+diff --git a/UDT_RESEARCH_OPERATING_PLAN.md b/UDT_RESEARCH_OPERATING_PLAN.md
+index 1b5976bd..fce9f51f 100644
+--- a/UDT_RESEARCH_OPERATING_PLAN.md
++++ b/UDT_RESEARCH_OPERATING_PLAN.md
+@@ -13,6 +13,18 @@ This is a method proposal, not a second scientific account or a source of physic
+ Its fixed [design record](research_operating_design_2026-10-12/WORK_RECORD.md)
+ preserves the source snapshot, retrospective, review and limits.
+ 
++The repository skill [goal-directed-research](.agents/skills/goal-directed-research/SKILL.md)
++is the reusable execution entry for this plan. Its short workflow references this
++plan and AGENTS instead of maintaining another premise or status account. The
++fixed [RSK1 implementation and behavior evaluation](research_skill_2026-10-13/WORK_RECORD.md)
++records validation and limits. GRC1 is a dated example of a completed campaign;
++its [work record](udt_goal_research_campaign_2026-10-13/WORK_RECORD.md) supplies
++examples of redirection and review, not a default budget, team size or physical
++conclusion for future campaigns. Method selection does not authorize execution.
++Team counts and staffing patterns below are examples; the current work order
++sets actual staffing, review axes, resources and stops. This does not waive
++required independent review or authorize delegation outside that mandate.
++
+ ## Recommendation
+ 
+ Organize research around a persistent goal: find a physically defensible

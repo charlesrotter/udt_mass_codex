@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Method/artifact bindings only; no scientific payload read or new scientific check",
+  "freeze_sha256": "c90d574075295c53afdcedb1f8ae9048155a4e9f2a19e72819e628b6445fa4c7",
+  "prior_record_sha256": "8f2cbc8fc164b36796b8112b5f0e4c8ea5606d6c3a5fb943413282abda9f77b3",
+  "accepted_map_count": 14797,
+  "prior_map_count": 14735,
+  "unchanged_inherited_map_entries": 14731,
+  "changed_inherited_count": 4,
+  "added_count": 62,
+  "removed_count": 0,
+  "current_added_changed_hashes_checked": 66,
+  "current_hash_mismatches": [],
+  "protected_payloads_read_or_hashed": false,
+  "inherited_scientific_payloads_read_or_hashed": false,
+  "original_input_hashes_checked": 18,
+  "exact_original_output_copies_checked": 19,
+  "saved_raw_fixture_hashes_checked": 6,
+  "original_case_b_internal_artifact_hashes_checked": 5,
+  "final_tracked_diff_matches_current_HEAD_diff": true,
+  "initial_to_final_skill_diff": "--- INITIAL_SKILL.md\n+++ final SKILL.md\n@@ -95,8 +95,9 @@\n uncertainty, a justified restriction, a useful conditional tool or a concrete\n rejected hypothesis; distinguish these outcomes explicitly.\n \n-Integrate the surviving argument and relevant failures into the existing central\n-development using the repository's maintenance/review process. Keep fixed campaign\n+When authorized by the work order, integrate the surviving argument and relevant\n+failures into the existing central development using the repository's\n+maintenance/review process. Keep fixed campaign\n evidence and update operational continuity proportionately. Explain the result,\n limits and next decision in lay terms. Checkpointing and publication preserve\n the work; a successor campaign follows only from its actual authorization.\n",
+  "ui_metadata_byte_unchanged": true,
+  "case_a_six_exact_comparisons_and_derivative_arrays_match_replay": true,
+  "case_a_replay_receipt": {
+    "command": [
+      "python3",
+      "research_skill_2026-10-13/trials/case_a/check.py"
+    ],
+    "returncode": 0,
+    "duration_seconds": 0.015442412113770843,
+    "wall_timeout_seconds": null,
+    "cpu_timeout_seconds": null,
+    "address_space_bytes": 2147483648
+  },
+  "limits": [
+    "Inherited hashes were compared between review maps, not recalculated from scientific files.",
+    "Copied-file identity does not prove initial chronology or independent authorship.",
+    "Case A replay is same-code regression; original timeout history remains unchanged.",
+    "No final normal/maintenance/full406 gate or publication executed or attested."
+  ]
+}

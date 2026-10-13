@@ -46,12 +46,22 @@ reviews, source-preserving repair and central integration. No three-hour solve
 or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
 Original proposals, failed routes, actual reviewer reports and version bindings
 remain in that package. Scientific premises, registry grades and CANON are unchanged.
-Next: complete any outstanding final review/check/publication gate, then
-Stop for lay discussion of the fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
+Next: complete any outstanding RSK1 skill review/check/publication gate, then
+Stop for lay discussion of GRC1's fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
 No automatic successor research follows. The earlier PIA1 application stays
 deferred; no empirical fit, desktop installation, GPU/long production, physical
 premise adoption or parked/protected restart is authorized by this return.
 Preserve existing unrelated dirt and all pauses.
+
+GRC1 closed at60c273ef with two actual reviews and required checks, then matched
+grok/main. Charles subsequently approved preserving this method as the repository
+skill `.agents/skills/goal-directed-research/SKILL.md`, connected to the operating
+plan and tested in three fresh synthetic contexts. RSK1's scope, actual behavior
+outputs, method reviews and final check receipts are in research_skill_2026-10-13/.
+Those records own closure; verify actual bytes and refs. This is skill packaging,
+not a successor scientific campaign. Scientific sources, grades and the central
+GRC1 return retain their existing scope. Stop for lay discussion after the skill
+checkpoint; the scientific next decision remains central R7GRC/R8GRC/R18.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

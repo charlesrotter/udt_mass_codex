@@ -1,0 +1,103 @@
+{
+  "utc": "2026-10-13T12:28:27.607053+00:00",
+  "initial_inputs_checked": 18,
+  "all_inputs_unchanged": true,
+  "outputs": [
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_a/output/NOTEBOOK.md",
+      "saved": "research_skill_2026-10-13/trials/case_a/NOTEBOOK.md",
+      "sha256": "3b69be451080c981413637f7a80348283b5295810e251866dd3c24810c90e9b0"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_a/output/artifact_sha256.txt",
+      "saved": "research_skill_2026-10-13/trials/case_a/artifact_sha256.txt",
+      "sha256": "1e1fe2eabe6856bbad8da26de5a54c38841ce00168646332938e12ad6487e392"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_a/output/check.py",
+      "saved": "research_skill_2026-10-13/trials/case_a/check.py",
+      "sha256": "09b3a4d3ec859d07c7138fbe3bd443b547b6366c08611ebce2a993f8d2281729"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_a/output/check.stderr.txt",
+      "saved": "research_skill_2026-10-13/trials/case_a/check.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_a/output/check.stdout.json",
+      "saved": "research_skill_2026-10-13/trials/case_a/check.stdout.json",
+      "sha256": "1bd795d5d7c7f4ede86ac220510de150af6b4a252169c1e6f2e661e129170c89"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_a/output/source_sha256.txt",
+      "saved": "research_skill_2026-10-13/trials/case_a/source_sha256.txt",
+      "sha256": "9c2cf44a427a5a2a0af56c0b582a8d7d00d680c135f0c56d38047352b7514718"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_b/output/CANDIDATE.md",
+      "saved": "research_skill_2026-10-13/trials/case_b/CANDIDATE.md",
+      "sha256": "8b3a47a68643345beef95a23e0bb926777f9cd69e9069124be56e3121aaa1803"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_b/output/INITIAL_PROPOSAL.md",
+      "saved": "research_skill_2026-10-13/trials/case_b/INITIAL_PROPOSAL.md",
+      "sha256": "8c96262ba3025a3be5b14dc00eccecdcfae777bbfbcd74c2a7a9a06deb0938be"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_b/output/NOTEBOOK.md",
+      "saved": "research_skill_2026-10-13/trials/case_b/NOTEBOOK.md",
+      "sha256": "8597715707b4d8d6c86a676d1bd2d8128438d0d163f92c0ee2f08569ba98eda8"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_b/output/RETURN.md",
+      "saved": "research_skill_2026-10-13/trials/case_b/RETURN.md",
+      "sha256": "c86fc24348c27ce9ba41ee33c88659ff6156116160743890315e9829c6ecf524"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_b/output/manifest.json",
+      "saved": "research_skill_2026-10-13/trials/case_b/manifest.json",
+      "sha256": "8c3b4cabbb30354d285a64ddd3f740dead57a3393534a7a68fbafcb49d35eb64"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_b/output/package_artifacts.py",
+      "saved": "research_skill_2026-10-13/trials/case_b/package_artifacts.py",
+      "sha256": "9c5645935b01570500342e365cf91d54080b7bd965e685ba36bd4206c5080747"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/INPUT_SNAPSHOT.json",
+      "saved": "research_skill_2026-10-13/trials/case_c/INPUT_SNAPSHOT.json",
+      "sha256": "d9899e5b448ba7a9a5dcb5ecfa25cebe0081f94256e0d3c78c7171e5b02b12d7"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/PRESERVATION_CHECK.json",
+      "saved": "research_skill_2026-10-13/trials/case_c/PRESERVATION_CHECK.json",
+      "sha256": "e92918086ba827e9515608e7b92a0572b01de998055cfbf91b98d38e93da1bc2"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/RETURN.md",
+      "saved": "research_skill_2026-10-13/trials/case_c/RETURN.md",
+      "sha256": "f95650b9672c90cd4d423a8bc9430d73f081507b89ec45b56795438a7be93977"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/SHA256SUMS",
+      "saved": "research_skill_2026-10-13/trials/case_c/SHA256SUMS",
+      "sha256": "dadaa8274abd294892426d7d5ee239e25b1d2462d56aef71cb11a76b9e055e79"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/verify.stderr",
+      "saved": "research_skill_2026-10-13/trials/case_c/verify.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/verify.stdout",
+      "saved": "research_skill_2026-10-13/trials/case_c/verify.stdout",
+      "sha256": "e92918086ba827e9515608e7b92a0572b01de998055cfbf91b98d38e93da1bc2"
+    },
+    {
+      "original": "/tmp/udt-research-skill-2026-10-13/case_c/output/verify_preservation.py",
+      "saved": "research_skill_2026-10-13/trials/case_c/verify_preservation.py",
+      "sha256": "f8911de1c340bd6df79cff7ba79c6d31c9d480ad1c6a7ba8ccd29e6afd75d6a1"
+    }
+  ],
+  "limits": "Byte correspondence; no proof of correctness or causal effect of skill. Source roots remain historical temporary paths."
+}

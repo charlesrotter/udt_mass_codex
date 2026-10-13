@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-13T12:40:07.535220+00:00",
+  "scope": "Preserve exact frozen unified diff evidence; blank context lines contain the required single space. Do not rewrite to silence git diff --check.",
+  "allowed_exact_patch_context_lines": [
+    {
+      "path": "research_skill_2026-10-13/FINAL_TRACKED_DIFF.patch",
+      "context_blank_lines": [
+        6,
+        8,
+        33,
+        45,
+        63,
+        75,
+        78,
+        80,
+        95,
+        104,
+        118
+      ]
+    },
+    {
+      "path": "research_skill_2026-10-13/review_continuity/FINAL_SKILL_DIFF.patch",
+      "context_blank_lines": [
+        6
+      ]
+    },
+    {
+      "path": "research_skill_2026-10-13/review_continuity/INITIAL_DIFF.patch",
+      "context_blank_lines": [
+        6,
+        8,
+        33,
+        45,
+        54,
+        66,
+        69,
+        71,
+        86,
+        95,
+        106
+      ]
+    },
+    {
+      "path": "research_skill_2026-10-13/review_fidelity/INITIAL_TRACKED_DIFF.patch",
+      "context_blank_lines": [
+        6,
+        8,
+        33,
+        45,
+        54,
+        66,
+        69,
+        71,
+        86,
+        95,
+        106
+      ]
+    }
+  ],
+  "all_other_new_files_scanned_clean": true,
+  "verification_limit": "Formatting only; no scientific meaning or review claim."
+}

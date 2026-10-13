@@ -1,0 +1,16 @@
+{
+  "parent_startup_attribution": "grok at 60c273ef24900535ea2f375a32ec394b8bc633b8 synchronized; no independent sync or status claim",
+  "sha256": {
+    "AGENTS.md": "c7a1c89c7662e7af182a18c85052737df38a6e649c3b82b9c2bb36fd73aa386a",
+    "CLAUDE.md": "248540078a74edbe8ebba7e34c6a8d78d51de415541deb432839136044bb30bd",
+    "UDT_RESEARCH_OPERATING_PLAN.md": "7db3894b88748e8518da4dd8c6d58565f787815848a199d53ed89a3f44b8f69e",
+    "LIVE.md": "b3116cda9cf0806deddb315786923737404e17ef542b878380b956ef9a31aa1b",
+    "HANDOFF.md": "9e15832e4e5c05fbc34dbce648e0c2141f1c62138f85a08126b43a67fbfafdd9",
+    ".agents/skills/goal-directed-research/SKILL.md": "c85bde01dd49c0a9ce85af938da175b90d2641cde418db615d83fbbe6f4c6af7",
+    ".agents/skills/goal-directed-research/agents/openai.yaml": "bb5ccb822f2a857584e91b6375a709cdb2a2bcf2a5620e82958b973d496438d7",
+    "research_skill_2026-10-13/WORK_ORDER.md": "e15761a8cdf92016e7e848648c6801030e60e691a276d935c0146b1ff12a3474",
+    "research_skill_2026-10-13/EVALUATION_PLAN.md": "6bf7979b6f376134a795463d955ae49bfe61a61d8fcdf882d3f1b7bfc6e9f826",
+    "research_skill_2026-10-13/INITIAL_SKILL.md": "c85bde01dd49c0a9ce85af938da175b90d2641cde418db615d83fbbe6f4c6af7"
+  },
+  "diff_sha256": "2c6964db20c6c5e65c5a816da6b0c4038d0d86f63396a4fa074561ca249c7f30"
+}
