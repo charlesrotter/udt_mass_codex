@@ -1,7 +1,7 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — GCP1 geometry-constraint pilot return, 2026-10-12
+## CURRENT STATE — goal-directed research method, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
@@ -31,11 +31,26 @@ source/argument probes and stopped without spending the third on another generic
 bound. Two further fresh contexts perform source-first/direct/final review.
 Original candidates and actual review evidence are preserved; no premise is adopted.
 
-Next: Finish any pending final review/check/banking gates in GCP1, then
-Stop for lay discussion of the return and the next specific physical connection.
-No automatic successor. The earlier moderate-regime PIA1 application is deferred.
-No new physical premise, empirical fit, desktop installation, GPU/long production,
-CANON change or parked/protected restart is authorized. Preserve existing dirt.
+GCP1 closed at ba89ad7b with two actual final reviews and normal/maintenance/full406
+passes; publication then matched grok/main. Verify current refs rather than treating
+that historical synchronization as current evidence.
+
+Charles then clarified the goal-directed method: researchers may generate, develop,
+test, discard and replace ideas, including ideas from primary GR, other physics
+and pure mathematics, while retaining scientific fidelity. AGENTS and the updated
+UDT_RESEARCH_OPERATING_PLAN.md distinguish exploratory unadopted assumptions from
+accepted UDT dependencies. The method implementation and review are recorded in
+research_goal_orientation_2026-10-13/. It changes no scientific result or grade.
+
+Next: finish this method update's actual review/check/banking gates, then frame
+the concrete research campaign around the persistent goal and explicit resources.
+Routine in-scope failed ideas redirect researchers; they do not automatically
+end a campaign or require Charles to choose the next calculation. Stop for lay discussion
+at its declared return point or a real scope/resource/owner decision. The earlier
+moderate-regime PIA1 application remains deferred. This method update itself
+launches no scientific solve, unspecified long run or background service.
+No scientific premise adoption, empirical fit, desktop installation, GPU/long
+production, CANON change or parked/protected restart follows. Preserve existing dirt.
 
 ### Honest claim
 
@@ -68,10 +83,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Verify the actual GCP1 final attestations, normal/maintenance/full406 receipts,
-committed bytes and remote state. Stop for lay discussion after closure. The
-central development owns the narrow scientific return and retained tools;
-this pilot did not establish a new native selection rule or full insufficiency.
+Verify the method update's actual reviews, relevant regressions, committed bytes
+and remote state. Use the updated operating plan to frame the goal-based campaign;
+do not treat GCP1's two rejected routes as its agenda or a universal stop.
+The central development retains the unchanged scientific return and tools;
+GCP1 established neither a new native selection rule nor full insufficiency.
 Pauses/protected boundaries persist. TPS1 raw fields/large streams remain
 local-only, not remotely replayable.
 

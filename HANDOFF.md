@@ -1,7 +1,7 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — GCP1 geometry-constraint pilot return, 2026-10-12
+## Current handoff — goal-directed research method, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
@@ -28,12 +28,22 @@ completed two source/argument probes; the third is unused. Two further fresh
 contexts review the scoped return and continuation decision. Original proposals,
 controls, exposures and actual evidence remain in the GCP1 package.
 
-Next: Finish any pending final review/check/banking gates, then
-Stop for lay discussion of the return and next specific physical connection.
-Verify actual attestations/receipts/commit/remote before claiming closure. No
-automatic successor. PIA1's older moderate-regime application is deferred. No
-new physical premise, empirical fit, desktop installation, GPU/long production,
-CANON change or parked/protected restart follows. Preserve all unrelated dirt.
+GCP1 closed at ba89ad7b with actual final reviews and required checks; its then
+verified publication matched grok/main. Verify current status independently.
+Charles's subsequent clarification directs goal-oriented researchers to develop,
+test and replace ideas, drawing on primary GR/physics/mathematics without adopting
+imported physics as UDT. AGENTS and UDT_RESEARCH_OPERATING_PLAN.md own the method;
+research_goal_orientation_2026-10-13/ owns this method change's scope/review.
+Scientific development, source grades and the GCP1 scientific return are unchanged.
+
+Next: finish actual method-review/check/banking gates and frame the bounded
+research campaign with explicit resources. Inside that campaign a failed idea
+prompts redirection; agents need no new permission for routine in-scope changes.
+Stop for lay discussion at the declared campaign return or a real scope/resource/
+owner decision. This method update starts no scientific solve or background service.
+PIA1's older application remains deferred. No scientific premise adoption,
+empirical fit, desktop installation, GPU/long production, CANON change or parked/
+protected restart follows. Preserve all unrelated dirt.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

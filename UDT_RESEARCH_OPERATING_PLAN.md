@@ -1,21 +1,33 @@
 # UDT research operating plan
 
-ROD1, 2026-10-12. **Reviewed method proposal; its first pilot was subsequently
-authorized and executed as [GCP1](udt_geometry_constraint_pilot_2026-10-12/WORK_ORDER.md).**
-The prospective wording below preserves the design, not current authorization.
-[GCP1's record](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md) owns the actual
-trial and limits; one pilot establishes no productivity advantage. AGENTS.md
-remains the working authority.
+Updated 2026-10-13 to implement Charles's goal-directed research clarification.
+The original ROD1 design was tested in
+[GCP1](udt_geometry_constraint_pilot_2026-10-12/WORK_ORDER.md).
+[GCP1's record](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md) owns that
+completed trial and its limits; it demonstrated no productivity advantage.
+The current method below addresses its restricted discovery behavior.
+The [method-change record](research_goal_orientation_2026-10-13/WORK_RECORD.md)
+preserves the owner direction, scope and actual review. AGENTS.md remains the
+working authority. Neither this method nor a conjecture supplies accepted physics.
 This is a method proposal, not a second scientific account or a source of physics.
 Its fixed [design record](research_operating_design_2026-10-12/WORK_RECORD.md)
 preserves the source snapshot, retrospective, review and limits.
 
 ## Recommendation
 
-Organize the next investigation around one persistent scientific question, with
-two agents independently choosing promising approaches and a coordinator able
-to redirect their effort within one approved mandate. Review both the strongest
-result and the reason to continue. Keep one scientific account in
+Organize research around a persistent goal: find a physically defensible
+connection through which UDT's positional clock-dilation interpretation restricts
+the shared spacetime geometry or its physical clock comparisons, retaining the
+source-qualified SR/GR recovery requirements. A useful partial restriction can
+advance this goal; one unique geometry or a complete field equation is not the
+entry requirement.
+
+Give two researchers responsibility for developing lines of inquiry over multiple
+ideas, with a coordinator able to redirect effort within one bounded mandate.
+They may form conjectures, learn from literature, work out consequences, find
+counterexamples, revise or discard a proposal, and move to another informative
+idea. Each individual calculation serves the goal. Review both the strongest
+result and the reason to continue or stop. Keep one scientific account in
 [UDT_DEVELOPMENT.md](UDT_DEVELOPMENT.md).
 
 The objective is better research decisions, not a promise that more autonomy or
@@ -26,6 +38,78 @@ UDT's clarified commitments are insufficient, or that another postulate is neede
 For now, use **this Codex CLI workspace for execution and the first pilot**.
 Consider ChatGPT desktop as a later interface for supervising the same repository,
 after a small compatibility trial. The interface decision is explained below.
+
+## Discovery permission and scientific fidelity
+
+Charles's clarification permits ideas and techniques from primary GR literature,
+other physics and pure mathematics. Search and inspect the original argument
+before using a named result; check its mathematical hypotheses. A useful analogy
+can motivate a conjecture without proving it. Broad literature mining is a
+discovery method, not automatic adoption of the source theory.
+
+Keep three distinctions explicit in the campaign notebook:
+
+- A borrowed mathematical method, whose hypotheses must hold for its application.
+- A proposed physical connection or equation, labeled unadopted and used only in
+  the declared conditional candidate chain.
+- A consequence actually derived from admitted UDT commitments, at their source
+  grades and within the proved domain.
+
+A researcher may flesh out the second kind before knowing whether it can become
+the third. Before using a conjecture, name its assumption and provenance, explain
+what UDT uncertainty it might address, and choose a first test that could change
+the decision. The campaign scope may authorize this generation and testing of
+conjectures; it need not enumerate every equation before discovery begins.
+Changing the founding interpretation, silently replacing the metric/kernel,
+adding physical objects outside that scope, promoting a fit, or accepting a new
+premise does not follow from permission to explore.
+
+An idea need not arrive with a theorem or assured success. A short exploratory
+development can reveal its useful test. After that initial development, continued
+effort needs a plausible learning target. Missing proof is work to attempt;
+repeatedly restating a missing join without a new attempt is not a research plan.
+Preserve a falsified conjecture and its surviving lessons rather than repairing
+it by concealing new assumptions. A finite unsuccessful search proves only its
+bounded result. There may or may not be a viable connection; agents must be free
+to find adverse evidence.
+
+## Continuity and campaign boundaries
+
+Keep researchers on the goal across failed ideas. After a decisive failure, each
+identifies what failed, what remains usable, and its next promising in-scope
+approach. The coordinator may request a revision, exchange perspectives, reassign
+effort or retire a line. An empty proposal queue should prompt an explicit search
+for alternatives within the remaining budget, not automatic certification of
+the first two dead ends. That search need not manufacture a replacement when no
+informative direction emerges.
+
+Return to Charles at a meaningful scientific decision, a genuine scope or resource
+boundary, or the agreed campaign checkpoint. Routine switches of mathematical
+method or in-scope conjecture do not need another authorization. Do not relaunch
+an exhausted route under a new label. A global chronology question receives no
+automatic priority merely because GCP1 exposed it; its proposed connection to the
+goal must be assessed alongside alternatives.
+
+Each campaign still names its scope, current premise snapshot, workspace,
+computational limits, output/checkpoint budget, stops, review and repair allowance.
+The budget bounds the campaign, not the number of ideas it is required to produce.
+Production computation keeps its existing smoke-test and dispatch gates. This
+method update launches no unattended service or unspecified long computation.
+It authorizes the research style and agenda development; execution remains tied
+to a concrete written campaign with resources stated before computation.
+
+Use one shared notebook to retain candidate status, decisive observations,
+assumption changes and next actions. Preserve source-specific evidence where
+needed, but do not close and publish a whole package after every idea. Draft
+checkpointing is allowed before final review. At a substantive return, independently
+challenge the strongest argument and the continuation decision, repair within
+scope and integrate once. Researcher continuity is continuity of the inquiry and
+record; it does not require an AI process to remain alive indefinitely.
+
+Judge the campaign by what uncertainty changed: a justified restriction,
+discriminating prediction, viable conditional connection, or a concrete rejected
+physical hypothesis. Record unresolved candidates honestly. Documents, agent
+count, apparent personality and agreement are not evidence of scientific progress.
 
 ## What changes from the existing practice
 
@@ -61,12 +145,14 @@ or a reusable computational method; its actual purpose must be visible.
 
 Explorers may change approaches, revise conjectures, construct counterexamples,
 and pursue unexpected connections within that scope. They do not need approval
-for each algebraic step. They may suggest new physical hypotheses, but making one
-load-bearing requires that the charter explicitly authorize the named unadopted
-family or that Charles authorize the extension. Ordinary mathematical methods
+for each algebraic step. They may develop and test new physical hypotheses inside
+the conjecture family or goal scope authorized by the charter, naming and labeling
+each before it becomes an assumption in an exploratory chain. A hypothesis outside
+that scope requires an extension. Ordinary mathematical methods
 remain available with their hypotheses checked. Deriving a new equation as a
 consequence is allowed; introducing an unadopted governing physical equation
-requires the stated authority. No automatic premise adoption, scientific
+requires the campaign's explicit exploratory authority and candidate labeling.
+No automatic premise adoption, scientific
 promotion, or spending beyond the mandate follows.
 
 **2. Form questions independently.** Give two fresh explorer contexts the same

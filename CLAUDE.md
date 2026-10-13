@@ -14,6 +14,15 @@ approved work order may authorize these stages in advance; continue ordinary in-
 asking again until its stop condition or a genuine scientific, permission, safety, resource, or
 review blocker.
 
+Charles's goal-directed discovery clarification in AGENTS.md governs research
+continuity. Within the written campaign scope, agents may develop and replace
+ideas, search primary GR/physics/mathematics literature, and test explicitly named,
+unadopted conjectures in conditional candidate chains. They need not prove a new
+idea native before exploring it. Distinguish importing a technique, testing an
+imported physical hypothesis and deriving an accepted UDT consequence. A failed
+idea prompts in-scope redirection; it does not automatically end the campaign.
+Accepted physics, protected work, resource and promotion boundaries remain intact.
+
 A bounded discovery scope names the question, admitted premises, methods, workspace, excluded
 inputs, resource budget, stop conditions, and maximum conclusion. Within it, algebra, limits,
 examples, counterexamples, controlled approximations, conditional lemmas, and revised failed
@@ -90,10 +99,12 @@ the defective step, its reason or counterexample, the strongest surviving conclu
 smallest source-preserving repair. Do not fabricate independence or make an unavailable human review
 a blanket barrier to ordinary work. Use `CROSS_MODEL_VERIFY.md` for escalation.
 
-For a proposed physical premise or major adoption, give Charles a lay packet: the change; what is
+For proposed physical premise adoption, an out-of-scope physical hypothesis or major adoption,
+give Charles a lay packet: the change; what is
 derived, chosen, calibrated, or imported; no-change and other alternatives; consequences; evidence
 that could count against it; required resources; and the exact decision. Approval supplies authority,
-not proof.
+not proof. Named unadopted conjectures inside an authorized exploratory campaign are recorded
+in its notebook; they do not require a new lay packet or approval for each idea.
 
 ## Runtime guardrails
 

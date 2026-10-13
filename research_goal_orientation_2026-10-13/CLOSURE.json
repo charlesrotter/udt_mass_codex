@@ -1,0 +1,105 @@
+{
+  "utc": "2026-10-13T03:23:58.230091+00:00",
+  "status": "REVIEWED_METHOD_WITH_REQUIRED_CHECKS_PASSED",
+  "scope": "Method/permission clarification only. No new science, physical premise adoption, numerical campaign, or productivity claim.",
+  "prepublication_head": "ba89ad7b1a45fc61e08c6225273c840215a9a9db",
+  "change": "Goal-directed inquiry across ideas; primary-literature idea mining and named unadopted conditional conjectures within written campaign scope; failures can redirect inquiry without per-idea approval.",
+  "unchanged": "UDT_DEVELOPMENT, CURRENT_RESEARCH_PROGRAM, scientific graph, registry grades, scientific source files, CANON, solver code and repository test implementations.",
+  "review": {
+    "freeze": "research_goal_orientation_2026-10-13/INTEGRATION_FREEZE.json",
+    "freeze_sha256": "ce8bfaf36af32d7fc088a0bf25a42a70df1563cd8ef9f5f8a2283d8ff773546a",
+    "record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+    "record_sha256": "a6dc471a35742636cb1501095586eec71f5f80f407664f3dc59d32e8c3a1ef0c",
+    "reviewers": [
+      {
+        "context": "/root/goal_method_fidelity",
+        "attestation": "research_goal_orientation_2026-10-13/review_fidelity/FINAL_ATTESTATION.json",
+        "sha256": "21d67558d23266cac98acf102b9ef88868b8c048229ca02ea5a190b7439e3519"
+      },
+      {
+        "context": "/root/goal_method_continuity",
+        "attestation": "research_goal_orientation_2026-10-13/review_continuity/FINAL_ATTESTATION.json",
+        "sha256": "0e513873d2b408fa9cc29bc9bb23344dc2e7834134f617c36303b4cc7b3d3439"
+      }
+    ],
+    "limits": "Two actual fresh same-model contexts; one recorded consistency repair/re-review. No scientific reproof or empirical productivity validation."
+  },
+  "checks": {
+    "development": {
+      "receipt": "research_goal_orientation_2026-10-13/checks/development.json",
+      "sha256": "a80f0b32c27b9e447eae2c159e43554b89854c27afa6ebf1b2c466be78ff6e1a",
+      "returncode": 0,
+      "duration_seconds": 1.7707864018157125,
+      "command": [
+        "python3",
+        "verify_udt_development.py"
+      ],
+      "stdout_sha256": "0b2924e74db316458e73b54ac9eb87d5433ffd07f1376b529eadc17546694531",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "maintenance_final": {
+      "receipt": "research_goal_orientation_2026-10-13/checks/maintenance_final.json",
+      "sha256": "611a8466ad18dba31a72586447bb5fd737b3c74dd612540b2e076d07b17c8802",
+      "returncode": 0,
+      "duration_seconds": 1.9997167810797691,
+      "command": [
+        "python3",
+        "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+      ],
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "a7ebbf40de0715df1d12a84ec19013ef8864172ef54ade2ef66700b4b6c7883a"
+    },
+    "premises": {
+      "receipt": "research_goal_orientation_2026-10-13/checks/premises.json",
+      "sha256": "59046a2707827785db0b32ccc029fa38f4f5ef688b4d6e2048ab78dddbc79ce7",
+      "returncode": 0,
+      "duration_seconds": 406.971404844895,
+      "command": [
+        "env",
+        "GIT_CONFIG_COUNT=2",
+        "GIT_CONFIG_KEY_0=core.packedGitWindowSize",
+        "GIT_CONFIG_VALUE_0=32m",
+        "GIT_CONFIG_KEY_1=core.packedGitLimit",
+        "GIT_CONFIG_VALUE_1=128m",
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "stdout_sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "correspondence": {
+      "receipt": "research_goal_orientation_2026-10-13/checks/correspondence.json",
+      "sha256": "6f3e6429b8c0ed3b7ed6ef84a2d620c58aa6660e352ed509be3d9f84ab664480",
+      "returncode": 0,
+      "duration_seconds": 1.4463848460000008,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path\nimport hashlib,json,re,subprocess\nbase=Path('.').resolve(); p=Path('research_goal_orientation_2026-10-13')\nsha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest()\nfreeze=json.loads((p/'INTEGRATION_FREEZE.json').read_text())\nprotected=('udt_native_onshell_timelive_reset_owner_audit_2026-08-10/','udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/','udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/','udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/')\nfor s in freeze['accepted_sha256']:\n assert not Path(s).is_absolute() and '..' not in Path(s).parts and not s.startswith(protected),s\nfor s,h in freeze['accepted_sha256'].items(): assert sha(s)==h,s\nrecord=json.loads(Path('development_reconstruction_2026-09-29/REVIEW_RECORD.json').read_text())\nassert record['accepted_sha256']==freeze['accepted_sha256']\nfor r in record['reviewers']:\n d=json.loads(Path(r['attestation']).read_text())\n assert d['context']==r['context'] and d['verdict']=='ACCEPT_WITH_LIMITS'\n assert d['accepted_sha256']==record['accepted_sha256']\n assert sha(r['attestation'])==r['sha256'] and sha(d['report_path'])==d['report_sha256']\nexpected=set(freeze['inherited_changed'])|{'development_reconstruction_2026-09-29/REVIEW_RECORD.json'}\nactual=set(subprocess.check_output(['git','diff','--name-only','HEAD'],text=True).splitlines())\nassert actual==expected,actual\nold=json.loads((p/'BASELINE.json').read_text())['existing_untracked_names_only']\nnames=subprocess.check_output(['git','ls-files','--others','--exclude-standard'],text=True).splitlines()\nunrelated=[s for s in names if not s.startswith(str(p)+'/')]\nassert sorted(unrelated)==sorted(old)\nlinks=0\nfiles=[Path(q) for q in freeze['inherited_changed'] if q.endswith('.md')]+sorted(p.rglob('*.md'))\nfor f in files:\n prose=[]; fence=None\n for line in f.read_text().splitlines():\n  marker=re.match(r'^ {0,3}(`{3,}|~{3,})',line)\n  if marker:\n   token=marker.group(1)\n   if fence is None: fence=token[0]\n   elif token[0]==fence: fence=None\n   continue\n  if fence is not None or line.startswith(('    ','\\t')): continue\n  prose.append(re.sub(r'`+[^`]*`+','',line))\n for target in re.findall(r'\\[[^\\]\\n]+\\]\\(([^)]+)\\)', '\\n'.join(prose)):\n  if '://' in target or target.startswith('#'): continue\n  target=re.sub(r':\\d+$','',target.split('#')[0])\n  origin=f\n  assert (origin.parent/target).exists(),(str(f),target)\n  links+=1\nprint(json.dumps({'status':'PASS','frozen_hashes':len(freeze['accepted_sha256']),'local_links':links,'tracked_changes':sorted(actual),'unrelated_names_preserved':len(old),'scope':'Byte/routing/preservation correspondence only; no scientific reproof.'},indent=2))\n"
+      ],
+      "stdout_sha256": "cd1628354e0fd59a0ceba35cc791a8716a6c3a640899fcc1262c8cef0162c697",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "preserved_failure": {
+    "receipt": "checks/maintenance.json",
+    "cause": "Parent initially used a nonexistent test path; no test ran. The saved error is preserved. Corrected command was taken from the previous actual successful receipt and passed 57 tests."
+  },
+  "resources": {
+    "gpu_runs": 0,
+    "scientific_computations": 0,
+    "production_runs": 0,
+    "budget_bytes": 104857600,
+    "checks": "Existing capture wrapper; one BLAS thread, 2 GiB virtual memory, no elapsed/CPU killing timeout."
+  },
+  "preservation": {
+    "unrelated_untracked_names": 76,
+    "scope": "Names compared only; protected payloads excluded from reading/hashing/staging."
+  },
+  "publication_policy": {
+    "path": "research_goal_orientation_2026-10-13/PUBLICATION_POLICY.json",
+    "sha256": "44dc3484bdbbfd3d0495b94a0bd7ef08603f8b93bc8f7810e3ac014fd3992a66"
+  },
+  "publication": "Prepared for exact-file staging and ordinary fast-forward grok/main publication; committed and remote IDs must be checked after publication.",
+  "next": "Frame the concrete goal-based research campaign and its resource/checkpoint budget. This method update has not executed that scientific campaign."
+}

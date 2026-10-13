@@ -1,0 +1,61 @@
+{
+  "verdict": "PASS",
+  "python_version": "3.10.12",
+  "head": "ba89ad7b1a45fc61e08c6225273c840215a9a9db",
+  "branch": "grok",
+  "freeze_sha256": "ce8bfaf36af32d7fc088a0bf25a42a70df1563cd8ef9f5f8a2283d8ff773546a",
+  "accepted_count": 14640,
+  "inherited_unchanged_map_count": 14624,
+  "changed": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_RESEARCH_OPERATING_PLAN.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "added": [
+    "research_goal_orientation_2026-10-13/BASELINE.json",
+    "research_goal_orientation_2026-10-13/INITIAL_INTEGRATION_FREEZE.json",
+    "research_goal_orientation_2026-10-13/INITIAL_INTEGRATION_TEXTS.json",
+    "research_goal_orientation_2026-10-13/PRIOR_REVIEW_RECORD.json",
+    "research_goal_orientation_2026-10-13/REPAIR_RECORD.md",
+    "research_goal_orientation_2026-10-13/WORK_RECORD.md",
+    "research_goal_orientation_2026-10-13/review_continuity/INITIAL_BINDING_CHECK.json",
+    "research_goal_orientation_2026-10-13/review_continuity/INITIAL_REPORT.md",
+    "research_goal_orientation_2026-10-13/review_continuity/check_bindings.py",
+    "research_goal_orientation_2026-10-13/review_fidelity/INITIAL_REPORT.md"
+  ],
+  "removed": [],
+  "repaired_since_initial_freeze": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "initial_freeze_and_six_archived_text_hashes_match": true,
+  "protected_or_unrelated_accepted_paths": [],
+  "unrelated_untracked_names_preserved_count": 76,
+  "changed_and_added_content_checked": {
+    "AGENTS.md": "aa614f46ea1913636108b5194626048f8fef600254293c9b71df72d53ba0b88b",
+    "CLAUDE.md": "248540078a74edbe8ebba7e34c6a8d78d51de415541deb432839136044bb30bd",
+    "HANDOFF.md": "fb8a8576b5289c1d202c22274b84153597539feebfa797b589f5e11bf811c98e",
+    "LIVE.md": "dc7d472b5aa78b05b78f97c08faf6ac1b6f0574494287d42392f7d66de291118",
+    "UDT_RESEARCH_OPERATING_PLAN.md": "c9decfa4cba925a6c7a92d35c52d8eb00839e79c20d817560c5d61791f3074c2",
+    "UDT_RESEARCH_ROADMAP.md": "0c92ad1873d4967dfe277d5a997c8c6ee1d8adcf11258c3f102801de658882aa",
+    "research_goal_orientation_2026-10-13/BASELINE.json": "c1c2fda161d2d5cc093c2375f5c0b138df6ef8c1c91e8ed21ee4e179447da09a",
+    "research_goal_orientation_2026-10-13/INITIAL_INTEGRATION_FREEZE.json": "38e538b89d4ad82b6cc2c9d60392c0e1e419ae454fa87e37f323a0a61ff4e0da",
+    "research_goal_orientation_2026-10-13/INITIAL_INTEGRATION_TEXTS.json": "cdf9d3faea685591173304737d9e8887de8b2ab86c89013f937a0818da1561b4",
+    "research_goal_orientation_2026-10-13/PRIOR_REVIEW_RECORD.json": "78668dc8c5eea6362f7beb03f190f60d83812b24e03c179df39934851c80e980",
+    "research_goal_orientation_2026-10-13/REPAIR_RECORD.md": "ac0743ca7cf7eacbc3a83a16bf5fd9200f887cb2aa80fc494d219ea34b782647",
+    "research_goal_orientation_2026-10-13/WORK_RECORD.md": "86d9626e64e300db2b7ea87f40dd39d4f896aed742c0d6cf6e4d0063eb5f4780",
+    "research_goal_orientation_2026-10-13/review_continuity/INITIAL_BINDING_CHECK.json": "a214087d9eb11d80ba9cb7dbfca1f7199142889b3789ca36fb9ccf3905f0c253",
+    "research_goal_orientation_2026-10-13/review_continuity/INITIAL_REPORT.md": "17286a2d1abd25853818208a01ebadb2dc667c713f923ff236f384a49de54884",
+    "research_goal_orientation_2026-10-13/review_continuity/check_bindings.py": "a0241a977cda0423bf221c8e6ba2ff1806c8774e887d13168b3b0896eb0c0fec",
+    "research_goal_orientation_2026-10-13/review_fidelity/INITIAL_REPORT.md": "32dcb21f514ac550b8c685d03389b5ca9468d53dad6ecca32611f8eefc23d5ef"
+  },
+  "prior_record_matches_committed_baseline": true,
+  "git_diff_check_exit": 0,
+  "git_diff_check_stdout": "",
+  "git_diff_check_stderr": "",
+  "inherited_content_note": "Map inheritance and unchanged tracked status verified; inherited source bodies were not independently rehashed or re-proved in this proportional method review."
+}

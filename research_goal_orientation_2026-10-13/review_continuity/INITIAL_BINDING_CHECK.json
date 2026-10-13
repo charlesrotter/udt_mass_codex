@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-13T03:11:05.874378+00:00",
+  "context": "/root/goal_method_continuity",
+  "python": "3.10.12",
+  "git_version": "git version 2.34.1",
+  "status": "PASS",
+  "command": "python3 research_goal_orientation_2026-10-13/review_continuity/check_bindings.py research_goal_orientation_2026-10-13/INTEGRATION_FREEZE.json 38e538b89d4ad82b6cc2c9d60392c0e1e419ae454fa87e37f323a0a61ff4e0da INITIAL_BINDING_CHECK.json",
+  "freeze_path": "research_goal_orientation_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "38e538b89d4ad82b6cc2c9d60392c0e1e419ae454fa87e37f323a0a61ff4e0da",
+  "head": "ba89ad7b1a45fc61e08c6225273c840215a9a9db",
+  "branch": "grok",
+  "accepted_count": 14633,
+  "inherited_unchanged_count": 14624,
+  "inherited_changed": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_RESEARCH_OPERATING_PLAN.md",
+    "UDT_RESEARCH_ROADMAP.md"
+  ],
+  "added": [
+    "research_goal_orientation_2026-10-13/BASELINE.json",
+    "research_goal_orientation_2026-10-13/PRIOR_REVIEW_RECORD.json",
+    "research_goal_orientation_2026-10-13/WORK_RECORD.md"
+  ],
+  "removed": [],
+  "prior_record_matches_baseline_git_bytes": true,
+  "protected_and_unrelated_screened_before_payload_hashing": true,
+  "unrelated_names_preserved": 76,
+  "accepted_bytes_hashed": 2360645917,
+  "byte_mismatches": [],
+  "changed_document_sha256": {
+    "AGENTS.md": "f5580b002b52b85df1e2e0e2dee648fbbccccfbeb2d5b669989cf5de017c0569",
+    "CLAUDE.md": "f521dda2393bd40869e7d07fa1fe823698399a7ac9db841976271e2ec7d4fe53",
+    "HANDOFF.md": "fb8a8576b5289c1d202c22274b84153597539feebfa797b589f5e11bf811c98e",
+    "LIVE.md": "dc7d472b5aa78b05b78f97c08faf6ac1b6f0574494287d42392f7d66de291118",
+    "UDT_RESEARCH_OPERATING_PLAN.md": "c9decfa4cba925a6c7a92d35c52d8eb00839e79c20d817560c5d61791f3074c2",
+    "UDT_RESEARCH_ROADMAP.md": "137cc81de25b5f273853b829aed19292f708a611d498f708ba7d968ba4103656"
+  },
+  "limits": "Byte correspondence and inherited map consistency only; not reproof, semantic completeness, chronology, current remote freshness, or independent scientific implementation."
+}

@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-10-12: GCP1 bounded geometry-constraint pilot return. This is a direction document, not scientific
+Updated 2026-10-13: goal-directed research clarification after GCP1. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -10,7 +10,20 @@ The founding statement and current scientific checkpoint are maintained in
 before choosing a new question. [INDEX.md](INDEX.md) routes supporting sources.
 This roadmap does not duplicate their detailed derivations or premise inventory.
 
-## Current return and next discussion
+## Current direction and retained scientific return
+
+Charles clarified that researchers should pursue the geometry-selection goal
+across ideas: generate and flesh out conjectures, mine GR/other physics/pure
+mathematics for methods and insights, reject or revise ideas and move to the next
+route without sacrificing scientific fidelity. The updated
+[operating plan](UDT_RESEARCH_OPERATING_PLAN.md) and AGENTS record this method.
+An explicitly unadopted exploratory connection can be investigated before it is
+derivable from existing UDT; that permission does not adopt its physics. New
+founding commitments, out-of-scope physical objects, protected work, production
+resources and scientific promotion retain their separate authority boundaries.
+The [method-change record](research_goal_orientation_2026-10-13/WORK_RECORD.md)
+owns implementation/review scope. A written campaign will carry the concrete
+resource and return limits; routine failures within it should trigger redirection.
 
 Charles approved the ROD1 operating-method recommendations and a concrete GCP1
 charter aimed at extracting a new restriction from existing UDT commitments.
@@ -25,12 +38,14 @@ generic confinement lemma was manufactured. This is neither full-postulate
 insufficiency nor evidence that another postulate is required. The unused third
 probe is a deliberate stop after no distinct in-scope inference was articulated.
 
-Next discuss the failed implications and one concrete physical connection worth
-testing. A successor must supply its actual source-supported argument or name
-any proposed added premise for a separate decision. The moderate-regime PIA1
-application remains deferred, not automatically authorized. ROD1's
-[operating plan](UDT_RESEARCH_OPERATING_PLAN.md) remains a method proposal tested
-in one pilot, not a demonstrated productivity improvement or scientific premise.
+The next research agenda should consider competing connections to the goal,
+including explicitly unadopted conjectures and outside mathematical techniques.
+It need not begin with a completed source-derived implication. State additional
+assumptions before use and keep their conditional status visible. GCP1's global
+causality clarification is one possible lead, not the default next task.
+The moderate-regime PIA1 application remains deferred, not automatically authorized.
+The revised method has no demonstrated productivity advantage and supplies no
+scientific premise.
 Continue using the current CLI; no desktop installation or OS change follows.
 LIVE controls authorization; no new field law, empirical fit, long solve or
 parked/protected restart is implied.
@@ -159,23 +174,29 @@ derivation with “proceeed.” FCV1 completed that bounded construction/check/r
 cycle. Its failed direct identification is preserved as a specific result; it
 does not establish that a new physical postulate is necessary.
 
-## Direction for the next bounded question
+## Direction for the next goal-based campaign
 
-1. Identify a specific unexamined implication of admitted metric/kernel structure
-   or a justified empirical clue. Explain what it adds beyond the reviewed returns.
+1. Pursue a connection relevant to the geometry-selection goal, starting from an
+   unexamined implication, a justified empirical clue, a borrowed mathematical
+   insight or an explicitly unadopted physical conjecture. Explain the intended
+   learning and its relationship to earlier work; a native proof is not an entry gate.
 2. Separate a geometric identity, supplied-data reconstruction, conditional
    measurement and a law restricting allowed geometry. A missing join stays OPEN.
-3. State the quantifier, regime, premises, physical choices, methods, exclusions,
-   resources, stops and maximum return before seeking a research dispatch.
+3. State the goal scope, premise snapshot, permission for candidate hypotheses,
+   methods, exclusions, resources, stops and maximum return in the campaign dispatch.
+   Name each exploratory assumption and its conditional domain before using it;
+   ordinary in-scope idea changes do not need a new dispatch.
 4. Include construction, relevant checks, fresh separate-context adversarial
    review and bounded same-premise repair/re-review in the normal work order.
    Preserve failed candidates and discovery exposure. Review does not adopt physics.
 
 A targeted consequence or discriminator is legitimate without a complete theory
 of light, a unique history or all field equations. Repeating a completed identity
-or nonselection result is not a new connection. Scientific promotion or a proposed
-physical premise needs its own authority; committing a conditional result preserves
-it without changing its grade. This completed return launches no successor.
+or nonselection result is not a new connection. Scientific promotion, premise
+adoption and hypotheses outside the authorized exploratory scope need their own
+authority. In-scope named conjectures may be tested and revised under the campaign
+mandate. Committing a conditional result preserves it without changing its grade.
+The method direction itself starts no unspecified production run.
 
 ## Data-guided discovery with native derivation — 2026-09-28
 

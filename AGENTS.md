@@ -98,10 +98,44 @@ truth/canon. A claimed independent reviewer must be an actual separate context.
 
 ## Bounded discovery authorization
 
+### Goal-directed discovery — Charles's 2026-10-13 clarification
+
+Researchers pursue the geometry-selection objective across ideas, rather than
+treating each assigned calculation as the objective. Within a written goal scope
+and resource budget, agents may originate, develop, combine, reject and replace
+conjectures; mine primary GR, other physics and pure-mathematics literature for
+ideas; and choose their next informative test without repeated permission.
+An unsuccessful idea ends that route, not automatically the research campaign.
+Retain the reason for rejection and redirect while an informative in-scope route
+and budget remain. Do not require a conjecture to be an established consequence
+of UDT before it can be investigated.
+
+Exploratory conjectures may be named and used as explicitly unadopted assumptions
+in a candidate chain within that scope. Record the imported technique or physical
+assumption, its source and hypotheses, the proposed UDT connection, the test and
+the maximum conditional conclusion before using it. A missing derivation is an
+open join to investigate, not a derived premise. This permission does not turn
+an imported equation or fitted construction into native UDT. Accepted dependencies,
+scientific promotion and CANON still require their existing gates. Changing a
+founding commitment, adding independent physical degrees of freedom outside the
+scope, reopening protected/paused work or exceeding resources requires authority.
+Method instructions supply no physical premise.
+
+The coordinator supports selection and redirection, checks that each inquiry
+serves the goal, and challenges both promising results and decisions to abandon
+them. Use one compact campaign notebook for continuity, and fresh review at
+substantive milestones. Budget exhaustion, a real scope/authority blocker or a
+decision-ready result is a campaign return point; routine failed conjectures and
+the fact that a connection is new are not. Preserve honest incompleteness without
+inventing more work or claiming a breakthrough. UDT_RESEARCH_OPERATING_PLAN.md
+specifies the method; each campaign still records its concrete bounded dispatch.
+
 An approved work order names question, premises, methods, workspace, exclusions, budget, stops, and
 maximum conclusion. Inside it, algebra, limits, examples, counterexamples, conditional lemmas, and
-failed-conjecture revision may proceed without repeated permission. New physics or scope still needs
-authority. Keep exploration, candidate verification, and promotion distinct. A commit preserves; it
+failed-conjecture revision may proceed without repeated permission. Adopting new physics or working
+outside the authorized exploratory scope still needs authority; naming an in-scope unadopted
+conjecture does not require a new permission request. Keep exploration, candidate verification,
+and promotion distinct. A commit preserves; it
 does not accept. An authorized counterfactual remains explicitly unadopted and excluded from
 accepted dependencies. An unproved dependency may appear only in an explicitly conditional
 candidate chain; it cannot silently become an accepted input. Without advance authorization use
@@ -115,8 +149,9 @@ unresolved objection), and any narrower stopping condition before Charles author
 Charles's “proceed” to that scope authorizes all included stages; do not ask again merely to begin
 an already-included review or repair/re-review. Examine the load-bearing argument and hypotheses,
 not just passing checks; preserve initial candidates and review history. This convention does not
-retroactively override an explicit narrower work order. New physical premises, broader scope,
-substantial additional resources, and scientific promotion still require further authority; all
+retroactively override an explicit narrower work order. Physical premise adoption, hypotheses
+outside the authorized exploratory scope, substantial additional resources, and scientific
+promotion still require further authority; all
 permission, protected-work, preservation, resource, and canon boundaries remain in force.
 
 ## Protected local work
@@ -238,6 +273,9 @@ certify stability.
 
 ## Communication
 
-Lead with learning and open scope; separate observation, inference, and canon. For a proposed premise
-or adoption give Charles a lay packet: change, provenance, no-change/alternatives, consequences,
-counterevidence, resources, and exact decision. Approval is authority, not proof. Do not re-ask for routine actions already authorized.
+Lead with learning and open scope; separate observation, inference, and canon. For proposed premise
+adoption or an out-of-scope physical hypothesis, give Charles a lay packet: change, provenance,
+no-change/alternatives, consequences, counterevidence, resources, and exact decision. Named,
+unadopted conjectures inside an authorized campaign are recorded in its notebook and do not
+require per-conjecture approval. Approval is authority, not proof. Do not re-ask for routine
+actions already authorized.

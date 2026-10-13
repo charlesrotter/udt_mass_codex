@@ -1,38 +1,38 @@
 {
   "status": "REVIEWED_WITH_LIMITS",
-  "utc": "2026-10-13T02:39:48.456211+00:00",
-  "scope": "GCP1 scoped literal-causal-support/local-clock nonimplication, ACI1 necessary-test reuse and bounded pilot stop, plus central/operational integration after one precision repair. No native geometry exclusion, full-postulate insufficiency, physical premise adoption, registry regrade or CANON change. Inherited files retain prior reviews, not reproof.",
-  "independence": "Two independent fresh same-model question-forming explorers; two further fresh same-model source-first/direct/final reviewers with independent exact hand arguments. Parent candidate froze before new reviewer reasoning exposure. Final stages exposed; one integration precision repair/re-review and one reviewer bookkeeping correction preserved. Exact runtime model unexposed; different-model, human, empirical and formal verification untested.",
-  "freeze": "udt_geometry_constraint_pilot_2026-10-12/INTEGRATION_FREEZE.json",
-  "freeze_sha256": "cecb2cd344a3d2f6178f5a84ea0847a0dde0f3a9bd06929e367f9b42f9ff9dc3",
-  "prior_review_record": "udt_geometry_constraint_pilot_2026-10-12/PRIOR_REVIEW_RECORD.json",
-  "prior_review_record_sha256": "5dc25b765bfa849b54b72ed731b2c93b39863c27b4fbca024ae74e04c28c2e02",
+  "utc": "2026-10-13T03:17:00.898918+00:00",
+  "scope": "Goal-directed research method clarification in six operational/method documents, with one consistency repair. Unadopted exploratory hypotheses permitted within written goal scope; accepted science, registry grades, source graph and CANON unchanged. Inherited scientific evidence retains earlier reviews, not new reproof.",
+  "independence": "Two actual fresh same-model reviewer contexts. Continuity independently found stale roadmap gate; fidelity confirmed after disclosed exposure and identified related permission ambiguity. Actual repaired-file re-review; exact runtime model unexposed, no different-model/human/productivity claim.",
+  "freeze": "research_goal_orientation_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "ce8bfaf36af32d7fc088a0bf25a42a70df1563cd8ef9f5f8a2283d8ff773546a",
+  "prior_review_record": "research_goal_orientation_2026-10-13/PRIOR_REVIEW_RECORD.json",
+  "prior_review_record_sha256": "78668dc8c5eea6362f7beb03f190f60d83812b24e03c179df39934851c80e980",
   "reviewers": [
     {
-      "context": "/root/gcp_review_math",
-      "attestation": "udt_geometry_constraint_pilot_2026-10-12/review_math/FINAL_ATTESTATION.json",
-      "sha256": "8ab81803d93e739d60ff26c8b705766cbe276cbef33400759c315ac3cb262c21"
+      "context": "/root/goal_method_fidelity",
+      "attestation": "research_goal_orientation_2026-10-13/review_fidelity/FINAL_ATTESTATION.json",
+      "sha256": "21d67558d23266cac98acf102b9ef88868b8c048229ca02ea5a190b7439e3519"
     },
     {
-      "context": "/root/gcp_review_fidelity",
-      "attestation": "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/FINAL_ATTESTATION.json",
-      "sha256": "4f777398f3b249ab130cef750c5efcf3cb3232e6f90a9283bcdaeecdb8349f34"
+      "context": "/root/goal_method_continuity",
+      "attestation": "research_goal_orientation_2026-10-13/review_continuity/FINAL_ATTESTATION.json",
+      "sha256": "0e513873d2b408fa9cc29bc9bb23344dc2e7834134f617c36303b4cc7b3d3439"
     }
   ],
   "accepted_sha256": {
     ".gitignore": "8a2710f5923ba86b41a461e040282ecd520ce155cb17b09458e1d1d613ddeb7a",
-    "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
-    "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+    "AGENTS.md": "aa614f46ea1913636108b5194626048f8fef600254293c9b71df72d53ba0b88b",
+    "CLAUDE.md": "248540078a74edbe8ebba7e34c6a8d78d51de415541deb432839136044bb30bd",
     "CURRENT_RESEARCH_PROGRAM.md": "196f348eade0498a3e9aa039c67a6cd103d356f7edcda05367773ced1d32f793",
     "CURRENT_SCIENTIFIC_PREMISES.md": "6b708f351b478dde0c6a93e8f29de08eae06533ba4fb789f79fd03bda1512718",
-    "HANDOFF.md": "bbc26902b26da7dd6dd60aec20deda4f6c480cf30997dabd2862db5d0e1dabc1",
+    "HANDOFF.md": "fb8a8576b5289c1d202c22274b84153597539feebfa797b589f5e11bf811c98e",
     "INDEX.md": "79be0981180b3a241fb0be15697d731884218796dc36fde4cd6fce08ab55e8a1",
-    "LIVE.md": "c4659cbbfd089dc949383a6dc2d705eb7ced9680f0be6f423eeea472d27f69df",
+    "LIVE.md": "dc7d472b5aa78b05b78f97c08faf6ac1b6f0574494287d42392f7d66de291118",
     "MEMORY.md": "9cef036ad44244dd4dbb2951c08a544dddea5dc24bb33571906c7061e03c5761",
     "README.md": "c15f3a0164dda03a41bb2825ccc436f2bbf7ef6f725a780b7607c3456ffa9cf9",
     "UDT_DEVELOPMENT.md": "ee4816a468998532c301ab7cf3ac169fc968270e9d081e293fc06e665f0e0bcb",
-    "UDT_RESEARCH_OPERATING_PLAN.md": "e762b55a49587d67f203865ec3356cfa335c4b7531eee3f61b3a5a5ebe2d96cd",
-    "UDT_RESEARCH_ROADMAP.md": "c5d054879f76fdbd562fbf6e82233fc4f1e020d23244226a17724b4a1f3f9b47",
+    "UDT_RESEARCH_OPERATING_PLAN.md": "c9decfa4cba925a6c7a92d35c52d8eb00839e79c20d817560c5d61791f3074c2",
+    "UDT_RESEARCH_ROADMAP.md": "0c92ad1873d4967dfe277d5a997c8c6ee1d8adcf11258c3f102801de658882aa",
     "development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv": "a14be5dbdc27fe6a232302f75d8116fdf6b8e546dd9ca250f6be792c9fae818d",
     "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": "9c7fae307332f02b16fce489a0e2b0d08b32fb8a5b1cae0e64c25e0f94f9cd09",
     "development_reconstruction_2026-09-29/FULL_REPAIR.md": "820441708b9607181c2c84b2df31b88ebdd4084b4a56c371706ea1ae93959bf8",
@@ -14649,6 +14649,16 @@
     "udt_geometry_constraint_pilot_2026-10-12/review_math/INTEGRATION_REPAIR_REQUEST.md": "a6be5e22f7ffd9aa14cdf910a267855815821032025b52364937a4ef0fc6694b",
     "udt_geometry_constraint_pilot_2026-10-12/review_math/PRE_REPAIR_INTEGRATION_CHECK.json": "249515e88caba0b1589c544c1cd50ff8bc6ddb5a9780007cbe297b15841f0c0e",
     "udt_geometry_constraint_pilot_2026-10-12/review_math/SOURCE_FIRST.json": "8f1df4b948842583f9aacd4cc011a86e8c9d270e7f21c51a6656466d271329d7",
-    "udt_geometry_constraint_pilot_2026-10-12/review_math/SOURCE_FIRST.md": "1097063aed3ea5598ebf1fd0410bc5bffc4b0498352d54f56e7e573e2e402942"
+    "udt_geometry_constraint_pilot_2026-10-12/review_math/SOURCE_FIRST.md": "1097063aed3ea5598ebf1fd0410bc5bffc4b0498352d54f56e7e573e2e402942",
+    "research_goal_orientation_2026-10-13/BASELINE.json": "c1c2fda161d2d5cc093c2375f5c0b138df6ef8c1c91e8ed21ee4e179447da09a",
+    "research_goal_orientation_2026-10-13/INITIAL_INTEGRATION_FREEZE.json": "38e538b89d4ad82b6cc2c9d60392c0e1e419ae454fa87e37f323a0a61ff4e0da",
+    "research_goal_orientation_2026-10-13/INITIAL_INTEGRATION_TEXTS.json": "cdf9d3faea685591173304737d9e8887de8b2ab86c89013f937a0818da1561b4",
+    "research_goal_orientation_2026-10-13/PRIOR_REVIEW_RECORD.json": "78668dc8c5eea6362f7beb03f190f60d83812b24e03c179df39934851c80e980",
+    "research_goal_orientation_2026-10-13/REPAIR_RECORD.md": "ac0743ca7cf7eacbc3a83a16bf5fd9200f887cb2aa80fc494d219ea34b782647",
+    "research_goal_orientation_2026-10-13/WORK_RECORD.md": "86d9626e64e300db2b7ea87f40dd39d4f896aed742c0d6cf6e4d0063eb5f4780",
+    "research_goal_orientation_2026-10-13/review_continuity/INITIAL_BINDING_CHECK.json": "a214087d9eb11d80ba9cb7dbfca1f7199142889b3789ca36fb9ccf3905f0c253",
+    "research_goal_orientation_2026-10-13/review_continuity/INITIAL_REPORT.md": "17286a2d1abd25853818208a01ebadb2dc667c713f923ff236f384a49de54884",
+    "research_goal_orientation_2026-10-13/review_continuity/check_bindings.py": "a0241a977cda0423bf221c8e6ba2ff1806c8774e887d13168b3b0896eb0c0fec",
+    "research_goal_orientation_2026-10-13/review_fidelity/INITIAL_REPORT.md": "32dcb21f514ac550b8c685d03389b5ca9468d53dad6ecca32611f8eefc23d5ef"
   }
 }
