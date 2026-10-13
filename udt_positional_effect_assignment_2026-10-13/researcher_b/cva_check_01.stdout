@@ -1,0 +1,58 @@
+BEGIN conformal Schwarzschild original-metric differentiation
+PASS conformal Schwarzschild and inverse reconstruction
+PASS Kottler obstruction control
+PASS degeneracy and gradient-norm catch
+{
+  "status": "PASS",
+  "scope": "Exact named controls; UNADOPTED CVA; no native-selection claim",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "shared_implementation": "AST-only reviewed coordinate geometry function; author regression, not independent implementation",
+  "checks": {
+    "conformal_schwarzschild_scalar": "EXACT_ZERO",
+    "full_anchor_schouten": "EXACT_ZERO",
+    "all_64_cotton_weyl_rows": "EXACT_ZERO",
+    "inverse_reconstruction_at_exact_point": "EXACT_ZERO",
+    "inverse_reconstruction_all_rows": "EXACT_ZERO",
+    "kottler_original_ricci": "EXACT_ZERO",
+    "kottler_cotton_zero": "EXACT_ZERO",
+    "kottler_mass_weyl_component": "EXACT_ZERO",
+    "kottler_constant_anchor_fails_full_equation": "NONZERO_REJECTED",
+    "flat_nonconstant_null_anchor": "EXACT_ZERO",
+    "timelike_denominator_wrong_vacuum_rejected": "NONZERO_REJECTED",
+    "timelike_denominator_actual_Einstein": "EXACT_ZERO"
+  },
+  "values": {
+    "inverse_matrix_shape": [
+      64,
+      4
+    ],
+    "inverse_rank": 4,
+    "inverse_solution_covector": [
+      "-1/10",
+      "0",
+      "0",
+      "0"
+    ],
+    "conformal_schwarzschild_Ricci": "Matrix([[0, 2*H*M/(r*(-2*M + r)), 0, 0], [2*H*M/(r*(-2*M + r)), 2*H**2*r**2/(4*M**2 - 4*M*r + r**2), 0, 0], [0, 0, 2*H**2*r**3/(-2*M + r), 0], [0, 0, 0, 2*H**2*r**3*sin(theta)**2/(-2*M + r)]])",
+    "conformal_schwarzschild_scalar": "6*H**2*r*exp(-2*H*t)/(-2*M + r)",
+    "conformal_schwarzschild_Cotton_rtr": "2*H*M/(r**2*(-2*M + r))",
+    "conformal_schwarzschild_W_trtr": "-2*M*exp(2*H*t)/r**3",
+    "kottler_constant_anchor_fails_full_equation_residual": "Matrix([[kappa*(2*M + kappa*r**3 - r)/(2*r), 0, 0, 0], [0, -kappa*r/(4*M + 2*kappa*r**3 - 2*r), 0, 0], [0, 0, kappa*r**2/2, 0], [0, 0, 0, kappa*r**2*sin(theta)**2/2]])",
+    "kottler_scalar": "12*kappa",
+    "timelike_denominator_wrong_vacuum_rejected_residual": "Matrix([[-3*b**2/(b*t + 1)**2, 0, 0, 0], [0, 3*b**2/(b*t + 1)**2, 0, 0], [0, 0, 3*b**2/(b*t + 1)**2, 0], [0, 0, 0, 3*b**2/(b*t + 1)**2]])",
+    "flat_distinct_anchor_origin_normalization": "1",
+    "timelike_denominator_scalar": "12*b**2"
+  },
+  "source_sha256": {
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/check_cva.py": "5b737acdb811cdd8f2ead9e7d0d55c59db75688e9c7aafac3808ea7e504fe157",
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/CHECK_PLAN.md": "4e4aef63a93dc4c344a2e53aca70b1c0b72a75729b9a7dbcd1e2db2d6de2c480",
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/INITIAL_PROPOSAL.md": "3f1ee4884536a2038428a7b025da671c63c211fa51ad15ee7edab16e727258ad",
+    "udt_source_metric_connection_campaign_2026-09-08/step_03/check_interface.py": "8a34a9e57a2b5fab7f67586e6bff6398f76effe4b8f68407fa43f124ca40a416",
+    "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md": "3bcf547c0cb2507c8cc79122183a8c1152a8a00a1ec211c6d177e2dbc85bc2d9",
+    "udt_vacuum_common_scale_campaign_2026-09-08/step_01/REVIEWED_RESULT.md": "23f76b2d419e363735ac7d591bc7a4c49864d4441148018d404b18d14969be3a",
+    "udt_vacuum_common_scale_campaign_2026-09-08/step_02/REVIEWED_RESULT.md": "a462b06da113ded2ea04b4016cb50691294b513244514643848e0ba0482529f4"
+  }
+}

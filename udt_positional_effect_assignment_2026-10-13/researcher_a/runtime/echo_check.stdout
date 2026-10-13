@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "scope": "Exact symbolic identities for arbitrary positive Omega(t,r), Schwarzschild exterior r>2m>0, regular angular chart; no Ricci-flat-anchor reconstruction checked here.",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "input_sha256": {
+    "check_echo.py": "60d3025623f8b5f9685e9da45ce93447de3357c6c77a8c503af4bfc79fcf94fa",
+    "OPERATIONAL_PROBE_PLAN.md": "65c1e844aa3fdb7419e13673c922a5c7c29873fbf6449390872b0735a71a0b7c",
+    "COMPUTE_PLAN.md": "116f9c20b6a648803f26bde096508d02a287756d5792434bc636a1e5608721a1"
+  },
+  "coordinate_order": [
+    "t",
+    "r",
+    "theta",
+    "phi"
+  ],
+  "metric_shape": [
+    4,
+    4
+  ],
+  "christoffel_shape": [
+    4,
+    4,
+    4
+  ],
+  "held_acceleration_r": "m/(r**2*Omega(t, r)**2) + (-2*m/r + 1)*Derivative(Omega(t, r), r)/Omega(t, r)**3",
+  "checks": {
+    "held_clock_unit": {
+      "pass": true,
+      "residual": "0"
+    },
+    "held_clock_acceleration_0": {
+      "pass": true,
+      "residual": "0"
+    },
+    "held_clock_acceleration_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "held_clock_acceleration_2": {
+      "pass": true,
+      "residual": "0"
+    },
+    "held_clock_acceleration_3": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_null_-1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_-1_0": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_-1_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_-1_2": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_-1_3": {
+      "pass": true,
+      "residual": "0"
+    },
+    "held_frequency_-1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_null_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_1_0": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_1_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_1_2": {
+      "pass": true,
+      "residual": "0"
+    },
+    "radial_affine_geodesic_1_3": {
+      "pass": true,
+      "residual": "0"
+    },
+    "held_frequency_1": {
+      "pass": true,
+      "residual": "0"
+    },
+    "echo_product": {
+      "pass": true,
+      "residual": "0"
+    },
+    "outbound_contrast": {
+      "pass": true,
+      "residual": "0"
+    },
+    "return_contrast": {
+      "pass": true,
+      "residual": "0"
+    },
+    "echo_from_proper_clock_history": {
+      "pass": true,
+      "residual": "0"
+    },
+    "echo_tide_identity": {
+      "pass": true,
+      "residual": "0"
+    }
+  },
+  "count": 22,
+  "false_positive": {
+    "echo": "exp(2)",
+    "outbound_contrast": "exp(3)",
+    "return_contrast": "exp(-1)",
+    "interpretation": "echo>1 but return contrast<1; exact exponential signs"
+  },
+  "omissions": [
+    "No instrument errors or empirical recovery bound",
+    "No full curvature contraction or CVA uniqueness check",
+    "Symbolic regression supports but does not replace analytic proof",
+    "No global/horizon/asymptotic claim"
+  ]
+}

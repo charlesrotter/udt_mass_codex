@@ -1,13 +1,13 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — COC1 physical-connection return, 2026-10-13
+## Current handoff — PEA1 positional-assignment return, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. COC1's scoped conditional return is in
-udt_clock_optical_physical_connection_2026-10-13/. WORK_ORDER owns authorization,
+orientation. PEA1's scoped conditional return is in
+udt_positional_effect_assignment_2026-10-13/. WORK_ORDER owns authorization,
 NOTEBOOK records discovery, and actual final attestations plus check receipts
 own closure. Prior results retain their original scopes. Verify actual HEAD,
 remote refs, dirt and required checks rather than inferring completion from prose.
@@ -46,8 +46,8 @@ reviews, source-preserving repair and central integration. No three-hour solve
 or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
 Original proposals, failed routes, actual reviewer reports and version bindings
 remain in that package. Scientific premises, registry grades and CANON are unchanged.
-Next: Stop for lay discussion of COC1 in central R8COC/R18. Its actual final
-attestations, checks and publication evidence own completed banking.
+Next: finish PEA1 required integration/check/publication gates on the reviewed
+bytes, then Stop for lay discussion. Actual receipts own completion.
 No automatic successor research follows. The earlier PIA1 application stays
 deferred; no empirical fit, desktop installation, GPU/long production, physical
 premise adoption or parked/protected restart is authorized by this return.
@@ -78,6 +78,20 @@ fixed evidence and DECISION_BRIEF are in the COC1 package. All physical trials
 remain unadopted. Actual final attestations, normal/maintenance/full406 receipts
 and committed/remote correspondence own closure; verify them and current refs.
 No automatic successor follows this discussion return.
+
+COC1 closed atc36450f6 with two actual final reviews, all57 maintenance tests
+and the full406 audit; grok/main publication matched. Charles now explicitly
+directs continuation with goal-directed-research. PEA1's written scope is
+udt_positional_effect_assignment_2026-10-13/WORK_ORDER.md: develop and test a
+physical comparison/assignment of the additional positional effect that retains
+established SR/GR behavior. The one-hour exploration checkpoint, two independent
+researchers, two further fresh reviews and up to two repairs are included.
+PEA1 reached a substantive return before the exploration ceiling. Two fresh
+source-first/direct reviews and source-preserving precision repairs accompany
+central R8PEA/R18 and the fixed DECISION_BRIEF. No physical law is adopted.
+Actual final attestations, normal/maintenance/full406 receipts and remote byte
+correspondence own closure; verify them rather than inferring a pass from prose.
+Existing paused/protected boundaries persist; no automatic successor.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

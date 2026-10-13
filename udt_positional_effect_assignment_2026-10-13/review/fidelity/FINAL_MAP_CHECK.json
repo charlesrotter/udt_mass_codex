@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-13T14:39:59.463484+00:00",
+  "context": "/root/pea_review_fidelity",
+  "python": "3.10.12",
+  "freeze_sha256": "05ceb52a1b007f67261a41e9fccc64ce6c661dec32642511c10981fee42ccea2",
+  "expected_freeze_sha256": "05ceb52a1b007f67261a41e9fccc64ce6c661dec32642511c10981fee42ccea2",
+  "protected_prefixes": [
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12",
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02"
+  ],
+  "protected_lexical_and_resolved_exclusion_before_payload_hashing": true,
+  "accepted_count": 14934,
+  "bytes_hashed": 2381040957,
+  "elapsed_seconds": 1.3024461241438985,
+  "mismatches": [],
+  "prior_count": 14864,
+  "changed_prior": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "new_count": 70,
+  "removed_prior": [],
+  "initial_candidate_entries_unchanged": 30,
+  "unrelated_names_only_unchanged": 76,
+  "generated_excerpt_exact": true,
+  "head": "c36450f6d7836fbbe07d17c0152f1190f4885b91",
+  "freeze_unchanged_after_hashing": true,
+  "scope": "Full accepted-map correspondence; no corpus scientific reproof and no protected payload opened."
+}

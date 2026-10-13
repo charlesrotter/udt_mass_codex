@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-13T14:50:19.610168+00:00",
+  "status": "REVIEWED_CONDITIONAL_RETURN_CHECKS_PASS",
+  "scope": "PEA1 repaired conditional reference/flat-limit/echo return; CVA, sign and physical continuity unadopted, native selection open",
+  "review_record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+  "review_record_sha256": "63233f9531a1de3b69277e26d73be54006beaae9402e8c6017943928aea0cbfe",
+  "reviewers": [
+    {
+      "context": "/root/pea_review_math",
+      "attestation": "udt_positional_effect_assignment_2026-10-13/review/math/FINAL_ATTESTATION.json",
+      "sha256": "63db4bf9a3ce3e6459a442726d30624204faf13c48b3784f0879052038d8b9aa"
+    },
+    {
+      "context": "/root/pea_review_fidelity",
+      "attestation": "udt_positional_effect_assignment_2026-10-13/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256": "5ed88bd6c1d63b470f4a0378f555c96273d0dc87f7f51c45ff9b380b9d6c1bf0"
+    }
+  ],
+  "accepted_sha256_count": 14934,
+  "freeze_sha256": "05ceb52a1b007f67261a41e9fccc64ce6c661dec32642511c10981fee42ccea2",
+  "required_checks": {
+    "final_development": {
+      "receipt": "udt_positional_effect_assignment_2026-10-13/checks/final_development.json",
+      "receipt_sha256": "22da3ad911cf118b3c5f7f2ad562e871242a190787e9ec51326232f0c8a7efe5",
+      "returncode": 0,
+      "duration_seconds": 1.839527475880459
+    },
+    "final_maintenance": {
+      "receipt": "udt_positional_effect_assignment_2026-10-13/checks/final_maintenance.json",
+      "receipt_sha256": "9c17c2494a4980ed368b8888ae64874f6e9e9b5ee43271365e4e4f3cf9583497",
+      "returncode": 0,
+      "duration_seconds": 2.190843537915498
+    },
+    "final_full406": {
+      "receipt": "udt_positional_effect_assignment_2026-10-13/checks/final_full406.json",
+      "receipt_sha256": "4430d792db1ddd86ee3ac28c72a4d2801938341cd797b196f79b0c180c21cddc",
+      "returncode": 0,
+      "duration_seconds": 408.62869510799646
+    }
+  },
+  "initial_candidate_files_unchanged": 30,
+  "unrelated_names_preserved_without_payload_access": 76,
+  "protected_payloads_accessed": false,
+  "package_bytes_before_closure": 13518686,
+  "publication": "Commit and normal fast-forward grok/main publication are subsequent gates; this receipt does not pre-claim them. Actual tool/remote verification owns publication."
+}

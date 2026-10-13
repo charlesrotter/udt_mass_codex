@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-13T14:31:24.766344+00:00",
+  "context": "/root/pea_review_fidelity",
+  "exposure": "parent disclosed math scalar-wording finding; complete repair read; primary eq2.29 directly inspected",
+  "verdict": "VERIFIED-WITH-CAVEATS; complete first repair accepted",
+  "repair_sha256": "0a61a15c3032bc773e0d98274cef520d571ea6bd1a505f37c47439c78e909aec",
+  "supplement_sha256": "65bc2f8d6476c4e8aeb9999abe33f22cc483b0065a786874db97db01177a0e03",
+  "prior_review_sha256": "0b92f30a67e31fe98e4088f02f200ec90173255dcd4d599981c00d2dce686c51",
+  "prior_seal_sha256": "d694c302306d1c14a2054780ddc2d0f580ccb630fe516529d981139a8c1e04a6",
+  "coverage": "both interval-normalization and Lorentz4 nonzero-I sufficiency wording; no final integration coverage",
+  "scientific_compute_runs": 0
+}

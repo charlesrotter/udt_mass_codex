@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "method": "abstract bilinear directional polynomial and independent flat conformal Ricci",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "checks": {
+    "bilinear_all_direction_pullback": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 1
+    },
+    "wrong_pullback_weight_caught": {
+      "status": "DEFECT_CAUGHT",
+      "nonzero_residuals": [
+        "-yy*(bb*xx - 2*bx)*(bb*xx - 2*bx + 1)**2*(bb*xx - 2*bx + 2)"
+      ]
+    },
+    "inverse_map": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 4
+    },
+    "origin_normalization": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 5
+    },
+    "identity_first_order": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 16
+    },
+    "gradient_norm": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 1
+    },
+    "hessian": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 16
+    },
+    "limiting_reference_full_flat_conformal_ricci": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 16
+    },
+    "omitted_gradient_norm_caught": {
+      "status": "DEFECT_CAUGHT",
+      "nonzero_residuals": [
+        "-12*a**2/(-a**2*t**2 + a**2*x**2 + a**2*y**2 + a**2*z**2 - 2*a*t - 1)",
+        "12*a**2/(-a**2*t**2 + a**2*x**2 + a**2*y**2 + a**2*z**2 - 2*a*t - 1)",
+        "12*a**2/(-a**2*t**2 + a**2*x**2 + a**2*y**2 + a**2*z**2 - 2*a*t - 1)",
+        "12*a**2/(-a**2*t**2 + a**2*x**2 + a**2*y**2 + a**2*z**2 - 2*a*t - 1)"
+      ]
+    },
+    "actual_flat_incidence": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 1
+    },
+    "actual_flat_net_ratio": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 1
+    },
+    "second_assigned_limit": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 1
+    },
+    "second_reference_clock_limit": {
+      "status": "EXACT_ZERO",
+      "scalar_count": 1
+    },
+    "two_assigned_limits_differ": {
+      "status": "DEFECT_CAUGHT",
+      "nonzero_residuals": [
+        "2*a*ell"
+      ]
+    }
+  },
+  "limits": {
+    "physical_net_both": "1",
+    "assigned_first": "1",
+    "assigned_second": "1+2*a*ell"
+  },
+  "input_sha256": {
+    "udt_positional_effect_assignment_2026-10-13/review/math/check_independent.py": "f0b92572f1f6e856fd738be4dbc88387f905ea97ff0947367ada0420f9908416",
+    "udt_positional_effect_assignment_2026-10-13/review/math/CHECK_PLAN.md": "703655e014126926d7c91f8c813de3c2b4ad0d61466230469741e78e0add004d",
+    "udt_positional_effect_assignment_2026-10-13/review/math/SOURCE_FIRST.md": "b71bc500222d02fbd7e0e88f1da1ce2f439c8c53460192002ccefee8577a42f8",
+    "udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md": "643e6d6e1629c423085ae22b57020c47d2c685882c562a6d2a1f977cae43d8ed",
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md": "68ece1b9ff1b29ab398398ca48a8149fd18ba289f0075c127e06b95cd9e5774e"
+  },
+  "omissions": [
+    "No sampled rank inference",
+    "No numerical geodesic solver",
+    "Family continuity and rank proved analytically",
+    "No physical adoption"
+  ]
+}

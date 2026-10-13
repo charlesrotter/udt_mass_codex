@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational conformal-map identities only; family and clock limit proven analytically",
+  "versions": {
+    "python": "3.10.12",
+    "sympy": "1.13.1"
+  },
+  "checks": {
+    "full_pullback": "EXACT_ZERO",
+    "determinant": "EXACT_ZERO",
+    "fixed_origin": "EXACT_ZERO",
+    "identity_tangent": "EXACT_ZERO",
+    "timelike_gradient_norm": "EXACT_ZERO",
+    "null_endpoint_factor": "EXACT_ZERO",
+    "null_endpoint_image": "EXACT_ZERO"
+  },
+  "v": "a**2*(t**2 - x**2 - y**2 - z**2) + 2*a*t + 1",
+  "F": [
+    "(a*(t**2 - x**2 - y**2 - z**2) + t)/(a**2*(t**2 - x**2 - y**2 - z**2) + 2*a*t + 1)",
+    "x/(a**2*(t**2 - x**2 - y**2 - z**2) + 2*a*t + 1)",
+    "y/(a**2*(t**2 - x**2 - y**2 - z**2) + 2*a*t + 1)",
+    "z/(a**2*(t**2 - x**2 - y**2 - z**2) + 2*a*t + 1)"
+  ],
+  "gradient_norm": "-4*a**2*(a**2*(t**2 - x**2 - y**2 - z**2) + 2*a*t + 1)",
+  "source_sha256": {
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/check_flat_limit.py": "9a49a6f65e9b6583b79d7bb8093766e8f6e062e6719c9f1f033c80028ddb569e",
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/FLAT_LIMIT_CHECK_PLAN.md": "c58dc3beb2e462ee4e4008b1ea568ebcf9222aefe93b1e8bea56c4ae628b4394"
+  }
+}

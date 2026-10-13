@@ -3016,6 +3016,67 @@
         "C_COC_QUERY",
         "C_COC_TRIALS"
       ]
+    },
+    {
+      "id": "C_PEA_CVA",
+      "kind": "condition",
+      "statement": "Separate UNADOPTED CVA trial: smooth connected contractible Lorentz4 regular patch, normalized conformal Ricci-flat reference on its existence locus, full Schouten equation and everywhere injective Weyl contraction. Same identified endpoint histories and regular null branches, differential tick ratios. Optional all-short-future-null contrast sign is additional. Flat-limit theorem uses its explicit two smooth off-center Schwarzschild families; demanding continuous physical attribution is separately UNADOPTED.",
+      "sources": [
+        "udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/PRIOR_SCOPE_NOTE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/REPAIR.md",
+        "udt_positional_effect_assignment_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_PEA_ECHO",
+      "kind": "condition",
+      "statement": "Separate echo branch, not a conjunction with CVA: positive conformal comparison with supplied timelike stationary-reference Killing orbits, held proper clocks, regular flow-equivariant outgoing and immediate-return branches, differential ticks over finite flight. Independent quadratic Weyl data; inversion only at nonzero invariant, no converse or instrument accuracy.",
+      "sources": [
+        "udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/PRIOR_SCOPE_NOTE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/REPAIR.md",
+        "udt_positional_effect_assignment_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_PEA_ATTRIBUTION",
+      "kind": "open_join",
+      "statement": "Physical justification of reference/sign/continuity, native event/path/depth response/geometry/source/scale and empirical distinction remain OPEN. No additive cause decomposition is founded. Restricted assignments and other routes survive the scoped flat-limit obstruction; the echo test does not verify vacuum or positional cause.",
+      "sources": [
+        "udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/PRIOR_SCOPE_NOTE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/REPAIR.md",
+        "udt_positional_effect_assignment_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R8PEA",
+      "kind": "argument",
+      "anchor": "r8pea",
+      "title": "Conditional inverse conformal reference, no all-approach continuous flat extension, and prepared finite echo/tide consistency",
+      "sources": [
+        "udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_a/PRIOR_SCOPE_NOTE.md",
+        "udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_positional_effect_assignment_2026-10-13/REPAIR.md",
+        "udt_positional_effect_assignment_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_PEA_CVA",
+        "C_PEA_ECHO"
+      ]
     }
   ],
   "edges": [
@@ -6213,6 +6274,111 @@
       "from": "R8COC",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "C_PEA_CVA",
+      "to": "R8PEA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_PEA_ECHO",
+      "to": "R8PEA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "O_PEA_ATTRIBUTION",
+      "to": "R8PEA",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "D1",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R8PEA",
+      "kind": "proof"
+    },
+    {
+      "from": "R7",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8GRL",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8COC",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R7GRC",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8GRC",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8PRT",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8CMF",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8IEC",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8ESR",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R9",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R16",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R16PIA",
+      "to": "R8PEA",
+      "kind": "context"
+    },
+    {
+      "from": "R8PEA",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -6566,7 +6732,13 @@
     "udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md": "343913b782b1a59f165840f5ea3a0f94fd84693ec421bb4babd25d0aa61782ea",
     "udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md": "afe77f07c94a3468082936698251366be6489b0ff19d0fa7a83ae9a9cd01422a",
     "udt_clock_optical_physical_connection_2026-10-13/REPAIR.md": "3bcf547c0cb2507c8cc79122183a8c1152a8a00a1ec211c6d177e2dbc85bc2d9",
-    "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md": "38edb4e3dff95054cea5522175e4471e0c076ac19d646edc761900e9a9cb23e5"
+    "udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md": "38edb4e3dff95054cea5522175e4471e0c076ac19d646edc761900e9a9cb23e5",
+    "udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md": "643e6d6e1629c423085ae22b57020c47d2c685882c562a6d2a1f977cae43d8ed",
+    "udt_positional_effect_assignment_2026-10-13/researcher_a/CANDIDATE.md": "a8589605ed4bd8d8eeeab97b3162ef6eb85ad7c41b0e9f60596bbf2d57800dcc",
+    "udt_positional_effect_assignment_2026-10-13/researcher_a/PRIOR_SCOPE_NOTE.md": "e8394c01c5c6fbd76c12ba239ec6bb159c6d4dc1accfc39bc4f1462d37f2394e",
+    "udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md": "68ece1b9ff1b29ab398398ca48a8149fd18ba289f0075c127e06b95cd9e5774e",
+    "udt_positional_effect_assignment_2026-10-13/REPAIR.md": "0a61a15c3032bc773e0d98274cef520d571ea6bd1a505f37c47439c78e909aec",
+    "udt_positional_effect_assignment_2026-10-13/DESCENDANT_REVIEW.md": "c087a138bcc6934339325ce6b757be61a3c1eacf4f6a9b2046b7b5358c75b17b"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -11558,6 +11730,96 @@
       "role": "review_evidence",
       "targets": [
         "R8COC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/REPAIR.md",
+      "sha256": "0a61a15c3032bc773e0d98274cef520d571ea6bd1a505f37c47439c78e909aec",
+      "role": "repair_scope",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/math/SOURCE_FIRST.md",
+      "sha256": "b71bc500222d02fbd7e0e88f1da1ce2f439c8c53460192002ccefee8577a42f8",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/math/DIRECT_REVIEW.md",
+      "sha256": "17db05c6064eebd50763dfc42215e6f31426c028353a2b3d88ffe4fca96a2250",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/math/REPAIR_REVIEW.md",
+      "sha256": "0a93b5b5ee7f7d5d4da57b1545fc7c4e55124fb0e9a83ff398ef51d974edbaf5",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/math/REPAIR_SUPPLEMENT_REVIEW.md",
+      "sha256": "bec0765935acf8cc9e9ee821cf840f78b1691937ec923abff1f37b26aef51ee4",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/fidelity/SOURCE_FIRST.md",
+      "sha256": "79fc4349b9760b75efdd8c4ec7ad38851b5dd197ded8737444dfaaaf4bffccea",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "fceec38253f34c0997a55860080713c7370d89cd453748c5dac09ba36dce11b0",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/fidelity/REPAIR_REVIEW.md",
+      "sha256": "0b92f30a67e31fe98e4088f02f200ec90173255dcd4d599981c00d2dce686c51",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/review/fidelity/REPAIR_REVIEW_SUPPLEMENT.md",
+      "sha256": "65bc2f8d6476c4e8aeb9999abe33f22cc483b0065a786874db97db01177a0e03",
+      "role": "review_evidence",
+      "targets": [
+        "R8PEA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_positional_effect_assignment_2026-10-13/INTEGRATION_REPAIR.md",
+      "sha256": "bf40a2e5c469f74ef2f151134aa49203f49ebb6b0a1df889553421549733b9e3",
+      "role": "repair_scope",
+      "targets": [
+        "R8PEA",
         "R18"
       ]
     }

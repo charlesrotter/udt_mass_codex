@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-13T14:30:01.195988+00:00",
+  "context": "/root/pea_review_fidelity",
+  "verdict": "VERIFIED-WITH-CAVEATS; D1 resolved; final integration unreviewed",
+  "repair_sha256": "0a61a15c3032bc773e0d98274cef520d571ea6bd1a505f37c47439c78e909aec",
+  "repair_review_sha256": "0b92f30a67e31fe98e4088f02f200ec90173255dcd4d599981c00d2dce686c51",
+  "direct_review_unchanged": true,
+  "independent_check": "exact hand differentiation of Minkowski half-squared world function and constant-multiplier invariance of incidence/arrival derivative ratio",
+  "scientific_compute_runs": 0
+}

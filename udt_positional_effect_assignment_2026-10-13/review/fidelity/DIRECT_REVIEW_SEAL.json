@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-13T14:29:21.123679+00:00",
+  "context": "/root/pea_review_fidelity",
+  "candidate_exposure": "explicitly authorized after SOURCE_FIRST seal",
+  "other_reviewer_exposure": false,
+  "parent_message_exposure": "parent acknowledged interval-normalization finding and reports repair; repair not read before direct review saved",
+  "verdict": "VERIFIED-WITH-CAVEATS conditional argument; D1 normalization wording repair required",
+  "candidate_freeze_correspondence_count": 30,
+  "candidate_freeze_all_match": true,
+  "mismatches": [],
+  "source_first_unchanged": true,
+  "direct_review_sha256": "fceec38253f34c0997a55860080713c7370d89cd453748c5dac09ba36dce11b0",
+  "pins_sha256": "3c9ddaba37c946ca1b1f5003ad19d984751a1263aae911086514ff4a6f7e53dd",
+  "scientific_compute_runs": 0
+}

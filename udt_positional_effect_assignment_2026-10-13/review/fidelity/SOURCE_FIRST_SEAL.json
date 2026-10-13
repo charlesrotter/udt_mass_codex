@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-13T14:22:20.340589+00:00",
+  "context": "/root/pea_review_fidelity",
+  "model": "inherited same-model; exact revision unexposed",
+  "head": "c36450f6d7836fbbe07d17c0152f1190f4885b91",
+  "candidate_exposure": false,
+  "researcher_output_exposure": false,
+  "other_current_reviewer_exposure": false,
+  "neutral_packet_exposure": true,
+  "independent_check": "hand derivation of conformal proper-clock contrast, normalized flat-reference nonuniqueness, stationary-orbit echo/Weyl relation",
+  "scientific_compute_runs": 0,
+  "source_first_sha256": "79fc4349b9760b75efdd8c4ec7ad38851b5dd197ded8737444dfaaaf4bffccea",
+  "pins_sha256": "f7d84e4a99e8215655309d7739b3f0818abe2cf635cc6f5943fed3e5ea4629fb"
+}

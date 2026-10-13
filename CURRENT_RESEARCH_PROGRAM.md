@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — COC1 physical clock/optical connection,
+**Current development — PEA1 positional comparison and flat-limit test,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,40 +39,42 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** COC1 gives GRC1's optical proposal an explicit ideal
-measurement: a freely falling clock fixes a round-trip duration, and local
-screens/rulers supply the area and source angles of the two null cones'
-intersection. Its directional area coefficient combines clock tides and null
-Ricci curvature. Timing together with the independently measured clock tide determines the
-needed conversion to normalized affine distance; tick ratios or apparent brightness alone do not provide the area.
+**Current learning.** PEA1 tested whether the physical geometry can identify
+its own GR-vacuum conformal comparison. Under an exact Weyl-injectivity condition,
+a normalized Ricci-flat conformal reference, if it exists, is unique. Comparing
+the same clock histories then gives a definite differential tick-ratio contrast.
+The reference choice and an optional all-null red-contrast law remain UNADOPTED;
+uniqueness does not derive their positional meaning or determine the geometry.
 
-Requiring the additional directional area coefficient to be nonpositive in every
-prepared frame is exactly GRC1's two strong clock/optical inequalities together.
-It gives the same isotropic curvature difference, conditionally. Applying that
-law to total geometry instead would remove all Weyl tides and fail nonzero
-Schwarzschild recovery. Applying it to a matched additional contribution keeps
-the physical reference and attribution open. The condition remains UNADOPTED.
+The decisive test limits that proposal. Two smooth families approach the same
+flat physical metric and the same actual clock readings, while their unique
+assigned contrasts approach different values. This persists when every nonflat
+member satisfies strict red contrast on all future null segments. Consequently
+this particular assignment has no continuous extension across all those flat
+approaches. Requiring such continuity for physical attribution is itself
+unadopted. Restricted domains, extra reference data, other assignments and UDT
+as a whole are not excluded.
 
-The angular mean instead measures total scalar curvature, a known geometric
-result and something CMF1 already reconstructs from clocks. A positive scalar
-part is not automatically received slowing: an exact ultrastatic control has
-positive scalar curvature while its static clocks exchange unchanged ticks.
-Its leading prepared clock coefficients in every finite frame are nonpositive,
-including zero. Requiring the scalar-subtracted curvature
-to satisfy Bianchi separately under the same physical metric connection would
-select constant scalar curvature, not the Einstein class, and is another unadopted physical restriction.
+A narrower operational tool survives: with clocks held on specified timelike
+conformal-Killing orbits and a regular immediate-return relay, the echo derivative
+and independently measured Weyl curvature obey an exact finite-range relation.
+It is a necessary consistency test, not proof of the assumed preparation, vacuum
+reference or positional cause. A red echo can conceal a blue one-way contrast;
+zero Weyl invariant can make the test vacuous. The known GR conformal-Schwarzschild
+comparison gives no additional UDT prediction merely by relabeling its factor.
 
-This narrows the physical choice and corrects the operational calibration; it
-does not select a native metric, source, response E or scale. Existing GRC1,
-PSW1, PCC1 and CMF1 conditional results survive at their stated scopes. No new
-premise or CANON change is made, and no full-postulate insufficiency is proved.
-Actual argument reviews, source-preserving clarification and required checks
-own COC1 closure.
+This is a conditional evaluator, a specific rejected universal continuous
+assignment and a prepared test. It does not select native event/path depth,
+response, source or scale. Existing COC1, GRC1, GRL1, G374/G375 and echo-curvature
+results retain their full scopes. No new premise, registry grade or CANON change
+is made, and no full-postulate insufficiency is proved. The exact proofs,
+source-preserving interval-definition repair and actual reviews own the return.
 
-After orientation read R8COC and R18; R7GRC/R8GRC retain the preceding alternatives.
-Stop for lay discussion of the physical attribution and the narrowed restrictions.
-LIVE owns authorization. The older PIA1 application remains deferred; no automatic
-successor, arbitrary profile survey or protected restart follows this return.
+After orientation read R8PEA and R18. Stop for lay discussion: a future direct
+relation among actual prepared comparisons need not presume an additive curvature
+cause, but still needs physical justification and an early quiet-limit test.
+LIVE owns authorization and actual closure; the older PIA1 application remains
+deferred. No automatic successor, arbitrary profile survey or protected restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

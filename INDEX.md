@@ -13,6 +13,8 @@
 ## One development and its evidence
 
 - [Maintained argument: definitions and R1–R18](UDT_DEVELOPMENT.md).
+- [Positional reference and flat-limit test: R8PEA](UDT_DEVELOPMENT.md#r8pea);
+  [PEA1 fixed discussion packet](udt_positional_effect_assignment_2026-10-13/DECISION_BRIEF.md).
 - [Physical clock/optical connection: R8COC](UDT_DEVELOPMENT.md#r8coc);
   [COC1 fixed discussion packet](udt_clock_optical_physical_connection_2026-10-13/DECISION_BRIEF.md).
 - [Clock/optical research connection: R7GRC/R8GRC](UDT_DEVELOPMENT.md#r8grc);

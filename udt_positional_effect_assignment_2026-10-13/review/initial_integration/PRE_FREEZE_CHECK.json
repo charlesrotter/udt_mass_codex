@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-13T14:33:06.568598+00:00",
+  "prior_accepted_files_checked": 14864,
+  "changed_prior_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "initial_candidate_hashes_verified": 30,
+  "unrelated_names_only_unchanged": 76,
+  "protected_payloads_read_hashed_or_changed": false,
+  "canon_registry_guide_and_all406_dispositions_unchanged": true
+}
