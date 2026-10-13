@@ -1,0 +1,24 @@
+{
+  "0": {
+    "counts": {
+      "antisymmetric_pair_has_two_U": 3,
+      "Weyl_trace": 7
+    },
+    "total": 10
+  },
+  "1": {
+    "counts": {
+      "antisymmetric_pair_has_two_U": 7,
+      "Weyl_trace": 19
+    },
+    "total": 26
+  },
+  "2": {
+    "counts": {
+      "antisymmetric_pair_has_two_U": 18,
+      "Weyl_trace": 50,
+      "innermost_derivative_is_Weyl_divergence": 8
+    },
+    "total": 76
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "Kerr continuation; original MANIFEST remains unchanged",
+  "files": [
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/KERR_LEAD_SCOPE.md",
+      "bytes": 3795,
+      "sha256": "9c37bc8e759170b32234a8c9e73980638585f314455039658781325f11e9da83"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/KERR_CANDIDATE.md",
+      "bytes": 8105,
+      "sha256": "f32a6675633cb51bae540843565ca48e52c61cd19a87db26311fafb35b40b7fe"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/check_kerr_curvature.py",
+      "bytes": 4455,
+      "sha256": "988ea1815c2fb3649f7771cb0283456648f3d7ca8e458269713042ebe4638616"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/kerr_curvature.stdout",
+      "bytes": 2242,
+      "sha256": "26720d9f00b89559085428bcfdae4395ab1dd955c89944b19e052d9e680394b5"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/kerr_curvature.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/kerr_curvature.json",
+      "bytes": 743,
+      "sha256": "a296e908e19c6fa4c596b9c26f8345f581b44891e501b3ce9776ecfb22a7b9cc"
+    }
+  ]
+}

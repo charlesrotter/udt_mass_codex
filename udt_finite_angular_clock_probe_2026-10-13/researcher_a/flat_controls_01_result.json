@@ -1,0 +1,188 @@
+{
+  "kind": "shared-code regression, not independent derivation",
+  "source_sha256": "38a2bf30b38a20163dc6dc69a7978e4847a2c9946f2ada73a51897a4f92059e7",
+  "check_sha256": "2056056fb0c6d8eca872f6162dcb0c53ce5212dfc9133753aa1ccec64435b7db",
+  "cases": {
+    "Cartesian": {
+      "forward": {
+        "log_ratio": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "spherical_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "arrival_minus_one_over_L": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "ray_covector_ratio": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "unneeded_direction4"
+        ],
+        "log_axis1": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "log_axis2": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "reverse": {
+        "log_ratio": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "spherical_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "arrival_minus_one_over_L": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "ray_covector_ratio": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "unneeded_direction4"
+        ],
+        "log_axis1": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "log_axis2": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    "flat_Milne_product": {
+      "forward": {
+        "log_ratio": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "spherical_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "arrival_minus_one_over_L": [
+          "1",
+          "-z/2",
+          "z/2",
+          "-z*(z + 4)/8",
+          "0"
+        ],
+        "ray_covector_ratio": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "unneeded_direction4"
+        ],
+        "log_axis1": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "log_axis2": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "reverse": {
+        "log_ratio": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "spherical_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "arrival_minus_one_over_L": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "ray_covector_ratio": [
+          "1",
+          "-1",
+          "1",
+          "-1",
+          "unneeded_direction4"
+        ],
+        "log_axis1": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "log_axis2": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    }
+  },
+  "duration_seconds": 1.454169062897563
+}

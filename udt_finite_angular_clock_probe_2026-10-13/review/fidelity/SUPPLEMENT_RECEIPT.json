@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-13T16:57:35.412862+00:00",
+  "scope": "same-premise analytical fidelity supplement; no new numerics",
+  "manifest_counts": {
+    "initial": 105,
+    "supplement": 1
+  },
+  "mismatches": [],
+  "files": {
+    "udt_finite_angular_clock_probe_2026-10-13/SCIENCE_FREEZE.json": "54173a2b42fb01f588016eb04a0277f28319acd5d935fb104900f04e03b1eeb9",
+    "udt_finite_angular_clock_probe_2026-10-13/SCIENCE_SUPPLEMENT.json": "709fb835b5808ae5c25890d9b2631a5eacf28e2f73c1c83d88b829ab379dbb8a",
+    "udt_finite_angular_clock_probe_2026-10-13/KERR_RECOVERY_APPLICATION.md": "4641cb612b5dedef520801b13de6152c445cd1c9481ff582b373fcae3cadbb13",
+    "udt_finite_angular_clock_probe_2026-10-13/review/fidelity/DIRECT_REVIEW.md": "f8d8b5abbfc264f461bcdd7e165bc187d83d779ed1226d475fc0fea3e7580d7f",
+    "udt_finite_angular_clock_probe_2026-10-13/review/fidelity/SUPPLEMENT_REVIEW.md": "a796a363b28d7e31d742b9fa559062513d025cec2ee36799bc4eaec30b3e051f"
+  },
+  "review_verdict": "VERIFIED-WITH-CAVEATS",
+  "independence": "same separate review context; same inherited model; no sibling review exposure"
+}

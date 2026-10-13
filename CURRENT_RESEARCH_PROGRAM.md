@@ -5,7 +5,7 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — PEA1 positional comparison and flat-limit test,
+**Current development — FAC1 finite angular clock restriction,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
@@ -39,42 +39,43 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** PEA1 tested whether the physical geometry can identify
-its own GR-vacuum conformal comparison. Under an exact Weyl-injectivity condition,
-a normalized Ricci-flat conformal reference, if it exists, is unique. Comparing
-the same clock histories then gives a definite differential tick-ratio contrast.
-The reference choice and an optional all-null red-contrast law remain UNADOPTED;
-uniqueness does not derive their positional meaning or determine the geometry.
+**Current learning.** FAC1 derives the short-range full-sphere average of two
+independently emitted first-signal clock comparisons. For a fixed, freely
+released, initially parallel laboratory in a Ricci-flat neighborhood,
+M_±=(4|E|²-3|B|²)L⁴/360+O(L⁵). E/B are parts of Weyl curvature, not new fields.
+The natural-jet proof classifies the possible invariants before exact Kasner
+and plane-wave controls determine the constants. Both separate means share the
+displayed coefficient; their finite values need not agree. A zero coefficient
+leaves higher orders open. Pointwise vacuum alone does not meet the hypothesis.
 
-The decisive test limits that proposal. Two smooth families approach the same
-flat physical metric and the same actual clock readings, while their unique
-assigned contrasts approach different values. This persists when every nonflat
-member satisfies strict red contrast on all future null segments. Consequently
-this particular assignment has no continuous extension across all those flat
-approaches. Requiring such continuity for physical attribution is itself
-unadopted. Restricted domains, extra reference data, other assignments and UDT
-as a whole are not excluded.
+The full-sphere Kasner means are positive; the older negative principal-axis
+mean remains correct in its original scope. A regular nonextremal Kerr control
+has a negative coefficient, also at a point outside the ergosphere. Hence
+nonnegative angular means are not automatic in supplied GR vacuum. If the
+UNADOPTED angular mutual-slowing law AMS applies at every sufficiently small
+separation of the stated laboratory, it requires 4|E|²>=3|B|². Strict inequality
+suffices locally for that observer. This is a conditional curvature restriction,
+not a selected geometry, all-frame classification or native field equation.
 
-A narrower operational tool survives: with clocks held on specified timelike
-conformal-Killing orbits and a regular immediate-return relay, the echo derivative
-and independently measured Weyl curvature obey an exact finite-range relation.
-It is a necessary consistency test, not proof of the assumed preparation, vacuum
-reference or positional cause. A red echo can conceal a blue one-way contrast;
-zero Weyl invariant can make the test vacuous. The known GR conformal-Schwarzschild
-comparison gives no additional UDT prediction merely by relabeling its factor.
+The physical join remains open: these are total prepared clock readings, not
+a derived isolation of the additional positional effect. No physical averaging
+law, native vacuum sector or mandatory strong-field recovery target is adopted.
+A separately reviewed smooth recovery family has a positive interval shrinking
+to zero while approaching the negative Kerr comparison. A recovery conflict
+therefore requires the same common finite query to remain inside the assumed
+positivity domain. Distant onset and finite-tolerance recovery are not excluded.
 
-This is a conditional evaluator, a specific rejected universal continuous
-assignment and a prepared test. It does not select native event/path depth,
-response, source or scale. Existing COC1, GRC1, GRL1, G374/G375 and echo-curvature
-results retain their full scopes. No new premise, registry grade or CANON change
-is made, and no full-postulate insufficiency is proved. The exact proofs,
-source-preserving interval-definition repair and actual reviews own the return.
+Two fresh contexts reviewed the proof and independently checked complementary
+parts. They share the model; neither review is human or empirical validation.
+No native event/path-depth, source, scale or cosmic curve is selected, and no
+full-postulate insufficiency is proved. PEA1's reference/flat-limit return and
+other prior positive and negative results retain their hypotheses and grades.
 
-After orientation read R8PEA and R18. Stop for lay discussion: a future direct
-relation among actual prepared comparisons need not presume an additive curvature
-cause, but still needs physical justification and an early quiet-limit test.
-LIVE owns authorization and actual closure; the older PIA1 application remains
-deferred. No automatic successor, arbitrary profile survey or protected restart.
+After orientation read R8FAC and R18. The return is a mathematical discriminator
+and an explicit physical attribution/regime question. Stop for lay discussion
+after the authorized integration/check/publication gates. LIVE owns actual
+closure and authorization; the older PIA1 application remains deferred. No
+automatic successor, arbitrary profile survey or protected restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-13T17:10:04.858143+00:00",
+  "freeze_path": "udt_finite_angular_clock_probe_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "8b611a99aba36806ed49e915e1fa1690defea48d3194d6e23deffb99e6ff3c59",
+  "head": "781bc355905f9d9c8ca5a7628784fdd4cf85a15d",
+  "accepted_bindings": 15096,
+  "unchanged_inherited_metadata_bindings": 14926,
+  "changed_prior": 8,
+  "new_files": 162,
+  "directly_hashed_changed_and_new_files": 147,
+  "sibling_paths_skipped_without_content_or_hash_access": 23,
+  "initial_scientific_files_unchanged": 105,
+  "generated_program_matches": true,
+  "FAC_graph_separation_and_source_pins_match": true,
+  "tracked_changes_equal_declared_set": true,
+  "mismatches": [],
+  "scope": "Targeted edition correspondence and routing only. Inherited unchanged payloads not read or hashed; no protected payload or sibling report exposure; no scientific reproof or final normal/full406 pass."
+}

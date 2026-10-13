@@ -1,0 +1,8 @@
+{
+  "status": "additional in-scope consequence before direct-review closure",
+  "utc": "2026-10-13T16:51:52.107592+00:00",
+  "initial_freeze_sha256": "54173a2b42fb01f588016eb04a0277f28319acd5d935fb104900f04e03b1eeb9",
+  "files": {
+    "udt_finite_angular_clock_probe_2026-10-13/KERR_RECOVERY_APPLICATION.md": "4641cb612b5dedef520801b13de6152c445cd1c9481ff582b373fcae3cadbb13"
+  }
+}

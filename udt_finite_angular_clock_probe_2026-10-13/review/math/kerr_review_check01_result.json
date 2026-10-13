@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "r": "3/2",
+      "rplus": "5/4",
+      "sigma": "3",
+      "delta": "3/16",
+      "gtt": "0",
+      "det_metric": "-9",
+      "E0_primary": "0",
+      "B0_primary": "-sqrt(3)/9",
+      "E2": "0",
+      "B2": "2/9",
+      "quartic_conditional_on_FAC1": "-1/540"
+    },
+    {
+      "r": "31/20",
+      "rplus": "5/4",
+      "sigma": "1261/400",
+      "delta": "6/25",
+      "gtt": "-21/1261",
+      "det_metric": "-1590121/160000",
+      "E0_primary": "15128000/2005142581",
+      "B0_primary": "-206640000*sqrt(3)/2005142581",
+      "E2": "1373138304000000/4020596770139341561",
+      "B2": "768601612800000000/4020596770139341561",
+      "quartic_conditional_on_FAC1": "-19169269043200000/12061790310418024683"
+    }
+  ],
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_sha256": "ee4e28216eecfe1dd260e2e4714361f7dc25c5e4b857a2683078b219a9b9dbf9",
+  "bound_author_inputs": {
+    "KERR_CANDIDATE.md": "f32a6675633cb51bae540843565ca48e52c61cd19a87db26311fafb35b40b7fe",
+    "KERR_MANIFEST.json": "5ccbef24e0fc4b20b8bb4081e2c4d3a78d99dac06efc91ea776f12520463c0dc"
+  },
+  "scope": "primary published principal-frame scalar and independent coframe normalization; no original-curvature replay or Kerr null integration"
+}

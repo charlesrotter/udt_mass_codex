@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SCOPED_VERSION_AND_ROUTING_CHECK",
+  "head": "781bc355905f9d9c8ca5a7628784fdd4cf85a15d",
+  "freeze_sha256": "8b611a99aba36806ed49e915e1fa1690defea48d3194d6e23deffb99e6ff3c59",
+  "accepted_files_checked": 15096,
+  "accepted_bytes_streamed": 2389400540,
+  "changed_inherited_files": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "unchanged_inherited_files": 14926,
+  "new_files": 162,
+  "original_science_files_unchanged": 105,
+  "protected_paths_or_resolutions_read": 0,
+  "generated_program_matches": true,
+  "mathematical_and_physical_graph_conditions_separate": true,
+  "duration_seconds": 1.6966296599712223,
+  "script_sha256": "40617fc3c4ee2f2001dbe185692d92c3644b5da0c5265e9585b790cf48d3502c",
+  "scope": "byte correspondence, changed-scope and selected routing only; no inherited-corpus scientific reproof or normal/maintenance/full406 gate claim"
+}

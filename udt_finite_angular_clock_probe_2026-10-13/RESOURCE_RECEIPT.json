@@ -1,0 +1,169 @@
+{
+  "utc": "2026-10-13T17:03:06.878009+00:00",
+  "scope": "Completed scientific author and reviewer captures at integration; repository verification excluded. Capture elapsed totals are not aggregate CPU accounting. No GPU or long solver.",
+  "captures": [
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_a/checks/derivative_contractions_01.json",
+      "returncode": 0,
+      "duration_seconds": 0.015712216030806303,
+      "maxrss_kib": 13632,
+      "sha256": "a281e6d7078108e081ccbfd960a7fd95265c443b282cbd86a3023753db9d61df"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_a/checks/flat_controls_01.json",
+      "returncode": 0,
+      "duration_seconds": 1.6001152920071036,
+      "maxrss_kib": 52936,
+      "sha256": "aa9c44a649500f79ef9ca7693bacad60c6f092ac01bd3e4e1fd1de5bbdd6e578"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_a/checks/formal_01.json",
+      "returncode": 0,
+      "duration_seconds": 2.8985706109087914,
+      "maxrss_kib": 57404,
+      "sha256": "a928af58e8db0726078cc730b2a120edb854a91188d0cd0aee3607c6514cf801"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_a/checks/plane_wave_01.json",
+      "returncode": 0,
+      "duration_seconds": 2.701562977861613,
+      "maxrss_kib": 58088,
+      "sha256": "575b3374520bebd89eccb5f57862621f54bcd62e6f12a180079527e15a268703"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_a/checks/plane_wave_geometry_01.json",
+      "returncode": 0,
+      "duration_seconds": 3.4653932640794665,
+      "maxrss_kib": 50796,
+      "sha256": "21bdb3b89e445f8ed6373ffddfbdbe6a5d6ab6004d97b55da565f2f3fb501396"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/arrival_derivatives.json",
+      "returncode": 0,
+      "duration_seconds": 0.21785727003589272,
+      "maxrss_kib": 79128,
+      "sha256": "67b0ae83a9e0863dbe4f7163b9a1e47cd6ce43c4d31b4d94ab161fe519ae4a9c"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/check_summary.json",
+      "returncode": 0,
+      "duration_seconds": 0.03184026409871876,
+      "maxrss_kib": 12152,
+      "sha256": "bc63ca04d60f99aac28545908d38ccaae3718d8e4a4dd86f0026fd719f86a17f"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4.json",
+      "returncode": 0,
+      "duration_seconds": 0.4485444480087608,
+      "maxrss_kib": 81340,
+      "sha256": "db67e749613af7ba4fba62092832754eb32f46467f7fe6d2676ec9744c2a2388"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4_baseline.json",
+      "returncode": 0,
+      "duration_seconds": 0.2972242101095617,
+      "maxrss_kib": 80276,
+      "sha256": "cf7daf78d09ba8e690cc276980ef5b2ed7304ca0c33f05859bffdb7e8b164228"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5.json",
+      "returncode": 0,
+      "duration_seconds": 0.45587147981859744,
+      "maxrss_kib": 80928,
+      "sha256": "0869346fb999f548291c99e077b7fa69652b3d9e4bc5623bd593095e0b5a6b91"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_baseline.json",
+      "returncode": 0,
+      "duration_seconds": 0.29444950399920344,
+      "maxrss_kib": 80240,
+      "sha256": "79a6aec22a748afaf7745ab7f166b752d677fdfe79ea20edd29216d113e9810b"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos4.json",
+      "returncode": 0,
+      "duration_seconds": 0.4443367759231478,
+      "maxrss_kib": 81456,
+      "sha256": "c7f34ca11694d8693a41c9570aa1e7c8f28b9626ac928028e6232f02a8713055"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos5.json",
+      "returncode": 0,
+      "duration_seconds": 0.4491465361788869,
+      "maxrss_kib": 81104,
+      "sha256": "f1cbfab70d3df228e0b364463b258e155f0856cc94af35f58ba62dbbc0dd80a5"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/flat_fine.json",
+      "returncode": 0,
+      "duration_seconds": 0.2894276899751276,
+      "maxrss_kib": 80516,
+      "sha256": "8f6a711607f64cd85752eca677ce7b1626141f29dc19dea410306e8af1f2f8ee"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/kerr_curvature.json",
+      "returncode": 0,
+      "duration_seconds": 1.6775823759380728,
+      "maxrss_kib": 56764,
+      "sha256": "a296e908e19c6fa4c596b9c26f8345f581b44891e501b3ce9776ecfb22a7b9cc"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/saved_analysis.json",
+      "returncode": 0,
+      "duration_seconds": 0.05022741784341633,
+      "maxrss_kib": 26108,
+      "sha256": "80e17cbd84500f640884575e0394163fa021f5144c47a7fc3e1fa2bbf5da53df"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_baseline.json",
+      "returncode": 0,
+      "duration_seconds": 0.31804819591343403,
+      "maxrss_kib": 80364,
+      "sha256": "72b1e01edc1c9a9f0cbed385b0669632d46b6827f82116afad3c67e0bcea6609"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_fine.json",
+      "returncode": 0,
+      "duration_seconds": 0.5014795011375099,
+      "maxrss_kib": 81596,
+      "sha256": "f002cf0fc04d26400b2fd9e0f01df96fc509006eebb356fe1730154898688cc8"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_finite_range.json",
+      "returncode": 0,
+      "duration_seconds": 0.747932240832597,
+      "maxrss_kib": 81616,
+      "sha256": "fd2f0c4dd5654501ca85c3d2e184bd617bb700c6fb4989e5d3ba11768bbed8be"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/review/fidelity/checks/direct_01.json",
+      "returncode": 0,
+      "duration_seconds": 0.032188778975978494,
+      "maxrss_kib": 16764,
+      "sha256": "921f4ad150589bfe695b70f55eab3a1f55e2e58822295389608ea24e601dd484"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/review/math/direct_run01.json",
+      "returncode": 0,
+      "duration_seconds": 0.2355873710475862,
+      "maxrss_kib": 50448,
+      "sha256": "47811da50949c1da847e6d4c01dde720431caf326dfe960721939b631270b509"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/review/math/kerr_run01.json",
+      "returncode": 0,
+      "duration_seconds": 0.24167925491929054,
+      "maxrss_kib": 51180,
+      "sha256": "03f5601fdff4704eba1d61eda20942334ee3b9143354f93e5c0b0b966b95c1ea"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.json",
+      "returncode": 0,
+      "duration_seconds": 0.8468723788391799,
+      "maxrss_kib": 54832,
+      "sha256": "90c5337073082474c0f0b6c161e44407208c8a8a419f9f21a901a302d329f5ee"
+    }
+  ],
+  "captured_elapsed_seconds_sum": 18.261650054482743,
+  "package_bytes_at_receipt": 2592604
+}

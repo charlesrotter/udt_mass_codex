@@ -1,0 +1,31 @@
+{
+  "verdict": "VERIFIED-WITH-CAVEATS",
+  "stage": "direct exposed mathematical review; final integrated-edition review pending",
+  "reviewer": "fresh context /root/fac_review_math, inherited same model",
+  "utc": "2026-10-13T16:52:49.211005+00:00",
+  "science_freeze_sha256": "54173a2b42fb01f588016eb04a0277f28319acd5d935fb104900f04e03b1eeb9",
+  "scientific_files_verified": 105,
+  "review_files": {
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/DIRECT_CHECK_FREEZE.md": "8e75cb4680ee2a9ebab15b1b2da3ede7783db8e5fc29a6055fab5e7df321ab91",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/DIRECT_REVIEW.md": "ab68a93bf35d1516346ef3b59232043f661f0c82c91b3dec474df592886bf599",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/SOURCE_FIRST.md": "ea9992f9e59cc60d4330f022ee6cb8c1912b571b672d851aeb0e5bb08351cd6c",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/SOURCE_FIRST_PINS.json": "22ffdf399a590b6035345fab9c156d0cfd0d5f04bf6bcfdcdc6739fad5e52c7b",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/SOURCE_FIRST_RESULT.md": "7d2b7193dbdfd5b7dff4e63cbf58d2d9e89d7f0bed6360a5f0ee8b4b1d7e28c0",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/direct_check01.py": "7a24c269016ffd79fdf6ce7e95cba07ed8a34be0bf784e0e135f5858b1cec6e0",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/direct_check01_result.json": "3236ad6032bddf43b69edb2feb998fd538d9d96c389860e67a81c002f5a7fe1e",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/direct_run01.json": "47811da50949c1da847e6d4c01dde720431caf326dfe960721939b631270b509",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/direct_run01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/direct_run01.stdout": "3236ad6032bddf43b69edb2feb998fd538d9d96c389860e67a81c002f5a7fe1e",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/kerr_review_check01.py": "ee4e28216eecfe1dd260e2e4714361f7dc25c5e4b857a2683078b219a9b9dbf9",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/kerr_review_check01_result.json": "837b6e84a06d7f2761c490b3a75cb133ed151db1e2b3331a207a51caeca1d56b",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/kerr_run01.json": "03f5601fdff4704eba1d61eda20942334ee3b9143354f93e5c0b0b966b95c1ea",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/kerr_run01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/kerr_run01.stdout": "837b6e84a06d7f2761c490b3a75cb133ed151db1e2b3331a207a51caeca1d56b",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_plane_wave.py": "e9f1bd16561ff51b67a97d0f28b0782d48fe2c1d0ddc1a8d0d0c3e0a55ccdfb8",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_plane_wave_result.json": "365c7147e14a620b8873fa7f88cdc96afeee330fc97233fe8e46730421e8f76a",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.json": "90c5337073082474c0f0b6c161e44407208c8a8a419f9f21a901a302d329f5ee",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.stdout": "365c7147e14a620b8873fa7f88cdc96afeee330fc97233fe8e46730421e8f76a"
+  },
+  "open_item": "Minor synthesis compression clarification: prior Ricci-flat Weyl-elimination requires all-event/all-observer/all-direction quantifiers."
+}

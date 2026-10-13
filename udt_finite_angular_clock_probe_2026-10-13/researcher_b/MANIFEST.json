@@ -1,0 +1,300 @@
+{
+  "scope": "FAC1 researcher B evidence correspondence; not scientific truth",
+  "files": [
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/ARRIVAL_CHECK_FREEZE.md",
+      "bytes": 1342,
+      "sha256": "5d668c2d6e5e9c21b7626f9b24cab589ed841e2238bb212743bae08da345bc60"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/CANDIDATE.md",
+      "bytes": 10619,
+      "sha256": "cce9c72d85a9890e2266567b8adb62e7ee22d15c2eefc09b75458150666ea4fc"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/EXPOSURE_AND_NEXT_PROBE.md",
+      "bytes": 2653,
+      "sha256": "8d1180beea862ff9ebbb9456d5d067d2711f5579750fe99969498450fa7c882c"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/FINITE_RANGE_FREEZE.md",
+      "bytes": 1361,
+      "sha256": "b9201b2fcaa608d0c485b57efd943f22d1ef4c848560ea2d4bccb1114f5b2b82"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/INITIAL_APPROACH.md",
+      "bytes": 4235,
+      "sha256": "60c54e0072f0671614e76b0e44425cdde4f5f223e17ec4b9e6a26006b5c3ed49"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/NUMERICAL_FREEZE.md",
+      "bytes": 3584,
+      "sha256": "d570a4dd26e2194aa9c76e7af1589c4f6cc8cd30684da42da9d69811d03a32f7"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/analyze_saved.py",
+      "bytes": 1927,
+      "sha256": "92f8988037fc43b5d07bb703d31d8a6c1e221c299f1d62cb1b8dcc6fe50c9e6d"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/arrival_derivatives.json",
+      "bytes": 749,
+      "sha256": "67b0ae83a9e0863dbe4f7163b9a1e47cd6ce43c4d31b4d94ab161fe519ae4a9c"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/arrival_derivatives.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/arrival_derivatives.stdout",
+      "bytes": 7815,
+      "sha256": "bd1e156f28b103d868f8fd23cc35594a09bbdfc82929aadef2f7158de2dc3daa"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/check_arrival_derivatives.py",
+      "bytes": 2974,
+      "sha256": "0ebc6bde7448ea72f81b910202ddbac08eb2c17a4ea30ab445a65974b4afeea1"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/check_summary.json",
+      "bytes": 740,
+      "sha256": "bc63ca04d60f99aac28545908d38ccaae3718d8e4a4dd86f0026fd719f86a17f"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/check_summary.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/check_summary.stdout",
+      "bytes": 5765,
+      "sha256": "5b2f0539391c1f18cf50f12931aab1ea278370a1f57702aed5c722bb190c7e1d"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4.json",
+      "bytes": 917,
+      "sha256": "db67e749613af7ba4fba62092832754eb32f46467f7fe6d2676ec9744c2a2388"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4.stdout",
+      "bytes": 1711,
+      "sha256": "1b45ce8c64c64fabe246c9d452339296d9d956a296258c053aa421925126bf9f"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4_baseline.json",
+      "bytes": 912,
+      "sha256": "cf7daf78d09ba8e690cc276980ef5b2ed7304ca0c33f05859bffdb7e8b164228"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4_baseline.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4_baseline.stdout",
+      "bytes": 1710,
+      "sha256": "1ae9e59ed0cd3cc13930521ecdfbad522275332d28ff64a27335d750a361f024"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4_baseline_data.json",
+      "bytes": 134885,
+      "sha256": "448c68f3c1c0eb65c44077cdf69307f738e898e476687ec7428d97a113a80e91"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg4_data.json",
+      "bytes": 256854,
+      "sha256": "58ace7ceee5f1f1dbbef7e67b3c2c99090c7ce3fd17436714206643c36485fc1"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5.json",
+      "bytes": 919,
+      "sha256": "0869346fb999f548291c99e077b7fa69652b3d9e4bc5623bd593095e0b5a6b91"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5.stdout",
+      "bytes": 1712,
+      "sha256": "8889d5c98c992fe38051d263e327401f887b6de4711c5f3e1bff3742f8c3e601"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_baseline.json",
+      "bytes": 914,
+      "sha256": "79a6aec22a748afaf7745ab7f166b752d677fdfe79ea20edd29216d113e9810b"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_baseline.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_baseline.stdout",
+      "bytes": 1712,
+      "sha256": "7d141018e4d07945ca8967be48da5b468a050398343ab74bc16c6fc87ac54e1f"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_baseline_data.json",
+      "bytes": 134825,
+      "sha256": "735bb541fe9ffbb1779bcf71969395b07b1cdb9fdcafdf118391de0c2cba2d3a"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_data.json",
+      "bytes": 256817,
+      "sha256": "f3c01e8ca5dca03032d9dbed42d9c2fef904f2ca4e75e4f06c80f877a930fc65"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos4.json",
+      "bytes": 916,
+      "sha256": "c7f34ca11694d8693a41c9570aa1e7c8f28b9626ac928028e6232f02a8713055"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos4.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos4.stdout",
+      "bytes": 1694,
+      "sha256": "de8ec406c13ee1f1abbafb17d55dda837b74321aabb21170a3fe995df6544064"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos4_data.json",
+      "bytes": 257202,
+      "sha256": "b41cab90f871fc9f2ea911c8c0a076af991159c096289784c2eaa329ea226093"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos5.json",
+      "bytes": 917,
+      "sha256": "f1cbfab70d3df228e0b364463b258e155f0856cc94af35f58ba62dbbc0dd80a5"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos5.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos5.stdout",
+      "bytes": 1698,
+      "sha256": "f96068218fba8cfb24723f242cf07f9d231ab8c164ab03a4346fd5f56918d81f"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_pos5_data.json",
+      "bytes": 256653,
+      "sha256": "406524bfe6ed9a0e9d3e43b49e82b08dc25df75c7eaead0034ca4612df966332"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/flat_fine.json",
+      "bytes": 887,
+      "sha256": "8f6a711607f64cd85752eca677ce7b1626141f29dc19dea410306e8af1f2f8ee"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/flat_fine.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/flat_fine.stdout",
+      "bytes": 600,
+      "sha256": "58350d2f01d7e5676359aae97e7b4303c509c96b484fa74448ac40237020e6f2"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/flat_fine_data.json",
+      "bytes": 112052,
+      "sha256": "ecae727c025d6f433d6c5f93ac9fa5706f6bde25f876f0431241562d40ccad03"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/original_clock_probe.py",
+      "bytes": 7096,
+      "sha256": "08be29ad469aae54789af87c0dd76d231459861a3162c06597e16ae8e40c2eb7"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/saved_analysis.json",
+      "bytes": 737,
+      "sha256": "80e17cbd84500f640884575e0394163fa021f5144c47a7fc3e1fa2bbf5da53df"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/saved_analysis.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/saved_analysis.stdout",
+      "bytes": 3159,
+      "sha256": "1bf6b091a5178116ea7c4e7d5f3fdad990358aafec58c6b67fb557a82f828931"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/summarize_checks.py",
+      "bytes": 1937,
+      "sha256": "f6e8225559837f9027d47bcdab56e56cfdfae8d090318fb9c3f8c258490f084f"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_baseline.json",
+      "bytes": 832,
+      "sha256": "72b1e01edc1c9a9f0cbed385b0669632d46b6827f82116afad3c67e0bcea6609"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_baseline.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_baseline.stdout",
+      "bytes": 2131,
+      "sha256": "7db11f654eac10c27a87e1d6dbb923d887cf0354e1a5885719bebb84f4e0bf0a"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_baseline_data.json",
+      "bytes": 167493,
+      "sha256": "ee504a814ffefe9035ef764736b8176ad7ace60a1651da42168384793eb0d59d"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_fine.json",
+      "bytes": 841,
+      "sha256": "f002cf0fc04d26400b2fd9e0f01df96fc509006eebb356fe1730154898688cc8"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_fine.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_fine.stdout",
+      "bytes": 2125,
+      "sha256": "4e10aeb7aa850429d227de9bfda8d42747fc00ff1759985ccbef43b3c6da3073"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_fine_data.json",
+      "bytes": 319347,
+      "sha256": "7d1825cce3ff451666a2e28d825d7f47d22e4c50775894b863cbba3f2ba08394"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_finite_range.json",
+      "bytes": 888,
+      "sha256": "fd2f0c4dd5654501ca85c3d2e184bd617bb700c6fb4989e5d3ba11768bbed8be"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_finite_range.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_finite_range.stdout",
+      "bytes": 1703,
+      "sha256": "edb90643b11b8fc9c0e87752cc46f73bdd0d7aca0f2915a8a0f4ec69524b7ede"
+    },
+    {
+      "path": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/vacuum_finite_range_data.json",
+      "bytes": 257681,
+      "sha256": "253b2a80165467b227e6e6d4d4da77bb05c744b8af81437a36bbb16c594300db"
+    }
+  ]
+}

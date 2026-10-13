@@ -1,13 +1,13 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PEA1 positional-assignment return, 2026-10-13
+## CURRENT STATE — FAC1 finite-angular-clock return, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. PEA1's scoped conditional return is in
-udt_positional_effect_assignment_2026-10-13/. WORK_ORDER owns authorization,
+orientation. FAC1's scoped conditional return is in
+udt_finite_angular_clock_probe_2026-10-13/. WORK_ORDER owns authorization,
 NOTEBOOK records discovery, and actual final attestations plus check receipts
 own closure. Prior results retain their original scopes. Verify actual HEAD,
 remote refs, dirt and required checks rather than inferring completion from prose.
@@ -52,7 +52,7 @@ reviews, source-preserving repair and central integration. No three-hour solve
 or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
 Original proposals, failed routes, actual reviewer reports and version bindings
 remain in that package. Scientific premises, registry grades and CANON are unchanged.
-Next: finish PEA1 required integration/check/publication gates on the reviewed
+Next: finish FAC1 required integration/check/publication gates on the reviewed
 bytes, then Stop for lay discussion. Actual receipts own completion.
 No automatic successor research follows. The earlier PIA1 application stays
 deferred; no empirical fit, desktop installation, GPU/long production, physical
@@ -99,6 +99,19 @@ Actual final attestations, normal/maintenance/full406 receipts and remote byte
 correspondence own closure; verify them rather than inferring a pass from prose.
 Existing paused/protected boundaries persist; no automatic successor.
 
+PEA1 closed at781bc355 with actual final reviews and required checks; its
+publication matched grok/main at the FAC1 baseline fetch. Charles then approved
+FAC1 and explicitly removed the proposed two-hour ceiling. Its dispatch is
+udt_finite_angular_clock_probe_2026-10-13/WORK_ORDER.md. Two independent-origin
+researchers and two further fresh source-first/direct/supplement review contexts
+produced a conditional return, with source-preserving integration clarification.
+The maintained argument is R8FAC/R18 and the fixed decision packet is in FAC1.
+No physical trial or new premise is adopted. Final integration attestations,
+normal/maintenance/full406 receipts and committed/remote correspondence own
+actual closure; verify them. No GPU or long solver ran. Existing pauses,
+protected boundaries and the deferred PIA1 application remain. After the authorized
+banking gates, Stop for lay discussion; no successor starts automatically.
+
 ### Honest claim
 
 The maintained scientific argument is [UDT_DEVELOPMENT.md](UDT_DEVELOPMENT.md).
@@ -130,10 +143,10 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-PEA1's written work order and fixed decision packet own this bounded return.
+FAC1's written work order and fixed decision packet own this bounded return.
 Complete required review/check/publication gates if their actual receipts are
 not yet present, then Stop for lay discussion. The central positive and negative
-dependencies include the scoped return and repair. No automatic successor,
+dependencies include the scoped return and quantified recovery limits. No automatic successor,
 physical adoption, GPU/long production or protected restart is authorized.
 Verify actual process, refs, dirt and evidence; keep other pauses and local work.
 

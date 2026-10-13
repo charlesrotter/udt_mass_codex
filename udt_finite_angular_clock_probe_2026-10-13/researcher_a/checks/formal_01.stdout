@@ -1,0 +1,107 @@
+forward incidence order 1 time (3*z - 2)/6 direction 0
+forward incidence order 2 time -(3*z - 10)/54 direction -2/9
+forward incidence order 3 time -(3*z - 4)*(15*z - 28)/648 direction 4/27
+forward log ratio [0, 0, (3*z - 1)/9, -2*(3*z - 1)/27, -(117*z**2 - 204*z + 43)/486] spherical moments [0, 0, 0, 0, 4/1215]
+reverse incidence order 1 time 0 direction 1
+reverse incidence order 2 time (3*z - 1)/27 direction 1/9
+reverse incidence order 3 time -(3*z - 1)/54 direction z/9
+reverse log ratio [0, 0, (3*z - 1)/9, -2*(3*z - 1)/27, -(27*z**2 - 114*z + 31)/486] spherical moments [0, 0, 0, 0, 4/1215]
+{
+  "metric": "-dt^2+t^(-2/3)dx^2+t^(4/3)(dy^2+dz^2)",
+  "event_t": 1,
+  "central_U": "partial_t",
+  "angular_variable": "z=n1^2",
+  "status": "exploratory exact formal series; argument and review still needed",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_sha256": "38a2bf30b38a20163dc6dc69a7978e4847a2c9946f2ada73a51897a4f92059e7",
+  "forward": {
+    "log_ratio": [
+      "0",
+      "0",
+      "(3*z - 1)/9",
+      "-2*(3*z - 1)/27",
+      "-(117*z**2 - 204*z + 43)/486"
+    ],
+    "spherical_mean": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "4/1215"
+    ],
+    "arrival_minus_one_over_L": [
+      "1",
+      "(3*z - 2)/6",
+      "-(3*z - 10)/54",
+      "-(3*z - 4)*(15*z - 28)/648",
+      "0"
+    ],
+    "ray_covector_ratio": [
+      "1",
+      "0",
+      "-2/9",
+      "4/27",
+      "unneeded_direction4"
+    ],
+    "log_axis1": [
+      "0",
+      "0",
+      "2/9",
+      "-4/27",
+      "22/243"
+    ],
+    "log_axis2": [
+      "0",
+      "0",
+      "-1/9",
+      "2/27",
+      "-43/486"
+    ]
+  },
+  "reverse": {
+    "log_ratio": [
+      "0",
+      "0",
+      "(3*z - 1)/9",
+      "-2*(3*z - 1)/27",
+      "-(27*z**2 - 114*z + 31)/486"
+    ],
+    "spherical_mean": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "4/1215"
+    ],
+    "arrival_minus_one_over_L": [
+      "1",
+      "0",
+      "(3*z - 1)/27",
+      "-(3*z - 1)/54",
+      "0"
+    ],
+    "ray_covector_ratio": [
+      "1",
+      "1",
+      "1/9",
+      "z/9",
+      "unneeded_direction4"
+    ],
+    "log_axis1": [
+      "0",
+      "0",
+      "2/9",
+      "-4/27",
+      "28/243"
+    ],
+    "log_axis2": [
+      "0",
+      "0",
+      "-1/9",
+      "2/27",
+      "-31/486"
+    ]
+  },
+  "duration_seconds": 2.730280780000612
+}

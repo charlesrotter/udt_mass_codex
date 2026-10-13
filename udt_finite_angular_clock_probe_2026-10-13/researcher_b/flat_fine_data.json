@@ -1,0 +1,4159 @@
+{
+  "source_sha256": "08be29ad469aae54789af87c0dd76d231459861a3162c06597e16ae8e40c2eb7",
+  "python": "3.10.12",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "arguments": {
+    "output": "udt_finite_angular_clock_probe_2026-10-13/researcher_b/flat_fine_data.json",
+    "fine": true,
+    "epsilon": 0.0,
+    "lengths": "0.08,0.02",
+    "flat": true
+  },
+  "dtype": "float64",
+  "angular_order": 48,
+  "time_quadrature_order": 64,
+  "rtol": 4e-14,
+  "atol": 4e-16,
+  "duration_seconds": 0.12176779797300696,
+  "results": [
+    {
+      "L": 0.08,
+      "M_plus": 0.0,
+      "M_minus": 0.0,
+      "plus_over_L4": 0.0,
+      "minus_over_L4": 0.0,
+      "max_errors": {
+        "spacelike_norm": 2.220446049250313e-16,
+        "clock_norm": 0.0,
+        "orthogonality": 0.0,
+        "receiver_ut_match": 0.0,
+        "outgoing_incidence": 1.1102230246251565e-16,
+        "reverse_incidence": 1.1102230246251565e-16
+      },
+      "axes": [
+        {
+          "L": 0.08,
+          "mu": 0.0,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0,
+            0.08,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            6.123233995736766e-17,
+            1.0,
+            0.0
+          ],
+          "reverse_q": [
+            -1.8369701987210297e-16,
+            -1.0,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.1102230246251565e-16,
+            "reverse_incidence": 1.1102230246251565e-16
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 1.0,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.08,
+            0.0,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reverse_q": [
+            -1.0,
+            1.2246467991473532e-16,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.1102230246251565e-16,
+            "reverse_incidence": 1.1102230246251565e-16
+          }
+        }
+      ],
+      "angular_weights": [
+        0.0015766730261545898,
+        0.003663776950638246,
+        0.005738617289617487,
+        0.007789657861471464,
+        0.009808080228677648,
+        0.011785380419662046,
+        0.013713254854178441,
+        0.01558361391639917,
+        0.01738861128238533,
+        0.019120675532915337,
+        0.020772541471732277,
+        0.02233728042834705,
+        0.023808329246245142,
+        0.02517951777692714,
+        0.026445094742596743,
+        0.027599751849992027,
+        0.028638646050201465,
+        0.02955741984919774,
+        0.03035221958294679,
+        0.031019711579946232,
+        0.03155709614312689,
+        0.031962119292323975,
+        0.03223308221797492,
+        0.03236884840634184,
+        0.03236884840634184,
+        0.03223308221797492,
+        0.031962119292323975,
+        0.03155709614312689,
+        0.031019711579946232,
+        0.03035221958294679,
+        0.02955741984919774,
+        0.028638646050201465,
+        0.027599751849992027,
+        0.026445094742596743,
+        0.02517951777692714,
+        0.023808329246245142,
+        0.02233728042834705,
+        0.020772541471732277,
+        0.019120675532915337,
+        0.01738861128238533,
+        0.01558361391639917,
+        0.013713254854178441,
+        0.011785380419662046,
+        0.009808080228677648,
+        0.007789657861471464,
+        0.005738617289617487,
+        0.003663776950638246,
+        0.0015766730261545898
+      ],
+      "angular_records": [
+        {
+          "L": 0.08,
+          "mu": 0.0006144963737869658,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            4.915970990295728e-05,
+            0.07999998489576683,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.0006144963737870757,
+            0.9999998111970855,
+            0.0
+          ],
+          "reverse_q": [
+            -0.000614496373786532,
+            -0.9999998111970855,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.003234913866824618,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0002587931093459694,
+            0.07999958141219586,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.003234913866824682,
+            0.9999947676524484,
+            0.0
+          ],
+          "reverse_q": [
+            -0.0032349138668248045,
+            -0.9999947676524484,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.007937708138586574,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0006350166510869263,
+            0.07999747967187991,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.007937708138586472,
+            0.9999684958984991,
+            0.0
+          ],
+          "reverse_q": [
+            -0.00793770813858615,
+            -0.9999684958984991,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.014704203726876364,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0011763362981501088,
+            0.07999135098817653,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.014704203726876398,
+            0.9998918873522069,
+            0.0
+          ],
+          "reverse_q": [
+            -0.014704203726876298,
+            -0.9998918873522069,
+            0.0
+          ],
+          "outgoing_t": 1.0799999999999998,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 2.220446049250313e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.1102230246251565e-16,
+            "reverse_incidence": 1.1102230246251565e-16
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.023506148419784545,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.001880491873582764,
+            0.0799778953856213,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.02350614841978461,
+            0.9997236923202666,
+            0.0
+          ],
+          "reverse_q": [
+            -0.023506148419784732,
+            -0.9997236923202666,
+            0.0
+          ],
+          "outgoing_t": 1.0799999999999998,
+          "reverse_t": 1.0799999999999998,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.1102230246251565e-16,
+            "reverse_incidence": 1.1102230246251565e-16
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.034306654646722834,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.002744532371737828,
+            0.07995290827768856,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.03430665464672292,
+            0.9994113534711072,
+            0.0
+          ],
+          "reverse_q": [
+            -0.0343066546467226,
+            -0.9994113534711072,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.0799999999999998,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.047060431642215184,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0037648345313772156,
+            0.07991136352829518,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.04706043164221526,
+            0.9988920441036901,
+            0.0
+          ],
+          "reverse_q": [
+            -0.047060431642215156,
+            -0.9988920441036901,
+            0.0
+          ],
+          "outgoing_t": 1.0799999999999998,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.1102230246251565e-16,
+            "reverse_incidence": 1.1102230246251565e-16
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.06171398986287607,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.004937119189030085,
+            0.07984751000571844,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.06171398986287601,
+            0.9980938750714808,
+            0.0
+          ],
+          "reverse_q": [
+            -0.06171398986287569,
+            -0.9980938750714808,
+            0.0
+          ],
+          "outgoing_t": 1.0799999999999998,
+          "reverse_t": 1.0799999999999998,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.07820586918780326,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.006256469535024262,
+            0.0797549784587603,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.07820586918780328,
+            0.9969372307345032,
+            0.0
+          ],
+          "reverse_q": [
+            -0.07820586918780319,
+            -0.9969372307345032,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 5.551115123125783e-17,
+            "reverse_incidence": 5.551115123125783e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.09646689798527869,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.007717351838822294,
+            0.0796268954599878,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.09646689798527879,
+            0.9953361932498476,
+            0.0
+          ],
+          "reverse_q": [
+            -0.09646689798527824,
+            -0.9953361932498476,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.11642048374212982,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.009313638699370384,
+            0.07945600124709011,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.11642048374212993,
+            0.9932000155886268,
+            0.0
+          ],
+          "reverse_q": [
+            -0.11642048374212939,
+            -0.9932000155886268,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.13798293453809268,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01103863476304741,
+            0.0792347685209469,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.13798293453809257,
+            0.9904346065118366,
+            0.0
+          ],
+          "reverse_q": [
+            -0.1379829345380927,
+            -0.9904346065118365,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.16106381018366805,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.012885104814693444,
+            0.07895551959118728,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.16106381018366805,
+            0.9869439948898414,
+            0.0
+          ],
+          "reverse_q": [
+            -0.16106381018366817,
+            -0.9869439948898414,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.1855663016117432,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.014845304128939456,
+            0.07861053965798286,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.1855663016117432,
+            0.9826317457247855,
+            0.0
+          ],
+          "reverse_q": [
+            -0.18556630161174353,
+            -0.9826317457247855,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-17,
+            "reverse_incidence": 6.938893903907228e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.21138763695801366,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.016911010956641093,
+            0.07819218444591743,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.21138763695801355,
+            0.9774023055739673,
+            0.0
+          ],
+          "reverse_q": [
+            -0.21138763695801321,
+            -0.9774023055739675,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.2384195126388835,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.019073561011110678,
+            0.07769298083067375,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.23841951263888345,
+            0.9711622603834219,
+            0.0
+          ],
+          "reverse_q": [
+            -0.23841951263888336,
+            -0.9711622603834219,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 8.326672684688674e-17,
+            "reverse_incidence": 8.326672684688674e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.2665485476245208,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.021323883809961662,
+            0.07710571949770822,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.2665485476245208,
+            0.9638214937213522,
+            0.0
+          ],
+          "reverse_q": [
+            -0.26654854762452074,
+            -0.9638214937213522,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.2956567590046416,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.02365254072037134,
+            0.07642353902739117,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.2956567590046416,
+            0.9552942378423892,
+            0.0
+          ],
+          "reverse_q": [
+            -0.2956567590046413,
+            -0.9552942378423893,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.163336342344337e-17,
+            "reverse_incidence": 5.551115123125783e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.32562205685391965,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.026049764548313575,
+            0.07564000110376408,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.3256220568539196,
+            0.9455000137970505,
+            0.0
+          ],
+          "reverse_q": [
+            -0.32562205685391993,
+            -0.9455000137970504,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 5.204170427930421e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.3563187563222722,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.028505500505781788,
+            0.07474915679066141,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.356318756322272,
+            0.934364459883267,
+            0.0
+          ],
+          "reverse_q": [
+            -0.3563187563222717,
+            -0.9343644598832671,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.3877787807814457e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.38761810480265546,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.03100944838421244,
+            0.07374560401072643,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.38761810480265546,
+            0.92182005013408,
+            0.0
+          ],
+          "reverse_q": [
+            -0.3876181048026552,
+            -0.9218200501340801,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-17,
+            "reverse_incidence": 6.938893903907228e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.41938882196555416,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.03355110575724434,
+            0.07262453650431246,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.4193888219655542,
+            0.9078067063039051,
+            0.0
+          ],
+          "reverse_q": [
+            -0.4193888219655543,
+            -0.9078067063039051,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 3.469446951953614e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.4514976503952687,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0361198120316215,
+            0.07138178464286482,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.4514976503952685,
+            0.8922723080358103,
+            0.0
+          ],
+          "reverse_q": [
+            -0.4514976503952686,
+            -0.8922723080358103,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.163336342344337e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.4838099145185653,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.03870479316148522,
+            0.07001384853246286,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.48380991451856514,
+            0.8751731066557854,
+            0.0
+          ],
+          "reverse_q": [
+            -0.48380991451856487,
+            -0.8751731066557855,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.5161900854814346,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.041295206838514766,
+            0.06851792387517505,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.5161900854814345,
+            0.8564740484396881,
+            0.0
+          ],
+          "reverse_q": [
+            -0.5161900854814343,
+            -0.8564740484396883,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-17,
+            "reverse_incidence": 6.938893903907228e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.5485023496047313,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.04388018796837852,
+            0.0668919210656995,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.5485023496047312,
+            0.8361490133212436,
+            0.0
+          ],
+          "reverse_q": [
+            -0.5485023496047313,
+            -0.8361490133212436,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.5806111780344458,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.046448894242755674,
+            0.06513447799457137,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.5806111780344457,
+            0.814180974932142,
+            0.0
+          ],
+          "reverse_q": [
+            -0.5806111780344457,
+            -0.814180974932142,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.163336342344337e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.6123818951973445,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.048990551615787546,
+            0.0632449670122521,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.6123818951973445,
+            0.7905620876531511,
+            0.0
+          ],
+          "reverse_q": [
+            -0.6123818951973447,
+            -0.790562087653151,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 2.220446049250313e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.85722573273506e-17,
+            "reverse_incidence": 6.245004513516506e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.6436812436777277,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.05149449949421825,
+            0.061223496484927774,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.6436812436777277,
+            0.7652937060615967,
+            0.0
+          ],
+          "reverse_q": [
+            -0.6436812436777279,
+            -0.7652937060615965,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.85722573273506e-17,
+            "reverse_incidence": 4.85722573273506e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.6743779431460803,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.05395023545168642,
+            0.059070907346236,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.6743779431460803,
+            0.7383863418279498,
+            0.0
+          ],
+          "reverse_q": [
+            -0.6743779431460803,
+            -0.7383863418279498,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 5.551115123125783e-17,
+            "reverse_incidence": 5.551115123125783e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.7043432409953584,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.056347459279628705,
+            0.05678876502205863,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7043432409953584,
+            0.7098595627757328,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7043432409953584,
+            -0.7098595627757327,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 3.469446951953614e-17,
+            "reverse_incidence": 3.469446951953614e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.7334514523754792,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.05867611619003835,
+            0.054379347080055346,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7334514523754792,
+            0.6797418385006915,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7334514523754792,
+            -0.6797418385006915,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.7615804873611165,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.060926438988889296,
+            0.05184562693355292,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7615804873611165,
+            0.6480703366694114,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7615804873611165,
+            -0.6480703366694114,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-16,
+            "reverse_incidence": 1.0408340855860843e-16
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.7886123630419863,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.06308898904335893,
+            0.049191253912529424,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7886123630419863,
+            0.6148906739066176,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7886123630419865,
+            -0.6148906739066174,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.163336342344337e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.8144336983882567,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.06515469587106056,
+            0.046420530005048505,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8144336983882567,
+            0.580256625063106,
+            0.0
+          ],
+          "reverse_q": [
+            -0.8144336983882569,
+            -0.5802566250631058,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.8389361898163319,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.06711489518530656,
+            0.043538383574328016,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8389361898163319,
+            0.5442297946791002,
+            0.0
+          ],
+          "reverse_q": [
+            -0.838936189816332,
+            -0.5442297946791,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-17,
+            "reverse_incidence": 6.938893903907228e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.8620170654619073,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0689613652369526,
+            0.04055034037656932,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8620170654619073,
+            0.5068792547071166,
+            0.0
+          ],
+          "reverse_q": [
+            -0.8620170654619073,
+            -0.5068792547071166,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-17,
+            "reverse_incidence": 6.938893903907228e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.8835795162578701,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07068636130062964,
+            0.03746249225661385,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8835795162578702,
+            0.46828115320767294,
+            0.0
+          ],
+          "reverse_q": [
+            -0.8835795162578702,
+            -0.46828115320767283,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9035331020147213,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07228264816117777,
+            0.03428146401201959,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9035331020147215,
+            0.42851830015024445,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9035331020147214,
+            -0.42851830015024456,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 6.938893903907228e-18
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9217941308121967,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07374353046497575,
+            0.031014379158080772,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9217941308121967,
+            0.38767973947600953,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9217941308121967,
+            -0.3876797394760097,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.163336342344337e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.938286010137124,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07506288081096993,
+            0.02766882585796015,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.938286010137124,
+            0.34586032322450183,
+            0.0
+          ],
+          "reverse_q": [
+            -0.938286010137124,
+            -0.34586032322450183,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 5.551115123125783e-17,
+            "reverse_incidence": 5.551115123125783e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9529395683577848,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07623516546862276,
+            0.024252825525528023,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9529395683577848,
+            0.3031603190691003,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9529395683577849,
+            -0.3031603190691001,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 8.326672684688674e-17,
+            "reverse_incidence": 8.326672684688674e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9656933453532772,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07725546762826214,
+            0.020774809783450126,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9656933453532772,
+            0.25968512229312646,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9656933453532772,
+            -0.2596851222931266,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.0799999999999998,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.1102230246251565e-16,
+            "reverse_incidence": 1.1102230246251565e-16
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9764938515802155,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07811950812641727,
+            0.01724362056201165,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9764938515802155,
+            0.21554525702514551,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9764938515802155,
+            -0.21554525702514554,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 4.163336342344337e-17,
+            "reverse_incidence": 4.163336342344337e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9852957962731237,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07882366370184987,
+            0.013668578588048996,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9852957962731237,
+            0.17085723235061237,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9852957962731237,
+            -0.1708572323506122,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 9.71445146547012e-17,
+            "reverse_incidence": 9.71445146547012e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9920622918614135,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07936498334891308,
+            0.01005979214629954,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9920622918614135,
+            0.12574740182874417,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9920622918614135,
+            -0.1257474018287441,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 5.551115123125783e-17,
+            "reverse_incidence": 5.551115123125783e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.9967650861331754,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07974120689065405,
+            0.006429613022718392,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9967650861331754,
+            0.08037016278397986,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9967650861331754,
+            -0.08037016278398003,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-17,
+            "reverse_incidence": 6.938893903907228e-17
+          }
+        },
+        {
+          "L": 0.08,
+          "mu": 0.999385503626213,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.07995084029009707,
+            0.0028041285468742923,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.999385503626213,
+            0.035051606835928645,
+            0.0
+          ],
+          "reverse_q": [
+            -0.999385503626213,
+            -0.03505160683592885,
+            0.0
+          ],
+          "outgoing_t": 1.08,
+          "reverse_t": 1.08,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 5.551115123125783e-17,
+            "reverse_incidence": 5.551115123125783e-17
+          }
+        }
+      ]
+    },
+    {
+      "L": 0.02,
+      "M_plus": 0.0,
+      "M_minus": 0.0,
+      "plus_over_L4": 0.0,
+      "minus_over_L4": 0.0,
+      "max_errors": {
+        "spacelike_norm": 2.220446049250313e-16,
+        "clock_norm": 0.0,
+        "orthogonality": 0.0,
+        "receiver_ut_match": 0.0,
+        "outgoing_incidence": 3.122502256758253e-17,
+        "reverse_incidence": 3.122502256758253e-17
+      },
+      "axes": [
+        {
+          "L": 0.02,
+          "mu": 0.0,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0,
+            0.02,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            6.123233995736766e-17,
+            1.0,
+            0.0
+          ],
+          "reverse_q": [
+            -1.8369701987210297e-16,
+            -1.0,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 1.0,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.02,
+            0.0,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "reverse_q": [
+            -1.0,
+            1.2246467991473532e-16,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        }
+      ],
+      "angular_weights": [
+        0.0015766730261545898,
+        0.003663776950638246,
+        0.005738617289617487,
+        0.007789657861471464,
+        0.009808080228677648,
+        0.011785380419662046,
+        0.013713254854178441,
+        0.01558361391639917,
+        0.01738861128238533,
+        0.019120675532915337,
+        0.020772541471732277,
+        0.02233728042834705,
+        0.023808329246245142,
+        0.02517951777692714,
+        0.026445094742596743,
+        0.027599751849992027,
+        0.028638646050201465,
+        0.02955741984919774,
+        0.03035221958294679,
+        0.031019711579946232,
+        0.03155709614312689,
+        0.031962119292323975,
+        0.03223308221797492,
+        0.03236884840634184,
+        0.03236884840634184,
+        0.03223308221797492,
+        0.031962119292323975,
+        0.03155709614312689,
+        0.031019711579946232,
+        0.03035221958294679,
+        0.02955741984919774,
+        0.028638646050201465,
+        0.027599751849992027,
+        0.026445094742596743,
+        0.02517951777692714,
+        0.023808329246245142,
+        0.02233728042834705,
+        0.020772541471732277,
+        0.019120675532915337,
+        0.01738861128238533,
+        0.01558361391639917,
+        0.013713254854178441,
+        0.011785380419662046,
+        0.009808080228677648,
+        0.007789657861471464,
+        0.005738617289617487,
+        0.003663776950638246,
+        0.0015766730261545898
+      ],
+      "angular_records": [
+        {
+          "L": 0.02,
+          "mu": 0.0006144963737869658,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            1.228992747573932e-05,
+            0.019999996223941708,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.0006144963737870757,
+            0.9999998111970855,
+            0.0
+          ],
+          "reverse_q": [
+            -0.000614496373786532,
+            -0.9999998111970855,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.003234913866824618,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            6.469827733649234e-05,
+            0.019999895353048965,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.003234913866824682,
+            0.9999947676524484,
+            0.0
+          ],
+          "reverse_q": [
+            -0.0032349138668248045,
+            -0.9999947676524484,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.007937708138586574,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.00015875416277173158,
+            0.019999369917969977,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.007937708138586472,
+            0.9999684958984991,
+            0.0
+          ],
+          "reverse_q": [
+            -0.00793770813858615,
+            -0.9999684958984991,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.014704203726876364,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0002940840745375272,
+            0.019997837747044132,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.014704203726876398,
+            0.9998918873522069,
+            0.0
+          ],
+          "reverse_q": [
+            -0.014704203726876298,
+            -0.9998918873522069,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 2.220446049250313e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.023506148419784545,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.000470122968395691,
+            0.019994473846405326,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.02350614841978461,
+            0.9997236923202666,
+            0.0
+          ],
+          "reverse_q": [
+            -0.023506148419784732,
+            -0.9997236923202666,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.034306654646722834,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.000686133092934457,
+            0.01998822706942214,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.03430665464672292,
+            0.9994113534711072,
+            0.0
+          ],
+          "reverse_q": [
+            -0.0343066546467226,
+            -0.9994113534711072,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 3.122502256758253e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.047060431642215184,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0009412086328443039,
+            0.019977840882073796,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.04706043164221526,
+            0.9988920441036901,
+            0.0
+          ],
+          "reverse_q": [
+            -0.047060431642215156,
+            -0.9988920441036901,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.06171398986287607,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0012342797972575213,
+            0.01996187750142961,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.06171398986287601,
+            0.9980938750714808,
+            0.0
+          ],
+          "reverse_q": [
+            -0.06171398986287569,
+            -0.9980938750714808,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 3.122502256758253e-17,
+            "reverse_incidence": 3.122502256758253e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.07820586918780326,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0015641173837560652,
+            0.01993874461469007,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.07820586918780328,
+            0.9969372307345032,
+            0.0
+          ],
+          "reverse_q": [
+            -0.07820586918780319,
+            -0.9969372307345032,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.09646689798527869,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0019293379597055734,
+            0.01990672386499695,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.09646689798527879,
+            0.9953361932498476,
+            0.0
+          ],
+          "reverse_q": [
+            -0.09646689798527824,
+            -0.9953361932498476,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.11642048374212982,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.002328409674842596,
+            0.01986400031177253,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.11642048374212971,
+            0.9932000155886268,
+            0.0
+          ],
+          "reverse_q": [
+            -0.11642048374212939,
+            -0.9932000155886268,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.0816681711721685e-17,
+            "reverse_incidence": 2.0816681711721685e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.13798293453809268,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0027596586907618526,
+            0.019808692130236723,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.13798293453809257,
+            0.9904346065118366,
+            0.0
+          ],
+          "reverse_q": [
+            -0.1379829345380927,
+            -0.9904346065118365,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.16106381018366805,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.003221276203673361,
+            0.019738879897796824,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.16106381018366805,
+            0.9869439948898414,
+            0.0
+          ],
+          "reverse_q": [
+            -0.16106381018366817,
+            -0.9869439948898414,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.0816681711721685e-17,
+            "reverse_incidence": 2.0816681711721685e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.1855663016117432,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.003711326032234864,
+            0.019652634914495717,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.1855663016117432,
+            0.9826317457247855,
+            0.0
+          ],
+          "reverse_q": [
+            -0.18556630161174353,
+            -0.9826317457247855,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.3877787807814457e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.21138763695801366,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.004227752739160273,
+            0.019548046111479356,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.21138763695801355,
+            0.9774023055739673,
+            0.0
+          ],
+          "reverse_q": [
+            -0.21138763695801321,
+            -0.9774023055739675,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 6.938893903907228e-18
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.2384195126388835,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.004768390252777669,
+            0.019423245207668433,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.23841951263888345,
+            0.9711622603834219,
+            0.0
+          ],
+          "reverse_q": [
+            -0.23841951263888336,
+            -0.9711622603834219,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.2665485476245208,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.0053309709524904155,
+            0.019276429874427053,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.2665485476245208,
+            0.9638214937213522,
+            0.0
+          ],
+          "reverse_q": [
+            -0.26654854762452074,
+            -0.9638214937213522,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.2956567590046416,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.005913135180092835,
+            0.01910588475684779,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.2956567590046416,
+            0.9552942378423892,
+            0.0
+          ],
+          "reverse_q": [
+            -0.2956567590046421,
+            -0.9552942378423891,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.3877787807814457e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.32562205685391965,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.006512441137078393,
+            0.01891000027594102,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.3256220568539196,
+            0.9455000137970505,
+            0.0
+          ],
+          "reverse_q": [
+            -0.3256220568539191,
+            -0.9455000137970507,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.3563187563222722,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.007126375126445448,
+            0.01868728919766535,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.356318756322272,
+            0.934364459883267,
+            0.0
+          ],
+          "reverse_q": [
+            -0.35631875632227256,
+            -0.9343644598832669,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.38761810480265546,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.007752362096053112,
+            0.018436401002681607,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.38761810480265546,
+            0.92182005013408,
+            0.0
+          ],
+          "reverse_q": [
+            -0.3876181048026552,
+            -0.9218200501340801,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.41938882196555416,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.008387776439311085,
+            0.018156134126078114,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.4193888219655542,
+            0.9078067063039051,
+            0.0
+          ],
+          "reverse_q": [
+            -0.4193888219655543,
+            -0.9078067063039051,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 8.673617379884035e-18,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.4514976503952687,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.009029953007905375,
+            0.017845446160716205,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.4514976503952685,
+            0.8922723080358103,
+            0.0
+          ],
+          "reverse_q": [
+            -0.4514976503952686,
+            -0.8922723080358103,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.4838099145185653,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.009676198290371306,
+            0.017503462133115714,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.48380991451856514,
+            0.8751731066557854,
+            0.0
+          ],
+          "reverse_q": [
+            -0.48380991451856487,
+            -0.8751731066557855,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.5161900854814346,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.010323801709628693,
+            0.017129480968793763,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.5161900854814345,
+            0.8564740484396881,
+            0.0
+          ],
+          "reverse_q": [
+            -0.5161900854814343,
+            -0.8564740484396883,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.5485023496047313,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01097004699209463,
+            0.016722980266424874,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.5485023496047312,
+            0.8361490133212436,
+            0.0
+          ],
+          "reverse_q": [
+            -0.5485023496047313,
+            -0.8361490133212436,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 6.938893903907228e-18
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.5806111780344458,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.011612223560688917,
+            0.01628361949864284,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.5806111780344456,
+            0.814180974932142,
+            0.0
+          ],
+          "reverse_q": [
+            -0.5806111780344457,
+            -0.814180974932142,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.214306433183765e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.6123818951973445,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.012247637903946888,
+            0.015811241753063025,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.6123818951973445,
+            0.7905620876531511,
+            0.0
+          ],
+          "reverse_q": [
+            -0.6123818951973447,
+            -0.790562087653151,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 2.220446049250313e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.6436812436777277,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.012873624873554562,
+            0.015305874121231945,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.6436812436777276,
+            0.7652937060615969,
+            0.0
+          ],
+          "reverse_q": [
+            -0.6436812436777279,
+            -0.7652937060615965,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.214306433183765e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.6743779431460803,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.013487558862921604,
+            0.014767726836558998,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.6743779431460805,
+            0.7383863418279497,
+            0.0
+          ],
+          "reverse_q": [
+            -0.6743779431460803,
+            -0.7383863418279498,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 1.1102230246251565e-16,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.214306433183765e-17,
+            "reverse_incidence": 1.5612511283791264e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.7043432409953584,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.014086864819907174,
+            0.01419719125551466,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7043432409953584,
+            0.7098595627757328,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7043432409953584,
+            -0.7098595627757327,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.7334514523754792,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.014669029047509588,
+            0.013594836770013836,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7334514523754792,
+            0.6797418385006915,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7334514523754792,
+            -0.6797418385006915,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 6.938893903907228e-18
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.7615804873611165,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.015231609747222326,
+            0.01296140673338823,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7615804873611165,
+            0.6480703366694114,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7615804873611165,
+            -0.6480703366694114,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.7886123630419863,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.015772247260839735,
+            0.012297813478132354,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.7886123630419863,
+            0.6148906739066176,
+            0.0
+          ],
+          "reverse_q": [
+            -0.7886123630419865,
+            -0.6148906739066174,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 6.938893903907228e-18
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.8144336983882567,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.016288673967765135,
+            0.011605132501262126,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8144336983882567,
+            0.580256625063106,
+            0.0
+          ],
+          "reverse_q": [
+            -0.8144336983882566,
+            -0.5802566250631063,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.8389361898163319,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01677872379632664,
+            0.010884595893582004,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8389361898163319,
+            0.5442297946791002,
+            0.0
+          ],
+          "reverse_q": [
+            -0.838936189816332,
+            -0.5442297946791,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.8620170654619073,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01724034130923815,
+            0.010137585094142332,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8620170654619073,
+            0.5068792547071166,
+            0.0
+          ],
+          "reverse_q": [
+            -0.8620170654619073,
+            -0.5068792547071166,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.8835795162578701,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01767159032515741,
+            0.009365623064153464,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.8835795162578702,
+            0.468281153207673,
+            0.0
+          ],
+          "reverse_q": [
+            -0.8835795162578701,
+            -0.4682811532076732,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 6.938893903907228e-18,
+            "reverse_incidence": 8.673617379884035e-18
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9035331020147213,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01807066204029444,
+            0.008570366003004898,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9035331020147214,
+            0.4285183001502445,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9035331020147214,
+            -0.42851830015024456,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 3.469446951953614e-18,
+            "reverse_incidence": 3.469446951953614e-18
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9217941308121967,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.018435882616243935,
+            0.007753594789520193,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9217941308121967,
+            0.38767973947600964,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9217941308121967,
+            -0.3876797394760097,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.3877787807814457e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.938286010137124,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01876572020274248,
+            0.006917206464490037,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.938286010137124,
+            0.34586032322450183,
+            0.0
+          ],
+          "reverse_q": [
+            -0.938286010137124,
+            -0.34586032322450183,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9529395683577848,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01905879136715569,
+            0.006063206381382006,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9529395683577848,
+            0.3031603190691003,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9529395683577849,
+            -0.3031603190691001,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.0816681711721685e-17,
+            "reverse_incidence": 2.0816681711721685e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9656933453532772,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.019313866907065536,
+            0.0051937024458625315,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9656933453532772,
+            0.25968512229312646,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9656933453532772,
+            -0.2596851222931266,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.7755575615628914e-17,
+            "reverse_incidence": 2.7755575615628914e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9764938515802155,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.019529877031604317,
+            0.004310905140502912,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9764938515802155,
+            0.21554525702514551,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9764938515802155,
+            -0.21554525702514554,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.0408340855860843e-17,
+            "reverse_incidence": 1.0408340855860843e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9852957962731237,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.019705915925462468,
+            0.0034171446470122485,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9852957962731237,
+            0.17085723235061237,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9852957962731237,
+            -0.1708572323506122,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 2.42861286636753e-17,
+            "reverse_incidence": 2.42861286636753e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9920622918614135,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01984124583722827,
+            0.002514948036574885,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9920622918614135,
+            0.12574740182874417,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9920622918614135,
+            -0.1257474018287441,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.3877787807814457e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.9967650861331754,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.01993530172266351,
+            0.001607403255679598,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.9967650861331754,
+            0.08037016278397986,
+            0.0
+          ],
+          "reverse_q": [
+            -0.9967650861331754,
+            -0.08037016278398003,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.734723475976807e-17,
+            "reverse_incidence": 1.734723475976807e-17
+          }
+        },
+        {
+          "L": 0.02,
+          "mu": 0.999385503626213,
+          "epsilon": 0.0,
+          "log_plus": 0.0,
+          "log_minus": 0.0,
+          "preparation_t": 1.0,
+          "preparation_x": [
+            0.019987710072524267,
+            0.0007010321367185731,
+            0.0
+          ],
+          "receiver_momenta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "outgoing_q": [
+            0.999385503626213,
+            0.035051606835928645,
+            0.0
+          ],
+          "reverse_q": [
+            -0.999385503626213,
+            -0.03505160683592885,
+            0.0
+          ],
+          "outgoing_t": 1.02,
+          "reverse_t": 1.02,
+          "outgoing_root_success": true,
+          "reverse_root_success": true,
+          "errors": {
+            "spacelike_norm": 0.0,
+            "clock_norm": 0.0,
+            "orthogonality": 0.0,
+            "receiver_ut_match": 0.0,
+            "outgoing_incidence": 1.3877787807814457e-17,
+            "reverse_incidence": 1.3877787807814457e-17
+          }
+        }
+      ]
+    }
+  ]
+}

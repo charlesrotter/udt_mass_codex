@@ -1,0 +1,90 @@
+{
+  "status": "NUMERICAL_CORROBORATION_NOT_CERTIFIED_ENCLOSURE",
+  "results": [
+    {
+      "L": 0.08,
+      "M_plus": 1.352955020271006e-07,
+      "M_minus": 1.1658590679278492e-07,
+      "baseline_fine_abs_difference": 1.6935026175986766e-16,
+      "flat_mean_floor": 0.0,
+      "numerical_sign_separated": true,
+      "plus_over_L4": 0.0033031128424585105,
+      "minus_over_L4": 0.0028463356150582255,
+      "exact_A_coefficient_exposed": 0.0032921810699588477,
+      "max_exposed_forward_series_remainder": 2.7321900675030507e-07,
+      "remainder_over_L5": 0.08337982383737336,
+      "published_axis_remainders": [
+        2.7321948187285054e-07,
+        -2.409877293801498e-07
+      ]
+    },
+    {
+      "L": 0.06,
+      "M_plus": 4.282269707135183e-08,
+      "M_minus": 3.8229171762096456e-08,
+      "baseline_fine_abs_difference": 3.27657754986381e-17,
+      "flat_mean_floor": 0.0,
+      "numerical_sign_separated": true,
+      "plus_over_L4": 0.003304220453036407,
+      "minus_over_L4": 0.0029497817717667025,
+      "exact_A_coefficient_exposed": 0.0032921810699588477,
+      "max_exposed_forward_series_remainder": 6.628471676010592e-08,
+      "remainder_over_L5": 0.08524269130672059,
+      "published_axis_remainders": [
+        6.628483229941147e-08,
+        -5.819622933588616e-08
+      ]
+    },
+    {
+      "L": 0.04,
+      "M_plus": 8.455822086869207e-09,
+      "M_minus": 7.829322205474642e-09,
+      "baseline_fine_abs_difference": 4.068803230266021e-16,
+      "flat_mean_floor": 0.0,
+      "numerical_sign_separated": true,
+      "plus_over_L4": 0.003303055502683284,
+      "minus_over_L4": 0.0030583289865135322,
+      "exact_A_coefficient_exposed": 0.0032921810699588477,
+      "max_exposed_forward_series_remainder": 8.928168390091428e-09,
+      "remainder_over_L5": 0.08718914443448658,
+      "published_axis_remainders": [
+        8.92818401873022e-09,
+        -7.801142551605925e-09
+      ]
+    },
+    {
+      "L": 0.03,
+      "M_plus": 2.674208951597022e-09,
+      "M_minus": 2.522846608012319e-09,
+      "baseline_fine_abs_difference": 6.670173230786394e-16,
+      "flat_mean_floor": 0.0,
+      "numerical_sign_separated": true,
+      "plus_over_L4": 0.00330149253283583,
+      "minus_over_L4": 0.0031146254419905177,
+      "exact_A_coefficient_exposed": 0.0032921810699588477,
+      "max_exposed_forward_series_remainder": 2.1431531362677957e-09,
+      "remainder_over_L5": 0.08819560231554717,
+      "published_axis_remainders": [
+        2.143156621354364e-09,
+        -1.8679838618301282e-09
+      ]
+    },
+    {
+      "L": 0.02,
+      "M_plus": 5.27870983177527e-10,
+      "M_minus": 5.075733568698367e-10,
+      "baseline_fine_abs_difference": 2.6985834424811568e-17,
+      "flat_mean_floor": 0.0,
+      "numerical_sign_separated": true,
+      "plus_over_L4": 0.003299193644859544,
+      "minus_over_L4": 0.0031723334804364795,
+      "exact_A_coefficient_exposed": 0.0032921810699588477,
+      "max_exposed_forward_series_remainder": 2.855208390477684e-10,
+      "remainder_over_L5": 0.0892252622024276,
+      "published_axis_remainders": [
+        2.855213584144903e-10,
+        -2.482324988059082e-10
+      ]
+    }
+  ]
+}

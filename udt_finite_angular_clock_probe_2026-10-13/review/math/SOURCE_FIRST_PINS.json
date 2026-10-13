@@ -1,0 +1,21 @@
+{
+  "head": "781bc355905f9d9c8ca5a7628784fdd4cf85a15d",
+  "stage": "before FAC1 scientific author content exposure",
+  "sha256": {
+    "AGENTS.md": "c7a1c89c7662e7af182a18c85052737df38a6e649c3b82b9c2bb36fd73aa386a",
+    "CLAUDE.md": "248540078a74edbe8ebba7e34c6a8d78d51de415541deb432839136044bb30bd",
+    "udt_finite_angular_clock_probe_2026-10-13/WORK_ORDER.md": "43f5e72e29f6700f64f845569315d3bf805c92eb6994ff9fb81af8197fd064d4",
+    "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+    "udt_finite_positional_clock_test_2026-10-01/WORK_ORDER.md": "e83e8523fb2abe72f9e482e1935c4e5a293c0dec0b5e7286b79fe12a0239618f",
+    "udt_finite_positional_clock_test_2026-10-01/INITIAL_CANDIDATE.md": "f6421c2aa59a2619027cdff706b472ee36eaa350ae43b91c2137dc0c93a54499",
+    "udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md": "e5db76addbff2cd121579c20a3aa6eb0404d429abd86c9248d8e32fe3f7b3c2b",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/SOURCE_FIRST.md": "ea9992f9e59cc60d4330f022ee6cb8c1912b571b672d851aeb0e5bb08351cd6c",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/SOURCE_FIRST_RESULT.md": "7d2b7193dbdfd5b7dff4e63cbf58d2d9e89d7f0bed6360a5f0ee8b4b1d7e28c0",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_plane_wave.py": "e9f1bd16561ff51b67a97d0f28b0782d48fe2c1d0ddc1a8d0d0c3e0a55ccdfb8",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_plane_wave_result.json": "365c7147e14a620b8873fa7f88cdc96afeee330fc97233fe8e46730421e8f76a",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.stdout": "365c7147e14a620b8873fa7f88cdc96afeee330fc97233fe8e46730421e8f76a",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/source_first_run01.json": "90c5337073082474c0f0b6c161e44407208c8a8a419f9f21a901a302d329f5ee"
+  }
+}

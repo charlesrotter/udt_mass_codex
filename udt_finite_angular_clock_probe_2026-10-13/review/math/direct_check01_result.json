@@ -1,0 +1,119 @@
+{
+  "contraction_bookkeeping": {
+    "0": {
+      "classified": {
+        "two_U_in_antisymmetric_pair": 3,
+        "Weyl_trace": 7,
+        "inner_divergence": 0
+      },
+      "total": 10,
+      "unclassified": []
+    },
+    "1": {
+      "classified": {
+        "two_U_in_antisymmetric_pair": 7,
+        "Weyl_trace": 19,
+        "inner_divergence": 0
+      },
+      "total": 26,
+      "unclassified": []
+    },
+    "2": {
+      "classified": {
+        "two_U_in_antisymmetric_pair": 18,
+        "Weyl_trace": 50,
+        "inner_divergence": 8
+      },
+      "total": 76,
+      "unclassified": []
+    }
+  },
+  "plane_wave_independent_coefficient_agreement": true,
+  "kasner_saved_exact_moments": {
+    "forward": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "4/1215"
+    ],
+    "reverse": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "4/1215"
+    ]
+  },
+  "invariant_constants": {
+    "a": "1/90",
+    "b": "-1/120"
+  },
+  "recomputed_clock_means": [
+    {
+      "L": 0.08,
+      "M_plus": 1.3529550200270764e-07,
+      "M_minus": 1.1658590673952227e-07,
+      "saved_difference_plus": -2.4392960694147748e-17,
+      "saved_difference_minus": -5.3262649333212083e-17,
+      "coefficient_plus": 0.0033031128418629795,
+      "coefficient_minus": 0.002846335613757868
+    },
+    {
+      "L": 0.06,
+      "M_plus": 4.282269709065825e-08,
+      "M_minus": 3.8229171749148896e-08,
+      "saved_difference_plus": 1.9306421966767268e-17,
+      "saved_difference_minus": -1.2947560343272023e-17,
+      "coefficient_plus": 0.0033042204545261004,
+      "coefficient_minus": 0.002949781770767662
+    },
+    {
+      "L": 0.04,
+      "M_plus": 8.455822082009461e-09,
+      "M_minus": 7.829322175908613e-09,
+      "saved_difference_plus": -4.8597456557531414e-18,
+      "saved_difference_minus": -2.9566029131046175e-17,
+      "coefficient_plus": 0.0033030555007849457,
+      "coefficient_minus": 0.003058328974964302
+    },
+    {
+      "L": 0.03,
+      "M_plus": 2.6742089941501838e-09,
+      "M_minus": 2.5228465886470085e-09,
+      "saved_difference_plus": 4.2553161794822735e-17,
+      "saved_difference_minus": -1.9365310608936143e-17,
+      "coefficient_plus": 0.003301492585370598,
+      "coefficient_minus": 0.003114625418082727
+    },
+    {
+      "L": 0.02,
+      "M_plus": 5.278709932761649e-10,
+      "M_minus": 5.075733221886716e-10,
+      "saved_difference_plus": 1.0098637817076089e-17,
+      "saved_difference_minus": -3.468116514656384e-17,
+      "coefficient_plus": 0.0032991937079760304,
+      "coefficient_minus": 0.0031723332636791972
+    }
+  ],
+  "maximum_endpoint_log_difference": 4.442518401759354e-16,
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_sha256": "7a24c269016ffd79fdf6ce7e95cba07ed8a34be0bf784e0e135f5858b1cec6e0",
+  "input_sha256": {
+    "INVARIANT_ROUTE_CANDIDATE.md": "c8c4638bde15c35d22400e4d16393145de9dba46ee49eb0429bb5a2799272ea1",
+    "RECOVERY_CANDIDATE.md": "fede5c563151bbf75800892a0f9b3ebdcc61d3cbb28081249b248f576ec4f9f8",
+    "RECOVERY_CONTINUATION.md": "1bba27b3539c944312a9752df6e70993766d12edfc33921f1012ae2190c1a336",
+    "researcher_a/CANDIDATE.md": "76699875f7e3860c271ea2c01fcbeaac8cd62ccdae8467e7b916e53fd3abe5f4",
+    "researcher_a/VACUUM_QUARTIC_CANDIDATE.md": "fe4311167189e5567962767ffabdaacc7cea6a8720e7f8d8e5111cc218db8100",
+    "researcher_a/FREEZE_01.json": "a8022d79102ad2233317ce858f798e23e76505c3e20eea229ea2a26d0d2efaa0",
+    "researcher_a/formal_kasner_01.py": "38a2bf30b38a20163dc6dc69a7978e4847a2c9946f2ada73a51897a4f92059e7",
+    "researcher_a/formal_kasner_01_result.json": "b21e1807d1cc6ebf37203758d78b459644231aa88990fcb1697f3c308084b23b",
+    "researcher_a/formal_plane_wave_01.py": "4f6b2514fc852bb7072b96cffe2f8db33719818e7bb788ca4be9942aecd122eb",
+    "researcher_a/formal_plane_wave_01_result.json": "681a7bec5ef1c944d9adc6781f4e5f8d0d677ebb41841039424505c79fe5edfc",
+    "researcher_b/CANDIDATE.md": "cce9c72d85a9890e2266567b8adb62e7ee22d15c2eefc09b75458150666ea4fc",
+    "researcher_b/vacuum_fine_data.json": "7d1825cce3ff451666a2e28d825d7f47d22e4c50775894b863cbba3f2ba08394",
+    "researcher_b/MANIFEST.json": "1c7733408132d0eeb5c90b6c8340024f0670b74bae4cbd0a3f25f5e790d3fdbd"
+  },
+  "limitations": "pairing arithmetic is not geometric certification; raw data replay is not a new null solve or interval proof"
+}

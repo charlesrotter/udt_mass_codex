@@ -1,0 +1,20 @@
+{
+  "old_freeze_sha256": "d28f1145f2f4fbbe349d297070b62fa633fa9aa9128f1a55be2f52f772ce008e",
+  "new_freeze_sha256": "8b611a99aba36806ed49e915e1fa1690defea48d3194d6e23deffb99e6ff3c59",
+  "changed_bound_files": [
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "udt_finite_angular_clock_probe_2026-10-13/DESCENDANT_REVIEW.md",
+    "udt_finite_angular_clock_probe_2026-10-13/NOTEBOOK.md",
+    "udt_finite_angular_clock_probe_2026-10-13/WORK_RECORD.md"
+  ],
+  "new_bound_files": [
+    "udt_finite_angular_clock_probe_2026-10-13/INTEGRATION_REPAIR.md",
+    "udt_finite_angular_clock_probe_2026-10-13/initial_integration/DESCENDANT_REVIEW.md",
+    "udt_finite_angular_clock_probe_2026-10-13/initial_integration/DEVELOPMENT_GRAPH.json",
+    "udt_finite_angular_clock_probe_2026-10-13/initial_integration/INTEGRATION_FREEZE.json",
+    "udt_finite_angular_clock_probe_2026-10-13/initial_integration/NOTEBOOK.md",
+    "udt_finite_angular_clock_probe_2026-10-13/initial_integration/WORK_RECORD.md"
+  ],
+  "old_changed_artifacts_preserved": true,
+  "central_bytes_unchanged_by_repair": true
+}

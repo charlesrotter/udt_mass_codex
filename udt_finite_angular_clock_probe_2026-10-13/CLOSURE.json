@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-13T17:19:37.471106+00:00",
+  "status": "REVIEW_AND_REQUIRED_CHECKS_COMPLETE_READY_FOR_BANKING",
+  "baseline_head": "781bc355905f9d9c8ca5a7628784fdd4cf85a15d",
+  "scope": "Conditional FAC1 theorem/discriminator and central integration, no scientific adoption or registry/CANON changes. Commit and remote publication must be verified separately from actual Git refs.",
+  "freeze": "udt_finite_angular_clock_probe_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "8b611a99aba36806ed49e915e1fa1690defea48d3194d6e23deffb99e6ff3c59",
+  "review_record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+  "review_record_sha256": "c2bfd9df1e49afe65d51c982693bdbb2e9daa106e3cb47adab221a8096d1f0d3",
+  "reviewers": [
+    {
+      "context": "/root/fac_review_math: fresh separate mathematical review context, source-first then exposed direct/supplement/final integration review",
+      "attestation": "udt_finite_angular_clock_probe_2026-10-13/review/math/FINAL_ATTESTATION.json",
+      "sha256": "a7e39d3ffdfdaead29596f4bbf7b24b29ee6f02f4e581e5a842a6b5fa3d01c43"
+    },
+    {
+      "context": "/root/fac_review_fidelity",
+      "attestation": "udt_finite_angular_clock_probe_2026-10-13/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256": "9d5d724492e6f5710fc37bfd68ca8e0925b2546c581349952f1bf689bb600ad4"
+    }
+  ],
+  "checks": {
+    "final_normal": {
+      "receipt": "udt_finite_angular_clock_probe_2026-10-13/checks/final_normal.json",
+      "sha256": "4e51cfd3c05e4d3544b0162a7f72e485874d5d92b57548f71374ef97b4d15073",
+      "duration_seconds": 1.773440612014383,
+      "returncode": 0
+    },
+    "final_maintenance": {
+      "receipt": "udt_finite_angular_clock_probe_2026-10-13/checks/final_maintenance.json",
+      "sha256": "fed07ce9431418ebac062573d62455fa7f2d4682c8930c475953e22a12949716",
+      "duration_seconds": 2.2420301858801395,
+      "returncode": 0
+    },
+    "final_full406": {
+      "receipt": "udt_finite_angular_clock_probe_2026-10-13/checks/final_full406.json",
+      "sha256": "e3778cfe63c6e2ffd1d49db58a5b7368f540c63addb345749787f58e4c77ccd9",
+      "duration_seconds": 404.9538657681551,
+      "returncode": 0
+    }
+  },
+  "reviewed_bindings_verified": 15096,
+  "unchanged_original_scientific_files": 105,
+  "unrelated_untracked_names_preserved": 76,
+  "protected_payloads_read": false,
+  "scientific_capture_summary": "udt_finite_angular_clock_probe_2026-10-13/RESOURCE_RECEIPT.json",
+  "gates_not_claimed_here": [
+    "commit creation",
+    "remote publication"
+  ],
+  "no_long_solver_or_GPU": true
+}

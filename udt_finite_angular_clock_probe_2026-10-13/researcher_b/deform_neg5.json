@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "udt_finite_angular_clock_probe_2026-10-13/researcher_b/original_clock_probe.py",
+    "udt_finite_angular_clock_probe_2026-10-13/researcher_b/deform_neg5_data.json",
+    "--fine",
+    "--epsilon",
+    "-0.00001",
+    "--lengths",
+    "0.02,0.04,0.08,0.16"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T16:32:53.655797+00:00",
+  "duration_seconds": 0.45587147981859744,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 80928,
+  "forwarded_signals": [],
+  "stdout_sha256": "8889d5c98c992fe38051d263e327401f887b6de4711c5f3e1bff3742f8c3e601",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

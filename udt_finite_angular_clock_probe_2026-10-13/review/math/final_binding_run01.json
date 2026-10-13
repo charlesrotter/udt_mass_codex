@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/final_binding_check.py",
+    "8b611a99aba36806ed49e915e1fa1690defea48d3194d6e23deffb99e6ff3c59",
+    "udt_finite_angular_clock_probe_2026-10-13/review/math/final_binding_result.json"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T17:09:01.135590+00:00",
+  "duration_seconds": 1.7170936930924654,
+  "returncode": 0,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 30972,
+  "forwarded_signals": [],
+  "stdout_sha256": "d7af59acfcefec40cb59f07b18a7d2635efafff8e7d24adb79f82ea9f5767f75",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

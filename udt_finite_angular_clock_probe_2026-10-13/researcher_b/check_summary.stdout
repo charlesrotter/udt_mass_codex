@@ -1,0 +1,212 @@
+{
+  "status": "SAVED_ARTIFACT_SUMMARY",
+  "deformation": [
+    {
+      "epsilon": -0.0001,
+      "L": 0.02,
+      "M_plus": -1.951627190436631e-08,
+      "M_minus": -1.9536473989241354e-08,
+      "combined_mean": -1.952637294680383e-08,
+      "baseline_fine_max_difference": 4.9605002248290404e-17
+    },
+    {
+      "epsilon": -0.0001,
+      "L": 0.04,
+      "M_plus": -7.189505606975471e-08,
+      "M_minus": -7.251992563722575e-08,
+      "combined_mean": -7.220749085349023e-08,
+      "baseline_fine_max_difference": 4.399553714301064e-16
+    },
+    {
+      "epsilon": -0.0001,
+      "L": 0.08,
+      "M_plus": -1.8747860461400084e-07,
+      "M_minus": -2.0615906803797587e-07,
+      "combined_mean": -1.9681883632598836e-07,
+      "baseline_fine_max_difference": 2.486380513370273e-16
+    },
+    {
+      "epsilon": -0.0001,
+      "L": 0.16,
+      "M_plus": 8.495323437420705e-07,
+      "M_minus": 3.2237607115180757e-07,
+      "combined_mean": 5.85954207446939e-07,
+      "baseline_fine_max_difference": 2.35256286023125e-15
+    },
+    {
+      "epsilon": -1e-05,
+      "L": 0.02,
+      "M_plus": -1.4765433515224489e-09,
+      "M_minus": -1.4968314244151483e-09,
+      "combined_mean": -1.4866873879687986e-09,
+      "baseline_fine_max_difference": 7.601763359582723e-17
+    },
+    {
+      "epsilon": -1e-05,
+      "L": 0.04,
+      "M_plus": 4.207342606757284e-10,
+      "M_minus": -2.0560257550140275e-10,
+      "combined_mean": 1.0756584258716282e-10,
+      "baseline_fine_max_difference": 3.4968569381267633e-16
+    },
+    {
+      "epsilon": -1e-05,
+      "L": 0.08,
+      "M_plus": 1.0301809130251167e-07,
+      "M_minus": 8.431140927235748e-08,
+      "combined_mean": 9.366475028743457e-08,
+      "baseline_fine_max_difference": 1.804294527099539e-16
+    },
+    {
+      "epsilon": -1e-05,
+      "L": 0.16,
+      "M_plus": 2.021118312201524e-06,
+      "M_minus": 1.493464472742432e-06,
+      "combined_mean": 1.757291392471978e-06,
+      "baseline_fine_max_difference": 2.0996981144874236e-15
+    },
+    {
+      "epsilon": 1e-05,
+      "L": 0.02,
+      "M_plus": 2.532285278904114e-09,
+      "M_minus": 2.5119780685438277e-09,
+      "combined_mean": 2.522131673723971e-09,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 1e-05,
+      "L": 0.04,
+      "M_plus": 1.6490909908486484e-08,
+      "M_minus": 1.5864246934127874e-08,
+      "combined_mean": 1.617757842130718e-08,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 1e-05,
+      "L": 0.08,
+      "M_plus": 1.675729127809236e-07,
+      "M_minus": 1.4886040428150495e-07,
+      "combined_mean": 1.5821665853121427e-07,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 1e-05,
+      "L": 0.16,
+      "M_plus": 2.281470757458652e-06,
+      "M_minus": 1.7537063422629031e-06,
+      "combined_mean": 2.0175885498607776e-06,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 0.0001,
+      "L": 0.02,
+      "M_plus": 2.057201385726442e-08,
+      "M_minus": 2.0551620657901087e-08,
+      "combined_mean": 2.0561817257582753e-08,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 0.0001,
+      "L": 0.04,
+      "M_plus": 8.880670029854053e-08,
+      "M_minus": 8.817857004200176e-08,
+      "combined_mean": 8.849263517027114e-08,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 0.0001,
+      "L": 0.08,
+      "M_plus": 4.580696110565419e-07,
+      "M_minus": 4.3933088231486605e-07,
+      "combined_mean": 4.4870024668570396e-07,
+      "baseline_fine_max_difference": null
+    },
+    {
+      "epsilon": 0.0001,
+      "L": 0.16,
+      "M_plus": 3.453056796108717e-06,
+      "M_minus": 2.9247947664993905e-06,
+      "combined_mean": 3.188925781304054e-06,
+      "baseline_fine_max_difference": null
+    }
+  ],
+  "arrival_comparisons": 24,
+  "max_arrival_frequency_difference": 1.1111112030448567e-12,
+  "max_arrival_incidence_residual": 1.1796119636642288e-16,
+  "captures": [
+    {
+      "file": "arrival_derivatives.json",
+      "returncode": 0,
+      "seconds": 0.21785727003589272,
+      "maxrss_kib": 79128
+    },
+    {
+      "file": "deform_neg4.json",
+      "returncode": 0,
+      "seconds": 0.4485444480087608,
+      "maxrss_kib": 81340
+    },
+    {
+      "file": "deform_neg4_baseline.json",
+      "returncode": 0,
+      "seconds": 0.2972242101095617,
+      "maxrss_kib": 80276
+    },
+    {
+      "file": "deform_neg5.json",
+      "returncode": 0,
+      "seconds": 0.45587147981859744,
+      "maxrss_kib": 80928
+    },
+    {
+      "file": "deform_neg5_baseline.json",
+      "returncode": 0,
+      "seconds": 0.29444950399920344,
+      "maxrss_kib": 80240
+    },
+    {
+      "file": "deform_pos4.json",
+      "returncode": 0,
+      "seconds": 0.4443367759231478,
+      "maxrss_kib": 81456
+    },
+    {
+      "file": "deform_pos5.json",
+      "returncode": 0,
+      "seconds": 0.4491465361788869,
+      "maxrss_kib": 81104
+    },
+    {
+      "file": "flat_fine.json",
+      "returncode": 0,
+      "seconds": 0.2894276899751276,
+      "maxrss_kib": 80516
+    },
+    {
+      "file": "saved_analysis.json",
+      "returncode": 0,
+      "seconds": 0.05022741784341633,
+      "maxrss_kib": 26108
+    },
+    {
+      "file": "vacuum_baseline.json",
+      "returncode": 0,
+      "seconds": 0.31804819591343403,
+      "maxrss_kib": 80364
+    },
+    {
+      "file": "vacuum_fine.json",
+      "returncode": 0,
+      "seconds": 0.5014795011375099,
+      "maxrss_kib": 81596
+    },
+    {
+      "file": "vacuum_finite_range.json",
+      "returncode": 0,
+      "seconds": 0.747932240832597,
+      "maxrss_kib": 81616
+    }
+  ],
+  "captured_wall_seconds": 4.514545269776136,
+  "note": "CPU seconds not separately recorded by existing capture utility; this is summed wall time."
+}

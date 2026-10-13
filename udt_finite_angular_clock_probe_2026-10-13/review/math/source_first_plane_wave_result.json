@@ -1,0 +1,30 @@
+{
+  "method": "independent exact plane-wave world function and full-sphere moments",
+  "supplied_metric": "-2du dv+dx^2+dy^2+(x^2-y^2)du^2",
+  "f2": "(b**2 + b*s + s**2)/6",
+  "f4": "-(4*b**4 - 16*b**3*s + 16*b**3*z - 36*b**2*s**2 + 12*b**2*s*z + 4*b**2*z**2 - 16*b*s**3 - 12*b*s**2*z + 7*b*s*z**2 + 4*s**4 - 16*s**3*z + 4*s**2*z**2)/720",
+  "clock_series": {
+    "plus": {
+      "arrival_correction_L3": "D/12",
+      "arrival_correction_L5": "-(-15*D**2 + 4*T*z**2 + 16*T*z + 4*T)/1440",
+      "log_L2": "D/4",
+      "log_L4": "-(-D**2 + T*z**2 + 4*T*z)/96",
+      "spherical_L2": "0",
+      "spherical_L4": "1/720",
+      "longitudinal_reflection_difference_L4": "-T*z/12"
+    },
+    "minus": {
+      "arrival_correction_L3": "D/12",
+      "arrival_correction_L5": "-(-15*D**2 + 4*T*z**2 - 16*T*z + 4*T)/1440",
+      "log_L2": "D/4",
+      "log_L4": "-(-D**2 + T*z**2 - 4*T*z)/96",
+      "spherical_L2": "0",
+      "spherical_L4": "1/720",
+      "longitudinal_reflection_difference_L4": "T*z/12"
+    }
+  },
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "source_sha256": "e9f1bd16561ff51b67a97d0f28b0782d48fe2c1d0ddc1a8d0d0c3e0a55ccdfb8",
+  "scope": "formal exact coefficients plus analytic local remainder argument; no interval sign radius"
+}
