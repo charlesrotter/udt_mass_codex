@@ -1,0 +1,134 @@
+{
+  "utc": "2026-10-13T02:46:58.456708+00:00",
+  "status": "REVIEWED_WITH_LIMITS_AND_REQUIRED_CHECKS_PASSED",
+  "scope": "Closure correspondence and publication readiness; this record adds no scientific claim or review.",
+  "prepublication_head": "cfeadd7116a39acffc388e3e03d81535a5d12187",
+  "return": "No new native geometry-selection rule. Scoped literal-support nonimplication and prior asymptotic-bound reuse; no complete-insufficiency claim.",
+  "probes": {
+    "executed": 2,
+    "reserved_unused": 1,
+    "reason": "No distinct sourced next inference identified within this bounded pilot."
+  },
+  "contexts": {
+    "explorers": [
+      "/root/gcp_explorer_a",
+      "/root/gcp_explorer_b"
+    ],
+    "reviewers": [
+      "/root/gcp_review_math",
+      "/root/gcp_review_fidelity"
+    ],
+    "independence": "Separate contexts, same inherited model; exact runtime model identifier unexposed. Different-model, human and empirical review untested.",
+    "integration_precision_repair_rounds": 1
+  },
+  "freeze": {
+    "path": "udt_geometry_constraint_pilot_2026-10-12/INTEGRATION_FREEZE.json",
+    "sha256": "cecb2cd344a3d2f6178f5a84ea0847a0dde0f3a9bd06929e367f9b42f9ff9dc3",
+    "accepted_paths": 14630
+  },
+  "review_record": {
+    "path": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+    "sha256": "78668dc8c5eea6362f7beb03f190f60d83812b24e03c179df39934851c80e980"
+  },
+  "reviewers": [
+    {
+      "context": "/root/gcp_review_math",
+      "attestation": "udt_geometry_constraint_pilot_2026-10-12/review_math/FINAL_ATTESTATION.json",
+      "sha256": "8ab81803d93e739d60ff26c8b705766cbe276cbef33400759c315ac3cb262c21"
+    },
+    {
+      "context": "/root/gcp_review_fidelity",
+      "attestation": "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/FINAL_ATTESTATION.json",
+      "sha256": "4f777398f3b249ab130cef750c5efcf3cb3232e6f90a9283bcdaeecdb8349f34"
+    }
+  ],
+  "required_checks": {
+    "development": {
+      "receipt": "udt_geometry_constraint_pilot_2026-10-12/checks/development.json",
+      "sha256": "94e17d37bfe99c1df08d1d54310295a02f037d529316c8b92fc513bbdc053e2b",
+      "returncode": 0,
+      "duration_seconds": 1.78560251602903,
+      "command": [
+        "python3",
+        "verify_udt_development.py"
+      ],
+      "stdout_sha256": "0b2924e74db316458e73b54ac9eb87d5433ffd07f1376b529eadc17546694531",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "maintenance_final": {
+      "receipt": "udt_geometry_constraint_pilot_2026-10-12/checks/maintenance_final.json",
+      "sha256": "06a8e52b538eafe1655b7d01ddd713a72bbdf65a28dc173d75d9d6048a04f7b8",
+      "returncode": 0,
+      "duration_seconds": 1.9727677220944315,
+      "command": [
+        "python3",
+        "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+      ],
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "bb040bd365073e77c6eb4ff3a97724bc18f1b331ffb1482eb2340829936179dd"
+    },
+    "premises": {
+      "receipt": "udt_geometry_constraint_pilot_2026-10-12/checks/premises.json",
+      "sha256": "4ff6db7cd83d1987796df2154b95311a093598ab1f5ab7a6d7230eba7ef35e03",
+      "returncode": 0,
+      "duration_seconds": 406.7351128568407,
+      "command": [
+        "env",
+        "GIT_CONFIG_COUNT=2",
+        "GIT_CONFIG_KEY_0=core.packedGitWindowSize",
+        "GIT_CONFIG_VALUE_0=32m",
+        "GIT_CONFIG_KEY_1=core.packedGitLimit",
+        "GIT_CONFIG_VALUE_1=128m",
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "stdout_sha256": "394e02c4ced55fc8f6480a3cc65b9ebd38f9c0cb553f897b10313b8ad2104b53",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "correspondence_final": {
+      "receipt": "udt_geometry_constraint_pilot_2026-10-12/checks/correspondence_final.json",
+      "sha256": "ed6c26b99f36bb1718d150f0e55c2aba9dd591134d263f74fd6a8cac163590a7",
+      "returncode": 0,
+      "duration_seconds": 1.454182350076735,
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path\nimport hashlib,json,re,subprocess\nbase=Path('.').resolve(); p=Path('udt_geometry_constraint_pilot_2026-10-12')\nsha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest()\nfreeze=json.loads((p/'INTEGRATION_FREEZE.json').read_text())\nprotected=('udt_native_onshell_timelive_reset_owner_audit_2026-08-10/','udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/','udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/','udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/')\nfor s in freeze['accepted_sha256']:\n assert not Path(s).is_absolute() and '..' not in Path(s).parts and not s.startswith(protected),s\nfor s,h in freeze['accepted_sha256'].items(): assert sha(s)==h,s\nrecord=json.loads(Path('development_reconstruction_2026-09-29/REVIEW_RECORD.json').read_text())\nassert record['accepted_sha256']==freeze['accepted_sha256']\nfor r in record['reviewers']:\n d=json.loads(Path(r['attestation']).read_text())\n assert d['context']==r['context'] and d['verdict']=='ACCEPT_WITH_LIMITS'\n assert d['accepted_sha256']==record['accepted_sha256']\n assert sha(r['attestation'])==r['sha256'] and sha(d['report_path'])==d['report_sha256']\nexpected=set(freeze['inherited_changed'])|{'development_reconstruction_2026-09-29/REVIEW_RECORD.json'}\nactual=set(subprocess.check_output(['git','diff','--name-only','HEAD'],text=True).splitlines())\nassert actual==expected,actual\nold=json.loads((p/'BASELINE.json').read_text())['existing_untracked_names_only']\nnames=subprocess.check_output(['git','ls-files','--others','--exclude-standard'],text=True).splitlines()\nunrelated=[s for s in names if not s.startswith(str(p)+'/')]\nassert sorted(unrelated)==sorted(old)\nlinks=0\nfiles=[Path(q) for q in freeze['inherited_changed'] if q.endswith('.md')]+sorted(p.rglob('*.md'))\nfor f in files:\n prose=[]; fence=None\n for line in f.read_text().splitlines():\n  marker=re.match(r'^ {0,3}(`{3,}|~{3,})',line)\n  if marker:\n   token=marker.group(1)\n   if fence is None: fence=token[0]\n   elif token[0]==fence: fence=None\n   continue\n  if fence is not None or line.startswith(('    ','\\t')): continue\n  prose.append(re.sub(r'`+[^`]*`+','',line))\n for target in re.findall(r'\\[[^\\]\\n]+\\]\\(([^)]+)\\)', '\\n'.join(prose)):\n  if '://' in target or target.startswith('#'): continue\n  target=re.sub(r':\\d+$','',target.split('#')[0])\n  origin=f\n  assert (origin.parent/target).exists(),(str(f),target)\n  links+=1\nprint(json.dumps({'status':'PASS','frozen_hashes':len(freeze['accepted_sha256']),'local_links':links,'tracked_changes':sorted(actual),'unrelated_names_preserved':len(old),'scope':'Byte/routing/preservation correspondence only; no scientific reproof.'},indent=2))\n"
+      ],
+      "stdout_sha256": "3d1ef1bbd53938902e548cbcd0fc7d1e35f335ff882e9dca4a21e126f3b08499",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "preserved_diagnostics": [
+    {
+      "receipt": "checks/preintegration_guard.json",
+      "resolution": "Operational LIVE return phrase missing during assembly; restored before final guard. Not a scientific failure."
+    },
+    {
+      "receipt": "checks/correspondence.json",
+      "resolution": "Link regex misclassified indented mathematical O[J](x) as a Markdown link. Final command excludes code blocks and inline code; actual source unchanged. Final links check is bounded prose-link target existence, not full CommonMark or anchor validation."
+    },
+    {
+      "receipt": "review_math/FINAL_RECHECK.json",
+      "resolution": "Graph pins outside accepted-map coverage initially counted as errors; direct protected-screened hashing of all 602 bindings found zero mismatches in FINAL_RECHECK_CORRECTION.json. No integration bytes changed."
+    }
+  ],
+  "resources": {
+    "scientific_executable_runs": 0,
+    "gpu_runs": 0,
+    "production_runs": 0,
+    "output_budget_bytes": 209715200,
+    "check_limits": "Existing capture wrapper: one BLAS thread, 2 GiB virtual memory, no elapsed/CPU killing timeout."
+  },
+  "preservation": {
+    "unrelated_untracked_names": 76,
+    "comparison": "Names only against BASELINE; protected contents not read or hashed.",
+    "unchanged": "CANON, registry grades, AGENTS, CLAUDE, old scientific source files and executable code; exact tracked delta limited to nine integrated documents/records."
+  },
+  "publication_policy": {
+    "path": "udt_geometry_constraint_pilot_2026-10-12/PUBLICATION_POLICY.json",
+    "sha256": "0d3f990b18251ac77efdf21650ea7bd506e87a9eb7c1e174df3ec38110693ee3"
+  },
+  "publication": "Ready for exact-path staging, commit and authorized ordinary fast-forward publication to grok/main; no commit or remote result predicted here. Verify after publication.",
+  "next": "Stop for lay discussion. No successor research or global chronology premise adopted."
+}

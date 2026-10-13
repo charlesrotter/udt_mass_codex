@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-13T02:31:36.889800+00:00",
+  "kind": "BYTE_CORRESPONDENCE_AND_PATH_SCREEN_ONLY_NOT_SCIENTIFIC_ACCEPTANCE",
+  "freeze_sha256": "f71f38cb12da77511a055ea701fe369137a98428d04b7d27a6ecadbbb705c3e8",
+  "accepted_count": 14623,
+  "excluded_baseline_names_screened": 76,
+  "protected_prefixes_screened": [
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10/",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/"
+  ],
+  "unsafe_or_protected_paths": 0,
+  "all_actual_hashes_match": true,
+  "mismatches": [],
+  "bytes_hashed": 2354479985,
+  "prior_changed_file_hashes_match_git_baseline": true,
+  "prior_baseline_mismatches": [],
+  "inherited_unchanged": 14586,
+  "changed_count": 8,
+  "new_count": 29,
+  "removed_count": 0
+}

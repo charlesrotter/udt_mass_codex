@@ -1,0 +1,3 @@
+Traceback (most recent call last):
+  File "<string>", line 31, in <module>
+AssertionError: ('udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1.md', 'x')

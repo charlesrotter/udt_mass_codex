@@ -1,0 +1,135 @@
+{
+  "utc": "2026-10-13T02:36:04.586717+00:00",
+  "head": "cfeadd7116a39acffc388e3e03d81535a5d12187",
+  "branch": "grok",
+  "screening": "All accepted paths screened before hashing against four protected prefixes,76 baseline exact untracked names and absolute/parent/escaping/resolved-protected paths",
+  "protected_or_unsafe_collisions": [],
+  "freeze_sha256": "cecb2cd344a3d2f6178f5a84ea0847a0dde0f3a9bd06929e367f9b42f9ff9dc3",
+  "original_freeze_sha256": "f71f38cb12da77511a055ea701fe369137a98428d04b7d27a6ecadbbb705c3e8",
+  "prior_record_sha256_matches": true,
+  "accepted_count": 14630,
+  "inherited_unchanged_count": 14586,
+  "changed": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_OPERATING_PLAN.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "added_count": 36,
+  "removed": [],
+  "declared_delta_matches": true,
+  "actual_hash_mismatches": [],
+  "hash_check_duration_seconds": 1.3115224670618773,
+  "repair_changed": [
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md",
+    "udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md"
+  ],
+  "repair_added": [
+    "udt_geometry_constraint_pilot_2026-10-12/INITIAL_INTEGRATION_FREEZE.json",
+    "udt_geometry_constraint_pilot_2026-10-12/INITIAL_INTEGRATION_TEXTS.json",
+    "udt_geometry_constraint_pilot_2026-10-12/REVIEW_REPAIR.md",
+    "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/FINAL_CHECKS.json",
+    "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/INTEGRATION_PRECISION_REVIEW.md",
+    "udt_geometry_constraint_pilot_2026-10-12/review_math/INTEGRATION_REPAIR_REQUEST.md",
+    "udt_geometry_constraint_pilot_2026-10-12/review_math/PRE_REPAIR_INTEGRATION_CHECK.json"
+  ],
+  "repair_removed": [],
+  "preserved_initial_text_checks": [
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "LIVE.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "UDT_RESEARCH_OPERATING_PLAN.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md",
+      "recorded_text_sha_match": true,
+      "original_freeze_sha_match": true
+    }
+  ],
+  "prior_changed_files_git_binding": [
+    {
+      "path": "CURRENT_RESEARCH_PROGRAM.md",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "HANDOFF.md",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "LIVE.md",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "UDT_RESEARCH_OPERATING_PLAN.md",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "prior_hash_matches_git_head": true
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+      "prior_hash_matches_git_head": true
+    }
+  ],
+  "generated_excerpt_exact_match": true,
+  "graph_source_review_hash_mismatches": [],
+  "gcp_review_support_entries": 8,
+  "required_typed_graph_edges_present": true,
+  "original_candidate_unchanged": true,
+  "limitations": "Bookkeeping correspondence/regression, not scientific reproof of inherited corpus. Actual prose re-review separately recorded in FINAL_REPORT."
+}

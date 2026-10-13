@@ -1,7 +1,11 @@
 # UDT research operating plan
 
-ROD1, 2026-10-12. **Reviewed proposal for discussion; prospective pilot not yet
-run or authorized by this document.** AGENTS.md remains the working authority.
+ROD1, 2026-10-12. **Reviewed method proposal; its first pilot was subsequently
+authorized and executed as [GCP1](udt_geometry_constraint_pilot_2026-10-12/WORK_ORDER.md).**
+The prospective wording below preserves the design, not current authorization.
+[GCP1's record](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md) owns the actual
+trial and limits; one pilot establishes no productivity advantage. AGENTS.md
+remains the working authority.
 This is a method proposal, not a second scientific account or a source of physics.
 Its fixed [design record](research_operating_design_2026-10-12/WORK_RECORD.md)
 preserves the source snapshot, retrospective, review and limits.
@@ -188,7 +192,7 @@ persist checkpoints and respect resource/stop controls. A chat window, desktop
 project or scheduler does not itself authorize continual research. No background
 service or automatic successor is installed by ROD1.
 
-## Proposed first pilot — not yet executed
+## Original first-pilot design — executed subsequently as GCP1
 
 Try one connected cycle before adopting this as routine practice. Its objective
 would be to identify and test one specific, previously unextracted consequence

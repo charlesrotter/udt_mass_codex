@@ -1,0 +1,446 @@
+{
+  "utc": "2026-10-13T02:37:04.107100+00:00",
+  "status": "CORRECTED_REVIEWER_BOOKKEEPING_ASSUMPTION",
+  "prior_receipt_sha256": "63c3f2d674b544008eb8c40edd4ac261e90a0f1993fb8ae72f36ec86ecd4e98c",
+  "explanation": "FINAL_RECHECK compared graph pins only to accepted_sha256 and assumed that map exhaustively contained every graph source/review. Some stable graph bindings are outside the integration accepted map. Absence was incorrectly labelled a graph binding error. Original receipt preserved. This supplemental check screens and hashes each actual graph-bound file directly, without altering any pin or integration file. All accepted-map file hashes had already matched.",
+  "freeze_unchanged": true,
+  "graph_matches_frozen_sha256": true,
+  "protected_screen_before_hashing": true,
+  "graph_binding_count": 602,
+  "actual_graph_hash_mismatches": [],
+  "graph_pins_absent_from_integration_map": [
+    {
+      "kind": "source",
+      "path": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+      "matched_actual_sha256": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b"
+    },
+    {
+      "kind": "source",
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+      "matched_actual_sha256": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7"
+    },
+    {
+      "kind": "source",
+      "path": "founding.md",
+      "matched_actual_sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "kind": "source",
+      "path": "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
+      "matched_actual_sha256": "80daa0be6d3e1c0ac1b734fea089c4eb487f05bc1e1fbb2fabd69322ca89f28c"
+    },
+    {
+      "kind": "source",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "matched_actual_sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003"
+    },
+    {
+      "kind": "source",
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+      "matched_actual_sha256": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md",
+      "matched_actual_sha256": "b46d70a9b915d9d477b872cd8ba0d8fd8f96dc81c5b5dcd8bf4cc9d72c6ffc53"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md",
+      "matched_actual_sha256": "1e78843aaf45eeaaf7702e7b0e60cf012b72febe6a21f52b615a16ebe1062687"
+    },
+    {
+      "kind": "source",
+      "path": "udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md",
+      "matched_actual_sha256": "5e7070af6dcc549ecad8962dd0056ea7a08bb747140aa4484da26f4ba9dc2397"
+    },
+    {
+      "kind": "source",
+      "path": "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+      "matched_actual_sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4"
+    },
+    {
+      "kind": "source",
+      "path": "udt_finite_separation_law_2026-09-28/REPAIR.md",
+      "matched_actual_sha256": "be0927544e72bebd38a364cac33e0979aa8b4c4a1bdcdeba5dedf3e16e41e368"
+    },
+    {
+      "kind": "source",
+      "path": "udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "28c8e36dd78e8007cba1ec7846350793e9142029fbb2e4e6891ed4cb9c21ab54"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "a417b3cfa1cc6136429a14d3b330c1b8c25c73c9e946d6b6454d6ffae72c25a0"
+    },
+    {
+      "kind": "source",
+      "path": "startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md",
+      "matched_actual_sha256": "4eb7d0a1130dcff997bc5180f420b633e2dcbbb5072d098997ba3672b38d8ab5"
+    },
+    {
+      "kind": "source",
+      "path": "udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "462cad1bb96a2ed121edede7e93d4f0fcf9d7f61c1a35f438d42ae47b7dfec3c"
+    },
+    {
+      "kind": "source",
+      "path": "udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "4c0cbaf8dac98010556136d4189f1abe724f089ca91e353b520401ff05725795"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g301_scale_free_quiet_regular_causal_principal_classification_2026-08-30/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "633b907b5384aa63d61d49db067dd4e608e6abd3bf3571e4267f91e5c74da8fb"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g317_exact_noncmc_coupled_data_family_2026-09-01/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "ca38237b2a9d27551a42d0447600be7795d4766a354f4301777405290106a8ba"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md",
+      "matched_actual_sha256": "975fb68b053c2a11c373677544374e448f2ce84b265d860bb2c1e723d2595d6c"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "a7ad81bcfa3a55b7f86107b175569064219235b4201465df9759a8d87c672390"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md",
+      "matched_actual_sha256": "d97eb46e3275501537ab961535ad6c867190eab6be528decb72a43211de80514"
+    },
+    {
+      "kind": "source",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "45cc3bc950b76ceed6a1fd49c248688242bc3c008864256de9bb494c1b8bbfaa"
+    },
+    {
+      "kind": "source",
+      "path": "udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md",
+      "matched_actual_sha256": "654b0b2d734685c42d6a1b31740d545ab9299d17a5d5cc32c57e407b800191f1"
+    },
+    {
+      "kind": "source",
+      "path": "udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md",
+      "matched_actual_sha256": "49880008dcb5a646d6867e377f6dc84ded692b98250701aba4cab7119ca500de"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md",
+      "matched_actual_sha256": "5daf07ed87fd96953d7f989e269aafe3654a6876230725fd7b3bcc1f3188467e"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "04917cd0336f5c06ee76129f5a8005f5e483e8a6fcdacbb87c96a6e0ad89544c"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "37bd938dc488c305e43c3e1b414e1b40e489bf7fa23dd6453ce3118c953ea317"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "85e1073e9284ec9e8e543eea63c712d4015fdd4c2277ce0d8081a7d9002731ed"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "70aac9b85acb797cba41caa8dad9d567174b8031e853de8189a074e929e51b0d"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md",
+      "matched_actual_sha256": "45f774b2393f81c2d84754be57cd35db88301b9c281ea53be1a07e82a7bfacbe"
+    },
+    {
+      "kind": "source",
+      "path": "udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "f0f69723a135c00bcef936a3f19dca15094796d5f954e4fba4368587ccca7010"
+    },
+    {
+      "kind": "source",
+      "path": "udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "9102fcf8b97e0b168ca23cf98e9ad6ebf45c04073e02dd8120c8cb7934f6a7e3"
+    },
+    {
+      "kind": "source",
+      "path": "udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "fa6c2d6d511a01e20a3db043d824a7838b4ae7aadf57c3bd4edf1b7e820bc4ae"
+    },
+    {
+      "kind": "source",
+      "path": "udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "609f7889104aa3cc9804926738e888a83df7d593db7daab0763aef20809023f8"
+    },
+    {
+      "kind": "source",
+      "path": "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md",
+      "matched_actual_sha256": "df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea"
+    },
+    {
+      "kind": "source",
+      "path": "udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv",
+      "matched_actual_sha256": "1483331ab0e00bc6f800589edaaf56fff7c670a75292e49a05adc9935a063bdf"
+    },
+    {
+      "kind": "source",
+      "path": "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv",
+      "matched_actual_sha256": "de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4"
+    },
+    {
+      "kind": "source",
+      "path": "udt_directional_clock_release_2026-09-14/CANDIDATE.md",
+      "matched_actual_sha256": "dfd1327216f6014180d037522fd53dfee73c110ced2dce288ff5695ce846b967"
+    },
+    {
+      "kind": "source",
+      "path": "udt_finite_separation_reciprocity_2026-09-14/CANDIDATE.md",
+      "matched_actual_sha256": "195772489fe683f2a863e9d3af10143dc44b3a0555592d8c44f0f4262f7e87e7"
+    },
+    {
+      "kind": "source",
+      "path": "udt_positional_joint_compatibility_2026-09-14/CANDIDATE.md",
+      "matched_actual_sha256": "5a5e422c4fff56399ec34d4db7841d744dd6c0e2802e6da7dcded0b82f688d61"
+    },
+    {
+      "kind": "source",
+      "path": "udt_joint_observer_relation_scope_correction_2026-09-13/CORRECTION.md",
+      "matched_actual_sha256": "62b5fd42eac330c57b761593c8e3ecb2ccca1c6c3c12ef2aea90ef2964058aa2"
+    },
+    {
+      "kind": "source",
+      "path": "udt_field_equation_principle_design_2026-09-13/DECISION_PACKET.md",
+      "matched_actual_sha256": "f7e915dd01b4ffc803c6a55ab76310f5efc802971b060fbf9c4897c01c4118c5"
+    },
+    {
+      "kind": "source",
+      "path": "udt_field_equation_provenance_and_process_2026-09-13/DECISION_BRIEF.md",
+      "matched_actual_sha256": "7a64556a26864650f95c44aac6137c92e698f9da3533dd2bfbe14a8d003caff6"
+    },
+    {
+      "kind": "source",
+      "path": "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
+      "matched_actual_sha256": "fd556f5b8ba2dbe3b41b2077d82b9ecb9e09963030937e0b4ba352c0b60018c3"
+    },
+    {
+      "kind": "source",
+      "path": "udt_native_angular_premise_audit_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "b610be2000969776ca75b9b126a5c9c3d92e0d139b347100bd7cd362c2add59a"
+    },
+    {
+      "kind": "source",
+      "path": "udt_local_kernel_symmetry_release_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "7e8b9444a087d797eeb42931c14c48f93e718c88ab1870a79dbe61e609be1dc6"
+    },
+    {
+      "kind": "source",
+      "path": "udt_geometric_response_field_connection_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "593c3de470fb009ceaab5a2b012ba05b537231a8ca92c078f26d25e1dac59bde"
+    },
+    {
+      "kind": "source",
+      "path": "udt_native_field_connection_audit_2026-09-13/REVIEWED_AUDIT.md",
+      "matched_actual_sha256": "c0cf9a2221f929fbb2a0c3c5ca93985bfeb0de814e0166883b9837dc620b10cd"
+    },
+    {
+      "kind": "source",
+      "path": "udt_current_native_radiation_feasibility_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "35ff6515d1f35cf127daf25abaa62a41a56981e978afcb158f5f52e07333168f"
+    },
+    {
+      "kind": "source",
+      "path": "udt_geometric_field_choice_discrimination_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "c1075680e3052faeddc8ec7edad39a4db5d9128ce23dba33bc9cc029e74995df"
+    },
+    {
+      "kind": "source",
+      "path": "udt_broader_evolving_signal_geometry_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "9c8ba8a9e52ba15b8ebf49de3ab9a335c2bd8613bfd1983f75b744c9a29bffcd"
+    },
+    {
+      "kind": "source",
+      "path": "udt_joint_signal_shape_discrimination_2026-09-13/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "0528fb57e86fca7033be554f86e11ac63103fddeb4b5e84a10285ccbd8798b5a"
+    },
+    {
+      "kind": "source",
+      "path": "udt_observation_guided_function_search_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "f1dffa344c81154e533274495b70c6d884c65e6628b85a076c20400d7833b79c"
+    },
+    {
+      "kind": "source",
+      "path": "udt_common_geometry_whiteboard_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "b4bdb53716762b6bac91dc95dd867920c18892e82c425d701e28d1981929e0b9"
+    },
+    {
+      "kind": "source",
+      "path": "udt_clock_curvature_derivation_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "0afd91a8305d0f3cb6de78b0c5a275b861b15bd02db00900b7f3648eed28d852"
+    },
+    {
+      "kind": "source",
+      "path": "udt_finite_separation_law_2026-09-28/REVIEWED_RESULT.md",
+      "matched_actual_sha256": "1a1770b84ba184e2411cf4dac30e694bffec46a762bba618c2edf0d1df8b8740"
+    },
+    {
+      "kind": "source",
+      "path": "udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md",
+      "matched_actual_sha256": "b11326b4f316f675a9c3ecc596d47e33c0e39215c591fddde1013c37c68d2375"
+    },
+    {
+      "kind": "source",
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g274_projective_pair_position_network_descent_2026-08-26/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "8cee4fa46ea13c6101bbce8c94072a516d38ce0f863e3658a87bab4d77e7e18f"
+    },
+    {
+      "kind": "source",
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/INITIAL_CANDIDATE.md",
+      "matched_actual_sha256": "a2769dd02500970475225939f0606ba212bdde6b6a54a3bebdd5023ced1385e1"
+    },
+    {
+      "kind": "source",
+      "path": "udt_null_clock_depth_integrability_assessment_2026-09-10/REPAIR.md",
+      "matched_actual_sha256": "38f0bf9512a426e23e76acba8bca71dcef36b0d1e126ce5f45eabbe269b98dc4"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g212_observer_equivalence_history_bridge_whiteboard_2026-08-22/AUDIT_REPORT.md",
+      "matched_actual_sha256": "4d2176828922f0036bb65c106f6de3207f187e66e60d26669cdc1acaf24f93b1"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g201_primary_metric_phi_jet_regime_amplitude_2026-08-21/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "8c4361c3e11c7eaece17b7da9b7c47ee372989b99f495a68a1ec87d4a8b31951"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g260_gr_quiet_angular_nondiscard_audit_2026-08-25/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "de32fc105dfe9cdbc964959a67c46a0eee58f95566b2df4f2ce115c48b6776da"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g298_causal_diamond_to_pair_germ_transfer_2026-08-29/AUDIT_REPORT.md",
+      "matched_actual_sha256": "56f871522dd099bf6d45984045cff2aeb05e42176eea118e8b72303542f53872"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g300_metric_celestial_query_bundle_descent_2026-08-29/AUDIT_REPORT.md",
+      "matched_actual_sha256": "3ad7382bc3e005dac91199bf724f941a130ac8730935af1932c2b5f417413fa5"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g311_universal_reciprocity_full_covariant_response_2026-09-01/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "4fd4ca84d353018c02e32d49cf261de3472b3fafd74b0f268b0960653bdfd307"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g163_xmax_dependency_reversal_audit_2026-08-18/AUDIT_REPORT.md",
+      "matched_actual_sha256": "e7eda779c8496f269a0e94060a5824dd79b2b147af8186277236982ec2708670"
+    },
+    {
+      "kind": "source",
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md",
+      "matched_actual_sha256": "2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844"
+    },
+    {
+      "kind": "review",
+      "path": "udt_directional_clock_release_2026-09-14/review/REVIEW_RECORD.json",
+      "matched_actual_sha256": "1b29598c9f3841b2d0257809b737769a72367ef04ff13ba783c618d6a70e9fea"
+    },
+    {
+      "kind": "review",
+      "path": "udt_directional_clock_release_2026-09-14/review/REVIEW.md",
+      "matched_actual_sha256": "3104620ed79caed471e7752791e9e57ac516d06801c140d76e05b8b5975acb50"
+    },
+    {
+      "kind": "review",
+      "path": "udt_directional_clock_release_2026-09-14/REPAIR.md",
+      "matched_actual_sha256": "2a9ab4a1545725e6f71dfb91114e3ddbf97e89471fc8c9bb18a5485197f0fda2"
+    },
+    {
+      "kind": "review",
+      "path": "udt_finite_separation_reciprocity_2026-09-14/review/FINAL_REVIEW.md",
+      "matched_actual_sha256": "4b8f1980143def005c2f8268c7168ca024f2e3796f62c32058eb728ae425c252"
+    },
+    {
+      "kind": "review",
+      "path": "udt_finite_separation_reciprocity_2026-09-14/review/MAINTAINED_REVIEW.md",
+      "matched_actual_sha256": "12f938a15b5af5a7ec25df374cf382faf6dd6140d2145238c5c1b3010e1118c9"
+    },
+    {
+      "kind": "review",
+      "path": "udt_positional_joint_compatibility_2026-09-14/review/FINAL_REVIEW.md",
+      "matched_actual_sha256": "f5b7b5686011430996187c0c578b56bcc2c447640c64ee78790b514b67f6d2c4"
+    },
+    {
+      "kind": "review",
+      "path": "udt_positional_joint_compatibility_2026-09-14/review/MAINTAINED_REVIEW.md",
+      "matched_actual_sha256": "9f339becc860b240d9704d1fb143eb23071df43fa531e6d245c82243c1ee9c40"
+    },
+    {
+      "kind": "review",
+      "path": "udt_shared_geometry_extension_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "matched_actual_sha256": "736a997ab2596eecda1965581986ebe4267208713c6663fefa2a1851c5651629"
+    },
+    {
+      "kind": "review",
+      "path": "udt_shared_geometry_extension_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "matched_actual_sha256": "fa8a0ba3df2b1cabdf3e3e560482fba97ae3e689c7153ec57c516cdb281662b1"
+    },
+    {
+      "kind": "review",
+      "path": "udt_lorentz_kernel_transport_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "matched_actual_sha256": "8b35e0265512ddd75ce54766080b0744d285ea375eff6e8974fb9736f2a2caab"
+    },
+    {
+      "kind": "review",
+      "path": "udt_lorentz_kernel_transport_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "matched_actual_sha256": "7396c0b926e7fb4c436b0924c5135a35d0b0a693039e6e816128c162ebc18c4a"
+    },
+    {
+      "kind": "review",
+      "path": "udt_gr_commitment_audit_2026-09-29/review/math/DIRECT_REVIEW.md",
+      "matched_actual_sha256": "40bb1e4a27ffed28eac32cf05e964ed6f41f93ef62bfb67e6be05f668b66014a"
+    },
+    {
+      "kind": "review",
+      "path": "udt_gr_commitment_audit_2026-09-29/review/fidelity/DIRECT_REVIEW.md",
+      "matched_actual_sha256": "4a2a85c4acc600b157b3be3d7ffc24d407e07159d24c700e3b8bfc24ee71f64a"
+    }
+  ],
+  "present_map_conflicts": [],
+  "corrected_graph_check_pass": true,
+  "other_initial_receipt_checks": "All actual accepted-map hashes, partition, preserved initial snapshots, candidate bindings and generated excerpt passed; those checks are retained without rerunning scientific material."
+}

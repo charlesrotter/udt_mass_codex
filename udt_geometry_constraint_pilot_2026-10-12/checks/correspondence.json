@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "from pathlib import Path\nimport hashlib,json,re,subprocess\nbase=Path('.').resolve(); p=Path('udt_geometry_constraint_pilot_2026-10-12')\nsha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest()\nfreeze=json.loads((p/'INTEGRATION_FREEZE.json').read_text())\nprotected=('udt_native_onshell_timelive_reset_owner_audit_2026-08-10/','udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12/','udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12/','udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02/')\nfor s in freeze['accepted_sha256']:\n assert not Path(s).is_absolute() and '..' not in Path(s).parts and not s.startswith(protected),s\nfor s,h in freeze['accepted_sha256'].items(): assert sha(s)==h,s\nrecord=json.loads(Path('development_reconstruction_2026-09-29/REVIEW_RECORD.json').read_text())\nassert record['accepted_sha256']==freeze['accepted_sha256']\nfor r in record['reviewers']:\n d=json.loads(Path(r['attestation']).read_text())\n assert d['context']==r['context'] and d['verdict']=='ACCEPT_WITH_LIMITS'\n assert d['accepted_sha256']==record['accepted_sha256']\n assert sha(r['attestation'])==r['sha256'] and sha(d['report_path'])==d['report_sha256']\nexpected=set(freeze['inherited_changed'])|{'development_reconstruction_2026-09-29/REVIEW_RECORD.json'}\nactual=set(subprocess.check_output(['git','diff','--name-only','HEAD'],text=True).splitlines())\nassert actual==expected,actual\nold=json.loads((p/'BASELINE.json').read_text())['existing_untracked_names_only']\nnames=subprocess.check_output(['git','ls-files','--others','--exclude-standard'],text=True).splitlines()\nunrelated=[s for s in names if not s.startswith(str(p)+'/')]\nassert sorted(unrelated)==sorted(old)\nlinks=0\nfiles=[Path(q) for q in freeze['inherited_changed'] if q.endswith('.md')]+sorted(p.rglob('*.md'))\nfor f in files:\n for target in re.findall(r'\\]\\(([^)]+)\\)',f.read_text()):\n  if '://' in target or target.startswith('#'): continue\n  target=re.sub(r':\\d+$','',target.split('#')[0])\n  origin=f\n  assert (origin.parent/target).exists(),(str(f),target)\n  links+=1\nprint(json.dumps({'status':'PASS','frozen_hashes':len(freeze['accepted_sha256']),'local_links':links,'tracked_changes':sorted(actual),'unrelated_names_preserved':len(old),'scope':'Byte/routing/preservation correspondence only; no scientific reproof.'},indent=2))\n"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T02:40:05.385075+00:00",
+  "duration_seconds": 1.475206894101575,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 89032,
+  "forwarded_signals": [],
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "ce35f36d57c19342bcd5691aa1195e6c1afa4bcaf7baa7ae7cb585e49d37d0dd",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

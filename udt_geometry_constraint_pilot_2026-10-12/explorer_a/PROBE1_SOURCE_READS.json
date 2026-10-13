@@ -1,0 +1,58 @@
+{
+  "agent": "gcp_explorer_a",
+  "created_utc": "2026-10-13T02:18:57.224303+00:00",
+  "baseline_head": "cfeadd7116a39acffc388e3e03d81535a5d12187",
+  "initial_proposal_sha256": "892afe337d21f7b64e476e0e67dd3ed9955a13f37512148ed5b31c227fb17f91",
+  "initial_source_record_sha256": "64c2175823d2093874740f8ef03cd4fdb0891643841e8dab7ce6cfcb4938a924",
+  "probe_sha256": "ea0bd04b8be3b5f4db1960e1f59d18df237b449704db17163b3e184213a93a4f",
+  "exposure": "Initial proposal formed without B/coordinator-hypothesis exposure. After probe1 allocation, NOTEBOOK and frozen explorer_b/INITIAL_PROPOSAL were read with explicit parent authorization. No explorer_b probe output read. Existing source findings are prior exposure, not fresh review. Same-model explorer context, no human/different-model/empirical evidence.",
+  "method": "Exact hand argument. No scientific computation or external lookup was needed. No executable exact checks, floating point checks, grids, solver or GPU work performed.",
+  "resource_stop": "One substantive allocated logical/source probe completed. No third probe spent. Return stops at rejection of W4/W6-support-to-global-chronology inference; full UDT geometry admission untested.",
+  "read_command_failures": [
+    {
+      "command": "sed -n '1,180p' udt_geometry_constraint_pilot_2026-10-12/capture.py",
+      "result": "file does not exist; no execution attempted; no subsequent executable scientific probe required"
+    }
+  ],
+  "commands_relevant_to_probe": [
+    "cat udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md && cat udt_geometry_constraint_pilot_2026-10-12/explorer_b/INITIAL_PROPOSAL.md",
+    "cat udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/AUDIT_REPORT.md",
+    "sed -n '1,106p' udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/EXACT_DERIVATION.md",
+    "sed -n '205,264p' founding.md",
+    "sed -n '194,214p' founding.md",
+    "sed -n '98,158p' UDT_DEVELOPMENT.md",
+    "git rev-parse HEAD"
+  ],
+  "records": [
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md",
+      "read_scope": "Allocation and joint-route scope; read after allocation.",
+      "sha256": "b2fde8479f1453e9c2dee2537e847bbb09716a1b9ecebae5ab8191542d866d81"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_b/INITIAL_PROPOSAL.md",
+      "read_scope": "Whole frozen initial proposal, first B exposure after A initial freeze and explicit parent authorization.",
+      "sha256": "fd42a209b3c3733331ebcca23bbedcc172f8d42815481958b0016fb86fba2403"
+    },
+    {
+      "path": "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/AUDIT_REPORT.md",
+      "read_scope": "Whole audit; local-clock calibration contract and global population limit.",
+      "sha256": "6a22311cf8ab3c40943c34e9069e06c282e04b112bbd2821283ab4b9752e43b8"
+    },
+    {
+      "path": "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/EXACT_DERIVATION.md",
+      "read_scope": "Whole 106-line argument; initially heading search, then bounded full display.",
+      "sha256": "4fedf5d65715da1ef16ace2691315a00ed4cd8dc087f0d429dabfe86dc33b61d"
+    },
+    {
+      "path": "founding.md",
+      "read_scope": "Re-read lines194\u2013214 and205\u2013264 to display W4 and W6 independently without truncation.",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75"
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "read_scope": "Re-read98\u2013158 for exact local-clock, W4/W6, Local Metric Sufficiency and reciprocity distinctions.",
+      "sha256": "96dce78f3a4817449d7186c7fdbaedb215286a6d5c0f1295423270bcf2c64ec2"
+    }
+  ]
+}

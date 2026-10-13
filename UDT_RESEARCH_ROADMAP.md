@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-10-12: ROD1 research operating design after the PIA1 return. This is a direction document, not scientific
+Updated 2026-10-12: GCP1 bounded geometry-constraint pilot return. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,25 +12,28 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
 
-Charles questioned whether conditional calculations were advancing the native
-geometry question, then requested an updated approach using semi-autonomous
-agents. He authorized a concrete plan, tested against several past episodes,
-and a recommendation on ChatGPT desktop for Linux versus this Codex CLI workspace.
+Charles approved the ROD1 operating-method recommendations and a concrete GCP1
+charter aimed at extracting a new restriction from existing UDT commitments.
+The [authorized pilot record](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md)
+preserves two independently formed proposals, two source/argument probes and
+fresh adversarial review. Its scientific return is integrated in central D1GCP
+and R18; exact final attestations and required checks own closure.
 
-[UDT_RESEARCH_OPERATING_PLAN.md](UDT_RESEARCH_OPERATING_PLAN.md) is that process
-proposal. Its [fixed retrospective and review record](research_operating_design_2026-10-12/WORK_RECORD.md)
-distinguish useful conditional work from changes to the central physical question.
-The proposal reuses existing bounded-discovery and review rules while emphasizing
-independent question formation, sustained authorized exploration, continuation
-decisions and compact continuity. It is not a newly derived scientific result or
-evidence that procedural changes will produce a breakthrough.
+The pilot has no new native geometry-selection rule. It narrows one causal-support
+inference and retains ACI1's legitimate conditional asymptotic tests; no further
+generic confinement lemma was manufactured. This is neither full-postulate
+insufficiency nor evidence that another postulate is required. The unused third
+probe is a deliberate stop after no distinct in-scope inference was articulated.
 
-Next discuss one bounded pilot charter. The moderate-regime comparison proposed
-in PIA1/R18 is deferred pending this decision; it remains a possible application
-study, not a native-selection result or current dispatch. No pilot, installation,
-physical premise, solver or parked/protected restart is authorized by the plan.
-LIVE owns the exact operational return. Scientific argument, grades and sources
-remain unchanged by this method proposal.
+Next discuss the failed implications and one concrete physical connection worth
+testing. A successor must supply its actual source-supported argument or name
+any proposed added premise for a separate decision. The moderate-regime PIA1
+application remains deferred, not automatically authorized. ROD1's
+[operating plan](UDT_RESEARCH_OPERATING_PLAN.md) remains a method proposal tested
+in one pilot, not a demonstrated productivity improvement or scientific premise.
+Continue using the current CLI; no desktop installation or OS change follows.
+LIVE controls authorization; no new field law, empirical fit, long solve or
+parked/protected restart is implied.
 
 ## Earlier numerical-discovery direction — 2026-09-30
 

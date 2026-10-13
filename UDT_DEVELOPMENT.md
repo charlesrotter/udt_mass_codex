@@ -1,8 +1,8 @@
 # UDT — continuous scientific development
 
 <!-- DEVELOPMENT_ORIENTATION_BEGIN -->
-**Current development — PIA1 physical clock/source interface audited,
-2026-10-05.** This is the sole maintained scientific argument. The exact registry
+**Current development — GCP1 geometry-constraint pilot,
+2026-10-12.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
 
@@ -35,38 +35,32 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** PIA1 independently audits whether real clock/source
-protocols justify FRI1's observing regime and error bounds. Its supplied tail
-requires a TOTAL paired-clock ratio Z>54180, alongside particular source/
-receiver preparation. No complete physical admission is supplied by the three
-reviewed protocol classes: engineered atomic links, pulsar timing, or resolved
-megamaser monitoring. This is a scoped missing interface, not a no-go for UDT
-or every possible finite experiment.
+**Current learning.** GCP1 tested two independently proposed routes to a new
+restriction from existing commitments. Neither yielded a new native geometry
+exclusion. The precise new negative result concerns only the literal causal-
+support/local-clock conditions: they do not themselves imply global chronology.
+An exact smooth mathematical control demonstrates this without admitting that
+control as a physical UDT history. Global clock-state realizability remains a
+separate unproved bridge; local ordinary clock behavior is preserved.
 
-FRI1's finite H enclosure and short-record factor2 ambiguity survive under
-their original conditions. The longer synthetic interval's1.902% total width
-is not an experimental precision forecast. Precise clocks alone do not admit
-the geometry. Published source/model/frame reductions and statistical errors
-cannot silently replace actual clock ratios or all-time deterministic bounds.
+The other route retained ACI1's valid necessary tests for any explicitly proposed
+asymptotic clock realization. It did not derive another confinement bound with
+the same unresolved physical assignment. Selecting a diagnostic query remains
+legitimate; its net shift does not automatically isolate the additional positional
+effect. Two adverse routes do not establish full-postulate insufficiency or a
+need for another premise. One remaining probe was deliberately unused because
+no distinct in-scope inference was articulated.
 
-PIA1 derives a finite mean-frequency/mean-log conversion bound, retains source
-and receiver calibration separately, and explains how a justified JOINT error
-model could supply conditional coverage. No such physical model is adopted.
-c_E converts calibrated time; G_obs supplies no new mass interface. Matched GR
-still gives the same records; native geometry/comparison selection and X_max
-remain open.
+Existing conditional spacetime, clock, curvature, scale and observational tools
+remain at their original scopes. PIA1's physical-interface limits and FRI1's
+synthetic bounds are retained in R16PIA/R16FRI; no empirical precision or additional
+matched-GR prediction is inferred. Exact source-relative reviews and required
+checks own GCP1 closure; no scientific premise or CANON changes.
 
-Two actual fresh source-first/exposed/final contexts check the algebra and
-saved arithmetic; the fidelity reviewer also checks the five primary sources.
-Shared model and exposure limits, initial candidate and review clarifications
-are retained. Exact final bindings and required checks own closure.
-
-After orientation read R16PIA/R18, with R16FRI/R16TSI and R8ACP as dependencies.
-The proposed next bounded step is to test a specified moderate-ratio protocol
-for applicability and scale sensitivity or explicit ambiguity in the same
-conditional metric. The tail certificate does not transfer. Stop for lay
-discussion; no automatic successor, data fit, new physical premise, large solve
-or parked/protected program restart.
+After orientation read D1GCP and R8ACI/R8PRT/R18. Stop for lay discussion of the
+failed implications and the next specific physical connection to test. The older
+moderate-regime PIA1 application remains deferred. No automatic successor, new
+physical premise, empirical fit, GPU/long production or parked/protected restart.
 <!-- DEVELOPMENT_ORIENTATION_END -->
 
 ## 1. How this development is owned
@@ -155,6 +149,51 @@ Likewise, interpreting c_E through positional geometry is a founding postulate;
 requiring a separate explanation of why it is so is not a prerequisite. A
 counterfactual removal of this geometry is not defined by setting one pair's
 frequency contrast to zero. Equal received rates can coexist with finite timing.
+
+<a id="d1gcp"></a>
+
+**Causal support, global clock histories and the geometry-selection pilot — GCP1.**
+W6/G294's literal response condition is R(x,y)=0 for y outside J_g^-(x).
+This restricts a response relative to its metric. Together with ordinary local
+proper-time normalization, it does not itself prove that the metric contains
+no closed timelike curve. The exact diagnostic is the smooth flat quotient
+M=(R/LZ) times R^3, L>0, with g=-dtheta²+dx²+dy²+dz². Here dtheta descends from
+dt on the cover; theta is not a global real coordinate. The descending unit
+future field partial_t is parallel, and gamma(s)=([s],0,0,0) returns after L
+with proper-time integral L. Local metric clocks and null cones remain ordinary.
+For any two events, adding enough positive periods to a lift makes their time
+separation exceed their spatial separation; a straight future timelike segment
+then projects between them. Thus J_g^-(x)=M. A nonzero identity test response
+has diagonal support inside this set. This mathematical support witness is no
+physical field, DDR response or adopted law.
+
+A globally single-valued proper-time reading tau on that loop, with
+d tau(partial_t)=1, would instead require 0=integral d tau=L. Its impossibility does not contradict proper
+time on parametrized segments. The inspected sources do not establish that every
+geometric cycle is populated by a globally realizable material clock, or supply
+independent global interventions. The control refutes only the stated formal
+support-to-chronology inference; it neither admits a UDT causal loop nor establishes
+satisfaction of all UDT commitments. W6 still excludes responses outside J_g^- where that set
+has a nonempty exterior. No physical geometry is newly selected or excluded.
+
+GCP1's other independently formed route asked whether asymptotic slowing excludes
+compact temporal confinement with bounded endpoint boosts. ACI1 already gives a
+legitimate necessary-condition schema: any proposed realization with actual
+net Z tending to infinity cannot satisfy all hypotheses of an independently
+proved uniform finite-Z bound. This requires no complete field law or population selector before
+using the test. But choosing a query does not establish that its net ratio is the
+physical positional asymptote. PRT1's net and contrast options remain unadopted;
+a divergent contrast alone need not have divergent numerator. W6 supplies no
+clock-family assignment, uniform boost bound or temporal function. Combining the
+two routes therefore supplies neither missing join. The proposed new confinement
+lemma was not derived or asserted merely to repeat that conditional frontier.
+
+The [fixed candidate](udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md),
+[two probe records](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md),
+and [descendant review](udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md)
+retain the source quantifiers, controls and review history. This is a narrow
+failed-inference result and reuse decision, not a full-postulate countermodel,
+new physics, exhaustive search, or proof that an additional postulate is needed.
 
 ## 3. Foundational character and the bounded metric readout
 
@@ -1009,7 +1048,10 @@ identifies their net ratio with the additional positional contribution. Thus
 the requested native selection implication is not closed by this result.
 The founding interpretation remains fixed; no whole-postulate insufficiency
 or necessity for a new premise follows. Further generic bounds alone would
-not resolve this physical assignment.
+not resolve this physical assignment. GCP1 in D1GCP applies this distinction
+to a proposed compact-confinement extension: its source gate stopped the
+extension before another lemma, while preserving this necessary test of any
+explicitly declared realization.
 
 [Initial argument](udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md),
 [control supplement](udt_asymptotic_curvature_implication_2026-10-04/CONTROL_SUPPLEMENT.md)
@@ -5079,6 +5121,18 @@ are optional routes, not universal prerequisites for every clock consequence.
 
 ### R18. What can now be used, and what remains open
 
+**Current return — GCP1.** The two independently formed routes in D1GCP have
+returned without a new native geometry restriction. The literal support-to-
+chronology inference is defeated at its stated mathematical scope; the compact-
+confinement route stops before repeating ACI1's unclosed physical assignment.
+Initial proposals, objections, combination test and unused third probe remain
+visible. These are bounded decisions, not proof that the existing commitments
+cannot yield another implication. Retain the tools below. The next discussion
+must name a distinct physical connection and its source-owned or explicitly
+proposed status; neither a larger solve nor another generic bound follows
+from this return. LIVE controls authorization, and PIA1's older moderate-regime
+application remains deferred.
+
 R12T now supplies a three-coordinate metric engine, longer finite conditional
 histories and independently checked actual null-clock queries. TPP1 broadens
 initial data and adds tested production controls, with its failed original
@@ -5898,7 +5952,7 @@ founding premises are insufficient.
 Retained branches and omissions are explicit below. These results are useful;
 their original full proofs, repairs, qualifications and grades remain at source.
 CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
-and [56 later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+and [later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
 identify exact sources and reconstruction depth.
 
 | Retained work | Gain and limit |
@@ -5931,7 +5985,7 @@ it does not merely add another disconnected report.
 
 This is an18-result central reconstruction with actual core calculations,
 standard-method applications and explicitly retained source branches. All406
-registered rows have an editorial disposition;56 relevant later returns
+registered rows have an editorial disposition; relevant later returns
 are separately mapped. It does not claim to re-prove every historical result.
 Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
 the55-component optional analytic system, the eight signal packages, empirical
@@ -6584,6 +6638,15 @@ distinguishes same-model review from physical instrument validation. The
 [source-preserving repair](udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md)
 clarifies conditional coverage, base-history schedules, total-Z admission and
 actual instrument weighting. No FRI1 equation or registry grade changes.
+
+GCP1 uses two independently question-forming explorer contexts followed by two
+fresh source-first/direct/final review contexts. Its [notebook](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md)
+and [source/descendant analysis](udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md)
+record the exact hand argument, prior-result reuse, failed implication and stop
+reason. No scientific executable or numerical certification was needed. Model
+inheritance is shared; different-model, human, empirical and formal review remain
+untested. Actual final attestations and required regression receipts own closure;
+review does not adopt a global clock/causality axiom or a new physical assignment.
 
 The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
 fixes a real covector-basis sign in G310; the central nine-direction span and

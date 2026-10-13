@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-13T02:44:31.446680+00:00",
+  "results": {
+    "repository": {
+      "command": [
+        "gh",
+        "api",
+        "repos/charlesrotter/udt_mass_codex",
+        "--jq",
+        "{default_branch,archived,permissions}"
+      ],
+      "returncode": 0,
+      "stdout": "{\"archived\":false,\"default_branch\":\"main\",\"permissions\":{\"admin\":true,\"maintain\":true,\"pull\":true,\"push\":true,\"triage\":true}}\n",
+      "stderr": ""
+    },
+    "branch": {
+      "command": [
+        "gh",
+        "api",
+        "repos/charlesrotter/udt_mass_codex/branches/main",
+        "--jq",
+        "{name,protected,sha:.commit.sha,protection}"
+      ],
+      "returncode": 0,
+      "stdout": "{\"name\":\"main\",\"protected\":false,\"protection\":{\"enabled\":false,\"required_status_checks\":{\"checks\":[],\"contexts\":[],\"enforcement_level\":\"off\"}},\"sha\":\"cfeadd7116a39acffc388e3e03d81535a5d12187\"}\n",
+      "stderr": ""
+    },
+    "rules": {
+      "command": [
+        "gh",
+        "api",
+        "repos/charlesrotter/udt_mass_codex/rules/branches/main"
+      ],
+      "returncode": 0,
+      "stdout": "[]",
+      "stderr": ""
+    },
+    "refs": {
+      "command": [
+        "git",
+        "show-ref",
+        "--verify",
+        "refs/remotes/origin/main"
+      ],
+      "returncode": 0,
+      "stdout": "cfeadd7116a39acffc388e3e03d81535a5d12187 refs/remotes/origin/main\n",
+      "stderr": ""
+    }
+  }
+}

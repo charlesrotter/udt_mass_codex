@@ -2829,6 +2829,46 @@
         "C_FRI_SHAPE",
         "C_FRI_RECORD"
       ]
+    },
+    {
+      "id": "C_GCP_LITERAL",
+      "kind": "condition",
+      "statement": "Only literal metric-causal support plus ordinary local proper-time normalization are tested by the cycle control; no global material-clock realization or full UDT admission.",
+      "sources": [
+        "udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_GCP_GLOBAL",
+      "kind": "open_join",
+      "statement": "Global physical clock/intervention realization and any stronger native chronology implication remain unestablished by the inspected formal pieces.",
+      "sources": [
+        "udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "D1GCP",
+      "kind": "argument",
+      "anchor": "d1gcp",
+      "title": "Scoped causal-support inference test and asymptotic-bound reuse stop",
+      "sources": [
+        "udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md",
+        "udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1.md",
+        "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2.md",
+        "udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md",
+        "founding.md",
+        "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md",
+        "udt_geometry_constraint_pilot_2026-10-12/REVIEW_REPAIR.md"
+      ],
+      "registry_ids": [
+        "W6",
+        "G294"
+      ],
+      "required_conditions": [
+        "C_GCP_LITERAL"
+      ]
     }
   ],
   "edges": [
@@ -5831,6 +5871,41 @@
       "from": "R16PIA",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "C_GCP_LITERAL",
+      "to": "D1GCP",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "O_GCP_GLOBAL",
+      "to": "D1GCP",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "D1",
+      "to": "D1GCP",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "D1GCP",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACI",
+      "to": "D1GCP",
+      "kind": "context"
+    },
+    {
+      "from": "R8PRT",
+      "to": "D1GCP",
+      "kind": "context"
+    },
+    {
+      "from": "D1GCP",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -6165,7 +6240,13 @@
     "udt_physical_clock_interface_audit_2026-10-05/CONSTRUCTION_RESULT.json": "6b2981ae539c371159ed3d0c556dd405264d84844d32fb250321c2857f9c69b0",
     "udt_physical_clock_interface_audit_2026-10-05/check_interfaces.py": "3e37dd55d376f89ade317f67eb35833542263189a95e7aebf5385cb201d3eb3c",
     "udt_physical_clock_interface_audit_2026-10-05/CANDIDATE_FREEZE.json": "ff4f2875de8d8a050166599616a4139a686b065268b36de330a12a97a9f838a8",
-    "udt_physical_clock_interface_audit_2026-10-05/NUMERICAL_FREEZE.md": "b0247ddf692e9291ef774fcea1468f47d83f00e73c7bdabfd0920de7cde8bf7d"
+    "udt_physical_clock_interface_audit_2026-10-05/NUMERICAL_FREEZE.md": "b0247ddf692e9291ef774fcea1468f47d83f00e73c7bdabfd0920de7cde8bf7d",
+    "udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md": "539a0c7f37ef8bc645f83bdd25c46d28ff6d5619a6dd20e6234b68aa1354249c",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1.md": "ea0bd04b8be3b5f4db1960e1f59d18df237b449704db17163b3e184213a93a4f",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2.md": "2aca07d6f1b4a309aec195631c1636e5fcc500473159a4c3057b129f37b7b949",
+    "udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md": "6c4687c19ec79955b04e7bac73c6ecca5af910cf8db6e22ea71d83a88f56c2d9",
+    "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md": "2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844",
+    "udt_geometry_constraint_pilot_2026-10-12/REVIEW_REPAIR.md": "711f6334d2f4bd4719348386de94ee2c2c4726406cbdd20ead597de80d88e04c"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -10894,6 +10975,94 @@
         "R16PIA",
         "O_FRI_ADMISSION",
         "O_PIA_ADMISSION"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_math/SOURCE_FIRST.md",
+      "sha256": "1097063aed3ea5598ebf1fd0410bc5bffc4b0498352d54f56e7e573e2e402942",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_math/EXPOSED_REVIEW.md",
+      "sha256": "626b6f983c2241219d5ca444e73af368f22cdc2c8d385d5d6f1901564041ac5e",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/SOURCE_FIRST.md",
+      "sha256": "5c6448100715122a4c1f27fd8dde3a93d82839cb05fdc16f372d42ba82411c5d",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/EXPOSED_REVIEW.md",
+      "sha256": "d733d10037a812afca240d234697df1b973b1dfba21cea070926f9089c449b71",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/EXPOSED_TIMING_NOTE.md",
+      "sha256": "6c055d80195ff7036a32ff67c630ed3373fb5d9d75c25512838f09271a027828",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/REVIEW_REPAIR.md",
+      "sha256": "711f6334d2f4bd4719348386de94ee2c2c4726406cbdd20ead597de80d88e04c",
+      "role": "repair_scope",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_math/INTEGRATION_REPAIR_REQUEST.md",
+      "sha256": "a6be5e22f7ffd9aa14cdf910a267855815821032025b52364937a4ef0fc6694b",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/INTEGRATION_PRECISION_REVIEW.md",
+      "sha256": "1670c344f135feabc9a9ca797c643cf23475537a7ddd97d97a9c8e98a5db602b",
+      "role": "review_evidence",
+      "targets": [
+        "D1GCP",
+        "C_GCP_LITERAL",
+        "O_GCP_GLOBAL",
+        "R18"
       ]
     }
   ]

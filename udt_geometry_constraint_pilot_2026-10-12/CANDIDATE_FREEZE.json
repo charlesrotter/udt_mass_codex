@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-13T02:19:57.833615+00:00",
+  "exposure": "Parent candidate constructed after explorer probe messages and before reading either new reviewer argument; final explorer files then checked. This freezes the candidate, not scientific acceptance.",
+  "sha256": {
+    "udt_geometry_constraint_pilot_2026-10-12/WORK_ORDER.md": "ffbe1425ca52e4f0dca51213a48cbc5cf08f0035cca7b6468d634cd193745c45",
+    "udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md": "539a0c7f37ef8bc645f83bdd25c46d28ff6d5619a6dd20e6234b68aa1354249c",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_a/INITIAL_PROPOSAL.md": "892afe337d21f7b64e476e0e67dd3ed9955a13f37512148ed5b31c227fb17f91",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1.md": "ea0bd04b8be3b5f4db1960e1f59d18df237b449704db17163b3e184213a93a4f",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_a/SOURCE_READS.json": "64c2175823d2093874740f8ef03cd4fdb0891643841e8dab7ce6cfcb4938a924",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1_SOURCE_READS.json": "4f432cd3f327c1a1e1c5544f196e595262a6c0be9e0b72a1b3e20d33f8fd0bb5",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_b/INITIAL_PROPOSAL.md": "fd42a209b3c3733331ebcca23bbedcc172f8d42815481958b0016fb86fba2403",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2.md": "2aca07d6f1b4a309aec195631c1636e5fcc500473159a4c3057b129f37b7b949",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_b/SOURCE_READS.json": "700c51e5cf75470de213cf23ab6554eb045b83b85e6ecefea2707e115f01b52e",
+    "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2_SOURCE_READS.json": "4744481a567271fd9c4ce268452152cb9a87e13b5ad650907016f39f951ff339"
+  }
+}

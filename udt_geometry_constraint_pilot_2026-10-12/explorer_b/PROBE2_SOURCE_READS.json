@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-10-13T02:18:45.927890+00:00",
+  "probe": 2,
+  "kind": "Source/argument audit; no mathematical confinement lemma or numerical solve",
+  "initial_proposal_sha256_preserved": "fd42a209b3c3733331ebcca23bbedcc172f8d42815481958b0016fb86fba2403",
+  "head_measured": "cfeadd7116a39acffc388e3e03d81535a5d12187",
+  "prior_source_record_sha256": "700c51e5cf75470de213cf23ab6554eb045b83b85e6ecefea2707e115f01b52e",
+  "sources": [
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md",
+      "sha256": "b2fde8479f1453e9c2dee2537e847bbb09716a1b9ecebae5ab8191542d866d81",
+      "read_scope": "Full allocation as read at probe2 start"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_a/INITIAL_PROPOSAL.md",
+      "sha256": "892afe337d21f7b64e476e0e67dd3ed9955a13f37512148ed5b31c227fb17f91",
+      "read_scope": "Full first cross-exposure after both proposals frozen and probe allocation"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_b/INITIAL_PROPOSAL.md",
+      "sha256": "fd42a209b3c3733331ebcca23bbedcc172f8d42815481958b0016fb86fba2403",
+      "read_scope": "Own frozen proposal; preservation check only in this turn"
+    },
+    {
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/SOURCE_PINS.json",
+      "sha256": "9f1208aa2d2da8d3101fe269dffc36ce9c7d23fc1d439260db3cf13940a1b784",
+      "read_scope": "Full source routing, not claim to read every listed source"
+    },
+    {
+      "path": "udt_positional_requirement_translation_2026-10-04/PARENT_SOURCE_RECORD.json",
+      "sha256": "01e3c7da339ec64dad45841a5e880450c732d014b07f245e1dc8a20f31a95bf7",
+      "read_scope": "Full prior-source provenance and routing"
+    },
+    {
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md",
+      "sha256": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+      "read_scope": "Full direct original received-tick clarification and open quantifiers"
+    },
+    {
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT.md",
+      "sha256": "c1e5dd8e35e9b84d4c84e01a77afe09683e13b8276b4222adac0cb1ff0c35b44",
+      "read_scope": "Targeted asymptote/owner search; lines101-125 G294 owner-record limits"
+    },
+    {
+      "path": "udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md",
+      "sha256": "95ed91cca818cd6f1b7de819396f61ad2a24dc741f763334ed52e7bf769ad1b1",
+      "read_scope": "Lines1-110: original PSW coefficient derivation and open J1"
+    },
+    {
+      "path": "udt_positional_requirement_translation_2026-10-04/PRECISION.md",
+      "sha256": "4cd6e9a4908bbd5192321f21c8101c492a81fe909d7e66bdb507644f17e85dbb",
+      "read_scope": "Full controlling record incl asymptotic-contrast caution"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md",
+      "sha256": "aa57035504c19a42586d8266d863d7973d543b884872b6fd636d61e9f80e4859",
+      "read_scope": "Prior 1-130 retained; new targeted asymptote search and lines220-251 exact physical necessary-condition return"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/WORK_ORDER.md",
+      "sha256": "f35396e3ad156128ab994dd02fa7b0e703d531cb244c48f0031d0fe0dd357b99",
+      "read_scope": "Targeted search and lines26-42 routing original owner asymptote"
+    },
+    {
+      "path": "UDT_RESEARCH_ROADMAP.md",
+      "sha256": "5ae21dd13b081428f20138ddf63d4d5760a52efd69fc85491e8504d70a1b41b1",
+      "read_scope": "Targeted asymptote search; lines160-204 including preserved owner quotation, not method-as-premise"
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/OWNER_INPUT.md",
+      "sha256": "acd87e92083a407e84aee9bce0bb0649daddb1e8cd62ed49c5d9a071887662ac",
+      "read_scope": "Full recorded owner input; not independently recovered verbatim conversation"
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md",
+      "sha256": "2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844",
+      "read_scope": "Lines1-245: exact typing, no-foliation and support argument; start of section7 control not used or reproduced"
+    },
+    {
+      "path": "udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md",
+      "sha256": "7dd39a4840390f15fcedc2ae0e588f51e441b4348eaf0f0f8d9b81968b60d8e4",
+      "read_scope": "Lines1-90 actual clock derivation and direction composition; lines150-210 physical family and closure scope"
+    }
+  ],
+  "exposure": "Parent allocated probe2 and asked necessity-versus-native-exclusion question. Explorer A frozen proposal first read in this turn after initial independent freeze. No A probe2/probe1 result or fresh reviewer argument read. Prior source conclusions were exposed. Same-model explorer; no human/different-model/empirical review.",
+  "omissions": "No broad corpus proof, no confinement lemma, no exact-source reproof of all prior results, no new actual-clock family, no global topology control, no reserved third probe, no full406 rerun."
+}

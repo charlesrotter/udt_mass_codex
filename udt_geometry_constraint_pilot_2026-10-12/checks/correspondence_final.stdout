@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "frozen_hashes": 14630,
+  "local_links": 355,
+  "tracked_changes": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "LIVE.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_OPERATING_PLAN.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv",
+    "development_reconstruction_2026-09-29/REVIEW_RECORD.json"
+  ],
+  "unrelated_names_preserved": 76,
+  "scope": "Byte/routing/preservation correspondence only; no scientific reproof."
+}

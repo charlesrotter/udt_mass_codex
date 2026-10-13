@@ -1,0 +1,120 @@
+{
+  "agent": "gcp_explorer_a",
+  "role": "independent same-model fresh-context explorer",
+  "created_utc": "2026-10-13T02:12:40.401972+00:00",
+  "head": "cfeadd7116a39acffc388e3e03d81535a5d12187",
+  "parent_startup_attribution": "Coordinator completed top-level startup and synchronized to baseline; baseline full406 is attributed to research_operating_design_2026-10-12/checks/premises.json, returncode 0, 413.307s, as reported by parent. Explorer did not independently rerun or inspect that receipt.",
+  "own_checks": "git rev-parse HEAD and git status --short --branch; protected dirt names observed only, no protected payload read/hash/edit; initial source hashes computed below.",
+  "exposure": "Parent task/work order and initial packet; no explorer_b or coordinator proposal read. Existing central scientific arguments deliberately inspected. No substantive probe executed. No independent reviewer claim.",
+  "output_truncation_disclosure": "Combined functions.exec outputs occasionally exceeded default max output; scopes above distinguish inspected portions from whole-file requests. W6 and G294 section6 read in visible bounded outputs.",
+  "records": [
+    {
+      "path": "AGENTS.md",
+      "read_scope": "Whole file; working-method authority.",
+      "sha256": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+      "initial_pin_match": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "read_scope": "Lines 1\u201383 and 121\u2013134; heading index also inspected.",
+      "sha256": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+      "initial_pin_match": true
+    },
+    {
+      "path": ".claude/skills/no-shortcuts/SKILL.md",
+      "read_scope": "Whole file; task-triggered method protocol.",
+      "sha256": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+      "initial_pin_match": null
+    },
+    {
+      "path": ".claude/skills/completeness-map/SKILL.md",
+      "read_scope": "Whole file; task-triggered method protocol.",
+      "sha256": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+      "initial_pin_match": null
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/WORK_ORDER.md",
+      "read_scope": "Whole file.",
+      "sha256": "ffbe1425ca52e4f0dca51213a48cbc5cf08f0035cca7b6468d634cd193745c45",
+      "initial_pin_match": null
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/SOURCE_PINS.json",
+      "read_scope": "Whole file; initial packet pin comparisons recorded below.",
+      "sha256": "904414400b8930a8e41c47c9d73078d76288a231691975c1e392853d8508dcdb",
+      "initial_pin_match": null
+    },
+    {
+      "path": "UDT_DEVELOPMENT.md",
+      "read_scope": "Heading/targeted-pattern indexes; lines 98\u2013354,359\u2013391,484\u2013599,647\u2013810,910\u20131026,1159\u20131305,3010\u20133045,4608\u20134707,4710\u20134810,5080\u20135150,5280\u20135340,5380\u20135470. Some combined tool outputs were truncated; no claim of reading the whole file.",
+      "sha256": "96dce78f3a4817449d7186c7fdbaedb215286a6d5c0f1295423270bcf2c64ec2",
+      "initial_pin_match": true
+    },
+    {
+      "path": "founding.md",
+      "read_scope": "Whole-file cat requested but combined output truncated: observed main definitions/F1\u2013F4/W1\u2013W6, sections 3\u20136 and closing reference/lay packet; sections beyond displayed portions not claimed fully read. Exact W6 visible and load-bearing.",
+      "sha256": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+      "initial_pin_match": true
+    },
+    {
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "read_scope": "Heading/keyword index and lines 16\u2013140; historical later action/wall sections not opened as premises.",
+      "sha256": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "initial_pin_match": true
+    },
+    {
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md",
+      "read_scope": "Whole audit report.",
+      "sha256": "65905b6b2718fd9c1057143a7148104bb14d7e65eeee3bdc7a7010af8cbe90eb",
+      "initial_pin_match": true
+    },
+    {
+      "path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md",
+      "read_scope": "Whole file.",
+      "sha256": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+      "initial_pin_match": true
+    },
+    {
+      "path": "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md",
+      "read_scope": "Whole file; mandatory closest-prior stop.",
+      "sha256": "fd556f5b8ba2dbe3b41b2077d82b9ecb9e09963030937e0b4ba352c0b60018c3",
+      "initial_pin_match": true
+    },
+    {
+      "path": "CURRENT_SCIENTIFIC_PREMISES.tsv",
+      "read_scope": "Only exact G294 row queried via csv; wide registry otherwise not read.",
+      "sha256": "7a3d69d5a0bc3ac98e2ebe2bb0c6d029df30071bf403baffed2223a193dc720b",
+      "initial_pin_match": true
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/OWNER_INPUT.md",
+      "read_scope": "Whole file.",
+      "sha256": "acd87e92083a407e84aee9bce0bb0649daddb1e8cd62ed49c5d9a071887662ac",
+      "initial_pin_match": null
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/AUDIT_REPORT.md",
+      "read_scope": "Whole file.",
+      "sha256": "de171479ff682ece888d005f0ab6f00410b609364ca653510fcc13a86a0700e0",
+      "initial_pin_match": null
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md",
+      "read_scope": "Heading/causal-keyword index and lines 1\u2013225; controlling support/correlation/foliation arguments, no full later counterfamily read.",
+      "sha256": "2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844",
+      "initial_pin_match": null
+    },
+    {
+      "path": "native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md",
+      "read_scope": "Lines 1\u2013142; mandatory topology audit orientation only, no carrier premise imported into proposed spacetime-causality question.",
+      "sha256": "df0171eb83d75ad175727a8db541df8500b7826edf6059ae63a52f1a1ba15bea",
+      "initial_pin_match": null
+    },
+    {
+      "path": "native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv",
+      "read_scope": "Whole 12-row ledger; orientation only, no carrier/topology scientific claim proposed.",
+      "sha256": "de154fbb7787759864786c04186a26a4605c447d362112bb482acee064d457e4",
+      "initial_pin_match": null
+    }
+  ]
+}

@@ -5,8 +5,8 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — PIA1 physical clock/source interface audited,
-2026-10-05.** This is the sole maintained scientific argument. The exact registry
+**Current development — GCP1 geometry-constraint pilot,
+2026-10-12.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
 
@@ -39,38 +39,32 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** PIA1 independently audits whether real clock/source
-protocols justify FRI1's observing regime and error bounds. Its supplied tail
-requires a TOTAL paired-clock ratio Z>54180, alongside particular source/
-receiver preparation. No complete physical admission is supplied by the three
-reviewed protocol classes: engineered atomic links, pulsar timing, or resolved
-megamaser monitoring. This is a scoped missing interface, not a no-go for UDT
-or every possible finite experiment.
+**Current learning.** GCP1 tested two independently proposed routes to a new
+restriction from existing commitments. Neither yielded a new native geometry
+exclusion. The precise new negative result concerns only the literal causal-
+support/local-clock conditions: they do not themselves imply global chronology.
+An exact smooth mathematical control demonstrates this without admitting that
+control as a physical UDT history. Global clock-state realizability remains a
+separate unproved bridge; local ordinary clock behavior is preserved.
 
-FRI1's finite H enclosure and short-record factor2 ambiguity survive under
-their original conditions. The longer synthetic interval's1.902% total width
-is not an experimental precision forecast. Precise clocks alone do not admit
-the geometry. Published source/model/frame reductions and statistical errors
-cannot silently replace actual clock ratios or all-time deterministic bounds.
+The other route retained ACI1's valid necessary tests for any explicitly proposed
+asymptotic clock realization. It did not derive another confinement bound with
+the same unresolved physical assignment. Selecting a diagnostic query remains
+legitimate; its net shift does not automatically isolate the additional positional
+effect. Two adverse routes do not establish full-postulate insufficiency or a
+need for another premise. One remaining probe was deliberately unused because
+no distinct in-scope inference was articulated.
 
-PIA1 derives a finite mean-frequency/mean-log conversion bound, retains source
-and receiver calibration separately, and explains how a justified JOINT error
-model could supply conditional coverage. No such physical model is adopted.
-c_E converts calibrated time; G_obs supplies no new mass interface. Matched GR
-still gives the same records; native geometry/comparison selection and X_max
-remain open.
+Existing conditional spacetime, clock, curvature, scale and observational tools
+remain at their original scopes. PIA1's physical-interface limits and FRI1's
+synthetic bounds are retained in R16PIA/R16FRI; no empirical precision or additional
+matched-GR prediction is inferred. Exact source-relative reviews and required
+checks own GCP1 closure; no scientific premise or CANON changes.
 
-Two actual fresh source-first/exposed/final contexts check the algebra and
-saved arithmetic; the fidelity reviewer also checks the five primary sources.
-Shared model and exposure limits, initial candidate and review clarifications
-are retained. Exact final bindings and required checks own closure.
-
-After orientation read R16PIA/R18, with R16FRI/R16TSI and R8ACP as dependencies.
-The proposed next bounded step is to test a specified moderate-ratio protocol
-for applicability and scale sensitivity or explicit ambiguity in the same
-conditional metric. The tail certificate does not transfer. Stop for lay
-discussion; no automatic successor, data fit, new physical premise, large solve
-or parked/protected program restart.
+After orientation read D1GCP and R8ACI/R8PRT/R18. Stop for lay discussion of the
+failed implications and the next specific physical connection to test. The older
+moderate-regime PIA1 application remains deferred. No automatic successor, new
+physical premise, empirical fit, GPU/long production or parked/protected restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

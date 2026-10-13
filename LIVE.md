@@ -1,13 +1,15 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — ROD1 research operating design, 2026-10-12
+## CURRENT STATE — GCP1 geometry-constraint pilot return, 2026-10-12
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. PIA1 remains the scientific checkpoint. For the present method task,
-after orientation read UDT_RESEARCH_OPERATING_PLAN.md and its fixed design record.
+orientation. GCP1 is the current scoped return, in
+udt_geometry_constraint_pilot_2026-10-12/. WORK_ORDER owns authorization and
+NOTEBOOK records exploration/review; exact final attestations and check receipts
+own closure. PIA1 and earlier science retain their original scopes.
 
 After FRI1 at0c5386a6, Charles authorized an independent physical clock/source
 audit of the observation regime and uncertainty bounds. PIA1 evidence is in
@@ -23,12 +25,17 @@ plus a Linux desktop/CLI recommendation. ROD1's scope, retrospective and actual
 reviews are in research_operating_design_2026-10-12/. Scientific source bytes and
 grades are unchanged; operational review bindings and checks own this checkpoint.
 
-Next: Stop for lay discussion of the operating plan and proposed first pilot.
-The earlier moderate-regime successor in R18/PIA1 and the generated scientific
-orientation is deferred as a recommendation, not current authorization. No pilot,
-desktop installation, new physical premise, source law, empirical fit, GPU/long
-production or parked/protected restart follows automatically. Standing
-preservation, no-timeout/manual-stop and resource rules persist.
+Charles approved the GCP1 charter, then explicitly resumed an accidental halt.
+Two fresh explorers formed questions independently, completed two bounded
+source/argument probes and stopped without spending the third on another generic
+bound. Two further fresh contexts perform source-first/direct/final review.
+Original candidates and actual review evidence are preserved; no premise is adopted.
+
+Next: Finish any pending final review/check/banking gates in GCP1, then
+Stop for lay discussion of the return and the next specific physical connection.
+No automatic successor. The earlier moderate-regime PIA1 application is deferred.
+No new physical premise, empirical fit, desktop installation, GPU/long production,
+CANON change or parked/protected restart is authorized. Preserve existing dirt.
 
 ### Honest claim
 
@@ -61,11 +68,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Discuss UDT_RESEARCH_OPERATING_PLAN.md before choosing another investigation.
-ROD1 is a process proposal, not scientific convergence or adoption. Its first
-pilot requires a concrete approved charter; no new science was performed here.
-Verify actual final review, checks and banking evidence. Existing science remains
-in central R16PIA/R18; pauses/protected boundaries persist. TPS1 raw fields/large
-streams remain local-only, not remotely replayable.
+Verify the actual GCP1 final attestations, normal/maintenance/full406 receipts,
+committed bytes and remote state. Stop for lay discussion after closure. The
+central development owns the narrow scientific return and retained tools;
+this pilot did not establish a new native selection rule or full insufficiency.
+Pauses/protected boundaries persist. TPS1 raw fields/large streams remain
+local-only, not remotely replayable.
 
 <!-- STARTUP_CURRENT_END -->

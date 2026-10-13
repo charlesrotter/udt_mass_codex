@@ -1,0 +1,125 @@
+{
+  "created_utc": "2026-10-13T02:24:39.345746+00:00",
+  "reviewer": "/root/gcp_review_math",
+  "verdict": "VERIFIED-WITH-CAVEATS__SCOPED_NEGATIVE_AND_PRIOR_RESULT_REUSE",
+  "required_repairs": [],
+  "candidate_sha256": "539a0c7f37ef8bc645f83bdd25c46d28ff6d5619a6dd20e6234b68aa1354249c",
+  "report_sha256": "626b6f983c2241219d5ca444e73af368f22cdc2c8d385d5d6f1901564041ac5e",
+  "source_first_sha256": "1097063aed3ea5598ebf1fd0410bc5bffc4b0498352d54f56e7e573e2e402942",
+  "source_first_json_sha256": "8f1df4b948842583f9aacd4cc011a86e8c9d270e7f21c51a6656466d271329d7",
+  "byte_check_sha256": "d6244f643d8b49127a61bdef18db0f3a999ea73aba3b1f8a0fe0a92e36fb6ec0",
+  "candidate_exposure": "After own source-first freeze and READY message; parent declared candidate already frozen before reading reviewer reasoning. Candidate/explorer outputs then inspected; no blind-direct-review claim.",
+  "independence": {
+    "context": "FRESH_SEPARATE",
+    "model": "SAME_INHERITED; EXACT_RUNTIME_IDENTIFIER_UNAVAILABLE",
+    "argument": "SOURCE_FIRST reconstruction plus exposed attacks; direct analytic checks",
+    "implementation": "NOT_COMPUTATIONAL_FOR_SCIENTIFIC_CLAIMS",
+    "different_model": "UNTESTED",
+    "human": "UNTESTED",
+    "empirical": "UNTESTED",
+    "formal": "UNTESTED"
+  },
+  "newly_exposed_sources": [
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md",
+      "sha256": "539a0c7f37ef8bc645f83bdd25c46d28ff6d5619a6dd20e6234b68aa1354249c",
+      "read_scope": "entire frozen candidate"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/CANDIDATE_FREEZE.json",
+      "sha256": "09952d99694f097cb0ea59f9bfaf3d6156adfd260b579c68414f414400926d56",
+      "read_scope": "entire record and all 10 bindings checked"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_a/INITIAL_PROPOSAL.md",
+      "sha256": "892afe337d21f7b64e476e0e67dd3ed9955a13f37512148ed5b31c227fb17f91",
+      "read_scope": "entire frozen proposal"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1.md",
+      "sha256": "ea0bd04b8be3b5f4db1960e1f59d18df237b449704db17163b3e184213a93a4f",
+      "read_scope": "entire probe"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_a/PROBE1_SOURCE_READS.json",
+      "sha256": "4f432cd3f327c1a1e1c5544f196e595262a6c0be9e0b72a1b3e20d33f8fd0bb5",
+      "read_scope": "entire record"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_b/INITIAL_PROPOSAL.md",
+      "sha256": "fd42a209b3c3733331ebcca23bbedcc172f8d42815481958b0016fb86fba2403",
+      "read_scope": "entire frozen proposal"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2.md",
+      "sha256": "2aca07d6f1b4a309aec195631c1636e5fcc500473159a4c3057b129f37b7b949",
+      "read_scope": "entire probe"
+    },
+    {
+      "path": "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2_SOURCE_READS.json",
+      "sha256": "4744481a567271fd9c4ce268452152cb9a87e13b5ad650907016f39f951ff339",
+      "read_scope": "entire record"
+    },
+    {
+      "path": "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/OWNER_INPUT.md",
+      "sha256": "acd87e92083a407e84aee9bce0bb0649daddb1e8cd62ed49c5d9a071887662ac",
+      "read_scope": "entire owner-input record; not treated as independently recovered verbatim conversation"
+    },
+    {
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md",
+      "sha256": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+      "read_scope": "entire original owner clarification"
+    },
+    {
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/AUDIT_REPORT.md",
+      "sha256": "c1e5dd8e35e9b84d4c84e01a77afe09683e13b8276b4222adac0cb1ff0c35b44",
+      "read_scope": "lines 101-127: G294 owner-input and translation scope"
+    },
+    {
+      "path": "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/AUDIT_REPORT.md",
+      "sha256": "6a22311cf8ab3c40943c34e9069e06c282e04b112bbd2821283ab4b9752e43b8",
+      "read_scope": "entire file; global-population caveat checked, historical checks not rerun"
+    },
+    {
+      "path": "udt_g252_local_proper_clock_same_object_attachment_contract_2026-08-24/EXACT_DERIVATION.md",
+      "sha256": "4fedf5d65715da1ef16ace2691315a00ed4cd8dc087f0d429dabfe86dc33b61d",
+      "read_scope": "entire 106-line local contract"
+    },
+    {
+      "path": "udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md",
+      "sha256": "aa57035504c19a42586d8266d863d7973d543b884872b6fd636d61e9f80e4859",
+      "read_scope": "newly read lines 220-251 including exact section7 necessary-condition scope; prior source-first ranges retained"
+    }
+  ],
+  "additional_search_exposure": "A targeted rg over udt_g252*/*.md exposed matching lines in the G252 map, preregistrations, banking notes, historical external/repair reviews and command records. Those historical review verdicts were not transferred, replayed or used as evidence for chronology. Load-bearing G252 audit/derivation were then read in full and pinned above.",
+  "actual_checks": [
+    "All 10 candidate-freeze bindings match",
+    "All 25 source-first source bindings match; source-first report unchanged",
+    "Exact quotient descent/signature/time orientation/flatness",
+    "Future timelike displacement via extra winding",
+    "Unit geodesic and segment proper-duration identity",
+    "Global clock-state period contradiction separated from local proper time",
+    "Nonzero response support does not supply chronological ordering",
+    "Finite bound contrapositive quantifiers",
+    "Net ratio vs contrast divergence",
+    "Original owner and G252 source-ownership challenge",
+    "Decision to stop and unused probe3 challenged"
+  ],
+  "scientific_programs_run": 0,
+  "gpu_processes_launched": 0,
+  "new_generic_bound_derived": false,
+  "confinement_lemma_proved": false,
+  "whole_udt_countermodel_claimed": false,
+  "final_integration_attestation": false,
+  "checks_not_repeated": [
+    "G294 and G252 scientific programs",
+    "ACI1 full proof",
+    "Full406",
+    "Maintenance/normal guards",
+    "Empirical confirmation",
+    "Full corpus review"
+  ],
+  "continuation_verdict": "Scoped stop justified by absent articulated source-owned join; not exhaustion theorem or permanent stop.",
+  "sources_mutated": false,
+  "git_mutated": false
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-13T02:26:47.721915+00:00",
+  "files": {
+    "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/EXPOSED_REVIEW.md": "d733d10037a812afca240d234697df1b973b1dfba21cea070926f9089c449b71",
+    "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/EXPOSED_REVIEW_PINS.json": "ab9da7fe2297897942d26eac9934a1bbc6d31f2bbf9af9b8dfe6ed92b6a2a7f5",
+    "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/EXPOSED_CHECKS.json": "391bb07a4845c1f02ecc2a6bc122cebd6ba10ed7d2fbefea5fc757291150ce1f",
+    "udt_geometry_constraint_pilot_2026-10-12/review_fidelity/EXPOSED_TIMING_NOTE.md": "6c055d80195ff7036a32ff67c630ed3373fb5d9d75c25512838f09271a027828"
+  },
+  "candidate_verdict": "VERIFIED-WITH-CAVEATS",
+  "final_integration_verdict": "PENDING_ACTUAL_FILE_REVIEW"
+}
