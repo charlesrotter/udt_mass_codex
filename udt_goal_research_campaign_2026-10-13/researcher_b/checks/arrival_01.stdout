@@ -1,0 +1,131 @@
+{
+  "kind": "float64 direct arrival-map diagnostic, not interval proof",
+  "python": "3.10.12",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "runs": [
+    {
+      "rtol": 1e-11,
+      "atol": 1e-13,
+      "max_step": 0.002,
+      "h": 0.0001,
+      "outgoing": [
+        {
+          "emission": -0.0001,
+          "arrival_t": 0.2510827043172135,
+          "arrival_r": 0.2509830810325057,
+          "arrival_tau": 0.25058666182446954,
+          "original_null_incidence_residual": 0.0
+        },
+        {
+          "emission": 0,
+          "arrival_t": 0.25118349844069154,
+          "arrival_r": 0.25098387200483746,
+          "arrival_tau": 0.2506872526473955,
+          "original_null_incidence_residual": 0.0
+        },
+        {
+          "emission": 0.0001,
+          "arrival_t": 0.25128429288794824,
+          "arrival_r": 0.2509846632996234,
+          "arrival_tau": 0.25078784378839425,
+          "original_null_incidence_residual": 5.551115123125783e-17
+        }
+      ],
+      "returns": [
+        {
+          "relay_t": 0.25108349844069155,
+          "relay_tau": 0.2505874543462297,
+          "return_t": 0.502266209013285,
+          "original_return_incidence_residual": 9.8879238130678e-17
+        },
+        {
+          "relay_t": 0.25118349844069154,
+          "relay_tau": 0.2506872526473955,
+          "return_t": 0.5023669968813829,
+          "original_return_incidence_residual": 1.6805133673525319e-16
+        },
+        {
+          "relay_t": 0.25128349844069153,
+          "relay_tau": 0.25078705094358783,
+          "return_t": 0.5024677850656653,
+          "original_return_incidence_residual": 1.0061396160665481e-16
+        }
+      ],
+      "p_fd": 1.0059098196235627,
+      "q_fd": 1.0099172783920995,
+      "p_endpoint": 1.0059098196166656,
+      "q_endpoint": 1.0099172783832546,
+      "p_difference": 6.8971495181813225e-12,
+      "q_difference": 8.844924792583697e-12,
+      "energy_max_abs_residual": 1.1102230246251565e-16,
+      "normalization_max_abs_residual": 2.220446049250313e-16,
+      "normalization_note": "uses proper rate from metric and is algebraic; energy residual is independent trajectory diagnostic",
+      "E_from_trajectory": 0.998044963916957,
+      "v_proper": 0.007864855699708576
+    },
+    {
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_step": 0.001,
+      "h": 5e-05,
+      "outgoing": [
+        {
+          "emission": -5e-05,
+          "arrival_t": 0.2511331013384809,
+          "arrival_r": 0.2509834764783655,
+          "arrival_tau": 0.250636957196174,
+          "original_null_incidence_residual": 1.1102230246251565e-16
+        },
+        {
+          "emission": 0,
+          "arrival_t": 0.25118349844069193,
+          "arrival_r": 0.25098387200483774,
+          "arrival_tau": 0.25068725264739594,
+          "original_null_incidence_residual": 2.220446049250313e-16
+        },
+        {
+          "emission": 5e-05,
+          "arrival_t": 0.2512338956238475,
+          "arrival_r": 0.25098426761192355,
+          "arrival_tau": 0.2507375481781359,
+          "original_null_incidence_residual": 2.220446049250313e-16
+        }
+      ],
+      "returns": [
+        {
+          "relay_t": 0.25113349844069194,
+          "relay_tau": 0.2506373534974346,
+          "return_t": 0.5023166029078121,
+          "original_return_incidence_residual": -2.8975303059675106e-17
+        },
+        {
+          "relay_t": 0.25118349844069193,
+          "relay_tau": 0.25068725264739594,
+          "return_t": 0.5023669968813838,
+          "original_return_incidence_residual": -5.971243464963916e-17
+        },
+        {
+          "relay_t": 0.2512334984406919,
+          "relay_tau": 0.25073715179611394,
+          "return_t": 0.5024173909340017,
+          "original_return_incidence_residual": 3.74049749507499e-17
+        }
+      ],
+      "p_fd": 1.0059098196191218,
+      "q_fd": 1.0099172783842847,
+      "p_endpoint": 1.0059098196166656,
+      "q_endpoint": 1.0099172783832546,
+      "p_difference": 2.4562574196806963e-12,
+      "q_difference": 1.0300649222472202e-12,
+      "energy_max_abs_residual": 1.1102230246251565e-16,
+      "normalization_max_abs_residual": 2.220446049250313e-16,
+      "normalization_note": "uses proper rate from metric and is algebraic; energy residual is independent trajectory diagnostic",
+      "E_from_trajectory": 0.998044963916957,
+      "v_proper": 0.007864855699708613
+    }
+  ],
+  "p_change": -4.440892098500626e-12,
+  "q_change": -7.814859870336477e-12,
+  "all_assertions_passed": true
+}

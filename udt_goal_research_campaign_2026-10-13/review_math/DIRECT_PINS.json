@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-13T04:10:56.797292+00:00",
+  "scope": "Initial direct review before sibling exposure and supplement review; scientific arguments in DIRECT_REVIEW",
+  "sha256": {
+    "udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md": "07c14efd301fc3337e747fd312d647265454c61e6791e22c5420df6b3b7377fb",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/FREEZE.json": "3ff17e96f1da8252bf7b62372295e7995f38a87e54f2938f2fbcbbe8d015dda4",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md": "298cc123ff41eaef4b33136f6a29ab2fbc0cdc2376847b8f562ae82e21a5a316",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/FREEZE.json": "6e844231c0749df9d0a534e640ddec0de44874d22b54375f6cd604eab3d4282e",
+    "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md": "94c2c04cb766aafe79e02666f34b5b08525a1067a67d01c87491817419ef494c",
+    "udt_goal_research_campaign_2026-10-13/NOTEBOOK.md": "582457b6e458415f0c2aaa07559b08abdc215f82921df97a18512b696fcad632",
+    "udt_goal_research_campaign_2026-10-13/coordinator/checks/schwarzian.stdout": "e18d0a4ad475c711e90035a7efc7c0651a650c45c2cb5fb8c31e29f540127631",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/checks/arrival_01.stdout": "2f35663eab8d1846409ad198cf9e9fba3814249fbcfee1daa1cf2dbf79864f9c",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/checks/algebra_01.stdout": "3078b4e53510b35c20c45a93b0db8b5e88c34e1e5fdf6f5c1b6369bac1af922a",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/checks/spherical_01.stdout": "b33157a77f2f475b149d48c8a51a651f451acc1ab2cfa85809bd290aa54bd2e0",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/spherical.stdout": "d68de5c84b53221db68d9f1902bed5facdf52332bffc7bdd08c2aa219fe7333d",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/clock_map.stdout": "c03772e1060c9e1dc8f1271d5c3a46930708d0e4b58b2919f094c38ea3b1a4bb",
+    "udt_time_live_production_survey_2026-10-01/capture.py": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc",
+    "udt_goal_research_campaign_2026-10-13/review_math/SOURCE_FIRST.md": "c2967375d72ffcf1f86be8a4797da5f3522e49c0978ca60fcd62b414435f2bb3",
+    "udt_goal_research_campaign_2026-10-13/review_math/SOURCE_PINS.json": "1cdc19872f91fbb9611b7a477aff60f4c2746f6d0548fa0b5ac233e83cc7055c",
+    "udt_goal_research_campaign_2026-10-13/review_math/DIRECT_REVIEW.md": "9025ebc4b44019c520da1ee40129326e1c416465fe564ef5b65050de80ac8c98",
+    "udt_goal_research_campaign_2026-10-13/review_math/CHECK_PLAN.md": "6134ad629f8d5de8200df2ceb6da6cc25f6ed16601055b66cf56886db3b4423b",
+    "udt_goal_research_campaign_2026-10-13/review_math/independent_check.py": "b9ba8ca07b1acde936faf78c35795dca0974001bf3edec08ef63b6eb707fb004",
+    "udt_goal_research_campaign_2026-10-13/review_math/check_01.stdout": "d95e258a89616d6cf049a00aa243500a2a3e7c93a847bf68a1368ebad4b77256",
+    "udt_goal_research_campaign_2026-10-13/review_math/check_01.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_goal_research_campaign_2026-10-13/review_math/check_01.json": "ba884f16c8510f96dbe41cca1f4030b2b3a87254d5f730588f5fd775448887d3"
+  }
+}

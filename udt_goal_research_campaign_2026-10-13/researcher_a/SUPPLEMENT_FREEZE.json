@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-13T04:12:26.620924+00:00",
+  "baseline_head": "89b4b473bed869f5ca296e9bfc67559a3c9ceaff",
+  "actual_head": "89b4b473bed869f5ca296e9bfc67559a3c9ceaff",
+  "branch": "grok",
+  "state": "UNREVIEWED_SUPPLEMENT_AND_FIRST_BOUNDED_REPAIR",
+  "initial_candidate_unchanged": true,
+  "files": {
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md": "0a07aae750ca6912c2a32c25331580271e839ac6255feff56f9d59f98a9837b3",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md": "e837c68114e0b694512251361cabde6f1e04a864761c3929482ccde70d07e87d",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SOURCES.md": "ead032d3e8dd9b86a90954645d4d6b5ed9e3a47d885edebd87f3cdd3d270d97e",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/NOTES.md": "74eb5cedca021b805e2c2397d208aebb035502d2f129463445aa03f93ff9d549",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_optical_conformal.py": "a34458ca36c10f9da4c5d08b4519ee0e09f57540c74aa9d4b0c833141a8d7eb5",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.initial.py": "47c75e5ac3f3a2aebe5117fbf287ecd9c30e4a639d8b4c8657ae0bc02bb79e1b",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.stdout": "33e5ce6c8cf56c86b3414cec4ca24e55cfd9650244dd148381269a1f2b432406",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.stderr": "31ce2ce41f4ab5e601a63487e777fe507c32b652b8d6597cd86cb74e239ceec2",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.json": "28c66ea26c9ed06bf198c8d2df91926d94d97f205f72ba7edb80647aba2e46ba",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stdout": "60aff8ab056ab66a43433c46863db1a8ac8a8afde9493520b26b79fa90de9e97",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.json": "6b4706f773194b45a906ca37474696d6c9769ba8b40a3b0bb1c85ca0baf84140"
+  },
+  "source_versions": {
+    "UDT_DEVELOPMENT.md": "ee4816a468998532c301ab7cf3ac169fc968270e9d081e293fc06e665f0e0bcb",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md": "a0472a66148a6e46857161488b09b11131bdd39fbf708256a43cea1bb1f60281",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10"
+  },
+  "limits": "Same-author exact checks. Primary URL/equation access record in REVIEW_REPAIR.md. No inference of truth or chronology from hashes. Physical trials unadopted; final two-context reviews pending."
+}

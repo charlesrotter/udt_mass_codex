@@ -1,0 +1,19 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "incidence": true,
+    "actual_map_equals_frequency": true,
+    "not_NAR_reciprocal": true,
+    "affine_t_equation": true,
+    "affine_r_equation": true,
+    "null_equation": true,
+    "exp_integrated_mismatch": true
+  },
+  "passed": true,
+  "Z_actual": "sqrt(s)/(2*L + s**2)**(1/4)",
+  "Z_NAR": "(2*L + s**2)**(1/4)/sqrt(s)",
+  "exp_M": "s/sqrt(2*L + s**2)",
+  "domain": "s=1+te>0,L>0,r_e>0; outward regular rays; q=1+t",
+  "meaning": "Actual finite ray incidence and proper clock map, exact symbolic; supplied control only."
+}

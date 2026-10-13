@@ -1,15 +1,16 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — goal-directed research method, 2026-10-13
+## CURRENT STATE — GRC1 conditional research return, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. GCP1 is the current scoped return, in
-udt_geometry_constraint_pilot_2026-10-12/. WORK_ORDER owns authorization and
-NOTEBOOK records exploration/review; exact final attestations and check receipts
-own closure. PIA1 and earlier science retain their original scopes.
+orientation. GRC1's scoped conditional return is in
+udt_goal_research_campaign_2026-10-13/. WORK_ORDER owns authorization,
+NOTEBOOK records discovery, and actual final attestations plus check receipts
+own closure. Prior results retain their original scopes. Verify actual HEAD,
+remote refs, dirt and required checks rather than inferring completion from prose.
 
 After FRI1 at0c5386a6, Charles authorized an independent physical clock/source
 audit of the observation regime and uncertainty bounds. PIA1 evidence is in
@@ -42,15 +43,21 @@ UDT_RESEARCH_OPERATING_PLAN.md distinguish exploratory unadopted assumptions fro
 accepted UDT dependencies. The method implementation and review are recorded in
 research_goal_orientation_2026-10-13/. It changes no scientific result or grade.
 
-Next: finish this method update's actual review/check/banking gates, then frame
-the concrete research campaign around the persistent goal and explicit resources.
-Routine in-scope failed ideas redirect researchers; they do not automatically
-end a campaign or require Charles to choose the next calculation. Stop for lay discussion
-at its declared return point or a real scope/resource/owner decision. The earlier
-moderate-regime PIA1 application remains deferred. This method update itself
-launches no scientific solve, unspecified long run or background service.
-No scientific premise adoption, empirical fit, desktop installation, GPU/long
-production, CANON change or parked/protected restart follows. Preserve existing dirt.
+The method update closed at89b4b473 with actual reviews and required checks.
+Charles then authorized GRC1: “proceed. and you can give it 3 hours.” Its dispatch
+is udt_goal_research_campaign_2026-10-13/WORK_ORDER.md. BASELINE records
+start03:32:22 UTC and exploration checkpoint06:32:22 UTC on2026-10-13. The team
+reached a substantive conditional return early and transitioned to two fresh
+reviews, source-preserving repair and central integration. No three-hour solve
+or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
+Original proposals, failed routes, actual reviewer reports and version bindings
+remain in that package. Scientific premises, registry grades and CANON are unchanged.
+Next: complete any outstanding final review/check/publication gate, then
+Stop for lay discussion of the fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
+No automatic successor research follows. The earlier PIA1 application stays
+deferred; no empirical fit, desktop installation, GPU/long production, physical
+premise adoption or parked/protected restart is authorized by this return.
+Preserve existing unrelated dirt and all pauses.
 
 ### Honest claim
 
@@ -83,12 +90,12 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Verify the method update's actual reviews, relevant regressions, committed bytes
-and remote state. Use the updated operating plan to frame the goal-based campaign;
-do not treat GCP1's two rejected routes as its agenda or a universal stop.
-The central development retains the unchanged scientific return and tools;
-GCP1 established neither a new native selection rule nor full insufficiency.
-Pauses/protected boundaries persist. TPS1 raw fields/large streams remain
-local-only, not remotely replayable.
+GRC1 returns for lay discussion after its two actual final attestations, required
+normal/maintenance/full406 checks and publication. Exact evidence owns completion;
+verify any outstanding gate. The scientific argument is central R7GRC/R8GRC/R18;
+DECISION_BRIEF is a fixed discussion packet, not another maintained summary.
+No assumption is adopted and no successor starts automatically. Pauses/protected
+boundaries persist. TPS1 raw fields/large streams remain local-only, not remotely
+replayable. Verify actual process, HEAD, dirt and synchronization.
 
 <!-- STARTUP_CURRENT_END -->

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-13T04:14:38.848860+00:00",
+  "scope": "PRT1 lines1\u2013185; full MAINTENANCE; source-preserving prior attribution repair pending final integration",
+  "sha256": {
+    "udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md": "094d55da5829235c130f45bb15b2cc2226c6aa3aa14f26212f6f5346de631c89",
+    "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+    "udt_goal_research_campaign_2026-10-13/review_math/PRIOR_SCOPE_ADDENDUM.md": "20a1ec77ba24576a6fab6144e2ba9ccb0333d5d825fc1e2e37d6674f7fc592de"
+  }
+}

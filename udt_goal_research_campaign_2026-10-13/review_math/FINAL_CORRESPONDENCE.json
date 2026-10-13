@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-13T04:22:50.810451+00:00",
+  "freeze_sha256": "f11f4f2289730b27688fe93abef2f3f2dd46bcda94a8588fa132ec772cc68cf5",
+  "initial_freeze_sha256": "7dee4ca228f513be62fae0abce92cdf15b887a806825ab39939a3f767d6650da",
+  "accepted_count": 14735,
+  "inherited_prior_count": 14640,
+  "inherited_unchanged_map_count": 14631,
+  "changed_actual_hashes_checked": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "added_actual_hash_count": 95,
+  "actual_hash_checks_passed": true,
+  "prior_map_preserved_except_declared_changes": true,
+  "changed_since_first": [
+    "UDT_DEVELOPMENT.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "udt_goal_research_campaign_2026-10-13/DECISION_BRIEF.md",
+    "udt_goal_research_campaign_2026-10-13/WORK_RECORD.md"
+  ],
+  "added_since_first": [
+    "udt_goal_research_campaign_2026-10-13/INITIAL_INTEGRATION_FREEZE.json",
+    "udt_goal_research_campaign_2026-10-13/INTEGRATION_REPAIR.md"
+  ],
+  "generated_orientation_identical": true,
+  "limits": "All changed/new actual bytes hashed;14631 unchanged inherited hashes compared to prior reviewed map, not rehashed/reproved. No protected/unrelated payload traversed. Hashes do not substitute for substantive reviews."
+}

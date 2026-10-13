@@ -2869,6 +2869,92 @@
       "required_conditions": [
         "C_GCP_LITERAL"
       ]
+    },
+    {
+      "id": "C_GRC_RADIAL",
+      "kind": "condition",
+      "statement": "UNADOPTED separate trials: universal recurrent null line with stated C2 quiet recovery; or spherical r>0,F>0 Kodama test clocks with the two-direction actual endpoint law Z=sqrt(Fo/Fe). Not joint assumptions and not a preferred global center. NAR is total radial Ricci zero.",
+      "sources": [
+        "udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md",
+        "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_GRC_CLOCK_OPTICAL",
+      "kind": "condition",
+      "statement": "UNADOPTED PSW matched g,g0,I,proper L/preparation/units/regular branch and PRT1 all-frame sign S. F is a separately optional no-extra-null-defocusing inequality; mean-only variant instead declares Ricci-flat reference, all-frame mean sign and the separately supplied TOTAL Ric_g(k,k)>=0 optical condition F0. F is the matched Delta Ric condition; F0 is total Ricci in the stated reference sector. Branch-specific hypotheses, not a conjunction for every result.",
+      "sources": [
+        "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md",
+        "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md",
+        "udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_GRC_CONFORMAL",
+      "kind": "condition",
+      "statement": "UNADOPTED optional conformal physical change and canonical tangent matching. C2 additionally uses S+F and Weyl-nonzero open region. CNR instead uses S, positive inverse factor, connected null-Ricci-zero reference with complete reference affine null lines. Physical causal completeness is not reference completeness.",
+      "sources": [
+        "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md",
+        "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_GRC_ADMISSION",
+      "kind": "open_join",
+      "statement": "Physical positional attribution, actual reference/matching, directional versus mean sign, optical condition and native metric/source/scale selection remain open. Conditional controls and GR-shaped classes are not adoption, observation or general UDT exclusions.",
+      "sources": [
+        "udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md",
+        "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R7GRC",
+      "kind": "argument",
+      "anchor": "r7grc",
+      "title": "Conditional radial clock law and universal recurrent-null quiet-limit obstruction",
+      "sources": [
+        "udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md",
+        "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_GRC_RADIAL"
+      ]
+    },
+    {
+      "id": "R8GRC",
+      "kind": "argument",
+      "anchor": "r8grc",
+      "title": "Clock-sign null-screen cone, optical rigidity, spherical finite witness and mean/conformal discriminators",
+      "sources": [
+        "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md",
+        "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md",
+        "udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md",
+        "udt_goal_research_campaign_2026-10-13/DESCENDANT_REVIEW.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_GRC_CLOCK_OPTICAL",
+        "C_GRC_CONFORMAL"
+      ]
     }
   ],
   "edges": [
@@ -5906,6 +5992,86 @@
       "from": "D1GCP",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "C_GRC_RADIAL",
+      "to": "R7GRC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_GRC_CLOCK_OPTICAL",
+      "to": "R8GRC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "C_GRC_CONFORMAL",
+      "to": "R8GRC",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "O_GRC_ADMISSION",
+      "to": "R7GRC",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "O_GRC_ADMISSION",
+      "to": "R8GRC",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "D1",
+      "to": "R7GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R6",
+      "to": "R7GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R7",
+      "to": "R7GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R7GRC",
+      "to": "R8GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R8",
+      "to": "R8GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R8PCC",
+      "to": "R8GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R8PRT",
+      "to": "R8GRC",
+      "kind": "proof"
+    },
+    {
+      "from": "R13OJM",
+      "to": "R8GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R8ACI",
+      "to": "R8GRC",
+      "kind": "context"
+    },
+    {
+      "from": "R7GRC",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R8GRC",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -6246,7 +6412,14 @@
     "udt_geometry_constraint_pilot_2026-10-12/explorer_b/PROBE2.md": "2aca07d6f1b4a309aec195631c1636e5fcc500473159a4c3057b129f37b7b949",
     "udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md": "6c4687c19ec79955b04e7bac73c6ecca5af910cf8db6e22ea71d83a88f56c2d9",
     "udt_g294_nonsignalling_copresence_network_architecture_2026-08-29/EXACT_DERIVATION.md": "2d7173af941e550bc79d66fcd25bf7bec9e171a962c79f881353b10301323844",
-    "udt_geometry_constraint_pilot_2026-10-12/REVIEW_REPAIR.md": "711f6334d2f4bd4719348386de94ee2c2c4726406cbdd20ead597de80d88e04c"
+    "udt_geometry_constraint_pilot_2026-10-12/REVIEW_REPAIR.md": "711f6334d2f4bd4719348386de94ee2c2c4726406cbdd20ead597de80d88e04c",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md": "07c14efd301fc3337e747fd312d647265454c61e6791e22c5420df6b3b7377fb",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md": "0a07aae750ca6912c2a32c25331580271e839ac6255feff56f9d59f98a9837b3",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md": "e837c68114e0b694512251361cabde6f1e04a864761c3929482ccde70d07e87d",
+    "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md": "253686b3a3370f9a6ff63d261e937293877339bc6661e71c879b9fff21e6834d",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md": "298cc123ff41eaef4b33136f6a29ab2fbc0cdc2376847b8f562ae82e21a5a316",
+    "udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md": "94c2c04cb766aafe79e02666f34b5b08525a1067a67d01c87491817419ef494c",
+    "udt_goal_research_campaign_2026-10-13/DESCENDANT_REVIEW.md": "076c6c6c775dc5d718e79fbfada0ead0bf8e41b0833020d7de77b9d6ba79fc36"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -11062,6 +11235,116 @@
         "D1GCP",
         "C_GCP_LITERAL",
         "O_GCP_GLOBAL",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md",
+      "sha256": "e837c68114e0b694512251361cabde6f1e04a864761c3929482ccde70d07e87d",
+      "role": "repair_scope",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md",
+      "sha256": "253686b3a3370f9a6ff63d261e937293877339bc6661e71c879b9fff21e6834d",
+      "role": "repair_scope",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/DESCENDANT_REVIEW.md",
+      "sha256": "076c6c6c775dc5d718e79fbfada0ead0bf8e41b0833020d7de77b9d6ba79fc36",
+      "role": "repair_scope",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_math/DIRECT_REVIEW.md",
+      "sha256": "9025ebc4b44019c520da1ee40129326e1c416465fe564ef5b65050de80ac8c98",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_math/SUPPLEMENT_REVIEW.md",
+      "sha256": "6f7010089de8a89a75fee2c579b60fe0e36115a3cd8de43744aed0cef37aa2df",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_math/REPAIR_REVIEW.md",
+      "sha256": "ea8437ced94dfc172db031c8e2b6e9d67872fdf08591d76452d564c24c86db04",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_math/PRIOR_SCOPE_ADDENDUM.md",
+      "sha256": "20a1ec77ba24576a6fab6144e2ba9ccb0333d5d825fc1e2e37d6674f7fc592de",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_fidelity/INITIAL_FINDINGS.md",
+      "sha256": "f1e36325df7a69d767ba250dd9b778ce31eee75b57f391e1c0453c409a86022c",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_fidelity/SUPPLEMENT_REVIEW.md",
+      "sha256": "d4cb494eff877ff6b14894d5cf5ff7a1df2cde38e7cd0ff395e9086fe1361bca",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/review_fidelity/PRIOR_WORK_ADDENDUM.md",
+      "sha256": "4841d718097a0f9ec99ef11f977b85a8ce746e3868115f52a90109874252e5cc",
+      "role": "review_evidence",
+      "targets": [
+        "R7GRC",
+        "R8GRC",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_goal_research_campaign_2026-10-13/INTEGRATION_REPAIR.md",
+      "sha256": "10d671d49673cf3a637933d45756396e1d49453d0f6f209c7ff96a9f138d7ca6",
+      "role": "repair_scope",
+      "targets": [
+        "R8GRC",
+        "C_GRC_CLOCK_OPTICAL",
         "R18"
       ]
     }

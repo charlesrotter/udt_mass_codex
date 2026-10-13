@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-13T04:35:04.364862+00:00",
+  "status": "PASS_WITH_RETAINED_FORMATTING_DIAGNOSTICS",
+  "staged_byte_check": "All124 originally staged paths matched exact working bytes; unrelated76-name set unchanged, no unstaged tracked changes.",
+  "whitespace_check_returncode": 2,
+  "diagnostics": [
+    "udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md:410: new blank line at EOF.",
+    "udt_goal_research_campaign_2026-10-13/researcher_b/RESEARCH_NOTES.md:237: new blank line at EOF."
+  ],
+  "disposition": "Two final blank lines in frozen original B evidence are retained intentionally. No trailing-space, conflict-marker or other diagnostic occurred. Do not rewrite accepted historical evidence merely to remove harmless final blank lines. This is a packaging exception, not a waived scientific test or changed candidate.",
+  "scientific_gate_status": "Normal,57 maintenance and full406 passed. All14735 accepted bytes rechecked unchanged after staging.",
+  "capture": "checks/staged_whitespace.json"
+}

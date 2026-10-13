@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_optical_conformal.py"
+  ],
+  "cwd": "/home/udt-admin/udt_mass_codex",
+  "started_utc": "2026-10-13T04:05:39.783405+00:00",
+  "duration_seconds": 1.4845825238153338,
+  "returncode": 1,
+  "wall_timeout_seconds": null,
+  "cpu_timeout_seconds": null,
+  "address_space_bytes": 2147483648,
+  "memory_scope": "Process virtual address limit",
+  "maxrss_kib": 62792,
+  "forwarded_signals": [],
+  "stdout_sha256": "33e5ce6c8cf56c86b3414cec4ca24e55cfd9650244dd148381269a1f2b432406",
+  "stderr_sha256": "31ce2ce41f4ab5e601a63487e777fe507c32b652b8d6597cd86cb74e239ceec2",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

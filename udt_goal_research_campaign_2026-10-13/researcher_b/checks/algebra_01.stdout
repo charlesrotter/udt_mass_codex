@@ -1,0 +1,34 @@
+{
+  "kind": "exact rational/symbolic finite anchors; analytic quantifiers remain in proof",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "algebraic_curvature_variables": 21,
+  "bianchi_rank": 1,
+  "null_ray_count": 18,
+  "screen_equations": 54,
+  "combined_rank": 20,
+  "nullspace_dimension": 1,
+  "nullspace_is_spaceform": true,
+  "weyl_control": {
+    "ricci": "Matrix([[-3*kappa, 0, 0, 0], [0, 3*kappa, 0, 0], [0, 0, 3*kappa, 0], [0, 0, 0, 3*kappa]])",
+    "unboosted_clock_coefficients": [
+      "4",
+      "1",
+      "1"
+    ],
+    "boost": [
+      "5/4",
+      "0",
+      "0",
+      "3/4"
+    ],
+    "boosted_coefficient": "-11/16"
+  },
+  "cosh_metric": {
+    "electric": "-1",
+    "spatial": "tanh(t)**2",
+    "null_ricci_unit_k": "-2/cosh(t)**2"
+  },
+  "vertex_area_quadratic": "-q11/6 - q22/6",
+  "all_assertions_passed": true
+}

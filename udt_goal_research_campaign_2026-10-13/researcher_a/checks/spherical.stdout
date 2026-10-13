@@ -1,0 +1,36 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "schwarzschild_radial_boost": true,
+    "schwarzschild_transverse_boost": true,
+    "null_hessian_sum": true,
+    "null_hessian_difference": true,
+    "kodama_lie_tt": true,
+    "kodama_lie_rr": true,
+    "kodama_lie_tr": true,
+    "reciprocal_dynamic_plus": true,
+    "reciprocal_dynamic_minus": true,
+    "ef_first_direction_affine": true,
+    "ef_first_hessian": true,
+    "ef_second_hessian": true,
+    "ef_radial_ricci_first": true,
+    "ef_radial_ricci_second": true
+  },
+  "passed": true,
+  "outputs": {
+    "schwarzschild_boost_coefficients": [
+      "2*mu/r**3",
+      "-mu/r**3"
+    ],
+    "diagonal_null_hessian_sum": "-A(t, r)*Derivative(B(t, r), r)/B(t, r) - Derivative(A(t, r), r)",
+    "diagonal_null_hessian_difference": "-2*sqrt(A(t, r))*Derivative(B(t, r), t)/sqrt(B(t, r))",
+    "reciprocal_dynamic_null_hessians": [
+      "Derivative(q(t, r), t)/q(t, r)",
+      "-Derivative(q(t, r), t)/q(t, r)"
+    ],
+    "ef_second_null_hessian": "Derivative(F(v, r), v)/2",
+    "ef_second_radial_ricci": "-Derivative(F(v, r), v)/r"
+  },
+  "meaning": "Exact coordinate recomputation and symbolic identities; no adoption, source equation or global coverage."
+}

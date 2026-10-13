@@ -5,8 +5,8 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — GCP1 geometry-constraint pilot,
-2026-10-12.** This is the sole maintained scientific argument. The exact registry
+**Current development — GRC1 clock/optical research return,
+2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
 
@@ -39,32 +39,35 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** GCP1 tested two independently proposed routes to a new
-restriction from existing commitments. Neither yielded a new native geometry
-exclusion. The precise new negative result concerns only the literal causal-
-support/local-clock conditions: they do not themselves imply global chronology.
-An exact smooth mathematical control demonstrates this without admitting that
-control as a physical UDT history. Global clock-state realizability remains a
-separate unproved bridge; local ordinary clock behavior is preserved.
+**Current learning.** GRC1 pursued explicitly unadopted physical connections
+across failed first ideas. Requiring every prepared laboratory's additional
+leading clock contrast to be nonnegative constrains the additional null optical
+tides to be nonpositive. A separate prohibition of extra null defocusing makes
+the difference isotropic. Neither physical condition follows merely from ordinary
+clocks or no preferred observer. The resulting isotropic class overlaps PCC1;
+the new content is the conditional clock-to-optics implication and its alternatives.
 
-The other route retained ACI1's valid necessary tests for any explicitly proposed
-asymptotic clock realization. It did not derive another confinement bound with
-the same unresolved physical assignment. Selecting a diagnostic query remains
-legitimate; its net shift does not automatically isolate the additional positional
-effect. Two adverse routes do not establish full-postulate insufficiency or a
-need for another premise. One remaining probe was deliberately unused because
-no distinct in-scope inference was articulated.
+Radial optical neutrality is weaker. In a declared spherical sector, an actual
+areal-clock endpoint law forces reciprocal static form but leaves its radial
+function free. The clock-sign trial then imposes inequalities on that function.
+A supplied anisotropic quartic witness has a proved finite released-clock exchange
+with both future legs redshifted; held clocks behave differently. It is neither
+a fitted nor a native-selected metric. A weaker angular-mean trial, in a declared
+Ricci-flat reference sector and with a separate optical inequality, gives the
+Einstein Ricci class while retaining Weyl tides. No response E is identified.
 
-Existing conditional spacetime, clock, curvature, scale and observational tools
-remain at their original scopes. PIA1's physical-interface limits and FRI1's
-synthetic bounds are retained in R16PIA/R16FRI; no empirical precision or additional
-matched-GR prediction is inferred. Exact source-relative reviews and required
-checks own GCP1 closure; no scientific premise or CANON changes.
+Physical attribution, reference/sector choice, optical law, scale and matter
+coupling remain open. The candidates restrict geometry conditionally; they do
+not establish an additional UDT prediction or derive a new native field equation.
+Existing positive and negative results retain their scopes, including GCP1's
+literal-support nonimplication, PSW1's open physical join and PIA1/FRI1's limits.
+Exact argument reviews and required checks own GRC1 closure; no premise or CANON
+change is made. These results do not establish full-postulate insufficiency.
 
-After orientation read D1GCP and R8ACI/R8PRT/R18. Stop for lay discussion of the
-failed implications and the next specific physical connection to test. The older
-moderate-regime PIA1 application remains deferred. No automatic successor, new
-physical premise, empirical fit, GPU/long production or parked/protected restart.
+After orientation read R7GRC/R8GRC and R18. Stop for lay discussion of the physical
+clock/optical alternatives and their unresolved attribution, rather than another
+arbitrary profile survey. LIVE owns authorization. The older moderate-regime PIA1
+application remains deferred; no automatic successor or protected restart.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

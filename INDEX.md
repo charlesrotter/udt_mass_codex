@@ -13,6 +13,8 @@
 ## One development and its evidence
 
 - [Maintained argument: definitions and R1–R18](UDT_DEVELOPMENT.md).
+- [Clock/optical research connection: R7GRC/R8GRC](UDT_DEVELOPMENT.md#r8grc);
+  [GRC1 fixed discussion packet](udt_goal_research_campaign_2026-10-13/DECISION_BRIEF.md).
 - [Numerical comparison return: R12N](UDT_DEVELOPMENT.md#r12n);
   [NGD1 fixed execution plan/evidence](udt_gpu_time_live_discovery_2026-09-30/PLAN.md).
 - [Coverage of all406 grades](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)

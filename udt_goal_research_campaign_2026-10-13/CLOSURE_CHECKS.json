@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-13T04:33:43.515385+00:00",
+  "status": "PASS_PREBANKING",
+  "checks": {
+    "final_guard": {
+      "capture": "udt_goal_research_campaign_2026-10-13/checks/final_guard.json",
+      "capture_sha256": "a5815da7227f91ebd04fb92d8f11a5938ce7a2a595a18ce2f89bc88bbe272bea",
+      "command": [
+        "python3",
+        "verify_udt_development.py"
+      ],
+      "returncode": 0,
+      "duration_seconds": 1.747064588824287
+    },
+    "final_maintenance": {
+      "capture": "udt_goal_research_campaign_2026-10-13/checks/final_maintenance.json",
+      "capture_sha256": "2d88a8ee68de5fe5089f56b0c2d0941c9bc0e1984bc76447b6ba5f882ac4ca2d",
+      "command": [
+        "python3",
+        "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+      ],
+      "returncode": 0,
+      "duration_seconds": 2.022097048116848
+    },
+    "final_full406": {
+      "capture": "udt_goal_research_campaign_2026-10-13/checks/final_full406.json",
+      "capture_sha256": "b649e30b8d72d85396392208ffb8d970e729a1b415b5811484089da3477a1f50",
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "returncode": 0,
+      "duration_seconds": 407.66018178500235
+    }
+  },
+  "accepted_map_files_verified": 14735,
+  "review_record_sha256": "8f2cbc8fc164b36796b8112b5f0e4c8ea5606d6c3a5fb943413282abda9f77b3",
+  "final_freeze_sha256": "f11f4f2289730b27688fe93abef2f3f2dd46bcda94a8588fa132ec772cc68cf5",
+  "baseline_untracked_names_preserved": 76,
+  "protected_payloads_inspected_or_hashed": false,
+  "CANON_registry_and_owner_sources_changed": false,
+  "publication": "Commit and remote refs are verified after staging in the terminal; this receipt does not guess its own commit hash.",
+  "scope": "Check and byte correspondence only; does not adopt physical premises or upgrade scientific grades."
+}

@@ -1,0 +1,26 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "equations": "g=2du dv+dx\u00b2+dy\u00b2+(k v\u00b2+b x\u00b2)du\u00b2; R=[nabla,nabla]",
+  "checks": {
+    "det_minus_one": true,
+    "recurrence_all16": true,
+    "curvature_line_all64": true,
+    "affine_null_line": true,
+    "screen_optical_zero": true,
+    "nontrivial_curvature_coefficient": true,
+    "boosts_lorentz_skew": true,
+    "first_boost_null_eigenlines": true,
+    "second_boost_breaks_both": true,
+    "zero_eigenspace_spacelike": true
+  },
+  "passed": true,
+  "recurrence_form": [
+    "k*v",
+    "0",
+    "0",
+    "0"
+  ],
+  "line_curvature_Rv_vvu": "k",
+  "meaning": "Exact symbolic witness and linear algebra; no empirical or UDT admission claim"
+}

@@ -1,15 +1,16 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — goal-directed research method, 2026-10-13
+## Current handoff — GRC1 conditional research return, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. GCP1 is the current scoped return, in
-udt_geometry_constraint_pilot_2026-10-12/. WORK_ORDER owns authorization and
-NOTEBOOK records exploration/review; exact final attestations and check receipts
-own closure. PIA1 and earlier science retain their original scopes.
+orientation. GRC1's scoped conditional return is in
+udt_goal_research_campaign_2026-10-13/. WORK_ORDER owns authorization,
+NOTEBOOK records discovery, and actual final attestations plus check receipts
+own closure. Prior results retain their original scopes. Verify actual HEAD,
+remote refs, dirt and required checks rather than inferring completion from prose.
 
 After FRI1 at0c5386a6, Charles authorized an independent physical clock/source
 audit of the observation regime and uncertainty bounds. PIA1 evidence is in
@@ -36,14 +37,21 @@ imported physics as UDT. AGENTS and UDT_RESEARCH_OPERATING_PLAN.md own the metho
 research_goal_orientation_2026-10-13/ owns this method change's scope/review.
 Scientific development, source grades and the GCP1 scientific return are unchanged.
 
-Next: finish actual method-review/check/banking gates and frame the bounded
-research campaign with explicit resources. Inside that campaign a failed idea
-prompts redirection; agents need no new permission for routine in-scope changes.
-Stop for lay discussion at the declared campaign return or a real scope/resource/
-owner decision. This method update starts no scientific solve or background service.
-PIA1's older application remains deferred. No scientific premise adoption,
-empirical fit, desktop installation, GPU/long production, CANON change or parked/
-protected restart follows. Preserve all unrelated dirt.
+The method update closed at89b4b473 with actual reviews and required checks.
+Charles then authorized GRC1: “proceed. and you can give it 3 hours.” Its dispatch
+is udt_goal_research_campaign_2026-10-13/WORK_ORDER.md. BASELINE records
+start03:32:22 UTC and exploration checkpoint06:32:22 UTC on2026-10-13. The team
+reached a substantive conditional return early and transitioned to two fresh
+reviews, source-preserving repair and central integration. No three-hour solve
+or timeout was used. Short exact and finite CPU checks are retained; no GPU ran.
+Original proposals, failed routes, actual reviewer reports and version bindings
+remain in that package. Scientific premises, registry grades and CANON are unchanged.
+Next: complete any outstanding final review/check/publication gate, then
+Stop for lay discussion of the fixed DECISION_BRIEF and central R7GRC/R8GRC/R18.
+No automatic successor research follows. The earlier PIA1 application stays
+deferred; no empirical fit, desktop installation, GPU/long production, physical
+premise adoption or parked/protected restart is authorized by this return.
+Preserve existing unrelated dirt and all pauses.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

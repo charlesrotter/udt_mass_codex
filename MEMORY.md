@@ -9,3 +9,6 @@ Update the central argument and its dependency/review bindings when meanings or
 results change. Do not grow a second scientific narrative here. Historical status:
 archive/STARTUP_SURFACE_HISTORY.md. Correction procedure:
 development_reconstruction_2026-09-29/MAINTENANCE.md.
+
+Current research return route: UDT_DEVELOPMENT.md#r8grc and the fixed
+udt_goal_research_campaign_2026-10-13/DECISION_BRIEF.md. LIVE owns the next gate.

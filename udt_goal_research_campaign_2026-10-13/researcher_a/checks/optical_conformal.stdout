@@ -1,0 +1,34 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "checks": {
+    "generic_jacobi_equation": true,
+    "generic_vertex_normalization": true,
+    "sinh_jacobi_equation": true,
+    "sinh_vertex_data": true,
+    "sinh_reciprocity": true,
+    "sinh_integral_representation": false,
+    "spherical_ray_null": true,
+    "spherical_ray_affine": true,
+    "spherical_ray_null_ricci": true,
+    "conformal_null_ricci_identity": true,
+    "conformal_spatial_isotropy": true,
+    "slab_negative_null_ricci": true,
+    "flrw_electric_curvature": true,
+    "flrw_spatial_curvature": true,
+    "flrw_curvature_blocks": true,
+    "cosh_scalar_curvature": true,
+    "cosh_all_frame_coefficient": true,
+    "cosmic_time_derivative": true,
+    "slab_conformal_boundary_normal": true
+  },
+  "passed": false,
+  "outputs": {
+    "spherical_ray_Ric_kk": "-2*H**2",
+    "conformal_Ric_kk": "2*Derivative(psi(eta), (eta, 2))/psi(eta)",
+    "cosh_C": "H**2*(m_squared/cosh(H*t)**2 + 1)",
+    "cosh_scalar_R": "6*H**2*cosh(2*H*t)/cosh(H*t)**2"
+  },
+  "domains": "r>0, spherical coordinate regular patch; H>0; positive C2 psi; slab |H eta|<pi/2; cosmic t in R",
+  "meaning": "Exact grouped symbolic identities. Completeness, positive concavity, and all-frame quantifiers are analytic arguments, not sampled certification. Same author and SymPy as earlier checks; no independent-review claim."
+}

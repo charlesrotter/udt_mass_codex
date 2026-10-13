@@ -1,0 +1,17 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "domain": "b>0, gamma>1, neighborhood of tau=0, signature -++",
+  "clock_map": "gamma*tau + sqrt(b**2 + tau**2*(gamma**2 - 1))",
+  "null_residual": "0",
+  "receiver_velocity_norm": "-1",
+  "clock_map_jets_at_zero": [
+    "gamma",
+    "(gamma**2 - 1)/b",
+    "0"
+  ],
+  "schwarzian_at_zero": "-3*(gamma**2 - 1)**2/(2*b**2*gamma**2)",
+  "exact_example": "gamma=5/4, b=1: -243/800",
+  "claim": "Universal zero Schwarzian of arbitrary inertial proper-clock maps fails already in SR; no exclusion of matched or restricted projective-clock proposals.",
+  "checks_passed": true
+}

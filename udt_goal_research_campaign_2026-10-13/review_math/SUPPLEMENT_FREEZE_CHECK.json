@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-13T04:13:22.666287+00:00",
+  "supplement_freeze_sha256": "9f0dbb263c261195f4d04cf9e5f29a0cad495f224158b90bc14455f896718552",
+  "freeze_matches_actual": {
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SOURCES.md": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/NOTES.md": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_optical_conformal.py": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.initial.py": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.stdout": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.stderr": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.json": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stdout": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stderr": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.json": true
+  },
+  "matches_prior_reviewed_bytes": {
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_optical_conformal.py": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.initial.py": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.stderr": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stdout": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.json": true,
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stderr": true
+  },
+  "review_repair_sha256": "e837c68114e0b694512251361cabde6f1e04a864761c3929482ccde70d07e87d",
+  "all_match": true,
+  "meaning": "Correspondence only; analytic review is SUPPLEMENT_REVIEW.md; no unread note content certified"
+}

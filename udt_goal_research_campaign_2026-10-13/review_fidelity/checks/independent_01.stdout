@@ -1,0 +1,144 @@
+{
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "exact_curvature": {
+    "(1, 0, 0, 1)": "Derivative(f(r), (r, 2))/2",
+    "(2, 0, 0, 2)": "Derivative(f(r), r)/(2*r)",
+    "(3, 0, 0, 3)": "Derivative(f(r), r)/(2*r)",
+    "(1, 2, 2, 1)": "-Derivative(f(r), r)/(2*r)",
+    "(1, 3, 3, 1)": "-Derivative(f(r), r)/(2*r)",
+    "(2, 3, 3, 2)": "(1 - f(r))/r**2"
+  },
+  "radial_null_Ricci": "0",
+  "tangential_null_Ricci": "(r**2*Derivative(f(r), (r, 2))/2 - f(r) + 1)/r**2",
+  "quartic_tangential_null_Ricci": "-5*r**2",
+  "parallel_preparation_residual": "0",
+  "adverse_boost_C": "-11/16",
+  "unboosted_C": [
+    "4",
+    "1",
+    "1"
+  ],
+  "null_Ricci_adverse": "0",
+  "runs": [
+    {
+      "rtol": 1e-11,
+      "atol": 1e-13,
+      "max_step": 0.003,
+      "h": 0.0002,
+      "arrivals": [
+        {
+          "emission": -0.0002,
+          "tau": 0.2504860713196119,
+          "t": 0.25098191051750773,
+          "r": 0.25098229038262165,
+          "residual": 2.2036409155767878e-17
+        },
+        {
+          "emission": 0,
+          "tau": 0.25068725264739505,
+          "t": 0.25118349844069127,
+          "r": 0.2509838720048372,
+          "residual": 0.0
+        },
+        {
+          "emission": 0.0002,
+          "tau": 0.2508884352474693,
+          "t": 0.2513850876589894,
+          "r": 0.2509854549168692,
+          "residual": 3.347474207548995e-17
+        }
+      ],
+      "returns": [
+        {
+          "relay_tau": 0.2504872526473951,
+          "return_t": 0.502165014070713,
+          "relay_r": 0.2509822996661014
+        },
+        {
+          "relay_tau": 0.25068725264739505,
+          "return_t": 0.5023669968813825,
+          "relay_r": 0.2509838720048372
+        },
+        {
+          "relay_tau": 0.25088725264739503,
+          "return_t": 0.5025689809820798,
+          "relay_r": 0.2509854456083892
+        }
+      ],
+      "p": 1.005909819643408,
+      "q": 1.009917278416983,
+      "p_endpoint": 1.0059098196166663,
+      "q_endpoint": 1.009917278383254,
+      "energy_residual": 1.1102230246251565e-15,
+      "normalization_residual": 2.220446049250313e-15,
+      "max_r": 0.25777567972697524
+    },
+    {
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_step": 0.0015,
+      "h": 0.0001,
+      "arrivals": [
+        {
+          "emission": -0.0001,
+          "tau": 0.25058666182446976,
+          "t": 0.25108270431721347,
+          "r": 0.2509830810325056,
+          "residual": 1.1018204577883939e-17
+        },
+        {
+          "emission": 0,
+          "tau": 0.2506872526473957,
+          "t": 0.2511834984406915,
+          "r": 0.2509838720048374,
+          "residual": 0.0
+        },
+        {
+          "emission": 0.0001,
+          "tau": 0.2507878437883944,
+          "t": 0.2512842928879481,
+          "r": 0.25098466329962327,
+          "residual": -1.1018204577883939e-17
+        }
+      ],
+      "returns": [
+        {
+          "relay_tau": 0.25058725264739573,
+          "return_t": 0.5022660053147973,
+          "relay_r": 0.25098308567736893
+        },
+        {
+          "relay_tau": 0.2506872526473957,
+          "return_t": 0.502366996881383,
+          "relay_r": 0.2509838720048374
+        },
+        {
+          "relay_tau": 0.2507872526473957,
+          "return_t": 0.5024679887704756,
+          "relay_r": 0.2509846586485099
+        }
+      ],
+      "p": 1.0059098196232852,
+      "q": 1.0099172783917254,
+      "p_endpoint": 1.0059098196166643,
+      "q_endpoint": 1.009917278383256,
+      "energy_residual": 1.887379141862766e-15,
+      "normalization_residual": 3.6637359812630166e-15,
+      "max_r": 0.25777567972697535
+    }
+  ],
+  "refinement": {
+    "p": -2.0122792321330962e-11,
+    "q": -2.525757381022231e-11
+  },
+  "producer_comparison": {
+    "saved_raw_p_recomputed": 1.0059098196191218,
+    "p_difference": 4.163336342344337e-12,
+    "q_difference": 7.440714711037799e-12
+  },
+  "passed": true,
+  "limits": "Independent code and proper-time evolution; shared Python/SymPy/SciPy. Floating diagnostics are not interval proof, global coverage or physical adoption."
+}

@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-10-13: goal-directed research clarification after GCP1. This is a direction document, not scientific
+Updated 2026-10-13: GRC1 conditional clock/optical research return. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -22,8 +22,15 @@ derivable from existing UDT; that permission does not adopt its physics. New
 founding commitments, out-of-scope physical objects, protected work, production
 resources and scientific promotion retain their separate authority boundaries.
 The [method-change record](research_goal_orientation_2026-10-13/WORK_RECORD.md)
-owns implementation/review scope. A written campaign will carry the concrete
-resource and return limits; routine failures within it should trigger redirection.
+owns implementation/review scope. GRC1's [written campaign](udt_goal_research_campaign_2026-10-13/WORK_ORDER.md)
+executed that method with a three-hour exploration allowance, reaching review early.
+Its maintained scientific return is [R7GRC/R8GRC](UDT_DEVELOPMENT.md#r8grc);
+its fixed [discussion packet](udt_goal_research_campaign_2026-10-13/DECISION_BRIEF.md)
+identifies competing physical clock/optical conditions. The next direction is to
+examine the physical justification and discriminating consequences of those
+connections, with PRT1's prior sign-cone contribution credited. No curve, optical
+inequality, reference or field equation is selected by this method demonstration.
+Stop for discussion before any successor. LIVE and actual evidence own closure.
 
 Charles approved the ROD1 operating-method recommendations and a concrete GCP1
 charter aimed at extracting a new restriction from existing UDT commitments.
@@ -38,7 +45,7 @@ generic confinement lemma was manufactured. This is neither full-postulate
 insufficiency nor evidence that another postulate is required. The unused third
 probe is a deliberate stop after no distinct in-scope inference was articulated.
 
-The next research agenda should consider competing connections to the goal,
+The broader research agenda should consider competing connections to the goal,
 including explicitly unadopted conjectures and outside mathematical techniques.
 It need not begin with a completed source-derived implication. State additional
 assumptions before use and keep their conditional status visible. GCP1's global

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-13T04:12:55.349892+00:00",
+  "scope": "Actual supplemental bytes read and initial/final representation repair; author supplemental freeze pending",
+  "sha256": {
+    "udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md": "0a07aae750ca6912c2a32c25331580271e839ac6255feff56f9d59f98a9837b3",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_optical_conformal.py": "a34458ca36c10f9da4c5d08b4519ee0e09f57540c74aa9d4b0c833141a8d7eb5",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.initial.py": "47c75e5ac3f3a2aebe5117fbf287ecd9c30e4a639d8b4c8657ae0bc02bb79e1b",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal.stderr": "31ce2ce41f4ab5e601a63487e777fe507c32b652b8d6597cd86cb74e239ceec2",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stdout": "60aff8ab056ab66a43433c46863db1a8ac8a8afde9493520b26b79fa90de9e97",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.json": "6b4706f773194b45a906ca37474696d6c9769ba8b40a3b0bb1c85ca0baf84140",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/optical_conformal_normalized.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_goal_research_campaign_2026-10-13/review_math/SUPPLEMENT_REVIEW.md": "6f7010089de8a89a75fee2c579b60fe0e36115a3cd8de43744aed0cef37aa2df"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "exact symbolic coordinate/geodesic anchors, not physical adoption",
+  "python": "3.10.12",
+  "sympy": "1.13.1",
+  "generic_spherical_curvature": {
+    "(1, 0, 0, 1)": "Derivative(f(r), (r, 2))/2",
+    "(2, 0, 0, 2)": "Derivative(f(r), r)/(2*r)",
+    "(3, 0, 0, 3)": "Derivative(f(r), r)/(2*r)",
+    "(1, 2, 2, 1)": "-Derivative(f(r), r)/(2*r)",
+    "(1, 3, 3, 1)": "-Derivative(f(r), r)/(2*r)",
+    "(2, 3, 3, 2)": "-(f(r) - 1)/r**2"
+  },
+  "quartic_difference_six": {
+    "(1, 0, 0, 1)": "-6*lambda*r**2",
+    "(2, 0, 0, 2)": "-2*lambda*r**2",
+    "(3, 0, 0, 3)": "-2*lambda*r**2",
+    "(1, 2, 2, 1)": "2*lambda*r**2",
+    "(1, 3, 3, 1)": "2*lambda*r**2",
+    "(2, 3, 3, 2)": "lambda*r**2"
+  },
+  "all_plane_bivector_identity": true,
+  "normalization_and_simplicity": true,
+  "radial_screen": [
+    "0",
+    "0"
+  ],
+  "tangential_screen": [
+    "-4*lambda*r**2",
+    "-lambda*r**2"
+  ],
+  "profile_identities": true,
+  "parallel_preparation": true,
+  "first_tick_ratio": "E+v",
+  "return_tick_ratio": "1/(E-v)",
+  "interception_horizon_gap_lower_bound_in_rh_units": "7/85",
+  "p_equals_one_threshold_F_upper_bound_in_r0_units": "-1 + 8*sqrt(255)/(255*(sqrt(255)/16 + 1))",
+  "rescaled_proper_arrival_coefficient": "7/10",
+  "log_p_first_epsilon_coefficient": "3/2",
+  "log_q_first_epsilon_coefficient": "5/2",
+  "all_assertions_passed": true,
+  "limits": "Exact identities/bound constants. Analytic inequalities, regularity and physical interpretation are in CANDIDATE.md; no empirical or global stability claim."
+}

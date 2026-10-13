@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-13T03:53:26.252226+00:00",
+  "head": "89b4b473bed869f5ca296e9bfc67559a3c9ceaff",
+  "branch": "grok",
+  "state": "UNREVIEWED_INITIAL_CANDIDATE",
+  "candidate_and_checks": {
+    "udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md": "07c14efd301fc3337e747fd312d647265454c61e6791e22c5420df6b3b7377fb",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_recurrence.py": "4e276cb75ff3931c2feace4fe28615264bdd46e6bf9f6452b46aff7b71b57af6",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_spherical.py": "3f0594c661abdce87fe48dd867c9c0a21972c64ed919a6bc877dc2c8f4b00ec0",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/check_clock_map.py": "b3f343a09bd64c9397254a8530822cc156d99929d308666161ea1623c34942a7",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/clock_map.json": "b937830e7d45b0a695c1baa8b3666da3d046b32e16693ab17b31924f27157c56",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/clock_map.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/clock_map.stdout": "c03772e1060c9e1dc8f1271d5c3a46930708d0e4b58b2919f094c38ea3b1a4bb",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/recurrence.json": "b003238fcfdc94cefa800bf4a6dc879d762f5a2df482d508d6cde98a983059be",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/recurrence.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/recurrence.stdout": "94e5e255c350cb957dcdbcc02f88210645675c508b885335af4492c045c79c61",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/spherical.json": "f89b1f1c81b6a76dfadf0a11cc14670584f1095f09067e32a1d3549b38b0aa65",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/spherical.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "udt_goal_research_campaign_2026-10-13/researcher_a/checks/spherical.stdout": "d68de5c84b53221db68d9f1902bed5facdf52332bffc7bdd08c2aa219fe7333d"
+  },
+  "inspected_source_versions": {
+    "UDT_DEVELOPMENT.md": "ee4816a468998532c301ab7cf3ac169fc968270e9d081e293fc06e665f0e0bcb",
+    "founding.md": "b4b0d9a9fdd093c992647195aca7579566a9e77a396071a699c1938888a49e75",
+    "udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md": "a0472a66148a6e46857161488b09b11131bdd39fbf708256a43cea1bb1f60281",
+    "udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md": "48b933b3f4473d8fbf236e658c567fe70e5296cc0e7f7e69f9d9042c3abcfd10"
+  },
+  "limits": "Hashes establish byte correspondence, not truth, independence, empirical validation or chronology of discovery."
+}
