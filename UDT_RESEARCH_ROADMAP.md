@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-09-30: NGD1 numerical discovery after TRI1/PRI1/CCR1/CES1/PCW1/GCA1/LKT1/SGE1/CDR1. This is a direction document, not scientific
+Updated 2026-10-12: ROD1 research operating design after the PIA1 return. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -11,6 +11,28 @@ before choosing a new question. [INDEX.md](INDEX.md) routes supporting sources.
 This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current return and next discussion
+
+Charles questioned whether conditional calculations were advancing the native
+geometry question, then requested an updated approach using semi-autonomous
+agents. He authorized a concrete plan, tested against several past episodes,
+and a recommendation on ChatGPT desktop for Linux versus this Codex CLI workspace.
+
+[UDT_RESEARCH_OPERATING_PLAN.md](UDT_RESEARCH_OPERATING_PLAN.md) is that process
+proposal. Its [fixed retrospective and review record](research_operating_design_2026-10-12/WORK_RECORD.md)
+distinguish useful conditional work from changes to the central physical question.
+The proposal reuses existing bounded-discovery and review rules while emphasizing
+independent question formation, sustained authorized exploration, continuation
+decisions and compact continuity. It is not a newly derived scientific result or
+evidence that procedural changes will produce a breakthrough.
+
+Next discuss one bounded pilot charter. The moderate-regime comparison proposed
+in PIA1/R18 is deferred pending this decision; it remains a possible application
+study, not a native-selection result or current dispatch. No pilot, installation,
+physical premise, solver or parked/protected restart is authorized by the plan.
+LIVE owns the exact operational return. Scientific argument, grades and sources
+remain unchanged by this method proposal.
+
+## Earlier numerical-discovery direction — 2026-09-30
 
 Charles authorized the documented [NGD1 staged numerical plan](udt_gpu_time_live_discovery_2026-09-30/PLAN.md).
 Its first bounded conditional campaign and limits are integrated in

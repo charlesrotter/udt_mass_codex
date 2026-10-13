@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "frozen_hashes": 14594,
+  "local_links": 62,
+  "tracked_changes": [
+    "HANDOFF.md",
+    "LIVE.md",
+    "README.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/REVIEW_RECORD.json"
+  ],
+  "unrelated_names_preserved": 76,
+  "scope": "Byte/routing/preservation correspondence only; no scientific reproof."
+}

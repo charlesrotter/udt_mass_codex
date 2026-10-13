@@ -1,12 +1,13 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — PIA1 physical-interface return, 2026-10-05
+## Current handoff — ROD1 research operating design, 2026-10-12
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. After orientation read R16PIA/R18, with R16FRI/R16TSI/R8ACP as needed.
+orientation. PIA1 remains the scientific checkpoint. For the present method task,
+after orientation read UDT_RESEARCH_OPERATING_PLAN.md and its fixed design record.
 
 After FRI1 at0c5386a6, Charles authorized an independent physical clock/source
 audit of the observation regime and uncertainty bounds. PIA1 evidence is in
@@ -16,12 +17,17 @@ primary-source verification and exposure are recorded. Actual final attestations
 normal/maintenance/full406 receipts and committed/remote byte checks own closure.
 Verify actual HEAD, remote and dirt yourself.
 
-Next: Stop for lay discussion of PIA1's scoped missing physical interface.
-R18 and DECISION_BRIEF propose a subsequent bounded moderate-regime applicability/
-ambiguity test. No automatic successor, physical premise, source law, registry
-grade, empirical fit or X_max adoption. No GPU/long production or parked/
-protected program restart. Standing preservation, no-timeout/manual-stop and
-resource rules persist.
+Charles then authorized ROD1's operating plan, retrospective and Linux desktop/CLI
+recommendation. The fixed record and actual review evidence are in
+research_operating_design_2026-10-12/. Scientific sources/grades remain unchanged.
+
+Next: Stop for lay discussion of UDT_RESEARCH_OPERATING_PLAN.md and its proposed
+first pilot. The older moderate-regime recommendation in the scientific
+orientation/R18 is deferred; it is not current authorization. No pilot, desktop
+installation, new physical premise, empirical fit, GPU/long production or
+parked/protected restart is launched by this design. Standing preservation,
+no-timeout/manual-stop and resource rules persist. Exact review/check/banking
+evidence owns closure, not a predicted pass or commit ID.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

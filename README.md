@@ -37,6 +37,8 @@ For the fixed metric/observer-pair account at scientific snapshot
 
 ## Repository rules
 
+- [Research operating plan](UDT_RESEARCH_OPERATING_PLAN.md): proposed connected
+  agent investigations and interface choice; use LIVE for its authorization/status.
 - Work on `grok`; preserve unrelated dirt and protected local work.
 - `main` is the default reviewed checkpoint. Keep it current through the
   [branch update workflow](BRANCH_WORKFLOW.md); a branch update does not canonize research.

@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-13T01:36:58.718442+00:00",
+  "repository": "charlesrotter/udt_mass_codex",
+  "verification": "Live gh api calls in parent tool history; no permission or protection changes",
+  "default_branch": "main",
+  "archived": false,
+  "push_permission": true,
+  "main_protected": false,
+  "main_required_checks": [],
+  "main_applicable_rules": [],
+  "remote_main_observed": "8e85e9c3f23532ed91cb292d510c13005e5f948b",
+  "commands": [
+    [
+      "gh",
+      "api",
+      "repos/charlesrotter/udt_mass_codex",
+      "--jq",
+      "{default_branch,archived,permissions}"
+    ],
+    [
+      "gh",
+      "api",
+      "repos/charlesrotter/udt_mass_codex/branches/main",
+      "--jq",
+      "{name,protected,sha:.commit.sha,protection}"
+    ],
+    [
+      "gh",
+      "api",
+      "repos/charlesrotter/udt_mass_codex/rules/branches/main"
+    ]
+  ],
+  "publication_status": "not yet published; exact Git refs own completion"
+}

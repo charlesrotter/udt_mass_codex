@@ -1,0 +1,22 @@
+{
+  ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+  ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+  ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+  "AGENTS.md": "bcab9b67305e0314af9eaf25162d203660eae8f2ff4fd87d17e83588970ef38d",
+  "BRANCH_WORKFLOW.md": "083504fec31aa776ea956d6d905b815cd389e1067128d084798006d428ae7d62",
+  "CLAUDE.md": "4ad2e773defb89cc79541fd0ababd75af5a3344ab134ee83722dfd943966e6e4",
+  "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+  "UDT_DEVELOPMENT.md": "96dce78f3a4817449d7186c7fdbaedb215286a6d5c0f1295423270bcf2c64ec2",
+  "development_reconstruction_2026-09-29/MAINTENANCE.md": "6aefb0450bf83d01620f8a94024df075508165ae1c9fd4185483d1db5a025b41",
+  "udt_candidate_commitment_restriction_2026-10-04/DECISION_BRIEF.md": "c40d4cbcb287a69a7559882d9f92e30e915b8d68cf12d2ae4463f00b4b9a897e",
+  "udt_candidate_commitment_restriction_2026-10-04/WORK_ORDER.md": "5772cb5a7a873fcb415e7081c5e2a425c3f0cdd13ac96f4bad7877843d060b1c",
+  "udt_finite_record_scale_test_2026-10-05/INITIAL_CANDIDATE.md": "364c3feca8a0a43d0f5780a1ae378c6e065bcc10d2f1f8d391962ce23544a2ad",
+  "udt_finite_record_scale_test_2026-10-05/WORK_ORDER.md": "f005fb3dcb1dce7b41b938814e4afa94b1873f8aba47a6cb8a1f235a806ece13",
+  "udt_gpu_time_live_discovery_2026-09-30/PLAN.md": "52e702d6235da74479c843b6ee8c36a8830bae3218b616daec51c54fce39673a",
+  "udt_native_theory_research_plan_2026-09-13/execution/tc0/RESULT.md": "fd556f5b8ba2dbe3b41b2077d82b9ecb9e09963030937e0b4ba352c0b60018c3",
+  "udt_physical_clock_interface_audit_2026-10-05/DECISION_BRIEF.md": "cea422a749d237b4c69482a800bef27d3e2092a879b0f6a39150c4bac9dbf338",
+  "udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md": "29372477e059648c255fab030a42bf9a0a78d70ad76f369ea8f4cddaa68fca5e",
+  "udt_three_spatial_smoke_2026-10-01/WORK_ORDER.md": "5713e6e518a36a08c4fbe4b5b668e8d53bf10d637255a65f18ca24c755be8d91",
+  "udt_time_live_production_survey_2026-10-01/WORK_ORDER.md": "c1fcf625b4703081a1eb723c89f08e40515c1c8cab1590ea4e6e7be8dd56ed44",
+  "udt_timing_scale_identifiability_2026-10-05/DECISION_BRIEF.md": "34719bbcaddabb5c0d2f4ebe11d76c5fbc4c4a519c0ba7409d2d7670813d0b47"
+}

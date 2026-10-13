@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-13T01:47:09.813665+00:00",
+  "status": "REVIEWED_PROCESS_PROPOSAL_CHECKS_COMPLETE",
+  "scientific_changes": "none",
+  "review_contexts": [
+    "/root/operating_history",
+    "/root/operating_challenge"
+  ],
+  "accepted_paths": 14594,
+  "inherited_unchanged_paths": 14577,
+  "operational_inherited_changes": 3,
+  "new_to_review_map": 14,
+  "normal_development_guard": "PASS",
+  "maintenance_tests": 57,
+  "full_registry_rows": 406,
+  "checks": {
+    "draft": {
+      "receipt": "research_operating_design_2026-10-12/checks/draft.json",
+      "sha256": "816b91cde5997e7098af9bfc92364c1d7ab5bc8ff66d44800fe330e56b0950b6",
+      "returncode": 0,
+      "duration_seconds": 0.09904595301486552
+    },
+    "development": {
+      "receipt": "research_operating_design_2026-10-12/checks/development.json",
+      "sha256": "881cc66b7fe6c3231cc682cc8f61a9c2b7def585991a9bc5d56be440dd9ccc71",
+      "returncode": 0,
+      "duration_seconds": 1.7455103159882128
+    },
+    "maintenance": {
+      "receipt": "research_operating_design_2026-10-12/checks/maintenance.json",
+      "sha256": "1b1725d51160af26b214bbac8201a803912282cdccdad22fd83fe4793987af88",
+      "returncode": 0,
+      "duration_seconds": 1.9132185080088675
+    },
+    "correspondence": {
+      "receipt": "research_operating_design_2026-10-12/checks/correspondence.json",
+      "sha256": "deb49529f505bad316d872d7b9f881ee66e94229d99358bd768eb59cf25fca4c",
+      "returncode": 1,
+      "duration_seconds": 1.4738401791546494
+    },
+    "correspondence_repaired": {
+      "receipt": "research_operating_design_2026-10-12/checks/correspondence_repaired.json",
+      "sha256": "b84e205ddc8eef69ae9062194e055a4e6eb2f5a460f4e47fd8c60e750ad13567",
+      "returncode": 0,
+      "duration_seconds": 1.4503817250952125
+    },
+    "premises": {
+      "receipt": "research_operating_design_2026-10-12/checks/premises.json",
+      "sha256": "8b2d8517e4fd4711d6fb809e6096e9ff24be3d4b93a9cf1e8d243a71526d255a",
+      "returncode": 0,
+      "duration_seconds": 413.30721404310316
+    }
+  },
+  "preserved_diagnostic": "checks/correspondence.json failed on relative links in authentic root-file snapshot; checks/CORRESPONDENCE_REPAIR.md explains bounded checker-context repair; no frozen source changed",
+  "omissions": [
+    "No new research calculation or scientific reproof",
+    "No prospective pilot",
+    "No desktop installation or GUI/model comparison",
+    "No scientific premise or grade change"
+  ],
+  "publication": "Actual Git commit/remote refs own completion; this is the prepublication closure record"
+}

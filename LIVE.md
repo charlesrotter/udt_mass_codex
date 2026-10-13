@@ -1,12 +1,13 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — PIA1 physical-interface return, 2026-10-05
+## CURRENT STATE — ROD1 research operating design, 2026-10-12
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. After orientation read R16PIA/R18, with R16FRI/R16TSI/R8ACP as needed.
+orientation. PIA1 remains the scientific checkpoint. For the present method task,
+after orientation read UDT_RESEARCH_OPERATING_PLAN.md and its fixed design record.
 
 After FRI1 at0c5386a6, Charles authorized an independent physical clock/source
 audit of the observation regime and uncertainty bounds. PIA1 evidence is in
@@ -16,12 +17,18 @@ primary-source verification and exposure are recorded. Actual final attestations
 normal/maintenance/full406 receipts and committed/remote byte checks own closure.
 Verify actual HEAD, remote and dirt yourself.
 
-Next: Stop for lay discussion of PIA1's scoped missing physical interface.
-R18 and DECISION_BRIEF propose a subsequent bounded moderate-regime applicability/
-ambiguity test. No automatic successor, physical premise, source law, registry
-grade, empirical fit or X_max adoption. No GPU/long production or parked/
-protected program restart. Standing preservation, no-timeout/manual-stop and
-resource rules persist.
+Charles subsequently asked to improve research direction using semi-autonomous
+agents, and authorized a concrete operating plan tested against past episodes
+plus a Linux desktop/CLI recommendation. ROD1's scope, retrospective and actual
+reviews are in research_operating_design_2026-10-12/. Scientific source bytes and
+grades are unchanged; operational review bindings and checks own this checkpoint.
+
+Next: Stop for lay discussion of the operating plan and proposed first pilot.
+The earlier moderate-regime successor in R18/PIA1 and the generated scientific
+orientation is deferred as a recommendation, not current authorization. No pilot,
+desktop installation, new physical premise, source law, empirical fit, GPU/long
+production or parked/protected restart follows automatically. Standing
+preservation, no-timeout/manual-stop and resource rules persist.
 
 ### Honest claim
 
@@ -54,10 +61,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-Use central R16PIA/R18 and PIA1's decision brief for the physical-interface
-audit and proposed bounded successor. FRI1 remains a conditional tool; physical
-admission and native selection remain open. Verify actual final review, required
-checks and banking evidence. Pauses/protected boundaries persist;
-TPS1 raw fields/large streams remain local-only, not remotely replayable.
+Discuss UDT_RESEARCH_OPERATING_PLAN.md before choosing another investigation.
+ROD1 is a process proposal, not scientific convergence or adoption. Its first
+pilot requires a concrete approved charter; no new science was performed here.
+Verify actual final review, checks and banking evidence. Existing science remains
+in central R16PIA/R18; pauses/protected boundaries persist. TPS1 raw fields/large
+streams remain local-only, not remotely replayable.
 
 <!-- STARTUP_CURRENT_END -->
