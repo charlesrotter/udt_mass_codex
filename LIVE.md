@@ -1,41 +1,38 @@
 # LIVE — operational status
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## CURRENT STATE — ALP1 angular-law physical-connection return, 2026-10-13
+## CURRENT STATE — FKA1 foundation-to-kernel audit, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
 sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
-orientation. ALP1 evidence is in udt_angular_law_physical_connection_2026-10-13/.
-WORK_ORDER owns authorization, NOTEBOOK records discovery/recovery, and actual
-final attestations plus check receipts own closure. Verify actual HEAD, remote
-refs, dirt and processes rather than inferring completion from prose.
+orientation. FKA1 evidence is in udt_foundation_kernel_audit_2026-10-13/.
+WORK_ORDER and the direct OWNER_CLARIFICATION own the authorized scope and
+intended premise; NOTEBOOK preserves exposure and corrections. Actual final
+attestations, check receipts and remote bytes own completion.
 
-FAC1 was banked at d8171f96; the fresh recovery fetch verified grok/main matched
-that commit. Charles had then said “Proceed” to ALP1's scoped follow-up. After
-a session disconnection, both exploratory returns were recovered with matching
-source/output hashes. Charles explicitly resumed: “Ok, pick up where they left
-off. Onward.” RECOVERY_RECEIPT preserves the recovery checks; the earlier
-notebook edition it binds is fixed in recovery/NOTEBOOK.md.
+ALP1 was banked at 67246b35, matching fetched grok/main at FKA1 entry.
+Charles authorized a foundation reconstruction with two explorers, two fresh
+reviewers and up to two repair/re-review rounds. He removed a preset time/CPU
+cap and allowed GPU if needed. No numerical production was required for the
+analytic candidate; ordinary workload monitoring and smoke gates still apply
+if a necessary new workload is proposed within this audit.
 
-Two independent-origin researchers developed the ALP1 candidates before the
-interruption, with later exchange disclosed. Two further fresh source-first/
-direct contexts reviewed the recovered joint candidate, independently checked
-complementary arguments and numerical controls, and challenged continuation.
-Both direct verdicts are VERIFIED-WITH-CAVEATS; no substantive repair is requested.
-The central return is R8ALP/R18, with fixed DECISION_BRIEF in the ALP1 package.
-No physical trial or new premise is adopted. Original candidates and all prior
-scientific source grades remain unchanged. Final integration attestations,
-normal/maintenance/full406 receipts and committed/remote correspondence own
-actual closure. No GPU or long solver ran. No automatic successor follows.
+The owner clarified during research that observed c_E is postulated to be
+mutual slowing of separated clocks, presently interpreted as light travel time.
+The initial researcher/reviewer editions are preserved; the corrected meaning
+controls subsequent synthesis. Both positive and negative descendants require
+scoped review. Original source grades and CANON are unchanged. The maintained
+argument is at D1/R1FKA/R4/R6FKA/R18; the fixed DECISION_BRIEF owns the return.
+No physical adoption or automatic successor follows from saving this audit.
 
 ### Honest claim
 
-The maintained argument is UDT_DEVELOPMENT.md. Read its generated orientation
-in CURRENT_RESEARCH_PROGRAM.md during startup, and relevant chapters afterward.
-Exact grades remain in the 406-row CURRENT_SCIENTIFIC_PREMISES.tsv; reviewed
-sources and hypotheses control claims. This operational adapter is not another
-maintained scientific summary. Review or publication does not adopt physics.
+Read the generated central orientation during startup and relevant chapters
+afterward. Exact grades remain in the 406-row CURRENT_SCIENTIFIC_PREMISES.tsv;
+reviewed sources and hypotheses control claims. This operational adapter is
+not another maintained scientific summary. Reviews and publication do not
+adopt physics. Verify actual HEAD, dirt, refs and processes.
 
 ### Pauses and preservation
 
@@ -59,11 +56,11 @@ Protected: do not inspect, hash, stage, modify, mine or cite payloads without di
 
 ### Next gate
 
-ALP1's work order and fixed decision packet own this bounded return. Complete
-its required final integration/review/check/publication gates if their actual
-receipts are not present, then Stop for lay discussion. Existing authorization
-includes bounded same-premise repair/re-review; no routine gate needs reapproval.
-No successor, physical adoption, GPU/long production, empirical fit or protected
-restart is automatic. Verify current refs, processes and bytes; retain all pauses.
+Complete FKA1's authorized review/repair, final integration, normal/maintenance/
+full406 checks and grok/main publication if their actual receipts are not yet
+present, then Stop for lay discussion. Routine included gates need no reapproval.
+No successor, physical adoption, empirical fit or protected restart is automatic.
+Resources follow Charles's no-total-time/CPU-cap instruction within this audit;
+use one GPU process only if needed and validated. Retain all existing pauses.
 
 <!-- STARTUP_CURRENT_END -->

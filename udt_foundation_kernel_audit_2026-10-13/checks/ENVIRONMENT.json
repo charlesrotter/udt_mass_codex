@@ -1,0 +1,14 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "scientific_compute": "No new scientific numerical solve; exact analytic work and separate repository verification",
+  "process_inspection_scope": "Shell ps is sandbox-namespace scoped, not a claim of complete host process visibility",
+  "gpu": "No FKA1 GPU process launched",
+  "required_checks": [
+    "python3 verify_udt_development.py",
+    "python3 development_reconstruction_2026-09-29/checks/test_maintenance.py",
+    "python3 verify_current_scientific_premises.py"
+  ],
+  "capture": "python3 udt_time_live_production_survey_2026-10-01/capture.py --memory-mib 2048 PREFIX COMMAND",
+  "capture_sha256": "217cdbac5486e8a531552f4d74a15ce641299b65dafb5d58f7b60f4ba51781bc"
+}

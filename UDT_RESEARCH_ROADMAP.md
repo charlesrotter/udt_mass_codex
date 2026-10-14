@@ -1,6 +1,6 @@
 # UDT research roadmap — current direction
 
-Updated 2026-10-13: ALP1 angular-clock meaning and regime return. This is a direction document, not scientific
+Updated 2026-10-13: FKA1 foundation-to-kernel audit. This is a direction document, not scientific
 premise authority or research authorization. LIVE controls operational status;
 the exact registry and original reviewed sources control grades and scope.
 AGENTS controls method. Charles canonizes; CANON is unchanged.
@@ -12,16 +12,16 @@ This roadmap does not duplicate their detailed derivations or premise inventory.
 
 ## Current direction and retained scientific return
 
-The current scoped return is [ALP1 in R8ALP/R18](UDT_DEVELOPMENT.md#r8alp),
-with its fixed [decision packet](udt_angular_law_physical_connection_2026-10-13/DECISION_BRIEF.md).
-It tests physical justifications for angular-clock averaging and the distance
-regime, retaining a conditional diagnostic and precise failed identifications.
-A next useful proposal should motivate a relation among actual comparisons in
-a specified physical regime and name a discriminating test. Arbitrary averaging
-choices do not supply a sign law; no exhaustive failure of connections or need
-for a new premise is claimed. After ALP1's authorized banking gates, Stop for
-lay discussion. LIVE owns authorization and actual receipts own completion;
-no successor or deferred PIA1 application is automatic.
+The current scoped return is [FKA1 in D1/R1FKA/R6FKA/R18](UDT_DEVELOPMENT.md#r1fka),
+with its fixed [decision packet](udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md).
+Charles asked to audit the foundations before building further on accumulated
+results. His direct clarification fixes the intended c_E/mutual-clock premise;
+the audit examines its mathematical representation and the metric/kernel chain.
+The earlier ALP1/FAC1 and other evidence remain preserved at their source scope.
+After FKA1's authorized review and banking gates, Stop for lay discussion.
+LIVE owns authorization and actual receipts own completion; no successor or
+deferred PIA1 application is automatic. The authorized audit has no preset
+time/CPU cap; required monitored compute and GPU remain available if useful.
 
 The following earlier campaign direction retains its historical scope.
 

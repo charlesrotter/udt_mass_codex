@@ -1,0 +1,7850 @@
+# UDT — continuous scientific development
+
+<!-- DEVELOPMENT_ORIENTATION_BEGIN -->
+**Current development — FKA1 foundation-to-kernel audit,
+2026-10-13.** This is the sole maintained scientific argument. The exact registry
+and reviewed sources own grades; LIVE owns operational status. Review bindings
+are in section9. Historical results remain in the chapters below, not this startup view.
+
+UDT postulates that observed c_E is mutual slowing of separated clocks,
+presently interpreted as light travel time. Positional dilation constitutes the
+spacetime geometry behind light cones and causal timing. The
+reciprocal 1/c_E expresses time per separation. Ordinary local laws and proper
+clocks remain ordinary; effects appear in observer comparisons in the GR sense.
+Velocity, gravity and the additional positional effect belong to one geometry;
+no arithmetic split or second propagation-speed mechanism is assumed.
+Slower received ticking is redshift. There is no preferred observer or universal
+spherical center. Universality means the same governing law, with comparisons
+dependent on circumstances, including acceleration and nearby gravity.
+
+The founded reciprocal character is DERIVED on supplied ordered depth. The
+completed-pair kernel is DERIVED_CONDITIONAL on its working premise and supplied
+regular metric/query data. Native event/path-to-depth assignment remains OPEN;
+a conditional evaluator is not a geometry selector. This gap is not a theorem
+that the complete clarified postulates are insufficient or a new premise is required.
+
+GR is FILTER ONLY, not a response-law input. Local Metric Sufficiency remains
+owner-provisional; Universal Reciprocity/DDR is OWNER_ADOPTED_PROVISIONAL_POSTULATE,
+not derived or canonized. Inherited Einstein results remain CONDITIONAL on their
+full hypotheses, not established from filter-only GR. Strong local CSN remains
+CHALLENGED_OWNER_POSTULATE_NOT_DERIVED. Measured c_E and G_obs are OBSERVED inputs.
+X_max is WORKING/OPEN asymptotic global completion: value, realization, modulation
+and operational distance relation are open. It is inactive as a local kernel
+input, never a preferred center, material wall, seam or cutoff.
+Angular-sector cancellation alone owns loud--quiet--loud.
+Finite null-patch results distinguish multiplicity-counted sheet area from
+geometric endpoint image-union; the latter requires global preimage identification.
+These geometric results do not identify physical light, brightness or carried content.
+
+**Current learning.** FKA1 reconstructs the chain without treating earlier
+results as initial premises. Charles's clarification controls the physical
+meaning: the audit accepts the c_E interpretation as a postulate and checks
+its mathematical realization. An independently assumed light-propagation
+mechanism cannot silently supply or refute that premise.
+
+The metric-to-kernel algebra survives with its actual inputs: a full metric,
+regular calibrated pair, G176's working completion premise and the stated
+normalized contrast. It gives m=sqrt(-det h), Phi=-log T and chi=tanh(Phi).
+For a specified clock correspondence with interval ratio Z, labeling the target
+clock by source proper time gives T=Z and chi_clock=(1-Z²)/(1+Z²). This direct
+bridge requires no propagation hypothesis. It encodes that comparison; it
+does not predict its value by defining the target tangent to contain Z.
+
+A further exact control constructs one geometry from specified bilateral clock
+maps. Flat and curved members share those ordinary free-clock records, while
+their completed tapes differ from the same specified timing-ruler convention.
+This proves a bounded representation and inverse-reconstruction limit, not
+a UDT solution or insufficiency of the full postulates.
+
+The historical identification of mutual clock slowing with inverse time/radial
+factors was not proved by the inspected analog argument. Later sources explicitly
+state dual action and completed-pair reciprocity as premises. Their conditional
+consequences are retained, along with the current distinctions between a
+reciprocal ruler coordinate, proper ruler length and physical clock preparation.
+No derivation of a native event/path-to-depth law is completed here. No full-
+postulate insufficiency or need for a new physical premise is established.
+
+Two independent-origin reconstructions and two further source-first review
+contexts retain their initial editions, later source exposure and the owner
+correction. They share the inherited model. Exact analytic arguments and
+original-equation controls support this audit; human, different-model,
+empirical and formal certification are not claimed. Actual direct/final review
+records and repository receipts own completion. Earlier positive and negative
+results, including FAC1/ALP1, retain their original hypotheses and grades.
+
+After orientation read D1, R1FKA, R4, R6FKA and R18. The remaining connection is
+the mathematical realization of the postulated clock relation in the metric,
+with its actual comparison and calibration specified. Stop for lay discussion
+after the authorized integration/check/publication gates. LIVE and actual
+receipts own closure; PIA1 stays deferred and no successor or protected restart
+is automatic.
+<!-- DEVELOPMENT_ORIENTATION_END -->
+
+## 1. How this development is owned
+
+The argument below is organized by dependency, not the dates or number of
+research packages. Each numbered result states its inputs, calculation and
+limit. A source citation permits auditing; it does not substitute for a missing
+step in the central argument. Mathematical methods are allowed with their
+hypotheses checked. Physical premises, supplied examples and fitted/calibrated
+quantities never become derived merely by entering a calculation.
+
+The [registry](CURRENT_SCIENTIFIC_PREMISES.tsv) owns exact existing grades.
+`development_reconstruction_2026-09-29` contains the row dispositions, central
+dependency graph, checks and review record. The earlier through-G352 manuscript
+and consolidated account are historical editions with authentic scope; this
+development does not rewrite their evidence or transfer their review to new text.
+CANON remains subject to Charles's explicit sign-off. No new physical law is
+adopted by this reconstruction.
+
+The primary sources for intended meaning are the [positional-geometry statement](udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md),
+the [ordinary-local/interframe clarification](udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md),
+the [additional-effect clarification](udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md),
+and the [current GR-filter authority](udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md).
+The owner's asymptotic target and expectation of small solar-system effects
+are working physical direction, not an already derived distance curve or threshold.
+The [FKA1 direct clarification](udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md)
+reaffirms that observed c_E is mutual slowing of separated clocks, interpreted
+as light travel time. It controls the meaning used in this audit, without
+retroactively proving an earlier mathematical formalization.
+
+<a id="d1"></a>
+
+## 2. Definitions before equations
+
+| Term | Meaning here | Distinction that matters |
+|---|---|---|
+| Local proper time | The ordinary time measured on a specified timelike observer curve | A coordinate lapse is not an abnormal intrinsic clock. |
+| Received-tick ratio Z | Reception proper interval divided by emission proper interval for a specified event correspondence | Z>1 means received slowing and z=Z-1; distinguish net shift from a separately isolated positional contribution. |
+| c_E | Observed clock/ruler calibration, dimension L/T; 1/c_E has dimension T/L | Accepting its value does not specify a dimensionless clock-ratio curve versus distance. |
+| Ordered depth delta | Supplied additive parameter of a matched reciprocal comparison | Reversal-odd depth is not automatically symmetric nonnegative distance. |
+| Presentation phi | A factor in a declared coframe or special chart | A general physical pointwise potential is not assumed. |
+| Completed Phi | -log T for the completed, calibrated pair defined in section 4 | It depends on the stated clock leg/calibration, not merely two untyped endpoints. |
+| Scalar chi_pair | tanh Phi for that completed pair | Dimensionless scalar; not proper distance, signal speed or the full observer relation. |
+| Projective vector bold chi | Spatial/time ratio of a specified unit Lorentz clock column | W5 gives a working interpretation; its norm and scalar chi_pair are differently typed. |
+| Geometry g | One supplied or lawfully constructed Lorentz metric with its admitted domain | A supplied metric is not thereby a physically selected UDT history. |
+| Physical assignment | Rule attaching events, observers, paths, calibrations and metric data to a comparison | Evaluation of supplied inputs and inference from observed records do not by themselves provide that rule. |
+| Initial/query data | Data supplied for a declared conditional problem | Their freedom is not automatically evidence of a missing law or a demand to select one universe. |
+
+**Universal law, circumstance-dependent comparisons — ULC1.** Charles's
+[clarification](development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md)
+confirms that the same governing law applies to every observer while geometry
+and clock comparisons can reflect acceleration and nearby gravitating matter.
+This closes the intended-meaning question; it supplies no quantitative source
+law or positional assignment. Acceleration concerns the observer's worldline
+and comparisons and is not itself identified with curvature. Ordinary proper
+clocks, one geometry and GR FILTER ONLY retain their existing meanings.
+Universality alone neither requires nor excludes PCC1's stronger all-frame
+identical additional leading coefficient. No new equation, reference prescription,
+matter model or observer population is adopted by this clarification.
+
+The named working clarifications are part of the definitions, not extra results.
+**W4**, WORKING/POSIT universal metric coupling, uses one completed local metric
+for clocks, rulers, free fall and null propagation, with local SR form at regular
+freely falling events. It supplies no field equation or extra local signal cone.
+**W5**, WORKING_FOUNDATIONAL_CLARIFICATION, provisionally interprets the complete
+projective pair position; it supplies no scale/history law. **W6**,
+WORKING_FOUNDATIONAL_CLARIFICATION, permits nonpropagating co-presence as membership
+in a complete relational state. Every controllable observable response must remain
+metric-causal; co-presence is not itself a signal, speed, universal present or
+population/history law. These are not canon. [Definitions and limits](founding.md).
+
+**Local Metric Sufficiency** says that fixing the relevant completed finite local
+metric jet fixes local response without an additional independent hidden-history
+label. It allows global formation/selection of that geometry. It does not choose
+jet order, tensor type, weight, principal nondegeneracy or response architecture.
+Its owner-provisional status is distinct from adopting GR field dynamics.
+
+Four distinct reciprocity statements are used:
+
+1. Inverse-map reciprocity: reverse the same mathematical comparison with
+   compatible endpoint calibration. Its multiplier inverts.
+2. Actual two-way reception: signals follow two future routes between different
+   event pairs. The later return need not invert the first map.
+3. DDR response balance: a specified symmetric response is stationary against
+   every admitted infinitesimal reciprocal metric-shape direction.
+4. Time/length dual pairing and completed-pair reciprocity: the explicit
+   structural premises used in R1 and R4. Their two factors are not automatically
+   the tick rates of the two opposite physical clock observations.
+
+No equivalence among these statements is silently assumed. The existing provisional
+DDR adoption is retained, while its physical response identification stays open.
+Likewise, interpreting c_E through positional geometry is a founding postulate;
+requiring a separate explanation of why it is so is not a prerequisite. A
+counterfactual removal of this geometry is not defined by setting one pair's
+frequency contrast to zero. Equal received rates can coexist with finite timing.
+
+FKA1 makes the explanatory order explicit. A regular relation between clock
+records can be written b=f(y), Z=f'(y)>0 before a propagation representation
+is chosen. Its opposite physical comparison need not invert f. Mutual slowing
+is therefore compatible with two interval ratios greater than one; it is not
+a demand that one positive number and its inverse both exceed one. Rate and
+event alignment are parts of the same correspondence: f follows by integrating
+Z with an alignment constant. That constant supplies no evidence for a second
+physical travel mechanism. A null-curve model may represent the same constitutive
+geometry, but its added hypotheses cannot silently define the founding postulate.
+
+<a id="d1gcp"></a>
+
+**Causal support, global clock histories and the geometry-selection pilot — GCP1.**
+W6/G294's literal response condition is R(x,y)=0 for y outside J_g^-(x).
+This restricts a response relative to its metric. Together with ordinary local
+proper-time normalization, it does not itself prove that the metric contains
+no closed timelike curve. The exact diagnostic is the smooth flat quotient
+M=(R/LZ) times R^3, L>0, with g=-dtheta²+dx²+dy²+dz². Here dtheta descends from
+dt on the cover; theta is not a global real coordinate. The descending unit
+future field partial_t is parallel, and gamma(s)=([s],0,0,0) returns after L
+with proper-time integral L. Local metric clocks and null cones remain ordinary.
+For any two events, adding enough positive periods to a lift makes their time
+separation exceed their spatial separation; a straight future timelike segment
+then projects between them. Thus J_g^-(x)=M. A nonzero identity test response
+has diagonal support inside this set. This mathematical support witness is no
+physical field, DDR response or adopted law.
+
+A globally single-valued proper-time reading tau on that loop, with
+d tau(partial_t)=1, would instead require 0=integral d tau=L. Its impossibility does not contradict proper
+time on parametrized segments. The inspected sources do not establish that every
+geometric cycle is populated by a globally realizable material clock, or supply
+independent global interventions. The control refutes only the stated formal
+support-to-chronology inference; it neither admits a UDT causal loop nor establishes
+satisfaction of all UDT commitments. W6 still excludes responses outside J_g^- where that set
+has a nonempty exterior. No physical geometry is newly selected or excluded.
+
+GCP1's other independently formed route asked whether asymptotic slowing excludes
+compact temporal confinement with bounded endpoint boosts. ACI1 already gives a
+legitimate necessary-condition schema: any proposed realization with actual
+net Z tending to infinity cannot satisfy all hypotheses of an independently
+proved uniform finite-Z bound. This requires no complete field law or population selector before
+using the test. But choosing a query does not establish that its net ratio is the
+physical positional asymptote. PRT1's net and contrast options remain unadopted;
+a divergent contrast alone need not have divergent numerator. W6 supplies no
+clock-family assignment, uniform boost bound or temporal function. Combining the
+two routes therefore supplies neither missing join. The proposed new confinement
+lemma was not derived or asserted merely to repeat that conditional frontier.
+
+The [fixed candidate](udt_geometry_constraint_pilot_2026-10-12/INITIAL_CANDIDATE.md),
+[two probe records](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md),
+and [descendant review](udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md)
+retain the source quantifiers, controls and review history. This is a narrow
+failed-inference result and reuse decision, not a full-postulate countermodel,
+new physics, exhaustive search, or proof that an additional postulate is needed.
+
+## 3. Foundational character and the bounded metric readout
+
+<a id="r1"></a>
+
+### R1. Reciprocal character on supplied ordered depth
+
+Inputs: the F1 clock/ruler interpretation; F2 dual action on their evaluation
+pairing; F3 additive ordered comparison composition; positive factors and
+continuity (or measurability); a nonidentity comparison; chosen depth sign/unit.
+These are distinct inputs. In particular, no preferred observer does not by
+itself prove additive composition or a universal scalar potential.
+
+The physical starting meaning is the mutual-clock interpretation in D1. The
+following is its explicitly stated time/length formalization; the algebra does
+not establish that formalization merely by restating the physical words.
+
+Use length units for the clock channel and write
+
+\[
+q=(c_Edt,dr)^T,\quad P(\Delta)=\operatorname{diag}(u,v),\quad
+K=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad u,v>0.
+\]
+
+F2 is \(P^TKP=K\). Multiplication gives \(P^TKP=uvK\), hence
+\(v=u^{-1}\). F3 gives \(u(x+y)=u(x)u(y)\). Therefore
+\(f=\log u\) is additive. If continuous, rational approximation to any real
+argument and \(f(q)=qf(1)\) imply \(f(x)=ax\). The measurable version uses the
+usual measurable-additive theorem, with measurability as an actual hypothesis.
+Nontriviality means \(a\ne0\); choosing \(\delta=-a\Delta\) yields
+
+\[
+\boxed{D(\delta)=\operatorname{diag}(e^{-\delta},e^{\delta}),\qquad
+D(\delta_2)D(\delta_1)=D(\delta_1+\delta_2).}
+\]
+
+Reversal gives \(D(-\delta)=D(\delta)^{-1}\). Without the nonidentity input,
+\(D=I\) also satisfies the axioms. Merely commuting ordinary time/length
+conversion with P would give u=v, rather than uv=1. Thus the dual-action premise
+performs essential work; taking the reciprocal of c_E is not this proof.
+
+<a id="r1fka"></a>
+
+#### The physical postulate and its mathematical formalization — FKA1
+
+The [foundation audit](udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md)
+starts with the original prompt and dated owner statements before comparing
+the old derivations. The current owner clarification accepts mutual clock
+slowing as what observed c_E is; it does not require an independent propagation
+explanation. The metric and reciprocal-pair construction must faithfully
+represent that starting meaning.
+
+The June18 argument defines a comparison as f(b)/f(a), whose composition is
+automatic, and adds difference dependence to obtain an exponential under
+regularity. Its section1b then identifies mutual time/time slowing with inverse
+time/radial factors. The argument's own ledger names an analog choice, and the
+preserved reviewer already flags that identification. Exchanging observers
+does not by itself prove exchange of time/length slots. The [source trace](udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md)
+records this limited unproved implication and the later explicit July15 dual-
+action premise. It does not prove that the full clarified postulates cannot
+imply such a relation. The original AI metric response and complete June18/
+July15 owner chats were not recovered; that absence is not evidence that an
+adoption never occurred.
+
+Conditional on the explicit dual pairing, R1's algebra survives. Conditional
+on the Lorentz readout and declared chart/symmetry, R2 survives. G176 remains
+a later working foundational clarification, not a consequence of a bare
+unlabelled metric. Its fixed-query theorem survives independently of whether
+the earlier mutual-clock interpretation derives its premise. Historical CANON
+and registry grades are unchanged; adoption is not an implication proof, and
+an unproved earlier implication does not automatically refute later conditional
+descendants. Opposite clock comparisons are not relabeled as inverse scalars
+to manufacture a contradiction.
+
+<a id="r2"></a>
+
+### R2. The quadratic readout and its domain
+
+The declared F4 Lorentz quadratic readout gives on the founded two-channel block
+
+\[
+h=D^T\operatorname{diag}(-1,1)D
+ =\operatorname{diag}(-e^{-2\delta},e^{2\delta}),\quad \det h=-1.
+\]
+
+If additionally a static spherical presentation and areal coordinate r are
+supplied, with presentation function phi(r), the familiar branch is
+
+\[
+ds^2=-e^{-2\phi(r)}c_E^2dt^2+e^{2\phi(r)}dr^2+r^2d\Omega^2.
+\]
+
+Its radial determinant is -c_E^2; the full volume density in these coordinates
+is c_E r^2 sin(theta). That is an identity of this readout/chart, not a theorem
+selecting spherical symmetry or a preferred physical center. Neither F1–F4 nor
+this calculation supplies the function phi(r). Later completed-pair results
+extend the algebra beyond this chart; they do not derive every supplied ambient
+metric from the two-channel construction.
+
+The representation current is \(J=D^{-1}dD=\operatorname{diag}(-d\delta,d\delta)\).
+For parameter-space tangent vectors X,Y,
+\(\tfrac12\operatorname{Tr}[J(X)J(Y)]=(X\delta)(Y\delta)\).
+This is the tensor form \(d\delta\otimes d\delta\); it is not the square of
+Tr J (which vanishes), and exterior multiplication gives J wedge J=0.
+It is a quadratic form on the
+one-dimensional representation parameter. Calling it physical action or energy
+would require an additional identification, which is not made.
+
+Sources: [founding derivation](UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md)
+with its declared readout and nontriviality qualifications; [relational ownership audit](udt_founding_phi_ownership_morphism_audit_2026-08-05/AUDIT_REPORT.md).
+Old wall/action proposals in those sources are historical conditional branches,
+not dependencies of R1–R2. Registry anchors: G01/G02/G05/G06.
+
+## 4. Complete pair geometry before scalar readout
+
+<a id="r3"></a>
+
+### R3. Pullback, regularity and shifted decomposition
+
+Supply a smooth Lorentz metric \(g=E^T\eta_4E\), invertible coframe E,
+\(\eta_4=\operatorname{diag}(-1,1,1,1)\), and rank-two pair germ J=dF.
+The induced metric follows by evaluating g on both pair tangents:
+
+\[
+\boxed{h=F^*g=J^TE^T\eta_4EJ.}
+\]
+
+In the optional block representation
+\(E=\begin{pmatrix}B&0\\QS&Q\end{pmatrix}\),
+\(J=\binom{Y}{Z}\), direct multiplication gives
+
+\[
+h=Y^TB^T\eta_2BY+(SY+Z)^TQ^TQ(SY+Z).
+\]
+
+B,Q are invertible; S,Y,Z are full2x2 matrices. No inverse of Y is used.
+All B,Q,S,Y,Z contributions enter before scalar readout. Rank J=2 alone does
+not guarantee the required causal type: impose h00<0 and det h<0. Completing
+the square then gives the unique positive decomposition
+
+\[
+h=-T^2(dy^0+\beta d\sigma)^2+L_\sigma^2d\sigma^2,
+\quad T^2=-h_{00},\quad\beta=h_{01}/h_{00},\quad
+L_\sigma^2=h_{11}-h_{01}^2/h_{00}>0.
+\]
+
+Consequently \(-\det h=T^2L_\sigma^2\). The cross-term remains in beta;
+its cancellation from the determinant does not discard physical input channels.
+
+<a id="r4"></a>
+
+### R4. What completed-pair reciprocity fixes
+
+G176's WORKING_FOUNDATIONAL_CLARIFICATION applies Dual Reciprocity to this
+completed pair. For a positive ruler density ds=m dσ, at the fixed clock
+calibration, \(T_s=T\), \(L_s=L_\sigma/m\), \(\beta_s=\beta/m\).
+The premise \(T_sL_s=1\) gives the unique positive solution
+
+\[
+\boxed{m=TL_\sigma=\sqrt{-\det h},\quad L_s=T^{-1},\quad
+\Phi=-\log T=-\tfrac12\log(-h_{00}),\quad\det h_s=-1.}
+\]
+
+This fixes normalization on its supplied pair. It does not choose the germ,
+clock calibration, event correspondence or full metric. An arbitrarily
+calibrated curve remains a valid control, with a different query type.
+
+FKA1 makes the distinction constructive. Every regular pair with that fixed
+clock leg admits this normalization, so existence alone selects no ambient
+metric equation. The local orthogonal proper ruler is d ell=L_sigma dσ=ds/T;
+it generally differs from the reciprocal coordinate. In R2's radial benchmark
+ds=dr while d ell=exp(phi)dr. Agreement with a separately prepared physical
+ruler would be an additional compatibility test, not something proved by
+renaming a coordinate. Shift and m remain in the complete record of R5.
+
+For example the flat germ X0=2y+σ, X1=3σ gives h=[[-4,-2],[-2,8]], m=6,
+beta_s=1/12 and chi=-3/5. Relabeling y'=2y gives T'=1 and chi'=0: the clock
+calibration changed. This is a control, not ambiguity at the same physical
+query. Its ds/dy null slopes are 6 and-3, neither the ratio T/L_s=4; the
+conditional ratio is not automatically a physical signal speed.
+
+For a smooth regular one-parameter family, m>0 implies
+\(s(\sigma)=s_0+\int_{\sigma_0}^{\sigma}m(u)du\) is a smooth coordinate onto
+its image. This is a family statement. In a two-variable chart with time-dependent
+m, the spatial density m dσ need not be an exact spacetime differential while
+holding the clock coordinate unchanged; that integrability is not claimed.
+
+The completed scalar and ratio are
+
+\[
+\boxed{\chi_{pair}=\frac{L_s-T_s}{L_s+T_s}=\tanh\Phi,\qquad
+q_{pair}=T_s/L_s=e^{-2\Phi}.}
+\]
+
+The notation c_eff/c_E=q_pair is a conditional calibration ratio, not automatically
+a local signal speed. The earlier raw control
+\(\frac14\log[-\det h/h_{00}^2]\) equals Phi only after the completed
+normalization. Under h→e^{2ω}h, m→e^{2ω}m and Phi→Phi−ω at fixed clock labels;
+completed normalization does not erase a supplied common metric scale.
+The raw ratio cancels that factor because both -det h and h00² acquire
+e^{4ω}; this is G05 algebraic cancellation. It does not establish Weyl gauge
+or cancellation of the completed fixed-clock scalar.
+
+On the matched founded block R2, Phi=delta and chi_pair=tanh(delta). A scalar
+has thus been derived from that calibrated pair, without a second response
+profile. The physical assignment of pairs/depths remains a different question.
+
+Sources: [G176 exact normalization](udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md),
+[G179 arbitrary-coframe extension](udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md),
+[G180 smooth family](udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md).
+Theorems are conditional on the working completed-pair premise and regularity.
+
+<a id="r5"></a>
+
+### R5. What is lost by scalar compression and what full records recover
+
+The completed record includes the density m as well as h_s. With
+C=diag(1,m), the exact identities h_s=C^{-T}h C^{-1} and h=C^T h_s C
+recover the full auxiliary pullback. Deleting m loses information. For example,
+g=-dt²+a²(dx²+dy²+dz²), with fixed coordinate clock/ruler queries, gives
+h=diag(-1,a²), m=a and h_s=diag(-1,1). Every a>0 has the same normalized
+pair but a different density and ambient metric. This is a supplied control.
+
+Known pair germs make each full entry J^T g J linear in the ten symmetric
+components of g. A network whose corresponding coefficient matrix has rank ten
+therefore reconstructs g uniquely. This is an ordinary injective linear map;
+compatibility of additional records can be checked against the reconstructed g.
+The rank and identification of germs are hypotheses, not supplied by scalar
+reciprocity. G213 preserves the rank when every h is replaced by (m,h_s).
+
+A second complete relation representation uses the area bilinear
+\[
+ A_g(u\wedge v,w\wedge z)=g(u,w)g(v,z)-g(u,z)g(v,w).
+\]
+If A_g=A_h for nondegenerate metrics in dimension at least three, let L=g^{-1}h.
+Nondegeneracy of the induced bivector pairing gives Λ²L=I. Thus L preserves every
+2-plane, hence every line (intersect two such planes), so L=λI. Then λ²=1.
+The fixed one-negative signature convention in four dimensions excludes h=-g;
+therefore h=g. Infinitesimally, off-diagonal changes are detected using a third
+basis index; the diagonal equations are a_i+a_j=0 for all i≠j, forcing all a_i=0.
+The map has rank ten. Arbitrary 21-component symmetric bivector forms are not
+all metric-induced. Full compatible valued relations can therefore represent
+and reconstruct a metric; predicting their values is a separate task.
+
+Sources: [G213 completed information](udt_g213_determinant_one_spatial_remainder_and_completed_rank_closure_2026-08-22/AUDIT_REPORT.md),
+[G134 area faithfulness](udt_g134_full_metric_area_history_reframe_audit_2026-08-17/AUDIT_REPORT.md).
+No population of physical queries or selected metric history follows.
+
+## 5. Clock comparisons from the same geometry
+
+<a id="r6"></a>
+
+### R6. Finite received ticking
+
+<a id="r6fka"></a>
+
+**Clock correspondence before a null representation — FKA1.** Supply an actual
+smooth increasing relation b=f(y) between proper-clock records in common units,
+with Z=f'(y)>0, and the target unit proper-clock curve z_o(b) in the supplied
+metric. Its source-time-labeled tangent is q'(y)=Z U_o for q=z_o composed with f.
+Thus g(q',q')=-Z². Any regular companion plus G176 completion at this fixed
+clock leg gives
+
+\[
+ T=Z,\qquad \Phi_{clock}=-\log Z,\qquad
+ \chi_{clock}=\frac{1-Z^2}{1+Z^2}.
+\]
+
+No propagation hypothesis enters this chain-rule/metric calculation. A local
+regular germ exists by choosing a nonzero spacelike W orthogonal to U_o and
+using F(y,σ)=exp_{q(y)}(σW(y)): at σ=0 the Gram matrix is diag(-Z²,g(W,W)).
+This chosen extension is not a selected physical ruler or unique pair plane.
+The scalar is companion-independent with the clock leg fixed. Predicting Z
+still requires the physical realization of f; defining q' to include Z does
+not predict it. Two actual slowing experiments can both have negative Phi_clock
+in this convention without being inverse arrows of one comparison.
+
+With any common increasing label, the two clock tangent norms give Z=T_o/T_e;
+source proper time sets T_e=1. This distinguishes a common change of units
+from changing the calibrated query. Finite intervals use integral Z dy as
+below, not an arbitrary local value. For clock maps f and k with finite
+strictly positive derivatives, composition gives
+Z_(k composed f)(a)=Z_k(f(a))Z_f(a) and
+Phi_(k composed f)(a)=Phi_k(f(a))+Phi_f(a). Their normalized contrasts obey
+chi_(k composed f)=(chi_k composed f+chi_f)/(1+(chi_k composed f)chi_f).
+The intermediate clock argument is essential. This actual-map composition
+supplies no universal endpoint potential or additive spatial distance.
+
+<a id="r6fkaw"></a>
+
+**Constructing a geometric representation and testing its ruler — FKA1.**
+The [constructive supplement](udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md)
+starts from the chosen maps b=Za and a=Zb, Z>1, a,b>0. Define on u,v>0,
+with two flat transverse coordinates,
+
+\[
+ P=(v-u/Z)(v-Zu),\quad H=P^2/\ell^4,\quad
+ C=Z e^{2\epsilon H},\quad
+ g=-C\,du\,dv+dx_\perp^2+dz_\perp^2,
+\]
+
+where ell>0 and finite epsilon are control parameters. The clock curves
+A(a)=(a,a/Z) and B(b)=(b/Z,b) satisfy H=dH=0, hence C=Z, dC=0 there.
+Their tangents have norm -1 and zero acceleration: the only possible radial
+Christoffels are Gamma^u_uu=partial_u log C and Gamma^v_vv=partial_v log C.
+The u↔v isometry exchanges the clocks. The function t=(u+v)/2 has timelike
+gradient with squared norm -1/C. The future null segments u=a and v=b give
+precisely the stipulated maps, for every epsilon; affine reparameterization
+exists because C>0. Each finite experiment uses its compact segments.
+
+Direct contraction gives R=(8 epsilon/C)H_uv. At Z=2,u=v=ell,
+R=12 epsilon exp(-epsilon/2)/ell². Thus flat epsilon=0 and curved nonzero
+members share these two ordinary free-clock records and their exchange symmetry.
+This is a representation and nonuniqueness control for exactly those records,
+not all-observer mutual slowing, a selected physical field equation, native
+UDT admission or satisfaction/insufficiency of all founding commitments. The
+null encoding represents the chosen relation without a second propagation cause.
+
+Choose the immediate-return radar convention D_rad=(Z²-1)a/2 from the same
+records. For the endpoint-normalized affine ribbon F(a,lambda)=(a,V), define
+S(a)=integral from a/Z to Za of C(a,v)dv and
+integral from a/Z to V of C(a,v)dv=lambda S(a), lambda in[0,1]. Its original
+Gram entries are h00=-C V_a, h01=-S/2, h11=0. At epsilon=0,
+-h00=1+lambda(Z²-1)≥1, so smoothness gives a positive small-|epsilon| interval
+of whole-ribbon regularity on every compact emission window a0≤a≤a1 with a0>0.
+No universal numerical bound or unrestricted whole-ray claim is asserted.
+
+On that domain, G176's m=S/2 is constant along lambda. The one-family tape
+L_completed=S/2 equals D_rad at epsilon=0. Since H>0 strictly inside the ray,
+positive epsilon gives L_completed>D_rad and negative epsilon gives the reverse,
+while all the displayed clock/radar records and endpoint kernels remain the same.
+The radar convention is a chosen calibration from existing records, not an
+independent new observation or adopted UDT length law. Equality to it would be
+a substantive condition. Neither ruler is automatically proper spatial length;
+the null proper length is zero. At epsilon=0, m'(a)=(Z²-1)/2>0, so the tape
+still has the family-only, non-exact-coordinate scope of R4. No native ruler,
+distance law, scale, global completion or selected metric follows.
+
+The following null construction is one conditional geometric realization of
+the correspondence. It may describe the same geometry that constitutes the
+postulated clock effect; it is not a second independent cause of observed c_E.
+
+Supply a smooth time-oriented Lorentz metric, two ordinary timelike proper clocks,
+and a smooth regular branch of affine null geodesics joining their emission and
+reception events. Use c_E=1 in formulas by expressing proper time in length units.
+This is the conditional null-clock interface, not a derived microscopic theory of
+light or a universal physical-protocol selection. The Levi-Civita connection is
+the unique torsion-free metric-compatible connection used here.
+
+Let k be the future affine ray tangent, u_e,u_o the future unit clocks, and
+ω_i=-g(k_i,u_i)>0. For a smoothly varied null ray with connecting variation J,
+commuting parameters imply ∇_kJ=∇_Jk. Consequently
+\[
+ {d\over d\lambda}g(k,J)=g(k,\nabla_Jk)
+ =\tfrac12 J[g(k,k)]=0.
+\]
+At the endpoints, source proper time as family parameter gives J_e=u_e and
+J_o=Z u_o. Therefore
+\[
+ \boxed{Z={d\tau_o\over d\tau_e}={\omega_e\over\omega_o}>0,
+ \qquad 1+z=Z.}
+\]
+This provides the requested redshift directly from received ticking on supplied
+geometry. A finite emitted interval gives
+Δτ_o=∫Z(τ_e)dτ_e; replacing that integral by a single Z times the interval
+requires constant Z or a controlled approximation. Caustics, branch switches,
+re-emission and a finite relay require their own correspondence data.
+
+The same-correspondence clock leg of G220 has T=Z when emission proper time
+labels the comparison. Completed G176 depth on that leg is Phi=-log Z.
+Thus chi_clock=tanh(-log Z) and Z=sqrt((1-chi_clock)/(1+chi_clock)). This is a
+matched clock-leg identification, not an automatic assembly of a full pair plane
+or equality with a transported rapidity norm. FNA1 in R8 constructs the full
+regular pair and its aligned transport for the specified space-form experiment.
+No second fitted redshift function
+is needed once this geometry and interface are supplied.
+
+FKA1 additionally checks a local full germ when a smooth affine null family
+F(y,lambda), lambda in[0,1], is supplied. At reception J=F_y=Z U_o and K=F_lambda
+give h=[[-Z²,-Z omega_o],[-Z omega_o,0]], det h=-Z² omega_o²<0. Completion
+gives h_s=[[-Z²,-1],[-1,0]]; the shift cannot be dropped. This local endpoint
+construction does not guarantee timelike J throughout the ray, global embedding
+or a selected branch. The exact flat strip F=(y+lambda d,lambda d),
+d=(5+3y)/2, has h00=-(1+3lambda), h01=-d, h11=0 and m=d. At reception Z=2
+and chi=-3/5, but d(m d lambda)=3/2 dy wedge d lambda: the normalization is
+not a global exact spatial coordinate with the original clock leg. FNA1's
+stronger whole-ray result retains its own scope. These controls do not judge
+the founding postulate using a separate propagation mechanism.
+
+Sources: G220 and [FSL1 §§1–2](udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md),
+with its [orientation repair](udt_finite_separation_law_2026-09-28/REPAIR.md);
+finite interval/instrument distinctions also belong to the source-bounded
+[G416–G423 signal-chain results](udt_signal_chain_banking_2026-09-13/BANKING_RECORD.md).
+That entire instrumental chain is retained at source scope, not all rederived here.
+
+<a id="r6n"></a>
+
+**TRI1: actual clocks do not require a population rest criterion.** R6's proof
+uses the supplied emitter, receiver and regular null correspondence; no population
+moment or rest minimization enters. Its ratio is unchanged by k→a(s)k for a(s)>0
+constant along each ray and the same at both endpoints. This follows from the
+endpoint contractions; a reparameterized affine family need not retain the old
+fixed parameter interval. Absolute frequency is not fixed by that convention.
+If an emission cadence ν_e(s)>0 is supplied, choosing a=ν_e/ω_e gives received
+cadence ν_o=ν_e/Z on that branch. This specifies a clock-label/emission protocol,
+not quantum energy or a change in ordinary local proper-clock rates.
+
+An arbitrary auxiliary future unit observer v on the same ray cancels in
+(ω_e/ω_v)(ω_v/ω_o)=Z, retaining its actual direction in R7 transport. A population
+frame may be used as that auxiliary frame. Replacing an actual endpoint clock
+is a different experiment and need not preserve Z. The geometry does not by
+itself select endpoint worldlines, initial motion, events or a branch. The
+conditional null-clock interface remains explicit, without selecting light physics.
+
+<a id="r6t"></a>
+
+**Tick measures and combined records.** Let t=A(s) be the stipulated increasing
+proper-time correspondence, A'=Z>0, and supply a locally finite nonnegative
+measure μ_e of labelled emission ticks. Counting each matched label once gives
+\[
+ \mu_o(B)=\mu_e(A^{-1}(B)).
+\]
+This pushforward counts discrete atoms exactly; a nonzero atomic record has no
+ordinary density. For a separately supplied continuous measure μ_e=r_e(s)ds,
+change of variables gives r_o(A(s))=r_e(s)/Z(s) almost everywhere;
+continuous density representatives give a pointwise formula. A differentiable
+phase obeys the same chain rule; an atomic step count need not have an ordinary
+derivative. For finite clock intervals the earlier ∫Z ds rule still applies.
+These are conditional label-accounting statements, not a lossless-detector,
+photon, energy, intensity, luminosity or area-flux law.
+
+For finitely many supplied streams received on one proper clock, addition of
+their matched counting measures gives almost everywhere, when the densities
+exist and t lies in a common reception window where all displayed inverses exist,
+\[
+ r_{\mathrm{tot}}(t)=\sum_j
+ \frac{r_{e,j}(A_j^{-1}(t))}{Z_j(A_j^{-1}(t))}.
+\]
+Alternatively extend each channel measure by zero outside its reception image
+and sum active channels. Source rates and the counting protocol are additional
+data. Where the sum of those source rates is positive, dividing by it defines a rate-weighted mean of 1/Z_j at the matched
+events; it is not a universal effective redshift. Independent reception clocks
+would need an additional alignment protocol. Knowledge of Z alone also leaves
+the arrival-time integration constant; the actual event correspondence supplies it.
+Loss, branch changes and re-emission require their own accounting.
+
+For supplied maps A1=2s,A2=4s, constant source rates(1,1) give total3/4 and
+normalized ratio3/8; rates(3,1) give7/4 and7/16, with unchanged individual shifts.
+For A=s+s² on[0,1], reception duration2 differs from the initial Z times the
+source duration1; exact pushforward preserves the matched count. These finite
+controls choose no UDT geometry or physical population. R6's geometric ratio is
+established prior work; TRI1 makes its data requirements and counting extension
+explicit. [Fixed derivation](udt_tick_readout_identification_2026-09-30/INITIAL_CANDIDATE.md)
+with its [measure/window repair](udt_tick_readout_identification_2026-09-30/REPAIR.md)
+and [reviewed scope](udt_tick_readout_identification_2026-09-30/REVIEWED_RESULT.md).
+
+The later signal results retain distinct query/protocol scopes. This table is
+source-preserving documentation, not eight new derivations or one required
+instrument model:
+
+| Result | Retained scope and separation |
+|---|---|
+| G416 / OB1 | Prescribed stationary loop delay and full-record connection; coherent/quadrature phase tests additionally use supplied conventional transfer. |
+| G417 / ZDR1 | Conditional optical accounting and whole-event duration/error gate; duration reuse does not adopt optional quantum/bolometric assumptions. |
+| G418 / NCR1 | NE1 directional clock orders and cone/narrowing bounds; axial growth is not uniform at fixed nonzero tilt. |
+| G419 / NTB1 | NE1 full-ray infinitesimal screens; no-conjugacy only for its invariant family and specified late-time orders. |
+| G420 / LSB1 | Supplied stationary positive compact family; ideal two-coefficient calibration and unused angle/relay-time records. |
+| G421 / CSS3 | Source-clock/prescribed-receiver free-ray arrival map and local endpoint/beam-rank relation; repaired finite chart bound retains the original failure. |
+| G422 / CSS4 | Whole-window guided circular loop with supplied changing circulation; different query from CSS3/5 free rays. |
+| G423 / CSS5 | CSS3 whole-event and same-segment area relations; initial-rate scale calibration needs known epoch/axes and nonnode. |
+
+The current signal-chain banking record above controls their full hypotheses.
+Same-segment area reversal is not a later future return. Combining sources also
+requires translating their forward/reverse area-index conventions.
+
+<a id="r7"></a>
+
+### R7. Direction, composition and an asymptotic test
+
+Parallel transport P on the supplied ray obeys ∇_kP=0 and is an isometry.
+Choose endpoint orthonormal tetrads with future clocks and consistent spatial
+orientation along the path. Then Λ=E_o^{-1}PE_e lies in SO⁺(1,3). For a future
+null direction l(n)=(1,n), |n|=1, define
+\[
+ f(\Lambda,n)=[\Lambda l(n)]^0>0,\qquad
+ A(\Lambda,n)=[\Lambda l(n)]^{sp}/f(\Lambda,n).
+\]
+Applying Λ₂ to Λ₁l(n) proves, without dropping the intermediate direction,
+\[
+ f(\Lambda_2\Lambda_1,n)
+ =f(\Lambda_2,A(\Lambda_1,n))f(\Lambda_1,n).
+\]
+The analogous direction formula composes A. Here f=ω_o/ω_e=1/Z. Inversion
+of the same comparison gives a reciprocal multiplier, but a later future return
+or a different path is a different Λ and event correspondence.
+
+Let Λe₀=(γ,s), bold chi=s/γ in the reception frame. Since γ²-|s|²=1,
+\[
+ \boxed{Z=\gamma-s\cdot n_o
+ ={1-\boldsymbol\chi\cdot n_o\over\sqrt{1-|\boldsymbol\chi|^2}}.}
+\]
+This links W5's projective state to a clock observable only when its arrow is
+this actual transported comparison with these clocks/direction. The expression
+has familiar Lorentz form; that does not identify bold chi with a cosmological
+recession velocity. If ρ=artanh|bold chi|, then e^{-ρ}≤Z≤e^ρ. At |chi|=0,
+Z=1; finite signal delay is still possible. Aligned signed planar chi=tanh(α)n_o
+gives Z=e^{-α}; the general directional relation contains more data.
+
+For r=|bold chi|→1 and μ=(bold chi·n_o)/r,
+\[
+ Z={1-r\mu\over\sqrt{1-r^2}}
+ ={(1-r)+r(1-\mu)\over\sqrt{(1-r)(1+r)}}.
+\]
+Thus Z→∞ iff (1-μ)/sqrt(1-r)→∞ on that limiting family. Projective norm
+saturation alone is insufficient: γ=1+q²/2, s=(q²/2,q,0), n_o=(1,0,0)
+has γ²-|s|²=1 and Z=1 for every q>0 while r→1. This is a supplied comparison
+control, not a native-admitted UDT alternative or a refutation of the intended
+physical asymptote. No physical distance or X_max follows just from r<1.
+
+Sources: G269/G272/G274 and [FSL1 §§3–5](udt_finite_separation_law_2026-09-28/INITIAL_CANDIDATE.md).
+
+#### Lorentzian structure and the reciprocal character — LKT1
+
+The Lorentzian lead is substantive, but two preserved forms must be kept distinct.
+R1's D(δ)=diag(e⁻δ,e⁺δ) preserves K=[[0,1],[1,0]]. With
+S=2⁻¹ᐟ²[[1,1],[-1,1]], direct multiplication gives SᵀKS=η₂ and
+S⁻¹D S=[[coshδ,−sinhδ],[−sinhδ,coshδ]], an ordinary boost matrix.
+This is exact representation equivalence. The SAME basis change sends the
+original physical readout η₂ to −K. In the original clock/ruler channels
+Dᵀη₂D=diag(−e⁻²δ,e²δ), which is not η₂ at nonzero real δ. The founding
+ownership audit already distinguished these objects; the equivalence does not
+turn reciprocal coframe dilation into physical isometric transport.
+
+The positive actual-clock identification is already available in R6–R7:
+Φ_clock=log f(Λ,n_e)=−log Z, hence D(Φ_clock)=diag(Z,1/Z) on the matched
+comparison-clock leg. The intermediate direction is carried in composition.
+It is not a complete pair-plane construction or equality with the full
+transported rapidity magnitude outside the stated planar clock sector.
+
+<a id="r7c"></a>
+
+There is a narrow algebraic obstruction to discarding that direction: a smooth
+additive real scalar homomorphism on the entire SO⁺(1,3) must vanish. Its
+derivative kills brackets, while [J_i,J_j]=ε_ijk J_k and
+[J_i,B_j]=ε_ijk B_k generate every rotation and boost generator as a bracket.
+Connectedness then gives the zero homomorphism. This excludes that particular
+arrow-only scalar construction. The direction-dependent clock law, restricted
+subgroups and path-labelled relations remain available; it is not a UDT no-go.
+
+<a id="r7l"></a>
+
+#### The metric derivatives determine the boost in a declared sector
+
+Supply an actual smooth Lorentz2 geometry, or a totally geodesic Lorentz2 surface
+in a supplied four-metric containing the clocks and rays. A pointwise rank-two
+pair pullback does not establish these hypotheses. In a regular chart let
+θ⁰=T(dt+b dx), θ¹=L dx, T,L>0, with ordinary x-fixed unit clocks
+U=T⁻¹∂_t. Retain the shift b. Exterior differentiation and the torsion-free,
+metric-compatible Cartan equations give the single Lorentz connection one-form
+
+\[
+ \varpi=\frac{T_x-(Tb)_t}{L}(dt+b\,dx)+\frac{L_t}{T}\,dx.
+\]
+
+Indeed dθ⁰=−a θ⁰∧θ¹, dθ¹=H θ⁰∧θ¹, where
+a=[T_x−(Tb)_t]/(TL), H=L_t/(TL), so ϖ=aθ⁰+Hθ¹.
+This is calculated from the metric, not an independent physical connection.
+Writing J=[[0,1],[1,0]], transport satisfies v′=−ϖ(γ′)Jv and therefore
+Λ_γ=exp(α_γJ), α_γ=−∫_γϖ. On a future affine null branch with constant
+orthonormal direction ε=±1, k_frame=ω(1,ε), whence
+
+\[
+ d\log\omega=-\epsilon\varpi,\qquad
+ \Phi_{\rm clock}=-\log Z=-\epsilon\int_\gamma\varpi
+                  =\epsilon\alpha_\gamma.
+\]
+
+Endpoint frame time columns here are the actual clocks. Changing intermediate
+frames with identity endpoint changes preserves the result; arbitrary new
+endpoint clocks require their own comparison. Four-dimensional transverse
+transport generally leaves this single-generator sector.
+
+G176 supplies m=TL, Φ_local=−log T and L=m/T for the local record with these
+clock labels. It does not delete m from ϖ or make m dx an exact spacetime
+coordinate while retaining t when m_t≠0. For the supplied G220-type control
+T=1, b=0, L=1+t, local Φ_local=0 everywhere but ϖ=dx. Null reception between
+x=0 and x=log2 gives t_o=2t_e+1 and Z=2. Its matched comparison-clock depth
+is −log2. These are different queries; the full local record retained m=1+t.
+This flat, relatively moving-clock control is not an admitted native positional
+cosmology or a failure of completed-pair normalization.
+
+<a id="r7e"></a>
+
+#### Evolution tests the proposed endpoint-depth identification
+
+Further restrict to an actual zero-shift reciprocal coordinate presentation
+T=e⁻φ(t,x), L=e⁺φ(t,x), TL=1. Neither G176 nor no preferred observer selects
+this chart or its clocks. Its φ is a presentation quantity, not automatically
+an intrinsic scalar of the geometry. Substitution gives
+
+\[
+ \varpi=-e^{-2\phi}\phi_x\,dt+e^{2\phi}\phi_t\,dx,
+ \quad \frac{dx}{dt}=\epsilon e^{-2\phi},
+ \quad \boxed{\Phi_{\rm clock}=\Delta\phi
+                     -2\int_\gamma\phi_t\,dt.}
+\]
+
+Thus equality with the SAME presentation-potential difference on one finite
+ray requires the displayed integral to vanish. Requiring that equality on
+every sufficiently short null segment throughout a patch forces φ_t=0;
+the converse holds locally. Static φ gives Φ_clock=Δφ, while time-only φ
+gives Φ_clock=−Δφ, recovering both G220 limits. A different endpoint potential
+in an evolving geometry is not excluded. No such extra identification has been
+adopted as a universal UDT premise.
+
+When the extra equality forces φ_t=0, these x-fixed clocks share a timelike
+Killing flow, so R8S's restricted exclusion of two net-redshifted return legs
+applies. This does not rule out evolving geometry, moving clocks, transverse
+data, or a positional contribution combined with other shifts.
+
+For the curvature convention R(X,Y)=[∇_X,∇_Y]−∇_[X,Y], the sector has
+R_h=2(∂_tϖ_x−∂_xϖ_t)/(TL). In the reciprocal chart this becomes
+R_h=2[∂_t(e²φφ_t)+∂_x(e⁻²φφ_x)]. On a contractible patch, full transport
+path independence is equivalent to dϖ=0; global periods and general
+four-dimensional holonomy require more. Endpoint-exact scalar clock data
+are not full path-independent transport. These are curvature identities and
+compatibility conditions, not a selected field equation or flatness postulate.
+
+The advance is an explicit restricted differential connection between complete
+reciprocal metric data and Lorentz clock transport, with a precise test of the
+tempting static endpoint-depth identification. The native selection of the
+physical geometry and comparison population remains open. Sources and reviewed
+limits: [LKT1 fixed evidence](udt_lorentz_kernel_transport_2026-09-29/REVIEWED_RESULT.md),
+[founding ownership](udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md),
+[G220 dynamic clock law](udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md),
+and the G176/G180/G269/G272/G274/FSL1 sources above. No distance-for-velocity
+substitution, selected profile, independent connection or physical scale is used.
+
+<a id="r7grc"></a>
+
+#### A physical radial clock law is stronger than normalized reciprocity — GRC1
+
+GRC1 explored whether the reciprocal representation could become a physical
+transport restriction. Requiring a parallel null line, with local section ell
+satisfying nabla ell=omega tensor ell, would give
+R(X,Y)ell=d omega(X,Y)ell. Actual frequency transport still contains endpoint
+clock factors: omega_o/omega_e=exp(-integral omega)N_o/N_e, N=-g(ell,U).
+Loop scale holonomy is not an arbitrary future clock-return experiment. A smooth
+nonflat Walker witness satisfies the proposed recurrence, but its universal form
+cannot approach a nonzero Schwarzschild exterior in C²: two curvature operators
+are nonzero boosts in distinct planes, with no common null eigenline. Normalizing
+null directions against a smooth timelike frame gives a compact sky, so common
+line preservation passes to any such C² limit and contradicts this control.
+This rejects that universal unadopted proposal, not UDT or recurrence only along
+an actual affine ray, which is automatic for its tangent.
+
+The learned alternative is a different **UNADOPTED** condition, NAR. Supply a
+spherical region g=h+r²dOmega² with r>0 and F=h^-1(dr,dr)>0. Spherical symmetry
+is a declared sector, not a universal center. Let K=*h dr, oriented future, and
+use the specific proper-clock field U=K/sqrt(F). For every sufficiently short
+radial null signal in both directions propose the actual endpoint law
+
+    Z=sqrt(F_o/F_e).
+
+For an affine radial tangent k, E=-g(K,k)=+/-k(r)=sqrt(F) omega. The proposed
+law says E is conserved; hence Hess_h r(k,k)=r''=0 in both null directions.
+In Lorentz2 this is Hess_h r=(Box_h r/2)h. It makes K Killing, and
+dF=(Box_h r)dr then gives the local form
+
+    g=-F(r)dt²+dr²/F(r)+r²dOmega², arbitrary smooth F>0.
+
+Conversely this form satisfies the endpoint law. The warped-product identity
+Ric_g(k,k)=-2r^-1 Hess_h r(k,k) shows that the condition removes the **total
+radial Ricci focusing term**, not an unspecified additional contribution or all
+null optical curvature. No Einstein equation enters. For a finite regular radial
+segment, the departure from the endpoint law is exactly
+
+    log Z - (1/2)log(F_o/F_e)
+       = integral r Ric_g(k,k)/(2k(r)) d lambda.
+
+Here k(r) does not vanish on the untrapped radial branch. Normalized pair
+determinant or Kodama's existence alone does not supply this equation's zero
+right side. Dynamic reciprocal metrics and one-direction affine-neutral examples
+separate those weaker properties. This covariant areal-clock version credits
+LKT1's prior restricted stationarity test. Its held clocks are generally
+accelerated; their inverse static rate ratios are not PSW1's released future legs.
+It selects neither F, additional positional attribution, a population nor a scale.
+
+The fixed [A candidate](udt_goal_research_campaign_2026-10-13/researcher_a/CANDIDATE.md)
+owns the proof and exact original-metric controls. Its [source-preserving correction](udt_goal_research_campaign_2026-10-13/researcher_a/REVIEW_REPAIR.md) and
+[supplement](udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md) distinguish total radial neutrality from matched optical differences;
+the [campaign candidate](udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md)
+preserves discovery and physical limits. R8GRC tests a stronger clock-sign proposal
+inside and beyond this supplied spherical sector.
+
+<a id="r8"></a>
+
+### R8. Actual two-way timing and constructive metric information
+
+Let b=f_AB(s) be reception at B of A's emission and a=f_BA(b) the reception at A
+of an immediate return from B. Write p=f_AB'(s)>0, q=f_BA'(b)>0, evaluated at
+the actual matched relay event. Then F=f_BA∘f_AB has F'=pq. Assuming an ordered
+return F>s in the stated chronological domain, define
+\[
+ T=(s+F)/2,\quad R=c_E(F-s)/2,\quad
+ \beta_{rad}={1\over c_E}{dR\over dT}={pq-1\over pq+1}.
+\]
+This follows by differentiating both definitions. Put
+S=(log p+log q)/2, K=(log p-log q)/2: beta_rad=tanh S. Both legs are net
+redshifted iff S>|K|, and both diverge iff S-|K|→∞. Positive radar drift
+alone proves neither condition. This is not a derivation of Hubble expansion,
+a separation of the positional factor, or a local material signal speed.
+
+There is a positive inverse result in a declared extra sector. Suppose both
+clocks and branches lie in a smooth totally geodesic Lorentz2 surface with
+radar metric g₂=Ω²(-c_E²dT²+dR²). At A, ordinary proper normalization gives
+Ω(T,0)=1; free fall gives ∂_RΩ(T,0)=0 on a smooth chosen side. Along B,
+dT/db=(1/p+q)/2 and dR/(c_Edb)=(q-1/p)/2. Hence
+(dT/db)²-(dR/(c_Edb))²=q/p and ordinary proper normalization gives
+\[
+ \boxed{\Omega_B=\sqrt{p/q},\qquad \varphi|_B=\log\Omega_B=K.}
+\]
+The chain rule along B is dot K=∂_Tvarphi+c_E beta_rad ∂_Rvarphi. Its
+geodesic equation supplies dot S=-beta_rad ∂_Tvarphi-c_E ∂_Rvarphi.
+Solving the two linear equations gives
+\[
+ \partial_T\varphi={\dot K+\beta_{rad}\dot S\over1-\beta_{rad}^2},\qquad
+ c_E\partial_R\varphi={-\dot S-\beta_{rad}\dot K\over1-\beta_{rad}^2}.
+\]
+Dots use radar time along B. These are metric value/gradient reconstructions
+along a curve, not a full4D field equation. Accelerated clocks need additional
+terms; the totally geodesic2D restriction is not automatic. No local clocks
+have been made intrinsically abnormal. A finite relay multiplies by its own
+proper-time derivative and changes the matched emission event.
+
+Further useful clock-curvature relations (G402/G403/G415) depend on congruence,
+curve, jet and regularity hypotheses. Their full classifications remain in the
+supporting evidence; they are not substituted for this protocol-specific result.
+Source: [ICN1 with its chronology repair](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md).
+
+#### One geometry with an additional positional contribution — SGE1
+
+The owner requirement is positional dilation in addition to SR/GR phenomena,
+all within one geometry. Equation R6 already fixes Z[g,Q] for a specified
+physical metric and comparison Q. Therefore an additional observable consequence
+must enter the admissible geometry or its physical comparison assignment; no
+second redshift function follows after the readout. For an operationally matched
+GR comparison, D_pos=log Z[g,Q]−log Z[g₀,Q₀] is a useful diagnostic, not itself
+a derived isolation of positional physics. Coordinate matching alone is insufficient;
+clocks, initial conditions, units and branch/protocol must be matched physically.
+No additive or multiplicative decomposition is assumed.
+
+On a regular ray admitting a compatible smooth future unit extension U of its
+endpoint clocks in a tube, let ω=−g(k,U), n=k/ω−U and dℓ=ω dλ. This is an
+observer-normalized null-path length, not automatically radar/spatial distance. OAA1 in R8OAA
+uses a different quantity: one endpoint frequency times the full affine interval.
+It is not this auxiliary-field integral or an adopted universal distance.
+Write ∇ₐU_b=−Uₐa_b+Hh_ab+σ_ab+ϖ_ab, with H=div U/3, spatial trace-free
+shear σ and spatial antisymmetric vorticity ϖ. Metricity and affine transport
+give dω/dλ=−kᵃkᵇ∇ₐU_b, hence the established DCI1/FSL1 relation
+
+\[
+ K(U,n)=H+\sigma(n,n)+a\cdot n,\qquad
+ \log Z=\int K\,d\ell.
+\]
+
+This rederives a known kinematic identity, not a native field law. The tube
+extension is a condition for this representation, not a theorem from time
+orientation; recurrent/self-intersecting paths may need local patching. The
+endpoint clock formula remains available at its own regular-branch scope.
+Vorticity drops out of this contraction, not out of the geometry or curvature.
+
+If another auxiliary field Ũ agrees at the endpoints, put b=ω̃/ω>0. Then
+
+\[
+ d\tilde\ell=b\,d\ell,\qquad
+ \tilde K\,d\tilde\ell=K\,d\ell-d\log b.
+\]
+
+The integrals agree because b=1 at both endpoints. Thus K's local allocation
+is not independent of the auxiliary field. A flat-ray control with
+Ũ=(cosh r,sinh r,0,0), k=(1,1,0,0), r zero at both endpoints has
+ω̃=e⁻ʳ and K̃dℓ̃=dr, despite unchanged endpoint observations. This is a
+control of the representation, not an admitted physical UDT alternative.
+A physical observer population would require its own specified meaning.
+
+All-direction isotropy of the **net** K at an event forces a=0 by comparing
+n and −n, then σ=0 by the trace-free quadratic form on the rest sphere.
+Conversely these conditions give K=H. This is an additional sector condition,
+not a consequence of no preferred observer or of an isolated positional factor.
+
+<a id="r8s"></a>
+
+#### Restricted stationary-clock exclusion
+
+Suppose the physical clocks follow the same timelike Killing field ξ=N U,
+N>0. Along each affine null leg, C=−g(k,ξ) is constant by the Killing
+equation, so ω=C/N and Z_AB=N_B/N_A. N is constant on each Killing orbit.
+On an immediate future return p=N_B/N_A and q=N_A/N_B, hence pq=1,
+even with a stationary shift. Both actual legs cannot have net redshift in
+this sector. A later-return leg is still not the inverse arrow; the equality
+here follows from the extra stationary-clock hypotheses.
+
+The exclusion does not apply to arbitrary moving clocks in a stationary metric,
+general evolving geometry, or a positional contribution masked by another shift.
+It supplies no Hubble model or universal no-go. In the general chronological
+radar protocol above, both net redshifts imply increasing delay through pq>1.
+
+#### Recovery, distant growth and the remaining physical relation
+
+For normalized ray length L and an actual bound |dK/dℓ|≤B on its regular
+segment, integration gives |log Z−K_e L|≤BL²/2. If K_e=0 this is quadratic;
+ordinary local clocks do not require finite comparisons to vanish. This is a
+controlled local estimate with no selected B, threshold or physical scale.
+
+For two operationally matched comparisons parameterized on s∈[0,1], put
+J_i=K_i dℓ_i/ds. If ∫|J−J₀|ds≤ε, then |D_pos|≤ε and
+e⁻ᵋ≤Z/Z₀≤eᵋ. The complete comparison includes moved rays and observer
+assignments; holding their coordinate curves fixed need not preserve the
+experiment. This is a sufficient clock bound, not a necessary condition or
+certification of all finite-domain SR/GR tests. Trajectories, tides and optical
+observables require their own corresponding bounds and empirical precision.
+
+The intended Z→∞ requires ∫Kdℓ→+∞. A family with common finite bounds
+|K|≤M and L≤L_max cannot do this. Escaping those bounds need not mean a
+curvature singularity: normalized length or observer normalization can grow.
+No physical X_max, finite distance, wall or echo availability is selected.
+For the same-correspondence clock leg Φ_clock=−log Z, χ_clock→−1;
+R7's full-projective directional qualification survives separately.
+
+The deformation and curvature must also fit DCI1/CRD1's exact identity,
+with their curvature convention:
+
+\[
+ 3U(H)=-3H^2-\sigma_{ab}\sigma^{ab}+\varpi_{ab}\varpi^{ab}
+       -\operatorname{Ric}(U,U)+\nabla\cdot a.
+\]
+
+It follows by expanding div(∇_U U), commuting derivatives, and taking the
+trace of the spatial derivative decomposition. In a region where the
+congruence is geodesic, shear-free and irrotational, it reduces to
+U(H)=−H²−Ric(U,U)/3. Those restrictions are not imposed as universal UDT
+premises. Prescribing H and calculating the curvature needed to support it
+would still supply the desired profile; this identity does not select it or
+identify DDR's physical response.
+
+The first unclosed step in this route is a UDT restriction on the physically
+realized metric and comparison assignment which enforces the additional
+positional requirement. Ordinary initial/query data remain legitimate. Auxiliary
+bookkeeping cannot silently become a physical source or selected observer family.
+Relational/global restrictions remain possible; a local response equation is
+not proved necessary. Existing premises may contain implications not yet extracted.
+
+Sources and exact scopes: [SGE1 frozen deduction and review](udt_shared_geometry_extension_2026-09-29/REVIEWED_RESULT.md),
+[DCI1 original kinematics](udt_directional_clock_curvature_whiteboard_2026-09-10/INITIAL_CANDIDATE.md),
+and the FSL1/ICN1/CRD1 sources already attached above. The new return is a
+reviewed synthesis with explicit restricted consequences, not native dynamics
+or proof that the full UDT postulates are insufficient.
+
+
+#### A prepared-clock curvature test — PSW1
+
+SGE1 leaves a restriction on physical geometry/comparison assignment open.
+A supplied laboratory protocol makes one possible discriminator explicit,
+without assigning it to the positional contribution. Choose a smooth Lorentz4
+metric, event o, future unit U, spatial unit n and small initial proper separation
+L. A follows the geodesic through (o,U). At B0=exp_o(Ln), give B the parallel
+transport of U along that spacelike preparation geodesic, then let B fall freely.
+Vary emissions near A's proper time0 on the same prepared worldlines, using a
+unique regular outgoing null branch and ideal immediate future return in a
+small chronological normal tube. No re-preparation at every tick, fixed receiver,
+physical population or preferred observer is assumed. This is declared query
+preparation, not a new universal physical law. Use length units for time, c_E=1.
+
+Let p_L and q_L be the actual proper arrival derivatives defined at the start
+of R8, with q evaluated at the matched relay. Define the electric tidal form
+T_ij=g(R(e_i,U)U,e_j), tr T=Ric(U,U), with
+R(X,Y)=[nabla_X,nabla_Y]-nabla_[X,Y]. T is not DDR's response E. Then
+
+\[
+ \log p_L(n)=-\tfrac12 T(n,n)L^2+O(L^3),\qquad
+ \log q_L(n)=-\tfrac32 T(n,n)L^2+O(L^3).
+\]
+
+For the proof, Fermi coordinates along A give the radial quadratic terms
+ g00=-(1+e r²), g0n=0, gnn=1, where e=T(n,n) at o. Curvature antisymmetry
+annuls the radial mixed/spatial contractions. At t,s,r=O(L), the necessary jets are
+
+\[
+ r_B(t)=L-eLt^2/2+O(L^4),\quad
+ t_b=s+L-eL(s+L)^2/2-eL^3/6+O(L^4),\quad
+ \tau_B(t)=t+eL^2t/2+O(L^4).
+\]
+
+Differentiate the actual arrival map to obtain p. For the return,
+t_a=t_b+r_B(t_b)-e r_B(t_b)^3/6+O(L^4); dividing its derivative by
+ d tau_B/dt_b gives q. The 1:3 ratio belongs to this preparation and leading
+order, not to arbitrary clocks or finite separation. The return is not an
+inverse correspondence. The proof does not require a totally geodesic2D surface:
+transverse velocity/ray corrections do not enter the leading radial contraction.
+Rescaling t=L tau,x=L y,s=L sigma yields a regular transverse Minkowski-limit
+incidence problem; smooth dependence there supplies C1 remainder control.
+A bare flight-duration expansion would not justify differentiating its remainder.
+Separate endpoint-frequency and small-loop transport arguments confirm the two
+coefficients, including full4D transverse terms. Standard Fermi/clock-curvature
+methods are credited in the [method record](udt_positional_selection_whiteboard_2026-10-01/PRIMARY_METHOD_REFERENCES.md).
+
+For three orthonormal directions in otherwise identically prepared experiments,
+
+\[
+ \overline{\log p_L}=-\operatorname{Ric}(U,U)L^2/6+O(L^3),\qquad
+ \overline{\log q_L}=-\operatorname{Ric}(U,U)L^2/2+O(L^3).
+\]
+
+At quadratic order these are also spherical means; higher-order or finite-angle
+records need not agree. A triad determines a trace, not all six components or
+all-direction signs of T. Ric=0 gives zero leading mean. Nonzero trace-free T
+has both signs; T=0 leaves higher orders open. Positive leading mean requires
+Ric(U,U)<0; a positive quadratic coefficient in every direction requires negative-definite T, a stronger
+condition. Ric=Lambda g gives outgoing mean coefficient Lambda/6, without
+selecting Lambda. A physically matched reference experiment gives the same
+formulas for Delta T and Delta Ric; matching coordinates alone is insufficient.
+The comparison must match initial frame, proper L, velocity, units and relay rule.
+
+Three finite controls challenge these claims. A signed-lapse product metric
+ g=-(1+e x²)dt²+dx²+dy²+dz² confirms the released-clock formula; holding B fixed
+instead reverses its leading outgoing sign. The independently constructed family
+ g=-dt²+sum_j(1+kappa_j t²)²(dx^j)² has parallel-prepared comoving geodesics at
+ t=0. Its exact axis-i null integrals give outgoing coefficient kappa_i and
+return coefficient3kappa_i. All three scale factors must remain positive throughout
+both flights and nearby emissions; the queried axis's tan bound alone is not
+sufficient. The initial omission and explicit degeneracy counterexample remain
+in the review history. These are supplied off-equation controls.
+
+A direct original-coordinate Kasner calculation with exponents(-1/3,2/3,2/3)
+at t=1 is a nonflat Ricci-flat control: outgoing coefficients(2/9,-1/9,-1/9)
+and return coefficients(2/3,-1/3,-1/3) have zero means. Correct spacelike preparation
+and transported velocity are necessary; arbitrary comoving clocks are a different
+experiment. These finite symbolic checks support the derivation, not a general
+numerical/continuum certificate or a native-admitted UDT countermodel.
+
+All remainders are local to a fixed smooth geometry with bounded jets and regular
+branches. This local theorem supplies no finite-size error constant, solar threshold,
+cosmic distance law or asymptote; the finite controls below have their own scope. A finite sample needs error control and L→0 extrapolation before
+its sign represents the leading coefficient: an absolute log-ratio error
+epsilon(L) contributes epsilon(L)/L² besides the O(L) remainder. **Physical join J1 remains OPEN:**
+no inspected implication assigns this net coefficient or matched contrast to
+UDT's positional contribution or requires a nonzero positive L² term. Such an
+identification would be an UNADOPTED physical input. Higher-order, finite/global
+or other comparison assignments remain possible. This does not exclude Ric=0
+for UDT in general or prove the founding premises insufficient. The kernel still
+evaluates a supplied clock leg; it does not select this curvature or preparation.
+
+Sources: [fixed initial synthesis](udt_positional_selection_whiteboard_2026-10-01/INITIAL_CANDIDATE.md),
+[controlling precision/response comparison](udt_positional_selection_whiteboard_2026-10-01/REPAIR.md)
+and [reviewed scope](udt_positional_selection_whiteboard_2026-10-01/REVIEWED_RESULT.md).
+
+<a id="r8grc"></a>
+
+#### Proposed clock signs constrain optical tides — GRC1
+
+J1 above remains open. GRC1 investigates a physical proposal rather than treating
+that open join as a stop: use the same PSW1 preparation in metrics g,g0, with
+matched initial proper L, units, velocities and time-oriented tangent isometry I.
+The reference is comparison data, not a second physical spacetime. Write
+D=A_g-I*A_g0, A(X,Y,Z,W)=g(R(X,Y)Z,W), and
+
+    C(U,n)=lim_(L->0) 2 log(p_L/p0_L)/L²=-D(n,U,U,n).
+
+PRT1 section 3 already derived this all-frame sign cone and supplied a non-Einstein
+FLRW positive control. GRC1 inherits that starting point; the new inspected work
+is its optical implication and the conditional discriminators below. This is
+repository development, not a literature-wide novelty claim.
+
+**S, UNADOPTED:** C(U,n)>=0 for every future unit U and spatial unit n orthogonal
+to it. This adds both a physical attribution to the positional contribution and
+an every-laboratory sign requirement. It is weaker than PCC1's equal magnitude,
+but stronger than law universality, one laboratory's redshift, or merely ordinary
+proper clocks. Higher-order effects remain possible where the coefficient vanishes.
+
+For null k define the symmetric screen form Q_k(x,y)=D(x,k,k,y). Choose
+k=u+v, n perpendicular to u,v, and U_eta=cosh(eta)u+sinh(eta)v. S gives
+D(n,U_eta,U_eta,n)<=0. Multiplying by exp(-2eta) and taking eta to infinity gives
+D(n,k,k,n)<=0. This is an algebraic limit **after** the fixed-frame L->0 limit;
+there is no uniform finite-clock approximation under unbounded boosts. Thus
+
+    Q_k<=0, tr Q_k=Delta Ric(k,k)<=0,
+    ||trace-free Q_k||_op <= -Delta Ric(k,k)/2.
+
+Positive C also means expansive additional timelike geodesic deviation. Optical
+language has a precise scope: each geometry's vertex Jacobi map, with the same
+source-normalized k and affine cut, has J=lambda Id-lambda³ T(0)/6+O(lambda^4).
+Its normalized area is det J/lambda²=1-lambda² Ric(k,k)/6+O(lambda³), so the
+leading area difference measures -Delta Ric(k,k)/6. Q is a difference of initial
+tides; it is not the evolution operator of a difference beam. No brightness law,
+unchanged finite lensing or empirical error bound follows. A separately imported
+Einstein/matter identification could call negative null convergence an effective
+NEC violation; exotic UDT matter is not derived.
+
+**F, separately UNADOPTED:** Delta Ric(k,k)>=0 for every null k, prohibiting
+additional local null defocusing. S+F makes each negative-semidefinite screen
+form trace zero, hence zero. For orthonormal timelike u and spatial e1,e2,
+the two null choices u+/-e1 give
+D(e2,u,u,e2)=-D(e2,e1,e1,e2). Interchanging e1/e2 and using common perpendicular
+directions makes the electric form isotropic. Two timelike frames share a positive
+two-plane, fixing the same value kappa in both. Polynomial extension from the open
+timelike cone, polarization and algebraic Bianchi therefore give exactly
+
+    S+F iff D=kappa B_g, kappa>=0,
+    B_g(X,Y,Z,W)=g(Y,Z)g(X,W)-g(X,Z)g(Y,W).
+
+This recovers PCC1's conditional difference class from two inequalities, without
+assuming its all-frame equality or identifying DDR's response. A null condition
+alone misses the sign of kappa. General regional kappa still inherits PCC1's
+transferred-reference Bianchi caveat; an Einstein reference makes it constant.
+F is a real additional choice, not a consequence of S, GR recovery or reciprocity.
+
+**A larger spherical class survives without F.** On common regular static annuli
+match areal radii and orthonormal frames for reciprocal f,f0. Put delta f=f-f0 and
+alpha=-delta f''/2, beta=-delta f'/(2r), gamma=-delta f/r². A unit timelike plane's
+electric/magnetic bivector parts satisfy |b|²-|m|²=1, b dot m=0, and give
+
+    C=beta+(alpha-beta)b1²+(beta-gamma)m1².
+
+Unboosted transverse and arbitrarily large finite transverse-boost tests show
+S iff beta>=0, alpha>=beta, beta>=gamma. With delta f=-r²q(r), these are
+
+    q+(r/2)q'>=0, q'>=0, (r³q')'>=0.
+
+The radial null screen is zero, but a tangential null screen has eigenvalues
+beta-alpha and gamma-beta. NAR's radial neutrality therefore does not imply F.
+The inequalities restrict a profile without selecting one: once q'>0 it cannot
+switch off at a later finite radius, although a finite asymptotic q limit remains
+possible. Centers and horizons require their own extension checks.
+
+The supplied witness f0=1, f=1-lambda r^4, lambda>0, has a smooth regular center
+and (alpha,beta,gamma)=lambda r²(6,2,1). Its nonradial screen is
+lambda r² diag(-4,-1). Prepare A at the center and B at rest at r0=r_h/4,
+r_h=lambda^-1/4, using actual parallel transport and proper
+L=integral_0^r0 dr/sqrt(f). B then falls outward with E=sqrt(255)/16 and
+v=sqrt(E²-f). At the outgoing interception the actual future clock ratios are
+
+    p=E+v, q_return=1/(E-v).
+
+The difference of B's travel time and the null travel time increases strictly
+from negative at r0 to positive before r_h; it remains negative at v=1-E.
+Elementary integral bounds in the fixed proof therefore give a unique finite
+interception with p>1 and q_return>1. Independently differentiated arrival maps
+support this exact existence/sign argument. These are geometry-induced lapse and
+motion effects: p=sqrt(f)exp(eta), q_return=exp(eta)/sqrt(f), eta=atanh(v/E).
+Held clocks instead have p_static=sqrt(f)<1. No Doppler effect is removed.
+At the center curvature is zero, yet log p=(3/2)lambda L^4+O(lambda²L^8) and
+log q_return=(5/2)lambda L^4+O(lambda²L^8). This illustrates PSW1's existing
+higher-order opening, without invalidating its quadratic theorem. The free lambda,
+spherical preparation and lapse zero are not UDT scale, population or X_max.
+
+**A weaker mean trial preserves Weyl freedom.** In a declared Ricci-flat reference
+sector, the leading angular/triad mean M(U)=sum_i C(U,e_i)/3=-Ric_g(U,U)/3
+is independent of reference Weyl and tangent matching. Propose M(U)>=0 for every
+U and separately Ric_g(k,k)>=0 for every null k. Taking a timelike-to-null limit
+makes all null Ricci contractions zero. The orthonormal-frame quadratic identity
+then gives Ric=Lambda(x)g, Lambda>=0; contracted Bianchi makes Lambda constant
+on a connected region. Conversely this Einstein Ricci class satisfies both trials.
+Weyl remains free, unlike the directional S+F difference. A boosted Weyl control
+has negative individual C despite positive M and zero null Ricci.
+This is another operational route to the old FE1/PSW1 Einstein-class possibility,
+not a new field equation. The two inequalities, Ricci-flat physical sector and
+positional attribution remain unadopted; matter coupling and scale remain open.
+
+**Conformal preservation is a different hypothesis.** If one additionally supplies
+g=Omega²g0 on the same patch and I=Omega Id, then S+F's zero Weyl difference
+would require Omega²(1-Omega²)W0=0. Thus on an open Weyl-nonzero region this
+conformal-only change is trivial. Keeping null cones does not keep source-normalized
+affine focusing. Conformally flat regions, other matchings and nonconformal metric
+changes are not excluded. This is a restriction on that exploratory architecture,
+not an interpretation silently imposed on UDT.
+
+The fixed [B proof and checks](udt_goal_research_campaign_2026-10-13/researcher_b/CANDIDATE.md)
+and [coordinator candidate](udt_goal_research_campaign_2026-10-13/INITIAL_CANDIDATE.md)
+own exact hypotheses and discovery history. No candidate is native-admitted by
+these implications. The [review clarifications](udt_goal_research_campaign_2026-10-13/CLARIFICATIONS.md)
+control total-Ricci wording, source-access limits and PRT1 attribution while
+preserving initial candidate bytes.
+
+**Optical reciprocity alone supplies neither NAR nor F.** On a spherical affine
+radial ray with r>0, the vertex solution is
+D_e(lambda)=r_e r(lambda) integral_e^lambda ds/r(s)^2. Differentiation gives
+D_e''+(Ric(k,k)/2)D_e=0 and reversing the integral gives D_e(o)=-D_o(e)
+for arbitrary r''. Angular normalization adds the endpoint frequency ratio.
+The supplied metric g=-exp(Ht)dt²+exp(-Ht)dr²+r²dOmega² has the affine ray
+t=lambda, r=exp(Hlambda)/H and Ric(k,k)=-2H²; D_e=sinh(H(lambda-e))/H still
+obeys reciprocity. Reversing one geometric ray is not a second future exchange.
+No photon, flux or finite-beam law is imported.
+
+**A separate global conformal restriction requires reference completeness.**
+Supply g=psi^-2 g0, psi>0, I=psi^-1 Id, connected domain, zero null Ricci for
+g0 and complete reference affine null lines. S implies Ric_g(k,k)<=0 along
+those lines; the conformal identity gives Ric_g(k,k)=2psi''/psi. Hence psi is
+positive and concave on every whole real affine line, so constant on each;
+null directions span tangent space and psi is globally constant. This is a
+necessary condition, not sufficiency of every constant rescaling for full S.
+Physical completeness alone cannot replace the reference condition. On a flat
+slab |H eta|<pi/2, psi=cos(H eta) gives physical g=-dt²+cosh²(Ht)dx².
+It satisfies S with C=H²[1+sech²(Ht)|m|²]>0 and is timelike/null geodesically
+complete: conserved spatial P gives d tau/dt>=1/sqrt(1+|P|²) for timelike
+curves and d lambda/dt=cosh(Ht)/|P| for null ones. The reference slab is
+null incomplete. The physical curvature is nonconstant; its comoving past/
+future redshift history is not the founding asymptotic target. Neither
+conformal boundary is a material wall or identified X_max. The [fixed supplement](udt_goal_research_campaign_2026-10-13/researcher_a/SUPPLEMENT.md)
+owns these proofs, exact metric checks and primary-source limits.
+
+The physical decision is which clock/optical conditions the positional commitment
+supports, rather than choosing an attractive member of the supplied function class.
+
+
+<a id="r8pea"></a>
+
+#### Can the physical geometry identify its own positional comparison? — PEA1
+
+COC1 leaves the matched reference open. PEA1 tests an actual inverse criterion
+instead of treating an arbitrary subtraction as identified physics. **CVA is
+UNADOPTED:** on a smooth connected contractible Lorentz4 patch choose
+g0=exp(2u)g with Ric(g0)=0 and u(p)=0. This is a mathematical GR-vacuum reference,
+not a second physical metric, a founded vacuum classification or a UDT equation.
+It preserves null paths; it does not demand unchanged rich freefall as in R8GRL.
+
+Define P=(Ric-Rg/6)/2 and A_abc=∇_b P_ca-∇_c P_ba. Suppose the Weyl contraction
+β_d↦β^d W_dabc is injective everywhere. The necessary Cotton equation
+A_abc+β^d W_dabc=0 then determines at most one one-form. Existence requires
+the full tensor equation
+
+\[
+P_{ab}-\nabla_a\beta_b+\beta_a\beta_b
+       -\tfrac12(\beta_c\beta^c)g_{ab}=0.
+\]
+
+Its antisymmetric part forces closedness; contractibility permits β=du. The
+conformal Schouten formula gives Ric(g0)=0 and the point calibration fixes the
+constant. Noncontractible domains additionally require vanishing periods.
+This is standard conformal mathematics, credited to Gover–Nurowski; G374/G375
+already own the related fixed-Einstein-base classifications. W≠0 alone is
+insufficient, Cotton alone is insufficient, and uniqueness gives no noisy
+reconstruction bound or physical justification of the reference.
+
+For the **same identified endpoint histories and regular null-incidence branch**,
+proper-time differentials give Z_g/Z_0=exp(u_emit-u_receive). This is exact for
+differential tick ratios over finite signal separation, not arbitrary finite
+tick-duration integrals. Separately releasing geodesic clocks changes the
+histories; the formula does not compare those experiments. Requiring this ratio
+≥1 on every short future null segment is a further **UNADOPTED** condition,
+equivalent to du(k)≤0 for every future null k. It is not S+F or the PSW
+separately prepared O(L²) coefficient; this same-history contrast can start at O(L).
+
+The supplied family g=exp(2Ht)g_Schwarzschild, H>0, has the unique reference
+g_Schwarzschild up to calibration and red contrasts exp(HΔt). Weyl survives and
+H→0 recovers Schwarzschild smoothly on each fixed compact regular exterior.
+Schwarzschild's electric Weyl matrix has nonzero eigenvalues proportional to
+(-2,1,1)M/r³; contracting the relevant time/spatial components proves the full
+Weyl-map kernel is zero throughout that domain. A sampled matrix rank is only
+a code control. Kottler with nonzero mass and cosmological curvature instead
+has Cotton=0 and this injective mass Weyl, forcing β=0 while P≠0. It has no
+Ricci-flat conformal reference there. These are scoped controls of CVA, not UDT
+histories, empirical recovery or an exclusion of GR generally.
+
+**Uniqueness does not give a continuous flat extension.** Put
+v=1+2at+a²(t²-|x|²), a>0, and F=(t+a(t²-|x|²),x)/v on a small regular patch
+about p=0. Direct differentiation gives F*η=v^-2η, F(p)=p, DF(p)=Id and
+η^-1(dv,dv)=-4a²v<0. Place a Schwarzschild center outside this patch and its
+F-image, and let its positive-mass metrics S_ε→η smoothly as ε→0. Then
+
+\[
+g_\epsilon=e^{2\epsilon t/R}S_\epsilon,\qquad
+h_\epsilon=v^2F^*S_\epsilon
+\]
+
+both converge to the same η in C-infinity on fixed compact subpatches and have
+the same tangent calibration at p. For each ε>0 their unique normalized anchors
+are S_ε and F*S_ε, giving factors tending to1 and v. Both obey strict positive
+contrast on every future null segment for small ε: dt and dv have the required
+timelike orientation, retained by smooth convergence on the compact patch.
+
+Fix coordinate-static emitter/receiver histories with emission p and limiting
+null reception q=(L,L,0,0). Regular null incidence varies smoothly; the half-squared world function has
+reception derivative -L at q, and clock lapses converge (see the controlling repair). Hence both actual net
+received ratios tend to1, while the assigned reference contrasts tend to1 and
+1+2aL. No continuous extension at the flat metric agrees with normalized CVA
+on **all these approaches**, even after its strict all-null sign requirement.
+Demanding that continuity for physical attribution remains an unadopted
+criterion. Restricted families, additional reference data and other assignments
+are not excluded. This is not a full-postulate insufficiency result or a blanket
+failure of low-curvature physics.
+
+**A finite operational tool survives.** Supply g=Ω²g0 and a timelike Killing
+field of g0. Hold emitter and relay clocks on its orbits with regular,
+flow-equivariant outgoing and immediate-return branches. These clocks generally
+accelerate. Stationarity makes the flow-time round trip a constant and the
+emitter's reference lapse constant, so the actual echo derivative is
+Q=dτ_return/dτ_emit=Ω_return/Ω_emit. Since the physical quadratic Weyl invariant
+I=C_abcd C^abcd has conformal weight -4 and its reference value is constant
+along that orbit,
+
+\[
+Q^4 I(\mathrm{return})=I(\mathrm{emit}).
+\]
+
+Ricci-flatness is unnecessary. For I≠0 this yields the positive fourth-root
+ratio; at I=0 it can be vacuous even with nonzero Weyl. Independent local tidal
+records are required, not I inferred from Q. Passing the identity does not
+establish the assumed preparation, vacuum anchor or positional cause. On I≠0, the
+timelike Killing condition on |I|^(1/2)g is precisely the existing timelike
+conformal-Killing class. IEC1/ESR1 already connect echo and curvature under their
+different PSW/locally-symmetric hypotheses; no new class or first connection is
+claimed here, and their scalar rigidity is not imported into this protocol.
+
+For Ω=exp(Ht+b r*) on Schwarzschild, held radial separation L gives
+Q=exp(2HL), while individual same-history contrasts are exp[(H+b)L] and
+exp[(H-b)L]. Thus b>H>0 gives a red echo and a blue return contrast. Static
+spatial factors are likewise invisible to this echo. Ordinary GR already has
+the time-dependent conformal Schwarzschild/Thakurta comparison. Identical g
+and query give identical readings; the test does not establish an additional
+UDT prediction or identify a source. No curve, matter law or scale is selected.
+
+The outcome is a restricted reference evaluator, a concrete obstruction to its
+universal continuous extension, and a prepared finite test. Native assignment
+and geometry selection remain open. A unique additive curvature cause is not
+a prerequisite established by the founding interpretation; a future direct
+relation among actual prepared comparisons could supply a different route.
+R18 owns the discussion return, not an automatic successor.
+
+Sources: [initial joint candidate](udt_positional_effect_assignment_2026-10-13/INITIAL_CANDIDATE.md),
+[inverse/flat-limit proof](udt_positional_effect_assignment_2026-10-13/researcher_b/CANDIDATE.md),
+[echo proof](udt_positional_effect_assignment_2026-10-13/researcher_a/CANDIDATE.md),
+[controlling prior-scope note](udt_positional_effect_assignment_2026-10-13/researcher_a/PRIOR_SCOPE_NOTE.md),
+[interval-definition repair](udt_positional_effect_assignment_2026-10-13/REPAIR.md),
+[descendant review](udt_positional_effect_assignment_2026-10-13/DESCENDANT_REVIEW.md).
+
+
+<a id="r8coc"></a>
+
+#### Giving the optical proposal an actual clock preparation — COC1
+
+GRC1's optical inequalities are conditional; COC1 asks whether actual clock/null
+comparisons can justify their physical meaning. Two independent researchers
+first proposed a scalar projector, then pursued its attribution and its actual
+measurement separately. A shared geometry permits these ideal queries but does
+not adopt their signs as laws. The result below removes an operational ambiguity
+while narrowing, rather than closing, the positional attribution.
+
+**Fix the observable before imposing its sign.** In a smooth Lorentz4 metric,
+let a central geodesic proper clock have p=gamma(0), q=gamma(2l). In a sufficiently
+small causally convex normal neighborhood, S_l is the spacelike two-surface where
+the future null cone of p meets the past null cone of q. Supply its induced proper
+area per source solid angle dOmega. Appropriate ideal local screens/rulers measure
+that area; neither frequency-only data nor apparent brightness supplies it.
+The surface is the cone-intersection edge, not a maximal slice, a spacelike filling
+volume or a sphere at proper radius l. Units set c_E=1 without selecting a scale.
+
+For source unit timelike U, unit n perpendicular to U, and k=U+n, write
+
+    e=A(n,U,U,n), rho=Ric(k,k),
+    dA_l/(l² dOmega)=1+a(U,n)l²+O(l³),
+    a(U,n)=(4e-rho)/6.
+
+Here A and the curvature sign are those of R8GRC. Quadratic Fermi geometry on
+the radial direction gives t(lambda)=lambda-e lambda³/3+O(lambda^4) and
+r(lambda)=lambda-e lambda³/6+O(lambda^4). The return-null incidence gives
+l=r-e r³/6+O(r^4), hence lambda=l+e l³/3+O(l^4). The normalized vertex-Jacobi
+area at fixed source-normalized affine lambda is 1-rho lambda²/6+O(lambda³).
+Substitution gives the stated coefficient; an angle-dependent edge shift adds
+only a null-generator component and leaves its induced area unchanged.
+Curvature derivatives and path bending are within the stated higher-order remainder.
+Each expansion is for a fixed finite frame and a smooth bounded local neighborhood;
+there is no uniform finite-l claim over unbounded boosts.
+
+PSW1's actual prepared clock ratios determine e at leading order, so rho=4e-6a
+uses an explicit timing/area preparation rather than an assumed affine-range
+measurement. A normalized affine parameter is unique after vertex and source
+normalization. An unspecified range label s=lambda+b(n)lambda³ instead changes
+the apparent coefficient by -2b; it is generally non-affine. Tangent calibration
+alone therefore does not supply the needed cubic range conversion. The initial
+parent wording incorrectly called this an “affine relabeling”; the [preserved
+clarification](udt_clock_optical_physical_connection_2026-10-13/REPAIR.md) corrects it.
+
+Angular integration cancels the U-dependent Ricci term:
+
+    Area(S_l)=4 pi l² [1-R(p)l²/18+O(l³)].
+
+This is the known small Alexandrov-edge area formula, not a new curvature law
+([Gibbons–Solodukhin, eq29](https://arxiv.org/pdf/hep-th/0703098), tau=2l).
+CMF1 already recovers total R from limiting clock coefficients. Acceleration
+cannot be omitted: a uniformly accelerated Minkowski central clock gives area
+4 pi sinh²(a0 l)/a0², so the geodesic estimator falsely returns -6a0² despite
+zero curvature. Finite normalized-area error epsilon(l) contributes epsilon(l)/l²
+to the extracted coefficient. No instrument precision or distant affine history
+has been reconstructed here.
+
+**A directional sign is a substantial physical choice.** Supply a reference g0,
+a time-oriented tangent isometry and corresponding geodesic preparations, source
+angles, units and l. With D=A_g-I*A_g0, the matched coefficient satisfies
+
+    6 Delta a=4 Delta e-Delta Ric(k,k).
+
+Propose **RA1-CONTRAST, UNADOPTED:** Delta a<=0 for every future unit U and unit
+n perpendicular to it. A boost inside their timelike plane keeps Delta e fixed
+and sends k to exp(eta)k. Requiring
+4 Delta e-exp(2eta)Delta Ric(k,k)<=0 for all finite eta implies Delta e<=0
+and Delta Ric(k,k)>=0, by the two boost limits. Conversely these imply the sign.
+The extracted local limit comes first; a violated inequality already has a finite
+boost witness, with its own sufficiently small local experiment. Thus
+
+    RA1-CONTRAST iff GRC1 S+F iff D=kappa B_g, kappa>=0.
+
+One operational condition has the same physical strength as the previous two;
+it is not a weaker premise or a new class. A single frame's entire sky is
+insufficient: the supplied GRC1 anisotropic witness has Delta a<0 there but
+Delta a>0 after a finite tangential boost. An angular mean sign alone gives
+Delta R>=0, not S, F or the Einstein Ricci class.
+
+**RA1-TOTAL, a separate UNADOPTED trial**, applies the same all-frame directional
+sign to total curvature. It forces A=kappa B_g with nonnegative kappa, so Weyl
+vanishes; contracted Bianchi makes kappa constant on a connected smooth region.
+Such metrics cannot converge in C² to a nonzero Schwarzschild exterior on a
+common regular region. This rejects that exact universal total law as a GR-tidal
+recovery route, not UDT, all optical proposals or restricted finite observations.
+The contrast version can retain reference Weyl, but its physical matching and
+positional attribution remain open. PCC1's different-connection caveat still
+prevents silently turning a pointwise difference into a regional field equation.
+
+**The scalar projector does not assign a physical cause.** Put K=R/12,
+S=Ric-(R/4)g and A_vis=A-KB_g. The pointwise null-screen kernel permits this
+split algebraically. Calibrated null Ricci data determine S given the tangent
+metric. If M is the sky mean of the actual leading clock coefficient C=-e
+and N is the sky mean of Ric(U+n,U+n), then
+
+    M=-Ric(U,U)/3, N=(R+4 Ric(U,U))/3, K=M+N/4.
+
+In the supplied exact ultrastatic product -dt²+h_b with constant spatial
+sectional curvature b>0, K=b/2>0. Yet for every finite U and n, C<=0: choosing
+U=(sqrt(1+w²),w,0,0) and an adapted spatial frame gives
+e=b w²(n2²+n3²)>=0. Static geodesic clocks have p=q=1. No nonnegative average
+of these net leading coefficients identifies positive K as received slowing.
+This does not exclude a positive additional part canceled by a remainder, a
+matched contrast, higher-order behavior or the founding interpretation. It is a
+metric-only control, not a full-UDT countermodel. An independently differentiated
+GR dust comparison likewise has positive K and negative comoving M. The imported
+Einstein equation is used only to identify that GR control's ordinary matter,
+never as UDT dynamics.
+
+On one physical metric with its own Levi-Civita connection, contracted Bianchi
+also gives div S=(1/4)dR=3dK. Thus calibrated regional null Ricci together with
+the supplied connection and derivative data determines dK, leaving one constant
+on a connected region. This is conditional differential information, not finite
+noisy reconstruction. A_vis itself satisfies differential Bianchi under that same
+connection iff dK=0: necessity follows by contraction and sufficiency from
+nabla B_g=0. **AUTONOMOUS-COMPLEMENT, UNADOPTED** would therefore impose constant
+scalar curvature, a weaker condition than Einstein. The supplied regular metric
+-dt²+sinh(2t)(dx²+dy²+dz²), t>0, has R=12 but S00=3/sinh²(2t) nonzero.
+A_vis is not thereby the curvature of another physical metric or an independent
+UDT sector. No different reference connection inherits this argument automatically.
+
+The [fixed initial candidate](udt_clock_optical_physical_connection_2026-10-13/INITIAL_CANDIDATE.md),
+[A attribution/closure proof](udt_clock_optical_physical_connection_2026-10-13/researcher_a/CANDIDATE.md),
+[B operational proof](udt_clock_optical_physical_connection_2026-10-13/researcher_b/OPERATIONAL_CANDIDATE.md)
+and [scope supplement](udt_clock_optical_physical_connection_2026-10-13/researcher_b/SUPPLEMENT.md)
+retain discoveries, exact controls and limits. The [descendant review](udt_clock_optical_physical_connection_2026-10-13/DESCENDANT_REVIEW.md)
+keeps positive implications and negative controls equally scoped. The physical
+return is an explicit observable and a sharper test of possible laws. Neither
+more scalar tomography nor adoption by resemblance closes positional attribution.
+No native response, geometry, source or scale is selected.
+
+
+<a id="r8aci"></a>
+
+#### Finite curvature control of a proposed asymptotic realization — ACI1
+
+Following CPA1, Charles directed retention of the completion results as tools
+and redirection toward an implication from an existing UDT commitment to a
+restriction on geometry. ACI1 tests the working asymptotic received-slowing
+requirement without RG. **The native physical assignment remains unclosed;
+a conditional finite curvature exclusion is obtained.** No new postulate,
+physical population, curvature sign or native geometry is selected.
+
+Supply a smooth time-oriented Lorentz4 metric, actual regular affine-null
+comparison gamma:p->q and ordinary future unit endpoint clocks u,v. R6/R7 give
+Z=omega_e/omega_o and |log Z|<=rho(u,P_gamma^-1 v), where
+rho(a,b)=arcosh[-g(a,b)]. Let beta:p->q be a declared preparation/history path,
+and B=rho(P_beta u,v). Choose a fixed-endpoint smooth homotopy F(s,t) from
+gamma to beta, and write T=F_t,S=F_s,U(s,t)=P_s(t)u for actual transport along
+its t paths. Piecewise smooth strips require consistent seam matching. The
+theorem requires a qualifying sweep for the query; no general existence or
+physical meaning for its intermediate paths is asserted.
+
+Metricity makes R(T,S)U orthogonal to U. Its positive rest-space norm defines
+
+    C[F,u]=integral ds dt sqrt(g(R(T,S)U,R(T,S)U)),
+    |log Z| <= B+C[F,u].
+
+For the finite proof, differentiate the transported vector in s and commute
+covariant derivatives in the two parameters. Fixed endpoints give
+
+    P_s(1)^-1 partial_s P_s(1)
+      =integral P_s(t)^-1 R(T,S)P_s(t)dt.
+
+All pulled-back curvature actions on u lie in the same positive space u-perp.
+The triangle inequality bounds the speed of P_s(1)u on the unit future
+hyperboloid by the integrand defining C. Integrating that speed bounds the
+distance between P_gamma u and P_beta u. The remaining hyperbolic triangle
+inequality and R7 give the stated clock bound. Full noncommuting4D transport
+is retained; no infinitesimal-loop or planar approximation proves the theorem.
+
+When beta is an initial preparation curve followed by the receiving history,
+let rho0 be its initial velocity mismatch. Pulling the receiver velocity back
+along that history makes its hyperbolic speed equal to proper acceleration:
+
+    B<=rho0+integral |a|d tau,
+    |log Z|<=rho0+integral |a|d tau+C[F,u].
+
+Earlier preparation events on both clock histories add the analogous emitter
+acceleration integral, by the same triangle argument. Parallel-prepared free
+clocks have zero such allowances. These are specified query conditions, not
+a physically adopted observer population. Bounded instantaneous acceleration
+alone does not bound its integral on unbounded proper histories.
+
+The positive metric j_U=g+2U-flat tensor U-flat gives a precise finite control:
+the operator X wedge Y->R(X,Y)U has norm K_U in its induced bivector/rest norms,
+so C<=integral K_U |T wedge S|_(j_U)<=K_max A_j(F) when K_max is bounded.
+The area counts the parameterized sweep with multiplicity. This is a scalar
+of g,u,F, invariant under coordinate/tetrad changes holding them fixed; it is
+not a frame-free polynomial curvature invariant or independent of sweep/order.
+Transported U is comparison data, not a hidden physical congruence. An unrelated
+frame bound, scalar R bound, or indefinite surface area cannot substitute.
+Supplying a bound on C must not assume the bounded transport it is meant to prove.
+
+Consequently, if a declared family realizes net Z->infinity while preparation
+and accumulated acceleration stay uniformly bounded, C must diverge for every
+admissible sequence of sweeps. A family admitting uniformly bounded K_max and
+A_j cannot realize that asymptote. Taking the infimum over a nonempty sweep set
+retains the bound; an empty set is a domain failure, not infinite curvature.
+Large C on one unnecessarily complicated sweep proves no redshift. Direction,
+cancellation and R7's asymptotic alignment condition still matter.
+
+The adverse controls make the scope substantive. In flat space an inertial
+receding receiver gives Z=exp(rho0), and constant proper acceleration gives
+Z=exp(a tau) with C=0. They defeat dropping the corresponding allowances.
+The reviewers' flat Milne quotient has winding null paths with exponentially
+large ratios and no homotopy to the short reference path; it defeats removing
+the sweep hypothesis. It is a supplied off-equation scope control, not a UDT
+topology or a reopening of the protected curvature-atlas/carrier work.
+
+A supplied regular product gives a sharp positive control with no initial
+mismatch or acceleration:
+
+    g=-dt²+cosh²(Ht)dx²+dy²+exp(2Hy)dz², H>0.
+
+At t=0 the x-segment is a proper spacelike geodesic and transports partial_t
+unchanged. Free clocks at x=0 and L, y=z=0, receive the emission at0 with
+L=atan(sinh(Ht_o))/H and Z=cosh(Ht_o)=sec(HL),0<HL<pi/2.
+The comparison triangle gives C=integral a''(t)(L-x_gamma(t))dt=log Z.
+As L tends to pi/(2H), reception proper time and C diverge. Yet scalar R=0,
+Ric_ab Ric^ab=4H^4 and R_abcd R^abcd=8H^4 remain fixed: no local singularity
+is required. The negative-curvature transverse factor cancels scalar curvature
+without changing the clocks. CCW's necessary positive scalar limit therefore
+excludes its specific regular spacelike RG completion at this same tail.
+Divergent clock slowing alone does not imply that completion. These supplied
+controls are not native-admitted cosmologies, a selected X_max or GR contrast.
+
+The new mathematical contribution is finite curvature control of full relative
+transport, beyond R7's endpoint rapidity bound, R8's auxiliary first-derivative
+identity and PSW's local expansion. Its use for UDT is an exclusion of bounded
+curvature/sweep realizations **if** the physical asymptote is attached to such
+controlled comparisons. No inspected source establishes that attachment or
+identifies their net ratio with the additional positional contribution. Thus
+the requested native selection implication is not closed by this result.
+The founding interpretation remains fixed; no whole-postulate insufficiency
+or necessity for a new premise follows. Further generic bounds alone would
+not resolve this physical assignment. GCP1 in D1GCP applies this distinction
+to a proposed compact-confinement extension: its source gate stopped the
+extension before another lemma, while preserving this necessary test of any
+explicitly declared realization.
+
+[Initial argument](udt_asymptotic_curvature_implication_2026-10-04/INITIAL_CANDIDATE.md),
+[control supplement](udt_asymptotic_curvature_implication_2026-10-04/CONTROL_SUPPLEMENT.md)
+and [reviewed scope](udt_asymptotic_curvature_implication_2026-10-04/REVIEWED_RESULT.md)
+retain the proof, physical limit, exact controls and review exposure. Independent
+hand derivations support the theorem. The51 parent symbolic assertions include
+consistency checks; they are not51 independent confirmations. Two exact
+normalization failures and their bounded repair are preserved. The later
+authorized GRL1 review in R8GRL tests related literature connections without
+supplying this physical assignment. R18 owns the current discussion return.
+
+
+<a id="r8grl"></a>
+
+#### What GR operational methods add to the physical connection — GRL1
+
+After ACI1, Charles authorized a bounded three-lane literature review and two
+fresh adversarial reviews. Ten primary papers were inspected on operational
+foundations, clocks/tides and joint cosmography. **Two conditional geometric
+tests survive; the native physical assignment remains OPEN.** The reviewed
+sections and omissions are in the three source ledgers, not an assertion that
+the complete GR corpus or every formula in those papers was audited.
+
+Operational reconstruction does not automatically select geometry. EPS-type
+light/free-fall compatibility gives conformal/projective/Weyl structure; a
+further clock condition is needed for the corresponding metric integrability.
+Within R6/R7's already supplied Levi-Civita metric interface, norm preservation
+is present. It neither makes Lorentz transport path-independent nor equates
+proper readings along different histories. This route supplies no curvature
+sign or field equation beyond the admitted metric structure.
+
+**T1: rich exact operational agreement fixes the scale field.** Let g and g0
+be smooth Lorentz4 metrics on an identified connected domain, with matching
+time/sign convention, null cones and unparameterized timelike geodesics in all
+timelike directions. In a g0-orthonormal basis, g(1,n;1,n)=0 for every unit n
+forces the mixed entries to vanish and the spatial block to be a multiple of
+the identity. Thus g=exp(2f)g0 with smooth f. Their connection difference is
+
+    C(X,Y)=X(f)Y+Y(f)X-g0(X,Y)grad0 f.
+
+A common timelike geodesic tangent v requires C(v,v) parallel to v, hence
+grad0 f parallel to v. Two nonparallel such directions at each point suffice
+to force grad0 f=0; all-direction matching is sufficient, not a necessary
+minimum. Connectedness gives g=C0^2 g0. For the same endpoint curves, matched
+events and regular null correspondence, both proper intervals scale by C0,
+so their received ratio Z is identical. An absolute clock calibration fixes C0
+but is not needed for equality of ratios.
+
+One common free congruence is insufficient. The supplied pair
+g0=-deta^2+dx^2+dy^2+dz^2 and g=exp(2H eta)g0, H>0, shares null paths and coordinate-
+rest geodesics. Rest clocks separated by coordinate L have incidence
+eta_o=eta_e+L and Z_g=exp(HL), whereas Z_g0=1. For a tilted tangent
+v=partial_eta+b partial_x, 0<|b|<1, C(v,v) has components
+H(1+b^2)partial_eta+2Hb partial_x and is not parallel to v. Rich free-fall
+agreement fails. This is a mathematical control, not a native UDT history.
+
+Consequently an extra matched ratio cannot be appended to completely identical
+rich geometric/protocol data. But GR FILTER ONLY does not assert T1's exact
+global matching premise. The theorem does not exclude a small physical departure
+compatible with tested regimes, identify its size, or prove where it occurs.
+W4 couples readouts to the same geometry; it does not equate that geometry to
+every GR comparison metric. No physical reference-matching law is adopted.
+
+**T2: a joint drift diagnostic separates curvature from changing direction.**
+Take a smooth unit geodesic congruence U, an observer integral curve, a parallel
+Fermi frame e_i and a common normal tube with a regular short null branch.
+Source clocks are other fixed integral curves during reception-time
+differentiation. At the observer define
+
+    B_ij=g(nabla_(e_j)U,e_i)=H delta_ij+sigma_ij+W_ij,
+    sigma^T=sigma, tr sigma=0, W^T=-W, H=tr B/3,
+    T_ij=g(R(e_j,U)U,e_i), tr T=Ric(U,U).
+
+With simultaneous Fermi source separation r n and P_n=I-nn^T, velocity and
+acceleration are V=BX+O(r^2) and A=-TX+O(r^2). Actual received redshift has
+z=n.V+O_C1(r^2); differentiating gives
+
+    J(n)=lim_(r->0) dot z/r=-T(n,n)+|P_n Bn|^2.
+
+The differentiated remainder is substantive: smooth geodesic source labels
+epsilon n yield X=epsilon A0(t)n+O_C1(epsilon^2). On a short compact interval
+|A0(t)n| stays uniformly positive. Write t_e=t-epsilon s in the null world
+function and divide by epsilon^2. The limiting positive root of
+[-s^2+|A0(t)n|^2]/2=0 is simple. The implicit-function theorem gives uniform
+C1 scaled incidence and frequency expansion. This is local to a fixed smooth
+congruence; no finite-size error constant or global survey estimate is claimed.
+Independently, dot B+B^2=-T, dot r=r n.Bn and dot n=P_n Bn give the same J.
+
+Using exact uniform sphere moments <n_i n_j>=delta_ij/3 and the fourth moment
+with denominator15 gives
+
+    <|Bn|^2>=H^2+(sigma^2+W^2)/3,
+    <(n.Bn)^2>=H^2+2sigma^2/15,
+    M=<J>-sigma^2/5-W^2/3=-Ric(U,U)/3.
+
+Only where H(n)=n.Bn is nonzero may J=H(n)lim dot z/z be used. Averaging the
+product is not multiplying separate averages. Fermi r is declared query data,
+not automatically a measured luminosity distance. Exact sky integration is
+not a finite-sample estimator, and geodesic motion is a neighborhood hypothesis.
+
+The adverse control uses flat inertial lines X(t,q)=q+tBq with
+B=diag(2h,h,h), h>0. Reception at (0,0) from emission (-r_E,r_E n_E) fixes
+q=(I-r_E B)^(-1)r_E n_E and constant v=Bq. Actual incidence at fixed q gives
+
+    Z=gamma_v(1+n_E.v),
+    dot Z=gamma_v|P_n_E v|^2/[r_E(1+n_E.v)].
+
+For 0<hr_E<1/8 the branch is regular and |v|<1/3. Simultaneous Fermi data satisfy
+r_F=|q|=r_E+O(r_E^2), n_F=n_E+O(r_E), so the limiting coefficient is
+J=h^2 n_1^2(1-n_1^2), with <J>=2h^2/15>0. Yet sigma^2=2h^2/3, W=0 and Ric=0:
+the corrected M vanishes. Raw positive drift therefore supplies no curvature
+sign even for geodesic clocks. This control is not an admitted UDT history.
+
+Clock-compass inversions likewise require their actual protocol. If
+r_i=d tau_i/dt and t_o=F(t_e), then Z=[r_o(F(t_e))/r_e(t_e)]F'(t_e).
+In flat space an emitter at0 and receiver L+vt have same-coordinate proper-rate
+quotient4/5 for v=+/-3/5, but actual Z=2 or1/2 on the outgoing branch. The
+literature acknowledges time-transfer modeling; the rate quotient alone is
+not received ticking. PSW/J1's clock/tidal consistency and reconstruction of
+Ricci do not identify DDR's symmetric response. Area/screen identities also
+do not supply R13/R14's missing physical luminosity/energy-flux readout.
+
+The joint-cosmography source2406.06167v1 has an apparent quadrupole sign tension
+between its correction discussion and printed coefficients. That channel is
+quarantined; T2's scalar proof above does not use it. The mathematical reviewer checked an
+ultrastatic adverse case, without claiming a full external-paper repair.
+
+The physical join remains explicit: independent records or a justified physical
+requirement for M could restrict curvature, but none of the inspected owner
+statements supplies that requirement or this source congruence. Reception-time
+drift of one source, variation of separation and the working asymptotic target
+have different quantifiers. No new-postulate necessity, whole-UDT insufficiency,
+physical response, sign, source population, field equation or X_max is derived.
+ACI1 and the completion tools retain their original limits. Generating all
+records from a freely supplied metric and checking their agreement cannot itself
+select nature's metric. Charles's subsequent PRT1 task below tests a precise
+translation and supplies the next-stage handoff; R18 owns the current return.
+
+[Initial synthesis](udt_gr_physical_connection_review_2026-10-04/INITIAL_SYNTHESIS.md),
+[controlling precision repair](udt_gr_physical_connection_review_2026-10-04/REPAIR.md)
+and [reviewed scope](udt_gr_physical_connection_review_2026-10-04/REVIEWED_RESULT.md)
+preserve derivations, exact controls, source versions and review exposure.
+
+
+<a id="r8prt"></a>
+
+#### Translating the positional requirement and handing off to observations — PRT1
+
+Charles authorized steps1–3 after GRL1: use an existing comparison, express what
+the founding requirement demands, and derive the resulting geometric restriction;
+then leave a clear handoff to observations and numerics. **The reviewed return is
+conditional: the experiment and its possible restrictions are precise, while the
+native positional assignment remains OPEN.** This is neither a newly undefined
+observable nor a proof that a new postulate must be introduced.
+
+**One legitimate query.** Use PSW/FPC's event o, unit future U, perpendicular
+spatial unit n, proper preparation length L and spacelike exponential B0=exp_o(Ln).
+Parallel-transport U along preparation, release both clocks freely and hold their
+histories fixed while differentiating nearby emissions. Use length units for time,
+c_E=1. Independently emit first signals from A0 and B0 on direct regular future
+null branches, with proper-arrival derivatives p_+(L),p_-(L). Their redshifts are
+p_+-1,p_--1. The preparation matches initial events without choosing a universal
+present or observer population. A later immediate echo has a different second
+ratio q; neither p_- nor q is the mathematical inverse of p_+. Finite equality
+of p_+ and p_- requires further symmetry. These choices are query data, not laws.
+
+Ordinary local clocks, received ticking, additional mutual positional slowing
+and one geometry are existing commitments. Parallel preparation and free fall
+remove initial velocity mismatch and proper acceleration, but ordinary tidal
+curvature still affects the experiment. The owner's combined-net-redshift
+expectation was tentative; no arithmetic split of effects is specified.
+Consequently the query alone does not identify its net p as a pure positional
+reading. Two possible precise assignments are retained visibly **UNADOPTED**:
+
+* N: both net first ratios exceed1 for every sufficiently small positive L in
+  a stated laboratory, with a threshold allowed to depend on the query.
+* C: a justified reference g0 and physical matching I of event/orthonormal frame,
+  proper L, parallel preparation, units and branch give positive contrasts
+  c_+=log(p_+/p0_+), c_-=log(p_-/p0_-) throughout the common small branch.
+
+C needs its reference because it is a contrast, not because every possible
+native law needs a GR comparator. Neither N/C has been derived from the inspected
+owner statements. No population-selection law is demanded to choose the query.
+
+**Weak signs do not impose PCC's equality.** Let A_g(X,Y,Z,W)=g(R(X,Y)Z,W).
+PSW gives log p_+=-A_g(n,U,U,n)L^2/2+O(L^3). Reversing the preparation applies
+that same theorem at B0 with transported U and reversed n; its curvature differs
+by O(L) on the common smooth normal tube. Thus log p_- has the same leading
+coefficient, without a finite equality. The original controlled C1 remainder
+and fixed-history assumptions remain necessary.
+
+Under N, strict finite positivity therefore implies only T_U(n,n)<=0. Under C,
+with the algebraic curvature difference D=A_g-I*A_g0, it gives
+
+    lim_(L->0) 2c_+/L^2 = lim 2c_-/L^2 = -D(n,U,U,n) >= 0.
+
+The limit may be zero. All directions in one U give a negative-semidefinite
+electric form and a nonpositive Ricci contraction. All U give a cone of
+inequalities, not the identical all-frame coefficient of PCC1. If Ric(D)=0
+**as a symmetric tensor** and these inequalities hold for all U,n at an event,
+each electric form has zero trace and is zero. Projection, polynomial extension
+from the timelike cone and curvature polarization give D=0 at that event.
+Zero scalar curvature alone does not suffice, nor does this conclusion equate
+connections or finite records. FPC's stronger net Ric=0/open-region exclusion
+retains its own quantifiers; this matched pointwise statement does not replace it.
+
+A supplied existing PSW control shows the inequality is genuinely weaker. Take
+g=-dt^2+a(t)^2 sum dx_i^2 on an unquotiented spatial chart, a=1+k t^2, k>0,
+and a physically matched flat reference. Original connection components
+Gamma^0_ij=aa' delta_ij and Gamma^i_0j=(a'/a)delta^i_j give temporal tide -A
+and spatial sectional curvature B, where
+
+    A=a''/a=2k/(1+kt^2),  B=(a'/a)^2=4k^2t^2/(1+kt^2)^2.
+
+For U=gamma(e0+v e1), |v|<1, and unit perpendicular
+n=cos(theta)gamma(v e0+e1)+sin(theta)e2, direct contraction gives
+
+    -D(n,U,U,n)=A+(A-B)gamma^2v^2 sin^2(theta),
+    A-B=2k(1-kt^2)/(1+kt^2)^2>0 for |t|<k^(-1/2).
+
+Each fixed laboratory in that open region consequently has positive first
+contrasts at sufficiently small L. Thresholds need not be uniform over unbounded
+boosts. Yet Ric_00=-3A, Ric_ii=A+2B, and A!=B: this is not an Einstein metric or
+PCC's curvature-difference equality. The control does not select physical UDT
+geometry or an expanding-cosmos mechanism. The underlying weak-sign inference
+reuses PSW/FPC/PCC; its clearer translation is not a new native law.
+
+**A higher-order onset can coexist with the distant receiving limit.** Extend
+PCC's old local cubic control only on the declared supplied domain
+(-b^(-1/3),infinity) times R^3, b>0, with a(t)=1+b t^3 and preparation t=0.
+There is no spatial quotient, winding or reflected branch. At preparation
+a=1,a'=a''=0, so all curvature vanishes; the straight spatial preparation is a
+geodesic and transports partial_t unchanged. Resting clocks are unit free
+geodesics. Midpoint reflection exchanges the clocks in this particular control.
+
+The original null-incidence equation on fixed worldlines is
+eta(t_receive)-eta(t_emit)=L, eta'=1/a. Its actual derivative at emission0 gives
+p_+=p_-=1+b t_receive^3>1. Local analytic inversion gives
+log p=bL^3+O(L^6), so the quadratic coefficient is zero. In the future,
+
+    L_* = integral_0^infinity dt/(1+b t^3)
+        = 2pi/[3sqrt(3)b^(1/3)],
+    delta=L_*-L=1/(2b t_receive^2)+O(t_receive^-5),
+    p ~ delta^(-3/2)/[2^(3/2)sqrt(b)].
+
+Partial fractions evaluate the integral; expanding1/(1+b t^3) on a large-t
+tail and integrating its bounded remainder gives the asymptotic estimate.
+Strict monotonicity of eta supplies a unique finite direct reception for each
+0<L<L_*, with reception proper time diverging toward the limit. The immediate
+echo needs2L<L_* and has q=a(t(2L))/a(t(L)); independent first signals do not
+inherit this earlier echo limit. There is no finite receiving event at L_*.
+
+The orthonormal temporal/spatial curvature magnitudes are6bt/(1+bt^3) and
+9b^2t^4/(1+bt^3)^2. Both remain bounded on t>=0 and decay at infinity, as do
+their algebraic scalar contractions. This does not bound ACI's transported
+curvature budget or sweep extent. The cubic control does not satisfy the first
+control's all-frame regional sign requirement throughout its future: its A-B
+changes sign at bt^3=2. No global completeness or physical X_max is asserted.
+The global tail calculation is new PRT1 work on the old local PCC control;
+neither k nor b is a derived/fitted physical scale. These particular local and
+asymptotic query properties do not force a quadratic onset, constant curvature,
+local singularity or unique pole exponent. Additional native conditions may
+still restrict them. No full-postulate countermodel has been constructed.
+
+**Handoff.** Step4A's concrete first deliverable is a bounded table of at most
+three observation channels: actual spectral/tick/drift readouts, independently
+supported distance, source/observer histories, branch and source/flux assumptions,
+selection/covariance/error model and prior exposure. Astronomical sources need
+their actual R6 query; they are not automatically PSW laboratories. A redshift-
+derived distance cannot independently confirm the same curve. Step4B freezes
+model, estimator, exclusions, tuning, covariance treatment and decision rule
+before inspecting new confirmation outcomes. Fits constrain a declared candidate;
+they do not become a native metric law or independent kernel multiplier.
+
+Step5A can evaluate supplied geometry independently of completing step4. Its
+state is clock x,u, affine-ray y,k, declared transport P and arrival parameters;
+the original equations are nabla_u u=0, nabla_k k=0 and nabla_cdot P=0, with
+g(u,u)=-1, g(k,k)=0, metricity and actual endpoint incidence. Proper arrival
+derivatives and endpoint frequency contractions can be independently arranged.
+Small-L error includes epsilon(L)/L^2 and truncation. Step5B requires an actual
+equation/conditional constraint class, domains and sufficient data; observations
+alone do not supply native dynamics. Original residuals, convergence and the
+actual workload's smoke/load/checkpoint/restart/manual-stop gates precede long
+production. A finite supplied-class search is not complete native-space coverage.
+
+Step4 design can proceed with the native join open; numerical evaluation need
+not wait for observations. The precise next work is in the fixed
+[step4/5 handoff](udt_positional_requirement_translation_2026-10-04/STEPS_4_5_HANDOFF.md)
+and [controlling precision](udt_positional_requirement_translation_2026-10-04/PRECISION.md).
+PRT1 ended with that handoff; OEV1 below executes its bounded next stages. [Initial candidate](udt_positional_requirement_translation_2026-10-04/INITIAL_CANDIDATE.md)
+and [reviewed return](udt_positional_requirement_translation_2026-10-04/REVIEWED_RESULT.md)
+preserve the exact conditional scope. R18 owns the recommended next bounded task.
+
+
+<a id="r8oev"></a>
+
+#### Observational constraints and finite metric evaluation — OEV1
+
+Charles authorized PRT1's steps 4 and 5. **The return is a source-conditional
+observational constraint table and a checked supplied-metric evaluator; native
+geometry selection remains open.** Step 4A assessed three channels. Step 4B
+returned the permitted narrowed observable constraints because no astronomical
+metric/query/readout candidate was specified for a likelihood. Step 5A ran the
+finite evaluator. Step 5B did not acquire native evolution equations from it.
+The open field law does not prevent observation design or testing a subsequently
+declared candidate; an evaluator pass does not identify that candidate.
+
+**What observations actually constrain.** Eight primary papers/releases support
+the [source map](udt_observation_metric_evaluation_2026-10-04/observation/CHANNEL_MAP.md)
+and its versioned ledger. Ranking concerns independent distance provenance and
+identifiable readouts, not expected agreement with UDT or all of astronomy.
+
+| Channel | Usable quantity | Retained inference limit |
+|---|---|---|
+| Megamaser disk observations | Conditional angular-size distance and frame-labeled systemic spectral shift | Distance avoids a redshift-distance cosmology but retains source dynamics, gravity, disk geometry, calibration and posterior correlations; not PSW initial proper L. |
+| Direct spectroscopic drift | Change of identified spectral features over reception time | Calibration, absorber history and nuisance acceleration remain; drift is not separation variation or a curvature sign by itself. |
+| Supernova temporal widths | Received time-profile comparison under a source-population relation | No independent geometric distance; source diversity, wavelength matching, selection and shared reference curves remain. |
+
+The selected published-data diagnostic uses all six rows of MCP XIII Table 1,
+[Pesce et al. 2020, v2, p4](https://arxiv.org/pdf/2001.09213v2).
+Reported distance medians span 7.58–132.1 Mpc. With the source's CMB-frame
+optical convention v=c_E z and observed unit calibration c_E=299792.458 km/s,
+the median z values span 0.0022659009–0.0339988540. The saved
+[constraint table](udt_observation_metric_evaluation_2026-10-04/observation/MCP_CONSTRAINTS.tsv)
+keeps the asymmetric distance marginal intervals and maps each velocity marginal
+monotonically through z=v/c_E and ell=log(1+z). NGC4258 retains its separately
+combined statistical/systematic distance uncertainty. The quoted source errors
+do not create a joint confidence region, likelihood or zero covariance.
+
+These are processed spectral proxies, not local recession speeds, unreduced
+detector-clock ratios or isolated positional slowing. The companion disk model
+uses inverse-square/Keplerian dynamics, relativistic Doppler and gravitational
+corrections before systemic redshift; those are labeled conventional source-
+readout assumptions, not native UDT equations. The later H0/FLRW stage is not
+used. No peculiar-flow correction, slope, preferred scale or D_A-to-L conversion
+is fit. A CMB reduction frame is a comparison convention, not a native preferred
+observer. R13's area identities alone do not supply a source luminosity model.
+
+The other sources retain useful positive evidence and their actual limitations.
+Darling2012's 2.2 m/s/yr is an uncertainty around the reported -5.5, not an
+absolute zero-centered bound. The newer ESPRESSO results share observations
+with the earlier analysis and revise its weighting; they are not independent
+confirmations. White2024's first free-exponent flux-scatter method supplies
+separate source-conditional temporal evidence. Its tight second-method exponent
+uses reference times divided by(1+z), and the authors explicitly call that
+method a consistency check. The preserved source-precision repair attaches
+that scope to the number without discarding the first method or the whole study.
+None of these channels automatically supplies the prepared query of R8PRT. ACP1 below
+makes the source-summary portability conditions explicit: a general geometry
+requires its full angular map or a justified scalar reduction, and a fitted
+systemic factor needs a regular reference-clock realization before becoming
+an actual R6 clock leg. OEV1's preserved arithmetic is unchanged.
+
+The diagnostic rules were frozen before parent table extraction; the researcher
+had already seen published outcomes. Exact input/code were frozen before the
+conversion. This is exploratory source reuse, not held-out confirmation. A fresh
+reviewer visually checked the primary table and independently replayed sixty
+converted numeric fields using 60-digit Decimal arithmetic; differences are
+ordinary floating representation error, with log differences below 1e-17.
+That verifies transcription/conversion, not the source disk fit or astrophysics.
+
+**Original-equation evaluation on declared controls.** Use the supplied metrics
+g=-dt^2+a(t)^2 sum dx_i^2, with a=1,1+t^2,1+t^3 on unquotiented R^3; the cubic
+time domain is t>-1, and the other two have t in R. Each k=1 or b=1 is a
+separate control-unit normalization, not a physical scale. Restrict to the
+invariant radial slice with zero transverse tangent. Comoving clocks are exact
+unit geodesics; a(0)=1,a'(0)=0 makes t=0 preparation parallel and L proper.
+These are evaluator controls, not native-admitted cosmologies or construction
+inputs for a new UDT response.
+
+For future affine state(t,x,T,X) and the radial coordinate transport matrix P,
+the same metric connection gives
+
+    t'=T, x'=X, T'=-a(da/dt)X^2, X'=-2[(da/dt)/a]TX,
+    P'=-[[0,a(da/dt)X],[((da/dt)/a)X,((da/dt)/a)T]]P.
+
+Launch T=1, X=+/-1/a(t_e), P=I and stop at actual x=+/-L. Endpoint contractions
+give Z=1/T_receive. Centered arrival differences at two emission steps, with
+Richardson extrapolation, hold clock histories fixed. Selected reverse first
+signals use this control's reflection symmetry; selected echoes start at the
+actual first reception. Skipped echo queries are not numerical nonexistence
+findings. Analytic control horizons remain owned by the prior source arguments;
+the engineering time/affine caps are not physical endpoints.
+
+The frozen matrix is 14 queries at three tolerances, with 42 center trajectories
+and 246 ray solves. All coarse and tight results remain. The tight 14 satisfy
+the frozen thresholds: largest null-relative defect 2.03e-10, metricity defect
+1.53e-9, sampled original scaled residual 1.66e-11 and arrival/frequency
+discrepancy 2.29e-9. Coarse settings are refinement diagnostics and exceed some
+tight thresholds. Dense-trajectory differentiation versus the original shared
+RHS is an unpreconditioned residual check, not independent certification.
+
+A separate implementation uses 60-digit metric quadrature/root inversion,
+affine integrals and a metric-frame transport expression, without parent code
+imports. It checks all 246 endpoint roles and 6393 saved trajectory samples
+using 190 distinct scalar anchors, with selected 90-digit repeats. Tight maximum
+relative frequency error is 6.79e-11; parent arrival derivative versus the
+independent Z differs by at most 2.355e-9. Wrong-frequency, wrong-direction and
+shifted-incidence mutations are rejected. Small-L amplification is explicitly
+measured. These are finite floating/high-precision checks and observed refinement,
+not rigorous enclosures, universal convergence order or numerical proof of an
+asymptote. R6/R7 and the analytic control arguments retain their own hypotheses.
+
+Actual-workload smoke checked readable trajectories, constraints/residuals,
+SIGINT after a completed query, exact restart agreement, and config mismatch
+rejection. An incomplete in-flight query is not certified resumable. Both smoke
+paths and production totaled 284 rays/101368 RHS calls within the stated caps.
+The finite CPU production took about1.36s; no GPU or multi-hour run was needed.
+The [frozen numerical evidence](udt_observation_metric_evaluation_2026-10-04/numerics/FREEZE.json)
+and [independent checks](udt_observation_metric_evaluation_2026-10-04/review_math/INDEPENDENT_RESULT.json)
+retain the actual equations, domains, commands, tolerances and omissions.
+
+**Remaining scientific gate.** A useful astronomical confrontation must predict
+the same angular-distance and spectral quantities, with actual source/observer
+histories, ray/area geometry, declared disk/frame/source reductions or justified
+recalibration, motion nuisance treatment and a joint uncertainty model. The six
+marginal constraints remain usable while that package is being developed; their
+existence does not identify positional attribution or force a new postulate.
+
+A native time-live search additionally needs an admitted equation/constraint
+class for metric degrees of freedom, chart/gauge, domain and sufficient initial/
+boundary data. R6/R7 evaluate a supplied geometry; they do not supply its native
+evolution. Existing conditional field/action branches do not restart or become
+adopted here. More samples of these three controls would not close this join.
+R18 owns the current return and next gate. [Initial result and chronology](udt_observation_metric_evaluation_2026-10-04/INITIAL_RESULT.md)
+and [work record](udt_observation_metric_evaluation_2026-10-04/WORK_RECORD.md)
+preserve discovery, review and repair; no registry or CANON promotion follows.
+
+
+<a id="r8acp"></a>
+
+#### First astronomical comparison — ACP1
+
+Charles authorized construction and audit of OEV1's first astronomical
+comparison. **CGCG 074-064 now has an explicit conditional metric-to-data
+comparison. No astronomical metric has been selected, fitted or validated.**
+The source was chosen because MCP XI exposes its spot schema, source equations
+and likelihood, not because its measurements match a UDT curve. Published
+outcomes are exposed. The [contract](udt_first_astronomical_comparison_2026-10-04/COMPARISON_CONTRACT.json)
+and [premise ledger](udt_first_astronomical_comparison_2026-10-04/PREMISE_LEDGER.tsv)
+state the actual objects and open inputs.
+
+**One geometry must predict the records together.** Supply one regular
+time-oriented Lorentz metric, actual maser/receiver proper-clock histories,
+receiver tetrad, regular null incidences, source cadence and calibration,
+feature association and observation-window reduction. The same metric supplies
+the connection, endpoint frequencies and sky map. Source histories are query
+data; a conventional disk prescription must be consistently realized or justified
+as a controlled approximation in that geometry. A separate fitted Z(D) profile
+cannot substitute for these predictions.
+
+For each actual maser signal, R6 gives Z=omega_e/omega_o=d tau_o/d tau_e.
+With a supplied spectral readout alpha=nu_e/nu_ref, the optical channel and
+its receiver-time derivative obey
+
+    v_opt=c_E (Z/alpha-1),
+    d v_opt/d tau_o=c_E [Z'/(alpha Z)-alpha'/alpha^2],
+
+where primes are emitter proper-time derivatives. Stable alpha=1 gives
+c_E d(log Z)/d tau_e. This is a received spectral slope, not automatically
+a local proper acceleration. MCP XI fits finite monitoring windows (nine
+consecutive epochs with its selection/binning procedure); a pointwise derivative
+does not replay that estimator. A candidate must predict the reduced records
+using the relevant feature, epoch and channel information.
+
+If a justified matched factorization has Z=Z0 Q, stable source cadence gives
+c_E[(log Z0)'+(log Q)']. For constant Z0 only, this is c_E Q'/Q: the common
+factor cancels between optical-velocity scaling and reception-time scaling.
+It remains in the spectral offset and received intervals. A varying Z0 retains
+its derivative, and different spot rays need not share it. The identity
+Q=Z/Z0 by itself creates no physical decomposition. MCP XI already multiplies
+source Doppler, gravitational and systemic factors before defining optical
+v=c_E z; adding a standalone 1/(1+z0) slowdown would require a new justification.
+This observation does not certify every Newtonian/source-time approximation in
+that published model or establish a defect in unavailable code.
+
+**The angular constraint is a full map.** In the reception tetrad,
+n_sky^a=-g(k_o,E_a)/omega_o, opposite future propagation. Actual incidence and
+the calibrated sky chart give the finite spot positions. For a regular
+infinitesimal source cut, fix G348's reverse block B_eo using the same future
+affine k and fixed orthonormal quotient-screen bases. Then
+
+    J=-omega_o B_eo,       D_A^2=|det J|=omega_o^2 |det B_eo|.
+
+A screen-basis change must also transform the source coordinates. Positive
+affine rescaling leaves J and D_A unchanged. Changing the physical receiver
+with frequency multiplier F changes Z to Z/F and D_A to F D_A; frame labels
+and astrometric calibration cannot be mixed silently.
+
+The scalar D reproduces all linear source lengths up to orthogonal orientation
+only if J^T J=D^2 I. Equal area is weaker: D I and D diag(2,1/2) have equal
+determinants but different spot maps. MCP XI's angular-radius conversion rD
+therefore carries a source-compatible scalar-map approximation; OJM1's
+conditional metric map in R13OJM explicitly retains the two directional factors.
+Its new map does not retrospectively validate a published source approximation.
+The D posterior
+is not automatically portable to arbitrary sheared geometries. A general
+candidate needs the full map or a justified source refit. For a smooth inverse
+angular map with Hessian norm bounded by M on a convex regular patch, the linear
+remainder is at most M|delta theta|^2/2. The small apparent disk size alone does
+not bound M or exclude focusing/branch changes.
+
+**The source likelihood remains conditional.** MCP XI supplies spot positions,
+optical barycentric channel values and monitored spectral slopes. Its B17–B24
+likelihood uses the squared residual and Gaussian normalization for each
+declared positive variance: positional/acceleration measurement variances plus
+error floors, and separate systemic/high-velocity spectral floors. Only
+acceleration flag 1 contributes as a measurement; flag 0 is modeled. This
+factorization is an imported statistical comparison, not a theorem of source
+independence. Priors and floor sensitivity matter for posterior use. Full
+spot-level data and its fitted summaries are alternative uses of the same
+observations, not independent likelihood factors.
+
+The complete machine-readable spot table and full estimator metadata were not
+retrieved within the bounded attempts. No full source replay or fit was done.
+The printed six-row illustration is not the complete dataset. A source count
+narrative inconsistency is recorded without treating it as proof that the
+published distance is wrong or inventing missing rows.
+
+**A concrete summary restriction survives.** Under the published compatible
+source/scalar-map reduction, the CGCG row has D=87.6 Mpc with printed marginal
+statistical interval [80.4,95.5] and optical CMB v0=7172.2 +/-1.9 km/s. The
+observed unit conversion yields Z_summary=1.0239238840. With omega_o=1 the
+conditional area median is 7673.76 Mpc^2 and the transformed marginal endpoints
+are [6464.16,9120.25]. MCP XI separately reports model-choice systematics
+1.5 Mpc and 1.7 km/s; they remain separate and are not folded into a fabricated
+joint or total confidence interval. XI/XIII reuse the same underlying source.
+
+The transformed parameters Phi_summary=-log Z_summary=-0.0236421919 and
+chi_summary=tanh(Phi_summary)=-0.0236377879 are initially source-summary labels.
+Their identification with an actual R6 clock leg additionally requires a
+regular reference clock/history, null branch and source-reduction realization.
+The fitted systemic parameter does not supply an emitting clock at the SMBH
+center. No full native phi_pair assignment, recession velocity, initial proper
+separation, physical scale or X_max follows from these transformations.
+Each printed interval remains marginal; membership is descriptive, not a joint
+confidence test or model rejection rule.
+
+This construction adds two usable restrictions to OEV1: the actual angular map
+must be checked before importing a scalar distance, and the spectral slope must
+use the same clock correspondence as the frequency. R6/R7/R13 provide the
+geometric derivation; the disk/transition/calibration/statistics remain supplied
+source hypotheses. Native geometry selection is still open. A subsequent test
+needs a candidate metric with consistent source histories and the actual data
+reduction, rather than another independent response profile. CGE1 below now
+fills a restricted conditional exterior/test-clock instance of that requirement.
+The actual astronomical environment, full image map and data reduction remain
+open; this partial construction does not retroactively make ACP1 a data fit.
+
+The [initial candidate](udt_first_astronomical_comparison_2026-10-04/INITIAL_CANDIDATE.md)
+and controlling [precision repair](udt_first_astronomical_comparison_2026-10-04/REPAIR.md)
+retain sign, reference-clock, estimator and uncertainty corrections. Exact
+symbolic and distinct high-precision checks support the bounded identities and
+summary arithmetic; they are not an empirical test. The initial checker’s output
+write failure is preserved and repaired. Two actual fresh reviewer contexts
+own source-first, exposed and final scoped review; no human/different-model,
+native metric admission, full-corpus reproof or observational confirmation is
+claimed. R18 owns the current return and next action.
+
+
+<a id="r8cge"></a>
+
+#### An actual conditional exterior with orbiting clocks — CGE1
+
+ACP1 required one geometry to generate source motion, received ticking and
+angular positions together. CGE1 constructs a restricted instance inside the
+already retained **conditional** R10 equation class. It does not identify that
+class as native UDT, fit CGCG, construct a source interior or supply the entire
+astronomical comparison. The standard Kottler solution is reconstructed, not
+claimed as a new metric discovery. Its spherical center belongs to one supplied
+exterior environment, never a preferred cosmic observer.
+
+For R2's static spherical areal chart g=-f dt²+dr²/f+r²dOmega², r>0,f>0,
+direct Ricci contraction gives Ric_theta theta=1-f-rf'. Imposing the separately
+conditional Ric=Lambda g integrates (rf)'=1-Lambda r²; the other components
+then verify
+
+    f(r)=1-2m/r-Lambda r²/3.
+
+Here m>0 is the explored length integration parameter and Lambda an inverse-
+length-squared constant, both supplied. No matter-generation law or physical mass calibration
+follows. In this chart phi_presentation=-log(f)/2, distinct from clock depth.
+No chart horizon is identified with X_max.
+
+An equatorial circular **test** clock at radius a has
+
+    h=1-3m/a>0, Omega²=m/a³-Lambda/3>0,
+    u_e=(partial_t+Omega partial_phi)/sqrt(h), tau_e=sqrt(h)t.
+
+These solve the original geodesic equation; f(a)>0 is also required. Cancellation
+of Lambda in h does not remove it from orbital motion or orbit existence.
+Radial linear stability uses V''(a)>0 at fixed ell for V=f(1+ell²/r²), with
+ell²=a³f'(a)/(2f(a)-af'(a)). The finite examples satisfy this criterion; disk
+physics, self-gravity and global/nonlinear stability are outside this result.
+
+A supplied outward radial free receiver has u_o=(E/f)partial_t+v partial_r,
+E>0, v=sqrt(E²-f)>0, and initial event (0,R0,phi=0). A direct outward affine
+null ray in the same plane has k=(1/f,s,0,b/r²), s=sqrt(1-fb²/r²)>0; positive
+Killing energy is set to one as affine calibration. The actual incidence solves
+
+    t_e+integral_a^R dr/(f s)=integral_R0^R E dr/(f v),
+    phi_0+Omega t_e+integral_a^R b dr/(r²s)=0.
+
+All integrals stay within the declared regular static branch. For nearby signals
+the histories stay fixed while reception radius R and ray parameter b vary.
+Put A_o=(E-v_o s_o)/f_o>0. Then both endpoint frequency and differentiation of
+the actual arrival map give
+
+    Z=(1-Omega b)/(sqrt(h) A_o).
+
+The two-equation incidence Jacobian in variables (R,b) is -I A_o/v_o<0, where
+I=integral_a^R dr/(r²s³)>0. This establishes local smooth incidence, not global
+uniqueness across turning, winding or other branches. Regular finite-radius
+clocks are used throughout; no clock is invented at the central singularity.
+
+In the receiver's normalized radial/azimuthal tetrad the future propagation
+direction is
+
+    n_r=(E s_o-v_o)/(E-v_o s_o),
+    n_phi=f_o b/[R(E-v_o s_o)], n_theta=0.
+
+Its norm is one; the source sky direction is -n. These are finite in-plane
+spot positions, not a full two-dimensional Jacobi map or scalar D_A. The latter
+requires ACP1's source/map reduction. OJM1 in R13OJM now supplies the
+conditional infinitesimal Jacobi block; actual finite-source reduction and data
+remain separate. Stable supplied cadence gives its
+same optical slope c_E Z'/Z, with prime in emitter proper time. No independent
+redshift factor is added, and no published finite monitoring estimator is replayed.
+
+**What remains free can now be exhibited explicitly.** For a radial ray b=0,
+w=Z sqrt(h)=E+v_o. At fixed m,a,R, any Lambda in an admitted interval with
+w²>f_o has the outward receiver data
+
+    E=(w+f_o/w)/2, v_o=(w-f_o/w)/2.
+
+They obey E²-v_o²=f_o. Thus one radial shift can be shared by different Lambda
+values with different allowed receiver preparations. This holds a single
+observable fixed; it neither holds R0/time preparation fixed nor equates all
+angles, drift or image maps. It is not a theorem that the whole UDT premise set
+is insufficient. Source-reference realization remains essential for a fitted
+systemic summary to represent any of these actual comparisons.
+
+Ric(k,k)=0 in this branch does not make its optical map flat: m generally gives
+nonzero Weyl tides. Lambda can affect observer histories, endpoints and angles
+despite null Ricci cancellation. The exact fractional change of Omega² from its
+same-m,a zero-Lambda value is -Lambda a³/(3m), so a small metric correction alone
+does not certify orbital recovery. No empirical tolerance or physical scale
+has been selected.
+
+The [fixed construction](udt_conditional_source_geometry_2026-10-04/INITIAL_CANDIDATE.md)
+and [premise ledger](udt_conditional_source_geometry_2026-10-04/PREMISE_LEDGER.tsv)
+keep every conditional choice visible. Direct symbolic original-equation checks
+and four frozen queries at two solution precisions give 40 retained ray records.
+Actual arrival derivatives agree with endpoint ratios within 4.28e-11 at the
+tested finite steps; step refinement and precision comparison pass. An erroneous
+extra division in the initial **checker** failed its drift test and was preserved
+and repaired; the candidate equation and tolerances did not change. These are
+finite high-precision checks, not formal interval or empirical certification.
+
+This fills a restricted metric/source/query construction, not the native
+selection gap. Identical geometry and physically matched GR queries give
+identical records. R10's response-class admission, real source environment,
+observer preparation, full angular/data reduction and any additional positional
+prediction remain separate open gates. The [review/descendant record](udt_conditional_source_geometry_2026-10-04/DESCENDANT_REVIEW.md)
+retains both the positive application and these adverse limits. CPR1 below
+tests those limits and the same metric's regular continuation against existing
+commitments. Its conditional asymptote/recovery restrictions do not retroactively
+admit CGE1 as a native metric or change its original finite queries.
+
+
+<a id="r8cpr"></a>
+
+#### What existing commitments restrict in this candidate — CPR1
+
+The owner's asymptotic slowing and tested-regime recovery requirements provide
+tests of CGE1; they do not automatically identify its supplied clock experiment
+with the additional positional effect. Keep the R10 equation **conditional**, one
+regular circular emitter and one outward radial receiver at fixed finite E>0.
+Let m>0, a>3m, h=1-3m/a, Omega²=m/a³-Lambda/3>0, f(a)>0,
+|b|<a/sqrt(f(a)), v=sqrt(E²-f)>0 and s=sqrt(1-fb²/r²)>0.
+Each ray conserves b, which varies between emissions as actual incidence requires.
+The source/receiver preparations remain fixed. Omega>0 fixes orientation, as
+in the source candidate. Define beta=Omega a/sqrt(f(a))<1.
+
+In the static region f>0 the receiver frequency rationalizes to
+
+    A=(E-vs)/f=(1+v²b²/r²)/(E+vs)>=1/(2E),
+    0<Z=(1-Omega b)/(sqrt(h)A)<=2E(1+beta)/sqrt(h).
+
+Thus this fixed finite-energy query cannot produce unbounded slowing inside
+the static patch. The bound is not uniform in arbitrary boosts or h->0. A
+presentation-phi pole is not a received-clock asymptote. This excludes one
+identification, not the whole candidate or its continuation.
+
+The outgoing coordinate u=t-integral dr/f gives the regular same-metric extension
+
+    g=-f du²-2 du dr+r²dOmega²,
+    u_o=(1/(E+v),v,0,0), k=(b²/[r²(1+s)],s,0,b/r²),
+    A=1/(E+v)+v b²/[r²(1+s)]>0.
+
+Its radial determinant is-1. Original-coordinate Ricci/norm/geodesic checks
+retain Ric=Lambda g, u_o²=-1 and k²=0. At a horizon r_h,
+A=1/(2E)+E b²/(2r_h²)>0: crossing itself gives finite Z. Continuing coordinates
+does not adopt a UDT global completion or continue G201's real positive-f phi.
+
+With U=integral_a^R b² dr/[r²s(1+s)] and P=integral_a^R b dr/(r²s), the
+actual incidence is t_e+U=u_o(R), phi_0+Omega t_e+P=0, where
+u_o(R)=u_0+integral_R0^R dr/[v(E+v)]. The Jacobian in (t_e,b) is
+I(1-Omega b)>0, I=integral_a^R dr/(r²s³). Consequently
+
+    dt_e/dR=A/[v(1-Omega b)], d tau_o/dR=1/v,
+    d tau_o/d tau_e=Z, tau_e=sqrt(h)t_e.
+
+For Lambda=3H²>0, require an escaping receiver and a regular limiting incidence
+(t_*,b_*) at R->infinity, strictly within the source bound. E>=1 suffices for
+escape, but positive Lambda alone does not. Since (f/r²)'=-2(r-3m)/r^4<0
+for r>=a, the source bound supplies uniform outward-ray regularity near b_*.
+In x=1/R the convergent integral tails are smooth; their nonzero limiting
+Jacobian gives an actual branch b=b_*+O(1/R), t_e=t_*+O(1/R). Write
+S_*=sqrt(1+H²b_*²). Then
+
+    Z/R -> H(1-Omega b_*)/[sqrt(h)S_*],
+    R(t_*-t_e) -> S_*/[H²(1-Omega b_*)],
+    Z(tau_e,*-tau_e) -> 1/H.
+
+The product is1/(c_E H) when proper time is in seconds. The limiting emitter
+time is finite; receiver proper time grows as log(R)/H without bound. An
+explicit existence preparation is u_infinity=phi_0=0, giving t_*=b_*=0 and
+limiting Jacobian1/a>0. Nearby preparations work locally; no claim covers every
+phase, early emission, winding branch or population. For Lambda=0 the static
+bound persists to arbitrarily large outgoing R. For Lambda<0 every finite-E
+outward receiver turns at finite R. Therefore this **particular unbounded-outward
+divergent-clock realization requires Lambda>0**, with escape/incidence retained.
+
+This is a finite-emission-endpoint reception-horizon limit on fixed histories.
+Outside the static region areal r is timelike; it is not automatically measured
+observer separation or finite X_max. The owner's extreme-separation requirement
+has not been derived to select this protocol. Thus the sign restriction is
+conditional, not yet a native UDT selection. Standard GR horizon behavior is
+not itself an additional effect or proof that no expansion interpretation exists.
+
+Recovery is also testable once an observable and tolerance are declared. Match
+the same geometric m,a and use the proper angular rate nu=Omega/sqrt(h), with
+the rotational angle normalized to period2pi. Then exactly
+
+    (nu_Lambda²-nu_0²)/nu_0²=-Lambda a³/(3m).
+
+A supplied relative tolerance0<epsilon<1 on this squared rate gives
+|Lambda|<=3m epsilon/a³; the above particular realization further requires a
+positive sign. A period tolerance has a different inequality. No measured
+epsilon, source-mass conversion, disk or stability/full-GR-recovery claim follows.
+
+Two potential shortcuts fail. First, the native G201/G260 amplitudes on f>0
+are A_parallel=-3m/r and A_perp=+3m/r, whose trace cancels for all Lambda.
+This neither selects Lambda nor makes Weyl/optical effects vanish. The clock
+asymptote has not been shown to be an angular loud regime; no current universal
+combined score converts trace cancellation into a global exclusion. Second,
+within R10's conditional E_response=c1 Ric+c2 Rg, DDR is automatic here.
+But m>0 makes this exterior a nonspaceform, so R9FST's all-natural-response
+argument does not transfer. The explicitly **unadopted** local metric-natural
+diagnostic T_ab=(nabla_a I)(nabla_b I), I=C²=48m²/r^6, has
+T:HR9=2f(I')²>0 on the static domain. It lies outside R10's order/weight gates.
+It only refutes automatic DDR for every local natural response on this family;
+it is neither a physical response proposal nor a whole-UDT countermodel.
+
+The [fixed audit](udt_candidate_commitment_restriction_2026-10-04/INITIAL_CANDIDATE.md),
+[review clarifications](udt_candidate_commitment_restriction_2026-10-04/CLARIFICATIONS.md)
+and [premise ledger](udt_candidate_commitment_restriction_2026-10-04/PREMISE_LEDGER.tsv)
+retain the hypotheses. Two fresh contexts independently checked the argument,
+original curvature and actual incidences. Parent30 repaired finite solves give
+arrival-error<7.746e-9 and precision discrepancy<3.653e-40; its original too-loose
+root stop and unchanged-tolerance repair survive. These support the scoped
+calculation, not empirical or native confirmation. R18 now owns the physical
+attachment question; no complete-postulate insufficiency or new-premise necessity
+follows from the remaining open join. OAA1 below now supplies a
+declared affine-distance attachment to this limit, while preserving the open
+native physical identification and distinguishing the actual radar domain.
+
+
+<a id="r8oaa"></a>
+
+#### An explicit distance attachment, with physical limits — OAA1
+
+CPR1 left open which physical distance, if any, accompanies its received-clock
+asymptote. OAA1 supplies an attachment to a declared standard geometric distance.
+It does not select that definition as native positional separation or admit the
+conditional metric. Keep one actual affine null branch and endpoint proper
+clocks. If L=lambda_o-lambda_e>0 and omega_i=-g(u_i,k_i)>0, define
+
+    D_o=omega_o L, D_e=omega_e L, D_e=Z D_o.
+
+These are invariant under positive affine rescaling: k->c k, L->L/c. At reception
+the spatial projection of the past null displacement -L k_o has norm D_o.
+This recovers the standard receiver-normalized affine distance on a specified
+branch, without assuming a globally unique exponential inverse. D_e uses the
+emitter normalization of the same future ray; it is not a later echo distance.
+Neither quantity is automatically radar, spatial-slice, angular or luminosity
+distance. They also differ from SGE1's auxiliary-field integral of omega(lambda)
+along a ray. The identity alone supplies no independent distance observation.
+
+Keep CPR1's m>0, H=sqrt(Lambda/3)>0, a>3m, h=1-3m/a,
+Omega=sqrt(m/a³-H²)>0, fixed finite E>0 escaping receiver and strict regular
+limiting incidence b_*. The same source/receiver preparations remain fixed,
+while b changes between emitted rays. With s=sqrt(1-fb²/r²), v=sqrt(E²-f),
+
+    L=integral_a^R dr/s, A=1/(E+v)+v b²/[R²(1+s)],
+    D_o=A L, D_e=(1-Omega b)L/sqrt(h).
+
+Let S(b)=sqrt(1+H²b²) and
+C(b)=-a/S(b)+integral_a^infinity[1/s-1/S(b)]dr. The integrand is O(r^-2),
+and CPR's strict source bound gives uniform ray regularity near b_*.
+Uniform smooth expansions give
+
+    L=R/S(b)+C(b)+O(R^-1),
+    A=S(b)/(HR)-E/(H²R²)+O(R^-3),
+    D_o=1/H+B/R+O(R^-2),
+    B=S_* C(b_*)/H-E/(H² S_*).
+
+The leading constant survives the actual b(R)=b_*+O(1/R) incidence. Therefore
+D_o->1/H while D_e grows without bound and D_e=Z D_o. H is supplied geometry,
+not selected by c_E/G_obs or the definition. If CPR's matched proper-orbital
+tolerance epsilon is supplied, its bound implies1/H>=sqrt(a³/(m epsilon));
+no empirical tolerance, physical mass law or full recovery claim follows.
+
+On the already supplied u_infinity=phi_0=0 preparation, b_*=0 and C(0)=-a.
+Thus B=-(a/H+E/H²)<0 and
+
+    Z(1/H-D_o) -> (a+E/H)/sqrt(h).
+
+Smooth tail expansions justify eventual monotone approach from below and a
+simple pole in the affine-distance deficit. **On this eventual tail** the
+limiting value remains unattained at finite receiver proper time. No proof
+excludes an earlier crossing elsewhere on the full history. Source emission
+approaches a finite endpoint while receiver proper time tends to infinity.
+Finite R remains regular; b is not frozen to zero along the orbiting source.
+
+The qualification is substantial. Another admitted conditional preparation,
+m=1,a=3.001,H=.18,E=1,b_*=-.999 a/sqrt(f(a)), has B>0. Its limiting phase
+and receiver time origin can be chosen to satisfy the same actual incidence.
+An independent reviewer found this case; a distinct exact rational lower-bound
+argument proves B>8991379/1134000>0. It approaches1/H from **above**. This is a
+circular test-clock example, with no stable-orbit or native-population claim.
+Thus1/H is not a universal affine-distance ceiling across this conditional
+family. The b_*=0 tail survives. No general reversal of UDT dilation or whole-
+postulate failure follows from this metric/query counterexample.
+
+Return signals supply a separate constraint. The source bounds imply a simple
+outer root r_c>a. For r>r_c, grad r is past timelike, with norm f<0, so every
+nonzero future causal tangent has dr>0. At r_c, dr is nonnegative. A late
+receiver event at R>=r_c cannot send a future return to the original source
+at a. This statement is about the specified outward continuation; it does not
+rule out every earlier-probe radar assignment based on another clock.
+
+If an actual echo through R<r_c to the original circular emitter exists,
+static-region causality gives dt>=|dr|/f and hence
+
+    D_rad,circular >= sqrt(h) integral_a^R dr/f.
+
+It diverges as R->r_c if echoes persist that far. Their universal existence or
+unique return branch has not been proved. A separately accelerated static radial
+clock gives equality with sqrt(f(a)) replacing sqrt(h). Its radar length
+diverges logarithmically whereas static-slice length integral dr/sqrt(f) stays
+finite at r_c. Those are different queries/measurements from the late affine
+limit. A coordinate horizon, finite slice length and finite D_o cannot be equated.
+
+Changing the receiving observer at the same event by velocity beta along the
+future ray multiplies D_o by gamma(1-beta) and divides Z by that factor.
+This is physical observer dependence, not affine gauge. Such a sequence of
+boosted observers need not belong to the fixed-E geodesic family. The owner's
+same-law universality permits circumstance-dependent readouts; this fact is
+not a refutation of that postulate or a selection of X_max modulation.
+
+The [candidate](udt_operational_asymptote_attachment_2026-10-04/INITIAL_CANDIDATE.md),
+[tail clarification](udt_operational_asymptote_attachment_2026-10-04/CLARIFICATIONS.md),
+[exact ceiling counterexample](udt_operational_asymptote_attachment_2026-10-04/AFFINE_CEILING_COUNTEREXAMPLE.md)
+and [radar bound](udt_operational_asymptote_attachment_2026-10-04/RADAR_BOUND.md)
+retain scope/provenance. Standard affine-distance definitions are methods;
+neither literature nor numerical agreement supplies a new physical premise.
+The geometric attachment is now explicit. OJM1 in R13OJM supplies the
+conditional infinitesimal source-screen/angular map; native positional meaning,
+independent measurement and actual astronomical source admission remain open.
+R16TSI supplies a conditional timing-to-scale interface and R16FRI adds a
+finite uncertainty test; neither is an actual astronomical measurement or new
+native metric selection. A
+physically matched GR calculation gives the same records. No additional effect,
+universal finite X_max or native field-law admission is established.
+
+
+#### Finite mutual ticking and its causal limits — FPC1
+
+The owner has already identified the observable as the rate of ticks received
+through signals. R6 therefore defines Z for supplied actual clocks and regular
+null branches; a microscopic theory of light or population selector is not a
+prerequisite. G218/G219's older generic missing-protocol language cannot erase
+this clarification. Their inverse-versus-future-return distinction survives.
+J1 concerns the physical geometry/preparation and positional attribution, rather
+than absence of a received observable. A strictly positive finite effect need
+not have a nonzero quadratic coefficient. The tentative combined-redshift
+expectation is not silently strengthened to a universal net sign condition.
+
+Use exactly PSW1's initial parallel preparation, retaining L as proper spacelike
+geodesic length and c_E=1. In a supplied space form of sectional curvature+k²,
+k>0, embed g in Minkowski5 with <X,X>=1/k². For the preparation event X0,
+future unit U and spatial unit n, the two free clocks are
+
+    B0=cos(kL)X0+sin(kL)n/k,
+    A(s)=cosh(ks)X0+sinh(ks)U/k,
+    B(b)=cosh(kb)B0+sinh(kb)U/k.
+
+U is ambient constant and tangent along preparation, hence parallel. Both clocks
+have proper unit tangents and normal ambient acceleration, hence intrinsic
+geodesicity. The full4D quadric has Ric=3k²g; no field equation was used to obtain
+the clock map. The constructed radial plane is totally geodesic. Null straight
+chords stay on the quadric, giving the exact incidence equation
+
+\[
+ \cos(kL)\cosh(ks)\cosh(kb)-\sinh(ks)\sinh(kb)=1.
+\]
+
+At s=0 its direct future root gives b=atanh(sin(kL))/k and p=sec(kL),
+for0<kL<pi/2. Differentiation is at fixed worldlines, not by varying L.
+An isometry exchanges the two prepared clocks while preserving their initial
+velocities. Thus a separately emitted first signal from B0 to A has p_rev=p.
+These are two actual future comparisons. The immediate echo from the later B
+relay instead has a=2atanh(tan(kL))/k and q=cos(kL)/cos(2kL), only for0<kL<pi/4.
+The prior root a=0 is not a return. The echo's derivative pq=sec(2kL) and arrival
+time diverge at pi/4 while p tends to sqrt(2); for pi/4<=kL<pi/2 both independent
+first signals still arrive, but that echo has no finite future reception.
+
+As kL approaches pi/2 from below, p=p_rev and both first reception times diverge.
+At the limit there is no finite future incidence. The spacetime curvature remains
+regular: a causal/comparison boundary is not a material wall or singular metric.
+No boundary here is identified with physical X_max. Isometries relate every such
+laboratory; using one observer's coordinates does not give a universal center.
+This standard de Sitter comparison is compatible with the tested behavior; it
+has not been selected by UDT or shown to add an effect beyond GR.
+
+The flat prepared experiment gives b=s+L, a=b+L, p=p_rev=q=1, with ordinary finite
+causal timing. It does not represent a counterfactual removal of UDT geometry.
+The supplied opposite curvature-k² on the AdS cover gives, on its first direct
+future branches for every finite L>0,
+
+\[
+ b=\arctan(\sinh(kL))/k,\quad p=p_{rev}=\operatorname{sech}(kL),\qquad
+ a=2\arctan(\tanh(kL))/k,\quad q=\cosh(kL)/\cosh(2kL).
+\]
+
+Both ratios are positive and below one. There is no periodic time identification,
+reflected boundary ray or global AdS evolution claim. These controls preserve the
+sign choice; ordinary clocks alone do not select positive curvature. G212's
+extra all-germ isotropy condition is not adopted by no-preferred-observer wording.
+The curvature scale remains supplied. For positive curvature,
+log p=k²L²/2+k⁴L⁴/12+O((kL)^6) and
+log q=3k²L²/2+5k⁴L⁴/4+O((kL)^6), agreeing with T=-k²I in PSW1.
+Exact formulas own the finite boundaries; the series supplies no observed solar
+threshold. Writing p=(1-y²)^(-1/2), y=sin(kL), gives a familiar algebraic shape
+without identifying y as velocity or native chi. The actual leg has
+Phi_clock=-log p=log cos(kL) and chi_clock=-sin²(kL)/(1+cos²(kL)).
+
+A separate higher-order check extends the same Kasner control, at t0=1 and
+exponents(-1/3,2/3,2/3). For axis exponent r, its preparation obeys
+ t''=-r t^(-2r-1), t^(2r)x'=1. At proper length L the transported initial velocity
+is (t^(-r),t't^(-r)), and the released receiver's conserved momentum is C=t^r t'.
+With gamma=sqrt(1+C²/t^(2r)), its path obeys dx/dt=C/(t^(2r)gamma).
+The outgoing null integral and immediate return give eta(ta)=2eta(tb)-eta(1),
+where eta'=t^(-r). Endpoint frequencies then give
+log p=r log(tb)+asinh(C/tb^r) and
+log q=r log(ta/tb)+asinh(C/tb^r), for the same fixed prepared worldlines.
+Solving these analytic equations through fourth order yields
+
+\[
+ \overline{\log p}^{\,axes}=-7L^4/243+O(L^5),\qquad
+ \overline{\log q}^{\,axes}=5L^4/81+O(L^5).
+\]
+
+The quadratic and cubic means cancel. Spatial reflection equates opposite axes;
+these are principal-axis (also six-axis) means, not proved spherical means at
+fourth order. Analytic ODE and implicit-function dependence on the local branch
+justify the remainder; no explicit finite-L threshold is certified. Thus zero
+leading Ricci mean does not force every finite mean to vanish. The two means
+have opposite signs and individual directions already have both signs; this is
+no universal-positive or native-admitted vacuum model.
+
+There is also a sharper **conditional, UNADOPTED net requirement**. Suppose every
+event of an open Ricci-flat region, every future unit U and every spatial unit n
+has p_L>1 for all sufficiently small positive L, on the regular local prepared
+branch. The small-L threshold may depend on the query. PSW1 forces T_U<=0,
+not strictly negative. Its zero trace then gives T_U=0. For all timelike U,
+R(X,U,U,X)=0; projection removes the restriction X perpendicular to U, and
+polynomial identity on the open timelike cone plus curvature polarization gives
+Riemann=0. Throughout the open region this implies local Minkowski geometry,
+whose same prepared clocks have p_L=1 exactly: a contradiction. One U, one point,
+selected finite L, mean positivity or a matched positional contrast does not
+inherit this exclusion. It does not exclude Ric=0 from UDT's current premises.
+
+Sources: [fixed exact space-form proof](udt_finite_positional_clock_test_2026-10-01/SPACEFORM_DERIVATION.md),
+[independent Kasner/space-form derivation](udt_finite_positional_clock_test_2026-10-01/math/DERIVATION.md),
+[source and quantifier review](udt_finite_positional_clock_test_2026-10-01/fidelity/SOURCE_FIRST.md),
+and [reviewed limits](udt_finite_positional_clock_test_2026-10-01/REVIEWED_RESULT.md).
+The [primary method record](udt_finite_positional_clock_test_2026-10-01/PRIMARY_METHOD_REFERENCES.md)
+credits standard exact Fermi geometry; it does not claim discovery of de Sitter
+space or import an Einstein equation as UDT dynamics.
+
+
+<a id="r8fac"></a>
+
+#### What a full sphere of free-clock comparisons restricts — FAC1
+
+FPC1 leaves the finite full-sphere mean unresolved: its negative Kasner axis
+mean is explicitly not a spherical mean. FAC1 resolves that difference, then
+asks whether a sign law for actual clock comparisons would restrict curvature.
+This follows R6/PSW1's received-clock observable without assigning an additive
+positional component or a preferred conformal reference. The physical sign law
+and its positional attribution remain UNADOPTED; supplied GR controls are not
+a native UDT vacuum sector.
+
+Fix a smooth time-oriented Lorentz4 metric, event o and finite future unit U.
+For each spatial unit n, prepare B0=exp_o(Ln), parallel transport U along that
+spacelike geodesic, and release both clocks freely. L is proper initial
+separation; c_E=1 sets units. Vary emissions on these fixed worldlines, on their
+regular future null branches. Let p_+ be the proper arrival derivative for the
+first A0-to-B signal, and p_- for an independent first B0-to-A emission. The
+second is neither an inverse at the same endpoints nor an immediate echo.
+Both averages use the original preparation sphere:
+
+\[
+ M_\pm(U,L)=\frac1{4\pi}\int_{S^2}\log p_\pm(L,n)\,d\Omega_n.
+\]
+
+This is not receiver-sky or source-population weighting. Log depth and uniform
+laboratory angles motivate an observable, not its additional-positional meaning.
+PSW1 and the exactly reversed initial preparation give
+M_±=-Ric(U,U)L²/6+O(L³). That trace relation is inherited, not the new result.
+
+**Vacuum quartic theorem.** If Ric=0 on an open neighborhood of the laboratory,
+then for each fixed o,U and sufficiently small positive L,
+
+\[
+ M_\pm(U,L)=\frac{4|E(U)|^2-3|B(U)|^2}{360}L^4+O(L^5).
+\]
+
+E and B are the electric/magnetic Weyl tensors relative to U, with positive
+spatial squared norms, not extra physical fields. Ricci flatness merely at o
+does not suffice. The displayed coefficients agree; the two finite functions
+generally differ. A strictly positive or negative coefficient determines both
+local signs. Equality leaves the higher-order question open.
+
+The proof first restricts possible invariants, before using exact examples.
+In normal coordinates rescaled by L, preparation, parallel transport, free
+geodesics, null incidence and log-ratio recursion have polynomial metric-jet
+coefficients. The flat endpoint Jacobian sends flight/direction variations to
+their radial/tangential sum; it is invertible without dividing by curvature.
+Through fourth order the normal metric contains R, nabla R, nabla²R and R².
+The corrected [Brewin v3 method](https://arxiv.org/html/0903.2087v3) supplies
+this jet structure, not the clock coefficient or any UDT premise.
+
+Spherical integration leaves contractions only with g and U. In regional
+vacuum R=C, with zero Weyl traces and divergence. For nabla_e nabla_f C_abcd,
+a metric contraction between Weyl slots is a differentiated zero trace. Two
+U's in an antisymmetric pair give zero. Otherwise at most two Weyl slots
+can carry U and the two remaining slots must pair with the two derivative
+indices: the inner derivative is a zero Weyl divergence. No derivative
+commutation or differentiation of an arbitrary U congruence is used. The
+analogous linear/cubic contractions vanish. The remaining unoriented quadratic
+Weyl scalars are E² and B²; E:B is parity odd. Thus each mean has two universal
+constants before any control is evaluated.
+
+Uniformity in n comes from the full physical shooting problem: rescaled
+regular incidence, the flat invertible Jacobian, and a finite chart cover of
+compact S². This gives a common small-L tube and integrable remainder for the
+fixed laboratory, including coordinate-axis directions. It supplies no explicit
+finite error bound or uniform radius over unbounded boosts.
+
+Two original-metric exact controls fix the constants. For Kasner exponents
+(-1/3,2/3,2/3), at t=1,U=partial_t, E²=8/27 and B=0. With z=n1² the forward
+and reverse quartic polynomials are respectively
+-(117z²-204z+43)/486 and -(27z²-114z+31)/486. Both quadratic/cubic spherical
+means vanish. Using <z>=1/3,<z²>=1/5 gives M_±=4L⁴/1215+O(L⁵), positive.
+The old negative principal-axis result survives with its original scope.
+For the symmetric vacuum plane wave
+g=-2du dv+dx²+dy²+(x²-y²)du², at x=y=0 and
+U=(partial_u+partial_v)/sqrt2, E²=B²=1/2. Exact preparation and null incidence
+give M_±=L⁴/720+O(L⁶). This rejects the interim electric-only guess and fixes
+the two constants to 1/90 and -1/120 after the invariant classification.
+
+Independent original-coordinate Kasner integrations preceded exposure to the
+exact coefficients and corroborate the full-sphere signs. Angular, integration
+and range refinement, flat controls and fixed-worldline arrival derivatives
+were checked. Fresh reviewers independently reconstruct saved endpoint ratios;
+one independently derives the entire plane-wave comparison before exposure.
+These numerical checks are not interval enclosures or proof of the general
+theorem. Its argument, exact controls and actual review own that conclusion.
+
+**A regular negative GR control.** In nonextremal Kerr, set M=1,
+a=sqrt15/4, r=3/2, cos(theta)=2/sqrt5. The outer horizon is r_+=5/4,
+Sigma=3 and Delta=3/16. Use the principal Carter vector only as the initial
+unit tangent, then follow its freely released geodesic. The regular exterior
+curvature has E²=0,B²=2/9, so the theorem gives
+M_±=-L⁴/540+O(L⁵). The chosen event is on a stationary-limit surface, not a
+horizon; at r=31/20 the sign remains negative with g_tt=-21/1261<0, outside
+the ergosphere as well. This is an actual vacuum metric, not just an algebraic
+Weyl tensor. Regional vacuum is inherited from the inspected primary Kerr
+solution; independent original-metric differentiation checks pointwise curvature
+and frame values. No Kerr clock-ray integration was performed. The supplied
+strong-field query is not automatically a required tested-regime UDT limit.
+
+**Recovery is a quantifier question.** At a fixed prepared event choose a local
+time tau with tau=0 and d tau=-g0(U,·). The supplied family
+g_epsilon=exp(epsilon tau²)g0 has the same metric and connection there, while
+direct conformal contraction gives Ric_epsilon(U,U)=-3epsilon. Re-prepare
+the free clocks in each metric. Both means start at epsilon L²/2; smooth
+recovery of g0 therefore does not determine the infinitesimal sign. This time
+coordinate and family are laboratory controls, not a preferred physical clock
+field or UDT deformation law.
+
+For the positive Kasner control and epsilon=-delta<0, joint dependence gives
+M_±/delta² -> -s²/2+(4/1215)s⁴ at L=s sqrt(delta). Its simple nonzero root
+gives separate local crossings L_±=(9sqrt30/4)sqrt(delta)+O(delta).
+The actual numerical pair at epsilon=-1e-5,L=.04 has means approximately
++4.20734e-10 and -2.05603e-10: a combined positive average conceals reverse
+speeding. For the negative Kerr control and epsilon>0, instead
+M_±/epsilon² -> s²/2-s⁴/540. The nearby crossings are
+L_±=3sqrt30 sqrt(epsilon)+O(epsilon). Thus an actual smoothly recovering
+family has a positive interval shrinking to zero while each fixed sufficiently
+small L0 tends to the negative Kerr mean. These are local crossings, not
+global uniqueness, distant-onset predictions or selected physical scales.
+
+Continuity forbids nonnegative means approaching a negative GR mean only if
+the same common finite query and its regular preparation remain in the proposed
+positivity/recovery domain. A parameter-dependent shrinking radius does not
+satisfy that stronger premise. Distant onset and finite-tolerance recovery also
+remain distinct possibilities; none is silently rejected by this local test.
+
+<a id="r8facp"></a>
+
+**Conditional restriction, physical join open.** Name the trial law that both
+means are nonnegative in a specified regime AMS, angular mutual slowing. If
+imposed at all sufficiently small L in a Ricci-flat neighborhood, it requires
+4E²>=3B² at each required observer. Strict inequality suffices locally for
+that observer; equality is unresolved. This nonautomatic restriction permits
+some nonzero Weyl/tidal structure, unlike FPC1's much stronger all-event,
+all-observer, all-direction Ricci-flat net-sign requirement. No all-frame
+classification or nonvacuum extension is inferred. Away from regional vacuum,
+the leading Ricci term and further derivative terms must be retained.
+
+AMS is not derived from reciprocal positional slowing: the statistic still
+measures total prepared clock readings. Neither a positive GR example nor its
+negative counterpart identifies the additional positional effect. Keep the
+quartic theorem and trial restriction as conditional tools; physical attribution,
+applicability and compatibility with the distant-onset direction remain the
+next decision. No native geometry, source, scale, cosmic curve, new local physics
+or full-postulate insufficiency is established. c_E/G_obs remain anchors;
+X_max remains open global completion, not a local input.
+
+Sources: [original Kasner/plane-wave derivation](udt_finite_angular_clock_probe_2026-10-13/researcher_a/CANDIDATE.md),
+[invariant proof](udt_finite_angular_clock_probe_2026-10-13/researcher_a/VACUUM_QUARTIC_CANDIDATE.md),
+[independent original-equation checks](udt_finite_angular_clock_probe_2026-10-13/researcher_b/CANDIDATE.md),
+[Kerr calculation and primary sources](udt_finite_angular_clock_probe_2026-10-13/researcher_b/KERR_CANDIDATE.md),
+[recovery continuation](udt_finite_angular_clock_probe_2026-10-13/RECOVERY_CONTINUATION.md),
+[Kerr recovery application](udt_finite_angular_clock_probe_2026-10-13/KERR_RECOVERY_APPLICATION.md),
+and [reviewed scope](udt_finite_angular_clock_probe_2026-10-13/REVIEWED_RESULT.md).
+
+
+<a id="r8alp"></a>
+
+#### What can justify an angular clock law — ALP1
+
+FAC1 provides a nonautomatic conditional restriction, while its physical
+averaging law and regime remain unadopted. ALP1 tests two proposed justifications:
+symmetry/reciprocity might fix the mean or its sign, and distant mutual slowing
+might force local AMS. The owner sources retain ordinary clocks, received ticks,
+one geometry and circumstance-dependent universality. Their combined-net-redshift
+and solar-distance expectations remain tentative; no inspected statement fixes
+this angular measure. This source finding is not a completeness theorem about
+all consequences of the founding commitments.
+
+**Convention versus physical condition.** A continuous encoding of positive
+ratios with h(pq)=h(p)+h(q) and h'(1)=1 is log: h(exp x) is normalized continuous
+additive. A normalized preparation density independent of directional geometry
+and invariant under every laboratory rotation is uniform on S². These are
+explicit procedural requirements. A covariant sampling rule can use directional
+curvature and need not be uniform; a changed timelike observer prepares a
+different experiment. Neither procedural choice supplies AMS.
+
+For successive matched comparisons with direction map F, integrating
+log[p(n)q(F(n))] transports the first measure to F_*mu. Replacing that transported
+measure by a separately uniform second preparation needs an extra property.
+Pointwise log-additivity and mathematical inversion cannot supply the sign of
+two independent future first-signal means.
+
+For one fixed R7 Lorentz arrow, Lambda l(n)=f(n)l(m), p=1/f. Differentiating
+and using metricity gives |dn|²=f²|dm|², hence dOmega_m=p(n)²dOmega_n.
+Writing the reception-sphere p=cosh(rho)-sinh(rho)mu gives
+
+    <p^-2>_reception=1,
+    <log p>_reception=rho coth(rho)-1>=0,
+    <log p>_emission=1-rho coth(rho)<=0.
+
+At rho=0 both means vanish by continuity. The two uniform measures are different;
+transporting the emission measure carries the displayed Jacobian. Rotation
+invariance fixes a sky probability, but boosts do not preserve it. These signs
+describe a fixed-arrow comparison, whereas FAC1 changes endpoint clocks and
+paths with n. They neither prove nor refute its physical slowing law.
+
+**Quantitative tests on the actual preparation sphere.** In a Ricci-flat
+neighborhood, set d_±=log p_±. FAC1/PRT give uniformly for each fixed laboratory
+d_±=-E(n,n)L²/2+O(L³) and M_±=(4E²-3B²)L⁴/360+O(L⁵). Here E/B are Weyl
+curvature components, not extra fields. The rotational fourth moment gives
+<E(n,n)²>=2E²/15, hence <d_±²>=E²L⁴/30+O(L⁵).
+
+An explicitly UNADOPTED diagnostic weight
+w_alpha=exp(alpha L²E(n,n))/<exp(alpha L²E(n,n))> is positive, normalized and
+rotation-covariant with the geometry. At fixed finite alpha,
+
+    <w_alpha d_±>=[(4E²-3B²)/360-alpha E²/15]L⁴+O(L⁵).
+
+For purely electric nonzero vacuum, uniform weight has coefficient E²/90;
+alpha=1/3 gives -E²/90. This tests uniqueness among covariant conventions; it
+does not choose a physical weight, fit data or change FAC1's fixed experiment.
+
+Now test the UNADOPTED sky-clock normalization SCN2: N_±=<p_±^-2>=1, or
+the sufficient bound SCB2: N_±<=1. Jensen would imply M_±>=-(1/2)log N_±>=0.
+These are nonautomatic trial conditions; setting a density proportional to
+p^-2 cannot prove its integral is one. Taylor expansion on the fixed sphere gives
+
+    N_±=1-2M_±+2<d_±²>+O(L⁶)
+       =1+(8E²+3B²)L⁴/180+O(L⁵).
+
+Every nonzero-Weyl regional-vacuum event therefore violates both trials at all
+sufficiently small positive L for each fixed finite observer, even when AMS's
+coefficient is positive. Kasner, plane-wave and negative-Kerr controls give
+respectively16/1215,11/360,1/270 for this coefficient. The substitutions reuse
+FAC1 and do not independently establish its theorem. Pointwise Ric=0 does not
+suffice; E=B=0 at one point leaves higher orders open.
+
+Exact SCN2 at every event, every finite future unit U and all sufficiently
+short preparations in an open region is stronger still. The general leading
+N=1+Ric(U,U)L²/3+O(L³) forces Ric=0 by polarization; the regional-vacuum term
+then forces Weyl=0. The conclusion is local flatness, not just the AMS
+inequality. A locally flat sufficiently small convex laboratory conversely has
+p_±=1. SCB2 alone does not yield the first equality step.
+
+For the reverse first-signal experiment, record sourceward arrival directions
+at A in a frame parallel-transported along A. At sufficiently small L the map
+F_L from preparation S² to that recorded sphere is C¹-close to the identity
+and a diffeomorphism. Its independently defined positive Jacobian J_L obeys
+<J_L>=1. Define Delta_L=log p_-+(1/2)log J_L. Then
+
+    M_-=-(1/2)<log J_L>+<Delta_L>.
+
+Normalization fixes only the first term's nonnegative sign. The mismatch is
+an actual clock/angle diagnostic, not a field or an isolated physical positional
+component. Imposing J_L=p_-^-2 would reinstate SCN2 and its obstruction. The
+small-L map argument makes no distant, caustic, multiple-image or incomplete-sky
+claim.
+
+One positive conditional tool survives: ideal small-separation clock moments
+recover the two Weyl norms under FAC1's regional-vacuum hypotheses. With
+m4=lim M/L⁴ and n4=lim(N-1)/L⁴,
+
+    E²=15(n4+2m4),    B²=20n4-80m4.
+
+Equivalently v4=lim Var(log p)/L⁴=E²/30 and B²=40v4-120m4. The two first
+signals share these limits, not necessarily their finite values. This is not
+vacuum detection, full curvature/history reconstruction, a finite-precision
+instrument model or native geometry selection.
+
+**A distant sign does not set the local sign in the tested class.** Supply
+g=-dt²+a_k(t)² dx·dx with a_k=1+k(t/s)²+(t/s)⁴, k>-2,s>0. This is an exact
+kinematic control, without a field equation, physical source or native admission.
+Positivity follows from x⁴+kx²+1=(x²-1)²+(k+2)x². At t=0, a=1,a'=0, so
+straight spatial preparation is geodesic and transports U=partial_t unchanged.
+The constant-position clocks are free with proper time t. Their fixed-worldline
+null incidence is eta_k(t_R)-eta_k(t_E)=L, eta_k'=1/a_k. Differentiation at
+t_E=0 gives p_+=p_-=a_k(t_R), eta_k(t_R)=L; spatial reflection supplies the
+independent reverse equality. Conformal-flat coordinates ensure unique regular
+direct finite receptions. No inverse-map reciprocity is substituted.
+
+Inversion x->1/x and v=x-1/x give the first-reception limiting separation
+L*_k=s pi/(2sqrt(k+2)). Choose any supplied D>0 and s=2D sqrt(k+2)/pi, so
+every member has the same L*_k=D. There is no finite reception at D; this is
+neither a spacetime wall nor physical X_max. At y=L/s,
+
+    M_±=k y²+(1+k²/6)y⁴+O(y⁶),
+    lim_(L->0) M_±/L²=pi²k/[4D²(k+2)].
+
+For -2<k<0 the nearby mean is negative, for k>0 positive, and at k=0 the
+quartic onset is positive. Nevertheless every member has distant mutual
+divergence p_±~[s/(3(D-L))]^(4/3). The exponent and boundary size are common;
+amplitudes need not agree. Each fixed member has bounded future orthonormal
+curvature, without uniformity in parameters or boosts. The exact k=-1,s=1
+crossing is L0=pi/4+log(2+sqrt3)/(2sqrt3), below L*=pi/2.
+
+Thus this supplied class defeats the particular inference from distant mutual
+net redshift, even with that boundary size and exponent, to local AMS. It does
+not meet a regional-vacuum premise or establish physical GR recovery, an
+all-observer sign, or a native UDT alternative. PRT1's cubic-onset precedent
+already separates zero quadratic onset from distant divergence; ALP1 adds
+strict opposite local signs and the common-D family.
+
+The surviving decision is specific: keep FAC1 and the new moment diagnostic,
+but do not justify a physical sign by changing measures, normalizing a sky map,
+or replacing a distant requirement with a local one. A further informative
+connection must state why actual comparisons obey a relation in a specified
+domain. This does not require a GR reference for every possible route or
+establish that another postulate is necessary. No native event/path-to-depth,
+response, source, scale or cosmic curve is selected. Existing owner commitments,
+conditional restrictions and open joins retain their status.
+
+Sources: [frozen joint candidate](udt_angular_law_physical_connection_2026-10-13/INITIAL_CANDIDATE.md),
+[symmetry/finite-distance argument](udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md),
+[sky normalization/moment argument](udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md),
+and [reviewed scope](udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md).
+
+
+<a id="r8fna"></a>
+
+#### The finite example in the native pair language — FNA1
+
+The next question is whether FPC1's supplied experiment admits the actual native
+readout, beyond a clock-ratio resemblance. Write its signed sectional curvature
+as kappa=±k², k>0. On the regular static patch f=1-kappa r²>0, the full metric
+is exactly R2's F4 form with phi_stat=-log(f)/2 and the areal sphere retained.
+Use Cartesian charts at the center and regular sphere charts at angular poles.
+This represents supplied geometry; it does not derive constant curvature from
+observer equivalence. In the positive case the first reception has areal radius
+r_B=tan(kL)/k, while preparation has r_B0=sin(kL)/k. Thus reception leaves the
+emitter's static patch at kL=pi/4, although its first signal remains regular
+until kL=pi/2. Real sqrt(f) and phi_stat cannot be continued through f=0 as
+that chart; the given smooth quadric continues in other coframes. This supplies
+no native global-completion law and identifies neither boundary with X_max.
+
+The full pair can be constructed from the actual nearby null rays. On the signed
+quadric let A(s), B(b) be the fixed proper-clock geodesics above, with actual
+reception map b(s). Put D(s)=B(b(s))-A(s) and F(s,lambda)=A(s)+lambda D(s),
+0<=lambda<=1. Nullness and A·D=0 keep each affine chord on the quadric. At
+s=0 let X0=A(0), U=A'(0), n the prepared spatial unit, p=b'(0), and
+m=-<U,D>>0. Direct differentiation gives
+
+    D=m(U+n), p²=1+kappa m²,
+    p U_B=p²U+kappa m X0+kappa m²n,
+    J=F_s=(1-lambda)U+lambda p U_B,
+    h=F*g=[[-A,-m],[-m,0]], A=1+kappa m²lambda(2-lambda).
+
+Here m=tan(kL)/k for positive curvature, tanh(kL)/k for negative curvature,
+and L in flat space. Since A lies between1 and p²>0, h00<0 and det h=-m²<0
+on the whole finite ray. The null affine tangent h11=0 is allowed: the
+clock-orthogonal ruler has squared length m²/A>0. Smoothness gives a regular
+nearby-emission strip for each finite experiment, without a uniform strip at
+the limiting boundary. The ambient sphere/screens remain in g before restriction.
+
+R4's completed-pair premise now fixes
+
+    T=sqrt(A), beta=m/A, L_lambda=m/sqrt(A),
+    h_completed=[[-A,-1],[-1,0]], beta_completed=1/A,
+    Phi=-log(A)/2, chi=(1-A)/(1+A).
+
+At reception T=p, Phi_clock=-log p, chi_clock=(1-p²)/(1+p²) and q_pair=p².
+This supplies the previously unconstructed full pair for this actual finite
+experiment; it does not choose a universal physical projection. Dropping the
+shift while keeping h11=0 would make the pair degenerate. q_pair remains a
+calibration ratio, not another local signal speed. No fitted redshift profile
+has been inserted after computing the metric.
+
+The affine lambda is dimensionless and m has length units. Integrating m dlambda
+at fixed emission gives m, not initial spacelike L or null proper length (zero).
+For varying emission m'(0)=p²-1, so m(s)dlambda is generally not an exact
+spacetime differential with the same clock coordinate. A genuine rho=m(s)lambda
+has d rho=m dlambda+lambda m' ds. R4/G180 completion here is a calibrated density/
+coframe and one-family integral; silently dropping the extra term changes clocks.
+
+Full transport independently reproduces the clock depth. Along X=X0+lambda D,
+parallel transport of an initially tangent vector solves V'=-kappa<D,V>X, so
+P V=V-kappa<D,V>(X0+D/2). With source frame(U,n,e2,e3) and target frame
+(U_B,(n-kappa m X0)/p,e2,e3), direct projection gives
+
+    Lambda=[[Gamma,S,0,0],[S,Gamma,0,0],[0,0,1,0],[0,0,0,1]],
+    Gamma=(p+1/p)/2, S=(1/p-p)/2.
+
+This preserves eta4, including both screens. The outgoing null column has
+multiplier Gamma+S=1/p, hence Z=p. Its W5 projective clock column is
+bold chi=((1-p²)/(1+p²),0,0). Only in these aligned frames does its signed
+radial component equal chi_clock. The isometry is not the diagonal F2 coframe
+action; R7's direction, middle-frame and path labels remain essential. Inverse
+transport, the independent reverse first signal and the future echo retain their
+different event pairs. No scalar endpoint exactness or erased holonomy follows.
+
+Presentation potential remains a different readout: for positive curvature,
+phi_stat(B0)=log p and phi_stat(B_first)=-log(1-tan²(kL))/2 inside its patch,
+whereas Phi_clock=-log p. At kL=pi/4 the second presentation diverges while
+p=sqrt(2) stays finite. This is a clock-query distinction, not inconsistent
+signs or an excuse to replace the owner's received-tick observable.
+
+The audit also checks what the radial restriction does not sample. At a regular
+static point, supplied nonradial germs J0=(1,0,v/r,0),
+J1=(0,1,w/r,u/(r sin theta)), v²<f, have h00=-f+v², h01=vw,
+h11=1/f+w²+u². Both angular directions enter the full determinant. Six known
+pairs(e0,ei) and(e0,ei+ej), i<j, recover all ten g components, since
+2gij=h11(i+j)-gii-gjj; their regularity holds near this static metric. R5's
+(m,h_completed) keeps that rank-ten information. These are supplied diagnostic
+queries, not a selected physical population or generated metric values.
+
+For this full primary metric, G201/G260's null-screen angular amplitudes are
+A_parallel=(r²f''-rf')/2=0 and A_perp=1-f+rf'/2=0. Their vanishing does not
+remove the sphere or the nonzero timelike tide -kappa I. The exact imported
+Ric=0 comparator instead requires E0=rf'+f-1 and E1=rf'+r²f''/2 to vanish;
+both equal -3kappa r² here. At r=0 that reduced expression's coordinate zero
+does not imply vacuum: Ric=3kappa g remains nonzero. No full quiet-vacuum
+recovery or angular loud--quiet--loud history has thereby been established.
+A finite empirical GR recovery test is not established by the supplied family's
+local flat limit. Current G312 authority makes GR FILTER ONLY; the stronger
+historical W3/full quiet principal-response overlap is not reinstated as a
+response-law input.
+
+All three curvature signs pass the scoped representation test and give different
+clock shifts. The flat p=1 experiment does not exhibit the founding nonidentity
+input or establish complete physical admission. The positive example therefore remains a conditional geometrical
+lead, with native physical admission, sign/scale, additional GR contrast and
+X_max realization OPEN. G298/G300's physical projection/assignment boundary
+survives; the actual ribbon fills one specified query, not every transverse or
+global assignment. Identical geometry and physically matched clocks/protocol in
+a GR comparison give identical Z. Compatibility alone cannot be an additional
+UDT prediction, and this audit is not a completeness test of UDT's postulates.
+
+Sources: [fixed construction](udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md),
+[independent source-first construction](udt_finite_native_pair_audit_2026-10-01/math/SOURCE_FIRST.md),
+[angular/comparator distinction](udt_finite_native_pair_audit_2026-10-01/fidelity/SOURCE_FIRST_ANGULAR_SUPPLEMENT.md),
+and [reviewed scope](udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md),
+with G176/G179/G180/G213/G220/G274 and the exact G201/G260/G298/G300 sources
+bound in the dependency graph. No Einstein response, source or action is adopted.
+
+
+<a id="r8fst"></a>
+
+#### A discriminating matched comparison — FST1
+
+The additional-positional requirement is real, but the owner has not identified
+every net shift with that contribution or specified a unique physical GR reference.
+For this supplied prepared-clock family, write C_kappa(L)=cos(sqrt(kappa)L),1,
+cosh(sqrt(-kappa)L) for positive, zero and negative curvature, respectively.
+Its original comparison equation is C''+kappa C=0 with C(0)=1,C'(0)=0;
+p_kappa=1/C_kappa. Keep L as initial proper spacelike separation and the first
+direct future branch. Positive curvature requires sqrt(kappa)L<pi/2.
+
+Supply two physically matched preparations in g_kappa and a GR comparison
+in g_kappa0: same proper L, initial parallel frames, released free clocks,
+calibration and direct-first-signal protocol. SGE1's diagnostic becomes
+
+    D(L)=log(p_kappa/p_kappa0)=log C_kappa0-log C_kappa.
+
+It is not automatically an isolated positional component or a selected reference.
+Let W=C_kappa' C_kappa0-C_kappa C_kappa0'. The original ODEs give
+W'=(kappa0-kappa)C_kappa C_kappa0, W(0)=0, and
+D'=-W/(C_kappa C_kappa0). Both C are positive on the common branch. Therefore
+
+    sign D(L)=sign(kappa-kappa0), L>0,
+
+and |D| increases with L when kappa!=kappa0. The fixed-L sensitivity is
+L tan(sqrt(kappa)L)/(2sqrt(kappa)) for kappa>0,
+L tanh(sqrt(-kappa)L)/(2sqrt(-kappa)) for kappa<0, and L²/2 at zero;
+each is strictly positive on its branch. Identical physical geometry and
+experiment give D=0, even with a nonlinear net redshift curve.
+
+The distinction is concrete: in supplied common length units kappa=-1,
+kappa0=-4,L=log2 give p=4/5,p0=8/17, hence p/p0=17/10>1 while both net
+signals blueshift. These are comparison controls, not native-admitted countermodels.
+Assigning net p>1 to this experiment would instead require kappa>0. A finite-L
+net-first-signal divergence also requires kappa>0 within this family, at
+L_first=pi/(2sqrt(kappa)). Neither assignment follows from inverse reciprocity
+or identifies that initial proper length with physical X_max.
+
+A current empirical GR filter needs its experiment, reference, domain and errors.
+It can yield a precise clock test once supplied. For the declared diagnostic
+kappa0=0,kappa>=0, choose0<ell<L_d, near log-tolerance epsilon>0 and far
+contrast Delta>0. Require D(L)<=epsilon for every0<L<=ell and D(L_d)>=Delta,
+with first reception still finite. Exact monotonicity gives
+
+    [arccos(exp(-Delta))/L_d]^2 <= kappa
+       <= [arccos(exp(-epsilon))/ell]^2,
+    kappa < pi²/(4 L_d²).
+
+Because the lower endpoint is below the open causal cap, this stipulated
+interval is nonempty iff L_d/ell >= arccos(exp(-Delta))/arccos(exp(-epsilon)).
+This iff belongs only to this declared diagnostic, not to physical UDT admission
+or completeness of GR recovery. No observed epsilon, distance, target or curvature
+has been fitted. Tides, trajectories, lensing and source behavior remain separate
+tests. Neither the current GR filter nor the local flat limit imposes the stronger
+historical full quiet principal-response overlap; G312 controls that distinction.
+
+Sources: [FST1 exact argument](udt_finite_selection_test_2026-10-01/INITIAL_DERIVATION.md),
+[independent reconstruction](udt_finite_selection_test_2026-10-01/math/SOURCE_FIRST.md),
+[current-authority review](udt_finite_selection_test_2026-10-01/fidelity/SOURCE_FIRST.md),
+and [reviewed limits](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md),
+with the existing FPC1/FNA1 clock experiment and SGE1 owner/source boundaries.
+
+
+<a id="r8ecs"></a>
+
+#### An internal finite echo test and its inference limit — ECS1
+
+Keep PSW1/FPC1's initial proper separation, parallel velocity preparation, fixed
+free worldlines, and regular direct null legs. Let p=d tau_B/d tau_A for the
+first signal and q=d tau_A,return/d tau_B at its immediate later relay. The total
+echo stretch is pq, while a separately emitted reverse first signal is a different
+experiment. The supplied signed space forms imply
+
+    q=p/(2-p²),    pq=p²/(2-p²),    0<p<sqrt(2).
+
+The positive-curvature finite echo has1<p<sqrt(2); negative curvature has0<p<1;
+flat hasp=q=1. Positive first signals withp>=sqrt(2) can still arrive on the
+earlier described extended branch, but the specified echo has no finite future
+reception. An algebraic continuation with negative q is not an allowed return.
+This is a corollary of the existing FPC1 formulas, not a new physical law.
+
+Two differently arranged reconstructions verify the full preparation and clocks.
+In the parent's static radial sheet h=-fdt²+dr²/f, f=1-kappa r², the released
+clock has conserved energy c=sqrt(f(r0)), t_dot=c/f and r_dot=v with
+v²=c²-f. Retarded/advanced times t minus/plus integral dr/f give
+p=c+v_b and q=1/(c-v_b). First incidence in this supplied metric yields
+p=1/c: its positive branch selects tanh(k tau_b)=sin(kL), excluding the static
+horizon root; its negative branch selects tan(k tau_b)=sinh(kL). Hence the
+displayed relation follows. This static proof covers the finite-echo sector.
+
+The independent reconstruction uses the totally geodesic clock sheet
+h=-d tau²+a(tau)²dx². Parallel preparation gives a(0)=1,a'(0)=0; the Jacobi
+equation in supplied sectional curvature gives a''=kappa a. Thus a is cosh(k tau),
+1, or cos(k tau) for positive, zero, or negative curvature. With d eta=d tau/a,
+the conformal scale A(eta) is sec(k eta),1,or sech(k eta). Proper clocks sit at
+x=0,L, and affine null covectors proportional to -d eta plus/minus dx have
+measured frequency proportional to1/A. First/return incidences are eta=L,2L,
+so p=A(L)/A(0),q=A(2L)/A(L). The positive conformal endpoint eta=pi/(2k)
+gives the distinct first/echo limits. These constructions recover actual clock
+maps; neither inserts a second propagation mechanism or infers a physical scale.
+
+The relation is not automatic for every smooth metric with that preparation.
+Using the existing FPC1 Kasner control and P=log p, its predicted return is
+P-log(2-exp(2P))=3P+4P²+O(P³). The actual logarithmic residual is
+-16L³/27+O(L⁴) on the exponent-1/3 axis, and8L³/27+O(L⁴) on either exponent2/3
+axis. Each fails the finite identity at sufficiently small positive L, despite
+the common leading1:3 ratio. Their cubic triad mean cancels; no finite-L error
+threshold or higher-order spherical mean is asserted. Saved arrival/momentum
+coefficients were independently converted to endpoint frequencies before this
+comparison. The original source owns the analytic remainder and preparation.
+
+<a id="r8ecsm"></a>
+
+Conversely, this clock record does not uniquely determine4D geometry. For any
+smooth positive-definite H_AB(x,y), supply the block metric
+
+    g_H=h_kappa,mu nu(x) dx^mu dx^nu+H_AB(x,y) dy^A dy^B,
+
+with h independent of transverse y and no mixed terms. Its base Christoffels
+are those of h and Gamma^A_mu nu=0. Each fixed-y sheet is totally geodesic, so
+the preparation, parallel velocity, clocks, affine rays, proper-time maps and
+frequencies stay identical for the continuum of regular tested separations and
+emissions in that sheet. Positive transverse H makes every ambient causal
+tangent project to a base-causal tangent; the construction supplies no faster
+transverse shortcut outside the base causal future. Selected direct branches
+and regularity remain essential; global ray uniqueness is not claimed.
+
+For kappa!=0, the explicit product H=I has base sectional curvature kappa,
+zero mixed sectional curvature, Ric=kappa h on the base and zero transversely,
+and scalar2kappa rather than the4D space form's12kappa. It is a different4D
+geometry with the same complete restricted timing record, and is not Einstein.
+The independent product with a curved transverse surface also handles a flat
+base. These are supplied kinematic witnesses, not native UDT or selected
+field-sector solutions. Agreement for this aligned sheet does not mean agreement
+for every observer, direction, preparation or transverse optical observation.
+
+An independently measured first signal and echo can therefore test consistency
+with this supplied model without a chosen GR subtraction or curvature calibration.
+Generating the echo from the formula does not test it. A failure under a justified
+matching protocol rejects that model/assignment, not UDT's complete postulates;
+a pass proves neither unique geometry nor physical admission, sign, scale or
+X_max. FCW1 below now distinguishes this explicit product under a common
+transverse boost. General all-observer inverse and native-sector questions remain open;
+ESR1 below answers the specific conditional all-frame FC rigidity question in
+locally symmetric geometry. The restricted-sheet nonuniqueness survives.
+
+Sources: [static reconstruction and general transverse witness](udt_echo_consistency_2026-10-01/INITIAL_DERIVATION.md),
+[independent synchronous reconstruction](udt_echo_consistency_2026-10-01/math/SOURCE_FIRST.md),
+[protocol and saved-observable review](udt_echo_consistency_2026-10-01/fidelity/SOURCE_FIRST.md),
+and [reviewed scope](udt_echo_consistency_2026-10-01/REVIEWED_RESULT.md).
+
+
+<a id="r8fcw"></a>
+
+#### A transverse prepared-clock test of the aligned mimic — FCW1
+
+ECS1's supplied dS2 × flat2 product reproduces its aligned clock sheet exactly.
+A common transverse boost of both clocks distinguishes that particular mimic.
+This answers one finite-comparison question left open above. It does not select
+UDT's geometry or prove a general all-observer inverse theorem. Full local
+curvature already distinguishes this product; the extra information was missed
+by restricted scalar/aligned comparisons, not by every local-curvature method.
+
+Supply g=-dt²+cosh²(kt)dx²+dy²+dz², k>0. At t=0 take U=γe0+u e2,n=e1,
+γ²-u²=1; u is proper transverse velocity, v=u/γ coordinate speed. The clocks
+A(s)=(γs,0,us,0), B(b)=(γb,L,ub,0) are unit geodesics. Since a'(0)=0,
+the initial x-segment is a unit spacelike geodesic and transports U unchanged:
+this is PSW preparation. Product null geodesics balance the dS2 proper duration
+against the flat displacement. The embedding inner product gives actual local
+incidence
+
+    F(s,b,L)=cos(kL)cosh(kγs)cosh(kγb)
+             -sinh(kγs)sinh(kγb)-cosh(ku(b-s))=0.
+
+Reflection exchanges the clocks. On the regular future branch b=f(s),
+p=f'(0) and q=f'(f(0)), with nearby emissions on the same fixed worldlines.
+The latter is the actual later return-leg ratio, not an inverse. Put w=u²,
+ℓ=kL. Original-incidence series and independent endpoint differentiation give
+
+    log p=(w+1)ℓ²/2 +(w+1)(w+2)ℓ⁴/24
+          -(w+1)(6w²-7w-16)ℓ⁶/720 +O(ℓ⁸),
+    log q=3(w+1)ℓ²/2 +(w+1)(9w+10)ℓ⁴/8
+          +(w+1)(194w²+527w+336)ℓ⁶/240 +O(ℓ⁸),
+    D=log q-log[p/(2-p²)]=-w(w+1)²ℓ⁶/3+O(ℓ⁸).
+
+The initial quartic conjecture failed and remains preserved. Analytic control
+comes from s=Lx,b=Ly: divide F by k²L² and extend to L=0, obtaining
+((y-x)²-1)/2 with derivative_y=1 at y=x+1. The analytic implicit function
+theorem justifies the even expansion and derivatives at each fixed finite boost.
+No uniform high-boost range or explicit finite-L error bound is claimed. At
+γ=5/4,u=3/4 the dimensionless sixth-order coefficient is -1875/4096.
+
+Trial FC, UNADOPTED, asks for one smooth single-valued q=Q(p) across all declared
+events, frames, directions and small separations in a specified physical sector.
+Unboosted p=sec(kL) fixes Q=p/(2-p²) on a right-neighborhood of1; boosted p
+lies in that interval but q differs. Thus no alternate Q rescues FC on this
+product while preserving its unboosted records. ULC1's same governing law does
+not imply this scalar sufficiency: environmental information may enter a
+universal law. Applying FC only to an additional positional contribution needs
+an attribution not supplied here. No native-kernel or UDT refutation follows.
+
+The product has ∇Riemann=0. With m=u e0+γe2, its curvature nevertheless gives
+
+    R(n,U)U=-k²γ² n,
+    R(n,U)n=-k²γ² U+k²γu m.
+
+The second expression leaves the initial plane and obstructs a totally geodesic
+extension; the first tidal vector alone does not establish that obstruction.
+Define T(n,n)=-k²γ², W=perp R(n,U)n. In this one family the coefficient of
+L^6 is T(n,n)|W|²/3; the coefficient of ℓ^6 is dimensionless. A general invariant
+formula is now derived through L^6 for the declared locally symmetric class in
+IEC1 below, with a generally nonzero quartic term and the displayed sixth-order
+coefficient whenever V=0. ESR1 below classifies locally symmetric all-frame
+FC cases; physical FC admission remains OPEN. The plane obstruction alone
+still does not predict the order of echo failure.
+
+Parent original-incidence roots at60/100 digits and independent rational/general
+series checks support the result; finite sampling is not a remainder certificate.
+Space-form positive controls, PSW's leading1:3, Kasner's older cubic failure and
+ECS1's restricted-sheet ambiguity survive. ICN1 already owns the third whiteboard
+proposal's exterior conformal timing ambiguity; its attribution repair keeps that
+prior and does not create a new native selector. Sources: [fixed candidate proof](udt_finite_comparison_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md),
+[reviewed result and dimensional clarification](udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md),
+and [positive/negative descendant review](udt_finite_comparison_whiteboard_2026-10-03/DESCENDANT_REVIEW.md).
+
+<a id="r8iec"></a>
+
+#### Curvature measured by a finite prepared echo — IEC1
+
+The first FCW1 lead now has an invariant answer through sixth order for supplied
+locally symmetric Lorentz4 metrics, ∇Riemann=0. This restriction is an explored
+comparison class, not a derived UDT law. It permits non-space-form geometries.
+Use signature(-+++), R(X,Y)=[∇X,∇Y]−∇[X,Y], ordinary unit free clocks and
+PSW preparation: A(s)=exp_o(sU), B(0)=exp_o(Ln), with U parallel transported
+along the initial unit spacelike n⊥U segment before B's free evolution.
+
+On a small regular common normal tube, let F(s,b,L) be the squared geodesic
+interval A(s) to B(b). First reception solves F(0,b,L)=0 near b=L and
+p=−F_s/F_b. The actual immediate later echo solves F(a,b,L)=0 near a=2L
+and q=−F_b/F_s there. FCW1's shortcut q=f'(f(0)) requires its clock-exchange
+reflection; no such symmetry is assumed here. With positive p,q and p<sqrt2,
+define D=log q−log[p/(2−p²)]. D compares the actual echo with ECS1's specific
+space-form rule. D≠0 alone does not exclude every scalar q=Q(p); FCW1's no-Q
+argument also needed an unboosted continuum to fix Q.
+
+At the initial event put C=R(n,U), A=CU, B=Cn, T=g(A,n), V=A−Tn, W=B−TU.
+Here A,B in tensor formulas denote vectors, not worldlines. V,W lie in the
+positive-definite complement of span(U,n), so
+
+    aa=g(A,A)=T²+|V|², ab=g(A,B)=<V,W>, bb=g(B,B)=−T²+|W|².
+
+For pairs0=(A,U),1=(A,n),2=(B,U),3=(B,n), set
+Kij=g(R(V_i,Z_i)V_j,Z_j). Parallel-curvature integrability gives
+R(A,n)=R(B,U), so indices1 and2 agree. The result is
+
+    D(L)=d4 L⁴+d6 L⁶+O(L⁸),
+    d4=2aa+ab−2T²=2|V|²+<V,W>,
+    d6=[120K00+108K01−120K03+90K11−27K13
+         +60T³+120T aa−236T ab−60T bb]/180.
+
+If V=0 (a tidal eigen-direction), aa=T²,ab=0,bb=−T²+|W|²,
+K00=−T³,K01=K11=K13=0,K03=T³−T|W|². Consequently
+
+    D(L)=(T|W|²/3)L⁶+O(L⁸).
+
+This proves FCW1's coefficient for that broader conditional subclass. A general
+direction can have a quartic term of either sign. The old family was a special
+case, not a universal sixth-order law. A single d4=0 need not imply V=0.
+At fixed o,U, physically reversing n while retaining positive L and future
+clocks gives V→−V,W→W,T→T, hence
+
+    d4(n)+d4(−n)=4|V|², d4(n)−d4(−n)=2<V,W>.
+
+Both quartic coefficients vanish exactly when V=0 for that direction pair.
+No complete curvature reconstruction or all-frame classification follows here.
+Even a vanishing sixth coefficient when V=0 can leave W if T=0.
+
+The proof begins with radial Jacobi fields. Because ∇R=0,
+dexp_X=P_X S_X, S_X=Σ(-J_X)^r/(2r+1)!, J_X(Y)=R(Y,X)X. The normal-chart
+metric g_o(S_XY,S_XZ) is analytic and even, including null X and non-diagonalizable
+J_X. Radial reflection is a local isometry; midpoint/origin reflection composition
+transports U in parallel. Its local isometry algebra has transvection subspace
+p=T_oM, isotropy h and [X,Y]=−R(X,Y), [H,X]=HX. A Killing-jet computation
+fixes these signs. Local inverse-function factorization G=exp(Z)k and the point
+symmetry σ imply exp(2Z)=Gσ(G)^−1. Translating A(s) to o therefore gives
+
+    Z=1/2 log[exp(−sU)exp(Ln)exp(2bU)exp(Ln)exp(−sU)], F=g_o(Z,Z).
+
+No global positive-definite decomposition, Killing-form metric or discarded
+flat direction is used. With s=Lx,b=Ly, the palindrome makes Z odd in L.
+Exact associative expansion through degree7, curvature pairings and the
+integrability relation above give F through degree8. Its leading terms are
+F/L²=1−(y−x)²−T(x²+xy+y²)L²/3+O(L⁴). Solving the two actual incidences and
+differentiating their endpoints yields d4,d6; the higher polynomials and word
+coefficients are saved with the proof. They were not fitted to control metrics.
+
+Analyticity and nonzero limit-root derivatives at(0,1) and(2,1) give the Taylor
+remainder and emission derivatives for each fixed geometry/frame. This is no
+uniform boost bound, finite-distance error constant, caustic theorem or extension
+to ∇R≠0. The coefficients have dimensions length^-4,length^-6. Formal signed-L
+evenness continues the root into the past; it does not identify the two physical
+future experiments n and−n. The Kasner cubic failure lies outside this symmetry
+class and survives unchanged.
+
+Independent source-first tilted ultrastatic sphere controls find
+d4=3483/10000,d6=−1371951/16000000 at their specified unit-curvature frame;
+a negative tilt gives d4=−567/10000. Parent free-word replay and original
+signed product/plane-wave controls challenge the general algebra; two fresh
+reviews inspect its geometry, contractions and actual return. Their numerical
+cases corroborate the analytic result, without proving it by sampling. Shared
+model/libraries and partly coincident control sheets limit independence. Actual
+captured receipts and final attestations own completion status.
+
+IEC1 interprets the net prepared-clock diagnostic. It does not identify DDR's
+response, require scalar sufficiency FC, select native geometry/scale or assign
+the additional positional component. ∇R=0 and the controls remain supplied;
+universal governing law does not require identical observations. The native pair
+assignment and physical FC admission remain open. ESR1 below answers this
+class's specific all-frame FC rigidity question. FCW1's completion/RG lead
+is unchanged and was not pursued. Sources: [reviewed formula](udt_invariant_echo_curvature_2026-10-03/REVIEWED_RESULT.md),
+[local proof](udt_invariant_echo_curvature_2026-10-03/DERIVATION_COMPLETION.md),
+[saved exact coefficients](udt_invariant_echo_curvature_2026-10-03/UNIVERSAL_FORMAL_RESULT.json),
+[direction corollary](udt_invariant_echo_curvature_2026-10-03/DIRECTION_COROLLARY.md)
+and [descendant review](udt_invariant_echo_curvature_2026-10-03/DESCENDANT_REVIEW.md).
+
+
+<a id="r8esr"></a>
+
+#### What an all-preparation scalar echo rule selects — ESR1
+
+Within a connected supplied smooth time-oriented Lorentz4 region with ∇Riemann=0,
+the existence of one smooth scalar q=Q(p) for every PSW preparation is equivalent
+to constant sectional curvature. Here “every” includes every event, future unit
+U, unit n⊥U, both physical directions and all sufficiently small positive L on
+the actual regular first/immediate future-return branches. The allowed interval
+may depend on the fixed preparation. C² Q is sufficient for necessity; no uniform
+radius over unlimited boosts is assumed. FC remains an UNADOPTED physical trial.
+The theorem examines that trial's mathematical selectivity, not its native authority.
+
+Start with IEC1's P=log p=−TL²/2+O(L⁴) and
+log q−H0(P)=d4L⁴+O(L⁶), where H0(P)=3P+4P²+O(P³) and
+d4=2|V|²+<V,W>. A nonflat tensor must have a nonzero timelike electric operator
+E_U:n↦R(n,U)U somewhere. If every such operator vanished, its polynomial identity
+would extend from the open timelike cone to all vectors; polarization and the
+first Bianchi identity would give R=0. The self-adjoint E_U acts on Euclidean
+U⊥, so a nonzero one has a nonzero tidal eigenvalue T and eigenvector n.
+In that direction V=0 and therefore d4=0.
+
+Continuity first gives Q(1)=1. Put H(P)=log Q(exp P). Matching its L² and L⁴
+coefficients in this nonzero eigen-direction forces
+
+    H'(0)=3, H''(0)=8, equivalently Q'(1)=3, Q''(1)=14.
+
+These two derivatives are derived from the hypothetical Q, not prescribed from
+a selected constant-curvature model. For every other preparation H−H0=o(P²)
+and P=O(L²), so the same Q implies d4=0, including T=0 directions. No division
+by those T values or uniform family remainder is used. Opposite future directions
+then give0=d4(n)+d4(−n)=4|V|², hence V=0 for every n. Linearity forces
+E_U=λ(U)Id on U⊥; one directional cancellation alone would not do this.
+
+Any two future unit timelike U,U' span a Lorentzian plane. Its determinant-one
+boost preserves R(n,U,U,n), so the scalar property in both frames gives
+λ(U')=λ(U) at that event. Set κ=−λ and subtract
+Rκ(X,Y)Z=κ[g(Y,Z)X−g(X,Z)Y]. The difference S has zero timelike Jacobi
+operators. Polynomial continuation gives S(X,Y,Y,Z)=0 for every vector Y.
+Polarizing Y yields S(X,Y,W,Z)=−S(X,W,Y,Z); skew symmetry and Bianchi then
+make the three cyclic terms equal, giving3S=0. Thus R=Rκ as a full tensor.
+Finally ∇R=0 and ∇g=0 imply dκ=0, and connectedness makes κ constant.
+This proves the tensor conclusion without a symmetric-space classification
+import or an indefinite spectral theorem. The sixth-order IEC term is unnecessary.
+
+Conversely, the normal Jacobi metric in IEC1 makes reflection in span(U,n) a
+local isometry for Rκ. Its fixed surface is totally geodesic; PSW preparation,
+the free clocks and unique short null rays stay there. For nonzero κ define
+Cκ'=−κSκ,Sκ'=Cκ,Cκ(0)=1,Sκ(0)=0 and c=Cκ(L). The original signed quadric
+incidence on that surface is
+
+    F(s,b)=c C_{−κ}(s)C_{−κ}(b)−κ S_{−κ}(s)S_{−κ}(b)−1=0.
+
+First reception obeys c C_{−κ}(b)=1,b~L and p=−F_s/F_b=1/c. Let
+h=S_{−κ}(b),z=κh²=1/c²−1. The nonzero later return F(a,b)=0,a~2L has
+C_{−κ}(a)=(1+z)/(1−z),S_{−κ}(a)=2h/(1−z). Differentiating there gives
+
+    q=−F_b/F_s=1/[c(1−z)]=c/(2c²−1)=p/(2−p²).
+
+The return uses its actual future endpoint, not an inverse/past root. At κ=0
+the original flat incidence separately gives p=q=1; the curved expression cannot
+be divided by κ there. These identities are local to the regular comparison
+domain and do not establish a global causal extension or topology.
+
+For κ>0, c=cos(sqrtκ L) and p>1 near1; for κ<0, c=cosh(sqrt(−κ)L) and p<1.
+Therefore any admissible Q equals the rational rule on the attained one-sided
+interval for nonzero κ. Smooth flat-at1 changes on an unused side remain free.
+For flat curvature only Q(1)=1 is required; its derivatives are unrestricted.
+The exact Q identity follows after geometry classification and original incidence,
+not from a finite Taylor jet. κ's sign and magnitude remain arbitrary.
+
+Two fresh source-first reviews independently recovered this necessity proof;
+one used the same boost-plane step and the other a Ricci null-cone argument.
+Their independent full algebraic-tensor linear systems isolate the space-form
+kernel and test all-leading-zero degeneracy. Shared model/SymPy and related
+bivector methods limit independence. Parent exact Q algebra and16 original signed
+incidence root cases corroborate the source/branch handling. A preserved structural
+symbolic-equality failure was repaired by exact polynomial canonicalization, with
+all equations/thresholds unchanged. The analytic proof owns the universal claim.
+
+ECS1's restricted-sheet mimics remain valid under their weaker quantifier. ESR1
+now answers the narrower all-frame FC question within the ∇R=0 class; generic
+variable-curvature rigidity and full inverse reconstruction remain open. This
+condition acts on total curvature and differs from PCC1's additional curvature
+difference. It supplies no positional attribution, DDR response, native geometry,
+sign/scale or X_max. ULC1 universality remains weaker than scalar sufficiency.
+Retain FC as a conditional diagnostic pending physical justification. Sources:
+[full proof](udt_echo_scalar_rigidity_2026-10-03/INITIAL_CANDIDATE.md),
+[reviewed scope](udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md),
+[independent tensor argument](udt_echo_scalar_rigidity_2026-10-03/review_fidelity/SOURCE_FIRST.md)
+and [descendant review](udt_echo_scalar_rigidity_2026-10-03/DESCENDANT_REVIEW.md).
+
+<a id="r8cpw"></a>
+
+#### Physical scope of the scalar echo proposal — CPW1
+
+The source-first whiteboard separates the founding positional interpretation
+from FC's extra information restriction. Let P denote the whole prepared
+comparison, including supplied geometry, actual clocks, directions and branches.
+FC implies p(P1)=p(P2) ⇒ q(P1)=q(P2) across its declared preparations.
+Constancy on equal-p sets supplies a set-theoretic Q on the attained image;
+smooth extension near1 is an additional requirement. FC permits varying p;
+its extra demand is that nothing else changes q once p is fixed. The inspected
+owner/source chain does not establish that demand. This is a scoped provenance
+finding, not proof that the complete UDT postulates are insufficient.
+
+All three contributors recommend parking FC as a physical-selection extension
+while keeping its diagnostic and ESR1 theorem. The scalar kernel, ordinary
+proper clocks and one positional geometry stay intact. ESR1 still classifies
+its supplied parallel-curvature class; generic gravity is not thereby excluded.
+Changing physical preparations is distinct from changing coordinates for the
+same experiment. Neither covariance nor no preferred observer equates their
+measurements. An additional positional component cannot be isolated by an
+unjustified subtraction merely to reapply FC to it.
+
+The information-preserving alternative is already present in R6--R8. If
+n1=A(Lambda_plus,n0), r1 is the actual return launch direction, and R_B is a
+rest-frame spatial rotation taking n1 to r1, direct substitution in R7 gives
+
+    p q=1/f(Lambda_minus R_B Lambda_plus,n0).
+
+R_B preserves the time component and redirects this one null vector; many such
+rotations exist and give the same displayed scalar. This is recovered composition
+bookkeeping, not a mirror law, new frequency-transfer premise, physical selector
+or ordinary holonomy assertion. The two transports have different future paths
+and events. A delayed relay requires its own proper-time derivative and shifted
+return argument. ICN1/TRI1 already distinguish pointwise ratios, finite intervals,
+arrival origins, actual return records and absolute cadence; FNA1 already owns
+its complete supplied-pair construction. More complete evaluation data alone
+do not select the physical geometry or additional positional assignment.
+
+Two scoped controls make the data issue explicit. In flat space, B at x=L and
+A at x=0 or x=t²/(8L) have p=1 at emission t=0, but q=1 or
+sqrt(sqrt(2)−1) at the actual future return. The accelerated control is outside
+PSW free-clock preparation. Separately supply g=−dt²+a(t)²dx²+dy²+dz² and
+fixed-coordinate free clocks at x=0,L. Let a=1 through5L/4, smoothly rise to
+1<C≤2 by3L/2, then stay C. For |s|<L/8 the whole outgoing neighborhood is
+flat, b=s+L and p=1. The later return satisfies ∫_b^a_R dt/a(t)=L; it occurs
+after the transition and has q=C, whereas the everywhere-flat control has q=1.
+These are conditional examples, not native-admitted twins, ESR counterexamples
+or proofs that an admitted evolution law cannot determine the future.
+
+No new native equation or required extra postulate was extracted. The parent
+proposes one separate completion/clock-robustness target in R16CPW, rather than
+renaming these established identities as a new selecting law. That target was
+not the three contributors' shared recommendation and remains optional.
+Sources: [synthesis](udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md),
+[source meanings](udt_clock_law_physical_whiteboard_2026-10-03/fidelity/SOURCE_FIRST.md),
+[direction/flat control](udt_clock_law_physical_whiteboard_2026-10-03/geometry/SOURCE_FIRST.md),
+[actual-record/future-data control](udt_clock_law_physical_whiteboard_2026-10-03/operational/SOURCE_FIRST.md)
+and [reviewed scope](udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md).
+
+
+<a id="r8pcc"></a>
+
+#### An isotropic additional clock-curvature contribution — PCC1
+
+Charles authorized a test, not adoption, of a stronger physical connection:
+the additional positional contribution might have the same infinitesimal clock
+curvature in every freely falling frame while ordinary tidal anisotropy remains.
+This is **UNADOPTED**. Its all-frame isotropy and identification with the leading
+L² contrast do not follow from no preferred observer, ordinary clocks or DDR.
+
+ULC1 now confirms the owner's universal-law meaning in D1. Consequently this
+all-frame numerical equality remains an optional physical trial, rather than a
+mandatory interpretation of universality. The clarification changes no PCC1
+equation or mathematical hypothesis, and does not refute the tested branch.
+Its reference/matching requirement belongs to this contrast diagnostic; it is
+not a demonstrated prerequisite for every native positional law.
+
+Supply two smooth time-oriented Lorentz4 geometries g,g0, matched events and a
+time-oriented tangent isometry I. Match orthonormal initial laboratory frames,
+proper L, parallel preparation, units and regular direct PSW1 clock protocols;
+boost both initial frames together through I. Each laboratory then uses its own
+free clocks and null paths. Reference and matching are supplied physical choices,
+not coordinate equality, a second physical spacetime or an addition of metrics.
+With A_g(X,Y,Z,W)=g(R_g(X,Y)Z,W), define D=A_g-I* A_g0. PSW1 gives
+
+    C(U,n)=lim_(L->0) 2 log(p_L/p0_L)/L²=-D(n,U,U,n).
+
+The trial condition C(U,n)=kappa for EVERY future unit timelike U and every
+unit n perpendicular to U is pointwise equivalent to
+
+    D=kappa B_g,
+    B_g(X,Y,Z,W)=g(Y,Z)g(X,W)-g(X,Z)g(Y,W).
+
+Indeed F=D-kappa B has F(X,U,U,X)=0 for all X and timelike U by projection
+and homogeneity. Polynomial identity on the open timelike cone extends this
+to all U. Polarizing X, then U, makes F alternating in its first three slots;
+algebraic Bianchi gives3F=0. Conversely B(n,U,U,n)=-1. Thus the entire curvature
+DIFFERENCE is fixed, not the entire curvature of either geometry. Contraction
+and algebraic trace decomposition give Delta Ric=3kappa g, Delta R=12kappa
+and matched Delta Weyl=0. Nonzero ordinary anisotropic tides may remain.
+The leading outgoing and actual return contrasts are kappa L²/2 and3kappa L²/2.
+These are local fixed-comparison asymptotics, without a uniform finite-distance
+or empirical error bound. Positive added contrast does not force total redshift.
+
+One frame or one triad is weaker: pure spatial constant-curvature data have
+zero electric tide for U=e0, but the boost U=(5e0+3e1)/4 has transverse tide9K/16.
+A common Lorentz change of matched frames preserves the condition; rotating only
+the reference relative to a nonuniform tidal frame may change it. The comparison
+is covariant but reference/matching-dependent. No response E=Ric is inferred.
+
+<a id="r8pccr"></a>
+
+**Regional compatibility.** To extend the statement, supply a smooth event map
+and tangent matching across a region and impose D=kappa B there. With
+S=I*Ric[g0], contracted Bianchi for the physical metric gives the necessary condition
+
+    3 d kappa=div_g S-(1/2)d tr_g S.
+
+The transferred reference tensor need not satisfy its reference Bianchi identity
+with the physical connection. Subtracting the two connections' identities as
+though they were the same would be invalid. This condition is not sufficient
+for full curvature integrability or a general construction of g and its matching.
+
+An exact supplied control makes the distinction concrete. In a chosen time unit,
+g0=-dt²+exp(t²)sum dx_i² and g=-dt²+exp(t²+2ct)sum dx_i², matched at equal t
+by comoving orthonormal frames, have H0=t and H=t+c. Their temporal sectional
+curvatures H'+H² and spatial curvatures H² differ by kappa(t)=2ct+c²; mixed
+components vanish. Thus the all-frame difference holds across a region with
+nonconstant kappa. Direct physical-connection differentiation gives the displayed
+identity's right side(6c,0,0,0)=3d kappa. This is a supplied geometric counterexample
+to GENERAL constancy, not an adopted expanding-cosmos explanation for UDT.
+
+<a id="r8pcce"></a>
+
+**Einstein-reference special case and a nonuniform witness.** If the supplied
+reference additionally satisfies Ric[g0]=Lambda0 g0 with constant Lambda0,
+then S=Lambda0 g. Hence Ric[g]=(Lambda0+3kappa)g and the physical metric's own
+Bianchi identity forces d kappa=0 on a connected regular region. This special
+case requires no connection-preserving matching. It retains equality of matched
+Weyl tensors as a further condition beyond the Ricci equation.
+
+The familiar supplied comparison
+
+    g_k=-f_k dt²+dr²/f_k+r²dOmega²,
+    f_k=1-2mu/r-kappa r²,
+
+versus f0=1-2mu/r satisfies the full difference for corresponding radial/angular
+orthonormal frames at equal areal radius and the same mu. Both f values must be
+positive on the common regular patch r>0,0<theta<pi. mu is a free geometric
+length parameter, not a derived material mass. Static frames specify initial
+velocities; the prepared clocks are released and fall freely, including their
+simultaneous boosts. Direct original-connection calculation gives electric tides
+(-2mu/r³-kappa,mu/r³-kappa,mu/r³-kappa), Ric=3kappa g and retained Weyl square
+48mu²/r⁶. The full256-component difference, not just these tides, was checked.
+This is a regional compatibility witness with anisotropy, not total isotropy,
+an arbitrary-source theorem, an empirical GR pass or a native UDT metric.
+[Comparison credit](udt_positional_curvature_connection_2026-10-01/PRIMARY_REFERENCE.md)
+identifies the known Kottler family; no GR equation is adopted as a construction law.
+
+Pointwise zero contrast also leaves finite information open: for the supplied
+scale factor a(t)=1+beta t³ versus Minkowski, with beta of dimension T^-3,
+all curvature vanishes at t=0 but parallel-prepared comoving clocks give
+log p=beta L³+O(L⁶), log q=7beta L³+O(L⁶).
+This is a one-event control, not D=0 imposed throughout a region. It defeats
+extending the leading quadratic relation to complete finite clock records.
+
+The result makes the trial connection well-defined once comparison data are
+supplied and proves compatibility in a nonuniform example. In the vacuum-reference
+sector its Ricci consequence is already a GR cosmological-term possibility.
+Reference selection, positional attribution, scalar sign/value, native admission,
+finite-distance/asymptotic behavior and physical X_max remain open. The test neither
+adopts its hypothesis nor proves the founding postulates require another premise.
+
+Sources: [frozen parent argument](udt_positional_curvature_connection_2026-10-01/INITIAL_DERIVATION.md),
+[independent mathematical reconstruction](udt_positional_curvature_connection_2026-10-01/math/SOURCE_FIRST_ARGUMENT.md),
+[fidelity reconstruction](udt_positional_curvature_connection_2026-10-01/fidelity/SOURCE_FIRST.md),
+[scoped extra controls](udt_positional_curvature_connection_2026-10-01/SUPPLEMENT.md)
+and [reviewed result](udt_positional_curvature_connection_2026-10-01/REVIEWED_RESULT.md).
+
+
+<a id="r8erc"></a>
+
+#### Clocks generated by a conditional evolving equation — ERC1
+
+R17ERC's two trial response identifications remain UNADOPTED. Its weak static
+metric gives proper-period ratios p=sqrt[(1+2epsilon Psi_o)/(1+2epsilon Psi_e)]
+and q=1/p. Although the scalar term cancels from first-order coordinate null
+travel, dt/dr=1-epsilon(Psi+Phi)+O(epsilon²), it remains in the endpoint
+proper-clock shift log p=epsilon(Psi_o-Psi_e)+O(epsilon²). The compact weak
+domain, supplied static clocks and first-variation limits apply; no source mass
+or local empirical filter pass is derived.
+
+The homogeneous equation in R17ERC supplies a different, genuinely evolving
+example. Set a(0)=1, H(0)=R(0)=Lambda=0, P(0)=P0!=0. The constraint holds,
+H'=0 and H''=P0/6 initially. Hence
+
+    a(t)=1+(P0/36)t³-[P0/(4320alpha)]t^5+O(t^6).
+
+Initial full curvature and the slice's extrinsic curvature vanish, so comoving
+free clocks are initially parallel-prepared. The higher curvature-derivative
+data differ from Minkowski. For initial proper L, actual first arrival tb and
+immediate echo ta satisfy eta(tb)=L, eta(ta)=2L. Their infinitesimal
+received/emitted proper-period ratios at finite separation are
+
+    p=a(tb), q=a(ta)/a(tb),
+    log p=(P0/36)L³+O(L^5), log q=7(P0/36)L³+O(L^5).
+
+This realizes PCC1's cubic-control feature through a conditional governing
+equation and its data, rather than prescribing a(t). It does not impose PCC1's
+regional all-frame curvature contrast, select P0 or identify native positional
+physics. Both quadratic terms vanish, consistently with PSW1. Other supplied
+comoving cases generally lack this parallel preparation. Arbitrary finite pulse
+intervals require actual arrival differences or integration of these differential
+ratios; p and q alone are not exact arbitrary finite-interval ratios.
+
+The frozen eight-case, three-setting CPU tests retain flat, varying-curvature
+and contracting controls. At the dimensionless flat-event L=1 query, p is about
+1.000827 and q about1.005637. A contracting control has both below1. Original
+metric-tensor/constraint checks and separately authored saved-a clock reconstructions
+support these finite examples. Fourth-derivative review residuals are roundoff
+limited, not a convergence certificate. The full finite domain, parameter and
+data choices remain diagnostic. This is neither a universal redshift law nor
+an observed/physical scale or a large-distance asymptote.
+
+Sources: [exact conditional construction](udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md)
+and [reviewed evidence and limits](udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md).
+
+<a id="r8rcd"></a>
+
+#### Testing the evolving equation with clock records — RCD1
+
+Retain R17ERC's UNADOPTED E_B equation and its explicitly imposed spatially flat
+homogeneous/isotropic metric, a(0)=1, a>0, supplied comoving proper clocks and
+regular first arrivals. Initial proper separation L is independently calibrated.
+For first emission0, L=integral_0^t du/a(u) and p(L)=a(t(L)). The derivative of
+arrival with respect to emission at fixed receiver defines the tick ratio;
+differentiation over receiver locations gives dt/dL=p here. They are different
+operations with equal values in this protocol, not arbitrary finite pulse ratios.
+With primes=d/dL and dot=(1/p)d/dL,
+
+    t(L)=integral_0^L p(s)ds, H=p'/p², R=6p''/p³,
+    Rdot=6[p'''/p⁴-3p'p''/p⁵],
+    U=3p'^2/p⁴,
+    V=36p'p'''/p⁶-18p''²/p⁶-72p'^2p''/p⁷.
+
+The original00 equation is C=U+alpha V-Lambda=0. For positive C4 p on a
+connected interval and constant alpha,Lambda, C identically zero is equivalent
+to all original homogeneous tensor equations. For their common spatial residual
+D, the off-shell identity is Cdot=-3H(C+D). On H!=0 it gives D=0. On interiors
+where H=0, a is constant and C=0 forces Lambda=0, hence D=0. All other zeros
+are limits of H!=0 points, so continuity finishes the proof. Pointwise C=0 at a
+turn is insufficient; no division by H,p',R,Rdot or F=1+2alpha R is licensed.
+
+An equivalent shape equation is K+alpha J=0, with
+
+    K=(p p''-2p'^2)/p⁴=Hdot,
+    J=6[p²p''''-8pp'p'''-p(p'')²+14p'^2p'']/p⁷
+     =2R Hdot+Rddot-H Rdot.
+
+Indeed C+D=-2(K+alpha J) and dot(U+alpha V)=6H(K+alpha J).
+For alpha!=0,p>0 this has nonzero fourth-derivative coefficient6alpha/p⁵,
+so it is a regular local fourth-order ODE. The remaining three initial
+derivatives after p0=1 encode state data; Lambda is recovered or constrains
+them if fixed separately. This is not a general PDE or global stability result.
+
+If V1!=V2, alpha=(U2-U1)/(V1-V2), Lambda=U1+alpha V1; these same constants
+must pass the entire curve. Equivalently alpha=-K/J where J!=0, with K=0
+required where J=0. Two-point fitting is not confirmation. Near-zero J or
+nearly constant V is ill-conditioned; no noise model is tested. Compatible
+constant V forces constant H, V=0 and p=1/(1-H0 L), Lambda=3H0² on its positive
+branch, so those records cannot determine alpha. The alpha=0 sector has the
+same form. Parameter ignorance and F=0 equation degeneracy are distinct issues.
+
+For the nonzero-amplitude flat-event data in R8ERC,
+
+    log p=b3 L³+b5 L⁵+O(L⁶),
+    b3=P0/36, b5=-P0/(4320alpha), alpha=-b3/(120b5).
+
+The initial amplitude cancels. By contrast, PCC1's exact supplied a=1+beta t³,
+beta!=0, has b5=0 and fails every finite constant-alpha candidate: Lambda=0
+is forced initially and the original00 residual starts27beta²t⁴ (the shape
+residual starts6beta t). Its kinematic role and initially flat curvature survive;
+this is a rejection for one equation, not a UDT countermodel or PCC1 refutation.
+
+For every positive a in this comoving sector q(L)=p(2L)/p(L) where both arrivals
+exist. Echo coefficients7b3 and31b5 are kinematic; the relation b5=-b3/(120alpha)
+is candidate-specific. Independently measured echoes can check the protocol or
+extend the sampled interval, but echoes computed from p add no independent law
+evidence. Generic comoving clocks are not PSW's parallel preparation. Imposing
+this symmetry before recovering one a(t) is not general4D metric reconstruction,
+a native event/path assignment or identification of p with presentation phi.
+
+Sources: [initial derivation](udt_response_clock_discriminator_2026-10-01/INITIAL_DERIVATION.md),
+[controlling scope repair](udt_response_clock_discriminator_2026-10-01/REPAIR.md)
+and [reviewed result](udt_response_clock_discriminator_2026-10-01/REVIEWED_RESULT.md).
+
+<a id="r8psc"></a>
+
+#### Distinguishing a nonlinear completion — PSC1
+
+R17PSC's UNADOPTED metric-f(R) comparison control f=R+alphaR²+betaR³ has the
+same near-flat first-order tensor response for every beta, while its nonlinear
+clock prediction differs. This is a mathematical control, not a third proposed
+physical connection or an admitted UDT geometry. Retain R8RCD's homogeneous,
+comoving, independent-initial-L and differential-tick protocol. Set
+a0=1,H0=R0=Lambda=0,P0=Rdot0!=0,alpha!=0. With F=df/dR,
+
+    Hdot=R/6-2H², Rdot=P,
+    Pdot=-3HP+[FR-2f+4Lambda-3F_RR P²]/(3F_R),
+    C=3FH²-(FR-f)/2+3H F_R P-Lambda, Cdot=-4HC.
+
+Here F_R=2alpha+6betaR is nonzero near the initial event, so the smooth local
+ODE and initially zero constraint yield actual homogeneous tensor solutions.
+The trace alone would not suffice. For example a=sqrt(1+2ht),h!=0, on a positive
+patch has R=0 and satisfies the scalar trace for the quadratic Lambda0 case,
+yet its original00 residual is3H²!=0. Original equations remain necessary.
+
+For the constrained flat-event data, Pdot0=-3beta P0²/alpha and
+Pddot0=-P0/(6alpha)+27beta²P0³/alpha². The arrival correction starts at fourth
+order, giving through fifth order
+
+    log p=b3 L³+b4 L⁴+b5 L⁵+O(L⁶),
+    b3=P0/36, b4=-beta P0²/(48alpha),
+    b5=-P0/(4320alpha)+3beta²P0³/(80alpha²),
+    beta/alpha=-b4/(27b3²),
+    b5=-b3/(120alpha)+(12/5)b4²/b3.
+
+Thus a nonzero quartic term under this specified preparation rejects R8RCD's
+quadratic equation, even when the leading clock effect and weak scalar pole
+agree. At beta=0 the old result is recovered unchanged. This is a conditional
+coefficient test, not unique full-theory identification, noisy-data estimation
+or proof from finitely many coefficients that a complete history satisfies the
+equation. Generic astronomical redshift records do not automatically supply this
+preparation or its independent distances. Beta has dimension length^4; no
+physical coefficient, source amplitude or observational pass is selected.
+
+Sources: [fixed candidate](udt_physical_selection_checkpoint_2026-10-02/INITIAL_CANDIDATE.md)
+and [reviewed conditional return](udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md).
+
+<a id="r8cmf"></a>
+
+#### Measuring the curvature independently — CMF1
+
+PSW1's exact parallel-prepared free-clock protocol gives c(U)=Ric(U,U) through
+the limiting outgoing triad mean. In a supplied orthonormal tetrad (u,e_i),
+choose 0<v<1 and U_i±=gamma(u±v e_i), gamma²=1/(1-v²). Tensor contraction gives
+
+    c_i+ + c_i−=2gamma²[c0+v² Ric_ii],
+    R=sum_i(c_i+ + c_i−)/(2gamma²v²)−(1+3/v²)c0.
+
+Thus seven frame types suffice for scalar R independently of a response equation.
+At the illustrative v²=1/3, R=sum_six c_i±−10c0. Every frame needs its own
+spatial triad, proper-distance/parallel preparation and differential received-tick
+measurement at the same event. This is21 directional limiting coefficients,
+not21 finite readings, an optimal design or full tensor tomography. Three spatial
+off-diagonal Ricci components remain undetermined. Boosts, distances and event
+matching must be independently calibrated. No preferred observer is selected.
+The ultrastatic product -dt²+h_K, with3D sectional curvature K, has zero electric
+tides and unit stationary tick ratios while R=6K; one frame's complete tidal form
+therefore does not determine R. This is an off-equation geometric control.
+
+If each log ratio has combined readout/preparation error at most epsilon_y and
+geometric remainder bounded by B L³, each c estimate has error at most
+6(epsilon_y/L²+B L). With common bounds, the scalar error is at most
+(6/v²−2)6(epsilon_y/L²+B L)+E_frame. Frame/ruler errors not already included
+need the separate E_frame bound. B is query dependent and independently supplied;
+smoothness gives existence locally, not its measured value. Small boosts amplify
+errors; high boosts change preparation and remainder costs. No optimum is proved.
+Flat residual radial velocity w gives log p=atanh(w), so an uncontrolled Doppler
+term can imitate or overwhelm the L² curvature coefficient. Fixed noise cannot
+be cured by L→0. Freely falling test-clock preparation/backreaction is idealized;
+no existing instrument or physical source/excitation is certified.
+
+Scalar R at one event supplies no derivatives. Independently establish geodesic
+placements exp_o(±h e_a), a=0..3, with e0 timelike, and reconstruct R at those
+eight endpoints and the central event. Along a geodesic its second derivative
+is the Hessian contraction. Consequently
+
+    D_h R=[−R(+he0)−R(−he0)+sum_i(R(+he_i)+R(−he_i))−4R(o)]/h²
+
+converges to Box_g R. The proper steps, tetrad and geodesic placements are extra
+metric/ruler/transport information; scalar reconstruction alone does not supply
+them. Results may be collected later; no instantaneous/advanced signaling is
+assumed. Arbitrarily accelerated paths require removal of acceleration times
+scalar gradient. For per-event scalar error epsilon_R and directional fourth-
+derivative bounds B_a, the deterministic error is at most
+
+    12epsilon_R/h²+(h²/12)sum_a B_a+E_place.
+
+The shared central reading has weight−4; this bound assumes no independent noise.
+For a joint ideal limit, epsilon_R=o(h²), bounded B_a and E_place→0 suffice.
+At fixed nondegenerate boosts, sufficient PSW scaling is L=o(h²),
+epsilon_y=o(L²h²), E_frame=o(h²), using dimensionless distances in fixed units.
+R in C4 (for example g in C6) supports the stencil. These are requirements, not
+demonstrated experimental resources. Finite smooth samples without derivative
+bounds cannot certify a limiting jet. The measured scalar is total curvature;
+its native positional attribution J1 remains OPEN.
+
+Sources: [fixed initial construction](udt_curvature_measurement_feasibility_2026-10-02/INITIAL_CANDIDATE.md),
+[controlling precision record](udt_curvature_measurement_feasibility_2026-10-02/REPAIR.md)
+and [conditional return](udt_curvature_measurement_feasibility_2026-10-02/REVIEWED_RESULT.md).
+
+<a id="r8cbr"></a>
+
+#### Finite numerical reconstruction from actual clocks — CBR1
+
+CMF1's proposed CPU benchmark now has a bounded numerical answer. The forward
+calculation prepares parallel free clocks by the metric exponential map, follows
+the free receiver and solves the actual future-null arrival; endpoint proper
+frequencies supply the saved log tick ratio. A separate inverse consumes only
+those ratios and supplied calibration L,h,v, frame/direction and event labels.
+No metric, curvature oracle or response equation enters that inverse. The
+positive forward metric is generated by the unadopted quadratic equation, so
+recovering it tests the diagnostic, not the physical law.
+
+The three controls are spatially homogeneous/isotropic: the evolving quadratic
+comparison at alpha=1,Lambda=0,H0=R0=0,R'0=.3; the scalar false pass
+a=sqrt(1+.4t); and the off-equation a=1+.03t³. Scales and states are free
+diagnostic choices, not physical calibration or native geometry selection.
+At each event v=.6 and21 direction/frame labels use three unique clock classes
+by exact isometries. Each boosted triad rotates/reflects with its frame, with
+its longitudinal direction along that boost; copies are not independent geometry
+samples. Actual geodesic spatial placements, generally at different cosmic time,
+are essential: constant-time offsets would omit the -3H R' term in Box R.
+Real availability of independently calibrated rulers, boosts, preparation and
+these placements remains unestablished.
+
+From R(L), the inverse uses 2R(L/2)-R(L), removing a smooth leading O(L) bias
+conditionally, then CMF1's nine-event Box stencil. Five central times, three h
+widths, three L values and two numerical settings are retained. At finest
+h=.04,L=.01/.005 the maximum errors over all three controls are3.2144e-5 in R
+and1.2430e-4 in Box R. Coarse/fine solver differences peak at1.111e-15 in
+log p,1.003e-9 in R and4.933e-6 in Box R. These are finite numerical comparisons,
+not rigorous remainder bounds or a generic4D reconstruction demonstration.
+
+The deterministic log-error bound at this finest setting gives Box uncertainty
+.000594,.0594,5.94 for epsilon=1e-14,1e-12,1e-10. The predeclared signed
+perturbation attains the .0594 bound; the two larger noise levels leave the
+positive response slope unresolved by the frozen criterion. Noise bounds exclude
+solver, truncation, frame, preparation and ruler errors. Smaller steps cannot
+cure fixed noise, and some clean refinement entries are nonmonotonic. These
+arbitrary-unit controls do not provide atomic-clock requirements or apparatus
+sensitivity. Charles's paraphrase did not set an atomic-anomaly research target.
+
+Independent direct-coordinate clock checks, saved-a tensor reconstruction and
+raw-record inverse implementations support the scoped numerical result. Full
+generic tensor reconstruction, real preparation, source-free applicability and
+native positional attribution are not established. The broader conditional CMF
+mathematics is unchanged. Sources: [fixed numerical construction](udt_clock_reconstruction_benchmark_2026-10-03/INITIAL_RESULT.md),
+[run design and exposure](udt_clock_reconstruction_benchmark_2026-10-03/RUN_PLAN.md),
+and [reviewed finite return](udt_clock_reconstruction_benchmark_2026-10-03/REVIEWED_RESULT.md).
+
+## 6. Response restrictions and an optional conditional dynamics branch
+
+<a id="r9"></a>
+
+### R9. What DDR actually constrains
+
+For a Lorentz4 tangent space and any orthonormal timelike/spacelike pair (u,n),
+the reciprocal shape tangent is H=2(u♭⊗u♭+n♭⊗n♭). Its g-trace is zero.
+It is the derivative of the founded reciprocal pair metric at depth zero.
+DDR is the separate provisional balance premise <E,H>_g=0 for every such
+pair and a specified symmetric response E. Ordinary inverse-clock algebra
+alone does not impose it.
+
+In an orthonormal frame, H(e₀,e_i) span the three diagonal trace-free directions.
+Spatial rotations give the three spatial cross directions. For C²−S²=1,
+u'=Ce₀+Se_i, n'=Se₀+Ce_i and the unnormalized symmetric product a⊙b=a⊗b+b⊗a,
+\[
+ \tfrac12H(u',n')-(C^2+S^2)\tfrac12H(e_0,e_i)
+ =+2CS(e_0^\flat\odot e_i^\flat).
+\]
+These give the three time-space cross directions, so the span is all nine
+trace-free symmetric directions. The nondegenerate tensor pairing splits
+S²(V*)=S²₀(V*)⊕Rg. Its annihilator is exactly Rg, hence
+\[
+ \boxed{\mathrm{DDR}\iff \mathrm{TF}(E)=0\iff E=\lambda(x)g.}
+\]
+This does not impose E=0 or fix λ. The all-pair domain and specified response
+type are indispensable. The original G310 displayed boosted formula has a
+minus sign in the covector-basis expression; direct expansion gives the plus
+sign above. Its coordinate0i components are negative because e₀♭ has a negative
+time component. The sign correction preserves the nonzero cross directions and
+annihilator argument. [CDR1 records this exact source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md) without rewriting
+or globally recertifying the historical package.
+
+Source: [G310 original argument](udt_g310_differential_dual_reciprocity_tracefree_ownership_2026-08-31/EXACT_DERIVATION.md),
+read with its [provisional adoption](startup_surface_g310_universal_reciprocity_refresh_2026-08-31/ADOPTION_RECORD.md)
+and the CDR1 correction/review record. No E=Ric identification is made here.
+
+<a id="r9fst"></a>
+
+#### Why this symmetric family cannot select curvature through DDR alone — FST1
+
+There is a precise conditional limitation of this test family. Suppose the
+specified E is a well-defined symmetric covariant rank-two, local metric-only
+response, equivariant under local isometries on its admitted domain. A natural
+finite-jet metric operator is sufficient. Any further arguments must be invariant
+scalar constants, not extra physical vectors, tensors, queries or state labels.
+These tensor/naturality hypotheses do not all follow from Local Metric Sufficiency.
+No derivative-order bound, homothety weight, action or conservation law is assumed.
+
+A space form's tangent stabilizer contains the proper time-oriented Lorentz group:
+in its signed quadric, fix the position vector and apply a Lorentz map to its
+orthogonal tangent space. Naturality requires Lambda^T E Lambda=E. Spatial
+rotations force E=diag(a,b,b,b); a nonzero01 boost has off-diagonal entry
+C S(a+b), so a=-b. Hence on every such supplied germ
+
+    E[g_kappa]=F(kappa)g_kappa, TF(E)=0.
+
+Local homogeneity makes F constant on the connected homogeneous patch, for this
+local metric-only rule. This does not strengthen response-agnostic DDR's lambda(x)
+to a constant: the additional invariance hypotheses do that work here. A response
+undefined at some kappa has a separate domain restriction. Global/nonlocal or
+additional-state responses need their own premises; global covariance alone does
+not guarantee equivariance under every local isometry.
+
+Thus DDR cannot distinguish the curvature values within this family and response
+sector. In R10's separately conditional G301 class the same fact reads
+E=(3a+12b)kappa g, including a!=0. Imposing E=0 or a specified trace would add
+information absent from DDR. The result says neither that DDR is vacuous on other
+metrics nor that the complete UDT postulates cannot restrict kappa. Values on
+these symmetric backgrounds also do not certify principal behavior, perturbative
+stability or a physical response constitution. Its constructive use is to avoid
+expecting this particular balance test to select a parameter to which it is blind.
+The [FST1 argument and review](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md)
+retain the full hypothesis and source boundaries. CPR1 in R8CPR keeps this
+spaceform restriction explicit: CGE1 with m>0 has nonconstant Weyl curvature,
+so not every metric-natural local response is forced to be pure trace there.
+Its unadopted gradient-Weyl diagnostic exhibits that distinction without
+identifying the physical response or satisfying all R10 class gates.
+
+
+<a id="r10"></a>
+
+### R10. The conditional curvature-class implication
+
+Suppose separately that E belongs to the entire G301 response class: symmetric
+rank two, unoriented metric-natural, local metric2-jet/curvature order, smooth
+flat-quiet dependence F(0)=0 on the declared star-shaped quiet curvature domain,
+with exact degree-one homogeneity F(tK)=tF(K),
+and the reviewed scaling/principal gates. Differentiability at zero and
+homogeneity imply F(K)=DF(0)K: divide F(tK) by t and take t→0. Orthogonal
+invariance restricts this linear curvature contraction to Ric and Rg (the
+unoriented condition excludes orientation-tensor additions). Thus in that class
+E=a Ric+b Rg, with constant coefficients and nondegenerate principal coefficient
+a≠0. This classification requires the full hypotheses, not merely covariance.
+
+Then TF(E)=a(Ric−Rg/4). R9 gives Ric=Rg/4. Contracted Bianchi,
+∇ᵃRic_ab=(1/2)∂_bR, together with this equation gives (1/4)dR=0.
+On a connected regular region R is constant and
+\[
+ \boxed{\operatorname{Ric}(g)=\Lambda g,\quad d\Lambda=0.}
+\]
+The a=0 case makes DDR automatic and does not impose this metric equation.
+Current G312 authority leaves native class membership unclosed under GR FILTER
+ONLY. The resulting Einstein arena is a useful conditional mathematical branch,
+not a field equation derived unconditionally from positional dilation. CGE1 in R8CGE
+constructs its static spherical exterior and actual source/receiver query as a
+conditional application. That explicit solution does not close class membership
+or turn GR's comparison-filter role into a physical field-law input. CPR1 applies existing
+asymptotic/recovery requirements to the explicit candidate only conditionally
+on the specified physical query and matching. Neither its positive-Lambda
+realization nor its recovery inequality closes native class admission.
+
+Sources: G301/G310 and [current G312 authority](udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md);
+[GRS1](udt_gr_response_selection_2026-09-28/REVIEWED_RESULT.md) and
+[RMS1](udt_response_measurement_scaling_2026-09-28/REVIEWED_RESULT.md) retain their
+specific naturality, weight and trace-free alternatives. We reuse the stated
+invariant-contraction classification; CDR1 does not independently reprove every
+external invariant-theory theorem in those sources.
+
+<a id="r10h"></a>
+
+**The distinct homothety route.** GRS1/RMS1 supply a weaker sufficient route to
+the same shape equation without initially assuming order two or conservation.
+Let S=TF(E) be a symmetric covariant rank-two metric-only natural operator of
+finite order r, equivariant under local diffeomorphisms and unoriented frames,
+differentiable at the flat normal jet on a domain containing the flattening rays.
+Assume the exact response law S[ell²g]=S[g], ell>0. With normal jets J_k and
+g_s=s^(-2)D_s^*g, D_s(x)=sx, naturality and that weight give
+\[
+ F(s^2J_2,s^3J_3,\ldots)=s^2F(J_2,J_3,\ldots).
+\]
+Dividing the expansion at zero by s² and taking s→0 gives F= D_2F_0(J_2)
+exactly. The curvature contraction basis and trace-free condition yield
+S=a(Ric−Rg/4). If a≠0, R9 imposes the Einstein shape equation and Bianchi makes
+R constant on a connected regular region. Neither an action nor off-shell
+conservation is needed for this implication. A pure-trace addition to E is
+invisible to DDR and need not obey this same homothety law.
+
+The assumptions do not follow merely from coordinate covariance, passive unit
+conversion, invariant received-clock ratios or measured c_E/G_obs. Finite local
+metric sufficiency does not fix differential order. Exact response homogeneity
+is stronger than recovery of observations in a tested regime. The unoriented
+condition is sufficient here; G301's connected-Lorentz rank certificate already
+finds only two linear-curvature contractions, so this audit does not claim each
+listed hypothesis is independently necessary. Linear curvature dependence is
+not linearity of the metric equation or a prohibition of nonlinear clock effects.
+
+[GCA1's assumption audit](udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md)
+separates this route, the full R10 class and the second-order conservation route
+below. It retains native physical response identification and full principal/
+causal membership as open. No current physical premise or historical grade changes.
+
+
+<a id="r11"></a>
+
+### R11. Actual conditional initial data and development
+
+This branch contains constructed spacetime results, not just evaluators. For
+Ric=Λg and spacelike metric γ with second fundamental form K=−(1/2)L_nγ,
+the Gauss–Codazzi constraints are
+\[
+ {}^{(3)}R+(\operatorname{tr}K)^2-|K|^2=2\Lambda,\qquad
+ D_jK^j{}_i-D_i\operatorname{tr}K=0.
+\]
+For a supplied flat marked torus γ=p⁴δ, p>0 constant, take
+K^i_j=diag(τ(x),q,−q), where τ is any smooth periodic nonconstant function.
+The scalar left side is τ²−(τ²+2q²)=−2q². The only potentially nonzero momentum
+component is τ'−τ'=0. Thus Λ=−q² satisfies both constraints exactly. This
+constructs a full non-CMC datum, with free p,q,τ; it does not select them.
+
+The corresponding conformal method makes the interlocking explicit. In
+γ=ψ⁴barγ, A^{ij}=ψ^{-10}(barA_TT+barLW)^{ij}, its equations are
+\[
+ -8\bar\Delta\psi+\bar R\psi-|\bar A_{TT}+\bar LW|^2\psi^{-7}
+ +(\tfrac23\tau^2-2\Lambda)\psi^5=0,
+ \quad \bar D_j(\bar LW)^{ij}=\tfrac23\psi^6\bar D^i\tau.
+\]
+For ψ=p and W=w(x)∂_x, momentum gives 2w''=p⁶τ'; periodicity fixes
+w'=p⁶(τ−mean τ)/2. The G317 TT coefficients complete the datum above.
+These are methods applied to the conditional equation, not newly imported UDT
+physics. General conformal-method solvability is not asserted from this example.
+
+For eligible smooth data satisfying the constraints, the standard hyperbolic
+Einstein development method yields a local development unique up to its stated
+gauge/diffeomorphism; per-datum maximal globally hyperbolic development is a
+separate theorem with its global hypotheses. G321/G322 apply these methods with
+explicit regularity/marking caveats; G323/G324 identify a particular unmarked
+quotient and its MGHD. Those full existence/extension proofs are retained source
+results, not re-proved by the initial-data arithmetic. Legitimate initial data
+remain free without making conditional predictions meaningless.
+
+Sources: [G316 construction](udt_g316_lawful_constraint_data_construction_2026-09-01/EXACT_DERIVATION.md),
+[G317 exact family](udt_g317_exact_noncmc_coupled_data_family_2026-09-01/EXACT_DERIVATION.md),
+[G321](udt_g321_g320_local_cauchy_development_uniqueness_2026-09-01/AUDIT_REPORT.md),
+[G322](udt_g322_g321_maximal_globally_hyperbolic_development_2026-09-01/AUDIT_REPORT.md).
+All inherited strong-GR/admitted wording is qualified by current G312.
+
+<a id="r12"></a>
+
+### R12. Exact nonlinear geometry is a retained gain
+
+A concrete Ric=0 conditional family uses supplied periodic coordinates and
+\[
+ g=e^{\lambda/2}t^{-1/2}(-dt^2+d\xi^2)
+   +t(e^Pdy^2+e^{-P}dz^2),\qquad t>0.
+\]
+The complete original Ricci equations reduce, within this declared polarized
+ansatz, to P_tt+t^{-1}P_t−P_ξξ=0,
+λ_t=t(P_t²+P_ξ²), λ_ξ=2tP_tP_ξ. Let
+P=eF(t)cos(kξ), with F''+F'/t+k²F=0, F(1)=0, F'(1)=3/2 and k=3/4.
+Set
+\[
+ L(t)=\tfrac12t^2(F'^2+k^2F^2)+\tfrac12tFF'-9/8,
+ \quad \lambda=4\log(3/4)+e^2[L(t)+\tfrac12tFF'\cos(2k\xi)].
+\]
+Differentiating and substituting the F equation gives
+L'=t(F'²+k²F²)/2 and (tFF'/2)'=t(F'²−k²F²)/2, verifying both λ equations.
+The explicit solution is F=A J₀(kt)+B Y₀(kt),
+A=−(3π/4)Y₀(k), B=(3π/4)J₀(k); its Wronskian fixes the initial derivative.
+This provides an exact smooth metric for t>0, not just a first-order perturbation.
+At t=1 and ξ=4X/3 its full data are γ=I and
+K^i_j=diag(1/3−3q²/4,−2/3−q,−2/3+q), q=e cos X, satisfying the constraints.
+
+The zero-amplitude metric becomes
+−dT²+T^{-2/3}dX²+T^{4/3}(dy²+dz²). For nonzero amplitude the profile can decay
+while its quadratic metric response accumulates. Therefore a fading linear
+profile is not by itself recovery of the marked background. The source proves
+specific asymptotic and tidal statements; those are retained with their marking,
+comparison and error hypotheses, not reproduced as new CDR1 stability theorems.
+Other localized/nonlinear families and Ricci-line results remain useful at their
+original scopes. Neither a finite box nor positive sampled modes certify a
+stable physical particle, and relaxation is not physical time evolution.
+
+Source: [NE1/G394 complete argument](udt_nonlinear_ripple_geometry_2026-09-09/INITIAL_CANDIDATE.md)
+with [reviewed qualifications](udt_nonlinear_ripple_geometry_2026-09-09/REVIEWED_RESULT.md)
+and [later conditional banking](udt_reviewed_backlog_banking_2026-09-10/BANKING_RECORD.md).
+Its earlier UNPROMOTED/full-audit-failure wording is historical. Current G312 still
+qualifies class admission. Full nonlinear stability and physical interpretation
+are not supplied by banking or by this explicit example.
+
+<a id="r12n"></a>
+
+### R12N. NGD1 releases a polarization and calculates actual clock shifts
+
+The next numerical step extends R12's supplied metric to
+\[
+ g=N^2(-dt^2+dx^2)+t[e^P(dy+Qdz)^2+e^{-P}dz^2],\quad
+ N=e^{\lambda/4}t^{-1/4},\qquad t>0.
+\]
+The periodic, orthogonally transitive two-Killing sector, areal foliation,
+Lambda=0 and Ric=0 remain **conditional comparison assumptions** under G312;
+no native identification of R9's E is inserted. Independent metric-to-Ricci
+reconstruction gives the full equations within this restricted class:
+\[
+ P_{tt}+P_t/t-P_{xx}=e^{2P}(Q_t^2-Q_x^2),\quad
+ Q_{tt}+Q_t/t-Q_{xx}=-2(P_tQ_t-P_xQ_x),
+\]
+\[
+ \lambda_t=t[P_t^2+P_x^2+e^{2P}(Q_t^2+Q_x^2)],\qquad
+ \lambda_x=2t[P_tP_x+e^{2P}Q_tQ_x].
+\]
+A periodic lambda requires zero spatial mean of the momentum expression. The
+initial zero-P,Q family satisfies this directly. Nonzero-profile data project
+P_t to enforce it and reconstruct lambda by its periodic primitive with supplied
+mean. Such a projection can be large: these are additional admissible families,
+not automatically small perturbations of the original data.
+
+For supplied fixed-coordinate clocks, which need not be geodesic, longitudinal
+null branches have dx/dt=±1 and coordinate arrival map t_o=t_e+d. Areal t is
+generally not an affine ray parameter. R6N's metric proper-clock relation gives
+\[
+ \log Z={\lambda_o-\lambda_e\over4}-{1\over4}\log(t_o/t_e).
+\]
+Here d is the duration of a chosen lifted periodic null branch, potentially
+including winding; it is not shortest spatial distance or cosmic distance.
+The two constraints also imply exactly
+\[
+ \lambda_t\pm\lambda_x
+   =t[(P_t\pm P_x)^2+e^{2P}(Q_t\pm Q_x)^2]\ge0.
+\]
+Therefore Delta lambda is nonnegative on either future longitudinal branch.
+The added logZ relative to the constant-lambda, zero-velocity P=Q=0 Taub control
+on the same marked t_e,t_o query is nonnegative. **Total logZ can have either
+sign.** This neither orders every homogeneous control nor orders unpolarized
+versus polarized data. Equality on a ray segment does not force the entire
+geometry homogeneous. The identity was recognized during survey interpretation
+and independently checked; it was not a preregistered prediction or a native
+UDT law inferred from a curve's appearance.
+
+The frozen finite campaign contains12 GPU runs/158 history executions including
+refinements:16 initial histories, a30-case longer challenge through t=32,
+N32–256, timestep halving, constrained initial spatial profiles, two named0.1%
+velocity-mode perturbations and two changed periods. All trajectories were also
+integrated with independently implemented CPU DOP853; max absolute saved-field
+difference3.676e-8. Independent saved-metric Ricci checks passed at the declared
+stencil centers: max frame residual4.621e-9 and max t²N²-scaled residual9.647e-7,
+against2e-5 gates. Every initial state and all saved momentum constraints were
+independently checked. The largest matched-query logZ change under timestep
+halving was5.364e-9; sampled extrema are not continuum extrema. The k=.75 longer
+challenge's sampled logZ spans approximately[-.5493062,1.389315].
+
+These are finite floating-point results supported by refinement, exact controls,
+original-equation checks and independent time integration, not validated
+continuum existence or full nonlinear stability. Both codes use Fourier spatial
+discretization. Ricci checks sample time stencils; they are not uniform-in-time
+certificates. Period changes alter supplied data/marking, not a gauge-equivalence
+or infinite-volume test. General ray directions, twist,3D spatial variation,
+matter/source sectors, selected observers, physical scale and X_max are omitted.
+The small campaign consumed32.345seconds summed evolution/output time; it does
+not establish a GPU speed advantage or justify a larger production allocation.
+
+The retained gain is an executable broader conditional geometry with actual
+clock readouts and an exact sign identity separating contribution from total
+shift. It does not close R9/R18's native selection join. For the proposed next native-selection question, the work order should identify
+an evaluable native discriminant or explicitly unadopted connection, and
+distinguish evolution under an equation from constrained history search.
+Simply enlarging a Ric=0 simulation would continue exploring that supplied law.
+Sources: [fixed candidate](udt_gpu_time_live_discovery_2026-09-30/INITIAL_CANDIDATE.md),
+[clock-parameter clarification](udt_gpu_time_live_discovery_2026-09-30/REPAIR.md),
+[reviewed disposition and limits](udt_gpu_time_live_discovery_2026-09-30/REVIEWED_RESULT.md),
+and [saved campaign diagnostics](udt_gpu_time_live_discovery_2026-09-30/CAMPAIGN_DIAGNOSTICS.json).
+
+<a id="r12t"></a>
+
+### R12T. TDS1 evolves three-coordinate metric data and checks actual clocks
+
+The next numerical extension releases R12N's imposed two-Killing spatial
+sector. All ten symmetric components of g evolve with three-coordinate spatial
+dependence. The supplied equation remains **conditional Ric(g)=0, Lambda=0**
+under G312 GR FILTER ONLY; this is not an identification of R9's response E.
+On a supplied marked periodic three-torus, choose harmonic coordinates with
+\[
+ C_\mu=g^{ab}\partial_a g_{b\mu}-\tfrac12g^{ab}\partial_\mu g_{ab}=0.
+\]
+The reduced operator used in the numerical evolution is
+\[
+ W_{mn}=g^{ab}\partial_a\partial_b g_{mn}
+ +(\partial_n g^{ab})\partial_a g_{mb}
+ +(\partial_m g^{ab})\partial_a g_{nb}
+ +2\Gamma^a{}_{bn}\Gamma^b{}_{am}=0.
+\]
+Independent metric-jet reconstruction verifies
+\[
+ W_{mn}=-2\operatorname{Ric}_{mn}+\partial_m C_n+\partial_n C_m
+                  -2\Gamma^a{}_{mn}C_a.
+\]
+W is the supplied reduced operator, not the unidentified physical response.
+Original constraints and compatible harmonic data matter: a small reduced
+residual alone does not certify the original equation. With g^{00}<0 this is
+solved for the second time derivative; Fourier collocation and RK4 supply the
+finite numerical method, without damping, filtering or added source terms.
+
+Initial data use R11/G316's conditional conformal construction: flat conformal
+metric, tau=-1, positive psi, and a supplied transverse-traceless Abar with a
+constant diagonal term and three non-collinear sinusoidal modes. Solve
+\[
+ -8\Delta\psi-|\bar A|^2\psi^{-7}+\tfrac23\tau^2\psi^5=0,\quad
+ \gamma_{ij}=\psi^4\delta_{ij},\quad
+ K_{ij}=\psi^{-2}\bar A_{ij}+\tfrac\tau3\gamma_{ij}.
+\]
+Initially lapse=1, shift=0; harmonic-compatible velocities are
+g_{ij,t}=-2K_{ij}, g_{00,t}=2tau, g_{0i,t}=-2partial_i log psi.
+Lapse and shift then evolve. Initial CMC/conformal flatness is not an imposed
+condition on later slices. A rank-three derivative Gram excludes common constant
+coordinate translations of these data, not arbitrary nonlinear Killing fields.
+
+One supplied seed was evolved on8^3,12^3,16^3 meshes over harmonic t=1..1.1,
+with a timestep-halved16^3 check and flat/Kasner/oblique-gauge-wave controls.
+Independent original initial Hamiltonian residuals fall from1.203e-6 to2.185e-13.
+From saved g alone, independent original four-dimensional Ricci reconstruction
+at every grid point and eligible centered interior time gives maxima4.691e-7,
+9.275e-10,8.247e-10, and1.349e-10 for16^3 with half timestep, below2e-5.
+Common-event spatial refinement improves that residual586.78-fold. Final16^3
+timestep halving changes g by2.775e-11 and its velocity by7.209e-11.
+Independent evolved ADM constraints use the actual lapse/shift and also converge.
+These finite floating-point checks omit two slices at each time endpoint and
+are not uniform continuum error bounds. Fourier mathematics is shared; no
+independent general-data time integrator was run for TDS1.
+
+For supplied fixed-coordinate clocks u=partial_t/sqrt(-g_00), integrate actual
+null geodesics and apply R6N's Z=omega_e/omega_o. At emission t=1.02 and reception
+t=1.08, the four declared16^3 half-step directions yield approximately
+Z=0.9795774,1.0376661,1.0452029,1.0190435. Receiver positions are computed arrivals,
+not selected cosmological observers. A separate Hamiltonian covector/RK45
+calculation agrees with the Christoffel/DOP853 readout within1.414e-11 in logZ;
+both share saved fields and Fourier/Hermite interpolation mathematics. Exact
+Kasner clock ratios and mesh/time readout checks pass. No sign was targeted,
+and R12N's restricted longitudinal sign identity is not generalized here.
+
+Actual pause/resume and SIGTERM/resume reproduce final fields bit for bit.
+Resource stops and invalid-constraint diagnostics preserve readable evidence.
+This certifies only the tested short workload: periodic topology/period,
+harmonic gauge, initial CMC/conformal choices and one small seed remain supplied.
+No matter, native selection, physical scale, X_max, genericity, long-time stability
+or full solution-space claim follows. These are TDS1's original short-run limits;
+the following preparation adds its own bounded evidence.
+Sources: [fixed equations](udt_three_spatial_smoke_2026-10-01/EQUATIONS.md),
+[reviewed finite result](udt_three_spatial_smoke_2026-10-01/REVIEWED_RESULT.md),
+and [execution and continuation record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md).
+
+
+#### Longer histories and production preparation (TPP1)
+
+Retain the same conditional equation and conformal CMC construction. For a
+nonzero integer wavevector k and symmetric S with nonzero projected TT part,
+define P=I−kkᵀ/|k|² and
+T=P S P−tr(P S P)P/2, normalized to Frobenius norm sqrt(2). Then kᵀT=0 and
+tr(T)=0, so finite sums a cos(k·x+phase)T supply transverse trace-free data.
+TPP1 explores non-collinear oblique modes, threefold amplitudes and a relative
+phase change as well as the axial controls. The periodic topology/period,
+conformal flatness, tau=−1 and marked harmonic chart remain supplied restrictions.
+
+The adaptive worker uses lapse alpha, shift beta and spatial metric gamma.
+The frozen principal characteristics obey
+\[
+ |\omega|\leq|\beta\cdot k|+\alpha\sqrt{k^T\gamma^{-1}k},\qquad
+ \Omega={\pi N\over L}\max_x\left(\|\beta\|_1+
+             \alpha\sqrt{3/\lambda_{\min}(\gamma)}\right).
+\]
+The cubical Fourier band has |k|<=sqrt(3)piN/L, giving the displayed conservative
+bound. The implemented maximum samples collocation points; it is not a uniform
+continuum maximum. Every RK stage and endpoint tests dt Omega; rejected numerical trials
+halve a dyadic step. This is not a nonlinear stability theorem. Fine comparisons
+halve both the step ceiling and CFL ceiling. Immutable checkpoints use integer
+time ticks t=1+tick/3200, a.25 cadence and three nine-sample diagnostic windows.
+
+Thirteen histories reach t=2.5,15times TDS1's elapsed coordinate interval.
+Independent saved-g Ricci over39windows/195interior slices has maximum6.063e−7
+against2e−5. Independent evolved late H/M/harmonic maxima are
+4.517e−9/7.504e−9/3.764e−10. Final matched time-refinement differences are at
+most7.663e−9 in g and2.884e−8 in v; exact Kasner saved-state error is6.343e−9.
+These are finite floating-point checks, not uniform or continuum certification.
+
+The original five-point spatial-refinement gate **failed**: saved-time
+truncation obscured fine-grid improvement. The preserved diagnostic and frozen
+same-premise repair retain every original residual check but compare sixth/
+eighth-order saved-time derivatives only at the three window centers. Exact
+rational stencil moments and vacuum/nonvacuum controls test the replacement.
+Oblique16→32 improvement is12.134-fold at eighth order. Axial improvement is
+9.05-fold; it passes only the unchanged small-error alternative, all meshes
+below5.137e−9. Largest sixth/eighth tensor disagreement is4.171e−10. This
+narrower repaired gate does not erase the original failure or fill time gaps.
+Stronger/phase examples lack their own complete mesh/time refinement families.
+
+Supplied late-window clock queries, t2.484 to2.496, show matched mesh/time
+logZ changes below3.341e−12. Separate Hamilton/RK45 and producer Christoffel/
+DOP853 calculations agree within9.33e−13 in logZ on the fine axial history;
+Fourier/Hermite interpolation and fields remain shared. No ray across unsaved
+gaps, population selection or cosmological distance interpretation follows.
+
+Actual worker and supervisor pause/resume/interruption checks retain valid
+checkpoints; worker final fields and accepted-step sequences agree bit for bit.
+A48³ load took31.390s and allocated1.123GB peak Torch memory, while queried
+device usage reached2.474GB. That load is resource evidence, outside the
+independent Ricci scientific qualification. N32 histories took about41s each.
+The finite preparation used about301.458s of actual GPU worker wall.
+
+TPP1 proposed78supplied initial datasets and234runs, up to six hours and64GiB,
+with the first three cases checked before continuation. No multi-hour run
+started during that preparation; its authentic time-limited proposal is retained.
+Longer Ric=0 histories remain a conditional comparison tool; R9's physical
+response and native UDT selection remain open. Sources: [method](udt_time_live_production_preparation_2026-10-01/METHOD.md),
+[finite return](udt_time_live_production_preparation_2026-10-01/REVIEWED_RESULT.md),
+[failed gate and scoped repair](udt_time_live_production_preparation_2026-10-01/REFINEMENT_REPAIR.md),
+and [production dispatch](udt_time_live_production_preparation_2026-10-01/PRODUCTION_DISPATCH.md).
+
+#### Finite survey and preserved numerical repair (TPS1)
+
+Charles subsequently authorized the same finite78-dataset/234-run survey and
+explicitly removed elapsed-time limits. A new executable edition preserves
+TPP1's equations, initial construction, three-coordinate grids and thresholds.
+No queue deadline, worker wall stop, wrapper timeout or CPU-time kill applies.
+One GPU, memory/output limits, immutable checkpoints, source checks and manual
+interruption remain. This operational change is not a new physical premise.
+
+Independent checks pass on all156 initial mesh states. After the reviewed first
+dataset gate, all234 original histories completed. Their234 reports contain702
+saved-window records. Original Ricci, late Hamiltonian, momentum and harmonic
+maxima are respectively6.125e−7,4.709e−9,7.643e−9 and5.183e−10, below2e−5.
+This establishes the declared finite residual checks, not exact continuum
+solutions. The supplied periodic conformal/CMC family and harmonic chart remain
+restrictions; these78 recipes are not a census of physically inequivalent metrics.
+
+The original refinement gates qualify65 datasets and flag all13 at the largest
+supplied amplitude multiplier. Nine fail the final temporal velocity comparison;
+eight have inconclusive spatial refinement; four belong to both groups. These
+failures stopped automatic postprocessing before broad clock characterization.
+A fresh diagnosis reproduces all78 scalar spatial decisions and directly checks
+42 late windows using independently arranged curvature contractions and controls.
+It finds time-step sensitivity comparable to the finer mesh's residual, supporting
+a finite numerical repair rather than a physical nonexistence conclusion.
+
+The one outcome-informed repair adds26 runs on the same13 datasets and meshes,
+halving only the CFL and maximum step ceilings. Initial states, equations,
+time lattice, endpoint, saved windows and thresholds remain unchanged. Its
+explicit candidate triple is **old24half / new24quarter / new32half**; the
+original24coarse /24half /32coarse result remains65 PASS/13 unqualified.
+All26 new histories pass their original-equation checks. Final24half→24quarter
+g/v changes are at most3.122e−9/1.427e−8, below2e−7. All12 oblique datasets
+pass the unchanged10-fold center-residual rule, with smallest ratio110.03.
+The axial dataset passes only the small-error alternative: ratios5.176/3.859
+do not establish10-fold improvement, but both all-point maxima are below1.297e−9.
+Thus all78 supplied datasets now have a qualifying tested triple. No threshold
+was loosened and no original failure was erased. These ratios are finite
+accuracy diagnostics, not convergence orders or uniform error bounds.
+
+The original234 histories provide936 numerical readouts: four fixed late-window
+queries at three resolutions for each dataset. All signs are retained. Three
+queried directions have positive logZ and the x direction negative in every
+original realization. Maximum matched logZ difference is6.829e−12; the separate
+Hamiltonian method on the fixed30-dataset subset agrees within4.766e−12, below
+2e−7. That subset includes the unchanged24half anchors for all13 repaired
+datasets. Readout agreement alone does not qualify a field: the original13
+failures remain attached to their original clocks. The26 new histories also pass
+their26 comparisons against the13 unchanged anchors, with maximum logZ difference
+5.559e−12. The same directional signs survive. This does not add an independent
+Hamiltonian calculation on the new histories: that method's coverage remains the
+fixed original30-dataset subset. The outcome-exposed [descriptive atlas](udt_time_live_production_survey_2026-10-01/diagnosis/atlas/clock_atlas.pdf)
+contains364 rows, four directions for78 original and13 refined dataset editions,
+each recording three readouts. Separate actual review joins every row to its
+field qualification and clock sources; these are not364 independent datasets.
+
+The gain is a broader, checked conditional comparison tool with explicit accuracy
+and clock coverage. It does not select R9's native response E or native UDT
+geometry. Nor does a directional blueshift in these supplied geometries refute
+UDT's positional interpretation. The queried amplitude is an initial-data
+parameter, not physical source distance; these results do not give a cosmological
+redshift law, X_max, a physical observer population or a universal sign rule.
+There is no independent general-data integrator, continuum/infinite-volume
+limit, tested saved-window gap or nonlinear long-time stability result.
+
+Raw fields, checkpoints and worker streams remain local and ignored. Banked
+sources, scalar readouts, hashes and compact reports do not give a remote clone
+the raw data needed for full replay. The [fixed launch checkpoint](udt_time_live_production_survey_2026-10-01/LAUNCH_CHECKPOINT.md)
+retains its original first-dataset scope. Completion evidence is the
+[finite return](udt_time_live_production_survey_2026-10-01/diagnosis/REVIEWED_RETURN.md),
+[execution and repair record](udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md),
+and [actual mathematical repair review](udt_time_live_production_survey_2026-10-01/diagnosis/review_math/REPAIR_RESULT_REVIEW.md).
+
+
+## 7. Screen geometry, carried readouts and optional sources
+
+<a id="r13"></a>
+
+### R13. A metric screen provides area geometry
+
+For a nonzero affine null tangent k, the quotient Q_k=k^⊥/span(k) is a positive
+2D metric space. To see positivity, write k=ω(u+n), with u unit timelike and
+n unit spatial. If X=a u+x lies in k^⊥, then x·n=a, so
+g(X,X)=|x−an|²≥0, vanishing precisely along k. The projected connection
+D[X]/dλ=[∇_kX] is well-defined: changing X by fk adds only f'k. It inherits
+metric compatibility. No independent screen connection is needed for this query.
+
+With curvature convention R(X,Y)Z=∇_X∇_YZ−∇_Y∇_XZ−∇_[X,Y]Z,
+the self-adjoint screen tide T[X]=[R(X,k)k] gives Jacobi equation D²x+Tx=0.
+For two solutions x,y, differentiating
+q(x,Dy)−q(Dx,y) gives zero by self-adjointness. The rank4 position/momentum
+propagator is therefore symplectic. If its position-from-momentum block is B,
+inversion gives B_reverse=−B_forward* and equal absolute determinants.
+In orthonormal endpoint screens the directional infinitesimal areas are
+A_forward=ω_e²|det B| and A_reverse=ω_o²|det B_reverse|. Thus
+A_forward=Z² A_reverse, including conjugate points where both vanish. Their
+ratio is Z² only on the rank2 domain det B≠0. This is metric angular-area reciprocity; it does not yet identify
+brightness, luminosity distance, photons or detector flux. ACP1's astronomical
+application in R8ACP retains the complete observer-to-source Jacobi map;
+its determinant alone does not supply a scalar disk-length map. Source/observer
+and finite-patch identification are separate conditional readout requirements.
+OAA1 in R8OAA gives a finite receiver-normalized affine endpoint in the
+conditional CGE1 family. OJM1 below now derives its actual two-dimensional
+Jacobi map; affine and angular-area distances remain distinct except where
+the scoped calculation proves agreement or a shared leading limit.
+
+The full phase-space propagator remains invertible through conjugate points
+although B may lose rank. Finite-sheet maps carry multiplicity; a sheet area
+is not automatically the area of a union of images. Global image identification
+and physical population are extra data. The more detailed conjugate-order,
+endpoint-generator and finite-sheet theorems remain at their original scopes.
+Sources: [G348](udt_g348_generic_lorentzian_null_screen_area_theorem_2026-09-04/EXACT_DERIVATION.md)
+and [G349](udt_g349_finite_null_wavefront_patch_area_2026-09-04/AUDIT_REPORT.md).
+
+<a id="r13ojm"></a>
+
+#### The actual two-dimensional optical map — OJM1
+
+OAA1's affine endpoint does not by definition give apparent source size. OJM1
+calculates that missing map on the same CONDITIONAL metric and actual histories.
+Keep m>0,H>0,a>3m,Omega=sqrt(m/a³-H²)>0, strict outward s>0 and one fixed
+finite-E escaping receiver from CPR1. No metric, population or field-law
+selection is added. Every central ray has its own conserved b; the actual
+emission sequence still has varying b(R).
+
+Declare the infinitesimal source rest-screen orthogonal to u_e and k_e. For a
+quotient vector X the representative X_u=X+g(X,u)k/omega_u is orthogonal to
+u and k and has the same quotient inner products. Thus source and receiver
+screen lengths are explicitly tied to their proper frames without an extra
+source-frequency stretch. A finite material disk or known ruler is not supplied.
+
+In outgoing EF coordinates, along the equatorial ray, choose
+
+    e_parallel=(b partial_u+partial_phi)/(r s), e_perp=partial_theta/r.
+
+They form a regular orthonormal quotient frame through f=0. e_perp is parallel;
+metric compatibility, planarity and null orthogonality imply that the derivative
+of e_parallel is a multiple of k. It therefore is parallel in the quotient.
+Let P=integral_a^r b d rho/(rho²s), I=integral_a^r d rho/(rho²s³), s_a=s(a,b).
+Varying b from the same source event gives at fixed r the connecting vector
+(delta u,delta r,delta phi)=(b I,0,I)delta b. Fixing affine parameter changes
+it only along k. Its screen length component is r s I delta b and initial
+affine derivative delta b/(a s_a). Rotating the ray plane about the source
+radial axis instead gives r sin(P) times the rotation, with initial slope b/a.
+The complete forward vertex block in this parallel basis is therefore
+
+    B_parallel=a s_a r s(r) I, B_perp=a r sin(P)/b.
+
+Both continue to r-a at b=0 and have B(a)=0,B'(a)=1. Differentiating with
+d/dlambda=s d/dr gives B_parallel''-q B_parallel=0 and B_perp''+q B_perp=0,
+where q=3mb²/r^5. This derives the null tide diag(-q,+q) from actual metric
+geodesic variations. H still enters s, affine length, incidence and frequency;
+its absence as an explicit term in q does not remove those effects.
+
+G348 reversal now supplies the map from observed sky angle to source size:
+
+    delta x_e=J delta theta_o,
+    J=-A B_eo=A diag(B_parallel,B_perp),
+    D_A²=|det J|, D_A=A a R sqrt(|s_a s_R I sin(P)/b|).
+
+The source-size-to-sky map is J^{-1} only where det J!=0. D_A is an angular-
+area distance; it does not convert both directional lengths by one scalar when
+the image is sheared. The corresponding forward area distance is Z D_A by
+geometric reciprocity, without a flux or luminosity law. Positive affine
+rescaling leaves J invariant; changing the physical receiver has the existing
+G348 frequency/screen effect. Endpoint basis changes must also rotate the
+source coordinates. These statements apply to the infinitesimal rest-screen.
+
+B_parallel>0 on every stated outward segment. For b!=0, conjugate points
+occur exactly at P=n pi, n a nonzero integer. P grows monotonically in magnitude;
+the perpendicular zero has affine derivative a cos(P)/r, so it is simple.
+The full phase map remains invertible there, whereas the sky-position inverse
+fails. Strict outgoing ray regularity therefore is not a no-caustic theorem.
+Global multiple images remain separately labeled branches.
+
+Before the first caustic both B factors are positive. For d=sqrt(B_parallel B_perp),
+
+    d''/d=-(1/4)(B_parallel'/B_parallel-B_perp'/B_perp)²<=0.
+
+The vertex data d(0)=0,d'(0)=1 imply D_A<=D_o. With m>0,b!=0 the nonzero
+tide generates unequal logarithmic derivatives and the inequality is strict
+at positive separation before the first caustic. It cannot be extended through
+a conjugate crossing by inserting absolute values. Independent finite original-
+metric checks include strongly focused branches with negative B_perp; those
+valid rays and initially failed finite-angle approximations are preserved.
+
+For a strict limiting incidence b(R)=b_*+O(1/R), S_*=sqrt(1+H²b_*²), the
+two signed limiting length factors are
+
+    j_parallel,*=a s_a,* S_*² I_infinity(b_*)/H,
+    j_perp,*=a S_* sin(P_infinity(b_*))/(H b_*),
+    D_A,*=sqrt(|j_parallel,* j_perp,*|).
+
+Use the continuous b_*=0 limit. Generic endpoints depend on source/ray data;
+they are not automatically1/H. If P_infinity is a nonzero multiple of pi,
+the area limit vanishes and the next order must be studied separately. No
+general approach sign, universal ceiling or all-history claim follows.
+
+On the already supplied b_*=0 preparation, b(R)=O(1/R) rather than identically
+zero. Uniform small-b expansion gives L=R-a+O(b²R) and each B=R-a+O(b²R).
+For example1/s=1+O(b²), I=1/a-1/R+O(b²), P/b=1/a-1/R+O(b²) uniformly;
+the strict source margin and smooth x=1/R integral tails control the remainders.
+Since A=O(1/R), each eigenvalue of J is D_o+O(R^-2). Eventually |P|<pi,
+so the whole connecting segment is caustic-free. The smooth tail consequently has
+
+    D_A=1/H-(a/H+E/H²)/R+O(R^-2),
+    Z(1/H-D_A)->(a+E/H)/sqrt(h).
+
+Thus the specific pole survives the full angular-area calculation and each
+principal length factor at this order. The eventual approach is from below
+and monotone; finite-time nonattainment is asserted only on that tail. Exact
+finite-ray equality D_A=D_o is not asserted, nor are earlier crossings excluded.
+
+The [initial derivation](udt_optical_jacobi_attachment_2026-10-05/INITIAL_CANDIDATE.md)
+and [map/error clarification](udt_optical_jacobi_attachment_2026-10-05/CLARIFICATIONS.md)
+retain full hypotheses. Parent exact and40/70digit controls pass; two fresh
+contexts reconstruct the argument and replay saved quantities with distinct
+implementations, including an original four-dimensional metric/Jacobi check.
+Their [work record](udt_optical_jacobi_attachment_2026-10-05/WORK_RECORD.md)
+preserves finite-angle failure/repair and same-model/library limits. Numerical
+agreement and regression are not interval certification or native selection.
+
+A finite map x(theta) with a supplied Hessian bound M has the usual forward
+remainder M|delta theta|²/2; inverse angular error needs its own control. No such
+numeric bound, finite source/disk, known astronomical ruler or flux law is
+provided. The conditional optical calculation is now explicit. R16TSI
+supplies an ideal timing route to scale without a known source ruler, and
+R16FRI adds finite conditional error bounds. Finite source reduction, actual
+usable data and native metric/comparison selection
+remain open. H is not an identified observed Hubble constant or X_max.
+Physically matched GR queries still give the same records. No additional UDT
+prediction or need for a new postulate has been established by this calculation.
+
+
+<a id="r14"></a>
+
+### R14. What each carried-content premise adds
+
+Take the same retained label at regular cuts, with positive frequency and sheet
+Jacobian. Define R_ji=ω_j/ω_i=1/Z_ji and A_ji=J_j/J_i. Both telescope on a
+matched chain. If a positive continuous multiplier T(R,A) is multiplicative
+on the full independent domain R_+×R_+, then log T(e^x,e^y) is continuous and
+additive. Splitting (x,y)=(x,0)+(0,y) and applying R1's argument on each axis
+proves T=R^p A^q. Neither geometry nor inversion selects p,q. Requiring the
+full independent domain is stronger than knowing ratios on one realized curve.
+
+G351 adds the provisional source-free conservation of a supplied finite
+nonnegative countably additive label measure μ. The pushforward to a cut is
+(X_i)_*μ. On label space (or a single injective sheet), its absolutely continuous component
+has dμ_ac=s(λ)dλ and pulled-back dArea_i=J_i dλ, giving the a.e. sheet density
+n_i=s/J_i and n_j=A_ji^{-1}n_i. This neutral density has p=0. In the broader
+component class, a declared observer weight and common positive reference ω_*
+give C_i=(ω_i/ω_*)^p n_i. On the same nonzero AC support,
+C_j/C_i=R_ji^p A_ji^{-1}. Thus conservation fixes q=−1 there but does not select
+that added frequency weight. For a many-to-one cut map, physical-image density
+sums the preimages; s/J alone is not that whole image density. An atom has positive measure on a zero-area singleton;
+it has no ordinary area density, so the exponent argument does not apply to it.
+The measure pushforward can still be defined at caustics or multiple images.
+
+G352 adds a particular continuous clock-rate readout and chosen phase-independent
+product. Supply null phase Θ, future-raised k=(dΘ)^sharp, ω=−u·dΘ>0 and a common
+spacing ΔΘ>0. Continuous intensity is |dΘ/dτ|/ΔΘ=ω/ΔΘ. On the chosen
+product (|dΘ|/ΔΘ)⊗μ the regular rate per area is
+\[
+ \Gamma_i={\omega_i\over\Delta\Theta}{s\over J_i},\qquad
+ \boxed{\Gamma_j=R_{ji}A_{ji}^{-1}\Gamma_i.}
+\]
+The ratio form requires the same nonzero AC support. This is the bounded
+T_clock=R A^-1 result. It neither turns an atomic count into
+a smooth derivative nor derives phase/label independence, population, energy,
+light or an instrument. The three steps—geometry's two ratios, conserved measure,
+and chosen rate—remain separate dependencies. Metric geometry alone does not
+own the latter two premises.
+
+Sources: [G350 classification](udt_g350_frequency_area_carried_content_ownership_2026-09-05/EXACT_DERIVATION.md),
+[G351 measure](udt_g351_source_free_labelwise_carried_measure_conservation_2026-09-05/EXACT_DERIVATION.md),
+[G352 readout](udt_g352_clock_rate_carried_measure_readout_2026-09-05/EXACT_DERIVATION.md).
+Original pending-review headings are historical; current registry/source reviews
+own acceptance. G353–G366's chosen recipes, shared constraints, persistence and
+departure tests do not remove these physical-identification boundaries.
+
+<a id="r15"></a>
+
+### R15. Optional source mathematics is retained separately
+
+The paused optional source branch studied, without adopting it as UDT physics,
+\[
+ \operatorname{Ric}=\Lambda_*g+\beta n\,d\varphi\otimes d\varphi,
+ \qquad g^{-1}(d\varphi,d\varphi)=0,
+ \qquad\operatorname{div}(n\nabla\varphi)=0.
+\]
+Beta and Lambda_* are supplied constants; n is a mathematical density, not
+identified physical mass. This branch is not obtained from R14's conserved
+measure by relabeling that measure as stress or matter.
+
+One constructive step is explicit. Put p_i=∂_i varphi,
+b=g^{0i}p_i, D=b²−g^{00}g^{ij}p_i p_j. On g^{00}<0,D>0 the future-raised
+null root is Q=(-b+sqrt D)/g^{00}; ell=g^{-1}(Q,p) has ell⁰=sqrt D>0.
+With W=sqrt(-det g), define m=W n ell⁰ and V^i=ell^i/ell⁰. Coordinate
+divergence gives exactly ∂_t m+∂_i(mV^i)=0. This is an invertible change of
+variables on the declared domain, not a new mass law. Differentiating the null
+quadratic gives Q_{p_i}=−V^i, used in the phase evolution.
+
+For β≠0, n>0, a nonzero future-raised phase and a regular local tube before
+zeros/caustics, independently prescribed compatible REAL ANALYTIC seeds in CD1's restricted
+translation-symmetric/transverse-isotropic chart, CD2 resolves a55-component
+analytic normal form and proves constraint/gauge/product propagation. Its
+Cauchy–Kovalevskaya application yields genuine local analytic joint development
+and analytic-category geometric uniqueness at fixed data. The full normal-form
+and propagation proof is retained rather than rederived in this central core;
+55 is not a physical degree-of-freedom count. Bianchi alone is not existence.
+Smooth nonanalytic evolution, stability and native source identification are
+not established. Three original density-product test groups were tautologies
+and remain EXCLUDED from evidence; the independent transport argument survives.
+
+Source: [CD2/G373 reviewed argument](udt_optional_coupled_development_campaign_2026-09-08/step_02/REVIEWED_RESULT.md)
+and [banking with exclusions](udt_g372_g373_conditional_banking_2026-09-08/BANKING_RECORD.md).
+This is a positive conditional development result and a separate optional branch.
+The source law remains OPTIONAL UNADOPTED; the branch remains PAUSED.
+
+## 8. Scale, observation and the physical frontier
+
+<a id="r16"></a>
+
+### R16. Calibration can attach scale without selecting shape
+
+c_E converts an independently measured proper duration to a radar length in
+R8. c_E and G_obs alone cannot form a nonzero intrinsic length or time under
+ordinary unit covariance: simultaneously scaling the length, time and mass
+units by λ leaves their numerical values invariant, but changes the numerical
+value of any nonzero length/time. A purported function of just the two constants
+cannot have both transformations. This dimensional limit does not prohibit
+scale from measured data or an additional derived physical relation.
+
+For supplied g_λ=λ²g, constant λ>0, matched ordinary proper clocks give
+f_λ(s)=λf(s/λ); hence f_λ'(λs)=f'(s). Length/duration scale while the matched
+received-tick ratio stays unchanged. This comparison co-normalizes clocks;
+it is not the fixed-coordinate rescaling of Phi in R4 and not an adopted
+physical UDT scale symmetry. A known datum Q of nonzero homothety weight w
+fixes one positive λ through Q_obs=λ^w Q_base, when the attachment is justified.
+That fixes one scale parameter, not every shape or field value.
+
+FST1 makes calibration explicit on its supplied prepared-clock family. Independent
+proper L and first-clock ratio p>0 determine kappa uniquely on the direct branch:
+kappa=[arccos(1/p)/L]² for p>1, zero for p=1, and
+kappa=-[arcosh(1/p)/L]² for0<p<1. This is conditional state-parameter recovery,
+not a native field-law selection or evidence from redshift-inferred distances.
+c_E/G_obs alone still cannot supply a nonzero curvature scale. A lawful branch
+may legitimately retain initial/global or calibrated scalar data; its physical
+admission and the value of that datum are separate questions. No actual datum or
+fit is used. [FST1 scope](udt_finite_selection_test_2026-10-01/REVIEWED_RESULT.md).
+
+A Machian possibility uses Q=G_obs M/(c_E²L). If a physical argument supplies
+Q=q_*>0 and an independent mass M, then L=G_obs M/(q_*c_E²). With an
+independent uniform density and specified volume C_VL³ instead,
+L=c_E sqrt(q_*/(C_VG_obs rho)). The mass definition, domain, volume factor
+and physical relation must all be justified; none is selected here. A mass
+functional scaling as M_λ=λM leaves Q unchanged and does not fix λ. Defining
+M from the proposed relation itself provides no independent constraint.
+
+Sources: G275/G276; [ICN1 constants](udt_interframe_clock_network_2026-09-28/REVIEWED_RESULT.md);
+[MGC1 scale test](udt_machian_global_clock_feasibility_2026-09-28/REVIEWED_RESULT.md).
+No external GR control in MGC1 is a native-admitted UDT countermodel. Physical
+X_max remains an asymptotic global-completion target: its value, realization,
+modulation, relation to operational distance and populated domain remain OPEN.
+Neither a finite diameter, a coordinate boundary nor a norm bound supplies it. OAA1 in R8OAA
+adds a declared affine endpoint1/H on the conditional CPR1 histories and its
+proper-orbital tolerance bound. It does not select H, identify a global X_max
+or make that endpoint a universal affine ceiling; an explicit conditional
+counterexample rules out that last stronger interpretation. OJM1 in R13OJM
+extends the specified late endpoint and pole to angular-area distance, while
+retaining generic shear/caustic and source-calibration limits. This does not
+fix1/H in light-years from those formulas alone or identify H with an
+observed Hubble parameter. TSI1 below now gives a conditional clock-calibration
+route without a known ruler; FRI1 adds finite conditional uncertainty control.
+An actual astronomical timing record and physical error admission remain unsupplied.
+
+RCD1's conditional coefficient recovery in R8RCD requires an informative smooth
+clock curve and an independent length/time calibration. c_E converts units;
+c_E and G_obs alone still do not choose alpha. Lambda is an integration datum
+and initial derivatives describe state. This does not establish a physical
+source scale or the absolute normalization of a response tensor.
+
+<a id="r16tsi"></a>
+
+#### Timed records can calibrate the conditional scale — TSI1
+
+The missing ruler in R13OJM need not be a known source size. A specified ideal
+receiver-clock record can supply a scale. This is a conditional inverse result
+for R8CPR's already supplied metric and histories, not native metric selection,
+an astronomical measurement or an additional physically matched-GR prediction.
+H has units inverse length; write ell_o=c_E t_o for receiver proper time in
+length units, with t_o in seconds. The ordinary local clock stays ordinary.
+
+Declare the records before inversion. T is the smooth arrival map of labeled
+emitter proper-clock readings against calibrated receiver proper time, giving
+Z=dell_o/dell_e. A stable source frequency can instead give Z up to a constant;
+unknown time-dependent source frequency need not do so. A is the same source's
+pointlike angular position against receiver time in a specified parallel
+transported radial frame. Neither requires source size. U is only an untimed
+ordered Z/angle curve, with no known length or calibrated time interval.
+These are distinct conditional interfaces, not claims of available observations.
+
+For the inherited fixed finite-E escaping receiver and strict limiting
+|b_*|<a/sqrt(f(a)), put x=1/R and
+
+    V=sqrt(H²+(E²-1)x²+2mx³),
+    s=sqrt(1+H²b²-b²x²+2mb²x³),
+    alpha=1/(Ex+V)+Vb²/(1+s),
+    A=x alpha, F=(1-Omega b)/(sqrt(h) alpha), Z=F(x)/x.
+
+The limiting incidence Jacobian I_infty(1-Omega b_*) is strictly positive.
+Smooth tails and the implicit function theorem give smooth actual b(x), hence
+positive smooth F near0; F(0)=H(1-Omega b_*)/[sqrt(h)sqrt(1+H²b_*²)].
+This derivative control is essential; Z~constant R alone would not suffice.
+Since dx/dell_o=-xV,
+
+    dlog Z/dell_o = V(1-xF'/F) -> H,
+    K := lim dlog Z/dt_o = c_E H,
+    H=K/c_E,   1/H=c_E/K.                              (TSI1-T)
+
+This ideal T record fixes H independently of m,a,E and regular b_*, without a
+known ruler. It does not determine those remaining parameters or select the
+metric. If |F'/F|<=B on a final interval, a finite error bound is
+
+    |dlog Z/dell_o-H| <= |V-H|+VBx,
+    |V-H| <= (|E²-1|x²+2mx³)/(V+H).
+
+B and the onset interval depend on the branch. No uniform known observational
+error bar is supplied. A finite difference of log Z divided by receiver elapsed
+time averages the exact rate and inherits only a justified bound on that interval.
+Agreement in finite samples is not a proof that an unknown source is in this tail.
+
+The angular route is narrower. In outgoing EF coordinates the radial unit vector
+e_r=(-1/(E+v),E,0,0) and equatorial e_phi=(0,0,0,1/R) are parallel transported
+along the radial receiver. Future ray directions obey
+
+    n_phi=b/alpha,
+    n_r=[s/(E+v)-v b²/(R²(1+s))]/A,
+    theta=atan2(n_phi,n_r), tan(theta_*)=H b_*.
+
+The incoming sky direction is opposite; the sign/frame convention is fixed.
+For the principal preparation b_*=0, actual incidence yields
+b=Omega a x/H²+O(x²), theta=Omega a x/H+O(x²). Its nonzero leading coefficient
+and smooth remainder give
+
+    -dlog|theta|/dt_o -> c_E H.                          (TSI1-A)
+
+This is a timed source-position track, not angular size. It requires the
+specified preparation and angular reference. Generic limiting angle alone
+determines only H b_*; arbitrary frame rotation/centroid motion can spoil the
+inference. No universal angular logarithmic rate for all preparations is claimed.
+
+The U record retains an exact scale degeneracy. Under m,a,R,b,u,t_e,ell_o,ell_e
+multiplied by lambda and H,Omega divided by lambda, E is unchanged. Corresponding
+incidences have identical h,s,v,A,Z and angles; U_integral scales by lambda,
+P is invariant and I scales inversely. The metric pulls back to lambda²g;
+OJM1's Jacobi factors and any unknown source size co-scale. Thus combined untimed
+redshift/angular data do not fix this homothety. Timed records instead satisfy
+Z_lambda(t)=Z(t/lambda) with corresponding origins, and rates scale by1/lambda.
+A fixed receiver calibration is physical information, not a free relabeling.
+This conditional family comparison is not an adopted native UDT scale symmetry.
+
+There is an operational limit. The finite emitter-time endpoint admits only
+finitely many pulses at fixed positive spacing in any finite remaining emission
+interval. Such pulses cannot sample an infinite late derivative record. A
+continuous ideal phase/map, or indefinitely refined sampling, needs a separate
+physical-source/resolution assessment. If nu_o=nu_e/Z, the negative logarithmic
+frequency drift, -dlog nu_o/dt_o, is dlog Z/dt_o-dlog nu_e/dt_o. Constant source normalization
+cancels; arbitrary variability can mimic a finite record. Positive endpoint
+frequency with bounded logarithmic derivative in emitter proper time makes
+that contaminant decay as1/Z, but this regularity is an extra source condition,
+not a derived material or astronomical fact. Angular tracking likewise needs
+late visibility and resolving power. No practical detectability is established.
+
+c_E supplies the conversion from measured K to a length. This added dimensional
+timing record is exactly what the c_E/G_obs-only obstruction does not include.
+G_obs allows the mass-dimension combination c_E³/(G_obs K), but it is not a
+derived physical mass or an independent second constraint. A proposed
+m=G_obs M/c_E² interface would need separate justification and independent M;
+co-scaling a geometric mass or defining M from the measured K adds no datum.
+MGC1's independently justified mass/density routes remain possible and open.
+No physical X_max or observed Hubble parameter has been identified.
+
+The [frozen candidate](udt_timing_scale_identifiability_2026-10-05/INITIAL_CANDIDATE.md)
+owns the full argument and [work record](udt_timing_scale_identifiability_2026-10-05/WORK_RECORD.md)
+records exact/finite checks, actual separate-context reviews, exposure and limits.
+The positive change is a ruler-free conditional scale interface. The negative
+result concerns untimed records; it does not extend to calibrated time histories.
+FRI1 below now supplies finite conditional inversion and a finite-error
+ambiguity witness. Empirical source/error admission and native geometry selection
+remain separate gates. The [fixed TSI1 return](udt_timing_scale_identifiability_2026-10-05/DECISION_BRIEF.md)
+preserves the earlier proposed scope without becoming current authorization.
+
+
+<a id="r16fri"></a>
+
+#### Finite records: a bounded scale estimate and an explicit ambiguity — FRI1
+
+R16TSI's infinite-time limit is no longer the only conditional calibration
+route. FRI1 proves a finite error enclosure and constructs finite timing AND
+angular records compatible with two scales differing by factor2. Which result
+is useful depends on the admitted class, uncertainty and coverage. Neither is
+an astronomical measurement or native selection of the metric.
+
+Use ordinary calibrated receiver length ell=c_E tau_seconds. Keep the inherited
+principal b_*=0 histories and define mu=mH, A=aH, y=1/(HR), B=Hb,
+w=Omega/H=sqrt(mu/A³-1). A here is source-radius notation, not frequency.
+The explicitly supplied, scale-invariant conditional domain is
+
+    mu in[.005,.01], A in[.05,.1], E in[1,10], 0<y<=.00002.
+
+H>0 remains free. These are free-and-explored shape/tail conditions, not an
+inferred source ruler or native prior. The entire support hull of the records,
+including gaps, must lie in this domain. The data do not establish that tail
+membership. h>=.4, f(a)>=.59 and2<=w<9 keep the source regular.
+
+The actual incidence equation is P-w Uhat=w dhat, where
+
+    s(z,B)=sqrt(1+B²-B²z²+2mu B²z³),
+    P=int_y^(1/A) B/s dz, Uhat=int_y^(1/A) B²/[s(1+s)] dz,
+    W=sqrt(1+(E²-1)y²+2mu y³),
+    dhat=int_0^y dz/[W(z)(Ez+W(z))], I=int_y^(1/A) dz/s³.
+
+On0<=B<=.0001, .999<=s<=1.001 and dhat<=y. The incidence derivative
+(1-wB)I exceeds J0=(1-.0009)(10-.00002)/1.001³. The incidence left-hand side atB=.0001
+exceeds the target9y, so there is a unique root in this interval, B<=9y/J0.
+This proves a uniform small-B branch; it is not uniqueness among all images.
+
+Let D=Ey+W, alpha=1/D+WB²/(1+s), j=WD B²/(1+s),
+F=(1-wB)/(sqrt(h)alpha), so Z=F/y. Differentiating the actual incidence gives
+B'=[B/s+w alpha/(W(1-wB))]/I. The stated box yields B'<1,
+W<=1.00000002, W'<.002, D'<=10.002, alpha<=1.000000006 and
+|j'|<.000101, including actual B' contributions. Since alpha=(1+j)/D,
+|(log F)'|<20. Therefore
+
+    |(dlog Z/dell)/H-1| < .000400020008 < eta=.0005.       (FRI1-1)
+
+The continuum argument and exact rational inequalities own this bound, not
+a grid of samples. Original-equation numerical checks support its application.
+The declared radial frame also gives a conservative |dtheta/dell|<H/20000;
+a sharper special-shape bound H/290000 is used for the factor2 witness.
+
+Records are finite equal-width translated window means. Timing measures the
+mean of Y=log Z-log(nu_e/nu_ref), where nu_e is evaluated at the actual
+emission map and nu_ref is a constant. Impose the explicit receiver-length
+source-drift bound |dlog nu_e/dell_o|<=q. An emitter-time bound would need
+the1/Z conversion. Stable-source or labeled proper-clock records allow q=0.
+Each reported mean has deterministic error epsilon_z; the analogous angle
+record is an arithmetic mean of signed theta, not mean log-angle. The angular
+frame is fixed. These error/readout conditions are supplied interfaces, not
+derived instruments, material clocks, source visibility or Gaussian likelihoods.
+
+The derivative of a translated mean is the mean of the derivative, so the
+same interval H(1-eta)-q<=Ybar'<=H(1+eta)+q applies to finite windows.
+No extra finite-width bias appears in this specific equal-window protocol.
+Let the reported centers differ by T>2sigma, with each true-center error at
+most sigma. Let d be the reported mean difference and Tminus=T-2sigma,
+Tplus=T+2sigma. Define the sign-safe rate interval
+
+    rlo=min((d-2epsilon_z)/Tminus,(d-2epsilon_z)/Tplus),
+    rhi=max((d+2epsilon_z)/Tminus,(d+2epsilon_z)/Tplus).
+
+Every admitted history consistent with these records has
+
+    H in [max(0,(rlo-q)/(1+eta)),(rhi+q)/(1-eta)] intersect(0,infinity). (FRI1-2)
+
+This permits the full supplied shape/motion range. It is a conservative enclosure,
+not a guarantee that every enclosed value is realizable or all other parameters
+are identified. Arbitrary source drift, frame rotation or unknown window width
+falls outside its hypotheses. c_E converts seconds to length units; G supplies
+no independent constraint without its open physical mass/density interface.
+
+The explicit ambiguity uses m1,a10,H.005,E1,R(0)=20000000 and its factor2
+homothety m2,a20,H.0025,E1,R(0)=40000000. They have identical initial Z and
+theta but are evaluated at the SAME calibrated times. A small backward-support
+bound keeps all windows inside the admitted tail. Use five centers from0 to1.6,
+window width.1, log-mean error.003, angular error5e-8rad, each timestamp error
+.001T. Take each reported value to be the midpoint of the two center values;
+constant sources and zero realized timestamp error are allowed members.
+Uniform derivative bounds prove both actual window means fall inside the same
+error bands. The proof includes each mean's displacement from its center value;
+it does not substitute instantaneous records for finite means.
+
+The result is substantive: two distinct H, hence two lengths1/H differing by2,
+are compatible even with both channels and a stable source. They are not exactly
+equal noiseless timed curves. It disproves universal recovery at this finite
+coverage/uncertainty, not all finite recovery or UDT itself.
+
+For the longer fixed interval T=200 with the same widths/readout errors,
+timestamp error.2 and allowed source drift q=.000005, synthetic base records
+give H in[.0049725835,.0050676842] for the supplied H=.005. Repeating withE10
+gives[.0049722998,.0050673991]. The widths are about1.902% of the input H;
+these are total deterministic interval widths, not one-sigma error bars.
+Both exclude.0025. The paired long angular records also separate beyond their
+declared errors, but no all-parameter angular inverse theorem is claimed.
+All numerical units, schedules and errors were frozen controls; none is an
+observed Hubble rate or a measured instrument capability.
+
+The [initial argument](udt_finite_record_scale_test_2026-10-05/INITIAL_CANDIDATE.md),
+[work record](udt_finite_record_scale_test_2026-10-05/WORK_RECORD.md) and
+[descendant review](udt_finite_record_scale_test_2026-10-05/DESCENDANT_REVIEW.md)
+preserve the exact bounds, actual finite records, review exposure and limits.
+Finite conditional inversion is now established for the stated domain and
+interfaces; real tail/source/error admission and native geometry selection
+remain open. Matched GR gives the same records. The [return brief](udt_finite_record_scale_test_2026-10-05/DECISION_BRIEF.md)
+preserves the earlier proposal. R16PIA below now audits those physical
+interfaces and finds a concrete missing admission, without changing this
+conditional enclosure or the adverse finite-record witness.
+
+
+<a id="r16pia"></a>
+
+#### Physical clock/source admission — PIA1
+
+The independent interface audit finds no admitted physical realization of
+FRI1 among the three reviewed protocols. The obstacle is more specific than
+instrument precision: FRI1's supplied tail requires an extreme TOTAL clock
+ratio, a particular source/receiver geometry and independently justified error
+conditions. This does not refute FRI1's conditional inversion, UDT, or all
+possible finite experiments. It blocks presenting the1.902% synthetic width
+as an experimental accuracy forecast.
+
+From the existing class, h<=.85, B<=.0001, w<9 and alpha<=1.000000006 give
+
+    Z>54180, HR>=50000, R/a>=500000, R/m>=5000000.       (PIA1-1)
+
+The first inequality follows from Z=(1-wB)/(sqrt(h)alpha y) and the exact
+lower bound .9991/[sqrt(.85)*1.000000006*.00002]>54180. Also f(R)<0;
+the receiver is outside the supplied static region. These are implications
+of the conditional metric/query, not measurements, an extra redshift factor,
+or native UDT predictions. An independently valid upper bound on the actual
+paired-clock total Z below54180 would reject THIS class. An unknown source
+normalization or a reduced systemic spectral proxy cannot supply it directly.
+Large Z alone does not establish the class. Exact principal B_*=0 preparation
+and entire-support-hull admission remain unverified by finite angular samples.
+
+Writing K=c_E H and C=K T_seconds gives a/c_E=A T/C and R/c_E>=50000 T/C.
+For the BASE synthetic history the long control has C=1, short C=.008 and
+K delta=.0005. Its homothetic companion has half those values at the same
+calibrated times. Changing H to shorten the observing period also changes
+the required geometry. No time in years is established; R remains areal
+radius, not an observed distance, travel time or X_max. G has no new mass
+interface and H has not been identified with an observed Hubble rate.
+
+**Source and instrument interfaces.** Ordinary proper-clock kinematics give
+nu_o=nu_e/Z, so FRI1's Y is -log(nu_o/nu_ref). An independently supported
+emitter-time drift bound Q_e transfers to receiver seconds as q_seconds<=Q_e/Zmin,
+only once the needed Z lower bound is independently admitted over the interval.
+Source calibration, reference stability, finite pulse/cycle resolution and
+visibility are additional physical interfaces. Bounded frequency amplitude or
+sampled stability does not by itself bound the derivative through all gaps.
+Allowing arbitrary source drift defeats timing identification: replacing
+nu_e1 by nu_e2=nu_e1 Z2/Z1 along each history gives identical nu_o.
+This is an ambiguity outside FRI1's q restriction, not a new source law.
+
+A uniform phase-window counter measures mean frequency, whereas FRI1 uses
+mean log-frequency. If |Y'|<=M on a window of width delta, then
+
+    0<=mean Y + log(mean exp(-Y)) <= M² delta²/8.         (PIA1-2)
+
+The proof bounds the variance of Y under exponential reweighting by one
+quarter of its squared range and integrates twice. The base long-control
+values bound the bias by3.13438203125e-8. It can be budgeted or corrected;
+this does not certify any real counter. An independent M or an H-dependent
+compatibility calculation is needed, not substitution of the desired H.
+Actual weighting, gating, dead time, clock rate and width calibration need
+their own reductions. Timestamp-center error does not automatically cover them.
+
+The nominal epsilon_z=.003 allows at most about.29955% uniform fractional
+frequency error if this were the sole error. The angular tolerance5e-8rad is
+about10.313mas in the declared parallel radial frame. Physical budgets must
+include transfer/reference/estimator errors and angular-frame registration,
+motion and feature stability. Relative position precision alone does not fix
+the frame; an unknown rotation can mimic the angular drift.
+
+**Three reviewed protocol classes.** [Primary-source audit](udt_physical_clock_interface_audit_2026-10-05/SOURCES.md)
+links the methods and qualifications, with published outcomes exposed.
+Engineered atomic-clock links support precise calibrated frequency transfer
+in their tested local setup, but do not realize this extreme-tail geometry.
+The reviewed pulsar protocol fits unknown spin/spin-down; residual precision
+does not independently bound the secular source rate needed here. Megamaser
+monitoring supplies spectral and angular records, but feature/disk reductions
+are not FRI1's means/frame. The existing near-unity systemic proxies do not
+certify the extreme paired-clock regime; no new likelihood exclusion is made.
+
+Published statistical uncertainty is not a deterministic all-time bound.
+This does not require unattainable absolute empirical certainty: for each
+fixed admitted history, a measurement model giving the JOINT required-bound
+event probability>=1-p transfers that coverage to the deterministic H enclosure.
+Conditional component failure probabilities can be combined by a union bound,
+without independence. No such instrument model or coverage certificate is
+supplied here; pointwise errors alone do not certify a whole observing hull.
+
+The [initial argument](udt_physical_clock_interface_audit_2026-10-05/INITIAL_CANDIDATE.md),
+[review clarifications](udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md)
+and [descendant review](udt_physical_clock_interface_audit_2026-10-05/DESCENDANT_REVIEW.md)
+preserve positive and negative scope. The supported return is an explicit
+missing physical interface. FRI1 remains a tool; native geometry selection,
+physical mass/X_max and an additional effect beyond matched GR remain open.
+The [decision brief](udt_physical_clock_interface_audit_2026-10-05/DECISION_BRIEF.md)
+proposes testing a specified moderate-regime protocol before any empirical fit.
+
+
+<a id="r16fcw"></a>
+
+#### A proposed regular completion and a restricted clock asymptote — FCW1
+
+Trial RG is UNADOPTED: the relevant geometry admits a regular spacelike conformal
+completion gbar=Ω²g, with smooth nondegenerate gbar and nonzero timelike dΩ at
+Ω=0. Founding asymptotic dilation and the working X_max meaning do not supply
+this additional regularity/transversality. Examine the supplied homogeneous
+sector g=-dt²+a(t)²d⃗x²=Ω(η)^-2(-dη²+d⃗x²), dη=dt/a, Ω=1/a,
+a(0)=1,η(0)=0. This is RCD1's comoving-clock protocol, not generic PSW preparation;
+no response equation or preferred universal observer is imposed.
+
+A direct ray emitted atη=0 reaches the clock at calibrated initial separation
+L whenη=L. Affine k=Ω²(1,1,0,0), unit U=Ω∂η and ω=-g(U,k)=Ω give
+p(L)=1/Ω(L), dt/dL=p. These are the existing RCD1 conditional kinematics.
+Assume Ω is C² to a finite L*, positive before it, Ω(L*)=0,Ω'(L*)=-h<0.
+Writing δ=L*-L, Taylor and direct4D curvature give
+
+    Ω=hδ+O(δ²), p=1/(hδ)[1+O(δ)],
+    t=-(1/h)log(δ/δ_ref)+O(1),
+    H=-Ω'→h, Hdot=-ΩΩ''→0, R=12Ω'²-6ΩΩ''→12h².
+
+Proper time is infinite at this asymptotic endpoint; no actual reception occurs
+there. In this sector the orthonormal Ricci components approach positive
+constant-curvature form, without selecting the interior geometry. L* is this
+emission epoch/protocol's first-arrival range in initial-distance/conformal
+labels, not identified with X_max. The echo separately needs2L<L*. Neither
+limit is a wall, seam, cutoff or selected physical scale. h and L* remain free
+control/state parameters; c_E=1 is a unit convention, not a scale derivation.
+
+Mere divergent slowing does not force a simple pole. For x=1-hη and Ωβ=x^β,
+β=1 and2 both give finite range1/h and infinite future comoving proper time,
+with p=x^-β, H=βh x^(β-1), R=6β(β+1)h²x^(2β-2). The first has
+a=exp(ht); the second has a=(1+ht)², zero endpoint gradient and H,R→0.
+The latter fails RG in this displayed completion and smooth finite positive
+nonzero conformal gauges, not under a proved classification of all extensions. R16CCW later
+uses scalar curvature to exclude an RG endpoint for that same physical future
+tail in any representation, without classifying other ends or extensions.
+Conversely, a positive compact interior deformation Ω=x(1+εb), b supported
+away from both endpoints, preserves every initial/end germ, range and residue
+while changing interior curvature. These are kinematic controls, not admitted
+native solutions. RG selects neither a unique history, equation nor extra UDT
+effect. Its physical justification remains open.
+
+If |Ω''|≤M is independently justified on a final interval, Taylor bounds
+|1/p-hδ|≤Mδ²/2. No such data/bound is supplied. Fitting h,L*,M to the same
+finite observations would not confirm an asymptote. Protocol/congruence robustness
+was the next conditional target; R16FCL below now answers the specified
+single-free-receiver question while physical RG admission remains open. This
+clock pole is not PSC1's weak-response pole. [FCW1 reviewed scope](udt_finite_comparison_whiteboard_2026-10-03/REVIEWED_RESULT.md)
+retains the proofs, controls and new-hypothesis cost.
+
+<a id="r16cpw"></a>
+
+#### Separating completion from a free-clock limit — CPW1
+
+R16FCW's comoving clocks are already geodesic. The proposed new test asks whether
+its asymptotic slowing survives additional receiver motion and nonuniform
+geometry within the still-UNADOPTED regular-completion class. No theorem about
+those free-clock limits was proved by CPW1; R16FCL below now answers its exact
+conditional successor scope. This checks an optional geometric
+connection's robustness; it does not justify RG physically.
+
+For a supplied conformal metric g=Omega^-2 gbar, put l=log Omega. Metricity and
+zero torsion give
+
+    nabla^g_X Y=nabla^bar_X Y−X(l)Y−Y(l)X+gbar(X,Y)grad_bar l.
+
+If kbar is affine null for gbar, k=Omega² kbar is affine null for g: the
+2Omega³ kbar(Omega) kbar derivative term cancels the connection correction,
+and the null-norm term vanishes. For an ordinary physical unit clock u,
+ubar=u/Omega is unit for gbar. Thus the R6 observable is exactly
+
+    omega=Omega omegabar,  omegabar=−gbar(kbar,ubar),
+    Z=(Omega_e/Omega_o)(omegabar_e/omegabar_o).
+
+The affine normalization must agree along each ray. If A=Omega_e omegabar_e
+and B=omegabar_o tend to finite positive A*,B*, then Omega_o Z→A*/B*>0.
+Two-sided positive bounds give only order bounds, not a limiting residue.
+Under regular gauge Omega→w Omega,gbar→w²gbar, omegabar→omegabar/w, so Z
+is unchanged but its residue in Omega changes. Omega is not measured distance
+or X_max. Neither a physical boundary nor a distance pole is derived.
+
+Proper normalization alone does not prove the endpoint hypothesis. In gbar=eta,
+kbar=(1,1,0,0), ubar=(cosh rho,sinh rho,0,0) gives omega=Omega exp(−rho).
+The pointwise choice rho=log Omega makes omega=1. This is not a constructed
+free-geodesic receiver family; the actual geodesic equation and preparation
+are the missing check, not a new physical cancellation mechanism.
+
+The proposed first target fixes one receiver geodesic with finite timelike
+initial data approaching a specified regular future boundary patch, and a
+regular conformal null family from compact interior emitter events. Source
+frequency is normalized consistently to1 per ray. Derive or refute the needed
+receiver and endpoint limits without assuming ubar bounded/convergent. This
+varies emissions received by one clock; it is not a fixed-emission distance
+curve or a uniform theorem over receiver populations. Global rays/caustics,
+echo availability, physical RG admission, scale and X_max remain open. The
+beta2 and interior-bump counterexamples in R16FCW retain their full force.
+
+[Proposed exact scope](udt_clock_law_physical_whiteboard_2026-10-03/SUCCESSOR_SCOPE.md)
+and [decision brief](udt_clock_law_physical_whiteboard_2026-10-03/DECISION_BRIEF.md)
+state methods, review/resource budget and stop. The successor is not executed
+by CPW1. The [synthesis](udt_clock_law_physical_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md)
+derives the bookkeeping; actual fresh reviews and short exact controls own
+their narrower validation. No field/source/action equation is adopted.
+
+
+<a id="r16fcl"></a>
+
+#### Free-clock endpoint control in nonuniform completion geometry — FCL1
+
+FCL1 answers CPW1's specified pointwise question conditionally. Supply C3
+Lorentz4 gbar and defining function x=Omega, with g=x^-2 gbar, x>0 inside,
+nondegenerate gbar and nonzero timelike dx at a future spacelike boundary.
+Supply one future unit timelike g-geodesic from finite interior data that
+approaches a point p of that boundary. RG remains UNADOPTED. No field equation,
+homogeneity, constant lapse or bound on T=u/x is assumed.
+
+Flow along grad_bar x/gbar(grad_bar x,grad_bar x) supplies a local normal chart,
+not an ansatz restricting the metric:
+
+    gbar=-N² dx²+h_ij dy^i dy^j,  N>0, h positive,
+    n=-N^-1 partial_x,  w_i=h_ij T^j,
+    gamma=sqrt(1+h^ij w_i w_j),
+    T^x=-gamma/N, T^i=h^ij w_j, dx/dtau=-x gamma/N.
+
+The given endpoint ensures a final tail in a relatively compact subchart.
+Metric regularity then bounds N,h, their inverses and first derivatives, without
+bounding the receiver velocity. The normal chart has at least the C1 metric
+coefficients needed for these estimates. The physical covector P_i=w_i/x obeys
+the exact lowered geodesic equation dP_i/dtau=(partial_i g_ab)u^a u^b/2. Hence
+
+    dw_i/dx=w_i/x+F_i,
+    F_i=(partial_i N)gamma
+        -N(partial_i h_jk)T^j T^k/(2gamma).
+
+Spatial variation remains present. The compact metric bounds give
+|F|<=C(1+|w|) for a finite local C. With s=log(x0/x), r=|w|, the upper norm
+derivative satisfies
+
+    D^+r<=(-1+C x0 exp(-s))r+C x0 exp(-s),
+    r<=exp(C x0) exp(-s)[r(0)+C x0 s].
+
+The second line follows by an integrating factor on each finite s interval;
+boundedness is obtained rather than presumed. Therefore w=O(x[1+log(x0/x)]),
+gamma->1, and **u/Omega->n_p**. Arbitrarily large finite initial velocity is
+allowed for each receiver; constants are not uniform over a population.
+The spatial equation gives y-y(p)=O(x²[1+log(x0/x)]). Consequently
+N=N(p)+O(x), gamma-1=O(x²[1+log(x0/x)]²), and
+
+    tau=-N(p)log(x/x_ref)+O(1).
+
+The remainder after the logarithm has a finite limit. Physical future proper
+time is infinite; the boundary is not a finite-time reception or material wall.
+The two fresh source-first reviewers independently supplied another route:
+for E=-gbar(T,n), a compact-tensor bound first bounds log E in the decreasing-x
+direction; the forced equation for E²-1 then drives it to zero. That weaker
+rate also proves the endpoint claim without a clock-velocity assumption.
+
+For the clock conclusion, additionally supply the exact CPW1 interior-emitter
+preparation: one regular emitter's compact proper-time interval away from x=0,
+emissions approaching a regular interior limit, and a smooth unique conformal-null
+family with regular nonzero endpoint tangents and affine data. Its physical
+emission frequency has a finite positive limit before normalization. Scaling
+each entire ray to omega_e=1 therefore preserves a finite nonzero limiting
+conformal tangent K at reception. R6/R16CPW and the derived receiver limit give
+
+    B_o=-gbar(kbar_o,T_o)->B*=-gbar_p(K,n_p)>0,
+    omega_o=x_o B_o->0,
+    Omega_o Z->1/B*>0,   Z=omega_e/omega_o->infinity.
+
+The positive finite limit is the **rescaled** received frequency B, not the
+physical received frequency. The regular ray family is supplied in FCL1. R16CCW constructs a chosen local
+emitter family under its explicit extension condition; prescribed remote
+access is not established by RG alone. C3 geometry and its stipulated C2-or-better ray variation
+cover the derivatives in R6: moving affine endpoints add only null-tangent
+terms, which vanish on contraction. No C-infinity premise is needed. Conformal gauges x->a x,gbar->a²gbar with smooth finite
+positive a preserve Z and rescale its x-residue by a(p). No numerical distance
+scale, monotonic full-history curve or physical X_max follows.
+
+One short exact control script checks six nonuniform metric/velocity cases by
+original Christoffels and two actual ray/clock families in supplied g=x^-2 eta.
+All pass, with a deliberately omitted force detected. The moving free receiver
+has xZ->1. An accelerated unit receiver with rapidity log x instead has Z->1
+and proper acceleration squared x^-2. That example lies outside the geodesic
+quantifier; it strengthens CPW1's warning against using normalization alone.
+These finite controls audit identities, not the general theorem by sampling.
+
+FCW1's beta2/zero-gradient example remains outside RG, and its interior-bump
+freedom still prevents unique history/scale selection. Physical RG admission,
+native event/path assignment, positional attribution, global branch existence,
+uniform populations, fixed-emission distance curves and echo availability remain
+separate questions. Neither an Einstein equation nor a microscopic light theory
+has been imported. The supplied geometry's normal is not an imposed finite-time
+preferred observer population.
+
+[FCL1 proof](udt_free_clock_completion_2026-10-03/INITIAL_CANDIDATE.md),
+[reviewed scope](udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md), and
+[descendant review](udt_free_clock_completion_2026-10-03/DESCENDANT_REVIEW.md)
+retain the argument, independent routes, controls and hypothesis limits.
+
+
+<a id="r16ccw"></a>
+
+#### Clock readings, curvature and the distance-attachment question — CCW1
+
+The completion whiteboard adds conditional consequences to FCL1 and narrows
+two open joins. RG remains UNADOPTED. For its C3 Lorentz4 g=x^-2 b with
+nonzero timelike dx at a future spacelike endpoint p, put kappa=-b^-1(dx,dx)|p.
+Direct contraction of the conformal connection gives
+
+    Ric[g]=Ric[b]+2x^-1 Hess_b x+(x^-1 Box_b x-3x^-2|dx|_b^2)b,
+    R[g]=x^2 R[b]+6x Box_b x-12|dx|_b^2 ->12kappa>0.
+
+No field equation is used. Kappa can vary with p. In FCL's normal collar,
+N_*=1/sqrt(kappa). This value is invariant under regular positive conformal
+gauges because dx'=a dx and b'=a^2 b at p. It is not selected by the theory.
+
+For FCL's one free receiver and regular actual interior-emitter family, let s
+be source proper time, s_* its limiting emission label and epsilon=s_*-s.
+The exact equations Z=1/(xB), dx/dtau=-x gamma/N imply
+
+    ds/dx=-NB/gamma,
+    epsilon=integral_0^x NB/gamma dv,
+    epsilon/x ->N_*B_*,   epsilon Z ->N_*.
+
+Together with FCL's finite proper-time remainder this gives
+
+    tau=-N_*log(epsilon/s_ref)+C+o(1),
+    Z exp(-sqrt(kappa)tau)->A in(0,infinity),
+    log Z/tau ->sqrt(R_*/12),   epsilon Z sqrt(R_*/12)->1.
+
+R_* is the scalar limit along that same receiver; proper times use c_E=1
+length units. These are invariant clock/curvature relations, not a spatial
+distance curve or convergence of the instantaneous derivative d(log Z)/dtau.
+For the matched scalar clock leg, 1+chi_clock=2/(1+Z^2), so
+exp(2sqrt(kappa)tau)(1+chi_clock)->2/A^2. Full pair-plane and vector-norm
+claims do not follow. Finite observations alone do not certify the limit.
+
+The invariant scalar strengthens one adverse conclusion: FCW's beta2 future
+tail has R->0, so that SAME tail cannot end at any RG point of this type,
+even in another representation. This does not classify all extensions or other
+ends. Its redshift can still diverge: for the comoving beta2 protocol the
+emitter-gap product epsilon Z diverges, whereas beta1 gives a finite residue.
+Interior-bump nonuniqueness and R9FST's scoped DDR nonselection both survive.
+
+There is also a positive local signal construction. Assume a local C3 Lorentz
+extension of b and choose a convex normal neighborhood of p. Pick e_* on a
+short past null segment from p in x>0 and an ordinary timelike emitter through
+e_*, on a compact interior interval. For F(s,q)=sigma_b(e(s),q), the limiting
+derivative F_s=-b(kbar_e,u_e)>0. The implicit-function theorem supplies a
+unique local null family to the receiver tail, with nonzero limiting affine
+tangents and finite positive emission normalization. Since x is temporal,
+these segments remain in the physical interior until their limiting endpoint.
+C3 metric data give a C2 interior geodesic/world-function construction;
+FCL's receiver extends C1 to p. No C2 receiver extension at the boundary is
+claimed. If only one-sided data without extendability are supplied, this
+technical extension condition remains explicit.
+
+This proves existence for a deliberately chosen nearby emitter, not access
+from an independently prescribed source or a global branch. In g=x^-2 eta,
+source y=0, x_e in[0.9,1.1] cannot reach a free clock at y=2 on a direct future
+ray: x_o=x_e-2<0. A boundary is not an actual finite-time reception.
+
+The distance quantifier needs a separate check. In the same supplied metric,
+fix emission (1,0) and receptions (a,1-a), a->0. Choose a DIFFERENT free
+receiver at each reception with rho=log a and constant momentum
+P_a=(1-a^-2)/2 along that receiver. Then omega_o=a exp(-rho)=1 and Z=1.
+Every receiver individually satisfies FCL; only the population's initial
+boosts are unbounded. Direct constant-P geodesic equations and an independently
+differentiated proper-clock map verify the control. It is not a counterexample
+to uniformly bounded preparations or a new accelerated-clock example.
+
+Two candidate connections remain. First, compute the invariant curvature and
+clock limits of any independently justified native geometry; a positive scalar
+limit is necessary for RG and insufficient to select it. Second, prepare a
+bounded family of free clocks and derive its fixed-emission incidence x_o(L)
+from operational initial separation, checking endpoint-map regularity and
+transversality rather than defining x to be a distance gap. The parent recommends
+this second bounded test if the RG route is continued; PDA1 below now answers
+its fixed-ray prepared-distance scope without adopting a population or geometry. Local emitter construction
+removes only a local existence assumption. Native RG admission, remote source
+access, physical positional attribution, scale and X_max stay open.
+
+SGE1 still permits zero additional contrast for identical matched geometry and
+queries, even when this pole exists. Universal law does not equate different
+preparations, and separate future one-way limits do not supply an echo.
+[CCW1 synthesis](udt_completion_connection_whiteboard_2026-10-03/INITIAL_SYNTHESIS.md),
+[reviewed scope](udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md)
+and [successor proposal](udt_completion_connection_whiteboard_2026-10-03/NEXT_TEST_PROPOSAL.md)
+retain the exact arguments, limits and then-unexecuted next proposal; PDA1 records its scoped return.
+
+
+<a id="r16pda"></a>
+
+#### Prepared initial distance and actual fixed-ray reception — PDA1
+
+The CCW1 successor is now answered at an explicitly conditional scope. Supply
+the same UNADOPTED C3 Lorentz4 RG, g=x^-2 b, with nonzero timelike dx at a
+future spacelike boundary, and normal collar b=-N²dx²+h. Fix one interior
+emission event, its ordinary unit clock tangent, and a regular outgoing null
+ray q(x)=(x,z(x)) ending at p=(0,y_p). Normalize that whole ray to omega_e=1;
+its conformal affine tangent has a nonzero regular limit K. Nullness gives
+|z'(0)|_h=N_*>0. Actual local emitter variations at each finite reception carry
+R6's received-tick interpretation. This is one fixed ray through a prepared
+population, not a distance-only law for all angles or arbitrary receiver paths.
+
+Prepare free receivers on an interior spacelike surface Sigma with smooth
+bounded timelike data and position labels a in a compact three-dimensional
+patch. L(a) is the induced-metric proper distance from a specified origin,
+smooth away from origin and cut locus. Surface, initial motions and branch
+are query choices; they are not a physically selected observer population.
+The following additional sufficient conditions remain explicit:
+
+- H1: the actual tails share a compact normal collar for 0<x<=x0, with uniform
+  metric/inverse/first-derivative bounds and uniformly bounded entry covectors
+  w(x0,a). Transit from Sigma to that collar must actually exist.
+- H2: the interior flow Y(x,a) is C1 and D_aY converges uniformly to a continuous
+  J(a); its endpoint F(a_*)=y_p has det J(a_*)!=0. Uniform label-derivative
+  convergence and nonsingularity are supplied and checked in the examples,
+  not inferred from FCL's pointwise result or bare compactness.
+- H3: d=D_aL(a_*) J(a_*)^-1 z'(0)<0 for the below-endpoint distance limit;
+  put c=-d>0. The opposite sign describes approach from above; d=0 requires
+  a separate attachment calculation. These are not necessary-and-sufficient
+  conditions for every possible distance asymptote.
+
+FCL's norm estimate now has one common constant C and entry bound W0:
+
+    sup_a |w(x,a)| <= exp(Cx0)(x/x0)[W0+Cx0 log(x0/x)].
+
+Consequently gamma->1 and Y_x=-Nh^-1w/gamma=O(x[1+log(x0/x)]) uniformly.
+Integration yields a continuous endpoint map F and
+Y(x,a)=F(a)+O(x²[1+log(x0/x)]). H2 plus the label line-segment integral gives
+D_aF=J. Thus Y extends jointly C1 with Y_x(0,a)=0. No C2 boundary extension
+or automatic label regularity is being smuggled into the argument.
+
+The actual incidence equation Y(x,a(x))=z(x), with invertible J(a_*), supplies
+a unique local C1 receiver-label curve by the one-sided implicit-function
+theorem. Extending Y as F to x<0 is only a mathematical device. It gives
+
+    a'(0)=J^-1 z'(0),
+    L(x)=L_*+d x+o(x),
+    x_o(L)=(L_*-L)/c+o(L_*-L),  L_*=L(a_*).
+
+This is derived incidence, not a definition of x as distance. Nonzero d and
+C1 continuity supply local invertibility. The uniform free-clock estimate
+gives T=u/x->n_p along a(x), hence B=-b(kbar,T)->B_*=-b_p(K,n_p)>0. R6 gives
+
+    Z=1/(x B),
+    (L_*-L)Z -> c/B_* >0,
+    (1+chi_clock)/(L_*-L)² -> 2B_*²/c².
+
+The last expression evaluates the matched scalar clock leg only. Under a
+regular gauge x'=a0x+o(x), c'=c/a0 and B_*'=B_*/a0, so the distance residue is
+unchanged. L is initial surface distance, not radar distance, elapsed ray
+length or source proper-time gap. No full-history monotonicity, global first
+arrival, universal coefficient or echo follows from this local theorem.
+
+**Exact supplied controls.** In g=x^-2 eta, future x decreasing, prepare on
+Sigma x=1; its induced metric is Euclidean. A comoving source at the origin
+emits at (1,0) along q=(x,1-x,0,0). Constant spatial momentum P gives
+
+    gamma_x=sqrt(1+|P|²x²), u=(-x gamma_x,x²P),
+    Y(x,a)=a+(1-x²)P/(gamma_1+gamma_x),
+    F(a)=a+P/(gamma_1+1).
+
+P can depend smoothly on the initial label but stays constant on each free
+worldline. Original-metric Christoffel equations and normalization check this
+flow. For P=0, L=1-x and Z=1/(1-L), 0<L<1. This normal/comoving preparation
+is not PSW parallel preparation. Ambient transport along the straight path
+in Sigma sends the source tangent to (-cosh L,-sinh L,0,0); PSW also uses an
+ambient spacelike geodesic rather than this surface path in general.
+
+For any fixed finite radial P=p e_y,
+
+    D_x=p(1-x²)/(sqrt(1+p²)+sqrt(1+p²x²)),
+    L(x)=1-x-D_x, L_*=1-p/(sqrt(1+p²)+1),
+    Z=1/[x(sqrt(1+p²x²)-px)].
+
+L'(x)=-1+px/sqrt(1+p²x²)<0, so the actual one-way range is 0<L<L_* and
+(L_*-L)Z->1. Nonzero p includes ordinary motion-dependent Doppler comparison.
+Immediate return to the source arrives at x_A=2x-1, so an echo requires x>1/2,
+equivalently L<L(1/2); for p=0 this is L<1/2. Conformal Minkowski causality
+establishes first arrivals in these controls only. The one-way endpoint is
+not a physical relay event or a wall.
+
+**Bounded noncrossing degeneracy.** The same metric and initial distance admit
+a different exponent. On a sufficiently small label ball near a_*=(1,0,0),
+write a=(1+r,v,w) and choose
+
+    F(a)=(1-v,r+v²,w), dvec=F(a)-a,
+    P(a)=2dvec/(1-|dvec|²), |dvec|<1.
+
+This is a deliberately chosen mathematical preparation control, not a fitted
+metric or native physical population. The exact flow above has this endpoint
+map. At a_*, P=0 and J is a planar quarter-turn with the third axis fixed.
+For every x in[0,1], D_aY=x²I+(1-x²)J, whose least singular value is at least
+1/sqrt(2). Uniform continuity gives a small convex label ball where derivatives
+differ from that base matrix by less than1/(2sqrt(2)). Integrating along label
+segments gives a uniform lower Lipschitz bound and proves noncrossing there.
+The flow is analytic and H1/H2 hold, but D L J^-1 z'(0)=0: H3 fails.
+
+Since Y=F-Px²/(gamma_x+1), actual incidence implies a-a_*=O(x), P=O(x) and
+F(a(x))=z(x)+O(x³). Therefore
+
+    a_2=x+O(x³), a_1=1-x²+O(x³), a_3=0,
+    L=1-x²/2+O(x³), B->1,
+    (1-L)Z->0, sqrt(1-L)Z->1/sqrt(2).
+
+Analytic implicit dependence also controls derivatives of these remainders.
+Redshift still diverges; its initial-distance exponent changes. Initial motion
+and direction vary along this selected label curve. This refutes automatic
+H3 from bounded smooth preparation plus nonsingular/noncrossing flow; it does
+not refute a specified radial parallel-prepared law or the founding asymptote.
+CCW's Z=1 example instead needs unbounded initial momentum and fails H1.
+
+PDA1 closes the conditional fixed-ray distance attachment, not physical RG
+admission, generic H2/common-collar existence, arbitrary prescribed populations,
+global source access, additional-effect attribution or a scale/X_max relation.
+SGE's identical matched geometry/query contrast still vanishes; FCL/CCW's
+pointwise and invariant results survive. The independent reviewers also found
+wavefront/path formulations and other degeneracies; those remain scoped review
+arguments, not additional maintained theorems or silently accepted premises.
+[Initial proof](udt_prepared_distance_attachment_2026-10-04/INITIAL_CANDIDATE.md),
+[reviewed scope](udt_prepared_distance_attachment_2026-10-04/REVIEWED_RESULT.md)
+and [descendant review](udt_prepared_distance_attachment_2026-10-04/DESCENDANT_REVIEW.md)
+retain the hypotheses, exact controls, exposure and limits.
+
+
+<a id="r16cpa"></a>
+
+#### What the completion branch has actually advanced — CPA1 progress audit
+
+The bounded audit traces FCL1/CCW1/PDA1 through their actual proof inputs and
+FCW1/CPW1's introduction of RG. Its finding is real conditional mathematical
+progress, with native geometry admission and additional positional attribution
+still open. This is a source-relative direction assessment, not a regrade,
+literature-novelty claim or proof of complete-postulate insufficiency.
+
+The founding interpretation of c_E as positional geometry remains a starting
+postulate. This audit asks for the provenance of the stronger RG completion,
+not an explanation of why the founding interpretation should be adopted.
+The current owner clarifications retain ordinary proper clocks and additional
+positional effects in the same geometry. F1--F4's reciprocal character takes
+supplied ordered depth; W4 supplies working common metric coupling; W5 supplies
+a typed projective interpretation. None of the inspected arguments takes their
+output as a derivation of the RG boundary conditions. Current DDR gives TF(E)=0
+for the specified response and domain, without identifying E. G312 remains
+GR FILTER ONLY; its stronger historical response-class route is still unclosed.
+
+RG enters FCW1's original relational proposal R-G1 and its selected synthesis
+as an explicitly UNADOPTED trial:
+g=x^-2 b with regular nondegenerate b and nonzero timelike dx at the future
+spacelike x=0 surface. Its differentiability, causal type and simple zero are
+stronger than a qualitative divergent-clock target. CPW1 expressly proposed
+testing the trial's clock robustness before physical admission. The recent
+proofs inherit this supplied condition. No hidden Einstein equation was found
+in those proof steps; authorized trial exploration is not physical adoption.
+FCW's original trial is smooth and its homogeneous calculation uses C2;
+CPW's successor and FCL state the later common C3 Lorentz4 scope explicitly.
+
+The prior identity omega_o=xB, Z=1/(xB) shows how much form is already supplied:
+if B has a positive finite limit, the inverse-x divergence follows immediately.
+RG and unit normalization alone do not prove that B limit for an actual clock,
+and x is not a distance. The later proofs add the following precise content:
+
+| Result | Established mathematical gain | Remaining or added conditions |
+|---|---|---|
+| FCL1 | Derives the free-receiver normal limit and positive B limit in nonuniform geometry; finite logarithmic proper-time remainder | RG; endpoint-reaching finite-data free receiver; regular interior-emitter ray family; pointwise quantifier |
+| CCW1 | Links the clock gap to invariant limiting curvature; constructs a chosen nearby emitter family; strengthens beta2 exclusion on the same physical tail; exhibits the free-population limit failure | RG/FCL query for the clock relation; explicit local extension and existential source choice for the construction; no arbitrary remote access |
+| PDA1 | Uniformizes the estimate under H1; solves actual fixed-ray receiving labels; derives a conditional initial-distance residue; gives a bounded noncrossing alternative exponent | Common domain/entry bounds H1, uniform endpoint derivatives and invertibility H2, nonzero distance slope H3; specified surface/ray/preparation |
+
+These gains can be checked directly in the argument. FCL's norm inequality
+D^+|w|<=(-1+Cx0e^-s)|w|+Cx0e^-s integrates to its vanishing bound without
+assuming late velocity control. CCW contracts the conformal Ricci identity to
+R_*=12/N_*² and integrates ds/dx=-NB/gamma to obtain epsilon Z->N_*.
+PDA differentiates actual incidence to obtain L_*-L=-d x+o(x), then multiplies
+by Z. H3 supplies first-order distance transversality and hence much of the
+simple-pole exponent; it is explicitly supplied, not proved for all populations.
+Its coefficient still comes from the metric/query, not a fitted redshift curve.
+The H3-failing bounded witness gives 1-L=x²/2+O(x³) and a square-root pole.
+That counterexample establishes a useful restriction while preserving divergence.
+
+Removing the UDT-specific interpretive labels while retaining the stated
+Lorentz metric, proper-clock/null equations, geodesic motion, RG and query data
+leaves these proofs valid. DDR, an identified response and G_obs do not enter
+them; c_E sets units. The scalar chi_clock=tanh(-log Z) is a downstream matched
+readout and does not select the input geometry. This dependency check is not a
+physical operation removing positional dilation, an empirical GR-equivalence
+theorem, or a claim that shared mathematics is illegitimate. It shows why the
+three results alone do not establish a distinctive additional UDT prediction.
+SGE's identical physically matched geometry/query still gives D_pos=0.
+
+The source audit found no load-bearing circular or false step at these stated
+scopes. Stronger claims remain unsupported: deriving RG from the founding
+asymptote; deriving it by appending the reciprocal scalar; obtaining a universal
+distance exponent from bounded preparation; identifying X_max or a physical
+scale from the chosen initial-distance endpoint; or treating review/check counts
+as proof of physical convergence. Source caveats already exclude those claims.
+No theorem here says all clarified UDT postulates are insufficient or require
+another physical premise. Ordinary initial/query freedom is not itself a defect.
+
+The recommended direction is to retain this branch as conditional diagnostics
+and redirect physical development to a specific UDT-to-geometry implication.
+Automatic expansion of RG-only examples is not justified as native selection
+progress. A future task should name the existing UDT statement, quantitative
+restriction to be derived and independent reason the candidate class is relevant.
+A unique universe, all field equations or a microscopic light model are not
+prerequisites for every useful targeted question. A separately authorized
+phenomenological trial is another possible choice, not adopted by this audit.
+
+PDA's suggested source-led admission check is now completed at this bounded
+scope; repeating its lookup is not a new step. The audit supplies no new native
+selector or selected successor derivation. A concrete reuse test is available:
+for an independently justified candidate end, compute its scalar limit; a
+nonpositive/nonfinite limit excludes this RG end, while a positive finite limit
+only survives a necessary check. Establish actual completion/query hypotheses
+before using the stored clock/gap/distance results. Finite-data confirmation
+retains separate domain/error/calibration/attribution requirements.
+
+[Initial audit](udt_completion_progress_audit_2026-10-04/INITIAL_AUDIT.md),
+[reviewed assessment](udt_completion_progress_audit_2026-10-04/REVIEWED_RESULT.md)
+and [descendant review](udt_completion_progress_audit_2026-10-04/DESCENDANT_REVIEW.md)
+preserve the source chain, both positive and negative checks, review exposure
+and recommendation limits. Charles subsequently directed retention of the
+tools and investigation of an existing-commitment geometric implication. ACI1
+in R8ACI attempts the asymptotic-curvature route and preserves an unclosed
+physical assignment alongside its finite conditional gain. Review adopts no RG
+premise or source regrade; R18 owns the current discussion return.
+
+
+<a id="r17"></a>
+
+### R17. Useful failed joins have precise limits
+
+Two response investigations illustrate how to retain a negative result without
+turning it into a general obstacle.
+
+**Conservation completion.** For a specified smooth trace-free tensor S on a
+fixed Lorentz metric, any response with that trace-free part is E=S+qg. Let
+j_b=∇ᵃS_ab. Metric compatibility gives div E=j+dq. On a contractible region,
+a conserving q exists iff dj=0, by the Poincare lemma; globally j must be exact,
+including zero obstructing periods. The primitive need not be a natural
+finite-jet operator or an Euler response of an action. For
+S=a(Ric−Rg/4) with constant a, Bianchi gives j=(a/4)dR and
+E=a(Ric−Rg/2)+Cg. This supplies a conserved representative within the conditional
+class. DDR still tests TF(E)=0 and does not thereby set E=0 or adopt an action.
+Testing only S=0 on solutions would make this off-shell diagnostic vacuous.
+
+<a id="r17c"></a>
+
+**What conservation would commit us to.** The identity div G=0, matter stress
+conservation under specified matter equations/coupling, a conserved label measure,
+and an off-shell identity div E[g]=0 for the response tested by DDR are distinct.
+The last statement is a restriction on that response for every trial metric;
+ordinary local clocks and the equivalence principle do not identify the response.
+For a hypothetical metric-plus-scalar action with convention
+\(\delta I=\int\sqrt{|g|}(E_{ab}\delta g^{ab}+P\delta\psi)\), compact-support
+diffeomorphism invariance gives
+\[
+ 2\nabla^a E_{ab}+P\partial_b\psi=0.
+\]
+The scalar Euler term cannot be dropped before imposing its equation. This is
+an unadopted comparison, not a new UDT field or a global cosmological energy law.
+The metric-only case has no such additional Euler term.
+
+On DDR solutions E=λg, conservation only implies dλ=0. It cannot establish the
+off-shell identity. In the conditional Ricci shape class, Bianchi already gave
+constant R without conservation. Completing E=aG+Cg therefore changes the
+representative while DDR continues to test TF(E)=0; imposing E=0 would add the
+condition R=4C/a for a≠0. It would be an additional equation, not bookkeeping.
+
+Even a nonvanishing scalar multiple of a response can preserve its zero set
+while changing its divergence. Hence a physical response/normalization must not
+be inferred just from the geometries satisfying an equation. A cautious
+UNADOPTED diagnostic is whether an identified S admits a smooth local natural
+conserved representative on its declared metric domain. The fixed-metric curl
+test above is necessary for that question, not sufficient for a natural finite-jet
+primitive on all metrics. It is vacuous if checked only after imposing S=0.
+
+Conservation also does not select an action. The explicitly unadopted comparison
+\(I_\alpha=\int\sqrt{|g|}(R+\alpha R^2)\) gives, for constant α,
+\[
+ E_\alpha=G+\alpha Q,\qquad
+ Q_{ab}=2R\mathrm{Ric}_{ab}-\tfrac12R^2g_{ab}
+          +2(g_{ab}\Box R-\nabla_a\nabla_bR).
+\]
+Each response is conserved off shell by its metric-only Noether identity. For
+α≠0 it is generally fourth order and lacks the preceding exact weight-zero law
+with α fixed. The extra scalar fourth-derivative flat response survives; the
+Einstein term alone does not prove empirical GR recovery or causal stability.
+No such action or dimensional coefficient is adopted as UDT physics.
+
+For the regular supplied patch g=diag(−1,1,r²,r²sin²y), r>0, 0<y<π,
+Ric=diag(0,0,1,sin²y), R=2/r². The diagnostic choice α=−r²/4 gives
+E_α=−g/(2r²), hence TF(E_α)=0 while TF(Ric)≠0 and E_α≠0. Thus even retaining
+an Einstein term and off-shell conservation does not pick its reciprocal shape
+equation in this larger comparison class. This is a degeneracy witness, not an
+admitted UDT alternative, a stable model, a preferred physical center, or a
+GR-filter pass. It extends the existing GRS1 comparison, not native dynamics.
+
+<a id="r17l"></a>
+
+**The separate second-order route.** Lovelock's classification applies to smooth
+natural symmetric metric-only two-tensor operators on the prescribed-signature
+second-jet bundle in four dimensions, divergence-free for every metric. It gives
+E=aG+Cg, with constants. This uses the published theorem, not a finite symbolic
+proof. Its order/domain/conservation hypotheses cannot be inferred from ordinary
+local metric sufficiency. It fixes neither a,C, matter coupling, global data nor
+the physical identity of E; DDR still differs from imposing E=0. CRV1's separate
+inverse-variational route has order at most three and its tensor-density/smoothness
+hypotheses, not an arbitrary-order or unique-action conclusion.
+
+The [GCA1 decision record](udt_gr_commitment_audit_2026-09-29/REVIEWED_RESULT.md)
+retains existing W4/DDR/locality statuses and GR as a recovery filter. It recommends
+conserved-representative checks as conditional diagnostics, leaving exact order,
+homothety, response identity and an action separately unadopted. These distinctions
+also constrain negative conclusions: failing one comparison class does not reject
+UDT or establish that its clarified premises require an additional postulate.
+
+<a id="r17erc"></a>
+
+**Environment-dependent response comparison — ERC1.** Under ULC1's universal-law
+meaning, consider exactly two physical response identifications, both **UNADOPTED**.
+Use the same smooth Lorentz4 metric, c_E=1, constant alpha of dimension L² and
+provisional DDR TF(E)=0. Let F=1+2alpha R. For E_A=F G, on a connected domain
+where F is nowhere zero, DDR gives Ric=(R/4)g and Bianchi gives dR=0.
+This is the earlier scalar-rescaling control: changing the formula's multiplier
+does not add regular geometries or remove the old geometry's varying clock
+comparisons. The F=0 open stratum can instead make E_A=0 for constant
+R=-1/(2alpha); isolated zeros/transitions are not classified. Off-shell
+div E_A=G(dF,.) is generally nonzero; no unstated conservation rule rejects A.
+
+For E_B=G+alpha Q with GCA1's Q above,
+
+    TF(E_B)=F[Ric-(R/4)g]-2alpha[Hess R-(Box R/4)g].
+
+The derivative term changes the equation. The response's own off-shell identity
+and trace are div E_B=0 and tr E_B=-R+6alpha Box R. Thus DDR gives
+E_B+Lambda g=0 for a free constant Lambda, rather than imposing E_B=0.
+For alpha!=0 its exact scalar equation is
+
+    Box(R-4Lambda)-(R-4Lambda)/(6alpha)=0.
+
+This is the known metric R+alpha R² response, not a native UDT law or new action
+derivation. No independent physical scalar or matter constitutive law is added;
+R remains metric curvature, with extra derivative data in this fourth-order
+candidate. Every Einstein metric Ric=Lambda g has Q=0 and remains a solution.
+Positive alpha gives oscillatory homogeneous linear curvature around Minkowski;
+negative alpha gives a growing linear scalar mode. These are limited flat linear
+statements, not global stability or unrestricted PDE causal well-posedness.
+alpha=0 returns Einstein shape. No division by F is used to erase B's strata.
+
+A regular nonuniform first variation exists for alpha>0 and Lambda=0. On a fixed
+compact exterior annulus, g00=-(1+2epsilon Psi), gij=(1-2epsilon Phi)delta_ij,
+R_geometry=epsilon R1+O(epsilon²), put
+
+    R1=A exp[-r/sqrt(6alpha)]/r, U=-mu/r,
+    Psi=U-alpha R1, Phi=U+alpha R1.
+
+Delta U=0 and Delta R1=R1/(6alpha) make all original linear E_B components
+vanish: G00=R1/3 is cancelled by -2alpha Delta R1, and the spatial Einstein
+term2alpha Hess R1-R1 delta/3 is cancelled by the derivative correction.
+Both metric potentials and nonuniform tides matter. Amplitudes A,mu and the
+decaying exterior branch are supplied boundary data, not derived matter masses.
+This is an exact first-variation solution, not an exact nonlinear exterior.
+Smoothness gives an O(epsilon²) equation residual uniformly on the stated compact
+regular domain; it gives no error against an unknown exact nonlinear solution.
+The associated clocks are treated in R8ERC below. No solar-filter pass is inferred.
+
+For a declared spatially flat homogeneous/isotropic slice, define H=a'/a,
+R=6(H'+2H²), P=R'. The original equations give
+
+    H'=R/6-2H², R'=P, P'=-3HP-(R-4Lambda)/(6alpha),
+    a'=aH, eta'=1/a,
+    C=3F H²-alpha R²/2+6alpha HP-Lambda=0, C'=-4HC.
+
+The smooth ODE and initially satisfied constraint give local conditional
+solutions. This symmetry restriction and supplied initial data are diagnostics,
+not UDT cosmological premises or a full solution-space search. The original
+tensor and actual metric-clock readouts are independently checked from saved
+metric data; constraint preservation alone does not certify them. The free
+integration constant, coefficient, initial data and source relation remain
+separate from identifying this response with UDT physics. Legitimate free data
+alone do not establish that a governing law is missing.
+
+Sources: [fixed construction](udt_environment_response_candidates_2026-10-01/INITIAL_DERIVATION.md),
+[reviewed scope and numerical limits](udt_environment_response_candidates_2026-10-01/REVIEWED_RESULT.md),
+and [method credit](udt_environment_response_candidates_2026-10-01/REFERENCES.md).
+
+
+<a id="r17rcd"></a>
+
+**Physical implication and response equivalence — RCD1.** The inspected
+owner/kernel/DDR/locality/filter/conservation/scaling chain has not justified
+ERC1's derivative equation or R8RCD's clock law as native UDT. Pair normalization
+evaluates supplied data; DDR balances a specified response; local metric
+sufficiency does not select derivative order; GR FILTER ONLY does not import
+an action. These bounded findings do not prove complete-premise insufficiency.
+
+Identifying E_physical=E_B is one sufficient route, not a necessary full-tensor
+identity or universal prerequisite for predicting clocks. For smooth nowhere-zero
+f and smooth q, TF(f E_B+qg)=f TF(E_B), so DDR has the same zero set. Variable
+f,q need not preserve off-shell conservation; constant f!=0,q preserve even
+that identity. This is an equivalence control, not a new physical candidate.
+Clock records can test the normalized equation and its relative alpha within
+this class; they cannot identify unique response normalization, pure trace,
+action or mechanism. A different justified native geometric argument may predict
+clocks without first choosing E. The [controlling repair](udt_response_clock_discriminator_2026-10-01/REPAIR.md)
+removes that unnecessary hurdle while preserving the conditional equations.
+
+<a id="r17psc"></a>
+
+**Physical-selection checkpoint — PSC1.** Two proposals are considered, neither
+adopted. S asks whether independently reconstructed scalar curvature has a common
+response scale relating space and time behavior. H asks whether local causal
+horizons obey an independently justified energy/entropy balance. They are
+physical commitments under consideration, not consequences of positional clock
+kinematics. Current founding/DDR/locality/filter meanings remain intact.
+
+For S, restrict explicitly to metric-f(R), F=df/dR and
+E_f=F Ric-fg/2+(g Box-Hess)F. This is a supplied comparison class, not selected
+by UDT. Conservation and DDR give E_f+Lambda g=0. Linearize its trace
+3Box F+FR-2f+4Lambda=0 at an actual constant-curvature background R0, holding
+Lambda fixed during that perturbation. Where F_R(R0)!=0,
+
+    [Box_0-M²(R0)]delta R=0,
+    M²(R0)=[F(R0)-R0 F_R(R0)]/[3F_R(R0)].
+
+For f=R+alphaR²+betaR³, alpha>0, M²(0)=1/(6alpha) for every beta. All beta
+terms in the original tensor begin at second perturbative order near flat.
+Temporal dispersion omega²/c_E²=k²+M² and a supplied decaying static radial
+mode exp(-Mr)/r therefore share a length ell=1/M and homogeneous period
+2pi ell/c_E, without selecting beta. ERC1 already contained the quadratic
+space/time pieces; their repetition is not a new selector. Boundaries, mode
+amplitudes, source-free sector and independent geometric measurements remain
+supplied. Positive M² alone is not global stability or empirical GR recovery.
+
+A STRONGER UNADOPTED version demands M²=mu²>0 throughout an admitted open
+connected curvature interval I. With F_R!=0, R+3mu²!=0,0 in I and F(0)=1,
+
+    (R+3mu²)F_R=F,
+    d[F/(R+3mu²)]/dR=0,
+    f=R+R²/(6mu²)+constant on I.
+
+This is a conditional selection inside the stipulated class, up to normalization
+and a pure-trace constant; it is not unrestricted equation/action uniqueness or
+physical response normalization. Neither an interval condition nor the class
+restriction follows from the same governing law for every observer. A universal
+nonlinear equation may have background-dependent response; the cubic control has
+M²(R0)=(1-3betaR0²)/(6alpha+18betaR0) and slope at0=-beta/(2alpha²).
+
+Background admission is essential. Each constant-curvature solution has
+Lambda(R0)=[2f(R0)-R0F(R0)]/4. The comparison interval generally varies this
+integration datum between solutions. At ONE fixed Lambda, an open interval of
+vacuum roots instead requires R F_R-F=0, hence M²=0 wherever defined. Thus the
+positive-pole selection theorem does not provide freely available environments
+in one universe. A source-supported comparison would need a justified source
+law and separate analysis, absent here. Finite measurements cannot prove exact
+interval invariance; scalar trace agreement cannot replace original tensors.
+
+For H, the established local horizon construction adds quantum temperature,
+physical conserved heat/stress, entropy density, stationarity and production.
+These are not supplied by ordinary proper clocks or causal geometry. To check
+its local coefficient, write S=s0 integral F(R)dA, s0>0,F>0. On an affine null
+generator with endpoint0, past lambda<0 and endpoint shear0, entropy stationarity
+sets q=F'+Ftheta=0. Raychaudhuri theta'=-theta²/2-R_kk gives
+
+    q'=F''-F R_kk-(3/2)(F')²/F.
+
+Primes here are affine derivatives. Without production the extra gradient term
+prevents recovery of the target metric-f(R) null equation for generic varying F.
+The specified local production density -s0 lambda(3/2)(F')²/F is nonnegative
+with this orientation and cancels that term. All-null balance plus the stipulated
+conserved source then has E_f as a conserved completion when F=df/dR, up to the
+integration constant. This is leading local balance, not exact finite-horizon or
+global thermodynamics. Other shear/entropy completions are not classified.
+
+Constant F yields an Einstein-type response. With the stipulated stress its
+completion is the sourced Einstein equation; vacuum Einstein shape requires
+vanishing trace-free source. Choosing F=1+2alphaR yields R²; choosing a
+quadratic F yields the cubic control. The entropy function has already supplied
+the equation choice. Inferring it from that equation and feeding it back is not
+independent physical selection. No UDT entropy observable, heat/source law or
+practical independent measurement is established. The [primary-method provenance](udt_physical_selection_checkpoint_2026-10-02/REFERENCES.md)
+credits Jacobson1995 and the Eling-Guedens-Jacobson2006 correction; none is a
+UDT premise. The [reviewed return](udt_physical_selection_checkpoint_2026-10-02/REVIEWED_RESULT.md)
+retains these hypothesis costs and distinguishing-test limits.
+
+<a id="r17cmf"></a>
+
+**Independent necessary response test — CMF1.** For the same UNADOPTED
+quadratic source-free comparison E_f+Lambda g=0, f=R+alphaR², constants
+alpha!=0,Lambda, its exact trace is
+
+    6alpha Box_g R−R+4Lambda=0.
+
+This inherited equation holds beyond a homogeneous or linearized sector.
+CMF1 adds the independent measurement interface in R8CMF, not a new response.
+Let Q=Box_g R. Two events with Delta R!=0 and Delta Q!=0 determine
+alpha=Delta R/(6Delta Q), Lambda=(R1−6alpha Q1)/4. Further independent events
+must obey the same affine relation Q=M²(R−4Lambda), M²=1/(6alpha).
+Two-point fitting supplies no confirmation. Positive alpha requires a positive
+slope; Delta R!=0 with Delta Q=0 rejects all finite alpha. Equal sampled R with
+unequal Q rejects alpha!=0; equal R and Q at two events leaves a parameter line.
+Only constancy of R on an open region forces Q=0, Lambda=R/4 and leaves alpha
+undetermined. Near-zero differences make parameter recovery ill-conditioned.
+With per-event bounds epsilon_R,epsilon_Q and |Delta R|>2epsilon_R,
+
+    |M_hat²−M²|<=(2epsilon_Q+2|M²|epsilon_R)/(|Delta R|−2epsilon_R).
+
+The exact trace test avoids a tunable background family or monochromatic mode;
+informative variation, independent measurements/derivative bounds and the
+stipulated source-free sector are still required. No physical source-free
+certificate or way to excite such a state is supplied. Unknown forcing can
+imitate any different scalar-response coefficient, so geometry data alone do
+not separate an unrestricted source from the law. No source model is adopted.
+
+Scalar agreement is necessary, not sufficient: R8PSC's a=sqrt(1+2ht),h!=0,
+Lambda=0 has R=0 and passes the trace while original E00=3H²!=0. Seven-frame
+scalar readout does not supply all remaining tensor components. A failure tests
+this candidate plus the stated preparation/sector, not the UDT founding premise.
+Inferring geometry/distances using the tested equation would make the test circular.
+
+PSC1's general-f(R) weak pole still needs independently matched constant-curvature
+Einstein background, linear remainder and source/mode controls. Delta R is
+first-order gauge invariant for constant background R; a varying background
+needs relational matching. Flat dispersion and radial exponential profiles are
+restricted to flat/controlled-flat settings, not arbitrary curved backgrounds.
+One temporal frequency without spatial-wave-number information cannot identify
+the pole. Neither the exact trace test nor finite observations establish PSC1's
+strong positive-pole invariance over an open background interval. Its fixed-Lambda
+obstruction and nonlinear weak-pole nonselection remain unchanged.
+
+R8PSC's quartic/quintic clock test retains the stronger spatially flat homogeneous,
+comoving, independently measured L and H0=R0=Lambda=0,P0!=0 preparation. Generic
+PSW or astronomical records do not provide it. Isolating b4 or b5 amplifies
+log-clock error respectively as L^-4 or L^-5, with independent lower-order,
+distance and Taylor-remainder control also needed. Echo kinematics and generated
+affine fixtures are not independent law evidence. No empirical/native selection,
+new physical premise, response normalization or practical instrument result follows.
+
+<a id="r17cbr"></a>
+
+**Finite diagnostic return — CBR1.** In R8CBR's supplied controls, fit the
+necessary affine (R,Box R) relation at the first/last events and withhold three
+interior events. The positive quadratic example returns alpha=1.000064914,
+Lambda=-1.29772e-5, with largest held-out Box residual3.6631e-6. A separate
+saved-a calculation of the original tensor equation gives parent residual
+2.213e-7 and independent-review residual below4.694e-8 on their respective
+finite point/stencil designs. This is a numerical equation check, not a
+continuum certificate or evidence for physical source-free applicability.
+
+The cubic off-law control admits an endpoint fit but fails held-out comparisons
+by.1750759. Its fitted parameters are not recovered physical constants. The
+exact R=Box R=0 control remains scalar-uninformative and has nonzero original
+E00=3H². Its small finite reconstructed scalars do not overturn that exact
+property. Thus scalar success, parameter identifiability and full tensor
+admission remain distinct. Independent metric-generated calibration and the
+positive equation-generated geometry are disclosed, not evidence of native UDT
+selection. Physical response identification and positional attribution stay open.
+
+**Finite clock variation.** For increasing curve labels s,t and arrival t=A(s),
+proper-clock factors N_e,N_o give Z=N_o(A)A'/N_e. Logarithmic variation is
+\[
+ \delta\log Z=b_o(A)-b_e+(\partial_t\log N_o)(A)V+V'/A',
+ \qquad b_i=\delta\log N_i,\ V=\delta A.
+\]
+For a regular affine baseline ray and fixed-label endpoint displacements W_e,W_o,
+stationarity of its geodesic action gives
+\[
+ I=\tfrac12\int h(k,k)d\lambda,\quad
+ V={I-g(k_e,W_e)+g(k_o,W_o)\over N_o\omega_o},\quad
+ b_i=-\tfrac12h(u_i,u_i)-g(u_i,\nabla_{u_i}W_i).
+\]
+The arrival and clock terms retain ray/event motion; they do not freeze the
+physical query when g varies. These formulas require a smooth nondegenerate
+branch and its stated protocol; fixed source proper time needs the additional
+label relocation when it has not already been carried in W_e.
+
+For fixed endpoint clocks and a flat baseline, a small interior perturbation
+−exp[-2εt b(x)]dt²+exp[2εt b(x)]dx²+dy²+dz², with nonzero nonnegative smooth
+bump b supported away from both clocks, has first log-clock response
+2∫b(x)dx>0. The direct null ODE gives this: dt/dx=exp(2εt b), so the arrival
+variation is 2∫(s+x)b dx and its s derivative is 2∫b. Clock neighborhoods
+remain unchanged. This is compatible with ordinary local clocks.
+
+One fixed query's nonzero variation is supported on its ray/endpoints. It cannot
+be represented for all smooth compact perturbations by a smooth4D volume tensor:
+tests off the ray force that tensor to vanish there, and smoothness makes it
+vanish everywhere. This excludes that particular identification. It excludes
+neither local field equations with nonlocal observables nor multiquery/local-limit
+reconstruction or relational/global restrictions. No native UDT nonexistence
+conclusion follows from a supplied geometric witness.
+
+Sources: [CRV1 qualified conservation route](udt_conservation_variational_response_2026-09-28/REVIEWED_RESULT.md),
+[FCV1 variation and support proof](udt_finite_clock_metric_variation_2026-09-28/REVIEWED_RESULT.md).
+CRD1's elliptic principal warning likewise concerns its restricted scalar-forcing
+attempt. Local response selection, action construction and Machian matter coupling
+are optional routes, not universal prerequisites for every clock consequence.
+
+<a id="r18"></a>
+
+### R18. What can now be used, and what remains open
+
+**Current return — FKA1.** D1/R1FKA retain Charles's clarified postulate:
+observed c_E is mutual slowing of separated clocks, interpreted as light travel
+time. The audit accepts this meaning and checks its mathematical realization.
+It does not install independent propagation physics as its judge. R1/R2's
+explicit dual-action chain and R4's conditional completed-pair kernel survive;
+the earlier analog argument does not prove the identification between mutual
+clock slowing and inverse time/radial factors. This is an inspected implication
+gap, not a theorem of insufficiency of the full postulates.
+
+R6FKA gives a direct bridge without propagation assumptions: the supplied
+clock correspondence determines T=Z and chi_clock=(1-Z²)/(1+Z²). It encodes
+the relation, while a predictive physical event/path-to-depth assignment remains
+open. The proper-ruler/calibration and nonzero-shift controls keep the physical
+query explicit. Conditional null realizations remain useful on their stated
+inputs; static restrictions cannot become whole-postulate exclusions.
+
+R6FKAW constructs a single geometric representation of specified bilateral
+clock maps with ordinary free clocks. The same records occur in flat and
+curved members, whose completed tapes differ from one chosen radar convention.
+This closes a concrete inverse-realization/ruler test; its bounded nonuniqueness
+does not prove insufficiency of the full UDT commitments or require new physics.
+
+The [descendant review](udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md)
+retains both positive and negative premise scopes. No blanket deletion or
+regrading of the accumulated results follows. Historical editions and CANON
+are preserved. The [decision brief](udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md)
+locates the remaining mathematical connection; no additional physical premise
+is adopted or proved necessary. Actual reviews, checks and publication receipts
+own completion. Stop for lay discussion after those gates; no automatic
+successor or protected restart follows.
+
+**Previous return — ALP1.** R8ALP rejects two specific attempts to justify the
+prepared angular sign. A fixed Lorentz sky's positive reception mean depends
+on its measure; it is not the prepared finite-clock mean. The UNADOPTED
+SCN2 equality N_±=<p_±^-2>=1 and SCB2 bound N_±<=1 imply AMS by Jensen, but
+are stronger: in regional vacuum their leading deviation is
+(8E²+3B²)L⁴/180, positive at every nonzero-Weyl event for each fixed finite
+laboratory. Exact SCN2 at every event and observer in a region, for all
+sufficiently short preparations at each laboratory, forces first Ric=0 and
+then Weyl=0; that all-quantified flatness result is not assigned to
+AMS, SCB2 alone, a pointwise-vacuum query or a distant-only law.
+
+The same calculation gives a positive conditional tool. Ideal short-distance
+moments m4=lim M/L⁴ and n4=lim(N-1)/L⁴ infer E²=15(n4+2m4) and
+B²=20n4-80m4 under FAC1's regional-vacuum/regular-preparation assumptions.
+It does not detect vacuum, reconstruct a full tensor/history, isolate positional
+physics or establish a finite-precision experiment. A normalized actual
+arrival-angle Jacobian leaves an uncontrolled clock mismatch; no physical sign
+law follows from its definition.
+
+The independent finite/distant control uses supplied nonvacuum metrics with
+opposite local signs, a common first-reception limiting separation D and the
+same distant divergence power. It refutes that kinematic distant-to-local
+implication, not the whole founding interpretation. D is not physical X_max,
+a spacetime boundary, an adopted scale or an empirical GR-recovery target.
+A distant physical relation remains possible; no all-observer result follows
+from that family. Neutral angular sampling is a legitimate convention, and
+curvature-dependent sampling is a different experiment, not a FAC1 repair.
+
+FAC1's regional-vacuum theorem M_±=(4E²-3B²)L⁴/360+O(L⁵), its actual positive
+Kasner/plane-wave and negative Kerr controls, and its conditional AMS inequality
+survive unchanged. AMS at all sufficiently short queries requires 4E²>=3B²;
+strict inequality suffices for each fixed observer and equality remains open.
+Native vacuum admission, physical attribution and regime remain UNADOPTED.
+The recovery obstruction still requires the same common finite query in the
+positivity domain. Shrinking domains, distant onset and finite-tolerance
+recovery remain distinct possibilities; no all-frame classification is supplied.
+
+Both fresh ALP1 reviewers challenged the continuation decision. The tested
+identifications and useful conditional diagnostic meet the work-order return
+point. This does not establish exhaustion of conjectures/literature, prove full-
+postulate insufficiency or require a new premise. A further informative route
+would motivate an actual clock-angle or finite-domain comparison relation and
+test it, rather than manufacture another positive average. No GR reference is
+mandatory for every possible approach. Native geometry, response, source and
+scale remain open. LIVE and actual final attestations/check/publication receipts
+own closure; Stop for lay discussion after those gates. The PIA1 application
+stays deferred and no successor is automatic.
+
+PEA1's conditional normalized conformal reference remains unique on its stated
+Weyl-injective existence domain; its incompatible flat-approach contrast limits
+still exclude the specified universal continuous assignment, not restricted
+uses or UDT. Its held-orbit echo/tide tool retains its explicit stationary
+reference and regular relay preparation, nonzero-invariant inverse domain and
+lack of a vacuum/physical-cause converse. FAC1 does not adopt that reference:
+its conformal families are supplied recovery controls. No prior result is
+regraded by choosing a different prepared observable.
+
+COC1's radar-area preparation, equivalent conditional matched S+F restriction,
+total-law nonzero-Schwarzschild obstruction and bounded scalar attribution/closure
+limits survive at R8COC. GRC1's alternatives, GRL1's rich-track rigidity and
+G374/G375's fixed-base conformal classifications are not overturned by the
+weaker same-history CVA comparison. IEC1/ESR1 retain their different PSW and
+locally-symmetric scopes. The supplied PEA1 controls are not preferred models
+or full-postulate counterexamples. Every physical trial remains unadopted.
+
+R12T now supplies a three-coordinate metric engine, longer finite conditional
+histories and independently checked actual null-clock queries. TPP1 broadens
+initial data and adds tested production controls, with its failed original
+refinement gate and narrower repair preserved. TPS1 completes the finite
+78-dataset/234-run survey and one26-run tighter-step repair without an elapsed-time
+cutoff. All78 supplied datasets now have qualifying numerical realizations;
+the original65 PASS/13 unqualified result remains visible. Original clock
+and refined clock comparisons pass, with a reviewed descriptive atlas preserving
+both editions. The finite return is complete and is a discussion boundary.
+These numerical gains do not identify R9's physical response or select a
+native UDT geometry.
+
+PSW1 now supplies the prepared local curvature diagnostic in R8 and tests two
+concrete connections. Its first result explains a restriction already built into
+the Ric=0 survey: that equation fixes the leading prepared angular mean to zero.
+This is not an explanation of every finite TPS1 plot and not a failure of UDT.
+Increasing the same survey cannot discover a nonzero coefficient that its equation
+has already fixed. Higher-order/finite-distance vacuum questions remain legitimate
+when separately justified; no blanket ban or completeness claim follows.
+
+The first proposed physical connection is made precise by ideal clock tomography:
+
+\[
+ c(U)=-6\lim_{L\to0}\overline{\log p_L}/L^2=\operatorname{Ric}(U,U).
+\]
+
+For records from one smooth metric, all future unit timelike U determine a unique
+symmetric tensor C=Ric. If two such tensors agree, their difference has quadratic
+form zero on the open timelike cone by homogeneity, hence vanishes by polynomial
+identity and polarization. One U gives only one contraction; arbitrary noisy
+records require compatibility/error checks. This is ideal reconstruction, not
+instrument certification or reconstruction of the full Riemann tensor/history.
+
+Now propose, **UNADOPTED**, that this determines the complete trace-free response
+in R9: E_response=a C+lambda g, with a nowhere zero on the declared smooth4D
+domain. DDR would give TF(Ric)=0. Contracted Bianchi then makes Ric=Lambda g
+with constant Lambda on a connected domain, without invoking an action or
+ off-shell response conservation. This repeats the known conditional Einstein
+branch; it fixes neither Lambda's sign/value nor an additional positional effect.
+The unsupported choices are identifying the measured C with the balanced response
+and excluding other trace-free response channels. Reconstruction completeness
+for C does not establish physical response completeness. J1 remains independent.
+FE1's unadopted volume-response proposal is the nearest prior attempt and reaches
+the same equation; the new operational clock meaning is not a new field law.
+No E=Ric identification enters R9's accepted premise chain.
+
+The alternative connection is NCI1's already studied endpoint factorization:
+for a specified U, -log Z=Psi(B)-Psi(A) on every short regular null segment iff
+ exp(-Psi)U is conformal Killing. The neighborhood criterion is zero shear and
+ exact alpha=a_flat-H U_flat; local closedness alone omits global periods.
+Equal-kappa controls from R8 satisfy it with Psi=-log(1+kappa t²), for either
+sign of kappa on their regular domains. Unequal kappa controls fail on a time
+neighborhood despite initial zero shear. This proposed restriction is testable,
+but neither F3's ordered algebra nor the inspected positional premise supplies
+it. It does not select the intended sign or asymptote. Likewise opposite-direction
+net positivity B(n,n)>|a·n| retains a supplied congruence and can hold for flat
+Milne clocks. Net mutual redshift alone is not positional attribution.
+
+FPC1 now makes the finite possibility concrete in R8: a supplied positive space
+form gives mutual first-signal redshift with nonlinear divergence, with a different
+echo limit; a Ricci-flat example retains higher-order principal-axis means. The
+stronger universal prepared-net condition would exclude an open Ricci-flat region,
+but that condition is not silently assigned to the founder's positional effect.
+Received ticking is already defined; the remaining question concerns physical
+geometry and which net or matched comparison realizes the additional requirement.
+The exact standard-GR example shows compatibility of the shape, not additional
+predictive content, full tested-regime recovery or selection of sign and scale.
+
+FNA1 completes that bounded representation audit in R8. The actual null family
+now supplies a regular full W1 pair, density and shift; independent full transport
+reproduces its signed projective clock depth. Presentation phi, completed tape,
+initial proper separation and causal limits retain different meanings. The
+static-chart boundary is not a failure of the signal comparison. This narrows the
+open connection: assembly is explicit for this supplied example; physical
+selection and the additional positional consequence remain unestablished.
+The same representation admits both curvature signs and flat space. Zero angular
+null-screen amplitudes do not mean zero timelike curvature or exact quiet-vacuum
+recovery. No geometry, curvature scale, Einstein response or X_max is adopted.
+
+FST1 now tests those commitments on the explicit family. The all-pair DDR condition
+is automatically satisfied by every local metric-natural symmetric rank-two
+response on a space form, wherever that response is defined. This conditional
+symmetry limitation is stronger than merely saying E has not yet been identified:
+choosing another member of that response sector does not make this on-family
+balance select kappa. Other metrics, response types, domains, global physical
+restrictions and independent scalar conditions are not excluded by the lemma.
+
+A specified matched prepared-clock comparison does discriminate kappa relative
+to kappa0, and declared finite tolerances yield exact bounds in R8. The reference,
+physical positional attribution and empirical filter inputs remain independently
+required. FNA1's present-tense W3 law-level sentence is corrected here: current
+GR FILTER ONLY does not adopt stronger historical quiet principal-response overlap.
+The original imported Ric=0 comparison survives at its original conditional scope;
+zero angular amplitudes do not make it mandatory or constitute its satisfaction.
+
+The return separates native physical branch admission from selection/calibration
+of its scalar state. A free scalar is not itself proof of a missing law; a field
+law need not choose one universe. Before more searches, the productive decision
+is which already justified physical relation or operational comparison can supply
+a test beyond these representation and symmetric-balance identities. No new
+postulate is proved necessary and no physical connection is invented to force
+closure. The [FST1 decision brief](udt_finite_selection_test_2026-10-01/DECISION_BRIEF.md)
+records the bounded survivors, alternatives and discussion return. No successor
+computation or physical adoption begins automatically.
+
+ECS1 supplies the internal clock test in R8 without a GR reference or selected
+curvature scale. Its exact transverse-metric witness also shows why this one
+family of timing records cannot select the full metric. The existing Kasner
+control is distinguishable, so the relation has a real but conditional use.
+Neither agreeing with this relation nor adding more separations in the same
+sheet closes the physical-admission question. A future proposal should identify
+the physical relation being tested beyond these identities; merely accumulating
+more compatible shapes is not that relation. Additional directions can distinguish
+the explicit mimic but do not by themselves supply a field law or complete
+reconstruction theorem. The [ECS1 decision brief](udt_echo_consistency_2026-10-01/DECISION_BRIEF.md)
+marks this bounded return; no universal echo law or successor is adopted.
+
+PCC1 now gives the proposed additional isotropic curvature a precise, conditional
+meaning in R8. All-frame prepared-clock contrast fixes the curvature difference,
+including its Weyl equality; it does not make total gravity isotropic. The nonuniform
+witness and variable-reference counterexample establish different regional scopes.
+For a vacuum reference the surviving Ricci equation is a familiar cosmological-term
+possibility, not a new consequence of DDR or a distinct UDT law. The required reference
+and physical positional attribution are still supplied. Choosing another compatible
+metric or simply enlarging the same numerical survey will not justify that supplied
+connection. This does not prove native closure impossible: the tested leading-L²
+assignment is only one unadopted possibility. The [PCC1 decision brief](udt_positional_curvature_connection_2026-10-01/DECISION_BRIEF.md)
+returns for discussion without adopting the trial or launching a successor.
+
+ULC1 closes the subsequent wording question: the owner means one governing law
+with circumstance-dependent clock comparisons, including acceleration and local
+gravity due to nearby matter. The physical geometry/assignment question remains
+open. PCC1 is retained as a conditional option, with neither its stronger
+all-frame equality nor a particular reference imposed by this clarification.
+Its positive compatibility witnesses and negative inference limits survive
+at their original scopes. This is a direction clarification, not a new source
+equation, new matter premise, proof of underdetermination or successor dispatch.
+
+ERC1 now carries that direction into the explicit conditional comparison in
+R17ERC/R8ERC. The scalar multiplier adds no regular shape solutions; the known
+curvature-derivative response admits nonconstant curvature and can generate
+finite-separation clock effects through its equation and supplied data. This is
+more than choosing a clock profile: the flat-event cubic behavior follows from
+the declared governing equation. It is still not evidence that UDT selects that
+response or that this clock change is its additional positional effect. Source
+coupling, physical calibration, empirical recovery and global completion remain
+unestablished. The nonuniform exterior and evolving cases are controlled examples,
+not a matter theory or a universal net-redshift law; the contracting control remains.
+The [ERC1 decision brief](udt_environment_response_candidates_2026-10-01/DECISION_BRIEF.md)
+returns the physical response-identification question for discussion. Extending
+these same numerics would not by itself justify that identification. No new
+postulate is proved necessary and no successor is launched automatically.
+
+RCD1 now supplies the concrete clock relationship in R8RCD and audits its native
+implication in R17RCD. State freedom does not make every curve pass the equation:
+the cubic-only history is excluded, while a specific fifth-order correction
+permits the flat-event candidate. The physical implication is still unestablished
+in the inspected chain. The next proposal should name a justified UDT argument
+or independently justified observation that can require, distinguish or reject
+this relationship. More compatible curves or a coefficient fitted to the same
+generated history do not do that. Response identification is one possible route,
+not a universal prerequisite. The [RCD1 decision brief](udt_response_clock_discriminator_2026-10-01/DECISION_BRIEF.md)
+returns the conditional discriminator for discussion, with no adoption or
+automatic successor. No new premise is proved necessary.
+
+PSC1 makes the physical choice more explicit in R17PSC/R8PSC. S's weak response
+is testable in principle but permits nonlinear completions; its stronger interval
+invariance is selective only after substantial class/background commitments.
+H relocates selection into a supplied entropy law and currently lacks an independent
+UDT entropy/source interface. The recommendation is to retain S as a geometric
+diagnostic and stop treating H as an independent R² selector; neither is adopted.
+The no-change option keeps the founding interpretation and conditional comparisons.
+CMF1 supplies the ideal measurement interface in R8CMF/R17CMF; CBR1 now
+completes its finite CPU benchmark in R8CBR/R17CBR. Actual prepared-clock records
+support the diagnostic on supplied controls, including held-out discrimination,
+tensor false-pass detection and explicit precision costs. This completes the
+numerical-tool step; it does not supply a new native response identification.
+The recommended discussion returns to that physical connection. Any next
+proposal should identify a specific UDT implication or independently justified
+observation that distinguishes surviving responses and state what is new beyond
+RCD1/PSC1. More supplied curves alone do not close the gap. Leaving the candidate
+unselected is legitimate; no new founding postulate is proved necessary. The
+[CBR1 decision brief](udt_clock_reconstruction_benchmark_2026-10-03/DECISION_BRIEF.md)
+returns this choice without starting a successor, GPU campaign or empirical fit. The [PSC1 decision
+packet](udt_physical_selection_checkpoint_2026-10-02/DECISION_BRIEF.md) names
+the premises, provenance, alternatives, counterevidence and exact discussion
+decision. No necessary-new-postulate or complete-underdetermination claim follows.
+
+FCW1 now supplies the requested finite-comparison whiteboard return in R8FCW and
+R16FCW. One specific aligned mimic fails a transverse prepared echo at sixth
+order; a proposed regular conformal completion fixes a restricted pole exponent
+but leaves interior histories free. These are explicit conditional gains beyond
+repeating a nonselection argument. FC and RG are new UNADOPTED physical trials,
+not hidden consequences of universality or the founding interpretation. The
+first recommended derivation is now completed by IEC1 in R8IEC: the general
+locally symmetric echo includes a quartic transverse-curvature term and an
+explicit sixth-order contraction. The earlier coefficient survives for tidal
+eigen-directions. Opposite preparations separate geometric information without
+adopting FC. FCL1 now answers the specified completion/free-clock robustness question
+conditionally in R16FCL; a physical reason for RG is still absent. The
+[FCW1 decision brief](udt_finite_comparison_whiteboard_2026-10-03/DECISION_BRIEF.md)
+returns these targets, alternatives and hypothesis costs. No successor, physical
+adoption, field-law selection or new campaign starts automatically.
+
+IEC1's proposed all-frame scalar selectivity question is now answered by ESR1
+in R8ESR. Within the supplied ∇R=0 class, arbitrary smooth Q forces constant
+sectional curvature; the exact rational rule then follows on attained records.
+Flat and zero-leading cases are explicitly covered. The theorem leaves sign,
+scale and global geometry free and supplies no physical authority for FC.
+It strengthens the conditional classification without refuting the weaker
+restricted-sheet mimics or turning universal law into scalar sufficiency.
+
+CPW1 now completes the physical-meaning whiteboard requested after ESR1.
+Its three independent contributors recommend parking an FC physical-selection
+extension: equal first-ratio preparations need not be equated by universal law.
+The inspected sources do not establish FC, while R6--R8's richer conditional
+comparison law is already available. This is neither a retraction of the scalar
+kernel nor a proof that complete UDT needs a new premise. ESR1 and all earlier
+positive/adverse controls retain their scopes; physical attribution stays open.
+
+FCL1 now completes that separately proposed free-clock derivation after Charles
+authorized it and the startup cleanup. The geodesic equation supplies the missing
+receiver bound in arbitrary nonuniform RG geometry near the specified endpoint;
+the regular interior-emitter null family then gives the positive finite Omega Z
+limit and divergent redshift. A moving free control passes, while an accelerated
+control demonstrates the importance of the receiver hypothesis. Two fresh
+independent arguments support the result; no physical premise is adopted.
+
+The answered FCL question is no longer left as an unexecuted obstruction.
+CCW1 now connects its asymptote to source proper time and limiting scalar
+curvature, and constructs a regular family for a chosen nearby emitter under
+an explicit local extension condition. It retains the distinct question of
+access from a prescribed distant source. The beta2 obstruction is stronger for
+its same physical future tail; the frozen original FCW source is not rewritten.
+A different-free-receiver population with unbounded initial boosts keeps Z=1,
+so the pointwise theorem cannot become a distance curve by changing quantifiers.
+
+PDA1 now completes the authorized prepared-distance test in R16PDA. Uniform
+free-clock control, a supplied regular invertible endpoint map and nonzero
+distance transversality derive an actual simple pole for one fixed emitted
+ray through that prepared population. The operational initial surface distance
+is computed on the receiving labels. Exact controls verify a positive moving
+family and a bounded, noncrossing family whose distance slope vanishes and whose
+asymptote is a square-root pole. Bounded motion alone therefore does not supply
+the positive theorem's transversality. This does not refute a specified radial
+parallel preparation, ordinary local clocks or the founding asymptotic aim.
+
+Physical RG admission and native event/path assignment remain open. Generic
+H2/common-collar admission, global prescribed sources/populations and a universal
+distance-only law are not established. The invariant clock/curvature and local
+distance results evaluate the supplied geometry; they do not select it, isolate
+the additional UDT contribution, set a scale or identify X_max. No new physical
+premise or complete-postulate insufficiency theorem is adopted.
+
+CPA1 now completes that bounded progress/admission-source audit in R16CPA.
+The mathematical gains above survive, including the negative controls. The
+source chain reaches FCW's explicit unadopted RG trial and CPW's robustness
+dispatch; no later step in the inspected chain derives native admission.
+Consequences under that input do not themselves justify it. H3's contribution
+to the distance exponent is made explicit without miscalling PDA circular.
+The proof-input check preserves the metric equations and is not a physical
+operation removing positional geometry or an empirical GR-equivalence claim.
+
+Charles accepted CPA1's direction to retain tools and seek an existing-premise
+geometric implication. ACI1 in R8ACI now returns a finite curvature restriction
+for a declared realization of the working asymptotic target. Its unclosed
+physical comparison assignment leads the result; this is not a native geometry
+selector. The proof controls relative transport through a curvature integral,
+with initial-motion/acceleration allowances and a fixed-endpoint sweep domain.
+Its regular scalar-zero sharp control shows why neither a local singularity
+nor the specific RG endpoint follows from divergent received slowing alone.
+
+The [fixed ACI1 return](udt_asymptotic_curvature_implication_2026-10-04/DECISION_BRIEF.md)
+retains that finite necessary test without native admission. Charles then
+authorized GRL1's bounded GR literature review, now developed in R8GRL. Its
+rich-operational-agreement theorem and corrected local drift diagnostic add
+useful conditional tests. Neither supplies the extra positional requirement's
+physical comparison assignment. Exact complete agreement with a reference
+metric is stronger than GR FILTER ONLY; temporal drift is not the asymptotic
+separation requirement. The supplied flat control blocks a raw-drift curvature
+sign inference while preserving the corrected geometric identity.
+
+The [fixed GRL1 return](udt_gr_physical_connection_review_2026-10-04/DECISION_BRIEF.md)
+retains that distinction. Charles then authorized PRT1's steps1–3 and a clear
+handoff to4/5. R8PRT now specifies the existing prepared free-clock experiment,
+separates its net and matched-contrast readings from the required additional
+effect, and derives conditional weak tidal inequalities. Its non-Einstein
+positive-sign control preserves the distinction from PCC's equal-coefficient
+trial. The old cubic control's newly checked future domain allows zero initial
+quadratic term and a distant first-reception asymptote with bounded future local
+curvature. These supplied controls do not select a native UDT geometry.
+
+The [fixed PRT1 return](udt_positional_requirement_translation_2026-10-04/DECISION_BRIEF.md)
+retains that conditional chain. Charles then authorized steps 4/5, now developed
+in R8OEV. OEV1's three-channel/eight-source assessment selects megamaser distance
+and systemic spectral summaries as the immediate limited data lead. Six source
+rows yield explicit marginal constraints with the disk/readout/frame assumptions
+retained. No redshift-derived distance, D_A-to-PSW-L identification, H0/flow fit,
+joint likelihood or native positional attribution enters that conversion.
+
+The bounded evaluator solves the original affine/transport query on existing
+controls and passes actual smoke/restart and independent saved-artifact checks.
+Its 14 queries at 3 tolerances are 42 retained records; tight 14 meet frozen limits.
+It supplies no metric evolution, native admission or physical scale. Observed
+numerical refinement and finite sample agreement are not continuum/global proofs.
+
+OEV1 completed its observation map, permitted narrowed marginal constraints
+and finite supplied-control evaluator. It did not select an astronomical metric
+or native evolution equation. Charles then authorized ACP1 to construct and
+audit the first actual astronomical comparison.
+
+[ACP1's fixed lay return](udt_first_astronomical_comparison_2026-10-04/DECISION_BRIEF.md)
+records the preceding comparison stage. R8ACP specifies one same-metric forward comparison
+for CGCG 074-064: actual spot directions, spectral ratios and their finite-window
+changes. It derives the optical-drift accounting and full angular-map requirement,
+retains the source-owned likelihood and reports concrete summary restrictions.
+The selected target is justified by explicit source documentation, not by a
+successful UDT fit. No fitted or native astronomical geometry is supplied.
+
+The audit narrows the source bridge: statistical margins do not replace model
+systematics; a scalar D needs the matching source/map approximation; a fitted
+systemic z0 needs a regular reference-clock realization before an actual R6
+clock-leg interpretation. No clock is invented at the SMBH center. A full
+spot-level test needs the complete table, source histories and actual
+monitoring/channel reduction. Access failures and a source count inconsistency
+are retained without manufacturing data or asserting the published fit is wrong.
+
+CGE1 now supplies a restricted mathematical instance of that metric/source
+construction in the already conditional R10 branch. R8CGE derives the exterior,
+actual circular test-clock motion and a free receiver's same-metric null/sky
+records. Direct original-equation checks, finite arrival derivatives and
+independent methods agree. No empirical data entered its frozen examples.
+
+This is a conditional construction gain, not a native-selection gain. Its exact
+single-radial-shift family shows how different allowed receiver preparations can
+mask changes in Lambda; it does not prove degeneracy of the full observations.
+The central environment is a supplied exterior, not a universal cosmic center,
+and its regular orbiting clock is not the published source's fitted systemic
+reference by declaration. ACP1's full source/map/data requirements persist.
+
+CPR1 now tests existing commitments against this candidate. R8CPR proves
+a static-region received-ratio bound for the fixed regular orbiting source and
+finite-energy outgoing receiver. Its same-metric regular extension supports an
+unbounded received ratio for an escaping positive-Lambda history with regular
+limiting incidence; the zero/negative alternatives cannot realize that same
+unbounded-outward experiment. It also gives the exact conditional proper-
+orbital-rate recovery bound. These are useful restrictions once the proposed
+physical realization is specified, not automatic consequences selecting a
+native UDT parameter from all current commitments.
+
+The boundary is now concrete: this finite-emission-endpoint reception horizon
+has not been identified with UDT's additional positional separation asymptote.
+Areal r is not automatically a spatial distance beyond the static patch, and
+X_max remains open. Angular trace cancellation does not select Lambda or make
+this clock divergence a proved angular loud regime. R10-class DDR is automatic;
+R9FST's stronger spaceform invariance does not apply to the m>0 exterior.
+
+OAA1 now supplies the missing mathematical attachment to one declared
+geometric distance: the receiver-normalized affine interval D_o tends to1/H.
+The actual b_*=0 source/receiver preparation has a late simple pole in1/H-D_o,
+derived from the same metric rather than an independently supplied redshift
+profile. Emitter-normalized affine distance diverges on that same ray. This
+advances the conditional construction, without selecting a UDT physical
+distance, metric law or independently measured astronomical separation.
+
+The result also restricts its own interpretation. An independently discovered
+regular preparation approaches1/H from above, with an exact rational sign
+certificate; therefore it is not a universal affine maximum over this conditional
+family. Source return is unavailable from the late receiver events beyond the
+outer horizon. Conditional earlier circular-source echoes obey a divergent
+radar lower bound as that horizon is approached. These distinctions prevent a
+finite affine endpoint from silently becoming radar distance or X_max. None
+proves whole-postulate insufficiency or a required new premise.
+
+OJM1 now completes that conditional two-dimensional optical calculation.
+The map between sky differential and source rest-screen displacement is derived
+from neighboring geodesics, including signed factors and caustics. On the
+actual b_*=0 tail, its angular-area distance preserves the finite endpoint and
+leading clock pole. Generic optical endpoints retain ray dependence; no scalar
+distance describes all directional lengths or supplies an inverse at a caustic.
+This is a positive geometric consequence, not a fitted optical/redshift profile.
+
+TSI1 in R16TSI distinguishes calibrated timing from untimed records.
+FRI1 now supplies a finite uncertainty enclosure in a stated scale-invariant
+shape/tail class. Its longer synthetic record narrows H to about a1.902%-wide
+range, while a short finite timing-and-angle record provably admits two scales
+differing by2. These are compatible conditional conclusions, not a universal
+identifiability or non-identifiability theorem.
+
+PIA1 in R16PIA now audits that practical gate. The conditional class requires
+total Z>54180; no complete independent shape/tail/source/frame/error admission
+is supplied by the three reviewed physical protocols. FRI1's positive enclosure
+and negative short-record witness survive, but the synthetic1.902% width is
+not an instrument forecast. An independently valid actual-Z bound could reject
+this class; reduced astronomical proxies do not establish that test directly.
+
+The [PIA1 return and proposed scope](udt_physical_clock_interface_audit_2026-10-05/DECISION_BRIEF.md)
+recommends examining a specified moderate-ratio protocol in the same conditional
+metric, deriving applicable readouts and sensitivity or an explicit ambiguity.
+The extreme-tail error certificate cannot be transplanted. Native metric/
+comparison selection is separate; matched GR still gives the same records.
+Stop for lay discussion; no automatic successor, fit, larger solve, new
+source law or protected/parked restart.
+
+NGD1's numerical return in R12N adds a validated comparison tool and finite
+nonlinear clock-shift histories. Its positive contribution relative to a specified
+control does not select the native geometry, and a blueshift in a supplied
+comparison metric does not refute UDT. Broader numerical work must retain that
+same distinction; the present return neither proves clarified premises insufficient
+nor establishes that additional physics must be adopted.
+
+
+The reconstructed chain supplies a reciprocal character; complete normalized
+pair data; faithful metric reconstruction from enough typed records; actual
+conditional received-clock and screen calculations; a two-way radar restriction
+and limited inverse metric reconstruction; a provisional response constraint;
+conditional metric data and developments; and separately typed carried readouts.
+Those are different kinds of progress, with explicit connections above.
+
+SGE1, integrated in R8, makes the additional-effect requirement explicit, narrows
+the stationary-clock implementation and supplies conditional recovery/growth bounds.
+Its auxiliary-field transformation prevents a local bookkeeping density being
+misidentified as physical positional dilation. It selects no native geometry.
+
+LKT1, integrated in R7, connects full reciprocal metric derivatives to Lorentz
+clock transport in a declared Lorentz2 sector. It separates the actual received-
+clock depth from a presentation potential and tests the extra identification
+that would equate them by endpoint difference. The full-group scalar-character
+obstruction retains its narrow scope; direction-carrying comparisons survive.
+This differential bridge is conditional kinematics, not native metric selection.
+
+GCA1 audits which GR commitments constrain the response rather than merely
+describe geometry. It separates ordinary matter balance, off-shell metric-response
+conservation, the homothety route and the second-order Lovelock route. Its conserved
+comparison family demonstrates limited nonselection; it is not a new viable model.
+No field law or positional prediction is added. The next physical issue remains
+the response meant by the provisional balance, while conditional clock geometry
+and possible relational/global routes retain their independent scopes.
+
+The subsequent discussion corrects a methodological overstatement: conditional
+model building, explicit geometries, response assumptions, counterexamples and GR
+comparisons have already been used. Calling the next task “model building” does
+not make its technique new. A substantive next step must name the particular
+physical relationship it tests, the closest prior attempt, and a calculation
+that could distinguish or reject it. The audit gains above clarify what follows
+from which premises; they do not themselves predict the additional positional
+effect. [Discussion and new whiteboard authorization](udt_physical_connection_whiteboard_2026-09-30/OWNER_DIRECTION.md).
+
+The current physical development still needs the quantitative relation linking
+UDT's intended positional geometry to actual observer-pair comparisons. Existing
+premises may constrain that relation further than the routes so far examined;
+this manuscript does not establish their full underdetermination. It also does
+not fill the gap by selecting a convenient curve, physical population, source,
+cutoff or coupling. An admissible conditional calculation can proceed before
+complete matter/light emergence, provided its interface assumptions are explicit.
+
+Observations may suggest shapes and scales. An empirical fit is not a native
+derivation; a distance computed from the same tested redshift model is not an
+independent distance test. OFS1's repaired finite-data clues and supplied-metric
+inverse, July optical-time leads, G277–G281 interfaces, and later instrument
+benchmarks retain their stated assumptions and exposure. No cosmological data,
+raw arrays or held-out validation were rerun for CDR1. G409 remains a design
+control, G411 a published-summary benchmark, G412 a failed finite procedure.
+A failed finite procedure is not absence of a physical effect.
+
+Carrier, matter and stability lanes are not silently made part of the metric
+core. The S² matter carrier is a POSIT; a celestial null-direction S² is a
+different object. The EH metric-only action is CONDITIONAL_NOT_SELECTED.
+Bootstrap is a working hypothesis. Native source, matter, mass and a complete
+action remain OPEN. Conditional finite-box stationary configurations, marked
+Ricci-line/fibre counterexamples and source experiments retain their original
+limits; none supplies an automatic stable-particle mechanism. Paused routes stay
+paused. Protected local drafts are not mined or reconstructed here.
+
+<a id="r18p"></a>
+
+**PCW1: physical connections proposed for the open join.** Charles authorized a
+whiteboard across regimes. Three fresh proposing contexts constructed five
+relationships and challenged each other's assumptions. The following candidates
+are **UNADOPTED**, not derived UDT laws. Their novelty is relative to the inspected
+prior work; the methods and much of the mathematics are already known. The
+[fixed proposal record](udt_physical_connection_whiteboard_2026-09-30/INITIAL_SYNTHESIS.md)
+and [controlling precision repair](udt_physical_connection_whiteboard_2026-09-30/REPAIR.md)
+preserve equations, primary references, initial failures and qualifications.
+
+**Clock-ensemble response (L1), now tested in CES1's declared preparation.** For a
+physically specified collection of regular queries Q_g(q), received ratios Z,
+and positive measure μ_g, consider
+\[
+ D_g(q)=\log Z[g,Q_g(q)],\quad
+ \mathcal C[g]=\tfrac12\int D_g(q)^2\,d\mu_g(q),\qquad
+ \delta\mathcal C[h]=\int E_{\mathcal C}^{ab}h_{ab}\,dV_g.
+\]
+The conjecture identifies this response with the one DDR constrains. It gives
+TF(E_C)=0 **if** the full first variation exists with the displayed smooth volume
+representation and is stationary against every compactly supported localized
+reciprocal strain for all admitted pairs. Lower both response indices with g
+when applying the covariant DDR statement. Query motion and measure variation must both be included. The
+physical stationarity principle, query preparation and measure are new choices.
+The squared contrast includes ordinary SR/gravitational shifts; no desired
+positional curve or GR subtraction is inserted. At moving matched events of inverse descriptions, with query and measure carried
+consistently, both D and its full variation
+reverse sign, so their product does not cancel. Fixed receiver labels retain
+FCV1's extra drift term; an actual future return is a different query.
+
+FCV1 excluded a nonzero single-ray derivative being a smooth volume response.
+A continuum of comparisons addresses that specific support question, but proves
+neither smoothing nor locality. Even a smooth E_C may depend on distant query
+history. Local Metric Sufficiency is not thereby satisfied. Integrability and
+interchange of derivative/integral need explicit hypotheses. No finite uniform
+Lorentz-invariant probability measure on all unit timelike observers supplies
+the missing weights; a physical rest distribution is added information.
+
+A flat diagnostic with fixed coordinate velocity v has
+D_ε=atanh(e^(2ε)v) under g_ε=diag(−e^(−2ε),e^(2ε),1,1), and
+∂_ε(D_ε²/2)|_0=2v atanh(v)/(1−v²)>0 for 0<v<1. Holding physical rapidity
+fixed gives zero instead. These are different physical preparations, not a
+coordinate-invariance failure. Comoving D=0 makes first variation trivially
+zero. These controls motivated CES1's physical preparation below. They do not
+themselves decide that preparation or make exact flat stationarity a founded
+UDT requirement. Physical justification and local dependence remain separate.
+
+<a id="r18e"></a>
+
+**CES1: exact-flat diagnostic for physically prepared clocks.** Fix a
+laboratory event p and unit frame, an emitter geodesic from p, and receivers
+prepared at exp_p(Ln). Parallel transport the frame along that initial spatial
+geodesic and launch each receiver with physical rapidity η>0 in direction n.
+Use ordinary proper clocks, emitter times s>0 and regular future null arrivals.
+Choose any fixed normalized smooth nonnegative product weights on compact
+positive s/L/η intervals and uniform laboratory directions. These are repeated
+test-clock experiments, not a native population or gravitating clock medium.
+The label measure stays fixed; its metric-dependent physical image belongs to
+Q_g. The lab and weights are additional supplied arguments of C[g].
+
+At Minkowski, the receiver is r=L+vt with v=tanh η. Choose a smooth nonnegative
+nonzero bump b_0(r) supported in 0<a<r<b<L_-, and a compact time cutoff χ
+that vanishes near preparation but equals1 near all shell crossings. For
+f=χ(t)t b_0(r), the smooth compact test family is
+\[
+ g_\epsilon=-e^{-2\epsilon f}dt^2+e^{2\epsilon f}dr^2+r^2d\Omega^2,
+ \qquad h=2f(dt^2+dr^2)=fH,\quad \operatorname{tr}_g h=0.
+\]
+It is flat near preparation and both clocks. Geodesic uniqueness therefore
+keeps their physical initial data, worldlines and proper rates unchanged;
+the arrival event still moves. Radial null curves obey dt/dr=e^(2εf).
+Writing B_j=∫_a^b r^j b_0(r)dr, their exterior time shift has variation
+2(sB_0+B_1). Intersecting the moving receiver gives coordinate arrival
+δT=2(sB_0+B_1)/(1-v), and proper arrival
+δA=2e^η(sB_0+B_1). Hence
+\[
+ Z_0=e^\eta,\qquad \delta\log Z=2B_0,\qquad
+ \delta\mathcal C=2B_0\langle\eta\rangle>0.
+\]
+FCV1 independently reproduces this from I=2R_0(sB_0+B_1) and
+ω_o=R_0e^(-η), with both clocks parametrized by proper time; the ray-length
+dependence cancels before differentiating. Compact labels, 1-v bounded away
+from0 and smooth transverse arrivals justify differentiation under the integral.
+The laboratory-centered shell is an off-shell reciprocal test variation,
+not a preferred cosmic center, physical wall or asserted field solution.
+
+This exact adverse derivative holds for every density in the stated positive-
+rapidity class. No tuning of those weights rescues stationarity. It rejects
+the conjunction of this functional/preparation and exact Minkowski stationarity,
+which is a diagnostic benchmark, not a founding postulate or equivalent to
+ordinary local SR. Other ensembles, controlled GR recovery and UDT viability
+are not decided. The full functional under variations changing the laboratory
+frame at p would require its continuation rule; this witness avoids that open
+completion by leaving the metric near p fixed. No smooth volume response or
+finite-jet locality theorem is inferred. Locality work stopped at CES1's declared
+return; Charles subsequently authorized the curved-geometry investigation below.
+The native physical measure and response identification remain open.
+[Frozen preparation and proof](udt_clock_ensemble_stationarity_test_2026-09-30/INITIAL_CANDIDATE.md),
+[reviewed scope](udt_clock_ensemble_stationarity_test_2026-09-30/REVIEWED_RESULT.md).
+
+<a id="r18t"></a>
+
+**CCR1: a necessary condition on curved geometry.** Retain L1's score and CES1's
+physical preparation with fixed product labels dμ=w(s)ds dν(ξ), where ξ names
+the receiver, s is emitter proper time and w has compact support. Let the smooth
+proper arrival map be A(s,ξ), Z=A_s>0 and D=log Z. Require a common emission tube
+with smooth coordinates (s,r,θ): the map has rank4 and a smooth inverse onto its
+image, each query ray crosses the supported shell once, and its closure misses
+preparation and clock histories. These are explicit sector hypotheses, not a
+claim about all global or strongly lensed ensembles. No spherical metric is imposed.
+
+Normalize the outgoing affine tangent K at emission by −g(K,u_e)=1, parallel
+transport u_e to u along it, and put n=K−u. Then K=u+n and H(K,K)=4 for the
+existing reciprocal tangent H. For any compact smooth α(s), choose a normalized
+affine-radius bump ρ(r) and h=(αρ/2)H. It is a genuine compact metric strain,
+realized by the reciprocal exponential metric block. Support and geodesic
+uniqueness preserve physical preparation, worldlines and proper rates. With
+FCV1's endpoint-normalized k=cK, its integral is I=cα=ω_eα. Thus
+\[
+ \delta A=Z\alpha,\qquad \delta D=\alpha'+D_s\alpha.
+\]
+The clock-drift term remains even on a time-dependent curved background. Actual
+emission labels are fixed; this is not a passive relabelling. The tube's direction
+θ need not equal the receiver's initial direction, and no independent variation
+of every query is assumed. Fixed label weights carry their physical-image motion
+through Q_g; no spacetime-volume Jacobian is silently omitted. With
+M=∫D dν and J=∫D D_s dν, compact regularity gives
+\[
+ \delta C=\int w(M\alpha'+J\alpha)ds,
+ \qquad (wM)'=wJ
+\]
+as a necessary distributional condition for all-strain stationarity. The weight
+derivative matters. This subset of tests does not supply a sufficient field law.
+
+<a id="r18c"></a>
+
+**Strict-sign mean obstruction.** If M stays away from zero with one sign on a
+buffered interval containing the emission-weight support, solve
+α_0'+(J/M)α_0=1 there and smoothly cut it off outside the scored region. This
+admissible strain gives δC=∫wM ds≠0. Therefore no geometry in this regular sector
+with that mean-sign property is stationary for the proposed score. In particular,
+uniform positive received slowing D>0 cannot be repaired merely by allowing
+curvature. No exact-flat benchmark, fitted metric or Einstein equation enters
+this proof. Mixed-sign means that cross zero remain unclassified; passing the
+displayed necessary condition would still not prove full stationarity.
+
+<a id="r18u"></a>
+
+**Small curved laboratories and the extra universal quantifier.** In any fixed
+smooth metric, scale a fixed CES1 laboratory template by ℓ at an event, retaining
+its positive rapidities and normalized template weights. Normal coordinates give
+g_ℓ(y)=g(ℓy), with g_0 Minkowski and ∂_ℓg_ℓ|_0=0. Uniform regular geodesic and
+arrival dependence gives D_ℓ=η+O(ℓ²)>0 for sufficiently small ℓ; the constant and
+domain depend on the fixed metric/template bounds. Buffered regular tubes persist.
+This is a controlled local limit, not global flatness or a numerical solar-system
+precision claim. Such labs therefore violate the proposed score's stationarity
+even inside curved spacetime. **Only if** a law requires stationarity for every
+such lab does this exclude its universal implementation on smooth geometry.
+One fixed physical or cosmic population cannot be replaced by all these different
+experiments. It has not been selected, constructed or excluded in general here.
+
+CCR1 supplies a stronger objection to this particular score/response connection
+than CES1's optional flat diagnostic. It preserves ordinary local clocks and
+the founding positional interpretation. No appropriate stationary curved solution,
+native response, empirical recovery, scale or positional curve has been derived.
+Changing the score, population or permitted variations would be a new proposal,
+not an unlabeled repair. [Initial proof](udt_curved_clock_response_test_2026-09-30/INITIAL_CANDIDATE.md),
+[controlling precision repair](udt_curved_clock_response_test_2026-09-30/REPAIR.md)
+and [reviewed scope](udt_curved_clock_response_test_2026-09-30/REVIEWED_RESULT.md)
+preserve the source-relative claim and remaining limits.
+
+**Radiation-defined clocks (C1), secondary identification.** Add a conventional
+collisionless massless population f=F(ω/Θ), ω=−g(U,k), Θ>0, with a finite
+positive isotropic energy moment and nonconstant smooth F. Isotropy is in all
+directions for the selected timelike congruence U throughout the region, not for
+every boosted observer. Identify bulk comparison clocks with that population's
+rest flow. Null Liouville transport then gives
+\[
+ \nabla_{(a}(U_{b)}/\Theta)=\psi g_{ab},\qquad Z=\Theta_e/\Theta_o.
+\]
+This reuses G402/CGW1's conformal-Killing clock class. Its new physical commitment
+is population/observer identification; for supplied U it adds no new geometric
+restriction to that class. Θ is a spectral scale, not an assumed Planck spectrum
+or native matter source. A population rest frame is not a preferred center.
+The supplied control −dt²+A²(t)[dx²+dy²+e^(2κx)dz²] keeps radial timing
+Z=A_o/A_e while curvature changes with κ. Ordinary static gravity also satisfies
+the interface for a timelike Killing ξ=N U and Θ=c/N. Thus neither expansion
+nor an extra positional effect is selected. A later test needs independently
+specified population data and the original Liouville residual, not Θ inferred
+from the same tested redshift. No CMB spectrum, controlled near-isotropy result,
+response equation, physical X_max or new scale is derived.
+
+<a id="r18o"></a>
+
+**PRI1: constructing a comparison observer from supplied population data.** On a
+time-oriented Lorentz4 tangent space, supply a nonzero nonnegative measure ν on
+future nonzero null vectors with finite second moment
+M_ab=∫k_a k_b dν. This is conditional population information, not native light,
+matter or a selected UDT source. For each future unit timelike u put Q(u)=M(u,u).
+In a proof frame write k=ω(1,m), |m|=1, and let σ be the finite angular measure
+obtained from ω²dν. If σ is not concentrated on one direction, continuity and
+compactness give a=min_n∫(1−n·m)²dσ>0. For u=(cosh r,sinh r n), r≥0,
+\[
+ Q(u)\geq\tfrac14a e^{2r}.
+\]
+Thus Q attains a minimum. Along every unit-speed hyperbolic geodesic u''=u,
+Q''=2[M(u',u')+M(u,u)]>0, so that minimum is unique. Stationarity on the unit
+hyperboloid gives the covariant assignment
+\[
+ M^a{}_b u_M^b=-\rho u_M^a,\qquad \rho=M(u_M,u_M)>0.
+\]
+The positive spatial Hessian 2[M(v,v)+ρg(v,v)] gives smooth u_M where g,M are
+smooth and the non-single-ray condition persists. Uniqueness makes it covariant
+under simultaneous transformation of metric and population; overall positive
+population normalization changes ρ but not u_M. It is a state-dependent frame,
+not a preferred cosmic observer or center and not a metric-only field equation.
+
+A single null ray has inf Q=0 approached only at infinite rapidity; no timelike
+minimizer exists. Zero population selects no unique observer. For opposing
+unit-frequency beams of weights A,B>0, Q(r)=Ae^(−2r)+Be^(2r), so
+r_M=¼log(A/B) and ρ=2sqrt(AB). The observer escapes to infinite rapidity as
+B→0 at fixed A. No uniform conditioning bound across that limit is claimed.
+This is familiar positive-tensor/kinetic mathematics applied with explicit
+null-measure hypotheses, not new physical law; see
+[Sarbach–Zannias, Lemma7 and Eq.(60)](https://arxiv.org/pdf/1303.2899v1).
+Their massive-gas/source assumptions are not adopted; the null-sector proof is
+given above and in the fixed PRI1 candidate.
+
+<a id="r18f"></a>
+
+**The criterion and physical clocks are distinct.** When J=∫k dν is finite and
+timelike, its normalization is another covariant observer. For opposing unit
+rays with weights4:1, the current observer has velocity3/5, while the second-
+moment minimizer has velocity1/3. They arise from the same population. Finite
+second moment alone need not give finite first moment, and this finite example
+does not remove that extra requirement. Covariance therefore does not choose
+which moment criterion defines actual comparison clocks.
+
+TRI1 separates this optional population-clock question from comparisons of
+already specified actual clocks in R6N. Scaling each ray consistently preserves
+its endpoint Z, but not generally a moment built from full null-vector data.
+For the same atomic weights4:1, replacing k+=(1,1,0,0) by k+/2 gives
+J=(3,1,0,0), v_J=1/3 and v_M=0, instead of3/5 and1/3. If these vectors carry
+physical frequency, that is a changed spectral population, not a gauge change
+of a fixed physical state. If only unparametrized rays were given, their arbitrary
+scales cannot silently become physical weights. Supplied calibrated cadences or
+richer population measurements can add that information. This scoped example
+does not defeat PRI1 covariance or reconstruction from richer data.
+
+A population rest criterion is therefore required only by a proposal that defines
+its comparison clocks that way. It is not a prerequisite for the founding received-
+tick observable on the regular supplied interface. The preceding lay framing of
+“which population rule must UDT choose” was too broad if applied to every clock
+comparison. Original PRI1 existence/criterion/response results remain unchanged;
+this correction narrows their methodological role, without selecting a metric.
+
+C1's exactly isotropic population gives M=ρU_flat²+(ρ/3)(g+U_flat²), whose
+unique second-moment observer is U. This recovers that direction from the
+supplied state. The converse fails even for smooth populations: multiply an
+independent positive finite-moment radial spectrum by 1+εP4(z), 0<|ε|<1, with
+P4=(35z⁴−30z²+3)/8. Its range is[−3/7,1]; its angular moments of degrees0,1,2
+vanish, but ∫_{−1}¹z⁴P4 dz=16/315. First/second population moments remain
+isotropic while the full population is anisotropic. This is a supplied control,
+not a spectrum inferred from observed redshift. C1's full isotropy, transport
+and clock-identification assumptions remain necessary to its original argument;
+a rest moment alone supplies no conformal-Killing or clock-ratio theorem.
+
+<a id="r18b"></a>
+
+**A population moment is not the balanced response by itself.** For every
+orthonormal reciprocal pair,
+\[
+ \langle M,H(u,n)\rangle_g
+ =2\int[(g(k,u))^2+(g(k,n))^2]d\nu>0.
+\]
+Null support also gives tr_g M=0 and TF(M)=M≠0. Therefore the diagnostic direct
+identification E=M cannot satisfy DDR for any nonzero positive population of
+this kind, whether or not it has a rest observer. Adding qg or taking a nonzero
+scalar multiple does not remove the obstruction. An isotropic rest moment
+gives 8ρ/3, not zero. C1 did not propose E=M: this excludes that possible join,
+not C1, populated geometries or UDT. A geometric/population balance would be a
+different proposal with its own response identity and coupling to justify.
+
+The L1 metric derivative still requires both ∫D δD dμ_g and ½∫D²δ(dμ_g),
+including population-defined clock/query motion and the state's variation on
+the changing null shell. A supplied u_M at one metric does not determine them.
+CCR1 survives for its unchanged fixed-label preparation/tube/sign sector; it
+neither automatically applies to nor is repaired by a different physical
+population. Its every-laboratory quantifier remains additional. No weights,
+GR subtraction or response term have been chosen to force cancellation.
+
+The concrete survivor is a conditional observer-assignment tool. Identifying an
+actual population independently of the tested shifts and connecting physical clocks
+to its chosen frame remain unclosed. At fixed supplied geometry and population,
+a justified clock/query protocol permits conditional comparisons without a
+local response equation or an off-shell population rule. State/query/measure
+continuation is additionally required when claiming the metric derivative or DDR
+response; it is not imposed on every fixed-geometry clock readout.
+No response law, geometry, scale or extra positional effect has been selected.
+[PRI1 initial proof](udt_population_response_identification_2026-09-30/INITIAL_CANDIDATE.md)
+with its [controlling scope repair](udt_population_response_identification_2026-09-30/REPAIR.md)
+and [reviewed scope](udt_population_response_identification_2026-09-30/REVIEWED_RESULT.md)
+keep the construction and negative identification separate.
+
+**Quantum vacuum response (M1), a higher-cost comparison.** Explicitly import
+quantum fields, a causal state prescription and renormalization, and propose
+\[
+ \mathrm{TF}\left(G_{ab}+U_{ab}[g]
+ -8\pi G_{\rm obs}\langle T_{ab}\rangle^{\rm ren}_{\omega,g}/c_E^4\right)=0,
+\]
+where U includes declared local counterterm responses. The Einstein-response term and the
+quantum/response identification are additional premises, not native matter.
+In an invariant de Sitter slice all these terms are pure trace, so the anomaly
+alone does not fix curvature. If the complete response is conserved, its trace
+coefficient is a connected constant; DDR does not choose that constant. Quantum
+state dependence also threatens a finite-local-jet identification. A meaningful
+test must use the same specified admissible state rule on two locally identical
+metric histories and inspect the trace-free response difference; arbitrary
+states do not refute a single-state rule. Added ℏ/mass scales are inputs, not
+selection of UDT's geometry. No such state-rule calculation was performed here.
+
+Two displayed alternatives were screened out at their stated scopes. L2's
+unadopted tidal functional R+β[(C²)²+(C* C)²]^(1/4) has a |ε| cusp on a
+realizable flat Weyl variation when β≠0, obstructing its universal smooth
+response; β=0 is the old Einstein comparison. Null-wave curvature can also
+escape those two invariants. Other tidal responses are not excluded. M2's
+strong proposal of exact quantum phase-cone equality conflicts with the imported
+leading QED tidal correction on a Ricci-flat screen. This is a theoretical
+comparison, not an empirical exclusion of UDT. Low-frequency phase propagation
+and the causal front are distinct; the calculation selects no native geometry.
+
+The L1 investigation has returned CES1's diagnostic and CCR1's curved-sector
+obstruction, with their physical assumptions and uncovered populations explicit.
+C1 now has PRI1's conditional moment-based observer construction, with physical
+identification and response still open. TRI1 keeps that route optional: actual
+clock readouts can proceed on their supplied geometry and correspondence. M1 remains
+deferred pending an explicit state/locality question. No proposal is adopted, and no successor
+campaign begins automatically. The microscopic tests constrain these particular
+connections; they do not show that mathematics alone selects UDT or that its
+founding premises are insufficient.
+
+Retained branches and omissions are explicit below. These results are useful;
+their original full proofs, repairs, qualifications and grades remain at source.
+CDR1 does not claim to rederive all of them. The [406-row disposition ledger](development_reconstruction_2026-09-29/CLAIM_DISPOSITIONS.tsv)
+and [later returns](development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv)
+identify exact sources and reconstruction depth.
+
+| Retained work | Gain and limit |
+|---|---|
+| G353–366 | Restricted local recipe/phase/product preservation, departure/necessity and functional metric freedom. These are actual conditional results; chosen readout recipes remain chosen. |
+| G374–375 | Positive conformal compatibility/classification on a supplied fixed base and domain. Constant g_hat=a^-2 g, Lambda_hat=a² Lambda remains free unless a target scalar is fixed. This is neither a census of all metrics nor absolute-scale selection. |
+| G376–387 | Preserving marked examples, closed-fibre nonpreservation within the marked class, and restricted real null-jet local realizations. No generic instability, topology change or physical Hopfion failure. Original LOST-buffer, unsnapshotted-code and false-pass/repair caveats remain. |
+| G395–401 | Static response discrimination, controlled quiet correspondence and uniform-bound failures, leading-response/Einstein-limit necessity, and RF1's realizable-normal-jet gain. RF1 removes the former unrealizable-array extension assumption; physical response type, regularity, nonzero normalization and actual limiting-family assumptions remain. These are conditional sufficient routes. |
+| LSR1 / NAP1 / DCR1 | Actual local analytic leading-jet controls and eligible-center response restrictions; DCR1 releases directional clocks and retains central tides even when its S component vanishes. No neighborhood field equation or additional native freedom inside the primary round branch follows. |
+| PJC1 / JRC1 / FSR1 | Primary static angular compatibility, full-record versus scalar distinction, and rotation/basis carry in reciprocal comparisons. Supplied broader diagnostic classes are not native-admitted alternatives. Original LEAD scopes stay LEAD. |
+| NR1 / NR2 / GFC1 / NFCA1 | Conditional Maxwell-form constructions, restricted record inverses and screen-curvature representation of supplied profiles, including zeros. Symmetric response and antisymmetric field are different objects. No physical electromagnetism, selected screen profile or full-field census is derived; that route stays paused. |
+| BE1 / SD1 | Finite distinct-mode extension of R12 and analytic labelled-beam/clock discrimination. Calibration rank1 needs a nonzero coefficient row; simultaneous nodes give rank0. SD1's failed finite convergence gate remains failed. These reviewed results remain UNPROMOTED and are not stability or instrument-range certification. |
+| FE1 / FEP1 / TC0 | Unadopted response proposal, source/process recovery and a bounded novelty stop respectively. They do not enter the proof chain as native premises or universal next-step gates. |
+
+The separate carrier lane retains settled **static finite-box conditional
+stability** under its round-S², corrected no-null L2+L4, fixed-boundary,
+discretization and operator premises. This is a positive result, not a native
+carrier, mass or time-persistence derivation. The [topology audit](native_hopfion_topology_audit_2026-07-19/AUDIT_REPORT.md),
+[its ledger](native_hopfion_topology_audit_2026-07-19/TOPOLOGY_STATUS_LEDGER.tsv)
+and [mass authority map](udt_scientific_arc_recovery_checkpoint_2026-08-04/MASS_BRANCH_AUTHORITY_MAP.tsv)
+own those distinctions. No saved raw-field or stability calculation was replayed
+for CDR1; these branches are deliberately retained at source scope.
+
+The normal next scientific question must identify which explicit connection it
+advances, the admitted premises it uses, and the strongest conclusion it can
+support. A new result changes this development and its dependency record;
+it does not merely add another disconnected report.
+
+## 9. Review, coverage and maintenance
+
+This is an18-result central reconstruction with actual core calculations,
+standard-method applications and explicitly retained source branches. All406
+registered rows have an editorial disposition; relevant later returns
+are separately mapped. It does not claim to re-prove every historical result.
+Existence/MGHD, full external invariant theory, detailed nonlinear asymptotics,
+the55-component optional analytic system, the eight signal packages, empirical
+fits and carrier/stability suites were not independently replayed in full here.
+The relevant original proofs/reviews remain load-bearing when those results are used.
+
+For CDR1, two separate reviewer contexts first worked from sources without seeing the pilot,
+then reviewed the pilot and full frozen account directly. They used the same
+inherited model; a different model is not claimed. Separate argument and exact
+arithmetic checks, exposure, versions, caveats and actual acceptance are recorded
+in the [math review](development_reconstruction_2026-09-29/review/math/FULL_DIRECT_REVIEW.md),
+[fidelity review](development_reconstruction_2026-09-29/review/fidelity/FULL_DIRECT_REVIEW.md)
+and their final review records. Source-first does not mean the subsequent direct
+review was blind. Passing scripts certify their checked identities only.
+
+SGE1 has two further fresh source-first contexts, followed by direct review of
+the frozen deduction and one shared domain repair. Its [mathematical review](udt_shared_geometry_extension_2026-09-29/review/math/FINAL_REVIEW.md)
+and [fidelity review](udt_shared_geometry_extension_2026-09-29/review/fidelity/FINAL_REVIEW.md)
+cover the changed argument and integration; unchanged CDR1 results inherit their
+original reviewed scopes. Separate implementations are recorded individually.
+Different-model, human and formal-proof review remain untested.
+
+LKT1 adds two fresh source-first contexts, direct analytic review and independent
+coordinate-based checks of its connection, curvature and clock identities. Its
+[mathematical review](udt_lorentz_kernel_transport_2026-09-29/review/math/FINAL_REVIEW.md)
+and [fidelity review](udt_lorentz_kernel_transport_2026-09-29/review/fidelity/FINAL_REVIEW.md)
+cover the changed argument and integration; preceding results retain their
+original reviews. The30-item author check includes one explicitly excluded
+vacuous item. Separate implementations share Python/SymPy; different-model,
+human and formal-proof verification remain untested.
+
+GCA1 adds two fresh source-first/direct contexts for the commitment audit and
+independent exact response/conservation checks. Its [mathematical review](udt_gr_commitment_audit_2026-09-29/review/math/FINAL_REVIEW.md)
+and [fidelity review](udt_gr_commitment_audit_2026-09-29/review/fidelity/FINAL_REVIEW.md)
+cover the changed argument and integration. A late family-only preview before
+the mathematical source-first seal is disclosed; direct computations preceded
+producer-code exposure. A preserved exact-trigonometric simplification failure
+was repaired without changing equations. The final decision wording clarifies
+that action existence or second order alone selects no Einstein response. No
+scientific repair was required. Shared model/library and untested human/formal/
+different-model axes remain explicit; prior work keeps its original reviews.
+
+PCW1 adds three fresh proposing contexts, cyclic peer challenge and two further
+fresh direct-review contexts. The [mathematical review](udt_physical_connection_whiteboard_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity review](udt_physical_connection_whiteboard_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+cover the unadopted proposals, novelty limits and adverse tests. One controlling
+precision repair states L1's localized all-pair stationarity and matched-event
+variation conventions. Independent arguments and small symbolic checks support
+only the stated controls; no physical ensemble, quantum loop, empirical fit or
+native law was derived. Separate contexts share the inherited model and numerical
+library; human, different-model and formal review are untested. Initial symbolic
+failures and repairs are retained. Mutable-source exposure is disclosed in the
+[source-version note](udt_physical_connection_whiteboard_2026-09-30/SOURCE_VERSION_NOTE.md).
+Final acceptance of integrated bytes belongs to the actual final attestations;
+review does not adopt physics. The [controlling return](udt_physical_connection_whiteboard_2026-09-30/REVIEWED_RESULT.md)
+preserves this scope.
+
+CES1 adds two fresh source-first contexts, independent arrival/clock derivations
+and separate symbolic implementations, followed by direct candidate and final
+integration review. The [mathematical review](udt_clock_ensemble_stationarity_test_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity review](udt_clock_ensemble_stationarity_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+own their actual limits; unchanged preceding sources retain their old reviews.
+Independent contexts share the inherited model and Python/SymPy. Human,
+different-model/library and formal verification remain untested. The initial
+proof and preparation are preserved; the new adverse result is conditional,
+unpromoted and limited to its supplied preparation and diagnostic benchmark.
+
+CCR1 adds two fresh source-first/direct contexts and actual final integration
+review. Their [mathematical](udt_curved_clock_response_test_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_curved_clock_response_test_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+reports audit the curved tube, clock drift, fixed measure, sign obstruction and
+separate universal-laboratory quantifier. One controlling precision repair makes
+the tube's full-rank coordinate requirement explicit and distinguishes the
+producer's reduced curved algebra check from the independent original-null-ODE
+and explicit-integral check. Initial artifacts remain unchanged. Contexts and
+implementations are separate; model and symbolic library are shared. No human,
+formal, different-model/library, empirical or full-corpus reproof is claimed.
+
+PRI1 adds two fresh source-first/direct contexts and final integration review
+for population-to-observer construction, its degeneracies, criterion ambiguity
+and the raw-moment DDR obstruction. Independent arguments and implementations
+include a standard-library exact Fraction review distinct from the parent's and
+mathematical reviewer's SymPy algebra. The model and Python runtime are shared;
+human, different-model and formal-proof verification remain untested. Full
+physical state/transport, clock coupling and response selection are not claimed.
+One parent-origin scope repair, found after direct review, separates fixed-
+geometry comparisons from the extra variation rules required for a response.
+Initial candidate and direct reviews are preserved; final reviews inspect the repair.
+Actual scope and check exposure belong to its fixed review reports and work record.
+
+TRI1 adds two separate source-first/direct contexts for the actual-clock versus
+population-clock distinction and supplied counting records. Their independent
+Fraction controls differ from the producer's SymPy implementation. The mathematical
+reviewer received the producer's repaired-check status summary before its source-
+first seal, but read no candidate or producer code then; the exposure is explicit
+in its direct report. Both direct reviewers independently found the reception-
+window qualification and recorded density/discrete precision limits. One controlling
+repair preserves the original candidate and narrows the counting formulas to
+those hypotheses. The retained producer assertion failure was a symbolic
+simplification issue, repaired by an exact factorization with its sign domain.
+Actual [mathematical](udt_tick_readout_identification_2026-09-30/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_tick_readout_identification_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+reports and final attestations own review scope. Model/Python remain shared;
+human, different-model, formal and empirical verification remain unperformed.
+
+NGD1 adds two fresh separate contexts: independent SymPy metric-to-Ricci
+reconstruction, independent CPU NumPy/SciPy DOP853 evolution of all158 trajectories,
+original-metric derivatives from saved time histories, and a separate direct-DFT
+clock/constraint replay. Producer Torch/RK4 and reviewer DOP853 share Fourier
+spatial discretization; model and Python are shared. Equation/interpretation
+guidance preceded the frozen candidate, and output exposure is documented.
+One source-preserving clarification distinguishes affine coordinate arrival map
+from generally nonaffine areal ray time. The sign identity is outcome-informed;
+the finer figure-query sampling is post-outcome visualization. No human,
+different-model, formal, empirical or rigorous continuum verification is claimed.
+Actual [numerical review](udt_gpu_time_live_discovery_2026-09-30/review/numerics/REVIEW.md)
+and [fidelity review](udt_gpu_time_live_discovery_2026-09-30/review/fidelity/DIRECT_REVIEW.md)
+plus their final attestations own exposure, version and omissions.
+
+TDS1 has independent metric-jet, original saved-metric Ricci, ADM and Hamiltonian
+clock checks. A daemon restart interrupted two original contexts; their artifacts
+remain. Two actual recovery contexts completed substantive and integration review,
+with prior exposure attributed. Same inherited model and Fourier/Hermite methods
+remain shared; there is no independent general-data time evolution, different-model,
+formal or empirical review. Initial input-guard and null-diagnostic defects and
+their repairs are retained. Null residuals now assess accepted nodes and fixed
+dense samples; internal trial-stage maxima remain separate diagnostics. A notation
+repair distinguishes the harmonic operator W from R9's unidentified response E.
+The [equation/history review](udt_three_spatial_smoke_2026-10-01/review/equations_recovery/NUMERICAL_REVIEW.md)
+and [data/runtime/readout review](udt_three_spatial_smoke_2026-10-01/review/data_recovery/SUBSTANTIVE_REVIEW.md)
+own tested coverage; final attestations bind the integrated edition. Earlier
+scientific sources and positive/negative conclusions retain their original scopes.
+
+
+TPP1 adds two actual fresh contexts for original saved-metric/constraint and
+runtime/clock review, followed by exact integration review. The [mathematical
+report](udt_time_live_production_preparation_2026-10-01/review/math/SUBSTANTIVE_REVIEW.md)
+and [runtime report](udt_time_live_production_preparation_2026-10-01/review/runtime/RUNTIME_REVIEW.md)
+record source-first exposure, independent calculations, shared methods and
+omissions. The original five-point failure and outcome-informed center-only
+repair remain visible. Worker, assembler and queue defects retain their original
+editions/proofs. The runtime reviewer authored the final production extraction
+adapter; the parent separately inspected it. Same inherited model/Fourier
+methods and lack of an independent general-data time integrator remain limits.
+
+TPS1's actual fresh mathematical context independently recomputed all initial
+states and the first dataset's original saved-field equations/refinements.
+The [mathematical gate review](udt_time_live_production_survey_2026-10-01/review/math/FIRST_GATE_REVIEW.md)
+and [runtime/clock gate review](udt_time_live_production_survey_2026-10-01/review/runtime/FIRST_GATE_RUNTIME_REVIEW.md)
+state that scope. The runtime context authored the operational editions; the
+parent separately inspected their source, while that context independently
+checked parent capture/launch/smoke code and actual runtime/clock artifacts.
+New checks explicitly reuse attributed TDS/TPP methods. Same model, shared
+fields/Fourier methods and absence of an independent general-data integrator
+remain limits. The [descendant review](udt_time_live_production_survey_2026-10-01/DESCENDANT_REVIEW.md)
+changes no previous positive or negative scientific conclusion. Final launch
+attestations cover that fixed checkpoint and integration, not the subsequent
+234-case atlas or automatic candidate output.
+
+The completion received two further actual separate-context reviews. The
+mathematical context independently reconstructed all78 original scalar decisions,
+examined42 late saved windows with independently arranged curvature contractions,
+and checked all26 new histories against the original equations. It also replayed
+clock input/scalar joins and every atlas table value; it did not independently
+evolve the general initial data or recompute every new ray. The operational
+context checked all234 original execution schedules and checkpoint metadata,
+six raw/CFL anchors, all832 new checkpoint payloads, clock captures and provenance.
+It authored the new clock orchestration adapters, separately reviewed by the
+parent and mathematical context. Shared model, fields and Fourier/Hermite
+methods remain explicit. Actual reports, preserved adapter defects and bounded
+operational departures are in the [completion record](udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md).
+The [completion descendant review](udt_time_live_production_survey_2026-10-01/diagnosis/DESCENDANT_REVIEW.md)
+updates positive numerical capability and the13 negative qualification findings
+without rewriting original failures or closing native-selection openings. The
+completion attestations bind this integrated edition; checks do not promote it
+to a native law or change a registry grade.
+
+
+PSW1 used three actual source-first specialist contexts, then exposed cross-review
+and one controlling precision pass. They share the inherited model and Python/
+SymPy; no different-model, human or formal review is claimed. The geometry context
+authored the original local coefficient and a14-check signed-lapse anchor. The
+tests context independently arranged33 time-dependent checks and35 original-
+coordinate nonflat Kasner checks. The fidelity context reconstructed the endpoint-
+frequency argument analytically; the geometry cross-review added a small-loop
+transport argument. These axes are separate, not82 independent proofs. The
+common-domain defect and candidate remain preserved. Three comparison
+reviews challenge the unadopted response identification and FE1 equivalence.
+Two actual final contexts inspect the controlling repair and same frozen central
+integration, with prior unchanged sources retaining their original reviews.
+The [PSW1 descendant review](udt_positional_selection_whiteboard_2026-10-01/DESCENDANT_REVIEW.md)
+records implications for both positive results and scoped exclusions. No new GPU,
+field/ray campaign, empirical test or global/finite-distance error bound was made.
+The [execution record](udt_positional_selection_whiteboard_2026-10-01/WORK_RECORD.md)
+and final attestations own the actual completed scope and omissions.
+
+FPC1 used two actual source-first contexts, then exposed the fixed parent
+candidate to mathematical and premise/meaning challenges. They share the inherited
+model and installed SymPy; no human, different-model or formal proof is claimed.
+The parent126 exact assertions check supplied space-form embedding, preparation,
+incidence, frequencies and small-L limits; the math context's48 assertions derive
+the Kasner series from its original coordinate equations. The parent separately
+reconstructs endpoint contractions from saved arrival/momentum series; this is
+separate code with shared inputs, not independent ray integration. Analytic review
+owns chronology, admissible branch domains, remainders and conditional quantifiers.
+Two final contexts inspect the same frozen central integration and descendant
+record. No GPU solve, raw TPS1 replay, spherical fourth-order average, observational
+comparison, native admission or scale selection was performed. The
+[FPC1 descendant review](udt_finite_positional_clock_test_2026-10-01/DESCENDANT_REVIEW.md)
+and [execution record](udt_finite_positional_clock_test_2026-10-01/WORK_RECORD.md)
+record both positive and negative implications and actual review exposure.
+
+FNA1 used two actual source-first contexts for full pair/transport mathematics
+and premise/meaning challenge, followed by candidate review. The inherited model
+is shared; no different-model, human or formal review is claimed. The parent's
+56 symbolic identities check the whole-ray pullback, full transport, nonradial
+and rank-ten diagnostics. Its initial run failed on a missing parameter
+substitution in a chart check; original proof, code and failure are preserved,
+with a one-line implementation repair. The mathematical context's separate
+standard-library rational implementation checks2,953 assertions in30 signed-
+curvature cases plus flat. The parent reconstructs300 ribbon/Lorentz identities
+from those saved rows; this is exposed readout recomputation, not an independent
+worldline solution. Analytic arguments own continuum/domain statements. Two final
+contexts bind the same central integration and source/descendant record. No new
+GPU, field/ray campaign, observational fit, physical selection or full GR-recovery
+test was performed. The [FNA1 descendant review](udt_finite_native_pair_audit_2026-10-01/DESCENDANT_REVIEW.md)
+and [execution record](udt_finite_native_pair_audit_2026-10-01/WORK_RECORD.md)
+preserve both positive and negative implications and actual exposure.
+
+FST1 used two fresh source-first contexts for mathematical and authority/meaning
+review, then actual exposed candidate and final integration review. Shared model
+and source geometry remain explicit. Parent33 symbolic checks, mathematical
+context101 dependency-free exact checks, and fidelity31 symbolic identities plus
+two wrong-shortcut controls support the analytic arguments; they are not hundreds
+of independent proofs. Two fidelity matrix-sum checks are weak redundant
+regressions; its16 componentwise boost checks and the other full-matrix checks
+own that anchor. Parent61 saved-artifact checks recompute tensor/contraction/ratio
+identities, not a new rank or worldline solution. No empirical thresholds, new
+GPU campaign, response adoption or complete natural-tensor classification is
+claimed. The [FST1 descendant review](udt_finite_selection_test_2026-10-01/DESCENDANT_REVIEW.md)
+records the W3 authority precision correction and both positive and negative
+implications; [execution record](udt_finite_selection_test_2026-10-01/WORK_RECORD.md)
+and final attestations own actual exposure, omissions and frozen-edition scope.
+
+ECS1 used two fresh inherited-model source-first contexts, then actual candidate
+and final integration review. Parent56 symbolic checks support the static route;
+math47 checks support the separately arranged synchronous and affine-frequency
+route. Fidelity189 checks include independent endpoint contractions from saved
+FPC arrival/momentum data and product curvatures;144 are mixed-connection component
+zeros, not independent proofs. Its initial trig-canonicalization false negative
+and exact normalization repair are preserved. Parent41 Fraction checks recompute
+the residual polynomial and rational identities from exposed saved observables.
+They are not a new worldline solve, numerical certificate or physical test.
+The [descendant review](udt_echo_consistency_2026-10-01/DESCENDANT_REVIEW.md) covers
+positive discrimination, negative uniqueness, rank/field-sector qualifications
+and untouched prior conclusions. [Execution record](udt_echo_consistency_2026-10-01/WORK_RECORD.md)
+and final attestations bind actual versions, exposures and omitted work.
+
+PCC1 used two fresh source-first contexts followed by actual exposed candidate
+and supplement reviews. Their arguments and independently authored implementations
+share the inherited model, sources and SymPy. Parent291, math1014 and fidelity294
+finite exact controls include many component/zero assertions; they are not that
+many independent proofs. Parent792 Fraction checks reconstruct matched tensors
+from saved coordinate curvature without CAS. Math262 and fidelity270 exposed
+saved-artifact checks independently recover the regional identity and original
+connection quantities. Parent and math each preserve an initial trig-normalization
+false negative and unchanged-science repair. A separate fixed-file diagnostic
+replay closes the fidelity review's reproducibility objection. The initial
+scientific candidate is unchanged. The [descendant review](udt_positional_curvature_connection_2026-10-01/DESCENDANT_REVIEW.md)
+retains both positive compatibility and negative inference limits; the [execution
+record](udt_positional_curvature_connection_2026-10-01/WORK_RECORD.md) and actual final
+attestations bind versions and omitted work. Different-model/human/formal review,
+general regional classification, finite-clock integration and empirical testing
+remain unperformed. Fixed historical coverage snapshots are unchanged.
+
+ULC1's bounded review concerns the owner's universal-law clarification and its
+positive/negative interpretation routes through D1/R8/R18. The two designated
+reviewers reuse their separate PCC1 contexts; they are exposed to the earlier
+work and are not fresh or blind reviews of it. The [scope and impact record](development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/SCOPE_AND_IMPACT.md)
+names the retained hypotheses and limits. Actual final reports/attestations and
+the current review record own the review outcome and frozen edition. No original
+scientific calculation is replayed or newly certified by this meaning update;
+existing regression, version and premise checks retain their narrower roles.
+The maintained disposition count now includes56 later returns/clarifications.
+
+ERC1 uses two fresh source-first contexts followed by exposed actual-candidate
+and final integration review, sharing the inherited model and scientific libraries.
+Parent39 repaired symbolic zeros, the fixed24 short CPU solves and an exposed
+rational-series recomputation support their stated roles. Both reviewers
+independently reconstruct the original response from saved a(t) through fourth
+derivatives and reconstruct the actual clocks without parent evolution/readout
+helpers. Their approximately1e-8 finest residuals pass the declared finite bounds
+but grow with refinement through roundoff; no convergence certification follows.
+The parent's lower-order H reconstruction has its own frozen refinement/floor
+checks. The combined off-diagonal checker defect, integer-to-float series seed
+failure and fidelity's repaired-path hash stop are preserved with their smallest
+repairs. Numerical functions and the initial scientific candidate are unchanged.
+The [descendant review](udt_environment_response_candidates_2026-10-01/DESCENDANT_REVIEW.md)
+covers positive clock consequences, negative regular-rescaling limits and prior
+branch scopes. [Execution](udt_environment_response_candidates_2026-10-01/WORK_RECORD.md)
+and actual final attestations bind versions and omitted work. No different-model,
+human, interval, unrestricted PDE or empirical review is claimed. Exact registry
+and CANON remain unchanged; mathematical review does not adopt the response.
+
+RCD1 uses two actual reused separate contexts after fresh-thread allocation
+failed; fresh-context review is UNAVAILABLE/NOT PASSED. Prior exposure, shared
+model/SymPy and source-first/exposed phases are recorded. The parent reconstructed
+52 original-metric identities and rational saved-series coefficients. Reviewers
+independently checked24 and34 identities, then used series reversion and Lagrange
+inversion respectively to reconstruct saved ERC1 coefficients. The parent had
+seen their source-first formulas, and flagged the response-identity issue before
+their actual assessments; neither third blind discovery nor blind objection
+origination is claimed. Both accepted the controlling scope repair. These are
+exact conditional checks, not observations, general completeness or noisy-data
+inference. No new evolution/GPU survey ran. The [descendant review](udt_response_clock_discriminator_2026-10-01/DESCENDANT_REVIEW.md)
+tracks positive and negative scope; [execution](udt_response_clock_discriminator_2026-10-01/WORK_RECORD.md)
+and actual final reports/attestations own bindings, omissions and closure status.
+
+PSC1 uses two fresh separate source-first contexts followed by exposed candidate
+and final correspondence reviews; the prior RCD1 capacity limit did not prevent
+this allocation. Shared model/Python/SymPy and parent publication/reviewer-preview
+exposure remain disclosed. Parent42 exact identities check original homogeneous
+tensor components, constraints, pole/classification and local entropy coefficients.
+The independent stdlib saved-jet checker initially failed on a transcribed mixed
+coefficient; the direct expansion repairs77760 to46656 without changing the
+candidate or saved data. Original failure and repaired script/output are preserved.
+After coefficient inference those parent residuals rearrange the same equations
+and add no independent law evidence; reviewers reconstruct the original metric.
+Reviewer reports own their additional checks and independent implementations;
+counts are not independent result counts. No empirical or new evolution/GPU
+test ran. [Descendant review](udt_physical_selection_checkpoint_2026-10-02/DESCENDANT_REVIEW.md)
+and [execution](udt_physical_selection_checkpoint_2026-10-02/WORK_RECORD.md)
+retain positive/negative scopes, actual review stages and untested axes. Actual
+attestations and captured closure checks own final correspondence/pass status.
+
+CMF1 uses two fresh separate source-first contexts and exposed candidate/final
+reviews. Source-first exposure includes the parent's reconstruction question and
+later exact-trace formula; independent derivation is not blind origination.
+Parent32 exact identities plus rank/weight/nonzero controls, independently authored
+symbolic and stdlib rational checks, and saved metric-jet reconstruction support
+the scoped mathematical interface. The initial parent parse failure is retained.
+One precision pass states joint limits, separates two synthetic controls and
+clarifies finite-sample degeneracy without changing equations or tolerances.
+All contexts share the inherited model/Python; no different-model, human, formal
+or instrument validation is claimed. [Descendant review](udt_curvature_measurement_feasibility_2026-10-02/DESCENDANT_REVIEW.md)
+and [execution](udt_curvature_measurement_feasibility_2026-10-02/WORK_RECORD.md)
+retain positive/negative scopes, exposure and omissions. Actual final attestations
+and captured normal/maintenance/full406 checks own correspondence and pass status.
+
+CBR1 uses two fresh separate contexts with sealed source-first work, exposed
+implementation/main review, and actual final integration attestations. Independent
+direct-coordinate forward checks and saved-a11-point tensor reconstruction,
+separately authored float and Decimal raw-record inverses, and preserved noise/
+mutation controls supplement the parent14 numerical gates. Parent smoke exposure
+preceded the main freeze; the process is not researcher-blind. No equation,
+threshold or main solver repair was required. The boosted-triad description was
+clarified, and a reviewer metadata correction preserves its initial typo. Shared
+model/libraries and finite sampling remain limitations. The [descendant review](udt_clock_reconstruction_benchmark_2026-10-03/DESCENDANT_REVIEW.md)
+and [work record](udt_clock_reconstruction_benchmark_2026-10-03/WORK_RECORD.md)
+retain omitted domains and positive/negative dependencies. Saved final receipts
+own the required-check status; checks do not supply physical acceptance.
+
+FCW1 used two fresh proposer contexts and one explicitly reused operational
+context after a third-fresh allocation failed; all proposals preceded peer
+exposure. Two fresh final reviewer allocations then succeeded. Both independently
+reconstructed the target arguments before exposure, followed by actual candidate
+and final integration review. Original failed quartic conjectures, a reviewer
+same-premise sixth-order extraction repair, ICN1 attribution repair and dimensional
+wording clarification remain preserved. The parent21 gates include40 actual-null
+incidence cases and a direct4D curvature check. Shared model/libraries and common
+embedding identity limit independence; no different-formalism, human, empirical
+or physical-admission review is claimed. [FCW1 work record](udt_finite_comparison_whiteboard_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_finite_comparison_whiteboard_2026-10-03/DESCENDANT_REVIEW.md)
+retain omissions, quantifiers and positive/negative scope. Actual final attestations
+and captured required-check receipts own closure status, not this chronology.
+
+IEC1 uses two fresh separate source-first/exposed/final reviewer contexts. Each
+independently constructed a tilted spherical control before candidate exposure;
+their measured sheets and principal parameters coincide, so these are not two
+complementary class surveys. The parent derives the general formula by local
+symmetric-space algebra and replays its associative word identity. The reviewed
+signature-independent Jacobi/transvection proof, actual later-return derivatives,
+independent full-interval/control comparisons and hand quartic audit support the
+result at its stated scope. Shared model/libraries/methods remain explicit;
+no physical or empirical acceptance is implied. Initial candidates and proof
+completion are preserved. [IEC1 work record](udt_invariant_echo_curvature_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_invariant_echo_curvature_2026-10-03/DESCENDANT_REVIEW.md)
+retain discovery, execution, omissions and positive/negative changes. Actual
+final attestations and required-check receipts own closure status.
+
+ESR1 uses two fresh source-first/exposed/final reviewer contexts. Independent
+proofs converge; the parent/math boost-plane argument is complemented by the
+fidelity review's Ricci null-cone step. Both independently authored full algebraic
+curvature rank checks with different rational frame sets; shared model/SymPy
+and related bivector methods are explicit limits. Parent exact Q matching and
+original signed-incidence roots independently check branch/formula handling.
+The first structural-equality failure, exact canonicalization repair and reviewer
+count/method-label corrections are preserved; no scientific candidate or tolerance
+changed. [ESR1 work record](udt_echo_scalar_rigidity_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_echo_scalar_rigidity_2026-10-03/DESCENDANT_REVIEW.md)
+record exposure, actual checks and omissions. Final identical-map attestations
+and captured normal/maintenance/full406 receipts own completion status.
+
+CPW1 uses three fresh source-first contributors and two additional fresh
+source-first/exposed/final reviewer contexts. All contributors recommend keeping
+FC diagnostic; the optional RG robustness recommendation is separately attributed
+to the parent. Reviewers independently hand-check the general conformal identity,
+relay composition and actual-clock controls and inspect saved exact outputs.
+Shared model/library/source exposure remains explicit. One parent structural
+matrix-equality failure and exact-comparison repair are preserved; no equation
+or scientific premise changes. The proposed successor was narrowed after review
+advice and was unexecuted in CPW1; FCL1 now supplies its scoped result. [Work record](udt_clock_law_physical_whiteboard_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_clock_law_physical_whiteboard_2026-10-03/DESCENDANT_REVIEW.md)
+record exposure, scope and omissions, including a contributor's disclosed
+overbroad registry-read error. Actual final accepted-map attestations and
+normal/maintenance/full406 receipts own closure; review does not adopt FC/RG.
+
+FCL1 uses two new fresh source-first/exposed/final reviewer contexts. Both
+independently reconstructed an energy estimate before seeing the parent momentum
+proof; exposed review checked its sharper bound, physical proper-time remainder,
+normal-chart and null-family regularity, normalization and gauge. Both recomputed
+the two actual clock controls and one rational nonuniform force case by hand;
+the other five cases retain their parent exact-control status. No mathematical
+repair was required, and the frozen candidate remains unchanged. Finite C3
+regularity was checked explicitly rather than silently treated as C-infinity.
+Shared model/premises remain limits; no human/different-model/empirical verification.
+[Work record](udt_free_clock_completion_2026-10-03/WORK_RECORD.md) and
+[descendant review](udt_free_clock_completion_2026-10-03/DESCENDANT_REVIEW.md)
+state actual checks and omissions. SFC1 first shortened startup while preserving
+the then-current scientific body; its metadata/guard repairs and original failed
+audit remain fixed. FCL1 updates only its new scientific scope and current return.
+Actual final attestations and normal/maintenance/full406 receipts own closure.
+
+CCW1 used three fresh source-first whiteboard contributors and a fourth
+fresh source-first/exposed adversarial reviewer. A reused physical contributor
+provided the second exposed/final integration review; that context is not
+independent authorship of its own clock-gap argument. The fourth reviewer
+independently recovered the invariant clock-gap/curvature relation before
+seeing the synthesis. Exposed reviews checked curvature signs, actual clocks,
+finite regularity, local/global and population quantifiers, and physical
+attribution. Parent direct-Christoffel exact controls passed four families/seven
+cases. No scientific repair was required; the initial candidate stays fixed.
+A failed metadata seal attempt used the wrong contributor hash-key shape before
+writing any freeze; the corrected seal records it. No different-model, human,
+formal or empirical verification is claimed. [Work record](udt_completion_connection_whiteboard_2026-10-03/WORK_RECORD.md)
+and [descendant review](udt_completion_connection_whiteboard_2026-10-03/DESCENDANT_REVIEW.md)
+retain exposure, checks and omissions. Actual final attestations and closure
+receipts own integration/banking status.
+
+PDA1 uses two new fresh source-first/exposed/final reviewer contexts. Their
+source-first wavefront/path derivations preceded exposure to the parent fixed-ray
+candidate; the parent froze its own candidate before reading their arguments.
+Exposed reviews checked the distinct quantifiers, explicit H1/H2/H3 conditions,
+uniform estimate, actual incidence, gauge residue, bounded noncrossing degeneracy
+and echo domain. Both independently recomputed load-bearing geodesic/implicit-jet
+quantities by hand. Parent exact controls passed45 checks in five families; no
+scientific repair or reviewer scientific program was needed. Shared inherited
+model/premises and SymPy remain limits; no different-model/human/formal/empirical
+verification. Reviewer alternative generic regularity and wavefront arguments
+remain review leads, not extra integrated theorems. [Work record](udt_prepared_distance_attachment_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_prepared_distance_attachment_2026-10-04/DESCENDANT_REVIEW.md)
+preserve exposure, the metadata lookup failure, checks and omissions. Actual
+final accepted-map attestations and normal/maintenance/full406 receipts own
+integration/banking closure; neither review nor commit adopts RG.
+
+CPA1 uses two new fresh source-first/exposed/final contexts to audit the
+progress assessment. Both read the prior source proofs/verdicts before the new
+audit, so this is not verdict-blind rediscovery of old results. Parent froze its
+audit before reading either new reviewer argument. Independent hand checks cover
+the force/estimate, curvature contraction, proper-clock gap, distance incidence
+and adverse expansions. Both accepted the bounded assessment without a blocking
+scientific defect. Their nonblocking source-precision note distinguishes FCW's
+smooth trial/C2 control from CPW/FCL's later C3 scope; the original audit stays
+fixed and the reviewed return records the clarification. No new scientific
+program was needed or run; prior pass counts are attributed, not evidence of
+physical progress. Shared model and source exposure remain; different-model,
+independent-code, human, formal, empirical and literature-priority review are
+not claimed. [Work record](udt_completion_progress_audit_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_completion_progress_audit_2026-10-04/DESCENDANT_REVIEW.md)
+retain actual source ancestry, exposure and read/metadata errors. Final accepted-map
+attestations and normal/maintenance/full406 receipts own closure and banking.
+
+ACI1 uses two actual fresh source-first/exposed/final contexts. Their own
+source-first derivations and controls precede new-candidate exposure; the
+shared parent controls were checked by hand after exposure. Old proof/verdict
+exposure is disclosed. The intended parent-before-review
+freeze order was breached by math's unsolicited pre-seal route outline; parent
+read it before its file freeze and claims no independent pre-review discovery.
+The supplement credits fidelity's cosh control idea. Both exposed reviews found
+no required scientific repair but insisted that the native physical assignment
+remain the headline open issue. One parent exact control program had two
+preserved normal-form failures before51 symbolic assertions passed; metrics,
+equations and expected values stayed fixed. Some assertions are consistency,
+not independent confirmation. Actual incidence, curvature and integration were
+recomputed by hand. No reviewer scientific CPU, different-model, human, formal,
+independent-code or empirical review is claimed. [Work record](udt_asymptotic_curvature_implication_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_asymptotic_curvature_implication_2026-10-04/DESCENDANT_REVIEW.md)
+preserve exposure, read/path failures, exact repairs and both favorable/adverse
+scope. Final accepted-map attestations, normal/maintenance/full406 receipts and
+actual banking own closure; neither review nor commit adopts physics.
+
+GRL1 uses three separate research contexts and two additional fresh
+source-first/exposed/final reviewers. Ten substantive primary papers were
+inspected; one mistaken paper identifier reached unrelated title metadata only
+and was discarded. Exact versions, inspected sections and access omissions are
+recorded in each source ledger. Old source/verdict exposure is disclosed.
+The parent froze its synthesis after all three research reports and before
+reading either new reviewer's substantive source-first findings; earlier hand
+exploration was not blind preregistration. No independence from the research
+reports is claimed. Both reviewers reconstructed the conditional arguments and
+original-incidence controls by hand. One bounded repair resolves excessive
+all-direction necessity wording and emission-versus-Fermi labels, and records
+the scaled-incidence C1 justification and independent Riccati argument with
+attribution. Initial candidate and all earlier seals remain fixed. The
+first frozen integration omitted the original H>0/h>0 control domains; both
+reviewers rejected that omission. Its freeze and before bytes are preserved,
+and the revised integration restores those hypotheses without changing the
+derivations. It also corrects attribution of the ultrastatic source check to
+the mathematical reviewer alone. The external quadrupole channel is unused.
+No scientific program, GPU campaign,
+human, different-model, empirical, formal or full-corpus review occurred.
+[Work record](udt_gr_physical_connection_review_2026-10-04/WORK_RECORD.md) and
+[descendant review](udt_gr_physical_connection_review_2026-10-04/DESCENDANT_REVIEW.md)
+retain the scope, omissions and both positive/negative interpretation checks.
+Actual final attestations and normal/maintenance/full406 receipts own closure;
+review and banking do not adopt the open physical join.
+
+PRT1 uses two fresh source-first/exposed/final contexts, with old owner/proof/
+verdict exposure disclosed. Parent froze its new candidate before reading either
+new reviewer's substantive findings. Both reviewers independently hand-derived
+the original metric curvature, Lorentz-frame contractions, reverse preparation,
+actual arrival derivative, conformal integral/tail and first/echo branch limits.
+No scientific program ran. The local sign inference mainly reuses PSW/FPC/PCC;
+the future cubic control analysis is newly scoped work on the old supplied
+example, not native admission. Precision clarifies Ric(D) as a tensor, the
+unquotiented future domain and independent availability of supplied-metric
+evaluation. The concrete handoff was written after source-first review; its
+contrast-tail caution is credited. Both reviewers caught wording that appeared
+to freeze confirmation outcomes; the corrected text freezes analysis choices
+before inspecting outcomes. Its first edition and actual correction are retained,
+and the next task is explicitly recommended under a bounded work order.
+[Work record](udt_positional_requirement_translation_2026-10-04/WORK_RECORD.md) and
+[descendant review](udt_positional_requirement_translation_2026-10-04/DESCENDANT_REVIEW.md)
+record positive/negative scope and omissions. No human, different-model, formal,
+independent-code, empirical or full-corpus scientific review is claimed. Actual
+final accepted-map attestations and required captured checks own closure; neither
+review nor commit supplies the open physical assignment or adopts physics.
+
+OEV1 uses one observation researcher and two fresh source-first/exposed/final
+reviewer contexts. Published outcomes and old proof/verdict exposure are explicit.
+Parent numerical equations/code/matrix and diagnostic rules were frozen before
+execution; its initial result prose was assembled after the scoped findings.
+The mathematical reviewer independently derived the original metric equations
+and froze a distinct 60-digit quadrature/affine/transport checker before outcome
+handoff. It checked 6393 samples and 246 endpoint roles, repeated extreme anchors
+at 90 digits and rejected three corrupted records. The fidelity reviewer visually
+checked the primary table and separately replayed 60 numeric fields with Decimal 60.
+Its S1 method-ownership objection was repaired with original map/ledger preserved
+and actual re-review. No numerical code/config repair was needed. Tight/coarse
+acceptance, source covariance limits, failed retrievals and omitted pipeline
+replays remain explicit in the [work record](udt_observation_metric_evaluation_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_observation_metric_evaluation_2026-10-04/DESCENDANT_REVIEW.md).
+Same-model fresh contexts and distinct numerical implementations are claimed;
+human, different-model, formal interval and independent empirical confirmation
+are not. Actual final accepted-map attestations and captured normal/maintenance/
+full 406 checks own closure; none selects native physics.
+
+ACP1 uses two actual fresh source-first/exposed/final contexts. They checked
+FSL1/G348 and the actual MCP source passages, then independently executed
+Fraction/Decimal70 and Decimal80 checks without importing parent code. The
+18-case mathematical check and 45-case source/arithmetic check retain their
+exact scopes, failures and comparisons. Parent symbolic and nine high-precision
+inverse-arrival checks supplement the argument. Initial parent output-write
+and reviewer syntax failures are preserved with freezes and repaired execution.
+Four precision repairs fix the sky-map sign, reference-clock ownership, finite
+monitoring estimator and separate systematics. Both actual exposed reports
+re-reviewed the repair. Final integrated-byte attestations are distinct from
+those scientific checks; normal/maintenance/full406 and banking remain actual
+operational gates. The [work record](udt_first_astronomical_comparison_2026-10-04/WORK_RECORD.md)
+and [descendant review](udt_first_astronomical_comparison_2026-10-04/DESCENDANT_REVIEW.md)
+retain exposure, source limits and positive/adverse uses. No full dataset fit,
+old-corpus reproof, human/different-model review, native adoption or empirical
+confirmation is claimed.
+
+CGE1 has two actual fresh source-first/exposed/final contexts. Their separate
+original-coordinate derivations, one affine/proper-time ODE shooting comparison,
+Gauss–Legendre saved-incidence reconstruction, and distinct drift checks support
+the restricted candidate. The original failed checker and exact denominator
+repair remain visible, with no scientific candidate/tolerance change. The
+[work record](udt_conditional_source_geometry_2026-10-04/WORK_RECORD.md) and
+[scoped descendant review](udt_conditional_source_geometry_2026-10-04/DESCENDANT_REVIEW.md)
+state exposure, inherited conditional premises, positive/adverse uses and work
+not repeated. Final byte review is distinct from the mathematical checks;
+normal/maintenance/full406 and exact banking remain actual gates. No empirical,
+human/different-model, full-corpus, native source or global stability claim.
+
+CPR1 adds two actual fresh source-first/exposed/final contexts, separate
+original-curvature and actual-incidence derivations, and independent saved-
+quantity checks. Its [work record](udt_candidate_commitment_restriction_2026-10-04/WORK_RECORD.md)
+discloses preliminary formula exposure, the parent stopping-threshold defect,
+unchanged acceptance criteria and reduced numerical coverage. The reviewers'
+early-branch failure and later arithmetic-summary correction are preserved.
+The [descendant review](udt_candidate_commitment_restriction_2026-10-04/DESCENDANT_REVIEW.md)
+covers positive conditional uses and narrowed negative claims, including the
+nonspaceform DDR distinction and open asymptote attachment. Final file-hash
+review and required regression receipts are separate from scientific proof;
+none supplies a new physical premise or empirical confirmation.
+
+OAA1's two fresh source-first/exposed/final contexts independently reconstruct
+the affine limit and causal/radar distinction, replay actual saved incidences,
+and check the exact ceiling counterexample. Its [work record](udt_operational_asymptote_attachment_2026-10-04/WORK_RECORD.md)
+states shared-model/library exposure, the preserved early-branch failure,
+reviewer resource-enforcement repair and narrowed eventual-tail wording. The
+[descendant review](udt_operational_asymptote_attachment_2026-10-04/DESCENDANT_REVIEW.md)
+updates distance, scale, optical and adverse uses together. Exact rational proof,
+finite arithmetic, independent review and version checks remain distinct; no
+native, empirical, full-corpus or universal-distance claim is inferred.
+
+OJM1's two fresh source-first/exposed/final contexts reconstruct the full
+optical map and independently replay actual saved incidences and map entries,
+including original four-dimensional metric/Jacobi integration. Its [work record](udt_optical_jacobi_attachment_2026-10-05/WORK_RECORD.md)
+preserves the strong-ray finite-angle failure/repair and shared-model/library
+exposure. The [descendant review](udt_optical_jacobi_attachment_2026-10-05/DESCENDANT_REVIEW.md)
+updates optical, clock, scale and adverse uses together. Exact proofs, finite
+checks, same-formula regression and reviewed byte bindings remain distinct;
+neither a finite source model nor native/empirical admission is inferred.
+
+TSI1's two fresh source-first/exposed/final contexts independently derive
+the timed/untimed distinction, check operational cadence and mass boundaries,
+and replay saved rates and scale transformations with separate implementations.
+Its [work record](udt_timing_scale_identifiability_2026-10-05/WORK_RECORD.md) and
+[descendant review](udt_timing_scale_identifiability_2026-10-05/DESCENDANT_REVIEW.md)
+record formula exposure, conditional source protocols and the positive update
+to scale calibration alongside the surviving constants-only/untimed limits.
+Neither asymptotic identifiability nor numerical agreement establishes finite
+astronomical access, native selection or an additional matched-GR effect.
+
+FRI1's two actual fresh contexts derive and challenge finite-window uncertainty
+bounds and independently replay the actual records, including receiver-time
+scheduling and finite error certificates. Its [work record](udt_finite_record_scale_test_2026-10-05/WORK_RECORD.md)
+discloses source-first leads, parent evaluator reuse and shared-model/library
+limits. The [descendant review](udt_finite_record_scale_test_2026-10-05/DESCENDANT_REVIEW.md)
+updates both the positive finite calibration and the adverse short-record
+ambiguity without extending either to native selection or real instruments.
+
+PIA1 adds two actual fresh contexts with independent arithmetic/argument
+checks and an independent primary-source methods audit. Its
+[work record](udt_physical_clock_interface_audit_2026-10-05/WORK_RECORD.md)
+distinguishes same-model review from physical instrument validation. The
+[source-preserving repair](udt_physical_clock_interface_audit_2026-10-05/REVIEW_REPAIR.md)
+clarifies conditional coverage, base-history schedules, total-Z admission and
+actual instrument weighting. No FRI1 equation or registry grade changes.
+
+GCP1 uses two independently question-forming explorer contexts followed by two
+fresh source-first/direct/final review contexts. Its [notebook](udt_geometry_constraint_pilot_2026-10-12/NOTEBOOK.md)
+and [source/descendant analysis](udt_geometry_constraint_pilot_2026-10-12/DESCENDANT_REVIEW.md)
+record the exact hand argument, prior-result reuse, failed implication and stop
+reason. No scientific executable or numerical certification was needed. Model
+inheritance is shared; different-model, human, empirical and formal review remain
+untested. Actual final attestations and required regression receipts own closure;
+review does not adopt a global clock/causality axiom or a new physical assignment.
+
+GRC1 uses two independently originating researcher contexts and two further fresh
+source-first/direct/final reviewers. Later researcher cross-exposure is recorded;
+shared model inheritance is not different-model independence. The [work record](udt_goal_research_campaign_2026-10-13/WORK_RECORD.md)
+and [descendant review](udt_goal_research_campaign_2026-10-13/DESCENDANT_REVIEW.md)
+preserve redirections, primary-source scope, the symbolic-normalization failure,
+independent original-metric/arrival-map checks and the first bounded precision
+repairs. Review distinguishes PRT1's existing sign cone from GRC1's optical and
+finite/global developments. One reviewer independently integrates the proper-time
+geodesic and incidence equations; the other differentiates high-precision
+first-integral arrival quadratures. Those implementations are separate but share
+standard mathematical libraries and the candidate problem. Neither constitutes
+interval certification, human review or experimental validation. Exact final
+attestations and normal/maintenance/full406 receipts govern completed integration;
+review does not adopt the clock signs, optical condition, reference or geometry.
+
+COC1 adds two independently originating researchers and two further actual fresh
+source-first/direct/final reviewers. The [notebook](udt_clock_optical_physical_connection_2026-10-13/NOTEBOOK.md)
+and [work record](udt_clock_optical_physical_connection_2026-10-13/WORK_RECORD.md)
+disclose nearest-prior scalar reconstruction, researcher cross-exposure and the
+preserved parent range-label wording error. The math reviewer independently
+constructs an anisotropic dS2 x R2 cone edge from geodesics and induced area;
+this differs from the researchers' isotropic symbolic controls. The fidelity
+review challenges preparation, reference and physical attribution, including both
+positive and adverse descendants. Source-first derivation is followed by exposed
+candidate/integration review, not continued blindness. Shared model/library,
+finite symbolic checks, independent argument, byte correspondence and scientific
+adoption remain separate. No empirical accuracy, full theorem mechanization,
+different-model or human certification is claimed. Actual final attestations and
+required regression receipts own integration closure; every proposed physical
+law remains unadopted.
+
+PEA1 adds two independent-origin explorers with disclosed later exchanges and
+two further actual fresh source-first/direct/repair/final contexts. Its
+[notebook](udt_positional_effect_assignment_2026-10-13/NOTEBOOK.md) records the
+parent-origin flat-limit probe and the nearest-prior corrections; the
+[work record](udt_positional_effect_assignment_2026-10-13/WORK_RECORD.md) distinguishes
+original-metric author checks, reused coordinate utility, independent analytic
+review and the math reviewer's separate directional-polynomial computation.
+That reviewer also constructs a nonvacuum product-space control of the false
+vacuum converse. Fidelity independently checks conformal inversion and physical
+preparation and identifies the squared/half-squared interval naming defect.
+The [source-preserving repair](udt_positional_effect_assignment_2026-10-13/REPAIR.md)
+fixes its coefficient convention and clarifies the sufficient nonzero-Weyl-invariant
+test without changing the map hypothesis, incidence argument or any conclusion. The [final domain repair](udt_positional_effect_assignment_2026-10-13/INTEGRATION_REPAIR.md)
+retains the source proof’s I≠0 condition in the Killing-equivalence compression.
+Shared model/libraries, derivative tick limits, independent
+argument and byte correspondence are distinguished; no different-model, formal,
+human or empirical certification is claimed. Actual final attestations and
+normal/maintenance/full406 receipts own closure. No scientific adoption follows.
+
+FAC1 adds two independent-origin proposal contexts and two further actual fresh
+source-first/direct/supplement/final reviewers. The [notebook](udt_finite_angular_clock_probe_2026-10-13/NOTEBOOK.md)
+and [work record](udt_finite_angular_clock_probe_2026-10-13/WORK_RECORD.md) disclose
+researcher exchange, the parent-origin invariant lead, rejected electric-only
+guess, original-equation controls and frozen recovery supplement. The math
+reviewer independently derives the plane-wave comparison before answer exposure;
+the fidelity reviewer independently derives the conformal recovery witness.
+Both then examine the exposed proof, exact controls, physical quantifiers and
+saved endpoint arithmetic. The old FPC1 quantifier is clarified in the integrated
+edition without rewriting the original candidate or changing its theorem.
+The [descendant review](udt_finite_angular_clock_probe_2026-10-13/DESCENDANT_REVIEW.md)
+retains positive and negative prior results with their exact hypotheses. Same
+model and some standard libraries are shared; independent argument, implementation,
+finite floating-point evidence and byte correspondence are distinguished. No
+Kerr clock-ray solve, interval enclosure, all-frame classification, different-
+model/human/formal/empirical certification or full-corpus reproof is claimed.
+Actual final attestations and normal/maintenance/full406 receipts own closure.
+No AMS, vacuum sector, strengthened recovery law or physical attribution is adopted.
+
+ALP1 resumes two preserved independent-origin exploratory returns after a
+recorded session disconnection. Its [work record](udt_angular_law_physical_connection_2026-10-13/WORK_RECORD.md)
+and [notebook](udt_angular_law_physical_connection_2026-10-13/NOTEBOOK.md) distinguish
+recovery from research, initial proposal independence and later exchanged leads.
+Two further fresh contexts performed source-first/direct review before final
+integration review: [mathematical](udt_angular_law_physical_connection_2026-10-13/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_angular_law_physical_connection_2026-10-13/review/fidelity/DIRECT_REVIEW.md).
+They independently reconstructed complementary arguments, original-incidence
+checks and angular-measure quadrature, without importing the author checker.
+Both direct verdicts are VERIFIED-WITH-CAVEATS and request no substantive repair.
+Final integration review restores the explicit all-sufficiently-short-preparations
+quantifier in the compressed SCN2 flatness claim; the full proof was already
+correct. The [initial edition and repair](udt_angular_law_physical_connection_2026-10-13/INTEGRATION_REPAIR.md)
+remain preserved, and both reviewers re-review the corrected integration.
+The initial crossing error is preserved in discovery history and independently
+rejected; the frozen candidate contains the corrected value. The
+[descendant review](udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md)
+retains positive and negative source scopes. Same inherited model/runtime,
+analytic proof, author exact arithmetic and reviewer floating corroboration
+are distinguished. No physical law, finite-precision instrument, empirical
+recovery, all-frame AMS classification, global sky theorem or full-postulate
+verdict is claimed. Actual final attestations and required check/publication
+receipts own completion; no human, different-model or formal review is implied.
+
+FKA1 adds two independent-origin source-limited reconstructions and two further
+fresh source-first/direct review contexts. Their [math](udt_foundation_kernel_audit_2026-10-13/review/math/DIRECT_REVIEW.md)
+and [fidelity](udt_foundation_kernel_audit_2026-10-13/review/fidelity/DIRECT_REVIEW.md)
+reports check the founding-source argument, full-pair normalization and actual
+clock bridge. The owner's direct premise clarification arrived after initial
+editions and is preserved with source-specific supplements. One [finite-interval repair](udt_foundation_kernel_audit_2026-10-13/REPAIR.md)
+corrects a pointwise-rate overstatement without changing the differential proofs.
+The return challenge produced a new inverse-realization/ruler construction in
+the fidelity context; its author's own report is not independent certification.
+The [later math check](udt_foundation_kernel_audit_2026-10-13/review/math/RADAR_REPAIR_CROSS_REVIEW.md)
+and [explorer cross-check](udt_foundation_kernel_audit_2026-10-13/explorer_a/CLOCK_MAP_CROSS_CHECK.md)
+independently examine its original equations with later exposure disclosed.
+All checks are analytic; no scientific numerical run or GPU was needed. Model
+and method exposure are shared where stated; human, different-model, empirical
+and formal certification are not claimed. The [work record](udt_foundation_kernel_audit_2026-10-13/WORK_RECORD.md)
+and [descendant review](udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md)
+retain initial editions, actual source versions, positive/negative limits and
+omissions. Actual final integration attestations and check/publication receipts
+own completion. CANON and exact registry grades remain unchanged.
+
+The preserved first candidates expose the repair history. The [source correction](development_reconstruction_2026-09-29/SOURCE_CORRECTIONS.md)
+fixes a real covector-basis sign in G310; the central nine-direction span and
+annihilator survive. The original file remains authentic. Further repairs make
+zero-area, nonzero-density, multiplicity, clock-phase types and provisional-source
+domains explicit. This is not a claim that every old calculation is unchanged
+or newly certified. No scientific registry grade or CANON text changes.
+
+[Maintenance](development_reconstruction_2026-09-29/MAINTENANCE.md) requires updating
+this argument and its bounded [dependency graph](development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json)
+when source meanings/results change. Changed inputs flag both positive and
+negative descendants for review; no hash refresh automatically accepts them.
+The startup program is generated from this opening. LIVE/HANDOFF own operations;
+INDEX/MEMORY are pointers and the registry guide explains grades. Prior editions
+and original source evidence remain historical, with one maintained argument here.
+
+`python3 verify_udt_development.py` checks versions, coverage, conditional edges,
+adapters and scoped review bindings. It fails when reviewed inputs change.
+`python3 verify_current_scientific_premises.py` retains the full original registry,
+banking, archive and method checks and calls that guard. Injected-defect tests
+exercise the new checks; they are not a semantic completeness theorem. Actual
+stage completion, final source/check pins and all remaining omissions belong to
+[CDR1 work record](development_reconstruction_2026-09-29/WORK_RECORD.md) and
+[SGE1 work record](udt_shared_geometry_extension_2026-09-29/WORK_RECORD.md) and
+[LKT1 work record](udt_lorentz_kernel_transport_2026-09-29/WORK_RECORD.md) and
+[GCA1 work record](udt_gr_commitment_audit_2026-09-29/WORK_RECORD.md) and
+[PCW1 work record](udt_physical_connection_whiteboard_2026-09-30/WORK_RECORD.md) and
+[CES1 work record](udt_clock_ensemble_stationarity_test_2026-09-30/WORK_RECORD.md) and
+[CCR1 work record](udt_curved_clock_response_test_2026-09-30/WORK_RECORD.md) and
+[PRI1 work record](udt_population_response_identification_2026-09-30/WORK_RECORD.md).
+
+[TRI1 execution record](udt_tick_readout_identification_2026-09-30/WORK_RECORD.md).
+
+[NGD1 execution record](udt_gpu_time_live_discovery_2026-09-30/WORK_RECORD.md),
+[TDS1 execution record](udt_three_spatial_smoke_2026-10-01/WORK_RECORD.md),
+[TPP1 execution record](udt_time_live_production_preparation_2026-10-01/WORK_RECORD.md),
+the [TPS1 launch execution record](udt_time_live_production_survey_2026-10-01/WORK_RECORD.md),
+and [TPS1 completion execution record](udt_time_live_production_survey_2026-10-01/diagnosis/WORK_RECORD.md).

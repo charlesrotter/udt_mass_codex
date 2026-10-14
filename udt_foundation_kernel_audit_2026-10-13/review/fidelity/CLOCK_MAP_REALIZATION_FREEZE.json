@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-14T00:34:30.696554+00:00",
+  "reviewer": "/root/fka_review_fidelity",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "scope": "Exact analytic reverse clock-map realization and cocycle; before sibling review exposure; unreviewed control, not native physical admission",
+  "sha256": {
+    "CLOCK_MAP_REALIZATION.md": "9cef9602e0f30512ed3fa4fbc7860f69c8366e3fdbfbaacd3152ed81cf90be2b",
+    "SOURCE_FIRST.md": "c2d30911f2717207a7beb05be498fe09f54cd85848a557eb69cd8b1795d2cbcf",
+    "OWNER_CLARIFICATION_RESPONSE.md": "05f4e5f3ed0d24f711077dcc4294967bec491f66cff756d9333e2edc52eccb84"
+  },
+  "methods": "Hand derivation from metric components, clock norms, Christoffel symbols, null curves, curvature and chain rule; no numerical or symbolic worker"
+}

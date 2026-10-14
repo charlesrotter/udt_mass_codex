@@ -1,0 +1,306 @@
+{
+  "utc": "2026-10-14T00:35:19.488000+00:00",
+  "reviewer": "/root/fka_review_math",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "branch": "grok",
+  "phase": "initial direct review frozen before sibling mathematical construction exposure",
+  "verdict": "ACCEPT_WITH_LIMITS_AFTER_MR1_FINITE_INTERVAL_WORDING_REPAIR",
+  "scientific_evidence": "INDEPENDENT_ANALYTIC_CHECKS.md M1-M7; analytic exact calculations, no scientific executable run",
+  "additional_exposure": "Parent transmitted sibling finite-interval wording finding before direct freeze; independently checked M7, not independently discovered. Parent announced existence of later clock-map construction but no equations read.",
+  "manifest_checks": [
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+      "expected": "3939273c1b079e240b5e8d5b7a8cea2f61310d36298f57f223fda4807a82b171",
+      "actual": "3939273c1b079e240b5e8d5b7a8cea2f61310d36298f57f223fda4807a82b171",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+      "expected": "815cd04094dc33ed10649020cc2c5cb0236a2dff6880ea3a376bc55ed45625ae",
+      "actual": "815cd04094dc33ed10649020cc2c5cb0236a2dff6880ea3a376bc55ed45625ae",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/WORK_ORDER.md",
+      "expected": "53f5dd21b67fc16453907369c030fbf2349c801defcf93bf05f89ae843302094",
+      "actual": "53f5dd21b67fc16453907369c030fbf2349c801defcf93bf05f89ae843302094",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+      "expected": "7624da1eb96eb1d1207125f3a0e44e674d1ff668fbde5194189c510116eb2278",
+      "actual": "7624da1eb96eb1d1207125f3a0e44e674d1ff668fbde5194189c510116eb2278",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/STARTING_PACKET.md",
+      "expected": "607b6313e828d5fcfcd6e6025b0c875c625ffefb8acc5e398788b89edb189581",
+      "actual": "607b6313e828d5fcfcd6e6025b0c875c625ffefb8acc5e398788b89edb189581",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "expected": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+      "actual": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/COMPARISON_PACKET.md",
+      "expected": "67c9a59ae57294aa394cd6a1357d5ebf0a9f9b4d5836cf488950f21949d32ef5",
+      "actual": "67c9a59ae57294aa394cd6a1357d5ebf0a9f9b4d5836cf488950f21949d32ef5",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/COMPARISON_SOURCE_PINS.json",
+      "expected": "0743662673d8f9d5830f4e4c39fc4f108fc86a2b2e9bcc4e7ec61f23423e8aed",
+      "actual": "0743662673d8f9d5830f4e4c39fc4f108fc86a2b2e9bcc4e7ec61f23423e8aed",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/CANDIDATE.md",
+      "expected": "e4c1c32a688903b99c5f06b9aed00bd9f4ab7bf339fdfaf3e7be8fd058fbe973",
+      "actual": "e4c1c32a688903b99c5f06b9aed00bd9f4ab7bf339fdfaf3e7be8fd058fbe973",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/OWNER_CLARIFICATION_RESPONSE.md",
+      "expected": "f1f1495dff81409a1ab86e21a4e2cd79616ce581c7f827be823d1e1f4d25c54c",
+      "actual": "f1f1495dff81409a1ab86e21a4e2cd79616ce581c7f827be823d1e1f4d25c54c",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/CANDIDATE.md",
+      "expected": "ae71148db9301d62b249e8566da4eaa18c113ef5650c529b334911d378d19dc8",
+      "actual": "ae71148db9301d62b249e8566da4eaa18c113ef5650c529b334911d378d19dc8",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/OWNER_CLARIFICATION_RESPONSE.md",
+      "expected": "38cf66eacf7c749b6ae3075a0e08931bb92eefabbc064e1de9be03e32148b952",
+      "actual": "38cf66eacf7c749b6ae3075a0e08931bb92eefabbc064e1de9be03e32148b952",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "PROVENANCE.md",
+      "expected": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+      "actual": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "origin_prompts_screenshot_2025-08-12.png",
+      "expected": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "actual": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "provenance_origin_prompts_2025-08-12.png",
+      "expected": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "actual": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "relativistic_metric_rederivation_results.md",
+      "expected": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+      "actual": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "legacy/root_oneoffs_2026-07-01/verify_relrederiv_independent.py",
+      "expected": "e578e8ded9261cda772e23d8f510d7d12b446a1769c7c47ff02a758593d63785",
+      "actual": "e578e8ded9261cda772e23d8f510d7d12b446a1769c7c47ff02a758593d63785",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "legacy/root_oneoffs_2026-07-01/verify_relrederiv_reciprocity_deep.py",
+      "expected": "3852c2e08bee6eda658849f19ecbb2eaac1b4b0b3038ecf6c2b37198cedb99ed",
+      "actual": "3852c2e08bee6eda658849f19ecbb2eaac1b4b0b3038ecf6c2b37198cedb99ed",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "PROBLEM_STATEMENT.md",
+      "expected": "f61b334d771dc0f2c76a9acd3b2663887b942f116be529700285bd2184666d14",
+      "actual": "f61b334d771dc0f2c76a9acd3b2663887b942f116be529700285bd2184666d14",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "SIMPLE_METRIC_MACRO.md",
+      "expected": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+      "actual": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "CANON.md",
+      "expected": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "actual": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md",
+      "expected": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "actual": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "expected": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "actual": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_reciprocal_c_metric_meaning_audit_2026-07-22/AUDIT_REPORT.md",
+      "expected": "1e63d4fcc03c793e895d9771b925a9e8a295f9e573e55ded62302693c173bc21",
+      "actual": "1e63d4fcc03c793e895d9771b925a9e8a295f9e573e55ded62302693c173bc21",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_reciprocal_c_metric_meaning_audit_2026-07-22/PREREGISTRATION_OWNER_CLARIFICATION.md",
+      "expected": "c8cde9e7a4496a9d467b4335665b1fc1b2cfa7aa155b7c99a653c7d04d2049ba",
+      "actual": "c8cde9e7a4496a9d467b4335665b1fc1b2cfa7aa155b7c99a653c7d04d2049ba",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "expected": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+      "actual": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/ADOPTION_RECORD.md",
+      "expected": "39ebafd725f2eb8f0e8a0b2fcd6cf2a485c3c7fbfc7dde1582844f066aa88cb2",
+      "actual": "39ebafd725f2eb8f0e8a0b2fcd6cf2a485c3c7fbfc7dde1582844f066aa88cb2",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
+      "expected": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+      "actual": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+      "expected": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+      "actual": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+      "expected": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+      "actual": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md",
+      "expected": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+      "actual": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/AUDIT_REPORT.md",
+      "expected": "713a63d52c8f91d0da00c9bf04171135abae356ad0bdf24acac583dd6f8f4735",
+      "actual": "713a63d52c8f91d0da00c9bf04171135abae356ad0bdf24acac583dd6f8f4735",
+      "matches": true,
+      "read_mode": "working tree"
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "UDT_DEVELOPMENT.md",
+      "expected": "acbfda535d7a706b71c808f4c91a4333856fe0b62b2a5e619f6b280f38fbe4bb",
+      "actual": "acbfda535d7a706b71c808f4c91a4333856fe0b62b2a5e619f6b280f38fbe4bb",
+      "matches": true,
+      "read_mode": "pinned HEAD version after live integration notice"
+    }
+  ],
+  "artifact_sha256": {
+    "udt_foundation_kernel_audit_2026-10-13/review/math/SOURCE_FIRST.md": "66bb6dbe1b235bb7aa08f2f7b9c909af5425669d98aa5658fc4e216d729cb08b",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/SOURCE_FIRST_PINS.json": "069fa7af28e2928b27b76c83bc3fb08a6e935756ee183bc27e40a588392f86e9",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/OWNER_CLARIFICATION_RESPONSE.md": "5f3d97db556ac5c1ddac417e1b0af705534f9f9b6523277c570f573b7adc6b4e",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/OWNER_CLARIFICATION_RESPONSE_PINS.json": "b250c107c11804b662fe607ec15cc1af52000df51f076ddf7fb068d7fb49a033",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/DIRECT_REVIEW.md": "b518098f91a6c1fd7e9cbc13d55d0e770f2bb1445a0d878b76e2fd4d958ba476",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/INDEPENDENT_ANALYTIC_CHECKS.md": "2fd4c60e13143647d7d55887d244053e5219a0cb7dd468591d78196d4820559e",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/DEVELOPMENT_HEAD_EXCERPT.txt": "c0f52a1fd63a6f3adeb388d38643e44ad5782b1c173b4571c1c4f670173deede",
+    "udt_foundation_kernel_audit_2026-10-13/SCIENCE_FREEZE.json": "4779ca8c80b856b3ded308b9f7818392756ff9512f8dfaca6bdff2a14399492d",
+    "udt_foundation_kernel_audit_2026-10-13/COMPARISON_SOURCE_PINS.json": "0743662673d8f9d5830f4e4c39fc4f108fc86a2b2e9bcc4e7ec61f23423e8aed",
+    "udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md": "dccac2caa74757fd6ae48486a8359630c1fb5d30508fd50dc6adf2b06307704d"
+  },
+  "omissions": [
+    "no sibling review or clock-map construction file read before freeze",
+    "no numerical or solver replay",
+    "no registry grades independently re-audited",
+    "no integration acceptance",
+    "no full descendant census",
+    "no protected local payload read"
+  ],
+  "commands_for_final_correspondence": [
+    "git rev-parse HEAD",
+    "git branch --show-current",
+    "git show 67246b3528c8fbc363b98c1d06794517e8109f65:UDT_DEVELOPMENT.md",
+    "Python stdlib hashlib comparison of SCIENCE_FREEZE and COMPARISON_SOURCE_PINS, with pinned HEAD override for UDT_DEVELOPMENT only"
+  ],
+  "runtime": {
+    "python": "Python 3.10.12",
+    "git": "git version 2.34.1"
+  }
+}

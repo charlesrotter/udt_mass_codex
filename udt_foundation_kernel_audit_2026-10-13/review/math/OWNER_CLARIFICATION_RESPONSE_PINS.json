@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-14T00:27:44.276734+00:00",
+  "reviewer": "/root/fka_review_math",
+  "phase": "owner-clarification supplement before candidate exposure",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "source_first_preserved": true,
+  "sha256": {
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md": "815cd04094dc33ed10649020cc2c5cb0236a2dff6880ea3a376bc55ed45625ae",
+    "udt_foundation_kernel_audit_2026-10-13/WORK_ORDER.md": "53f5dd21b67fc16453907369c030fbf2349c801defcf93bf05f89ae843302094",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/SOURCE_FIRST.md": "66bb6dbe1b235bb7aa08f2f7b9c909af5425669d98aa5658fc4e216d729cb08b",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/SOURCE_FIRST_PINS.json": "069fa7af28e2928b27b76c83bc3fb08a6e935756ee183bc27e40a588392f86e9",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/OWNER_CLARIFICATION_RESPONSE.md": "5f3d97db556ac5c1ddac417e1b0af705534f9f9b6523277c570f573b7adc6b4e"
+  },
+  "new_exposure": [
+    "shared OWNER_CLARIFICATION.md",
+    "corrected WORK_ORDER.md",
+    "parent clarification messages"
+  ],
+  "not_exposed": [
+    "explorer candidates",
+    "prior proofs",
+    "sibling review",
+    "coordinator candidate"
+  ],
+  "computation": "analytic only; no numerical workload"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-14T00:23:06.762329+00:00",
+  "status": "Candidate for fresh adversarial review, not accepted",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "tracked_status": "",
+  "initial_editions_unchanged": {
+    "INITIAL_APPROACH.md": true,
+    "INITIAL_RECONSTRUCTION.md": true
+  },
+  "sha256": {
+    "CANDIDATE.md": "ae71148db9301d62b249e8566da4eaa18c113ef5650c529b334911d378d19dc8",
+    "COMPARISON_EXPOSURE_PINS.json": "656a4c98dad8a6cbe43eeda00d4b90d33605ea9d0a6306f2601977814c720ae1"
+  },
+  "computation": "Exact hand derivations only, no numerical/symbolic scientific worker",
+  "scope": "Initial source-first phase followed by exact old-source comparison, no sibling exposure; same inherited model"
+}

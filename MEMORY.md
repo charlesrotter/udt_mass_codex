@@ -10,5 +10,5 @@ results change. Do not grow a second scientific narrative here. Historical statu
 archive/STARTUP_SURFACE_HISTORY.md. Correction procedure:
 development_reconstruction_2026-09-29/MAINTENANCE.md.
 
-Current research return route: UDT_DEVELOPMENT.md#r8alp and the fixed
-udt_angular_law_physical_connection_2026-10-13/DECISION_BRIEF.md. LIVE owns the next gate.
+Current research return route: UDT_DEVELOPMENT.md#r1fka and the fixed
+udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md. LIVE owns the next gate.

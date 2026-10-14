@@ -1,36 +1,34 @@
 # HANDOFF — current operational handoff
 
 <!-- STARTUP_CURRENT_BEGIN -->
-## Current handoff — ALP1 angular-law physical-connection return, 2026-10-13
+## Current handoff — FKA1 foundation-to-kernel audit, 2026-10-13
 
 CDR1 remains the central-development architecture. UDT_DEVELOPMENT.md is the
 sole maintained scientific argument; CURRENT_SCIENTIFIC_PREMISES.tsv and reviewed
-sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is the generated bounded
-orientation. ALP1's WORK_ORDER and NOTEBOOK in
-udt_angular_law_physical_connection_2026-10-13/ own scope and continuity.
-Actual final attestations, checks and remote bytes own completion.
+sources own exact grades. CURRENT_RESEARCH_PROGRAM.md is its generated bounded
+orientation. FKA1's WORK_ORDER, direct OWNER_CLARIFICATION and NOTEBOOK in
+udt_foundation_kernel_audit_2026-10-13/ own scope and continuity. Actual final
+attestations, checks and remote bytes own completion.
 
-FAC1 closed at d8171f96, matching fetched grok/main at recovery. Charles's
-subsequent “Proceed” authorized ALP1, and “Ok, pick up where they left off.
-Onward.” explicitly resumed it after the crash recovery. Both exploratory
-returns and the saved exact check survived; source hashes and prior closure
-receipts matched. RECOVERY_RECEIPT and recovery/NOTEBOOK.md preserve that
-checkpoint. They do not recover unsaved reasoning or diagnose the failure cause.
+ALP1 closed at 67246b35, matching fetched grok/main at the audit's entry.
+Charles approved independent reconstruction and fresh review of the metric/
+kernel foundations, then removed the preset time/CPU cap and allowed GPU if
+needed. His current clarification accepts observed c_E as mutual slowing of
+separated clocks, presently interpreted as light travel time. Preserve the
+initial pre-correction editions and later exposure/repair history.
 
-Two fresh source-first/direct reviewers then examined the joint candidate,
-independently checked complementary arguments and original-incidence/measure
-controls, and challenged the return decision. Both direct verdicts are
-VERIFIED-WITH-CAVEATS without a substantive repair request. R8ALP/R18 and the
-fixed DECISION_BRIEF carry the scoped return. Original researcher files and
-scientific grades are unchanged; no physical trial is adopted. Final integrated
-bytes require both actual attestations, normal/maintenance/full406 passes and
-approved grok/main correspondence. Check their receipts and current refs.
+The maintained return is D1/R1FKA/R4/R6FKA/R18; the fixed DECISION_BRIEF and
+actual reviews describe its scope. The work does not change CANON, adopt a new
+physical premise or regrade old results. Both positive and negative descendants
+keep their explicit hypotheses. No scientific numerical production was needed
+for the exact analytic candidate.
 
-Next: finish those authorized gates if not yet receipted, then Stop for lay discussion.
-The existing scope includes bounded repairs/re-reviews. No successor,
-physical adoption, GPU/long production, empirical fit or protected restart follows
-automatically. The PIA1 application remains deferred. Other LIVE pauses persist;
-preserve all unrelated local work and archive-access limits.
+Next: finish FKA1's authorized gates if not yet receipted, then Stop for lay discussion.
+Those gates include actual final attestations, normal/maintenance/full406 passes
+and verified grok/main publication. Existing authority covers included repair/
+re-review and needed monitored compute. No automatic successor, physical
+adoption or protected restart follows. PIA1 remains deferred. Preserve all
+other LIVE pauses, unrelated local work and archive-access limits.
 
 Protected payloads require explicit dispatch; preserve without inspecting/hashing:
 

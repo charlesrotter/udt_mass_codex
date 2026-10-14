@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-14T00:46:31.460363+00:00",
+  "reviewer": "/root/fka_review_fidelity",
+  "scope": "Independent byte/provenance/preservation checks supporting actual final argument review; not scientific proof by hashes",
+  "freeze": "udt_foundation_kernel_audit_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "babd81f470a5aea044e9b34d2c0e0d1d06c1cb242cb57ad700ae6201ccfd31e3",
+  "accepted_count": 15240,
+  "accepted_mismatches": [],
+  "prior_accepted_count": 15171,
+  "changed_prior_count": 9,
+  "changed_prior_files_match": true,
+  "new_count": 69,
+  "new_files_match": true,
+  "removed_prior_files": [],
+  "prior_record_sha256_matches": true,
+  "prior_attestation_binding_checks": [
+    {
+      "context": "/root/alp_review_math",
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/math/FINAL_ATTESTATION.json",
+      "sha256_matches_record": true,
+      "accepted_mapping_matches_prior_record": true,
+      "verdict": "ACCEPT_WITH_LIMITS"
+    },
+    {
+      "context": "/root/alp_review_fidelity",
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256_matches_record": true,
+      "accepted_mapping_matches_prior_record": true,
+      "verdict": "ACCEPT_WITH_LIMITS"
+    }
+  ],
+  "generated_excerpt_matches": true,
+  "source_freeze_checks": {
+    "SCIENCE_FREEZE.json": {
+      "count": 12,
+      "mismatches": []
+    },
+    "STARTING_SOURCE_PINS.json": {
+      "count": 9,
+      "mismatches": []
+    },
+    "ADDENDUM_SOURCE_PINS.json": {
+      "count": 2,
+      "mismatches": []
+    }
+  },
+  "canon_registry_unchanged": {
+    "CANON.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true
+  },
+  "protected_accepted_paths": [],
+  "protected_payload_hashed": false,
+  "unrelated_untracked": {
+    "baseline_count": 76,
+    "current_count": 76,
+    "missing": [],
+    "added": []
+  },
+  "branch": "grok",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "tracked_dirty_names": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "limits": "15,162 unchanged prior accepted files inherit their source-relative reviews; this scan is correspondence, not corpus reproof. No parent tests or publication gate is claimed."
+}

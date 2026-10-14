@@ -15,7 +15,8 @@
         "udt_gr_filter_reconciliation_2026-09-09/AUTHORITY_RECORD.md",
         "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
         "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
-        "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md"
+        "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md"
       ],
       "required_conditions": []
     },
@@ -89,7 +90,13 @@
         "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
         "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
         "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
-        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md"
+        "udt_finite_native_pair_audit_2026-10-01/REVIEWED_RESULT.md",
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md"
       ],
       "required_conditions": [
         "P_PAIR"
@@ -528,7 +535,14 @@
         "udt_echo_scalar_rigidity_2026-10-03/REVIEWED_RESULT.md",
         "udt_clock_law_physical_whiteboard_2026-10-03/REVIEWED_RESULT.md",
         "udt_free_clock_completion_2026-10-03/REVIEWED_RESULT.md",
-        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md"
+        "udt_completion_connection_whiteboard_2026-10-03/REVIEWED_RESULT.md",
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
       ],
       "required_conditions": []
     },
@@ -3230,6 +3244,112 @@
       "registry_ids": [],
       "required_conditions": [
         "C_ALP_QUERY"
+      ]
+    },
+    {
+      "id": "C_FKA_RECORDS",
+      "kind": "condition",
+      "statement": "Supplied smooth ordinary proper clocks and differentiable event correspondence with finite strictly positive derivative, common units/source-proper-time label; supplied regular Lorentz metric and companion. This clock encoding assumes no independent propagation mechanism and selects no physical correspondence.",
+      "sources": [
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "C_FKA_CONTROL",
+      "kind": "condition",
+      "statement": "Free-and-explored Z>1, ell>0, finite epsilon, explicit conformal product metric on positive u,v quadrant, A(a),B(b) clocks and chosen null representation. Each finite query lies on compact segments. Whole-ribbon tape uses compact positive emission window and sufficiently small |epsilon|. Immediate-return radar is a declared convention from the same records, not additional data or an adopted physical ruler.",
+      "sources": [
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "O_FKA_PHYSICAL_JOIN",
+      "kind": "open_join",
+      "statement": "Faithful quantitative realization of admitted c_E-as-mutual-clock-slowing postulate in physical metric/event/ruler assignment remains OPEN. No derivation of time/length duality from words alone, no full-postulate insufficiency, new-premise necessity, physical admission or blanket regrade follows.",
+      "sources": [
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": []
+    },
+    {
+      "id": "R1FKA",
+      "kind": "argument",
+      "anchor": "r1fka",
+      "title": "FKA1 source and implication audit of the physical postulate and dual-action formalization",
+      "sources": [
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "relativistic_metric_rederivation_results.md",
+        "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "P_FOUNDING"
+      ]
+    },
+    {
+      "id": "R6FKA",
+      "kind": "argument",
+      "anchor": "r6fka",
+      "title": "Propagation-free matched-clock encoding and composition at the stated calibration",
+      "sources": [
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_FKA_RECORDS",
+        "P_PAIR"
+      ]
+    },
+    {
+      "id": "R6FKAW",
+      "kind": "argument",
+      "anchor": "r6fkaw",
+      "title": "Conditional bilateral clock-map metric realization and completed-tape versus radar comparison",
+      "sources": [
+        "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+        "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+        "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md",
+        "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+        "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+        "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md",
+        "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md"
+      ],
+      "registry_ids": [],
+      "required_conditions": [
+        "C_FKA_CONTROL",
+        "P_PAIR"
       ]
     }
   ],
@@ -6773,6 +6893,91 @@
       "from": "R8ALP",
       "to": "R18",
       "kind": "context"
+    },
+    {
+      "from": "P_FOUNDING",
+      "to": "R1FKA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R1",
+      "to": "R1FKA",
+      "kind": "interpretation"
+    },
+    {
+      "from": "D1",
+      "to": "R1FKA",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_FKA_RECORDS",
+      "to": "R6FKA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PAIR",
+      "to": "R6FKA",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R4",
+      "to": "R6FKA",
+      "kind": "proof"
+    },
+    {
+      "from": "D1",
+      "to": "R6FKA",
+      "kind": "interpretation"
+    },
+    {
+      "from": "C_FKA_CONTROL",
+      "to": "R6FKAW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "P_PAIR",
+      "to": "R6FKAW",
+      "kind": "hypothesis"
+    },
+    {
+      "from": "R6FKA",
+      "to": "R6FKAW",
+      "kind": "context"
+    },
+    {
+      "from": "R6FKA",
+      "to": "R6",
+      "kind": "context"
+    },
+    {
+      "from": "R1FKA",
+      "to": "O_FKA_PHYSICAL_JOIN",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R6FKA",
+      "to": "O_FKA_PHYSICAL_JOIN",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R6FKAW",
+      "to": "O_FKA_PHYSICAL_JOIN",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "O_FKA_PHYSICAL_JOIN",
+      "to": "R18",
+      "kind": "open_boundary"
+    },
+    {
+      "from": "R1FKA",
+      "to": "R18",
+      "kind": "context"
+    },
+    {
+      "from": "R6FKAW",
+      "to": "R18",
+      "kind": "context"
     }
   ],
   "sources_sha256": {
@@ -7147,7 +7352,15 @@
     "udt_angular_law_physical_connection_2026-10-13/researcher_a/CANDIDATE.md": "8eb1b5655d6cddfa4bba6bb9ad2d8bce7587a0d3210a5c5228719a759a2d7ca9",
     "udt_angular_law_physical_connection_2026-10-13/researcher_b/CANDIDATE.md": "0ad22aea982cf7fb014875de51af2f92ba99379fab29f397f434f90b4c8930c7",
     "udt_angular_law_physical_connection_2026-10-13/REVIEWED_RESULT.md": "52243d67a6885f1a95079ae1970eab0f1262d786af5d075c5a2e86acdf22563a",
-    "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md": "82c2ce86d367486184ae245778ef6a7a9d3ab42f73c1284826599796868cfc7b"
+    "udt_angular_law_physical_connection_2026-10-13/DESCENDANT_REVIEW.md": "82c2ce86d367486184ae245778ef6a7a9d3ab42f73c1284826599796868cfc7b",
+    "udt_foundation_kernel_audit_2026-10-13/REPAIR.md": "e39672314978afdbf01815f2ba4e85e486dcb5ebfebd18923d923daa1a0475cb",
+    "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md": "3939273c1b079e240b5e8d5b7a8cea2f61310d36298f57f223fda4807a82b171",
+    "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md": "657a9f249735744537331b84fd68bf25c7a464c507078a6b34ed4429a07125af",
+    "udt_foundation_kernel_audit_2026-10-13/DESCENDANT_REVIEW.md": "e06c3738146737b7210d1e1dad97f130b82551e9602479076a92bbdd6c9e111e",
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md": "815cd04094dc33ed10649020cc2c5cb0236a2dff6880ea3a376bc55ed45625ae",
+    "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md": "7624da1eb96eb1d1207125f3a0e44e674d1ff668fbde5194189c510116eb2278",
+    "relativistic_metric_rederivation_results.md": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+    "udt_foundation_kernel_audit_2026-10-13/REVIEWED_RESULT.md": "ec2ecaa672665edd9a9c951214b3dabdc081ee8fbebdb7e6ef12aebec31886ae"
   },
   "impact_policy": "Any changed source or registry row flags its mapped positive and negative central arguments and every reachable central descendant for review; no automatic truth reversal or regrading.",
   "review_support": [
@@ -12353,6 +12566,126 @@
       "role": "review_evidence",
       "targets": [
         "R8ALP",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/SOURCE_FIRST.md",
+      "sha256": "66bb6dbe1b235bb7aa08f2f7b9c909af5425669d98aa5658fc4e216d729cb08b",
+      "role": "review_evidence",
+      "targets": [
+        "R1FKA",
+        "R6FKA"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/SOURCE_FIRST.md",
+      "sha256": "c2d30911f2717207a7beb05be498fe09f54cd85848a557eb69cd8b1795d2cbcf",
+      "role": "review_evidence",
+      "targets": [
+        "R1FKA",
+        "R6FKA"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/OWNER_CLARIFICATION_RESPONSE.md",
+      "sha256": "5f3d97db556ac5c1ddac417e1b0af705534f9f9b6523277c570f573b7adc6b4e",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R1FKA",
+        "R6FKA"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/OWNER_CLARIFICATION_RESPONSE.md",
+      "sha256": "05f4e5f3ed0d24f711077dcc4294967bec491f66cff756d9333e2edc52eccb84",
+      "role": "review_evidence",
+      "targets": [
+        "D1",
+        "R1FKA",
+        "R6FKA"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/DIRECT_REVIEW.md",
+      "sha256": "b518098f91a6c1fd7e9cbc13d55d0e770f2bb1445a0d878b76e2fd4d958ba476",
+      "role": "review_evidence",
+      "targets": [
+        "R1FKA",
+        "R6FKA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/INDEPENDENT_ANALYTIC_CHECKS.md",
+      "sha256": "2fd4c60e13143647d7d55887d244053e5219a0cb7dd468591d78196d4820559e",
+      "role": "review_evidence",
+      "targets": [
+        "R4",
+        "R6FKA"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/DIRECT_REVIEW.md",
+      "sha256": "401600c05822368095692d06f62c9c06ad0494eccc9f4204ebf446f5df8fe986",
+      "role": "review_evidence",
+      "targets": [
+        "R1FKA",
+        "R6FKA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/REPAIR.md",
+      "sha256": "e39672314978afdbf01815f2ba4e85e486dcb5ebfebd18923d923daa1a0475cb",
+      "role": "repair_scope",
+      "targets": [
+        "R6FKA",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/CLOCK_MAP_CROSS_REVIEW.md",
+      "sha256": "9c05a022d3910e5fb704ab5b847d53216ee2262acc44884fb0d9b9f5110f0749",
+      "role": "review_evidence",
+      "targets": [
+        "R6FKAW"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/RADAR_REPAIR_CROSS_REVIEW.md",
+      "sha256": "b92911b70ca25794ea3054309f6a9b8063604fa7fc6e978db3ddc93d59200f85",
+      "role": "review_evidence",
+      "targets": [
+        "R6FKA",
+        "R6FKAW",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/CLOCK_MAP_CROSS_CHECK.md",
+      "sha256": "3e89e65e4f9aec7624ccdd27758bc75548b354d67e4df1c79d05190c11c38ee4",
+      "role": "review_evidence",
+      "targets": [
+        "R6FKAW"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/INTEGRATION_REPAIR.md",
+      "sha256": "6432f69716f2f2ef043eb852c7a623dd56df14cabdf4e8e5e71dcbc49205c36c",
+      "role": "repair_scope",
+      "targets": [
+        "R6FKAW",
+        "R18"
+      ]
+    },
+    {
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/math/INTEGRATION_OBJECTION.md",
+      "sha256": "3e24fbd9306ba9c2fa5a09083859bc9a21e85c8614dde987e35327197eb73175",
+      "role": "review_evidence",
+      "targets": [
+        "R6FKAW",
         "R18"
       ]
     }

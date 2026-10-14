@@ -1,0 +1,114 @@
+{
+  "utc": "2026-10-14T00:54:01.072561+00:00",
+  "reviewer": "/root/fka_review_fidelity",
+  "scope": "Independent byte/provenance/preservation checks after actual repaired-summary argument review; hashes are correspondence, not scientific proof",
+  "freeze": "udt_foundation_kernel_audit_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "f5ed8fb00e4abded92273e20c26eacc40d886dd067faa128e8a59fcede3f1d3d",
+  "accepted_count": 15252,
+  "accepted_mismatches": [],
+  "prior_accepted_count": 15171,
+  "changed_prior_count": 9,
+  "changed_prior_files_match": true,
+  "new_count": 81,
+  "new_files_match": true,
+  "removed_prior_files": [],
+  "prior_record_sha256_matches": true,
+  "prior_attestation_binding_checks": [
+    {
+      "context": "/root/alp_review_math",
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/math/FINAL_ATTESTATION.json",
+      "sha256_matches_record": true,
+      "accepted_mapping_matches_prior_record": true,
+      "verdict": "ACCEPT_WITH_LIMITS"
+    },
+    {
+      "context": "/root/alp_review_fidelity",
+      "path": "udt_angular_law_physical_connection_2026-10-13/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256_matches_record": true,
+      "accepted_mapping_matches_prior_record": true,
+      "verdict": "ACCEPT_WITH_LIMITS"
+    }
+  ],
+  "generated_excerpt_matches": true,
+  "source_freeze_checks": {
+    "SCIENCE_FREEZE.json": {
+      "count": 12,
+      "mismatches": []
+    },
+    "STARTING_SOURCE_PINS.json": {
+      "count": 9,
+      "mismatches": []
+    },
+    "ADDENDUM_SOURCE_PINS.json": {
+      "count": 2,
+      "mismatches": []
+    }
+  },
+  "canon_registry_unchanged": {
+    "CANON.md": true,
+    "CURRENT_SCIENTIFIC_PREMISES.tsv": true
+  },
+  "protected_accepted_paths": [],
+  "protected_payload_hashed": false,
+  "unrelated_untracked": {
+    "baseline_count": 76,
+    "current_count": 76,
+    "missing": [],
+    "added": []
+  },
+  "branch": "grok",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "tracked_dirty_names": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "second_repair": {
+    "initial_freeze_sha256_matches": true,
+    "changed_from_initial_accepted": [
+      "CURRENT_RESEARCH_PROGRAM.md",
+      "UDT_DEVELOPMENT.md",
+      "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md",
+      "udt_foundation_kernel_audit_2026-10-13/NOTEBOOK.md",
+      "udt_foundation_kernel_audit_2026-10-13/WORK_RECORD.md"
+    ],
+    "initial_preserved_texts": {
+      "udt_foundation_kernel_audit_2026-10-13/initial_integration/DECISION_BRIEF.md": {
+        "source_path": "udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md",
+        "original_frozen_sha256_matches": true
+      },
+      "udt_foundation_kernel_audit_2026-10-13/initial_integration/UDT_DEVELOPMENT.md": {
+        "source_path": "UDT_DEVELOPMENT.md",
+        "original_frozen_sha256_matches": true
+      },
+      "udt_foundation_kernel_audit_2026-10-13/initial_integration/NOTEBOOK.md": {
+        "source_path": "udt_foundation_kernel_audit_2026-10-13/NOTEBOOK.md",
+        "original_frozen_sha256_matches": true
+      },
+      "udt_foundation_kernel_audit_2026-10-13/initial_integration/WORK_RECORD.md": {
+        "source_path": "udt_foundation_kernel_audit_2026-10-13/WORK_RECORD.md",
+        "original_frozen_sha256_matches": true
+      },
+      "udt_foundation_kernel_audit_2026-10-13/initial_integration/CURRENT_RESEARCH_PROGRAM.md": {
+        "source_path": "CURRENT_RESEARCH_PROGRAM.md",
+        "original_frozen_sha256_matches": true
+      },
+      "udt_foundation_kernel_audit_2026-10-13/initial_integration/development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": {
+        "source_path": "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+        "original_frozen_sha256_matches": true
+      }
+    },
+    "initial_review_report_preserved": true,
+    "initial_binding_check_preserved": true,
+    "final_review_artifacts_excluded": true,
+    "actual_recheck": "Read INTEGRATION_REPAIR, math INTEGRATION_OBJECTION and all initial-to-current text diffs. At epsilon=0, C=Z implies S=(Z^2-1)a and tape=S/2=D_rad; repaired variation statement preserves that equality. R6FKAW proof and constructive supplement unchanged. Initial own summary overacceptance disclosed in final report."
+  },
+  "limits": "15,162 unchanged prior accepted files inherit their source-relative reviews; this scan is correspondence, not corpus reproof. No parent tests or publication gate is claimed."
+}

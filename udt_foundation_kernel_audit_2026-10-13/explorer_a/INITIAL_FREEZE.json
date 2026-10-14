@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-14T00:16:40.623121+00:00",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "phase": "initial freeze before old/sibling comparison",
+  "exposure_note": "Addendum notice arrived after original two files were written; original bytes retained. Old full source contents remain unexposed.",
+  "sha256": {
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_APPROACH.md": "0ed810a09b8438668449c3256a28017ff78de5c8dff84bacae34370820ab12f7",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_RECONSTRUCTION.md": "96726ec137ab43500fa958939c6b67bee45205249407a663a9cdeede3f4da5b9",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_ADDENDUM_RECONSTRUCTION.md": "a2a10aed1cdcfcedb8cce468058d13a25625cd8dc1e1825c35c2bf53cffaeb05",
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+    "udt_foundation_kernel_audit_2026-10-13/ADDENDUM_SOURCE_PINS.json": "749102d46bf918d7740a4b95dd7ac2c9f4c3e629a96c630a1195bea041151aca"
+  }
+}

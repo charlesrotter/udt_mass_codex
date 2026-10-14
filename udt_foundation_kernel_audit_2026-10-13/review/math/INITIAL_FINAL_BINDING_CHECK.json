@@ -1,0 +1,280 @@
+{
+  "utc": "2026-10-14T00:46:20.729781+00:00",
+  "status": "PASS",
+  "reviewer": "/root/fka_review_math",
+  "freeze_path": "udt_foundation_kernel_audit_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "babd81f470a5aea044e9b34d2c0e0d1d06c1cb242cb57ad700ae6201ccfd31e3",
+  "prior_record_path": "udt_foundation_kernel_audit_2026-10-13/PRIOR_REVIEW_RECORD.json",
+  "prior_record_sha256": "36c0e67555660caf6164869902a2aed5b2366686e9d4d3799cda4a024e19ae70",
+  "accepted_count": 15240,
+  "all_accepted_hashes_match": true,
+  "mismatches": [],
+  "protected_prefixes_screened_before_reads": [
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12"
+  ],
+  "protected_accepted_paths": [],
+  "symlink_paths": [],
+  "total_hashed_bytes": 2399045946,
+  "elapsed_seconds": 1.2870639970005868,
+  "prior_accepted_count": 15171,
+  "changed_prior_count": 9,
+  "changed_prior_exact": true,
+  "changed_prior_binding_checks": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "HANDOFF.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "INDEX.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "LIVE.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "MEMORY.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "UDT_DEVELOPMENT.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    },
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": {
+      "old_matches_prior": true,
+      "new_matches_accepted": true
+    }
+  },
+  "added_count": 69,
+  "added_exact_new_files": true,
+  "removed_prior_paths": [],
+  "unchanged_prior_count": 15162,
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "branch": "grok",
+  "tracked_dirty_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "tracked_dirty_equals_nine_named": true,
+  "unrelated_untracked_count": 76,
+  "unrelated_names_match_baseline": true,
+  "unrelated_added": [],
+  "unrelated_missing": [],
+  "CANON_matches_HEAD": true,
+  "exact_registry_matches_HEAD": true,
+  "original_manifest_metadata": [
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "sha256": "4779ca8c80b856b3ded308b9f7818392756ff9512f8dfaca6bdff2a14399492d",
+      "keys": [
+        "utc",
+        "scope",
+        "method",
+        "sha256"
+      ]
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "sha256": "1e9ccdc9b10891bd6d48fa7744be6499fb60d2d7d2a740d5f3cbe4fa408b370f",
+      "keys": [
+        "utc",
+        "head",
+        "phase",
+        "exposure_note",
+        "sha256"
+      ]
+    },
+    {
+      "manifest": "explorer_b/INITIAL_FREEZE.json",
+      "sha256": "e0f96962423414bac4b42e285df3fc406077c21f65869613ea1304bbda58fc28",
+      "keys": [
+        "utc",
+        "status",
+        "branch",
+        "head",
+        "tracked_status",
+        "sha256",
+        "exposure",
+        "science_computation",
+        "startup"
+      ]
+    },
+    {
+      "manifest": "explorer_b/CANDIDATE_FREEZE.json",
+      "sha256": "aadc3b0f2865fe0f5653b4f10306857d2e490fe4e72111be83b154c56069914d",
+      "keys": [
+        "utc",
+        "status",
+        "head",
+        "tracked_status",
+        "initial_editions_unchanged",
+        "sha256",
+        "computation",
+        "scope"
+      ]
+    }
+  ],
+  "method": "Python stdlib SHA-256 streaming, names and resolved-path protected screen before payload reads; compare accepted set with preserved prior review record; git status names only; byte correspondence is not corpus reproof",
+  "runtime": {
+    "python": "3.10.12",
+    "git": "git version 2.34.1"
+  },
+  "repository_tests": "normal/maintenance/full406 closure tests remain parent gate; no scientific replay needed absent changed concern",
+  "original_freeze_reference_checks": [
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/WORK_ORDER.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/STARTING_PACKET.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/COMPARISON_PACKET.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/COMPARISON_SOURCE_PINS.json",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/CANDIDATE.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/OWNER_CLARIFICATION_RESPONSE.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/CANDIDATE.md",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/OWNER_CLARIFICATION_RESPONSE.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_APPROACH.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_RECONSTRUCTION.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_ADDENDUM_RECONSTRUCTION.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/ADDENDUM_SOURCE_PINS.json",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/INITIAL_APPROACH.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/INITIAL_RECONSTRUCTION.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/CANDIDATE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/CANDIDATE.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/CANDIDATE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/COMPARISON_EXPOSURE_PINS.json",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/CLOCK_MAP_REALIZATION.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/CLOCK_MAP_REALIZATION_FREEZE.json",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE.md",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE_FREEZE.json",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/CLOCK_MAP_CROSS_CHECK.md",
+      "matches": true
+    }
+  ],
+  "original_freeze_references_all_match": true,
+  "scientific_integration_disposition": "FM1_SUMMARY_WORDING_REPAIR_REQUIRED; byte binding itself passes",
+  "checked_utc": "2026-10-14T00:47:50.216765+00:00"
+}

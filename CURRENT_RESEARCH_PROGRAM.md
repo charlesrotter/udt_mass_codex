@@ -5,13 +5,14 @@ This bounded startup view is generated from its opening; edit that source.
 LIVE.md owns operational status; CURRENT_SCIENTIFIC_PREMISES.tsv owns exact grades.
 
 <!-- GENERATED_DEVELOPMENT_BEGIN -->
-**Current development — ALP1 angular-clock meaning and regime,
+**Current development — FKA1 foundation-to-kernel audit,
 2026-10-13.** This is the sole maintained scientific argument. The exact registry
 and reviewed sources own grades; LIVE owns operational status. Review bindings
 are in section9. Historical results remain in the chapters below, not this startup view.
 
-UDT's founding interpretation is that positional dilation constitutes the
-spacetime geometry behind observed c_E, light cones and causal timing. The
+UDT postulates that observed c_E is mutual slowing of separated clocks,
+presently interpreted as light travel time. Positional dilation constitutes the
+spacetime geometry behind light cones and causal timing. The
 reciprocal 1/c_E expresses time per separation. Ordinary local laws and proper
 clocks remain ordinary; effects appear in observer comparisons in the GR sense.
 Velocity, gravity and the additional positional effect belong to one geometry;
@@ -39,48 +40,48 @@ Finite null-patch results distinguish multiplicity-counted sheet area from
 geometric endpoint image-union; the latter requires global preimage identification.
 These geometric results do not identify physical light, brightness or carried content.
 
-**Current learning.** ALP1 tests two proposed justifications for FAC1's angular
-clock law. A positive mean on one uniform reception sky does not transfer to
-FAC1's preparation sphere: changing the angular measure can reverse the sign.
-The precise UNADOPTED normalization N_±=<p_±^-2>=1, or its sufficient bound
-N_±<=1, is stronger than the proposed angular mutual slowing AMS. In a Ricci-flat
-neighborhood of a fixed freely prepared laboratory,
-N_±=1+(8|E|²+3|B|²)L⁴/180+O(L⁵), so both trials fail at nonzero Weyl curvature,
-even in examples where AMS holds. E/B are parts of curvature, not new fields.
+**Current learning.** FKA1 reconstructs the chain without treating earlier
+results as initial premises. Charles's clarification controls the physical
+meaning: the audit accepts the c_E interpretation as a postulate and checks
+its mathematical realization. An independently assumed light-propagation
+mechanism cannot silently supply or refute that premise.
 
-Two ideal short-distance clock moments consequently determine E² and B² under
-the same regional-vacuum/preparation hypotheses. This is a conditional diagnostic,
-not a vacuum detector, physical attribution or finite-precision instrument model.
-The actual small-L arrival-sky Jacobian can be measured independently, but its
-normalization does not fix the clock mean's sign.
+The metric-to-kernel algebra survives with its actual inputs: a full metric,
+regular calibrated pair, G176's working completion premise and the stated
+normalized contrast. It gives m=sqrt(-det h), Phi=-log T and chi=tanh(Phi).
+For a specified clock correspondence with interval ratio Z, labeling the target
+clock by source proper time gives T=Z and chi_clock=(1-Z²)/(1+Z²). This direct
+bridge requires no propagation hypothesis. It encodes that comparison; it
+does not predict its value by defining the target tangent to contain Z.
 
-A separate exact supplied family has distant mutual redshift with a common
-first-reception limiting separation and divergence power, yet opposite local
-signs. It defeats that particular distant-to-local inference in its kinematic
-class. These nonvacuum, one-observer controls are not native UDT histories,
-empirical GR recovery or a realization of X_max. No full-postulate insufficiency
-or requirement for a new physical premise is established.
+A further exact control constructs one geometry from specified bilateral clock
+maps. Flat and curved members share those ordinary free-clock records. Their
+completed tapes vary while the specified timing-ruler convention stays fixed.
+This proves a bounded representation and inverse-reconstruction limit, not
+a UDT solution or insufficiency of the full postulates.
 
-FAC1 remains unchanged: M_±=(4|E|²-3|B|²)L⁴/360+O(L⁵) for the original sphere
-in a Ricci-flat neighborhood. Imposed at all sufficiently short separations,
-UNADOPTED AMS requires 4|E|²>=3|B|²; strict inequality suffices for that fixed
-observer and equality leaves higher orders open. Physical attribution, the
-averaging law, native vacuum admission and the distance regime remain open.
+The historical identification of mutual clock slowing with inverse time/radial
+factors was not proved by the inspected analog argument. Later sources explicitly
+state dual action and completed-pair reciprocity as premises. Their conditional
+consequences are retained, along with the current distinctions between a
+reciprocal ruler coordinate, proper ruler length and physical clock preparation.
+No derivation of a native event/path-to-depth law is completed here. No full-
+postulate insufficiency or need for a new physical premise is established.
 
-Two actual fresh source-first/direct reviewers checked complementary analytic
-arguments and independent numerical implementations. They share the inherited
-model; no human, different-model, empirical or interval certification is claimed.
-The campaign reaches a precise rejected-identification return with surviving
-tools, not exhaustion of possible physical connections. Native event/path-depth,
-response, source, scale and cosmic curve remain unselected. Prior positive and
-negative results retain their original hypotheses and grades.
+Two independent-origin reconstructions and two further source-first review
+contexts retain their initial editions, later source exposure and the owner
+correction. They share the inherited model. Exact analytic arguments and
+original-equation controls support this audit; human, different-model,
+empirical and formal certification are not claimed. Actual direct/final review
+records and repository receipts own completion. Earlier positive and negative
+results, including FAC1/ALP1, retain their original hypotheses and grades.
 
-After orientation read R8ALP and R18. A next physical connection must justify a
-relation among actual comparisons in its stated regime; choosing or normalizing
-an average does not supply it. Stop for lay discussion after the authorized
-integration/check/publication gates. LIVE and actual receipts own closure; the
-older PIA1 application stays deferred and no successor or protected restart is
-automatic.
+After orientation read D1, R1FKA, R4, R6FKA and R18. The remaining connection is
+the mathematical realization of the postulated clock relation in the metric,
+with its actual comparison and calibration specified. Stop for lay discussion
+after the authorized integration/check/publication gates. LIVE and actual
+receipts own closure; PIA1 stays deferred and no successor or protected restart
+is automatic.
 <!-- GENERATED_DEVELOPMENT_END -->
 
 ## Current next gate

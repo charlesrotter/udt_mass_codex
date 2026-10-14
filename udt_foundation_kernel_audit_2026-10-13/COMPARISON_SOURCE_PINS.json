@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-14T00:15:53.805105+00:00",
+  "scope": "Old sources for comparison after independent initial reconstruction; not initial premises and no historical status overwritten",
+  "sha256": {
+    "PROVENANCE.md": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+    "origin_prompts_screenshot_2025-08-12.png": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+    "provenance_origin_prompts_2025-08-12.png": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+    "relativistic_metric_rederivation_results.md": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+    "legacy/root_oneoffs_2026-07-01/verify_relrederiv_independent.py": "e578e8ded9261cda772e23d8f510d7d12b446a1769c7c47ff02a758593d63785",
+    "legacy/root_oneoffs_2026-07-01/verify_relrederiv_reciprocity_deep.py": "3852c2e08bee6eda658849f19ecbb2eaac1b4b0b3038ecf6c2b37198cedb99ed",
+    "PROBLEM_STATEMENT.md": "f61b334d771dc0f2c76a9acd3b2663887b942f116be529700285bd2184666d14",
+    "SIMPLE_METRIC_MACRO.md": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+    "CANON.md": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "udt_reciprocal_c_metric_meaning_audit_2026-07-22/AUDIT_REPORT.md": "1e63d4fcc03c793e895d9771b925a9e8a295f9e573e55ded62302693c173bc21",
+    "udt_reciprocal_c_metric_meaning_audit_2026-07-22/PREREGISTRATION_OWNER_CLARIFICATION.md": "c8cde9e7a4496a9d467b4335665b1fc1b2cfa7aa155b7c99a653c7d04d2049ba",
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/ADOPTION_RECORD.md": "39ebafd725f2eb8f0e8a0b2fcd6cf2a485c3c7fbfc7dde1582844f066aa88cb2",
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+    "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/AUDIT_REPORT.md": "713a63d52c8f91d0da00c9bf04171135abae356ad0bdf24acac583dd6f8f4735",
+    "UDT_DEVELOPMENT.md": "acbfda535d7a706b71c808f4c91a4333856fe0b62b2a5e619f6b280f38fbe4bb"
+  }
+}

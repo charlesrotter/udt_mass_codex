@@ -1,0 +1,494 @@
+{
+  "utc": "2026-10-14T00:54:04.636785+00:00",
+  "reviewer": "/root/fka_review_math",
+  "freeze_path": "udt_foundation_kernel_audit_2026-10-13/INTEGRATION_FREEZE.json",
+  "freeze_sha256": "f5ed8fb00e4abded92273e20c26eacc40d886dd067faa128e8a59fcede3f1d3d",
+  "prior_record_path": "udt_foundation_kernel_audit_2026-10-13/PRIOR_REVIEW_RECORD.json",
+  "prior_record_sha256": "36c0e67555660caf6164869902a2aed5b2366686e9d4d3799cda4a024e19ae70",
+  "prior_record_hash_matches": true,
+  "accepted_count": 15252,
+  "all_accepted_hashes_match": true,
+  "mismatches": [],
+  "protected_prefixes_screened_before_reads": [
+    "udt_kernel_plane_global_curvature_holonomy_atlas_2026-08-02",
+    "udt_native_onshell_timelive_reset_owner_audit_2026-08-10",
+    "udt_pair_regime_flow_reciprocal_orchestra_amplification_2026-08-12",
+    "udt_sne_xmax_G88_am_radial_compatibility_atlas_2026-08-12"
+  ],
+  "protected_accepted_paths": [],
+  "symlink_paths": [],
+  "total_hashed_bytes": 2402702890,
+  "prior_accepted_count": 15171,
+  "changed_prior_count": 9,
+  "changed_prior_exact": true,
+  "changed_prior_binding_checks": {
+    "CURRENT_RESEARCH_PROGRAM.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "HANDOFF.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "INDEX.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "LIVE.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "MEMORY.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "UDT_DEVELOPMENT.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "UDT_RESEARCH_ROADMAP.md": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": {
+      "old_matches": true,
+      "new_matches": true
+    },
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": {
+      "old_matches": true,
+      "new_matches": true
+    }
+  },
+  "added_count": 81,
+  "added_exact_new_files": true,
+  "removed_prior_paths": [],
+  "unchanged_prior_count": 15162,
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "branch": "grok",
+  "head_matches_baseline": true,
+  "tracked_dirty_paths": [
+    "CURRENT_RESEARCH_PROGRAM.md",
+    "HANDOFF.md",
+    "INDEX.md",
+    "LIVE.md",
+    "MEMORY.md",
+    "UDT_DEVELOPMENT.md",
+    "UDT_RESEARCH_ROADMAP.md",
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv"
+  ],
+  "tracked_dirty_equals_named": true,
+  "unrelated_untracked_count": 76,
+  "unrelated_names_match_baseline": true,
+  "unrelated_added": [],
+  "unrelated_missing": [],
+  "CANON_matches_HEAD": true,
+  "exact_registry_matches_HEAD": true,
+  "original_freeze_reference_checks": [
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/WORK_ORDER.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/STARTING_PACKET.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/COMPARISON_PACKET.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/COMPARISON_SOURCE_PINS.json",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/CANDIDATE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/OWNER_CLARIFICATION_RESPONSE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/CANDIDATE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "SCIENCE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/OWNER_CLARIFICATION_RESPONSE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_APPROACH.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_RECONSTRUCTION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_ADDENDUM_RECONSTRUCTION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/ADDENDUM_SOURCE_PINS.json",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/INITIAL_APPROACH.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/INITIAL_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/INITIAL_RECONSTRUCTION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/CANDIDATE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/CANDIDATE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_b/CANDIDATE_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_b/COMPARISON_EXPOSURE_PINS.json",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/CLOCK_MAP_REALIZATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/CLOCK_MAP_REALIZATION_FREEZE.json",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE_FREEZE.json",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "explorer_a/CLOCK_MAP_CROSS_CHECK_FREEZE.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/explorer_a/CLOCK_MAP_CROSS_CHECK.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "PROVENANCE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "origin_prompts_screenshot_2025-08-12.png",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "SIMPLE_METRIC_MACRO.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "ADDENDUM_SOURCE_PINS.json",
+      "path": "relativistic_metric_rederivation_results.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "ADDENDUM_SOURCE_PINS.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "PROVENANCE.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "origin_prompts_screenshot_2025-08-12.png",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "provenance_origin_prompts_2025-08-12.png",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "relativistic_metric_rederivation_results.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "legacy/root_oneoffs_2026-07-01/verify_relrederiv_independent.py",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "legacy/root_oneoffs_2026-07-01/verify_relrederiv_reciprocity_deep.py",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "PROBLEM_STATEMENT.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "SIMPLE_METRIC_MACRO.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "CANON.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_reciprocal_c_metric_meaning_audit_2026-07-22/AUDIT_REPORT.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_reciprocal_c_metric_meaning_audit_2026-07-22/PREREGISTRATION_OWNER_CLARIFICATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/ADOPTION_RECORD.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/AUDIT_REPORT.md",
+      "version": "working file",
+      "matches": true
+    },
+    {
+      "manifest": "COMPARISON_SOURCE_PINS.json",
+      "path": "UDT_DEVELOPMENT.md",
+      "version": "67246b3528c8fbc363b98c1d06794517e8109f65",
+      "matches": true
+    }
+  ],
+  "original_freeze_references_all_match": true,
+  "initial_integration_freeze_preserved": true,
+  "initial_integration_snapshot_checks": [
+    {
+      "snapshot": "udt_foundation_kernel_audit_2026-10-13/initial_integration/CURRENT_RESEARCH_PROGRAM.md",
+      "original_path": "CURRENT_RESEARCH_PROGRAM.md",
+      "matches": true
+    },
+    {
+      "snapshot": "udt_foundation_kernel_audit_2026-10-13/initial_integration/DECISION_BRIEF.md",
+      "original_path": "udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md",
+      "matches": true
+    },
+    {
+      "snapshot": "udt_foundation_kernel_audit_2026-10-13/initial_integration/NOTEBOOK.md",
+      "original_path": "udt_foundation_kernel_audit_2026-10-13/NOTEBOOK.md",
+      "matches": true
+    },
+    {
+      "snapshot": "udt_foundation_kernel_audit_2026-10-13/initial_integration/UDT_DEVELOPMENT.md",
+      "original_path": "UDT_DEVELOPMENT.md",
+      "matches": true
+    },
+    {
+      "snapshot": "udt_foundation_kernel_audit_2026-10-13/initial_integration/WORK_RECORD.md",
+      "original_path": "udt_foundation_kernel_audit_2026-10-13/WORK_RECORD.md",
+      "matches": true
+    },
+    {
+      "snapshot": "udt_foundation_kernel_audit_2026-10-13/initial_integration/development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "original_path": "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json",
+      "matches": true
+    }
+  ],
+  "initial_binding_check_preserved": true,
+  "changed_prior_hashes_match_HEAD": {
+    "development_reconstruction_2026-09-29/DEVELOPMENT_GRAPH.json": true,
+    "CURRENT_RESEARCH_PROGRAM.md": true,
+    "UDT_DEVELOPMENT.md": true,
+    "INDEX.md": true,
+    "LIVE.md": true,
+    "development_reconstruction_2026-09-29/RECENT_DISPOSITIONS.tsv": true,
+    "UDT_RESEARCH_ROADMAP.md": true,
+    "HANDOFF.md": true,
+    "MEMORY.md": true
+  },
+  "runtime": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "git": "git version 2.34.1"
+  },
+  "command": "python3 udt_foundation_kernel_audit_2026-10-13/review/math/FINAL_VERIFY_BINDINGS.py",
+  "verification_script_sha256": "573f8041d3c17396e93d08829c052be5f22de0bbec57c675745b4809255fcf2c",
+  "method": "Python stdlib streaming SHA-256; entire accepted name/resolved-path protected screen before payload reads; compare with preserved prior record and baseline. Byte correspondence is not corpus reproof.",
+  "repository_tests": "normal/maintenance/full406 closure tests remain parent gate; no scientific replay needed absent changed concern",
+  "scientific_integration_disposition": "FM1 corrected summary independently inspected; final report states scope",
+  "elapsed_seconds": 1.8040383699999438,
+  "status": "PASS"
+}

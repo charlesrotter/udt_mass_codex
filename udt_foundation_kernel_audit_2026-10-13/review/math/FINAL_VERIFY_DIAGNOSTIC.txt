@@ -1,0 +1,20 @@
+Metadata checker first execution, before final attestation:
+command: python3 udt_foundation_kernel_audit_2026-10-13/review/math/FINAL_VERIFY_BINDINGS.py
+exit: 1
+stdout: empty
+stderr:
+Traceback (most recent call last):
+  File "/home/udt-admin/udt_mass_codex/udt_foundation_kernel_audit_2026-10-13/review/math/FINAL_VERIFY_BINDINGS.py", line 90, in <module>
+    'matches': sha(path) == expected})
+  File "/home/udt-admin/udt_mass_codex/udt_foundation_kernel_audit_2026-10-13/review/math/FINAL_VERIFY_BINDINGS.py", line 24, in sha
+    with (ROOT / path).open('rb') as stream:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/udt-admin/udt_mass_codex/udt_foundation_kernel_audit_2026-10-13/INITIAL_APPROACH.md'
+
+Diagnosis: some historical manifests use paths relative to their own explorer
+directory, whereas the initial verifier resolved only root or package paths.
+Repair: check root, manifest parent, then package, with the protected-path screen
+applied before file access. No source bytes changed and no scientific calculation
+was attempted. The initial FINAL_BINDING_CHECK.json had not been overwritten.
+The repaired checker is rerun, preserving this implementation failure.

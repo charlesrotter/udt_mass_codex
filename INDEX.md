@@ -13,6 +13,8 @@
 ## One development and its evidence
 
 - [Maintained argument: definitions and R1–R18](UDT_DEVELOPMENT.md).
+- [Foundational premise and kernel audit: R1FKA/R6FKA](UDT_DEVELOPMENT.md#r1fka);
+  [FKA1 fixed discussion packet](udt_foundation_kernel_audit_2026-10-13/DECISION_BRIEF.md).
 - [Angular-clock physical meaning and regime: R8ALP](UDT_DEVELOPMENT.md#r8alp);
   [ALP1 fixed discussion packet](udt_angular_law_physical_connection_2026-10-13/DECISION_BRIEF.md).
 - [Finite angular clock restriction: R8FAC](UDT_DEVELOPMENT.md#r8fac);

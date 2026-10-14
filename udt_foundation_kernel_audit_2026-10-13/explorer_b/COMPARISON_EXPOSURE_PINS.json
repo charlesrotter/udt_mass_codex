@@ -1,0 +1,114 @@
+{
+  "utc": "2026-10-14T00:19:12.567976+00:00",
+  "scope": "File-byte correspondence only; read coverage separately listed in candidate, full hash is not full scientific review",
+  "files": {
+    "PROVENANCE.md": {
+      "expected": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+      "actual": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+      "match": true
+    },
+    "origin_prompts_screenshot_2025-08-12.png": {
+      "expected": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "actual": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "match": true
+    },
+    "provenance_origin_prompts_2025-08-12.png": {
+      "expected": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "actual": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "match": true
+    },
+    "relativistic_metric_rederivation_results.md": {
+      "expected": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+      "actual": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+      "match": true
+    },
+    "legacy/root_oneoffs_2026-07-01/verify_relrederiv_independent.py": {
+      "expected": "e578e8ded9261cda772e23d8f510d7d12b446a1769c7c47ff02a758593d63785",
+      "actual": "e578e8ded9261cda772e23d8f510d7d12b446a1769c7c47ff02a758593d63785",
+      "match": true
+    },
+    "legacy/root_oneoffs_2026-07-01/verify_relrederiv_reciprocity_deep.py": {
+      "expected": "3852c2e08bee6eda658849f19ecbb2eaac1b4b0b3038ecf6c2b37198cedb99ed",
+      "actual": "3852c2e08bee6eda658849f19ecbb2eaac1b4b0b3038ecf6c2b37198cedb99ed",
+      "match": true
+    },
+    "PROBLEM_STATEMENT.md": {
+      "expected": "f61b334d771dc0f2c76a9acd3b2663887b942f116be529700285bd2184666d14",
+      "actual": "f61b334d771dc0f2c76a9acd3b2663887b942f116be529700285bd2184666d14",
+      "match": true
+    },
+    "SIMPLE_METRIC_MACRO.md": {
+      "expected": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+      "actual": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+      "match": true
+    },
+    "CANON.md": {
+      "expected": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "actual": "047b7fbbc1acacf01d2716e3c98cdefd0b9b20136ac4a3306f55dd6775465250",
+      "match": true
+    },
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md": {
+      "expected": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "actual": "c3d7cf1d0b24d83958b23ae55624259dba0a46c8bebd3308caadda873b67b5ac",
+      "match": true
+    },
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": {
+      "expected": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "actual": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "match": true
+    },
+    "udt_reciprocal_c_metric_meaning_audit_2026-07-22/AUDIT_REPORT.md": {
+      "expected": "1e63d4fcc03c793e895d9771b925a9e8a295f9e573e55ded62302693c173bc21",
+      "actual": "1e63d4fcc03c793e895d9771b925a9e8a295f9e573e55ded62302693c173bc21",
+      "match": true
+    },
+    "udt_reciprocal_c_metric_meaning_audit_2026-07-22/PREREGISTRATION_OWNER_CLARIFICATION.md": {
+      "expected": "c8cde9e7a4496a9d467b4335665b1fc1b2cfa7aa155b7c99a653c7d04d2049ba",
+      "actual": "c8cde9e7a4496a9d467b4335665b1fc1b2cfa7aa155b7c99a653c7d04d2049ba",
+      "match": true
+    },
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": {
+      "expected": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+      "actual": "0d83baaaa9f0586cb3f3b0cd7af16b201996a124dba6a050c71624a2e638a4fd",
+      "match": true
+    },
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/ADOPTION_RECORD.md": {
+      "expected": "39ebafd725f2eb8f0e8a0b2fcd6cf2a485c3c7fbfc7dde1582844f066aa88cb2",
+      "actual": "39ebafd725f2eb8f0e8a0b2fcd6cf2a485c3c7fbfc7dde1582844f066aa88cb2",
+      "match": true
+    },
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": {
+      "expected": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+      "actual": "df53a5b3c52d0bd24496d060637dc158a4f2c7cdd17226c9446ea0d338d27831",
+      "match": true
+    },
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md": {
+      "expected": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+      "actual": "4c059659785953822bcb4f902705ed7c0c7c4bd69243582a0663be6894cf3a51",
+      "match": true
+    },
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": {
+      "expected": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+      "actual": "3e81642bacf30a9e94df3db4c041f6b6ae94af91b87d9f51c044116ed2afa7b6",
+      "match": true
+    },
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": {
+      "expected": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+      "actual": "0e5b33a0c013def973bdca369944d99a84fe278614cae1794e7cb50b56db0f6f",
+      "match": true
+    },
+    "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/AUDIT_REPORT.md": {
+      "expected": "713a63d52c8f91d0da00c9bf04171135abae356ad0bdf24acac583dd6f8f4735",
+      "actual": "713a63d52c8f91d0da00c9bf04171135abae356ad0bdf24acac583dd6f8f4735",
+      "match": true
+    },
+    "UDT_DEVELOPMENT.md": {
+      "expected": "acbfda535d7a706b71c808f4c91a4333856fe0b62b2a5e619f6b280f38fbe4bb",
+      "actual": "acbfda535d7a706b71c808f4c91a4333856fe0b62b2a5e619f6b280f38fbe4bb",
+      "match": true
+    }
+  },
+  "all_match": true,
+  "packet_sha256": "67c9a59ae57294aa394cd6a1357d5ebf0a9f9b4d5836cf488950f21949d32ef5",
+  "pins_sha256": "0743662673d8f9d5830f4e4c39fc4f108fc86a2b2e9bcc4e7ec61f23423e8aed"
+}

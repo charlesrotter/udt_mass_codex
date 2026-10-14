@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-14T00:36:50.187964+00:00",
+  "reviewer_constructor": "/root/fka_review_fidelity",
+  "scope": "Analytic same-record radar convention versus G176 one-family tape; before peer result exposure",
+  "sha256": {
+    "RADAR_TAPE_PROBE.md": "8db36c6191b2ef74d905da9ac7b9a6a4cebd766e149ed6a5b275e36f6f4721f8",
+    "CLOCK_MAP_REALIZATION.md": "9cef9602e0f30512ed3fa4fbc7860f69c8366e3fdbfbaacd3152ed81cf90be2b"
+  },
+  "independence": "New reviewer-origin construction; own review cannot independently certify it"
+}

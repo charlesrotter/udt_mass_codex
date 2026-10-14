@@ -1,0 +1,72 @@
+{
+  "utc": "2026-10-14T01:05:19.964678+00:00",
+  "status": "REVIEW_AND_CHECK_GATES_PASSED_AWAITING_EXACT_STAGING_AND_PUBLICATION",
+  "scope": "FKA1 reviewed conditional foundation-to-kernel audit under the clarified mutual-clock postulate. No physical adoption, CANON edit, registry regrade, full-postulate insufficiency claim or successor campaign.",
+  "baseline_head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "branch": "grok",
+  "integration_freeze": "udt_foundation_kernel_audit_2026-10-13/INTEGRATION_FREEZE.json",
+  "integration_freeze_sha256": "f5ed8fb00e4abded92273e20c26eacc40d886dd067faa128e8a59fcede3f1d3d",
+  "active_review_record": "development_reconstruction_2026-09-29/REVIEW_RECORD.json",
+  "active_review_record_sha256": "dd6006850ac1d3d7f5e1065fc3990d42731567057b14c348502b53d4356e1e37",
+  "actual_reviewers": [
+    {
+      "context": "/root/fka_review_math",
+      "attestation": "udt_foundation_kernel_audit_2026-10-13/review/math/FINAL_ATTESTATION.json",
+      "sha256": "bb751b0278b5fee17f33d1a4196c1864c5da299a2ee3aba842b49af1966e6d6b"
+    },
+    {
+      "context": "/root/fka_review_fidelity",
+      "attestation": "udt_foundation_kernel_audit_2026-10-13/review/fidelity/FINAL_ATTESTATION.json",
+      "sha256": "ca0899fdef1d3c5fcf095b25865061acc3a5936ff791c7a7c3802f224e4ccb94"
+    }
+  ],
+  "checks": {
+    "final_normal": {
+      "receipt": "udt_foundation_kernel_audit_2026-10-13/checks/final_normal.json",
+      "sha256": "22a698d89cddfc82c401d528062141559a5f0d0f7bae9f40ca6f4fd339347b30",
+      "command": [
+        "python3",
+        "verify_udt_development.py"
+      ],
+      "returncode": 0,
+      "duration_seconds": 1.8181996260000233
+    },
+    "final_maintenance_repaired": {
+      "receipt": "udt_foundation_kernel_audit_2026-10-13/checks/final_maintenance_repaired.json",
+      "sha256": "7eb30c22b8419337680d3990186dfb69c99bbc3c960dec50be50ee47366b005d",
+      "command": [
+        "python3",
+        "development_reconstruction_2026-09-29/checks/test_maintenance.py"
+      ],
+      "returncode": 0,
+      "duration_seconds": 2.3855341110001973
+    },
+    "final_full406": {
+      "receipt": "udt_foundation_kernel_audit_2026-10-13/checks/final_full406.json",
+      "sha256": "8c7c0bcb011bb15d65b9889d23e9ba4d2f4eac9354de4e9cfa1758e7e2f0a75d",
+      "command": [
+        "python3",
+        "verify_current_scientific_premises.py"
+      ],
+      "returncode": 0,
+      "duration_seconds": 406.14393167900016
+    }
+  },
+  "preservation": {
+    "unrelated_names": 76,
+    "names_equal_baseline": true,
+    "canon_registry_unchanged": true,
+    "protected_payloads_not_inspected": true,
+    "original_candidates_and_repair_history": "Preserved and version-bound; initial candidate controlled by REPAIR and CONSTRUCTIVE_SUPPLEMENT."
+  },
+  "review_limits": "Two exploratory contexts and two actual further separate source-first/direct/final review contexts, sharing the inherited model; actual independent analytic argument checks and later cross-exposure disclosed. Fidelity originated the constructive metric/ruler controls, which received separate math and explorer A checks; fidelity does not independently certify its own construction. No different-model, human, formal, empirical or interval certification. Repository checks/publication are separate gates.",
+  "compute": "Exact analytic research; no new scientific numerical solver or GPU process. Captured repository verification is CPU work, not additional scientific evidence. Shell process visibility is namespace-scoped; no host-wide idle claim.",
+  "resource_scope": "Owner removed preset total time/CPU cap. Required checks use the recorded 2048 MiB process address-space limit, no wall/CPU timeout and signal forwarding in the saved capture receipts.",
+  "parent_binding_verification": "Parent checked actual reports/attestations, identical accepted mapping and all 15,252 protected-screened accepted hashes before updating active record; hashes show correspondence, not proof.",
+  "prepublication_checks": {
+    "path": "udt_foundation_kernel_audit_2026-10-13/checks/PREPUBLICATION.json",
+    "sha256": "0e9128d0b2a32e18e963633c62361a1bcae5acde07588127e219deb3c4fb4d8e"
+  },
+  "publication": "No preclaim. Exact staging receipt and actual commit/push/remote correspondence are subsequent gates. Git records the resulting commit; final tool transcript records remote verification.",
+  "return": "Lay discussion of fixed DECISION_BRIEF. No automatic successor or protected restart."
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-14T00:17:07.804587+00:00",
+  "status": "Unreviewed initial analytic candidate, frozen before old-source comparison",
+  "branch": "grok",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "tracked_status": "",
+  "sha256": {
+    "INITIAL_APPROACH.md": "cdbf30f3ef37c37ce44894a5f2a8b19a10bc6e968aec3b17bb7b886033f565b9",
+    "INITIAL_RECONSTRUCTION.md": "ffd71a565e190c24fd770dc59960981c13246bbbf47b86b10f7b81ca9ff804b2"
+  },
+  "exposure": "Starting packet and screenshot, then owner addendum after initial approach; method status terms disclosed. No old derivations, current science summaries, sibling or parent scientific work.",
+  "science_computation": "Analytic derivations only; no numerical or symbolic scientific process launched",
+  "startup": "Parent-attributed startup/full406 at baseline; own branch/head/tracked status checked"
+}

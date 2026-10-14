@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-14T00:23:06.796102+00:00",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "read_scope": "Comparison packet steps 1-8, including June18 through 2a and independent historical verifier through its final section as displayed; CANON only specified entries; G176/G179/G180/G220/G253 exact named sources; UDT_DEVELOPMENT D1,R1-R7; additionally R8 opening through SGE1 while locating FNA1, FNA1 subsection and exact INITIAL_DERIVATION on parent request. No sibling results or old checking-code execution.",
+  "all_comparison_pins_match": true,
+  "comparison_pin_checks": {
+    "PROVENANCE.md": true,
+    "origin_prompts_screenshot_2025-08-12.png": true,
+    "provenance_origin_prompts_2025-08-12.png": true,
+    "relativistic_metric_rederivation_results.md": true,
+    "legacy/root_oneoffs_2026-07-01/verify_relrederiv_independent.py": true,
+    "legacy/root_oneoffs_2026-07-01/verify_relrederiv_reciprocity_deep.py": true,
+    "PROBLEM_STATEMENT.md": true,
+    "SIMPLE_METRIC_MACRO.md": true,
+    "CANON.md": true,
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_MAP.md": true,
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": true,
+    "udt_reciprocal_c_metric_meaning_audit_2026-07-22/AUDIT_REPORT.md": true,
+    "udt_reciprocal_c_metric_meaning_audit_2026-07-22/PREREGISTRATION_OWNER_CLARIFICATION.md": true,
+    "udt_founding_phi_ownership_morphism_audit_2026-08-05/EXACT_DERIVATION.md": true,
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/ADOPTION_RECORD.md": true,
+    "udt_g176_completed_pair_dual_reciprocity_consolidation_2026-08-19/EXACT_DERIVATION.md": true,
+    "udt_g179_complete_coframe_pair_pullback_extension_2026-08-19/EXACT_DERIVATION.md": true,
+    "udt_g180_completed_pair_smooth_family_descent_2026-08-19/EXACT_DERIVATION.md": true,
+    "udt_g220_covariant_null_clock_arrow_timelive_lift_2026-08-22/EXACT_DERIVATION.md": true,
+    "udt_g253_native_kernel_minimal_dependency_compression_audit_2026-08-24/AUDIT_REPORT.md": true,
+    "UDT_DEVELOPMENT.md": true
+  },
+  "extra_source_sha256": {
+    "udt_finite_native_pair_audit_2026-10-01/INITIAL_DERIVATION.md": "dccac2caa74757fd6ae48486a8359630c1fb5d30508fd50dc6adf2b06307704d"
+  },
+  "initial_freeze_unchanged": {
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_APPROACH.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_RECONSTRUCTION.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_ADDENDUM_RECONSTRUCTION.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/ADDENDUM_SOURCE_PINS.json": true
+  },
+  "candidate_sha256": "e4c1c32a688903b99c5f06b9aed00bd9f4ab7bf339fdfaf3e7be8fd058fbe973",
+  "scientific_computation": "Analytic derivations only; no numerical/symbolic-code confirmation launched."
+}

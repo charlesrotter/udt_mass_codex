@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-14T00:39:47.145606+00:00",
+  "role": "Later exposed explorer cross-check, not fresh FKA reviewer",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "method": "Independent hand derivation from original metric, clocks, incidence, connection, curvature and tape integral; no numerical/symbolic worker or sibling math review read",
+  "source_freeze_matches": {
+    "CLOCK_MAP_REALIZATION.md": true,
+    "RADAR_TAPE_PROBE.md": true
+  },
+  "initial_freeze_preserved": {
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_APPROACH.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_RECONSTRUCTION.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/INITIAL_ADDENDUM_RECONSTRUCTION.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md": true,
+    "udt_foundation_kernel_audit_2026-10-13/ADDENDUM_SOURCE_PINS.json": true
+  },
+  "sha256": {
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/CLOCK_MAP_REALIZATION.md": "9cef9602e0f30512ed3fa4fbc7860f69c8366e3fdbfbaacd3152ed81cf90be2b",
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/CLOCK_MAP_REALIZATION_FREEZE.json": "c6d72cba848c4cb3ba97d388f019683881969751cdb6e32905c39308d1ac843f",
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE.md": "8db36c6191b2ef74d905da9ac7b9a6a4cebd766e149ed6a5b275e36f6f4721f8",
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE_FREEZE.json": "e36e9750e06a81e3c8602ffbc253b23b3cc7604f8459be5d4797721d31ef0f25",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/CLOCK_MAP_CROSS_CHECK.md": "3e89e65e4f9aec7624ccdd27758bc75548b354d67e4df1c79d05190c11c38ee4"
+  }
+}

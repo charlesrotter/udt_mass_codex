@@ -1,0 +1,45 @@
+{
+  "scope": "Read-only prepublication checks; no publication claim. Remote refresh, permissions and branch-protection outputs were inspected in this session; applicable-rule outputs and refreshed local refs preserved below.",
+  "observed": {
+    "remote": "https://github.com/charlesrotter/udt_mass_codex.git",
+    "default_branch": "main",
+    "push_permission": true,
+    "admin_bypass_used": false,
+    "grok_protected": false,
+    "main_protected": false,
+    "fetched_grok": "67246b3528c8fbc363b98c1d06794517e8109f65",
+    "fetched_main": "67246b3528c8fbc363b98c1d06794517e8109f65"
+  },
+  "applicable_rules_and_local_refs": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "46b671",
+        "wall_time_seconds": 0.213315569,
+        "exit_code": 0,
+        "original_token_count": 1,
+        "output": "[]"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "83cb9e",
+        "wall_time_seconds": 0.194435467,
+        "exit_code": 0,
+        "original_token_count": 1,
+        "output": "[]"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "61fbe2",
+        "wall_time_seconds": 0.000008241,
+        "exit_code": 0,
+        "original_token_count": 31,
+        "output": "67246b3528c8fbc363b98c1d06794517e8109f65\n67246b3528c8fbc363b98c1d06794517e8109f65\n67246b3528c8fbc363b98c1d06794517e8109f65\n"
+      }
+    }
+  ]
+}

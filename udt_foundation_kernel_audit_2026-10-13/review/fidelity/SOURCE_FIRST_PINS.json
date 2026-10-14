@@ -1,0 +1,134 @@
+{
+  "utc": "2026-10-14T00:17:25.194928+00:00",
+  "reviewer": "/root/fka_review_fidelity",
+  "context": "fresh designated source-first review; staged exposure",
+  "model": "inherited parent model; exact runtime identifier not exposed; no different-model claim",
+  "head": "67246b3528c8fbc363b98c1d06794517e8109f65",
+  "branch": "grok",
+  "parent_startup": "Attributed to FKA1 BASELINE.json, not repeated",
+  "exposure_limits": "See SOURCE_FIRST.md: selected sources and method; some additional owner approvals and editorial summary blockquote exposed; no candidate, explorer, notebook or old proof body",
+  "protected_payload_reads": false,
+  "candidate_exposure_before_freeze": false,
+  "checks": {
+    "tracked_diff": "",
+    "baseline_unrelated_count": 76,
+    "current_unrelated_count": 76,
+    "missing_original_names": [],
+    "added_unrelated_names": [],
+    "source_manifest_matches": true
+  },
+  "source_manifest_checks": [
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "PROVENANCE.md",
+      "expected": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+      "actual": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "origin_prompts_screenshot_2025-08-12.png",
+      "expected": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "actual": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "SIMPLE_METRIC_MACRO.md",
+      "expected": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+      "actual": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md",
+      "expected": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "actual": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md",
+      "expected": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+      "actual": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md",
+      "expected": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+      "actual": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md",
+      "expected": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+      "actual": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md",
+      "expected": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+      "actual": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+      "matches": true
+    },
+    {
+      "manifest": "STARTING_SOURCE_PINS.json",
+      "path": "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md",
+      "expected": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+      "actual": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+      "matches": true
+    },
+    {
+      "manifest": "ADDENDUM_SOURCE_PINS.json",
+      "path": "relativistic_metric_rederivation_results.md",
+      "expected": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+      "actual": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+      "matches": true
+    },
+    {
+      "manifest": "ADDENDUM_SOURCE_PINS.json",
+      "path": "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md",
+      "expected": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+      "actual": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+      "matches": true
+    }
+  ],
+  "sha256": {
+    "AGENTS.md": "c7a1c89c7662e7af182a18c85052737df38a6e649c3b82b9c2bb36fd73aa386a",
+    "CLAUDE.md": "248540078a74edbe8ebba7e34c6a8d78d51de415541deb432839136044bb30bd",
+    "CROSS_MODEL_VERIFY.md": "2b0509d933d731fbf3f72aa88777a54d3e48a94d4bae3d324087871777f9a007",
+    ".claude/skills/no-shortcuts/SKILL.md": "fd3a1f3218481134f2af829d3ae4175ac53518f75bf9673287efbfb7d7708fc1",
+    ".claude/skills/completeness-map/SKILL.md": "a8cf9e5f4a6d35a0d0ebfe4bc48dbf328ca74e318f020a6a22cb683666a611c0",
+    ".claude/skills/verifier-before-record/SKILL.md": "9b3a4aacd4b4006b2b7f01edada73b7c87b99bea6e754583558713bfc145e5ac",
+    "udt_foundation_kernel_audit_2026-10-13/WORK_ORDER.md": "0187fd7cdce3f9a34b745ac25ce344ebfd00b05327990226165fcfc3a1e2f4d9",
+    "udt_foundation_kernel_audit_2026-10-13/STARTING_PACKET.md": "607b6313e828d5fcfcd6e6025b0c875c625ffefb8acc5e398788b89edb189581",
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+    "udt_foundation_kernel_audit_2026-10-13/STARTING_SOURCE_PINS.json": "425b85708bda7a9c12af4a15f2a9b5c9029d83e7cf1dc5a7ac36a11a768d9448",
+    "udt_foundation_kernel_audit_2026-10-13/ADDENDUM_SOURCE_PINS.json": "749102d46bf918d7740a4b95dd7ac2c9f4c3e629a96c630a1195bea041151aca",
+    "udt_foundation_kernel_audit_2026-10-13/BASELINE.json": "42bc11249d9b45d8b35551055dca01191fc44cd61025fa202cacfaaa350ad7bd",
+    "PROVENANCE.md": "90f2a0e73881e3a9de99802af8be75f820a9873b6d76d2baa82b1ad4e8d7d16c",
+    "origin_prompts_screenshot_2025-08-12.png": "524888c8fac497860857677f14893cb4f7f790f9ab6689d8f90ca21876f1330c",
+    "SIMPLE_METRIC_MACRO.md": "8fc06a2280fae727d90c5ecd527007bda94e1415f450154ef721152230e61ed3",
+    "UDT_RECIPROCAL_C_FOUNDING_POSTULATE_DERIVATION_RESULTS.md": "b2bdf9dd427871c6e951c6b47748b7663aa4a6264fcfcbff59b51f1ea2272003",
+    "udt_causal_geometry_fidelity_audit_2026-09-28/OWNER_STATEMENT.md": "cc869d1283a314b626a4ebede8ad561bb96b95fd5c815215a08202d5701c1c69",
+    "udt_positional_geometry_clock_connection_2026-09-28/OWNER_STATEMENT.md": "6d51ac6e4525dec57f7a9d3f795568410052e20102d9971bca0a4275eef4bee7",
+    "udt_repository_cleanup_2026-09-27/local_clock_impact_2026-09-29/OWNER_CLARIFICATION.md": "bf31a0682bed7060a0eea38035bfd87a0ab2c6bee41406882ae5a4abfc11471b",
+    "udt_shared_geometry_extension_2026-09-29/OWNER_CLARIFICATION.md": "94480181e004a535e0dffd122545310c0aaedfb98d3734c5095c75bfe9ed3f50",
+    "development_reconstruction_2026-09-29/universal_law_clarification_2026-10-01/OWNER_CLARIFICATION.md": "69041b4a2033fd85ff65f113f07ea3ac6a6b06af9a0c07e26a775a33fb3f5a1c",
+    "relativistic_metric_rederivation_results.md": "21ab4d127355089d36501560d2ec4716586064eb674a3df6541dafee931b81c5",
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/SOURCE_FIRST.md": "c2d30911f2717207a7beb05be498fe09f54cd85848a557eb69cd8b1795d2cbcf"
+  },
+  "check_commands": [
+    "git status --short --branch",
+    "git rev-parse HEAD",
+    "git branch --show-current",
+    "git diff --stat",
+    "git ls-files --others --exclude-standard",
+    "Python hashlib.sha256 on exact paths in STARTING_SOURCE_PINS.json and ADDENDUM_SOURCE_PINS.json; compare expected values",
+    "Python comparison of BASELINE unrelated_untracked_names with git untracked list after excluding FKA1 package"
+  ],
+  "interpretation": "Hashes record correspondence, not scientific validation or independence; no numerical experiment or full406 rerun was performed."
+}

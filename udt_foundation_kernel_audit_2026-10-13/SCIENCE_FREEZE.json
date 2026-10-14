@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-14T00:28:25.641192+00:00",
+  "scope": "FKA1 initial joint candidate with current owner clarification controlling physical meaning; no adoption or regrade",
+  "method": "Exact analytic proofs and original-equation controls, no scientific numerical run; source-first reviewers now receive target",
+  "sha256": {
+    "udt_foundation_kernel_audit_2026-10-13/INITIAL_CANDIDATE.md": "3939273c1b079e240b5e8d5b7a8cea2f61310d36298f57f223fda4807a82b171",
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_CLARIFICATION.md": "815cd04094dc33ed10649020cc2c5cb0236a2dff6880ea3a376bc55ed45625ae",
+    "udt_foundation_kernel_audit_2026-10-13/WORK_ORDER.md": "53f5dd21b67fc16453907369c030fbf2349c801defcf93bf05f89ae843302094",
+    "udt_foundation_kernel_audit_2026-10-13/SOURCE_PROVENANCE.md": "7624da1eb96eb1d1207125f3a0e44e674d1ff668fbde5194189c510116eb2278",
+    "udt_foundation_kernel_audit_2026-10-13/STARTING_PACKET.md": "607b6313e828d5fcfcd6e6025b0c875c625ffefb8acc5e398788b89edb189581",
+    "udt_foundation_kernel_audit_2026-10-13/OWNER_SOURCE_ADDENDUM.md": "859303072648d7f8011e0753acfc5274ac28dfd6a34cbc8143e99227a0a87fcb",
+    "udt_foundation_kernel_audit_2026-10-13/COMPARISON_PACKET.md": "67c9a59ae57294aa394cd6a1357d5ebf0a9f9b4d5836cf488950f21949d32ef5",
+    "udt_foundation_kernel_audit_2026-10-13/COMPARISON_SOURCE_PINS.json": "0743662673d8f9d5830f4e4c39fc4f108fc86a2b2e9bcc4e7ec61f23423e8aed",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/CANDIDATE.md": "e4c1c32a688903b99c5f06b9aed00bd9f4ab7bf339fdfaf3e7be8fd058fbe973",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_a/OWNER_CLARIFICATION_RESPONSE.md": "f1f1495dff81409a1ab86e21a4e2cd79616ce581c7f827be823d1e1f4d25c54c",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_b/CANDIDATE.md": "ae71148db9301d62b249e8566da4eaa18c113ef5650c529b334911d378d19dc8",
+    "udt_foundation_kernel_audit_2026-10-13/explorer_b/OWNER_CLARIFICATION_RESPONSE.md": "38cf66eacf7c749b6ae3075a0e08931bb92eefabbc064e1de9be03e32148b952"
+  }
+}

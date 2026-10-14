@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-14T00:41:30.560829+00:00",
+  "reviewer": "/root/fka_review_math",
+  "verdict": "ACCEPT_WITH_LIMITS__MR1_REPAIRED",
+  "phase": "later-exposure radar/synthesis review after own direct and clock-map freezes",
+  "scientific_method": "analytic original immersion, metric contractions, implicit-function regularity, compactness, exact integral ordering; no executable scientific computation",
+  "initial_editions_preserved": true,
+  "final_integration_review": "not yet performed",
+  "sha256": {
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE.md": "8db36c6191b2ef74d905da9ac7b9a6a4cebd766e149ed6a5b275e36f6f4721f8",
+    "udt_foundation_kernel_audit_2026-10-13/review/fidelity/RADAR_TAPE_PROBE_FREEZE.json": "e36e9750e06a81e3c8602ffbc253b23b3cc7604f8459be5d4797721d31ef0f25",
+    "udt_foundation_kernel_audit_2026-10-13/REPAIR.md": "e39672314978afdbf01815f2ba4e85e486dcb5ebfebd18923d923daa1a0475cb",
+    "udt_foundation_kernel_audit_2026-10-13/CONSTRUCTIVE_SUPPLEMENT.md": "657a9f249735744537331b84fd68bf25c7a464c507078a6b34ed4429a07125af",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/RADAR_REPAIR_CROSS_REVIEW.md": "b92911b70ca25794ea3054309f6a9b8063604fa7fc6e978db3ddc93d59200f85",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/CLOCK_MAP_CROSS_REVIEW.md": "9c05a022d3910e5fb704ab5b847d53216ee2262acc44884fb0d9b9f5110f0749",
+    "udt_foundation_kernel_audit_2026-10-13/review/math/DIRECT_REVIEW.md": "b518098f91a6c1fd7e9cbc13d55d0e770f2bb1445a0d878b76e2fd4d958ba476"
+  }
+}

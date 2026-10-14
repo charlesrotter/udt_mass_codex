@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-14T00:25:18.228482+00:00",
+  "reviewer": "/root/fka_review_fidelity",
+  "scope": "Current owner clarification response; no target candidate, explorer or sibling exposure",
+  "sha256": {
+    "SOURCE_FIRST.md": "c2d30911f2717207a7beb05be498fe09f54cd85848a557eb69cd8b1795d2cbcf",
+    "SOURCE_FIRST_PINS.json": "b3f88f830d1a47a7aa332ecec25f3f6336d9aeb585c4c6cda6de3826716bdc13",
+    "OWNER_CLARIFICATION_RESPONSE.md": "05f4e5f3ed0d24f711077dcc4294967bec491f66cff756d9333e2edc52eccb84"
+  },
+  "source_first_unchanged": true
+}
